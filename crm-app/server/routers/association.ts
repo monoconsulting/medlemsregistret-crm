@@ -1,6 +1,8 @@
 import { z } from 'zod'
 import { router, publicProcedure, protectedProcedure } from '../trpc'
-import { subDays, startOfDay, endOfDay } from 'date-fns'
+import { subDays, startOfDay, endOfDay, startOfMonth, endOfMonth, subMonths, format } from 'date-fns'
+import { sv } from 'date-fns/locale'
+import { getSearchClient } from '@/lib/search'
 
 export const associationRouter = router({
   // Get all associations with pagination and filtering
@@ -36,6 +38,7 @@ export const associationRouter = router({
           ])
           .default('updatedAt'),
         sortDirection: z.enum(['asc', 'desc']).default('desc'),
+        useSearchIndex: z.boolean().optional(),
       })
     )
     .query(async ({ ctx, input }) => {
@@ -57,11 +60,46 @@ export const associationRouter = router({
         lastActivityDays,
         sortBy,
         sortDirection,
+        useSearchIndex,
       } = input
       const skip = (page - 1) * limit
 
       const where: any = {}
       const and: any[] = []
+
+      if (useSearchIndex) {
+        const searchClient = getSearchClient()
+        if (searchClient && (search?.length || tags?.length || types?.length)) {
+          const searchResult = await searchClient.search({
+            query: search,
+            filters: {
+              municipality,
+              crmStatuses,
+              pipelines,
+              types,
+              activities,
+              tags,
+              isMember,
+            },
+            page,
+            limit,
+          })
+
+          if (searchResult?.ids?.length) {
+            and.push({ id: { in: searchResult.ids } })
+          } else {
+            return {
+              associations: [],
+              pagination: {
+                page,
+                limit,
+                total: 0,
+                totalPages: 0,
+              },
+            }
+          }
+        }
+      }
 
       if (search) {
         const normalized = search.trim()
@@ -234,7 +272,7 @@ export const associationRouter = router({
               group: true,
             },
           },
-          activities: {
+          activityLog: {
             orderBy: { createdAt: 'desc' },
             take: 20,
           },
@@ -297,6 +335,92 @@ export const associationRouter = router({
           assignedToId: z.string().nullable().optional(),
         }),
       })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const association = await ctx.db.association.update({
+        where: { id: input.id },
+        data: {
+          ...input.data,
+        },
+      })
+
+      await ctx.db.activity.create({
+        data: {
+          associationId: input.id,
+          type: 'STATUS_CHANGED',
+          description: `Status uppdaterad av ${ctx.session?.user?.name ?? 'okänd användare'}`,
+          userId: ctx.session!.user.id,
+          userName: ctx.session?.user?.name ?? 'Okänd användare',
+        },
+      })
+
+      return association
+    }),
+
+  getMemberGrowth: protectedProcedure
+    .input(
+      z
+        .object({
+          months: z.number().min(3).max(24).default(12),
+        })
+        .optional()
+    )
+    .query(async ({ ctx, input }) => {
+      const months = input?.months ?? 12
+      const now = new Date()
+      const labels: string[] = []
+      const series: number[] = []
+
+      for (let i = months - 1; i >= 0; i--) {
+        const monthStart = startOfMonth(subMonths(now, i))
+        const monthEnd = endOfMonth(subMonths(now, i))
+        const count = await ctx.db.association.count({
+          where: {
+            isMember: true,
+            memberSince: {
+              lte: monthEnd,
+            },
+          },
+        })
+        labels.push(format(monthStart, 'MMM', { locale: sv }))
+        series.push(count)
+      }
+
+      return { labels, series }
+    }),
+
+  getMunicipalityStats: protectedProcedure
+    .input(
+      z
+        .object({
+          limit: z.number().min(10).max(300).default(290),
+          search: z.string().optional(),
+        })
+        .optional()
+    )
+    .query(async ({ ctx, input }) => {
+      const municipalities = await ctx.db.association.groupBy({
+        by: ['municipality'],
+        _count: true,
+        where: input?.search
+          ? {
+              municipality: { contains: input.search, mode: 'insensitive' },
+            }
+          : undefined,
+        orderBy: {
+          _count: {
+            municipality: 'desc',
+          },
+        },
+        take: input?.limit ?? 290,
+      })
+
+      return municipalities.map((m) => ({
+        name: m.municipality,
+        count: m._count,
+      }))
+    }),
+})
     )
     .mutation(async ({ ctx, input }) => {
       const association = await ctx.db.association.update({

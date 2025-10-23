@@ -6,6 +6,8 @@ import { tagRouter } from './tags'
 import { groupRouter } from './groups'
 import { exportRouter } from './export'
 import { aiRouter } from './ai'
+import { taskRouter } from './tasks'
+import { activityRouter } from './activities'
 
 export const appRouter = router({
   association: associationRouter,
@@ -15,6 +17,8 @@ export const appRouter = router({
   groups: groupRouter,
   export: exportRouter,
   ai: aiRouter,
+  tasks: taskRouter,
+  activities: activityRouter,
 })
 
 export type AppRouter = typeof appRouter

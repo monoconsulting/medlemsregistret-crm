@@ -51,6 +51,7 @@ model Association {
   tags              Tag[]     @relation("AssociationTags")
   groupMemberships  GroupMembership[]
   activityLog       Activity[]
+  tasks             Task[]
 
   // Source navigation
   listPageIndex     Int?
@@ -194,6 +195,31 @@ model Activity {
   @@index([userId, createdAt])
 }
 
+model Task {
+  id             String        @id @default(cuid())
+  title          String
+  description    String?
+  dueDate        DateTime?
+  status         TaskStatus    @default(OPEN)
+  priority       TaskPriority  @default(MEDIUM)
+
+  associationId  String?
+  association    Association?  @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  assignedToId   String?
+  assignedTo     User?         @relation("TaskAssignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
+
+  createdById    String
+  createdBy      User          @relation("TaskCreatedBy", fields: [createdById], references: [id], onDelete: Cascade)
+
+  completedAt    DateTime?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  @@index([status, dueDate])
+  @@index([assignedToId, status])
+}
+
 model User {
   id            String    @id @default(cuid())
   name          String?
@@ -209,6 +235,8 @@ model User {
   activities    Activity[]
   createdGroups Group[]
   associations  Association[] @relation("Association_assignedTo")
+  createdTasks  Task[]     @relation("TaskCreatedBy")
+  assignedTasks Task[]     @relation("TaskAssignedTo")
 }
 
 model Account {
@@ -255,6 +283,21 @@ enum ActivityType {
   MEETING_SCHEDULED
   TAG_ADDED
   MEMBER_CONVERTED
+}
+
+enum TaskStatus {
+  OPEN
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+  BLOCKED
+}
+
+enum TaskPriority {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
 }
 
 model ScrapeRun {
