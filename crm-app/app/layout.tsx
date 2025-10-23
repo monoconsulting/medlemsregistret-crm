@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { TRPCProvider } from "@/lib/providers/trpc-provider";
+import { AppProviders } from "@/lib/providers/app-providers";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
@@ -16,10 +16,10 @@ export default function RootLayout({
   return (
     <html lang="sv">
       <body className="font-sans antialiased">
-        <TRPCProvider>
+        <AppProviders>
           {children}
           <Toaster />
-        </TRPCProvider>
+        </AppProviders>
       </body>
     </html>
   );

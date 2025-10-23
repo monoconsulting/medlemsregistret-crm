@@ -1,9 +1,9 @@
 import { z } from 'zod'
-import { router, publicProcedure } from '../trpc'
+import { router, protectedProcedure } from '../trpc'
 
 export const associationRouter = router({
   // Get all associations with pagination and filtering
-  list: publicProcedure
+  list: protectedProcedure
     .input(
       z.object({
         page: z.number().min(1).default(1),
@@ -66,7 +66,7 @@ export const associationRouter = router({
     }),
 
   // Get single association by ID
-  getById: publicProcedure
+  getById: protectedProcedure
     .input(z.object({ id: z.string() }))
     .query(async ({ ctx, input }) => {
       const association = await ctx.db.association.findUnique({
@@ -82,7 +82,7 @@ export const associationRouter = router({
               group: true,
             },
           },
-          activities: {
+          activityLog: {
             orderBy: { createdAt: 'desc' },
             take: 20,
           },
@@ -93,7 +93,7 @@ export const associationRouter = router({
     }),
 
   // Get dashboard stats
-  getStats: publicProcedure.query(async ({ ctx }) => {
+  getStats: protectedProcedure.query(async ({ ctx }) => {
     const [
       total,
       members,
@@ -133,7 +133,7 @@ export const associationRouter = router({
   }),
 
   // Update association
-  update: publicProcedure
+  update: protectedProcedure
     .input(
       z.object({
         id: z.string(),
@@ -158,8 +158,8 @@ export const associationRouter = router({
           associationId: input.id,
           type: 'STATUS_CHANGED',
           description: `Status updated to ${input.data.crmStatus || input.data.pipeline}`,
-          userId: 'system',
-          userName: 'System',
+          userId: ctx.session.user.id,
+          userName: ctx.session.user.name || ctx.session.user.email || 'Okänd användare',
         },
       })
 
