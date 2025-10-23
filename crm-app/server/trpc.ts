@@ -1,20 +1,32 @@
 import { initTRPC, TRPCError } from '@trpc/server'
+import { ZodError } from 'zod'
+import superjson from 'superjson'
 import { db } from '@/lib/db'
 import { auth } from '@/lib/auth'
-import superjson from 'superjson'
 
 // Context for tRPC
-export const createTRPCContext = async (opts: { headers: Headers }) => {
-  const session = await auth()
+export const createTRPCContext = async (opts: { headers: Headers; req: Request }) => {
+  const session = await auth(opts.req)
   return {
     db,
     session,
-    ...opts,
+    headers: opts.headers,
   }
 }
 
-const t = initTRPC.context<typeof createTRPCContext>().create({
+type TRPCContext = Awaited<ReturnType<typeof createTRPCContext>>
+
+const t = initTRPC.context<TRPCContext>().create({
   transformer: superjson,
+  errorFormatter({ shape, error }) {
+    return {
+      ...shape,
+      data: {
+        ...shape.data,
+        zodError: error.cause instanceof ZodError ? error.cause.flatten() : null,
+      },
+    }
+  },
 })
 
 export const router = t.router

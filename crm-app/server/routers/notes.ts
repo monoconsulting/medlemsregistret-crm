@@ -66,6 +66,7 @@ export const noteRouter = router({
         description: `${authorName} skapade en ny anteckning`,
         userId: ctx.session!.user.id,
         userName: authorName,
+        metadata: { noteId: note.id },
       },
     })
 
@@ -106,10 +107,11 @@ export const noteRouter = router({
       await ctx.db.activity.create({
         data: {
           associationId: note.associationId,
-          type: 'NOTE_UPDATED',
+          type: 'UPDATED',
           description: `${ctx.session?.user.name ?? 'En användare'} uppdaterade en anteckning`,
           userId: ctx.session!.user.id,
           userName: ctx.session?.user.name ?? 'Okänd användare',
+          metadata: { noteId: note.id },
         },
       })
 
@@ -135,10 +137,11 @@ export const noteRouter = router({
       await ctx.db.activity.create({
         data: {
           associationId: note.associationId,
-          type: 'NOTE_DELETED',
+          type: 'UPDATED',
           description: `${ctx.session?.user.name ?? 'En användare'} tog bort en anteckning`,
           userId: ctx.session!.user.id,
           userName: ctx.session?.user.name ?? 'Okänd användare',
+          metadata: { noteId: note.id },
         },
       })
 
