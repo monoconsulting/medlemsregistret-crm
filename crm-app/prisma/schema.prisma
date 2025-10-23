@@ -1,0 +1,211 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Association {
+  id                String    @id @default(cuid())
+
+  // Scraped data
+  sourceSystem      String    // "FRI", "ActorSmartbook", "Rbok"
+  municipality      String
+  scrapeRunId       String
+  scrapedAt         DateTime
+  detailUrl         String?   @unique
+
+  // Core fields
+  name              String
+  orgNumber         String?
+  types             Json      // String[]
+  activities        Json      // String[]
+  categories        Json      // String[]
+
+  homepageUrl       String?
+  streetAddress     String?
+  postalCode        String?
+  city              String?
+  email             String?
+  phone             String?
+
+  // Structured description
+  description       Json?     // {sections: [...], free_text: "..."}
+
+  // CRM-specific fields
+  crmStatus         CrmStatus @default(UNCONTACTED)
+  isMember          Boolean   @default(false)
+  memberSince       DateTime?
+  pipeline          Pipeline  @default(PROSPECT)
+  assignedTo        String?   // User ID
+
+  // Relations
+  contacts          Contact[]
+  notes             Note[]
+  tags              Tag[]     @relation("AssociationTags")
+  groupMemberships  GroupMembership[]
+  activities        Activity[]
+
+  // Source navigation
+  listPageIndex     Int?
+  positionOnPage    Int?
+  paginationModel   String?
+  filterState       Json?
+
+  // Extras
+  extras            Json?     // {founded_year, fiscal_year_start, national_affiliation, etc}
+
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  @@index([municipality])
+  @@index([municipality, scrapedAt])
+  @@index([crmStatus, pipeline])
+  @@fulltext([name, city])
+}
+
+enum CrmStatus {
+  UNCONTACTED
+  CONTACTED
+  INTERESTED
+  NEGOTIATION
+  MEMBER
+  LOST
+  INACTIVE
+}
+
+enum Pipeline {
+  PROSPECT
+  QUALIFIED
+  PROPOSAL_SENT
+  FOLLOW_UP
+  CLOSED_WON
+  CLOSED_LOST
+}
+
+model Contact {
+  id              String      @id @default(cuid())
+  associationId   String
+  association     Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  name            String
+  role            String?
+  email           String?
+  phone           String?
+  mobile          String?
+
+  // Social media
+  linkedinUrl     String?
+  facebookUrl     String?
+  twitterUrl      String?
+  instagramUrl    String?
+
+  isPrimary       Boolean     @default(false)
+
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  @@index([associationId])
+  @@index([email])
+}
+
+model Note {
+  id              String      @id @default(cuid())
+  associationId   String
+  association     Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  content         String      @db.Text
+  tags            Json        // String[]
+  authorId        String      // User ID
+  authorName      String
+
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  @@index([associationId, createdAt])
+}
+
+model Tag {
+  id              String        @id @default(cuid())
+  name            String        @unique
+  color           String        @default("#3b82f6")
+  associations    Association[] @relation("AssociationTags")
+
+  createdAt       DateTime      @default(now())
+}
+
+model Group {
+  id              String            @id @default(cuid())
+  name            String
+  description     String?           @db.Text
+
+  // Search query that defines the group
+  searchQuery     Json?             // {municipality: "Stockholm", types: ["Idrottsförening"]}
+  autoUpdate      Boolean           @default(false)
+
+  memberships     GroupMembership[]
+  createdBy       String            // User ID
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+}
+
+model GroupMembership {
+  id              String      @id @default(cuid())
+  groupId         String
+  group           Group       @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  associationId   String
+  association     Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  addedAt         DateTime    @default(now())
+
+  @@unique([groupId, associationId])
+}
+
+model Activity {
+  id              String        @id @default(cuid())
+  associationId   String?
+  association     Association?  @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  type            ActivityType
+  description     String
+  metadata        Json?
+
+  userId          String
+  userName        String
+
+  createdAt       DateTime      @default(now())
+
+  @@index([associationId, createdAt])
+  @@index([userId, createdAt])
+}
+
+enum ActivityType {
+  CREATED
+  UPDATED
+  STATUS_CHANGED
+  NOTE_ADDED
+  EMAIL_SENT
+  CALL_MADE
+  MEETING_SCHEDULED
+  TAG_ADDED
+  MEMBER_CONVERTED
+}
+
+model ScrapeRun {
+  id              String      @id @default(cuid())
+  municipality    String
+  status          String      // "running", "completed", "failed"
+  startedAt       DateTime
+  completedAt     DateTime?
+
+  totalFound      Int?
+  totalProcessed  Int?
+  errors          Json?
+
+  @@index([municipality, startedAt])
+}
