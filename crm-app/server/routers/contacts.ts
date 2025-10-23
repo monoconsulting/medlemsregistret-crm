@@ -126,7 +126,7 @@ export const contactRouter = router({
       await tx.activity.create({
         data: {
           associationId: input.associationId,
-          type: 'CREATED',
+          type: 'CONTACT_ADDED',
           description: `${ctx.session?.user.name ?? 'En användare'} lade till en ny kontakt: ${input.name}`,
           userId: ctx.session!.user.id,
           userName: ctx.session?.user.name ?? 'Okänd användare',
