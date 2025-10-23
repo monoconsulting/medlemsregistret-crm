@@ -135,7 +135,7 @@ export const noteRouter = router({
       await ctx.db.activity.create({
         data: {
           associationId: note.associationId,
-          type: 'UPDATED',
+          type: 'NOTE_DELETED',
           description: `${ctx.session?.user.name ?? 'En användare'} tog bort en anteckning`,
           userId: ctx.session!.user.id,
           userName: ctx.session?.user.name ?? 'Okänd användare',
