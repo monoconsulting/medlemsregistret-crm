@@ -127,7 +127,7 @@ export default function AssociationsPage() {
   })
 
   const data = associationsQuery.data
-  const associations = data?.associations ?? []
+  const associations = useMemo(() => data?.associations ?? [], [data?.associations])
   const totalPages = data?.pagination.totalPages ?? 1
 
   const typeOptions: MultiSelectOption[] = useMemo(() => {

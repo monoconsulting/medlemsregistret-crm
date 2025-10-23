@@ -1,7 +1,23 @@
 import { z } from 'zod'
 import { router, protectedProcedure } from '../trpc'
+import { getAIProvider } from '@/lib/ai/provider'
 
 const formatPercent = (value: number) => `${Math.round(value * 100)}%`
+
+const safeJsonParse = <T>(input: string): T | null => {
+  try {
+    const cleaned = input
+      .trim()
+      .replace(/^```json/i, '')
+      .replace(/^```/, '')
+      .replace(/```$/, '')
+      .trim()
+    return JSON.parse(cleaned) as T
+  } catch (error) {
+    console.warn('Failed to parse AI response', error)
+    return null
+  }
+}
 
 export const aiRouter = router({
   analyzeAssociation: protectedProcedure
@@ -18,6 +34,44 @@ export const aiRouter = router({
 
       if (!association) {
         throw new Error('Association not found')
+      }
+
+      const provider = getAIProvider()
+
+      if (provider) {
+        try {
+          const response = await provider.chat([
+            {
+              role: 'system',
+              content:
+                'Du är en expert på medlemsrekrytering. Analysera data och svara med JSON {summary, metrics:{healthScore,engagement,readiness}, highlights[], recommendedActions[]}. Procentvärden ska inkludera %.',
+            },
+            {
+              role: 'user',
+              content: JSON.stringify({
+                name: association.name,
+                municipality: association.municipality,
+                tags: association.tags.map((tag) => tag.name),
+                contacts: association.contacts,
+                notes: association.notes,
+                isMember: association.isMember,
+              }),
+            },
+          ])
+
+          const parsed = safeJsonParse<{
+            summary: string
+            metrics: { healthScore: string; engagement: string; readiness: string }
+            highlights: string[]
+            recommendedActions: string[]
+          }>(response)
+
+          if (parsed) {
+            return parsed
+          }
+        } catch (error) {
+          console.error('AI provider analyzeAssociation failed', error)
+        }
       }
 
       const score = association.isMember ? 0.9 : 0.45
@@ -68,6 +122,40 @@ export const aiRouter = router({
       }
 
       const contactName = association.contacts[0]?.name ?? 'kontaktperson'
+      const provider = getAIProvider()
+
+      if (provider) {
+        try {
+          const completion = await provider.chat([
+            {
+              role: 'system',
+              content:
+                'Du skriver professionella svenska e-postutkast. Svara endast med JSON {subject, body}.',
+            },
+            {
+              role: 'user',
+              content: JSON.stringify({
+                association: {
+                  name: association.name,
+                  municipality: association.municipality,
+                  isMember: association.isMember,
+                },
+                contactName,
+                tone: input.tone,
+                sender: ctx.session?.user.name ?? 'Medlemsregistret-teamet',
+              }),
+            },
+          ])
+
+          const parsed = safeJsonParse<{ subject: string; body: string }>(completion)
+          if (parsed?.subject && parsed?.body) {
+            return parsed
+          }
+        } catch (error) {
+          console.error('AI provider generateEmailDraft failed', error)
+        }
+      }
+
       const greeting = input.tone === 'formal' ? 'Hej' : 'Hej hej'
       const closing = input.tone === 'formal' ? 'Vänliga hälsningar' : 'Varma hälsningar'
 
@@ -106,6 +194,10 @@ ${ctx.session?.user.name ?? 'Medlemsregistret-teamet'}
             orderBy: { createdAt: 'desc' },
             take: 1,
           },
+          activityLog: {
+            orderBy: { createdAt: 'desc' },
+            take: 5,
+          },
         },
       })
 
@@ -114,6 +206,39 @@ ${ctx.session?.user.name ?? 'Medlemsregistret-teamet'}
       }
 
       const lastNote = association.notes[0]?.content ?? 'Ingen anteckning registrerad'
+
+      const provider = getAIProvider()
+
+      if (provider) {
+        try {
+          const response = await provider.chat([
+            {
+              role: 'system',
+              content:
+                'Du är en proaktiv kundansvarig. Svara med JSON {suggestedNextSteps: string[]} med 3 konkreta steg på svenska.',
+            },
+            {
+              role: 'user',
+              content: JSON.stringify({
+                association: {
+                  name: association.name,
+                  pipeline: association.pipeline,
+                  crmStatus: association.crmStatus,
+                  hasUpcomingMeeting: association.activityLog.some((activity) => activity.type === 'MEETING_SCHEDULED'),
+                  lastNote,
+                },
+              }),
+            },
+          ])
+
+          const parsed = safeJsonParse<{ suggestedNextSteps: string[] }>(response)
+          if (parsed?.suggestedNextSteps?.length) {
+            return parsed
+          }
+        } catch (error) {
+          console.error('AI provider nextSteps failed', error)
+        }
+      }
 
       return {
         suggestedNextSteps: [

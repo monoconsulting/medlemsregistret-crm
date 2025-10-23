@@ -1,6 +1,10 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { DashboardStats } from "./_components/dashboard-stats"
 import { TopMunicipalities } from "./_components/top-municipalities"
+import { ActivityFeed } from "./_components/activity-feed"
+import { UpcomingTasks } from "./_components/upcoming-tasks"
+import { MemberGrowthChart } from "./_components/member-growth-chart"
+import { SavedGroupsWidget } from "./_components/saved-groups-widget"
+import { AIAssistantWidget } from "./_components/ai-assistant-widget"
 
 export default function DashboardPage() {
   return (
@@ -16,21 +20,19 @@ export default function DashboardPage() {
       <DashboardStats />
 
       {/* Main Content Area */}
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-7">
-        <Card className="col-span-4">
-          <CardHeader>
-            <CardTitle>Aktivitetsflöde</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-4">
-              <p className="text-sm text-muted-foreground text-center py-8">
-                Aktivitetsflöde kommer här...
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-
+      <div className="grid gap-6 lg:grid-cols-7">
+        <ActivityFeed />
         <TopMunicipalities />
+      </div>
+
+      <div className="grid gap-6 lg:grid-cols-7">
+        <MemberGrowthChart />
+        <UpcomingTasks />
+      </div>
+
+      <div className="grid gap-6 lg:grid-cols-7">
+        <AIAssistantWidget />
+        <SavedGroupsWidget />
       </div>
     </div>
   )
