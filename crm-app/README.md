@@ -149,18 +149,42 @@ npm start
 - Taggar och grupperingar
 - AI-assisterad insikter (planned)
 
+## Implementerat
+
+✅ **tRPC Setup**
+- Typsäker API-lager med tRPC
+- Association router med queries för list, getById, getStats
+- TanStack Query integration
+
+✅ **UI-komponenter**
+- Button, Card, Badge, Input, Label
+- Select, Dropdown Menu, Tabs, Dialog
+- Avatar, Separator, Checkbox, Textarea
+- Toast notifications system
+
+✅ **Dashboard**
+- Live KPI-kort (från tRPC)
+- Top 5 kommuner (från tRPC)
+- Responsive layout
+- Loading states
+
+✅ **Layout & Navigation**
+- Sidebar med huvudnavigation
+- Header med user menu och notifikationer
+- Nested routes
+
 ## Nästa Steg
 
-- [ ] Implementera tRPC för API-lager
 - [ ] Skapa databas seeders från scrapad data
 - [ ] Implementera fulltextsök med Meilisearch/Typesense
-- [ ] Bygga ut Dashboard med riktiga grafer
+- [ ] Bygga ut Dashboard med riktiga grafer (Recharts)
 - [ ] Implementera Kommunöversikt med Sverigekarta
-- [ ] Skapa avancerad filtrer ing för föreningslista
+- [ ] Skapa avancerad filtrering för föreningslista
 - [ ] Bygga komplett föreningsvy med alla tabs
 - [ ] Implementera AI-assistans med OpenAI
 - [ ] Skapa export-funktioner (CSV, Excel)
 - [ ] Implementera bulk-operationer
+- [ ] Generera Prisma Client i produktionsmiljö
 
 ## Licens
 
