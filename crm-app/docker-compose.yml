@@ -1,0 +1,124 @@
+# docker-compose.yml för Next.js CRM Application
+# Startar MySQL, Redis, phpMyAdmin och Next.js app
+
+name: crm-nextjs
+networks:
+  crm-network:
+    driver: bridge
+
+services:
+  # =========================
+  # MySQL Database
+  # =========================
+  mysql:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_change_me
+      MYSQL_DATABASE: crm_db
+      MYSQL_USER: crm_user
+      MYSQL_PASSWORD: crm_password_change_me
+      TZ: "Europe/Stockholm"
+    volumes:
+      - ./storage/mysql:/var/lib/mysql
+      # Initiera databas med migrations om du vill:
+      # - ./prisma/migrations:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+    networks:
+      - crm-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =========================
+  # phpMyAdmin
+  # =========================
+  phpmyadmin:
+    image: phpmyadmin:latest
+    restart: always
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: crm_user
+      PMA_PASSWORD: crm_password_change_me
+      UPLOAD_LIMIT: 100M
+      TZ: "Europe/Stockholm"
+    ports:
+      - "8080:80"
+    networks:
+      - crm-network
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  # =========================
+  # Redis (för caching)
+  # =========================
+  redis:
+    image: redis:7-alpine
+    restart: always
+    command: redis-server --appendonly yes --requirepass redis_password_change_me
+    volumes:
+      - ./storage/redis:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - crm-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =========================
+  # Next.js Application
+  # =========================
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      # Database
+      DATABASE_URL: "mysql://crm_user:crm_password_change_me@mysql:3306/crm_db"
+      
+      # Redis
+      REDIS_URL: "redis://:redis_password_change_me@redis:6379"
+      
+      # App
+      NODE_ENV: "production"
+      NEXT_PUBLIC_APP_URL: "http://localhost:3000"
+      
+      # NextAuth (lägg till dessa)
+      NEXTAUTH_URL: "http://localhost:3000"
+      NEXTAUTH_SECRET: "change_me_to_random_string_in_production"
+      
+      # AI Providers (valfritt)
+      # OPENAI_API_KEY: "your-key-here"
+      # ANTHROPIC_API_KEY: "your-key-here"
+      # OLLAMA_HOST: "http://host.docker.internal:11434"
+      
+      TZ: "Europe/Stockholm"
+    volumes:
+      # Mount för development (ta bort i production)
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    ports:
+      - "3000:3000"
+    networks:
+      - crm-network
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    # Kör migrations vid start (kommentera bort om du inte vill)
+    command: sh -c "npx prisma migrate deploy && npm run start"
+
+volumes:
+  mysql_data:
+  redis_data:

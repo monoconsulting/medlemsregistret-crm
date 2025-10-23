@@ -72,49 +72,88 @@ crm-app/
 
 ## Komma igång
 
-### Installation
+### 🐳 Snabbstart med Docker (Rekommenderat)
 
+```bash
+# Starta alla services (MySQL, Redis, phpMyAdmin, Next.js)
+dev-start.bat
+
+# Öppna applikationen
+# http://localhost:3000    - CRM Application
+# http://localhost:8080    - phpMyAdmin
+```
+
+Det är allt! Docker startar automatiskt:
+- MySQL databas med Prisma migrations
+- Redis för caching
+- phpMyAdmin för databashantering
+- Next.js development server med hot reload
+
+Se [DOCKER.md](./DOCKER.md) för detaljerad Docker-dokumentation.
+
+### 💻 Alternativ: Lokal utveckling (utan Docker)
+
+#### 1. Installation
 ```bash
 cd crm-app
 npm install
 ```
 
-### Miljövariabler
+#### 2. Miljövariabler
 
-Kopiera `.env.example` till `.env` och konfigurera:
-
-```env
-DATABASE_URL="mysql://root:password@localhost:3306/medlemsregistret_crm"
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
+Kopiera template och redigera:
+```bash
+cp .env.local.example .env.local
 ```
 
-### Databas Setup
+Konfigurera dina lokala services i `.env.local`:
+```env
+DATABASE_URL="mysql://root:password@localhost:3306/crm_db"
+REDIS_URL="redis://:your_password@localhost:6379"
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="your_random_secret"
+```
 
+Se [ENV_GUIDE.md](./ENV_GUIDE.md) för komplett konfigurationsguide.
+
+#### 3. Databas Setup
 ```bash
 # Generera Prisma Client
 npm run db:generate
 
-# Push schema till databasen
+# Kör migrations
 npm run db:push
 
-# (Valfritt) Öppna Prisma Studio för att inspektera databasen
+# (Valfritt) Öppna Prisma Studio
 npm run db:studio
 ```
 
-### Utvecklingsserver
-
+#### 4. Utvecklingsserver
 ```bash
 npm run dev
 ```
 
 Öppna [http://localhost:3000](http://localhost:3000) i webbläsaren.
 
-### Bygga för produktion
+### 🚀 Bygga för produktion
 
+#### Med Docker
+```bash
+# Bygg och starta production containers
+prod-start.bat
+```
+
+#### Utan Docker
 ```bash
 npm run build
 npm start
 ```
+
+**Viktigt för production:**
+- Ändra alla default passwords i `docker-compose.yml`
+- Generera stark `NEXTAUTH_SECRET`
+- Konfigurera environment variables säkert
+- Se security checklist i [DOCKER.md](./DOCKER.md)
 
 ## Huvudfunktioner
 

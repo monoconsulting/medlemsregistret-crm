@@ -1,0 +1,27 @@
+# Enklare Dockerfile för development (snabbare builds)
+
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Installera dependencies för Prisma
+RUN apk add --no-cache libc6-compat openssl
+
+# Kopiera package files
+COPY package*.json ./
+COPY prisma ./prisma/
+
+# Installera alla dependencies (inkl. dev)
+RUN npm install
+
+# Generera Prisma client
+RUN npx prisma generate
+
+# Kopiera resten av applikationen
+COPY . .
+
+# Exponera port
+EXPOSE 3000
+
+# Development server
+CMD ["npm", "run", "dev"]

@@ -3,12 +3,125 @@
 
 ---
 
+## 📊 NULÄGESANALYS (Senast uppdaterad: 2025-10-23)
+
+### ✅ FÄRDIGA KOMPONENTER
+
+#### **Kärnsystem & Arkitektur**
+- [x] Next.js 15 + TypeScript projektet initierat
+- [x] Prisma schema komplett med alla modeller (Association, Contact, Note, Tag, Group, etc.)
+- [x] Database migrations körda
+- [x] tRPC setup med superjson transformer
+- [x] tRPC client konfiguration
+- [x] Prisma client global singleton (`lib/db.ts`)
+- [x] TanStack Query provider (`TRPCProvider`)
+
+#### **UI-komponenter (shadcn/ui)**
+- [x] 15 UI-komponenter installerade: Avatar, Badge, Button, Card, Checkbox, Dialog, Dropdown-menu, Input, Label, Select, Separator, Tabs, Textarea, Toast, Toaster
+
+#### **Layout & Navigation**
+- [x] Dashboard layout med Sidebar + Header
+- [x] Sidebar med navigation (Dashboard, Kommunöversikt, Föreningar, Kontakter, Grupperingar)
+- [x] Header med notifikationer och användarmeny
+- [x] Responsiv layout-struktur
+
+#### **Sidor (grundläggande struktur)**
+- [x] Dashboard-sida med KPI-kort
+- [x] DashboardStats komponent (4 KPI-kort med live data från tRPC)
+- [x] TopMunicipalities komponent (Top 5 lista)
+- [x] Föreningslista-sida med sök/filter UI (placeholder)
+- [x] Kommunöversikt-sida med 50/50 split-layout
+- [x] Contacts-sida (placeholder)
+- [x] Groups-sida (placeholder)
+
+#### **tRPC API (Association Router)**
+- [x] `association.list` - Med pagination, search, municipality, crmStatus filter
+- [x] `association.getById` - Med inkluderade relationer
+- [x] `association.getStats` - Dashboard statistik
+- [x] `association.update` - Med aktivitetslogg
+
+### ❌ EJ IMPLEMENTERAT / KVARSTÅR
+
+#### **Autentisering & Säkerhet**
+- [ ] NextAuth integration
+- [ ] tRPC middleware (isAuthed, isAdmin)
+- [ ] Protected routes middleware
+- [ ] RoleGuard komponent
+- [ ] User/Session modeller
+
+#### **API Routers**
+- [ ] Contacts router (CRUD)
+- [ ] Notes router (CRUD med ägarkontroll)
+- [ ] Tags router (CRUD)
+- [ ] Groups router (CRUD + membership)
+- [ ] Export router (Excel/CSV/JSON)
+- [ ] AI router (analys, e-post, suggestions)
+
+#### **Avancerade Filter & Sök**
+- [ ] Multi-select filter komponenter
+- [ ] Datum-range picker
+- [ ] Avancerad filterpanel (types, activities, tags, etc.)
+- [ ] Meilisearch/Typesense integration
+- [ ] Vyväxling (tabell/kort/karta)
+- [ ] Bulk actions toolbar
+
+#### **Modaler & Formulär**
+- [ ] Redigera förening modal
+- [ ] Lägg till kontakt modal
+- [ ] Skicka e-post modal (med AI-draft)
+- [ ] React Hook Form integration
+- [ ] Zod validering för formulär
+
+#### **Dashboard Funktionalitet**
+- [ ] Aktivitetsflöde med realtime
+- [ ] Kommande uppgifter lista
+- [ ] Medlemsutveckling graf (Recharts)
+- [ ] Sparade grupperingar widget
+- [ ] AI-Assistent widget
+
+#### **Detaljvyer**
+- [ ] Föreningsdetaljsida med tabs
+- [ ] Kontakthantering på föreningssida
+- [ ] Anteckningar (gästboksformat)
+- [ ] Aktivitetslogg timeline
+- [ ] Scrapad data viewer
+
+#### **Kommunöversikt**
+- [ ] Sverige-karta integration
+- [ ] Färgkodning baserat på antal
+- [ ] Klickbar karta med navigation
+- [ ] Sortering och filtrering av kommunlista
+
+#### **AI-funktioner**
+- [ ] AI Provider Layer (Ollama/OpenAI/Anthropic)
+- [ ] AI-analys av föreningar
+- [ ] AI e-postutkast
+- [ ] AI nästa-steg förslag
+- [ ] AI segmentering
+- [ ] AI enrichment suggestions
+- [ ] AI conversion strategy
+
+#### **Övrigt**
+- [x] Docker-uppsättning (MySQL, Redis, phpMyAdmin, Next.js)
+- [x] Development docker-compose
+- [x] Production docker-compose med multi-stage build
+- [ ] BullMQ för bakgrundsjobb
+- [ ] Redis integration i Next.js app
+- [ ] Export funktionalitet
+- [ ] Test setup (Vitest/Playwright)
+- [ ] CI/CD pipeline
+- [x] ENV-konfiguration (exempel-fil skapad)
+- [ ] Logging/monitoring
+
+---
+
 ## 0. Förberedelser & Ramverk  _(arkitektur, dev-miljö)_
 [Ref: Teknisk Stack & Sidstruktur i **CRM_IMPLEMENTATION_1.md**] :contentReference[oaicite:0]{index=0}
 
-- [ ] **Fastställ tech-stack** enligt specifikation (Next.js 15, TypeScript, shadcn/ui, Tailwind, TanStack Query, Zustand, React Hook Form + Zod; backend: Next.js API + tRPC + Prisma + MySQL; Redis cache; BullMQ för bakgrundsjobb). :contentReference[oaicite:1]{index=1}
-- [ ] **Initiera repo** (monorepo eller app), skapa baseline för `apps/web` och `packages/*` vid behov.
-- [ ] **Skapa .env* filer** för lokalt/labb/prod (hemligheter separerade, inga hårdkodade nycklar).
+- [x] **Fastställ tech-stack** enligt specifikation (Next.js 15, TypeScript, shadcn/ui, Tailwind, TanStack Query, Zustand, React Hook Form + Zod; backend: Next.js API + tRPC + Prisma + MySQL; Redis cache; BullMQ för bakgrundsjobb). :contentReference[oaicite:1]{index=1}
+- [x] **Initiera repo** (monorepo eller app), skapa baseline för `apps/web` och `packages/*` vid behov.
+- [x] **Skapa .env* filer** för lokalt/labb/prod (hemligheter separerade, inga hårdkodade nycklar). `.env.example` skapad.
+- [x] **Docker-uppsättning** med MySQL, Redis, phpMyAdmin och Next.js för både dev och prod.
 - [ ] **Sätt upp lint/test** (ESLint, Prettier, Vitest/Jest; Playwright e2e).
 - [ ] **CI/CD**: pipeline som kör bygg, test, prisma migrate, lint.
 
@@ -21,10 +134,10 @@
 ## 1. Datamodell & Prisma Migrations
 [Ref: Databasschema i **CRM_IMPLEMENTATION_1.md**] :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}
 
-- [ ] **Skapa Prisma-modell för**: `Association`, `Contact`, `Note`, `Tag`, `Group`, `GroupMembership`, `Activity`, `ScrapeRun` inkl. index, enum: `CrmStatus`, `Pipeline`, `ActivityType`. :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}
-- [ ] **Relationer & onDelete**: Säkerställ `@relation(..., onDelete: Cascade)` där angivet. :contentReference[oaicite:6]{index=6}
-- [ ] **Fulltext/Index**: `@@fulltext([name, city])`, kombinerade index för filter/pag. :contentReference[oaicite:7]{index=7}
-- [ ] **Kör migrationer** och generera Prisma client.
+- [x] **Skapa Prisma-modell för**: `Association`, `Contact`, `Note`, `Tag`, `Group`, `GroupMembership`, `Activity`, `ScrapeRun` inkl. index, enum: `CrmStatus`, `Pipeline`, `ActivityType`. :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}
+- [x] **Relationer & onDelete**: Säkerställ `@relation(..., onDelete: Cascade)` där angivet. :contentReference[oaicite:6]{index=6}
+- [x] **Fulltext/Index**: `@@fulltext([name, city])`, kombinerade index för filter/pag. :contentReference[oaicite:7]{index=7}
+- [x] **Kör migrationer** och generera Prisma client.
 
 **DoD:** `prisma migrate dev` skapar tabeller; `prisma studio` visar relationer.
 **Verifiering:** `pnpm prisma generate && pnpm prisma migrate dev`.
@@ -35,9 +148,9 @@
 ## 2. Frontend Sidstruktur (UI Skelett)
 [Ref: Dashboard, Kommunöversikt, Föreningslista m.m. i **CRM_IMPLEMENTATION_1.md**] :contentReference[oaicite:8]{index=8}
 
-- [ ] **Dashboard**: KPI-kort, aktivitetsflöde, uppgifter, medlemsutveckling (komponenter: `KPICard`, `ActivityTimeline`, `TaskList`, `MembershipChart`). :contentReference[oaicite:9]{index=9}
-- [ ] **Kommunöversikt**: `SwedenMap` + lista, sortering och navigation. :contentReference[oaicite:10]{index=10}
-- [ ] **Föreningslista**: Sökfält, filterpanel (kommun, typer, aktiviteter, CRM-status, taggar, riksorg, kontaktinfo), vyväxling (tabell/kort/karta). :contentReference[oaicite:11]{index=11}
+- [x] **Dashboard**: KPI-kort (grundläggande struktur), aktivitetsflöde (placeholder), uppgifter (pending), medlemsutveckling (pending). Komponenter: `DashboardStats`, `TopMunicipalities` skapade. :contentReference[oaicite:9]{index=9}
+- [x] **Kommunöversikt**: Grundlayout med 50/50 split skapad, lista med mock-data. `SwedenMap` + sortering/navigation kvarstår. :contentReference[oaicite:10]{index=10}
+- [x] **Föreningslista**: Baslayout med sökfält och filterknappar skapad. Avancerad filterpanel, vyväxling (tabell/kort/karta) och dataintegration kvarstår. :contentReference[oaicite:11]{index=11}
 
 **DoD:** Vyer renderar med mock-data; filter ändrar listan; routing OK.
 **Verifiering:** Manuell klickrunda; Playwright smoke: öppna/filtrera/byt vy.
@@ -48,9 +161,9 @@
 ## 3. Modaler & Dialoger (Avancerade Funktioner)
 [Ref: Modaler i **CRM_IMPLEMENTATION_2.md**] :contentReference[oaicite:12]{index=12}
 
-- [ ] **Redigera Förening (Modal)**: Tabs `basic/contact/activities/crm`; required validering (`name`, `municipality`, `types`) med React Hook Form + Zod; `extras`-fält. :contentReference[oaicite:13]{index=13}
-- [ ] **Lägg till Kontakt (Modal)**: Roller, sociala medier, `isPrimary` med autounik primär. :contentReference[oaicite:14]{index=14}
-- [ ] **Skicka Mail (Modal + AI-draft)**: AI-utkastpanel, RTE-editor, `recipients` härledning. :contentReference[oaicite:15]{index=15}
+- [ ] **Redigera Förening (Modal)**: Tabs `basic/contact/activities/crm`; required validering (`name`, `municipality`, `types`) med React Hook Form + Zod; `extras`-fält. (EJ IMPLEMENTERAT) :contentReference[oaicite:13]{index=13}
+- [ ] **Lägg till Kontakt (Modal)**: Roller, sociala medier, `isPrimary` med autounik primär. (EJ IMPLEMENTERAT) :contentReference[oaicite:14]{index=14}
+- [ ] **Skicka Mail (Modal + AI-draft)**: AI-utkastpanel, RTE-editor, `recipients` härledning. (EJ IMPLEMENTERAT) :contentReference[oaicite:15]{index=15}
 
 **DoD:** Alla tre modaler öppnar/stänger, validering fungerar, submit triggar mutation.
 **Verifiering:** Formfel visas korrekt; `isPrimary` flyttar primärflagga.
@@ -61,10 +174,10 @@
 ## 4. tRPC Bas & Context
 [Ref: tRPC setup i **CRM_IMPLEMENTATION_3.md**] :contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}
 
-- [ ] **Init tRPC** med `superjson`, `errorFormatter` inkl. `ZodError`. :contentReference[oaicite:18]{index=18}
-- [ ] **Context**: `getServerSession`, `prisma` i ctx. :contentReference[oaicite:19]{index=19}
-- [ ] **Middleware**: `isAuthed`, `isAdmin`. :contentReference[oaicite:20]{index=20}
-- [ ] **AppRouter + /api/trpc**‐handler. :contentReference[oaicite:21]{index=21}
+- [x] **Init tRPC** med `superjson` (implementerat). `errorFormatter` inkl. `ZodError` kvarstår. :contentReference[oaicite:18]{index=18}
+- [x] **Context**: `db` (Prisma) i context implementerat. `getServerSession` (NextAuth) kvarstår. :contentReference[oaicite:19]{index=19}
+- [ ] **Middleware**: `isAuthed`, `isAdmin` (ej implementerat ännu). :contentReference[oaicite:20]{index=20}
+- [x] **AppRouter + /api/trpc**‐handler skapad och fungerande. :contentReference[oaicite:21]{index=21}
 
 **DoD:** `GET/POST /api/trpc` svarar; skyddade procedurer stoppar anonyma.
 **Verifiering:** Minimal client-call (health ping) + 401/403-test.
@@ -75,10 +188,10 @@
 ## 5. Association Router (CRUD, filter, stats)
 [Ref: Association Router i **CRM_IMPLEMENTATION_3.md**] :contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}
 
-- [ ] **List**: Zod-schema med `search`, `municipalities`, `types`, `activities`, `crmStatus`, `pipeline`, `tags`, `hasEmail/hasPhone`, `isMember`, `assignedTo`, `dateRange`, `sortBy`, `page/limit`; Prisma `where` + `orderBy`; returnera `pagination`. :contentReference[oaicite:24]{index=24}
-- [ ] **getById**: Inkludera `contacts`, `notes` (limit), `tags`, `groupMemberships`, `activities`. :contentReference[oaicite:25]{index=25}
-- [ ] **create/update/bulkUpdate/delete** med aktivitetloggar och tagghantering. :contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}
-- [ ] **stats**: totals, medlemmar, contacted/uncontacted, groupBy municipality/types, recent activities. :contentReference[oaicite:28]{index=28}
+- [x] **List**: Grundläggande implementation med `search`, `municipality`, `crmStatus`, `page/limit`, pagination. Avancerade filter (`types`, `activities`, `tags`, `hasEmail/hasPhone`, `isMember`, `assignedTo`, `dateRange`, `sortBy`) kvarstår. :contentReference[oaicite:24]{index=24}
+- [x] **getById**: Implementerat med inkluderade `contacts`, `notes`, `tags`, `groupMemberships`, `activities`. :contentReference[oaicite:25]{index=25}
+- [x] **update** med grundläggande aktivitetslogg implementerat. `create`, `bulkUpdate`, `delete` och mer avancerad tagghantering kvarstår. :contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}
+- [x] **stats**: Grundläggande stats (totals, medlemmar, contacted, interested, top municipalities) implementerat. GroupBy types och recent activities kvarstår. :contentReference[oaicite:28]{index=28}
 
 **DoD:** Alla endpoints svarar korrekt och returntyper matchar klienten.
 **Verifiering:** tRPC integration-tester med seedad data.
@@ -89,9 +202,9 @@
 ## 6. Contacts/Notes/Tags/Groups Routers
 [Ref: Routers i **CRM_IMPLEMENTATION_3.md**] :contentReference[oaicite:29]{index=29}:contentReference[oaicite:30]{index=30}
 
-- [ ] **Contacts**: `list/create/update/delete`; `isPrimary` reset på övriga kontakter. :contentReference[oaicite:31]{index=31}
-- [ ] **Notes**: skapa/uppdatera/radera, med **ägarkontroll** (endast författare får ändra/ta bort). :contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}
-- [ ] **Tags/Groups**: CRUD och `GroupMembership` unikhetskrav. :contentReference[oaicite:34]{index=34}
+- [ ] **Contacts**: `list/create/update/delete`; `isPrimary` reset på övriga kontakter. (EJ IMPLEMENTERAT) :contentReference[oaicite:31]{index=31}
+- [ ] **Notes**: skapa/uppdatera/radera, med **ägarkontroll** (endast författare får ändra/ta bort). (EJ IMPLEMENTERAT) :contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}
+- [ ] **Tags/Groups**: CRUD och `GroupMembership` unikhetskrav. (EJ IMPLEMENTERAT) :contentReference[oaicite:34]{index=34}
 
 **DoD:** Alla CRUD med validering; aktivitetslogg vid ändringar.
 **Verifiering:** Testa authorisation-paths (tillåten/otillåten).
@@ -102,9 +215,9 @@
 ## 7. Autentisering & RBAC
 [Ref: NextAuth, middleware, RoleGuard i **CRM_IMPLEMENTATION_3.md**] :contentReference[oaicite:35]{index=35}:contentReference[oaicite:36]{index=36}
 
-- [ ] **NextAuth**: Google + Credentials, JWT-session, adapter Prisma; `events.signIn` logg. :contentReference[oaicite:37]{index=37}
-- [ ] **Middleware**: protect routes `/dashboard`, `/associations`, `/contacts`, `/groups`, `/stats`, `/admin`. :contentReference[oaicite:38]{index=38}
-- [ ] **RoleGuard** komponent för klienten. :contentReference[oaicite:39]{index=39}
+- [ ] **NextAuth**: Google + Credentials, JWT-session, adapter Prisma; `events.signIn` logg. (EJ IMPLEMENTERAT) :contentReference[oaicite:37]{index=37}
+- [ ] **Middleware**: protect routes `/dashboard`, `/associations`, `/contacts`, `/groups`, `/stats`, `/admin`. (EJ IMPLEMENTERAT) :contentReference[oaicite:38]{index=38}
+- [ ] **RoleGuard** komponent för klienten. (EJ IMPLEMENTERAT) :contentReference[oaicite:39]{index=39}
 
 **DoD:** Inloggning fungerar, rollskydd nekar otillåtna användare.
 **Verifiering:** Manuell inloggning + e2e (skyddade sidor redirectas).
@@ -115,9 +228,9 @@
 ## 8. Exportfunktionalitet
 [Ref: Export Router i **CRM_IMPLEMENTATION_3.md**] :contentReference[oaicite:40]{index=40}
 
-- [ ] **Excel-export**: `associations`, optioner för `includeContacts/Notes/Activities/Tags`. :contentReference[oaicite:41]{index=41}
-- [ ] **CSV-export**: `json2csv` pipeline. :contentReference[oaicite:42]{index=42}
-- [ ] **Filters/ids**: stöd för explicit ID-lista eller filterobjekt. :contentReference[oaicite:43]{index=43}
+- [ ] **Excel-export**: `associations`, optioner för `includeContacts/Notes/Activities/Tags`. (EJ IMPLEMENTERAT) :contentReference[oaicite:41]{index=41}
+- [ ] **CSV-export**: `json2csv` pipeline. (EJ IMPLEMENTERAT) :contentReference[oaicite:42]{index=42}
+- [ ] **Filters/ids**: stöd för explicit ID-lista eller filterobjekt. (EJ IMPLEMENTERAT) :contentReference[oaicite:43]{index=43}
 
 **DoD:** Nerladdad fil öppnas i Excel; kolumner korrekta.
 **Verifiering:** Provexport med 5 st poster; datatyper OK.
