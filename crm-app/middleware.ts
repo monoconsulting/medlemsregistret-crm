@@ -32,7 +32,14 @@ export default withAuth(
       authorized: ({ req, token }) => {
         const { pathname } = req.nextUrl
 
-        if (PUBLIC_ROUTES.some((route) => pathname === route || pathname.startsWith(`${route}/`))) {
+        if (
+          PUBLIC_ROUTES.some((route) => {
+            if (route === "/") {
+              return pathname === "/";
+            }
+            return pathname === route || pathname.startsWith(`${route}/`);
+          })
+        ) {
           return true
         }
 
