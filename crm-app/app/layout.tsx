@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { TRPCProvider } from "@/lib/providers/trpc-provider";
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "Medlemsregistret CRM",
@@ -13,7 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="sv">
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        <TRPCProvider>
+          {children}
+          <Toaster />
+        </TRPCProvider>
+      </body>
     </html>
   );
 }
