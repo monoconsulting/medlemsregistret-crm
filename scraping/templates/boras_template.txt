@@ -1,0 +1,28 @@
+import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  await page.goto('https://boras.actorsmartbook.se/Associations.aspx');
+  await page.getByRole('button', { name: 'Godkänn alla cookies' }).click();
+  await page.getByRole('button', { name: 'Info' }).first().click();
+  await page.getByRole('button', { name: '×' }).click();
+  await page.getByRole('button', { name: 'Info' }).nth(1).click();
+  await page.getByRole('button', { name: '×' }).click();
+  await page.getByRole('button', { name: 'Info' }).nth(2).click();
+  await page.getByRole('button', { name: '×' }).click();
+  await page.getByRole('button', { name: '2' }).click();
+  await page.getByRole('button', { name: '3' }).click();
+  await page.getByRole('button', { name: '4' }).click();
+  await page.getByRole('button', { name: '5' }).click();
+  await page.getByRole('button', { name: '5' }).click();
+  await page.getByRole('button', { name: '7' }).click();
+  await page.getByRole('button', { name: 'Nästa' }).click();
+  await page.getByRole('button', { name: 'Nästa' }).click();
+  await page.getByRole('button', { name: 'Förra' }).click();
+  await page.getByRole('button', { name: 'Förra' }).click();
+  await page.getByRole('button', { name: 'Första' }).click();
+  await page.getByRole('button', { name: 'Sista' }).click();
+  await page.locator('div:nth-child(10) > .col-md-3.button-column > .button').click();
+  await page.getByRole('button', { name: '×' }).click();
+  await page.locator('div:nth-child(9) > .col-md-3.button-column > .button').click();
+  await page.getByRole('button', { name: '×' }).click();
+});

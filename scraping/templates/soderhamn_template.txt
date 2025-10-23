@@ -1,0 +1,46 @@
+import { test, expect } from '@playwright/test';
+
+test.use({
+  viewport: {
+    height: 1256,
+    width: 1760
+  }
+});
+
+test('test', async ({ page }) => {
+  await page.goto('https://soderhamn.rbok.se/foreningsregister');
+  await page.getByRole('link', { name: 'Show more information about' }).nth(1).click();
+  await page.getByText('Hans Svedberg').click();
+  await page.getByText('0270-').click();
+  await page.locator('div:nth-child(6) > div:nth-child(4)').click();
+  const page1Promise = page.waitForEvent('popup');
+  await page.getByLabel('ABF Hälsingekusten', { exact: true }).getByText('https://www.abf.se/distrikt--').click();
+  const page1 = await page1Promise;
+  await page.getByText('ABF är ett studieförbund som').click();
+  await page.getByLabel('ABF Hälsingekusten', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Ala IF Handboll' }).click();
+  await page.getByText('Operations Handboll').click();
+  await page.getByText('Target groups Barn 0-6 å').click();
+  await page.getByText('Areas').click();
+  await page.getByText('Areas Ljusne').click();
+  await page.getByRole('button', { name: 'Stäng' }).first().click();
+  await page.getByRole('link', { name: 'Show more information about' }).nth(4).click();
+  await page.getByRole('button', { name: 'Stäng' }).first().click();
+  await page.getByRole('link', { name: 'Show more information about Bergviks Allting' }).click();
+  await page.getByRole('button', { name: 'Stäng' }).first().click();
+  await page.getByRole('link', { name: 'Show more information about Gävleborgs Innebandyförbund' }).click();
+  await page.getByLabel('Gävleborgs Innebandyförbund', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Hälsinglands Fotbollförbund' }).nth(1).click();
+  await page.getByLabel('Hälsinglands Fotbollförbund', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Previous' }).click();
+  await page.getByRole('link', { name: 'Show more information about Söderhamnsortens RF' }).click();
+  await page.getByLabel('Söderhamnsortens RF', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Last' }).click();
+  await page.getByRole('link', { name: 'Show more information about Trönö IK' }).click();
+  await page.getByLabel('Trönö IK', { exact: true }).getByText('Close').click();
+});

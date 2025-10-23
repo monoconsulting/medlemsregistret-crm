@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "ASP.NET_SessionId",
+      "value": "ntziegdwfm5rravgm4t5pkle",
+      "domain": "boras.actorsmartbook.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PlutoCookieConcent",
+      "value": "acceptedAllCookies",
+      "domain": "boras.actorsmartbook.se",
+      "path": "/",
+      "expires": 1776783480,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

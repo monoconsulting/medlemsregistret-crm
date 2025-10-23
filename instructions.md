@@ -1,0 +1,334 @@
+# Nocobase - template installation
+
+https://www.nocobase.com/
+
+https://github.com/nocobase/nocobase
+
+https://www.nocobase.com/en/blog/tags/customer-stories
+
+
+
+    Initial app login:
+    User: admin@nocobase.com
+    Password: admin123.
+    POSTGRES_USER: "vector"
+    POSTGRES_PASSWORD: "vector_pwd"        # ÄNDRA i skarp drift
+    POSTGRES_DB: "vectordb"
+    DB_DATABASE: "nocobase"
+    DB_USER: "nocobase"
+    DB_PASSWORD: "nocobase"     # ÄNDRA i skarp drift	
+    PGADMIN_DEFAULT_EMAIL: "admin@example.com"  # ÄNDRA
+    PGADMIN_DEFAULT_PASSWORD: "supersecret"     # ÄNDRA
+
+
+
+
+
+### docker-compose.yml
+
+```
+# docker-compose.yml
+# All data mappar till ./storage/* i samma katalog som denna fil.
+
+name: nocobase-stack
+networks:
+  nocobase:
+    driver: bridge
+
+services:
+  # =========================
+  # NocoBase (App)
+  # =========================
+  app:
+    image: nocobase/nocobase:latest-full
+    restart: always
+    networks: [nocobase]
+    depends_on:
+      - postgres
+    environment:
+      # --- Core ---
+      APP_KEY: "WobbaWobbaBuffBuffBuff000"   # ÄNDRA i skarp drift
+      TZ: "Europe/Stockholm"
+
+      # --- DB koppling till 'postgres'-tjänsten nedan ---
+      DB_DIALECT: "postgres"
+      DB_HOST: "postgres"    # internt docker-namn
+      DB_PORT: "5432"        # intern postgres-port (ÄNDRA INTE här)
+      DB_DATABASE: "nocobase"
+      DB_USER: "nocobase"
+      DB_PASSWORD: "nocobase"     # ÄNDRA i skarp drift
+    volumes:
+      - ./storage/app:/app/nocobase/storage
+      # Om du vill ha extra plugins/konfig som filer: lägg dem i ./storage/app_extra och mountra här.
+      # - ./storage/app_extra:/app/nocobase/.extras
+    ports:
+      - "13050:80"      # <-- ÄNDRA VÄNSTER SIDA för extern port till NocoBase (t.ex. 8080:80)
+
+  # =========================
+  # Postgres (huvuddatabas för NocoBase)
+  # =========================
+  postgres:
+    image: postgres:16
+    restart: always
+    command: postgres -c wal_level=logical
+    environment:
+      POSTGRES_USER: "nocobase"
+      POSTGRES_PASSWORD: "nocobase"          # ÄNDRA i skarp drift
+      POSTGRES_DB: "nocobase"
+      TZ: "Europe/Stockholm"
+    volumes:
+      - ./storage/db/postgres:/var/lib/postgresql/data
+      # Lägg init-skript i ./storage/db/postgres-init/*.sql för automatisk körning:
+      # - ./storage/db/postgres-init:/docker-entrypoint-initdb.d
+    networks: [nocobase]
+    ports:
+      - "15432:5432"    # <-- ÄNDRA VÄNSTER SIDA för extern åtkomst till huvud-Postgres via host
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nocobase -d nocobase"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =========================
+  # Postgres (pgvector) – separat instans för vektorfrågor
+  # =========================
+  pgvector:
+    # Officiell pgvector-bild: https://hub.docker.com/r/pgvector/pgvector
+    image: pgvector/pgvector:pg16
+    restart: always
+    environment:
+      POSTGRES_USER: "vector"
+      POSTGRES_PASSWORD: "vector_pwd"        # ÄNDRA i skarp drift
+      POSTGRES_DB: "vectordb"
+      TZ: "Europe/Stockholm"
+    volumes:
+      - ./storage/db/pgvector:/var/lib/postgresql/data
+      # Initiera extension automatiskt via init-skript:
+      # - ./storage/db/pgvector-init:/docker-entrypoint-initdb.d
+      #  Skapa t.ex. ./storage/db/pgvector-init/01_enable_pgvector.sql med:
+      #  CREATE EXTENSION IF NOT EXISTS vector;
+    networks: [nocobase]
+    ports:
+      - "25432:5432"    # <-- ÄNDRA VÄNSTER SIDA för extern åtkomst till pgvector via host
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vector -d vectordb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =========================
+  # pgAdmin (webb-GUI för Postgres)
+  # =========================
+  pgadmin:
+    image: dpage/pgadmin4:8
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@example.com"  # ÄNDRA
+      PGADMIN_DEFAULT_PASSWORD: "supersecret"     # ÄNDRA
+      PGADMIN_CONFIG_ENHANCED_COOKIE_PROTECTION: "True"
+      PGADMIN_CONFIG_CONSOLE_LOG_LEVEL: "10"
+      TZ: "Europe/Stockholm"
+    volumes:
+      - ./storage/pgadmin:/var/lib/pgadmin
+      # För att förhandsregistrera servrar kan du lägga en servers.json här:
+      # - ./storage/pgadmin-servers/servers.json:/pgadmin4/servers.json
+    networks: [nocobase]
+    depends_on:
+      - postgres
+      - pgvector
+    ports:
+      - "13001:80"   # <-- ÄNDRA VÄNSTER SIDA för extern pgAdmin-port (t.ex. 5050:80)
+
+```
+
+
+
+## Länkar
+
+https://docs.nocobase.com/welcome/getting-started/installation
+
+# Installation
+
+# Docker (👍 Recommended)
+
+## 0. Prerequisites
+
+⚡⚡ Please make sure you have installed [Docker](https://docs.docker.com/get-docker/)
+
+## 1. Create a `docker-compose.yml` file
+
+
+
+```bash
+# Create a folder named my-project (or any other name) to store the system files generated by NocoBasemkdir my-project && cd my-project
+# Create an empty docker-compose.yml filevi docker-compose.yml
+```
+
+## 2. Configure `docker-compose.yml`
+
+The configuration parameters vary slightly depending on the database. Choose the appropriate database configuration and copy it into the `docker-compose.yml`.
+
+PostgreSQL
+
+MySQL
+
+MariaDB
+
+
+
+
+
+```yml
+version: '3'
+networks:  nocobase:    driver: bridge
+services:  app:    image: nocobase/nocobase:latest-full    restart: always    networks:      - nocobase    depends_on:      - postgres    environment:      # The application's secret key, used to generate user tokens, etc.      # If APP_KEY is changed, old tokens will also become invalid.      # It can be any random string, and make sure it is not exposed.      - APP_KEY=your-secret-key      # Database type, supports postgres, mysql, mariadb      - DB_DIALECT=postgres      # Database host, can be replaced with the IP of an existing database server      - DB_HOST=postgres      # Database port      - DB_PORT=5432      # Database name      - DB_DATABASE=nocobase      # Database user      - DB_USER=nocobase      # Database password      - DB_PASSWORD=nocobase      # Timezone      - TZ=UTC    volumes:      - ./storage:/app/nocobase/storage    ports:      - '13000:80'    # init: true
+  # If using an existing database server, postgres service can be omitted  postgres:    image: postgres:16    restart: always    command: postgres -c wal_level=logical    environment:      POSTGRES_USER: nocobase      POSTGRES_DB: nocobase      POSTGRES_PASSWORD: nocobase    volumes:      - ./storage/db/postgres:/var/lib/postgresql/data    networks:      - nocobase
+```
+
+Choose the appropriate NocoBase version, refer to [versions](https://docs.nocobase.com/welcome/getting-started/installation#which-version-to-install)
+
+- `latest` `latest-full`: Stable and well-tested version and only bug fixed will be made. This version is recommended.
+- `beta` `beta-full`: This version includes new features that are about to be released and it has been preliminarily tested, but still have known or unknown issues.
+- `alpha` `alpha-full`: A development version containing the latest features, which may be incomplete or unstable.
+- `1.7.14` `1.7.14-full`: Specify the version number. To check the latest version, see the [list of released versions](https://hub.docker.com/r/nocobase/nocobase/tags).
+
+
+
+#### WARNING
+
+- The full image includes the PostgreSQL 16/17 client, MySQL 8.0 client, and Oracle 19.25 client required for backup manager and migration manager plugins, as well as LibreOffice required for template printing (PDF).
+- If you need to build your own image, you can refer to the official [Dockerfile (slim version)](https://github.com/nocobase/nocobase/blob/main/docker/nocobase/Dockerfile) and [Dockerfile-full (full version)](https://github.com/nocobase/nocobase/blob/main/docker/nocobase/Dockerfile-full)
+
+Example:
+
+
+
+```yml
+#...
+
+services:
+
+  app:
+
+    # Docker Hub image (recommended full versions)
+
+    image: nocobase/nocobase:latest-full
+
+    image: nocobase/nocobase:beta-full
+
+    image: nocobase/nocobase:alpha-full
+
+    image: nocobase/nocobase:1.7.14-full
+
+    # Slim versions (without certain clients and LibreOffice)
+
+    image: nocobase/nocobase:latest
+
+    image: nocobase/nocobase:beta
+
+    image: nocobase/nocobase:alpha
+
+    image: nocobase/nocobase:1.7.14
+
+# ...
+```
+
+## 3. Install and start NocoBase
+
+It may take a few minutes
+
+
+
+```bash
+# pull service images$ docker-compose pull# run in the background$ docker-compose up -d# view app process$ docker-compose logs app
+app-postgres-app-1  | nginx startedapp-postgres-app-1  | yarn run v1.22.15app-postgres-app-1  | $ cross-env DOTENV_CONFIG_PATH=.env node -r dotenv/config packages/app/server/lib/index.js install -sapp-postgres-app-1  | Done in 2.72s.app-postgres-app-1  | yarn run v1.22.15app-postgres-app-1  | $ pm2-runtime start --node-args="-r dotenv/config" packages/app/server/lib/index.js -- startapp-postgres-app-1  | 2022-04-28T15:45:38: PM2 log: Launching in no daemon modeapp-postgres-app-1  | 2022-04-28T15:45:38: PM2 log: App [index:0] starting in -fork mode-app-postgres-app-1  | 2022-04-28T15:45:38: PM2 log: App [index:0] onlineapp-postgres-app-1  | 🚀 NocoBase server running at: http://localhost:13000/
+```
+
+## 4. Log in to NocoBase
+
+Open [http://localhost:13000](http://localhost:13000/) in a web browser. The initial account and password are `admin@nocobase.com` and `admin123`.
+
+## Upgrade docker
+
+# Upgrading for Docker compose
+
+## 0. Preparing for the upgrade
+
+
+
+#### WARNING
+
+- Make sure to backup the database before upgrading!!!
+- For commercial plugins, please validate your license key in the system and restart after validation. See [NocoBase Commercial License Activation Guide](https://www.nocobase.com/en/blog/nocobase-commercial-license-activation-guide) for details.
+
+## 1. Navigate to the directory containing `docker-compose.yml`
+
+Example
+
+
+
+```bash
+# MacOS, Linux...
+
+cd /your/path/my-project/
+
+# Windows
+
+cd C:\your\path\my-project
+```
+
+## 2. Update the image version
+
+- 'latest' : Functional stability, more complete test version, only do bug fixes. Installing this version is recommended.
+- 'beta' : contains a new feature that is about to be released, a version that has been preliminarily tested and may have some known or unknown issues.
+- 'alpha' : a version in development that contains the latest feature code, may not be completed or has a lot of instability, and is mainly used for internal development and rapid iteration.
+- `1.3.51` : specify a version number, the latest version of the view [] list of previous versions (https://hub.docker.com/r/nocobase/nocobase/tags).
+
+
+
+#### WARNING
+
+Images can only be upgraded, not downgraded. The next version cannot be downgraded to latest.
+
+
+
+```yml
+# ...
+
+services:
+
+  app:
+
+    image: nocobase/nocobase:main
+
+    image: nocobase/nocobase:latest
+
+    image: nocobase/nocobase:1.2.4-alpha
+
+# ...
+```
+
+## 3. Restart the container
+
+
+
+```bash
+# Pull the latest image
+
+docker-compose pull
+
+# Start
+
+docker-compose up -d app
+
+# View the app process
+
+docker-compose logs app
+```
+
+## 4. Upgrading independent plugins
+
+After upgrading NocoBase, independent plugins installed through the interface might also need to be upgraded. Please refer to documentation [Installation and Upgrade of Plugins](https://docs.nocobase.com/welcome/getting-started/plugin)
+
+
+

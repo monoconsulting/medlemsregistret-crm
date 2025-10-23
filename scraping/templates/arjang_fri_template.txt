@@ -1,0 +1,25 @@
+import { test, expect } from '@playwright/test';
+
+test.use({
+  viewport: {
+    height: 1256,
+    width: 1760
+  }
+});
+
+test('test', async ({ page }) => {
+  await page.goto('https://fri.arjang.se/FORENING/');
+  await page.getByRole('link', { name: 'Anhörigförening i Årjängs' }).click();
+  await page.goto('https://fri.arjang.se/FORENING/');
+  await page.getByRole('link', { name: 'Årjängs Atletklubb' }).click();
+  await page.getByRole('link', { name: 'Årjängs Båtsällskap' }).click();
+  await page.getByRole('link', { name: 'Årjängs Publikförening' }).click();
+  await page.getByRole('link', { name: 'Båtklubben Rävarna' }).click();
+  await page.getByRole('link', { name: '2' }).click();
+  await page.getByRole('link', { name: '3' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'First' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Last' }).nth(1).click();
+});

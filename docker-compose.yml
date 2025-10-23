@@ -1,0 +1,115 @@
+# docker-compose.yml
+# All data mappar till ./storage/* i samma katalog som denna fil.
+
+name: MEDLEMSREGISTRET - CRM
+networks:
+  nocobase:
+    driver: bridge
+
+services:
+  # =========================
+  # NocoBase (App)
+  # =========================
+  app:
+    image: nocobase/nocobase:latest-full
+    restart: always
+    networks: [nocobase]
+    depends_on:
+      - postgres
+    environment:
+      # --- Core ---
+      APP_KEY: "WobbaWobbaBuffBuffBuff000"   # ÄNDRA i skarp drift
+      TZ: "Europe/Stockholm"
+
+      # --- DB koppling till 'postgres'-tjänsten nedan ---
+      DB_DIALECT: "postgres"
+      DB_HOST: "postgres"    # internt docker-namn
+      DB_PORT: "5432"        # intern postgres-port (ÄNDRA INTE här)
+      DB_DATABASE: "nocobase"
+      DB_USER: "nocobase"
+      DB_PASSWORD: "nocobase"     # ÄNDRA i skarp drift
+    volumes:
+      - ./storage/app:/app/nocobase/storage
+      # Om du vill ha extra plugins/konfig som filer: lägg dem i ./storage/app_extra och mountra här.
+      # - ./storage/app_extra:/app/nocobase/.extras
+    ports:
+      - "13060:80"      # <-- ÄNDRA VÄNSTER SIDA för extern port till NocoBase (t.ex. 8080:80)
+
+  # =========================
+  # Postgres (huvuddatabas för NocoBase)
+  # =========================
+  postgres:
+    image: postgres:16
+    restart: always
+    command: postgres -c wal_level=logical
+    environment:
+      POSTGRES_USER: "nocobase"
+      POSTGRES_PASSWORD: "nocobase"          # ÄNDRA i skarp drift
+      POSTGRES_DB: "nocobase"
+      TZ: "Europe/Stockholm"
+    volumes:
+      - ./storage/db/postgres:/var/lib/postgresql/data
+      # Lägg init-skript i ./storage/db/postgres-init/*.sql för automatisk körning:
+      # - ./storage/db/postgres-init:/docker-entrypoint-initdb.d
+    networks: [nocobase]
+    ports:
+      - "15432:5432"    # <-- ÄNDRA VÄNSTER SIDA för extern åtkomst till huvud-Postgres via host
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nocobase -d nocobase"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =========================
+  # Postgres (pgvector) – separat instans för vektorfrågor
+  # =========================
+  pgvector:
+    # Officiell pgvector-bild: https://hub.docker.com/r/pgvector/pgvector
+    image: pgvector/pgvector:pg16
+    restart: always
+    environment:
+      POSTGRES_USER: "vector"
+      POSTGRES_PASSWORD: "vector_pwd"        # ÄNDRA i skarp drift
+      POSTGRES_DB: "vectordb"
+      TZ: "Europe/Stockholm"
+    volumes:
+      - ./storage/db/pgvector:/var/lib/postgresql/data
+      # Initiera extension automatiskt via init-skript:
+      # - ./storage/db/pgvector-init:/docker-entrypoint-initdb.d
+      #  Skapa t.ex. ./storage/db/pgvector-init/01_enable_pgvector.sql med:
+      #  CREATE EXTENSION IF NOT EXISTS vector;
+    networks: [nocobase]
+    ports:
+      - "25432:5432"    # <-- ÄNDRA VÄNSTER SIDA för extern åtkomst till pgvector via host
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vector -d vectordb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =========================
+  # pgAdmin (webb-GUI för Postgres)
+  # =========================
+  pgadmin:
+    image: dpage/pgadmin4:8
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@example.com"  # ÄNDRA
+      PGADMIN_DEFAULT_PASSWORD: "supersecret"     # ÄNDRA
+      PGADMIN_CONFIG_ENHANCED_COOKIE_PROTECTION: "True"
+      PGADMIN_CONFIG_CONSOLE_LOG_LEVEL: "10"
+      TZ: "Europe/Stockholm"
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"   # [NY] Slipper master-lösen vid inloggning
+      PGPASSFILE: "/var/lib/pgadmin/pgpass"              # [NY] Pekar ut pgpass så pgAdmin kan logga in direkt
+    volumes:
+      - ./storage/pgadmin:/var/lib/pgadmin
+      - ./storage/pgadmin-servers/servers.json:/pgadmin4/servers.json:ro   # [NY] Auto-registrera servrar vid första start
+      - ./storage/pgadmin-servers/pgpass:/var/lib/pgadmin/pgpass:ro        # [NY] Lösenord för anslutningar (0600 på host!)
+      # För att förhandsregistrera servrar kan du lägga en servers.json här:
+      # - ./storage/pgadmin-servers/servers.json:/pgadmin4/servers.json
+    networks: [nocobase]
+    depends_on:
+      - postgres
+      - pgvector
+    ports:
+      - "13001:80"   # <-- ÄNDRA VÄNSTER SIDA för extern pgAdmin-port (t.ex. 5050:80)

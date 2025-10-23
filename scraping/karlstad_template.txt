@@ -1,0 +1,47 @@
+import { test, expect } from '@playwright/test';
+
+test.use({
+  viewport: {
+    height: 1440,
+    width: 3440
+  }
+});
+
+test('test', async ({ page }) => {
+  await page.goto('https://karlstad.rbok.se/foreningsregister');
+  await page.getByRole('link', { name: 'Show more information about ABF Värmland' }).click();
+  await page.getByLabel('ABF Värmland', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Acksjöbygdens lokalförening' }).click();
+  await page.getByLabel('Acksjöbygdens lokalförening', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Afghanska Kultur förening i Karlstad' }).click();
+  await page.getByLabel('Afghanska Kultur förening i Karlstad', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Bygdeföreningen Krävikroten' }).click();
+  await page.getByLabel('Bygdeföreningen Krävikroten', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Capoeira Angola Karlstad' }).click();
+  await page.getByLabel('Capoeira Angola Karlstad', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Bujinkan Solstaden Dojo IF' }).click();
+  await page.getByLabel('Bujinkan Solstaden Dojo IF', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about BK Orion' }).click();
+  await page.getByLabel('BK Orion', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Show more information about Edsvalla IF' }).nth(1).click();
+  await page.getByLabel('Edsvalla IF', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Carlstads-Gillet' }).click();
+  await page.getByLabel('Carlstads-Gillet', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Folkteatern Järnet' }).nth(1).click();
+  await page.getByLabel('Folkteatern Järnet', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Friluftsfrämjandet Karlstad' }).click();
+  await page.getByLabel('Friluftsfrämjandet Karlstad', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Show more information about Gustaf Fröding-sällskapet' }).nth(1).click();
+  await page.getByLabel('Gustaf Fröding-sällskapet', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Föreningen Karlstad badminton' }).click();
+  await page.getByLabel('Föreningen Karlstad badminton', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Herrhagens IF' }).click();
+  await page.getByLabel('Herrhagens IF', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Last' }).click();
+  await page.getByRole('link', { name: 'Show more information about Ölmhults Intresseförening' }).click();
+  await page.getByLabel('Ölmhults Intresseförening', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Östra Fågelviks Hembygdsförening' }).click();
+  await page.getByLabel('Östra Fågelviks Hembygdsförening', { exact: true }).getByText('Close').click();
+});
