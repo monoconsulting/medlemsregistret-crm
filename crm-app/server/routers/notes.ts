@@ -66,6 +66,7 @@ export const noteRouter = router({
         description: `${authorName} skapade en ny anteckning`,
         userId: ctx.session!.user.id,
         userName: authorName,
+        metadata: { noteId: note.id },
       },
     })
 
@@ -110,6 +111,7 @@ export const noteRouter = router({
           description: `${ctx.session?.user.name ?? 'En användare'} uppdaterade en anteckning`,
           userId: ctx.session!.user.id,
           userName: ctx.session?.user.name ?? 'Okänd användare',
+          metadata: { noteId: note.id },
         },
       })
 
@@ -139,6 +141,7 @@ export const noteRouter = router({
           description: `${ctx.session?.user.name ?? 'En användare'} tog bort en anteckning`,
           userId: ctx.session!.user.id,
           userName: ctx.session?.user.name ?? 'Okänd användare',
+          metadata: { noteId: note.id },
         },
       })
 

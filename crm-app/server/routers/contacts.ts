@@ -101,20 +101,39 @@ export const contactRouter = router({
     }),
 
   create: protectedProcedure.input(baseContactSchema).mutation(async ({ ctx, input }) => {
-    const contact = await ctx.db.contact.create({
-      data: {
-        ...input,
-      },
-    })
+    const contact = await ctx.db.$transaction(async (tx) => {
+      const existingPrimary = await tx.contact.findFirst({
+        where: { associationId: input.associationId, isPrimary: true },
+        select: { id: true },
+      })
 
-    await ctx.db.activity.create({
-      data: {
-        associationId: input.associationId,
-        type: 'CONTACT_ADDED',
-        description: `${ctx.session?.user.name ?? 'En användare'} lade till en ny kontakt: ${input.name}`,
-        userId: ctx.session!.user.id,
-        userName: ctx.session?.user.name ?? 'Okänd användare',
-      },
+      const shouldBePrimary = input.isPrimary || !existingPrimary
+
+      if (shouldBePrimary) {
+        await tx.contact.updateMany({
+          where: { associationId: input.associationId },
+          data: { isPrimary: false },
+        })
+      }
+
+      const created = await tx.contact.create({
+        data: {
+          ...input,
+          isPrimary: shouldBePrimary,
+        },
+      })
+
+      await tx.activity.create({
+        data: {
+          associationId: input.associationId,
+          type: 'CONTACT_ADDED',
+          description: `${ctx.session?.user.name ?? 'En användare'} lade till en ny kontakt: ${input.name}`,
+          userId: ctx.session!.user.id,
+          userName: ctx.session?.user.name ?? 'Okänd användare',
+        },
+      })
+
+      return created
     })
 
     return contact
@@ -134,19 +153,56 @@ export const contactRouter = router({
         throw new TRPCError({ code: 'NOT_FOUND', message: 'Kontakt saknas' })
       }
 
-      const contact = await ctx.db.contact.update({
-        where: { id },
-        data,
-      })
+      const contact = await ctx.db.$transaction(async (tx) => {
+        const shouldBePrimary = data.isPrimary ?? existing.isPrimary
+        const targetAssociationId = data.associationId ?? existing.associationId
 
-      await ctx.db.activity.create({
-        data: {
-          associationId: contact.associationId,
-          type: 'UPDATED',
-          description: `${ctx.session?.user.name ?? 'En användare'} uppdaterade kontaktuppgifter för ${contact.name}`,
-          userId: ctx.session!.user.id,
-          userName: ctx.session?.user.name ?? 'Okänd användare',
-        },
+        if (shouldBePrimary) {
+          await tx.contact.updateMany({
+            where: {
+              associationId: targetAssociationId,
+              NOT: { id },
+            },
+            data: { isPrimary: false },
+          })
+        }
+
+        const updated = await tx.contact.update({
+          where: { id },
+          data: {
+            ...data,
+            isPrimary: shouldBePrimary,
+          },
+        })
+
+        if (!shouldBePrimary && existing.isPrimary) {
+          const replacement = await tx.contact.findFirst({
+            where: {
+              associationId: targetAssociationId,
+              NOT: { id },
+            },
+            orderBy: { createdAt: 'asc' },
+          })
+
+          if (replacement) {
+            await tx.contact.update({
+              where: { id: replacement.id },
+              data: { isPrimary: true },
+            })
+          }
+        }
+
+        await tx.activity.create({
+          data: {
+            associationId: updated.associationId,
+            type: 'UPDATED',
+            description: `${ctx.session?.user.name ?? 'En användare'} uppdaterade kontaktuppgifter för ${updated.name}`,
+            userId: ctx.session!.user.id,
+            userName: ctx.session?.user.name ?? 'Okänd användare',
+          },
+        })
+
+        return updated
       })
 
       return contact
@@ -155,16 +211,32 @@ export const contactRouter = router({
   delete: adminProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
-      const contact = await ctx.db.contact.delete({ where: { id: input.id } })
+      const contact = await ctx.db.$transaction(async (tx) => {
+        const deleted = await tx.contact.delete({ where: { id: input.id } })
 
-      await ctx.db.activity.create({
-        data: {
-          associationId: contact.associationId,
-          type: 'UPDATED',
-          description: `${ctx.session?.user.name ?? 'En administratör'} tog bort kontakten ${contact.name}`,
-          userId: ctx.session!.user.id,
-          userName: ctx.session?.user.name ?? 'Okänd administratör',
-        },
+        await tx.activity.create({
+          data: {
+            associationId: deleted.associationId,
+            type: 'UPDATED',
+            description: `Kontakt borttagen: ${deleted.name}`,
+            userId: ctx.session!.user.id,
+            userName: ctx.session?.user.name ?? 'Okänd administratör',
+          },
+        })
+
+        const newPrimary = await tx.contact.findFirst({
+          where: { associationId: deleted.associationId },
+          orderBy: { createdAt: 'asc' },
+        })
+
+        if (newPrimary) {
+          await tx.contact.update({
+            where: { id: newPrimary.id },
+            data: { isPrimary: true },
+          })
+        }
+
+        return deleted
       })
 
       return contact
