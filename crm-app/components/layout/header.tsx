@@ -1,6 +1,6 @@
 "use client"
 
-import { Bell, User } from "lucide-react"
+import { Bell, User, LogOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
@@ -11,8 +11,13 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
+import { useSession, signOut } from "next-auth/react"
+import { UserRole } from "@prisma/client"
 
 export function Header() {
+  const { data: session } = useSession()
+  const user = session?.user
+
   return (
     <header className="flex h-16 items-center justify-between border-b bg-white px-6">
       <div className="flex items-center gap-4">
@@ -40,13 +45,19 @@ export function Header() {
           <DropdownMenuContent className="w-56" align="end" forceMount>
             <DropdownMenuLabel className="font-normal">
               <div className="flex flex-col space-y-1">
-                <p className="text-sm font-medium leading-none">Admin</p>
+                <p className="text-sm font-medium leading-none">{user?.name ?? 'Användare'}</p>
                 <p className="text-xs leading-none text-muted-foreground">
-                  admin@medlemsregistret.se
+                  {user?.email ?? 'Ingen e-post angiven'}
                 </p>
               </div>
             </DropdownMenuLabel>
             <DropdownMenuSeparator />
+            {user?.role && (
+              <DropdownMenuItem className="text-xs uppercase tracking-wide text-muted-foreground">
+                Roll: {user.role === UserRole.ADMIN ? 'Administratör' : user.role === UserRole.MANAGER ? 'Ansvarig' : 'Användare'}
+              </DropdownMenuItem>
+            )}
+            {user?.role && <DropdownMenuSeparator />}
             <DropdownMenuItem>
               Profil
             </DropdownMenuItem>
@@ -54,7 +65,14 @@ export function Header() {
               Inställningar
             </DropdownMenuItem>
             <DropdownMenuSeparator />
-            <DropdownMenuItem>
+            <DropdownMenuItem
+              className="text-red-600 focus:text-red-600"
+              onSelect={(event) => {
+                event.preventDefault()
+                signOut({ callbackUrl: '/login' })
+              }}
+            >
+              <LogOut className="mr-2 h-4 w-4" />
               Logga ut
             </DropdownMenuItem>
           </DropdownMenuContent>

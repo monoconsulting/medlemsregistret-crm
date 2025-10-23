@@ -43,34 +43,34 @@
 ### ❌ EJ IMPLEMENTERAT / KVARSTÅR
 
 #### **Autentisering & Säkerhet**
-- [ ] NextAuth integration
-- [ ] tRPC middleware (isAuthed, isAdmin)
-- [ ] Protected routes middleware
-- [ ] RoleGuard komponent
-- [ ] User/Session modeller
+- [x] NextAuth integration
+- [x] tRPC middleware (isAuthed, isAdmin)
+- [x] Protected routes middleware
+- [x] RoleGuard komponent
+- [x] User/Session modeller
 
 #### **API Routers**
-- [ ] Contacts router (CRUD)
-- [ ] Notes router (CRUD med ägarkontroll)
-- [ ] Tags router (CRUD)
-- [ ] Groups router (CRUD + membership)
-- [ ] Export router (Excel/CSV/JSON)
-- [ ] AI router (analys, e-post, suggestions)
+- [x] Contacts router (CRUD)
+- [x] Notes router (CRUD med ägarkontroll)
+- [x] Tags router (CRUD)
+- [x] Groups router (CRUD + membership)
+- [x] Export router (Excel/CSV/JSON)
+- [x] AI router (analys, e-post, suggestions)
 
 #### **Avancerade Filter & Sök**
-- [ ] Multi-select filter komponenter
-- [ ] Datum-range picker
-- [ ] Avancerad filterpanel (types, activities, tags, etc.)
+- [x] Multi-select filter komponenter
+- [x] Datum-range picker
+- [x] Avancerad filterpanel (types, activities, tags, etc.)
 - [ ] Meilisearch/Typesense integration
-- [ ] Vyväxling (tabell/kort/karta)
-- [ ] Bulk actions toolbar
+- [x] Vyväxling (tabell/kort/karta)
+- [x] Bulk actions toolbar
 
 #### **Modaler & Formulär**
-- [ ] Redigera förening modal
-- [ ] Lägg till kontakt modal
-- [ ] Skicka e-post modal (med AI-draft)
-- [ ] React Hook Form integration
-- [ ] Zod validering för formulär
+- [x] Redigera förening modal
+- [x] Lägg till kontakt modal
+- [x] Skicka e-post modal (med AI-draft)
+- [x] React Hook Form integration
+- [x] Zod validering för formulär
 
 #### **Dashboard Funktionalitet**
 - [ ] Aktivitetsflöde med realtime
