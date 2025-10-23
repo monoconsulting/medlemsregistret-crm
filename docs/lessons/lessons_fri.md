@@ -12,6 +12,7 @@ Consolidated technical notes for all FRI-based municipal association registries.
 | Bromölla | bromolla_scrape.ts | 2025-10-23 | 056c1f79-3dee-4222-9443-f4f7be8a3796 | 139 | 10 | https://fri.bromolla.se/forening/ |
 | Järfälla | jarfalla_scrape.ts | 2025-10-22 | 757ab2b3-924f-42ad-97a5-84d095bf5d4b | 131 | 9 | https://jarfalla.fri-go.se/forening/ |
 | Årjäng | arjang_scrape.ts | 2025-10-22 | 44f552d2-6321-481b-8929-b1c4357c42bf | 111 | 8 | https://fri.arjang.se/FORENING/ |
+| **Askersund** | **askersund_scrape.ts** | **2025-10-23** | **23368fa3-69aa-4c7b-924f-38c09a0abd7b** | **45** | **3** | **https://friweb.askersund.se/forening/** |
 | Forshaga | forshaga_scrape.ts | 2025-10-23 | 386617ad-3416-4225-9f16-64da4cf42374 | 39 | 3 | https://forening.forshaga.se/ |
 
 ---
