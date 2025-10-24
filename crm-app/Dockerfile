@@ -26,6 +26,10 @@ COPY . .
 # Disable telemetry
 ENV NEXT_TELEMETRY_DISABLED 1
 
+# Set dummy DATABASE_URL for build (will be overridden at runtime)
+ENV DATABASE_URL="mysql://user:password@localhost:3306/db"
+ENV SKIP_ENV_VALIDATION=1
+
 # Build Next.js application
 RUN npm run build
 

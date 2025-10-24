@@ -1,7 +1,7 @@
 # docker-compose.yml för Next.js CRM Application
 # Startar MySQL, Redis, phpMyAdmin och Next.js app
 
-name: crm-nextjs
+name: crm-members-prod
 networks:
   crm-network:
     driver: bridge
@@ -24,7 +24,7 @@ services:
       # Initiera databas med migrations om du vill:
       # - ./prisma/migrations:/docker-entrypoint-initdb.d
     ports:
-      - "3306:3306"
+      - "3316:3306"
     networks:
       - crm-network
     healthcheck:
@@ -47,7 +47,7 @@ services:
       UPLOAD_LIMIT: 100M
       TZ: "Europe/Stockholm"
     ports:
-      - "8080:80"
+      - "8170:80"
     networks:
       - crm-network
     depends_on:
@@ -64,7 +64,7 @@ services:
     volumes:
       - ./storage/redis:/data
     ports:
-      - "6379:6379"
+      - "6179:6379"
     networks:
       - crm-network
     healthcheck:
@@ -90,10 +90,10 @@ services:
       
       # App
       NODE_ENV: "production"
-      NEXT_PUBLIC_APP_URL: "http://localhost:3000"
+      NEXT_PUBLIC_APP_URL: "http://localhost:3010"
       
       # NextAuth (lägg till dessa)
-      NEXTAUTH_URL: "http://localhost:3000"
+      NEXTAUTH_URL: "http://localhost:3010"
       NEXTAUTH_SECRET: "change_me_to_random_string_in_production"
       
       # AI Providers (valfritt)
@@ -102,13 +102,8 @@ services:
       # OLLAMA_HOST: "http://host.docker.internal:11434"
       
       TZ: "Europe/Stockholm"
-    volumes:
-      # Mount för development (ta bort i production)
-      - .:/app
-      - /app/node_modules
-      - /app/.next
     ports:
-      - "3000:3000"
+      - "3010:3000"
     networks:
       - crm-network
     depends_on:
@@ -116,8 +111,8 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
-    # Kör migrations vid start (kommentera bort om du inte vill)
-    command: sh -c "npx prisma migrate deploy && npm run start"
+    # Kör migrations vid start och starta app
+    command: sh -c "npx prisma migrate deploy && node server.js"
 
 volumes:
   mysql_data:

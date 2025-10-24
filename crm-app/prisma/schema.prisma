@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -10,9 +7,79 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Association {
-  id                String    @id @default(cuid())
+model Municipality {
+  id             String        @id @default(cuid())
+  name           String        @unique
+  code           String?       @unique
+  county         String?
+  region         String?
+  latitude       Float?
+  longitude      Float?
+  population     Int?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+  platform       String?
+  province       String?
+  registerStatus String?
+  registerUrl    String?       @db.Text
+  countyCode     String?
+  associations   Association[]
+  importBatches  ImportBatch[]
+  scrapeRuns     ScrapeRun[]
 
+  @@index([county])
+  @@index([province])
+  @@index([platform])
+  @@index([registerStatus])
+  @@index([region])
+}
+
+model Association {
+  id                  String               @id @default(cuid())
+  sourceSystem        String
+  scrapeRunId         String?
+  scrapedAt           DateTime
+  detailUrl           String?              @unique
+  name                String
+  orgNumber           String?
+  types               Json
+  activities          Json
+  categories          Json
+  homepageUrl         String?
+  streetAddress       String?
+  postalCode          String?
+  city                String?
+  email               String?
+  phone               String?
+  description         Json?
+  crmStatus           CrmStatus            @default(UNCONTACTED)
+  isMember            Boolean              @default(false)
+  memberSince         DateTime?
+  pipeline            Pipeline             @default(PROSPECT)
+  assignedTo          String?
+  listPageIndex       Int?
+  positionOnPage      Int?
+  paginationModel     String?
+  filterState         Json?
+  extras              Json?
+  createdAt           DateTime             @default(now())
+  updatedAt           DateTime             @updatedAt
+  municipalityId      String
+  importBatchId       String?
+  deletedAt           DateTime?
+  isDeleted           Boolean              @default(false)
+  descriptionFreeText String?              @db.Text
+  activityLog         Activity[]
+  importBatch         ImportBatch?         @relation(fields: [importBatchId], references: [id])
+  municipality        Municipality         @relation(fields: [municipalityId], references: [id])
+  scrapeRun           ScrapeRun?           @relation(fields: [scrapeRunId], references: [id])
+  contacts            Contact[]
+  descriptionSections DescriptionSection[]
+  groupMemberships    GroupMembership[]
+  notes               Note[]
+  tags                Tag[]                @relation("AssociationTags")
+
+<<<<<<< HEAD
   // Scraped data
   sourceSystem      String    // "FRI", "ActorSmartbook", "Rbok"
   municipality      String
@@ -67,14 +134,156 @@ model Association {
 
   @@index([municipality])
   @@index([municipality, scrapedAt])
+=======
+  @@index([municipalityId])
+  @@index([municipalityId, scrapedAt])
+>>>>>>> 75b7526 (updates)
   @@index([crmStatus, pipeline])
+  @@index([importBatchId])
+  @@index([scrapeRunId])
+  @@index([isDeleted])
   @@fulltext([name, city])
 }
 
+<<<<<<< HEAD
 enum UserRole {
   ADMIN
   MANAGER
   USER
+=======
+model Contact {
+  id            String      @id @default(cuid())
+  associationId String
+  name          String
+  role          String?
+  email         String?
+  phone         String?
+  mobile        String?
+  linkedinUrl   String?
+  facebookUrl   String?
+  twitterUrl    String?
+  instagramUrl  String?
+  isPrimary     Boolean     @default(false)
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  @@index([associationId])
+  @@index([email])
+}
+
+model DescriptionSection {
+  id            String      @id @default(cuid())
+  associationId String
+  title         String
+  data          Json
+  orderIndex    Int         @default(0)
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade, map: "descriptionsection_ibfk_1")
+
+  @@index([associationId])
+}
+
+model Note {
+  id            String      @id @default(cuid())
+  associationId String
+  content       String      @db.Text
+  tags          Json
+  authorId      String
+  authorName    String
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  @@index([associationId, createdAt])
+}
+
+model Tag {
+  id           String        @id @default(cuid())
+  name         String        @unique
+  color        String        @default("#3b82f6")
+  createdAt    DateTime      @default(now())
+  associations Association[] @relation("AssociationTags")
+}
+
+model Group {
+  id          String            @id @default(cuid())
+  name        String
+  description String?           @db.Text
+  searchQuery Json?
+  autoUpdate  Boolean           @default(false)
+  createdBy   String
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+  memberships GroupMembership[]
+}
+
+model GroupMembership {
+  id            String      @id @default(cuid())
+  groupId       String
+  associationId String
+  addedAt       DateTime    @default(now())
+  association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+  group         Group       @relation(fields: [groupId], references: [id], onDelete: Cascade)
+
+  @@unique([groupId, associationId])
+  @@index([associationId], map: "GroupMembership_associationId_fkey")
+}
+
+model Activity {
+  id            String       @id @default(cuid())
+  associationId String?
+  type          ActivityType
+  description   String
+  metadata      Json?
+  userId        String
+  userName      String
+  createdAt     DateTime     @default(now())
+  association   Association? @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  @@index([associationId, createdAt])
+  @@index([userId, createdAt])
+}
+
+model ScrapeRun {
+  id             String        @id @default(cuid())
+  status         String
+  startedAt      DateTime
+  completedAt    DateTime?
+  totalFound     Int?
+  totalProcessed Int?
+  errors         Json?
+  municipalityId String
+  associations   Association[]
+  municipality   Municipality  @relation(fields: [municipalityId], references: [id])
+
+  @@index([municipalityId, startedAt])
+}
+
+model ImportBatch {
+  id             String        @id @default(cuid())
+  municipalityId String
+  fileName       String
+  fileCount      Int           @default(1)
+  totalRecords   Int           @default(0)
+  importedCount  Int           @default(0)
+  updatedCount   Int           @default(0)
+  skippedCount   Int           @default(0)
+  errorCount     Int           @default(0)
+  status         String
+  importMode     String
+  errors         Json?
+  importedBy     String
+  importedByName String
+  createdAt      DateTime      @default(now())
+  completedAt    DateTime?
+  associations   Association[]
+  municipality   Municipality  @relation(fields: [municipalityId], references: [id])
+
+  @@index([municipalityId, createdAt])
+  @@index([status])
+>>>>>>> 75b7526 (updates)
 }
 
 enum CrmStatus {
@@ -96,6 +305,7 @@ enum Pipeline {
   CLOSED_LOST
 }
 
+<<<<<<< HEAD
 model Contact {
   id              String      @id @default(cuid())
   associationId   String
@@ -273,6 +483,8 @@ model VerificationToken {
   @@unique([identifier, token])
 }
 
+=======
+>>>>>>> 75b7526 (updates)
 enum ActivityType {
   CREATED
   UPDATED
@@ -284,6 +496,7 @@ enum ActivityType {
   TAG_ADDED
   MEMBER_CONVERTED
 }
+<<<<<<< HEAD
 
 enum TaskStatus {
   OPEN
@@ -313,3 +526,5 @@ model ScrapeRun {
 
   @@index([municipality, startedAt])
 }
+=======
+>>>>>>> 75b7526 (updates)

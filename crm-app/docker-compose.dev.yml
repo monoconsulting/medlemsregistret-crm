@@ -1,7 +1,7 @@
 # Docker-compose för DEVELOPMENT miljö
 # Använder volume mounts för hot reload
 
-name: crm-nextjs-dev
+name: crm-members-dev
 networks:
   crm-network:
     driver: bridge
@@ -14,15 +14,15 @@ services:
     image: mysql:8.0
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root_password_change_me
       MYSQL_DATABASE: crm_db
       MYSQL_USER: crm_user
       MYSQL_PASSWORD: crm_password
       TZ: "Europe/Stockholm"
     volumes:
-      - mysql_data:/var/lib/mysql
+      - ./storage/dev/mysql:/var/lib/mysql
     ports:
-      - "3306:3306"
+      - "${MYSQL_PORT:-3326}:3306"
     networks:
       - crm-network
     healthcheck:
@@ -45,7 +45,7 @@ services:
       UPLOAD_LIMIT: 100M
       TZ: "Europe/Stockholm"
     ports:
-      - "8080:80"
+      - "${PHPMYADMIN_PORT:-8270}:80"
     networks:
       - crm-network
     depends_on:
@@ -60,13 +60,13 @@ services:
     restart: always
     command: redis-server --appendonly yes --requirepass redis_dev
     volumes:
-      - redis_data:/data
+      - ./storage/dev/redis:/data
     ports:
-      - "6379:6379"
+      - "${REDIS_PORT:-6279}:6379"
     networks:
       - crm-network
     healthcheck:
-      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      test: ["CMD", "redis-cli", "--no-auth-warning", "-a", "redis_dev", "ping"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -81,19 +81,24 @@ services:
     restart: always
     environment:
       # Database
-      DATABASE_URL: "mysql://crm_user:crm_password@mysql:3306/crm_db"
+      DATABASE_URL: "mysql://crm_user:crm_password_change_me@mysql:3306/crm_db"
       
       # Redis
       REDIS_URL: "redis://:redis_dev@redis:6379"
       
       # App
       NODE_ENV: "development"
-      NEXT_PUBLIC_APP_URL: "http://localhost:3000"
+      NEXT_PUBLIC_APP_URL: "http://localhost:3020
       
       # NextAuth
-      NEXTAUTH_URL: "http://localhost:3000"
+      NEXTAUTH_URL: "http://localhost:3020
       NEXTAUTH_SECRET: "dev_secret_change_in_production"
-      
+    
+    # AI Providers (valfritt)
+    # OPENAI_API_KEY: "your-key-here"
+    # ANTHROPIC_API_KEY: "your-key-here"
+    # OLLAMA_HOST: "http://host.docker.internal:11434"
+    
       TZ: "Europe/Stockholm"
     volumes:
       # Volume mounts för hot reload
@@ -101,7 +106,7 @@ services:
       - /app/node_modules
       - /app/.next
     ports:
-      - "3000:3000"
+      - "${APP_PORT:-3020}:3000"
     networks:
       - crm-network
     depends_on:
@@ -111,7 +116,6 @@ services:
         condition: service_healthy
     # Development server med hot reload
     command: sh -c "npx prisma generate && npx prisma migrate deploy && npm run dev"
-
 volumes:
   mysql_data:
   redis_data:

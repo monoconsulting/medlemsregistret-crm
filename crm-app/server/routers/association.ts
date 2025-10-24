@@ -296,11 +296,11 @@ export const associationRouter = router({
       ctx.db.association.count({ where: { crmStatus: 'CONTACTED' } }),
       ctx.db.association.count({ where: { crmStatus: 'INTERESTED' } }),
       ctx.db.association.groupBy({
-        by: ['municipality'],
+        by: ['municipalityId'],
         _count: true,
         orderBy: {
           _count: {
-            municipality: 'desc',
+            municipalityId: 'desc',
           },
         },
         take: 5,
@@ -315,8 +315,8 @@ export const associationRouter = router({
       contacted,
       interested,
       conversionRate,
-      topMunicipalities: municipalities.map((m: { municipality: string; _count: number }) => ({
-        name: m.municipality,
+      topMunicipalities: municipalities.map((m: { municipalityId: string; _count: number }) => ({
+        name: m.municipalityId,
         count: m._count,
       })),
     }
