@@ -1,5 +1,7 @@
 import { z } from 'zod'
 import { router, publicProcedure, protectedProcedure } from '../trpc'
+import { Prisma } from '@prisma/client'
+import { TRPCError } from '@trpc/server'
 import { subDays, startOfDay, endOfDay, startOfMonth, endOfMonth, subMonths, format } from 'date-fns'
 import { sv } from 'date-fns/locale'
 import { getSearchClient } from '@/lib/search'
@@ -328,33 +330,218 @@ export const associationRouter = router({
       z.object({
         id: z.string(),
         data: z.object({
-          crmStatus: z.enum(['UNCONTACTED', 'CONTACTED', 'INTERESTED', 'NEGOTIATION', 'MEMBER', 'LOST', 'INACTIVE']).optional(),
-          pipeline: z.enum(['PROSPECT', 'QUALIFIED', 'PROPOSAL_SENT', 'FOLLOW_UP', 'CLOSED_WON', 'CLOSED_LOST']).optional(),
+          crmStatus: z
+            .enum(['UNCONTACTED', 'CONTACTED', 'INTERESTED', 'NEGOTIATION', 'MEMBER', 'LOST', 'INACTIVE'])
+            .optional(),
+          pipeline: z
+            .enum(['PROSPECT', 'QUALIFIED', 'PROPOSAL_SENT', 'FOLLOW_UP', 'CLOSED_WON', 'CLOSED_LOST'])
+            .optional(),
           isMember: z.boolean().optional(),
-          memberSince: z.date().optional(),
+          memberSince: z.date().nullable().optional(),
           assignedToId: z.string().nullable().optional(),
+          streetAddress: z.string().nullable().optional(),
+          postalCode: z.string().nullable().optional(),
+          city: z.string().nullable().optional(),
+          email: z.string().email().nullable().optional(),
+          phone: z.string().nullable().optional(),
+          homepageUrl: z.string().url().nullable().optional(),
+          activities: z.array(z.string()).optional(),
+          otherInformation: z.string().optional(),
+          descriptionFreeText: z.string().optional(),
+          notes: z.string().optional(),
         }),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const association = await ctx.db.association.update({
+      const existing = await ctx.db.association.findUnique({ where: { id: input.id } })
+      if (!existing) {
+        throw new TRPCError({ code: 'NOT_FOUND', message: 'Förening saknas' })
+      }
+
+      const { data } = input
+      const updateData: Prisma.AssociationUncheckedUpdateInput = {}
+      const changedFields: string[] = []
+
+      const toNullable = (value?: string | null) => {
+        if (value === undefined) return undefined
+        const trimmed = value?.trim()
+        return trimmed && trimmed.length ? trimmed : null
+      }
+
+      const arraysEqual = (a: string[], b: unknown) => {
+        if (!Array.isArray(b)) return false
+        if (a.length !== b.length) return false
+        return a.every((item, index) => item === b[index])
+      }
+
+      if (data.crmStatus && data.crmStatus !== existing.crmStatus) {
+        updateData.crmStatus = data.crmStatus
+        changedFields.push('crmStatus')
+      }
+
+      if (data.pipeline && data.pipeline !== existing.pipeline) {
+        updateData.pipeline = data.pipeline
+        changedFields.push('pipeline')
+      }
+
+      if (typeof data.isMember === 'boolean' && data.isMember !== existing.isMember) {
+        updateData.isMember = data.isMember
+        changedFields.push('isMember')
+      }
+
+      if (data.memberSince !== undefined) {
+        const nextMemberSince = data.memberSince ?? null
+        const currentMemberSince = existing.memberSince ?? null
+        const changed =
+          (nextMemberSince && !currentMemberSince) ||
+          (!nextMemberSince && currentMemberSince) ||
+          (nextMemberSince && currentMemberSince && nextMemberSince.getTime() !== currentMemberSince.getTime())
+        updateData.memberSince = nextMemberSince
+        if (changed) {
+          changedFields.push('memberSince')
+        }
+      }
+
+      if (data.assignedToId !== undefined) {
+        const nextAssigned = data.assignedToId ?? null
+        if (nextAssigned !== (existing.assignedToId ?? null)) {
+          changedFields.push('assignedToId')
+        }
+        updateData.assignedToId = nextAssigned
+      }
+
+      if (data.streetAddress !== undefined) {
+        const value = toNullable(data.streetAddress)
+        if (value !== existing.streetAddress) {
+          changedFields.push('streetAddress')
+        }
+        updateData.streetAddress = value
+      }
+
+      if (data.postalCode !== undefined) {
+        const value = toNullable(data.postalCode)
+        if (value !== existing.postalCode) {
+          changedFields.push('postalCode')
+        }
+        updateData.postalCode = value
+      }
+
+      if (data.city !== undefined) {
+        const value = toNullable(data.city)
+        if (value !== existing.city) {
+          changedFields.push('city')
+        }
+        updateData.city = value
+      }
+
+      if (data.email !== undefined) {
+        const value = toNullable(data.email?.toLowerCase() ?? null)
+        if (value !== existing.email) {
+          changedFields.push('email')
+        }
+        updateData.email = value
+      }
+
+      if (data.phone !== undefined) {
+        const value = toNullable(data.phone)
+        if (value !== existing.phone) {
+          changedFields.push('phone')
+        }
+        updateData.phone = value
+      }
+
+      if (data.homepageUrl !== undefined) {
+        const value = toNullable(data.homepageUrl)
+        if (value !== existing.homepageUrl) {
+          changedFields.push('homepageUrl')
+        }
+        updateData.homepageUrl = value
+      }
+
+      if (data.activities !== undefined) {
+        const normalizedActivities = data.activities.map((activity) => activity.trim()).filter(Boolean)
+        const existingActivities = Array.isArray(existing.activities)
+          ? (existing.activities as unknown[]).map((item) => String(item))
+          : []
+        updateData.activities = normalizedActivities
+        if (!arraysEqual(normalizedActivities, existingActivities)) {
+          changedFields.push('activities')
+        }
+      }
+
+      if (data.descriptionFreeText !== undefined) {
+        const nextDescription = data.descriptionFreeText.trim()
+        const normalizedDescription = nextDescription.length ? nextDescription : null
+        if (normalizedDescription !== (existing.descriptionFreeText ?? null)) {
+          changedFields.push('descriptionFreeText')
+        }
+        updateData.descriptionFreeText = normalizedDescription
+      }
+
+      if (data.otherInformation !== undefined) {
+        const trimmed = data.otherInformation.trim()
+        const extras =
+          existing.extras && typeof existing.extras === 'object' && !Array.isArray(existing.extras)
+            ? { ...(existing.extras as Record<string, unknown>) }
+            : {}
+        const previous = (extras.otherInformation as string | undefined) ?? ''
+        if (trimmed) {
+          extras.otherInformation = trimmed
+        } else {
+          delete extras.otherInformation
+        }
+        updateData.extras = Object.keys(extras).length ? (extras as Prisma.InputJsonValue) : Prisma.JsonNull
+        if (trimmed !== previous) {
+          changedFields.push('otherInformation')
+        }
+      }
+
+      const updated = await ctx.db.association.update({
         where: { id: input.id },
-        data: {
-          ...input.data,
-        },
+        data: updateData,
       })
 
-      await ctx.db.activity.create({
-        data: {
-          associationId: input.id,
-          type: 'STATUS_CHANGED',
-          description: `Status uppdaterad av ${ctx.session?.user?.name ?? 'okänd användare'}`,
-          userId: ctx.session!.user.id,
-          userName: ctx.session?.user?.name ?? 'Okänd användare',
-        },
-      })
+      const userName = ctx.session?.user?.name ?? 'Okänd användare'
 
-      return association
+      if (changedFields.length) {
+        const description = `Uppdaterade ${changedFields.join(', ')}`
+        await ctx.db.activity.create({
+          data: {
+            associationId: input.id,
+            type: changedFields.includes('crmStatus') ? 'STATUS_CHANGED' : 'UPDATED',
+            description: `${userName} ${description}`,
+            userId: ctx.session!.user.id,
+            userName,
+            metadata: { fields: changedFields },
+          },
+        })
+      }
+
+      const noteText = data.notes?.trim()
+      if (noteText) {
+        const note = await ctx.db.note.create({
+          data: {
+            associationId: input.id,
+            content: noteText,
+            tags: [],
+            authorId: ctx.session!.user.id,
+            authorName: userName,
+          },
+        })
+
+        await ctx.db.activity.create({
+          data: {
+            associationId: input.id,
+            type: 'NOTE_ADDED',
+            description: `${userName} skapade en ny anteckning`,
+            userId: ctx.session!.user.id,
+            userName,
+            metadata: { noteId: note.id },
+          },
+        })
+      }
+
+      return updated
     }),
 
   getMemberGrowth: protectedProcedure
@@ -419,28 +606,5 @@ export const associationRouter = router({
         name: m.municipality,
         count: m._count,
       }))
-    }),
-})
-    )
-    .mutation(async ({ ctx, input }) => {
-      const association = await ctx.db.association.update({
-        where: { id: input.id },
-        data: {
-          ...input.data,
-        },
-        })
-
-      // Create activity log
-      await ctx.db.activity.create({
-        data: {
-          associationId: input.id,
-          type: 'STATUS_CHANGED',
-          description: `Status uppdaterad av ${ctx.session?.user?.name ?? 'okänd användare'}`,
-          userId: ctx.session!.user.id,
-          userName: ctx.session?.user?.name ?? 'Okänd användare',
-        },
-      })
-
-      return association
     }),
 })

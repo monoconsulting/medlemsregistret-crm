@@ -37,6 +37,8 @@ model Municipality {
 model Association {
   id                  String               @id @default(cuid())
   sourceSystem        String
+  municipalityId      String?
+  municipality        String?
   scrapeRunId         String?
   scrapedAt           DateTime
   detailUrl           String?              @unique
@@ -52,11 +54,12 @@ model Association {
   email               String?
   phone               String?
   description         Json?
+  descriptionFreeText String?              @db.Text
   crmStatus           CrmStatus            @default(UNCONTACTED)
   isMember            Boolean              @default(false)
   memberSince         DateTime?
   pipeline            Pipeline             @default(PROSPECT)
-  assignedTo          String?
+  assignedToId        String?
   listPageIndex       Int?
   positionOnPage      Int?
   paginationModel     String?
@@ -64,80 +67,25 @@ model Association {
   extras              Json?
   createdAt           DateTime             @default(now())
   updatedAt           DateTime             @updatedAt
-  municipalityId      String
   importBatchId       String?
   deletedAt           DateTime?
   isDeleted           Boolean              @default(false)
-  descriptionFreeText String?              @db.Text
-  activityLog         Activity[]
+
+  assignedTo          User?                @relation("Association_assignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
   importBatch         ImportBatch?         @relation(fields: [importBatchId], references: [id])
-  municipality        Municipality         @relation(fields: [municipalityId], references: [id])
+  municipalityRecord  Municipality?        @relation(fields: [municipalityId], references: [id])
   scrapeRun           ScrapeRun?           @relation(fields: [scrapeRunId], references: [id])
+  activityLog         Activity[]
   contacts            Contact[]
   descriptionSections DescriptionSection[]
   groupMemberships    GroupMembership[]
   notes               Note[]
   tags                Tag[]                @relation("AssociationTags")
-
-<<<<<<< HEAD
-  // Scraped data
-  sourceSystem      String    // "FRI", "ActorSmartbook", "Rbok"
-  municipality      String
-  scrapeRunId       String
-  scrapedAt         DateTime
-  detailUrl         String?   @unique
-
-  // Core fields
-  name              String
-  orgNumber         String?
-  types             Json      // String[]
-  activities        Json      // String[]
-  categories        Json      // String[]
-
-  homepageUrl       String?
-  streetAddress     String?
-  postalCode        String?
-  city              String?
-  email             String?
-  phone             String?
-
-  // Structured description
-  description       Json?     // {sections: [...], free_text: "..."}
-
-  // CRM-specific fields
-  crmStatus         CrmStatus @default(UNCONTACTED)
-  isMember          Boolean   @default(false)
-  memberSince       DateTime?
-  pipeline          Pipeline  @default(PROSPECT)
-  assignedToId      String?
-  assignedTo        User?     @relation("Association_assignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
-
-  // Relations
-  contacts          Contact[]
-  notes             Note[]
-  tags              Tag[]     @relation("AssociationTags")
-  groupMemberships  GroupMembership[]
-  activityLog       Activity[]
-  tasks             Task[]
-
-  // Source navigation
-  listPageIndex     Int?
-  positionOnPage    Int?
-  paginationModel   String?
-  filterState       Json?
-
-  // Extras
-  extras            Json?     // {founded_year, fiscal_year_start, national_affiliation, etc}
-
-  createdAt         DateTime  @default(now())
-  updatedAt         DateTime  @updatedAt
+  tasks               Task[]
 
   @@index([municipality])
-  @@index([municipality, scrapedAt])
-=======
   @@index([municipalityId])
   @@index([municipalityId, scrapedAt])
->>>>>>> 75b7526 (updates)
   @@index([crmStatus, pipeline])
   @@index([importBatchId])
   @@index([scrapeRunId])
@@ -145,12 +93,6 @@ model Association {
   @@fulltext([name, city])
 }
 
-<<<<<<< HEAD
-enum UserRole {
-  ADMIN
-  MANAGER
-  USER
-=======
 model Contact {
   id            String      @id @default(cuid())
   associationId String
@@ -166,6 +108,7 @@ model Contact {
   isPrimary     Boolean     @default(false)
   createdAt     DateTime    @default(now())
   updatedAt     DateTime    @updatedAt
+
   association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
 
   @@index([associationId])
@@ -180,7 +123,8 @@ model DescriptionSection {
   orderIndex    Int         @default(0)
   createdAt     DateTime    @default(now())
   updatedAt     DateTime    @updatedAt
-  association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade, map: "descriptionsection_ibfk_1")
+
+  association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
 
   @@index([associationId])
 }
@@ -194,7 +138,9 @@ model Note {
   authorName    String
   createdAt     DateTime    @default(now())
   updatedAt     DateTime    @updatedAt
+
   association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+  author        User        @relation(fields: [authorId], references: [id], onDelete: Cascade)
 
   @@index([associationId, createdAt])
 }
@@ -208,15 +154,17 @@ model Tag {
 }
 
 model Group {
-  id          String            @id @default(cuid())
-  name        String
-  description String?           @db.Text
-  searchQuery Json?
-  autoUpdate  Boolean           @default(false)
-  createdBy   String
-  createdAt   DateTime          @default(now())
-  updatedAt   DateTime          @updatedAt
-  memberships GroupMembership[]
+  id            String            @id @default(cuid())
+  name          String
+  description   String?           @db.Text
+  searchQuery   Json?
+  autoUpdate    Boolean           @default(false)
+  createdById   String
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  createdBy     User              @relation(fields: [createdById], references: [id], onDelete: Cascade)
+  memberships   GroupMembership[]
 }
 
 model GroupMembership {
@@ -224,11 +172,12 @@ model GroupMembership {
   groupId       String
   associationId String
   addedAt       DateTime    @default(now())
+
   association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
   group         Group       @relation(fields: [groupId], references: [id], onDelete: Cascade)
 
   @@unique([groupId, associationId])
-  @@index([associationId], map: "GroupMembership_associationId_fkey")
+  @@index([associationId])
 }
 
 model Activity {
@@ -240,10 +189,88 @@ model Activity {
   userId        String
   userName      String
   createdAt     DateTime     @default(now())
+
   association   Association? @relation(fields: [associationId], references: [id], onDelete: Cascade)
 
   @@index([associationId, createdAt])
   @@index([userId, createdAt])
+}
+
+model Task {
+  id            String       @id @default(cuid())
+  title         String
+  description   String?
+  dueDate       DateTime?
+  status        TaskStatus   @default(OPEN)
+  priority      TaskPriority @default(MEDIUM)
+  associationId String?
+  assignedToId  String?
+  createdById   String
+  completedAt   DateTime?
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  association   Association? @relation(fields: [associationId], references: [id], onDelete: Cascade)
+  assignedTo    User?        @relation("TaskAssignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
+  createdBy     User         @relation("TaskCreatedBy", fields: [createdById], references: [id], onDelete: Cascade)
+
+  @@index([status, dueDate])
+  @@index([assignedToId, status])
+}
+
+model User {
+  id            String        @id @default(cuid())
+  name          String?
+  email         String?       @unique
+  emailVerified DateTime?
+  image         String?
+  role          UserRole      @default(USER)
+  passwordHash  String?
+
+  accounts      Account[]
+  sessions      Session[]
+  notes         Note[]
+  activities    Activity[]
+  createdGroups Group[]
+  associations  Association[] @relation("Association_assignedTo")
+  createdTasks  Task[]        @relation("TaskCreatedBy")
+  assignedTasks Task[]        @relation("TaskAssignedTo")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
 }
 
 model ScrapeRun {
@@ -255,6 +282,7 @@ model ScrapeRun {
   totalProcessed Int?
   errors         Json?
   municipalityId String
+
   associations   Association[]
   municipality   Municipality  @relation(fields: [municipalityId], references: [id])
 
@@ -278,12 +306,18 @@ model ImportBatch {
   importedByName String
   createdAt      DateTime      @default(now())
   completedAt    DateTime?
+
   associations   Association[]
   municipality   Municipality  @relation(fields: [municipalityId], references: [id])
 
   @@index([municipalityId, createdAt])
   @@index([status])
->>>>>>> 75b7526 (updates)
+}
+
+enum UserRole {
+  ADMIN
+  MANAGER
+  USER
 }
 
 enum CrmStatus {
@@ -305,198 +339,22 @@ enum Pipeline {
   CLOSED_LOST
 }
 
-<<<<<<< HEAD
-model Contact {
-  id              String      @id @default(cuid())
-  associationId   String
-  association     Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
-  name            String
-  role            String?
-  email           String?
-  phone           String?
-  mobile          String?
-
-  // Social media
-  linkedinUrl     String?
-  facebookUrl     String?
-  twitterUrl      String?
-  instagramUrl    String?
-
-  isPrimary       Boolean     @default(false)
-
-  createdAt       DateTime    @default(now())
-  updatedAt       DateTime    @updatedAt
-
-  @@index([associationId])
-  @@index([email])
-}
-
-model Note {
-  id              String      @id @default(cuid())
-  associationId   String
-  association     Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
-  content         String      @db.Text
-  tags            Json        // String[]
-  authorId        String      // User ID
-  author          User        @relation(fields: [authorId], references: [id], onDelete: Cascade)
-  authorName      String
-
-  createdAt       DateTime    @default(now())
-  updatedAt       DateTime    @updatedAt
-
-  @@index([associationId, createdAt])
-}
-
-model Tag {
-  id              String        @id @default(cuid())
-  name            String        @unique
-  color           String        @default("#3b82f6")
-  associations    Association[] @relation("AssociationTags")
-
-  createdAt       DateTime      @default(now())
-}
-
-model Group {
-  id              String            @id @default(cuid())
-  name            String
-  description     String?           @db.Text
-
-  // Search query that defines the group
-  searchQuery     Json?             // {municipality: "Stockholm", types: ["Idrottsförening"]}
-  autoUpdate      Boolean           @default(false)
-
-  memberships     GroupMembership[]
-  createdById     String
-  createdBy       User              @relation(fields: [createdById], references: [id], onDelete: Cascade)
-  createdAt       DateTime          @default(now())
-  updatedAt       DateTime          @updatedAt
-}
-
-model GroupMembership {
-  id              String      @id @default(cuid())
-  groupId         String
-  group           Group       @relation(fields: [groupId], references: [id], onDelete: Cascade)
-  associationId   String
-  association     Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
-  addedAt         DateTime    @default(now())
-
-  @@unique([groupId, associationId])
-}
-
-model Activity {
-  id              String        @id @default(cuid())
-  associationId   String?
-  association     Association?  @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
-  type            ActivityType
-  description     String
-  metadata        Json?
-
-  userId          String
-  user            User        @relation(fields: [userId], references: [id], onDelete: Cascade)
-  userName        String
-
-  createdAt       DateTime      @default(now())
-
-  @@index([associationId, createdAt])
-  @@index([userId, createdAt])
-}
-
-model Task {
-  id             String        @id @default(cuid())
-  title          String
-  description    String?
-  dueDate        DateTime?
-  status         TaskStatus    @default(OPEN)
-  priority       TaskPriority  @default(MEDIUM)
-
-  associationId  String?
-  association    Association?  @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
-  assignedToId   String?
-  assignedTo     User?         @relation("TaskAssignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
-
-  createdById    String
-  createdBy      User          @relation("TaskCreatedBy", fields: [createdById], references: [id], onDelete: Cascade)
-
-  completedAt    DateTime?
-  createdAt      DateTime      @default(now())
-  updatedAt      DateTime      @updatedAt
-
-  @@index([status, dueDate])
-  @@index([assignedToId, status])
-}
-
-model User {
-  id            String    @id @default(cuid())
-  name          String?
-  email         String?   @unique
-  emailVerified DateTime?
-  image         String?
-  role          UserRole  @default(USER)
-  passwordHash  String?
-
-  accounts      Account[]
-  sessions      Session[]
-  notes         Note[]
-  activities    Activity[]
-  createdGroups Group[]
-  associations  Association[] @relation("Association_assignedTo")
-  createdTasks  Task[]     @relation("TaskCreatedBy")
-  assignedTasks Task[]     @relation("TaskAssignedTo")
-}
-
-model Account {
-  id                String  @id @default(cuid())
-  userId            String
-  type              String
-  provider          String
-  providerAccountId String
-  refresh_token     String? @db.Text
-  access_token      String? @db.Text
-  expires_at        Int?
-  token_type        String?
-  scope             String?
-  id_token          String? @db.Text
-  session_state     String?
-  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-  @@unique([provider, providerAccountId])
-}
-
-model Session {
-  id           String   @id @default(cuid())
-  sessionToken String   @unique
-  userId       String
-  expires      DateTime
-  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-}
-
-model VerificationToken {
-  identifier String
-  token      String   @unique
-  expires    DateTime
-
-  @@unique([identifier, token])
-}
-
-=======
->>>>>>> 75b7526 (updates)
 enum ActivityType {
   CREATED
   UPDATED
   STATUS_CHANGED
   NOTE_ADDED
+  NOTE_UPDATED
+  NOTE_DELETED
+  CONTACT_ADDED
+  CONTACT_UPDATED
+  CONTACT_DELETED
   EMAIL_SENT
   CALL_MADE
   MEETING_SCHEDULED
   TAG_ADDED
   MEMBER_CONVERTED
 }
-<<<<<<< HEAD
 
 enum TaskStatus {
   OPEN
@@ -512,19 +370,3 @@ enum TaskPriority {
   HIGH
   CRITICAL
 }
-
-model ScrapeRun {
-  id              String      @id @default(cuid())
-  municipality    String
-  status          String      // "running", "completed", "failed"
-  startedAt       DateTime
-  completedAt     DateTime?
-
-  totalFound      Int?
-  totalProcessed  Int?
-  errors          Json?
-
-  @@index([municipality, startedAt])
-}
-=======
->>>>>>> 75b7526 (updates)
