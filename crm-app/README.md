@@ -119,8 +119,6 @@ Skriptet:
 - Grupperar filer per kommun och kör import i transaktioner (`new`, `update` och `replace`-lägen stöds via `--mode` flagga).
 - Skapar kommunposter vid behov och loggar resultat (skapade, uppdaterade, hoppade poster) i `ImportBatch`-tabellen.
 
-För att validera importer utan att skriva till databasen kan du köra `npm run db:import-fixtures -- --dry-run`.
-
 ### Utvecklingsserver
 
 ```bash
