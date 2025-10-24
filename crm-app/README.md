@@ -101,6 +101,20 @@ npm run db:push
 npm run db:studio
 ```
 
+### Importera scrapad testdata
+
+För att fylla databasen med de JSON/JSONL-filer som följer med projektet kör:
+
+```bash
+# Standardläge uppdaterar befintliga poster och skapar nya
+npm run db:import-fixtures
+
+# Välj importläge (new | update | replace)
+npm run db:import-fixtures -- --mode=replace
+```
+
+Skriptet hittar automatiskt fixture-filer under `scraping/out/` och packar upp `scraping.zip` vid behov. Varje kommun importeras i tur och ordning och loggar statistik för skapade, uppdaterade, hoppade poster och eventuella fel.
+
 ### Utvecklingsserver
 
 ```bash

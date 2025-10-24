@@ -105,8 +105,12 @@ export default function AssociationsPage() {
   const tagsQuery = trpc.tags.list.useQuery(undefined, { staleTime: 60_000 })
 
   const updateAssociation = trpc.association.update.useMutation({
-    onSuccess: () => {
+    onSuccess: (_data, variables) => {
       utils.association.list.invalidate(queryInput)
+      if (variables?.id) {
+        utils.association.getById.invalidate({ id: variables.id })
+        utils.notes.list.invalidate({ associationId: variables.id, limit: 20, cursor: null })
+      }
       toast({ title: "Förening uppdaterad" })
     },
     onError: (error) => {
@@ -225,6 +229,14 @@ export default function AssociationsPage() {
         isMember: values.isMember,
         memberSince: values.memberSince ? new Date(values.memberSince) : undefined,
         assignedToId: values.assignedToId ?? null,
+        email: values.email ?? null,
+        phone: values.phone ?? null,
+        streetAddress: values.streetAddress ?? null,
+        postalCode: values.postalCode ?? null,
+        city: values.city ?? null,
+        activities: values.activities,
+        descriptionFreeText: values.descriptionFreeText ?? null,
+        notes: values.notes,
       },
     })
   }

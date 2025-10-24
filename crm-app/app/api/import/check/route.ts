@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient()
+import { db } from '@/lib/db'
+import { parseImportFile } from '@/lib/importer'
 
 export async function POST(request: NextRequest) {
   try {
@@ -16,17 +15,8 @@ export async function POST(request: NextRequest) {
     }
 
     // Read and parse the file to extract municipality
-    const text = await file.text()
-    const lines = text.trim().split('\n')
-    const firstLine = lines[0]
-
-    let firstRecord
-    if (file.name.endsWith('.jsonl')) {
-      firstRecord = JSON.parse(firstLine)
-    } else {
-      const parsed = JSON.parse(text)
-      firstRecord = Array.isArray(parsed) ? parsed[0] : parsed
-    }
+    const parsed = parseImportFile(file.name, await file.text())
+    const firstRecord = parsed.records[0]
 
     const municipalityName = firstRecord?.municipality
     if (!municipalityName) {
@@ -37,7 +27,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Find municipality by name
-    const municipality = await prisma.municipality.findFirst({
+    const municipality = await db.municipality.findFirst({
       where: { name: municipalityName },
       select: { id: true, name: true }
     })
@@ -50,7 +40,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Count existing associations
-    const count = await prisma.association.count({
+    const count = await db.association.count({
       where: { municipalityId: municipality.id }
     })
 

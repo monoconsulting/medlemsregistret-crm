@@ -19,10 +19,19 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form'
+import {
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from '@/components/ui/form'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { associationUpdateSchema, CRM_STATUSES, PIPELINES, type AssociationUpdateInput } from '@/lib/validators/association'
+import { Textarea } from '@/components/ui/textarea'
 
 interface EditAssociationModalProps {
   open: boolean
@@ -35,6 +44,13 @@ interface EditAssociationModalProps {
     isMember: boolean
     memberSince: string | null
     assignedToId: string | null
+    email: string | null
+    phone: string | null
+    streetAddress: string | null
+    postalCode: string | null
+    city: string | null
+    activities?: string[] | null
+    descriptionFreeText?: string | null
   }
   users: { id: string; name: string }[]
   onSubmit: (values: AssociationUpdateInput) => Promise<void>
@@ -50,6 +66,15 @@ export function EditAssociationModal({ open, onOpenChange, association, users, o
       isMember: association.isMember,
       memberSince: association.memberSince ?? undefined,
       assignedToId: association.assignedToId ?? undefined,
+      email: association.email ?? undefined,
+      phone: association.phone ?? undefined,
+      streetAddress: association.streetAddress ?? undefined,
+      postalCode: association.postalCode ?? undefined,
+      city: association.city ?? undefined,
+      activities: Array.isArray(association.activities)
+        ? (association.activities as string[])
+        : [],
+      descriptionFreeText: association.descriptionFreeText ?? undefined,
       notes: '',
     },
   })
@@ -61,12 +86,31 @@ export function EditAssociationModal({ open, onOpenChange, association, users, o
       isMember: association.isMember,
       memberSince: association.memberSince ?? undefined,
       assignedToId: association.assignedToId ?? undefined,
+      email: association.email ?? undefined,
+      phone: association.phone ?? undefined,
+      streetAddress: association.streetAddress ?? undefined,
+      postalCode: association.postalCode ?? undefined,
+      city: association.city ?? undefined,
+      activities: Array.isArray(association.activities)
+        ? (association.activities as string[])
+        : [],
+      descriptionFreeText: association.descriptionFreeText ?? undefined,
       notes: '',
     })
   }, [association, form])
 
   const handleSubmit = async (values: AssociationUpdateInput) => {
-    await onSubmit(values)
+    await onSubmit({
+      ...values,
+      email: values.email?.trim() ? values.email.trim() : undefined,
+      phone: values.phone?.trim() ? values.phone.trim() : undefined,
+      streetAddress: values.streetAddress?.trim() ? values.streetAddress.trim() : undefined,
+      postalCode: values.postalCode?.trim() ? values.postalCode.trim() : undefined,
+      city: values.city?.trim() ? values.city.trim() : undefined,
+      activities: values.activities?.map((activity) => activity.trim()).filter(Boolean),
+      descriptionFreeText: values.descriptionFreeText?.trim() ? values.descriptionFreeText.trim() : undefined,
+      notes: values.notes?.trim() ?? '',
+    })
     onOpenChange(false)
   }
 
@@ -198,7 +242,131 @@ export function EditAssociationModal({ open, onOpenChange, association, users, o
                 <FormItem>
                   <FormLabel>Intern notering</FormLabel>
                   <FormControl>
-                    <Input placeholder="Syns inte för kund" {...field} />
+                    <Textarea placeholder="Syns inte för kund" rows={3} {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+              <FormField
+                control={form.control}
+                name="email"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>E-post</FormLabel>
+                    <FormControl>
+                      <Input
+                        type="email"
+                        placeholder="info@foreningen.se"
+                        value={field.value ?? ''}
+                        onChange={field.onChange}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="phone"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Telefon</FormLabel>
+                    <FormControl>
+                      <Input placeholder="08-123 45 67" value={field.value ?? ''} onChange={field.onChange} />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
+
+            <FormField
+              control={form.control}
+              name="streetAddress"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Adress</FormLabel>
+                  <FormControl>
+                    <Input placeholder="Exempelgatan 1" value={field.value ?? ''} onChange={field.onChange} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+              <FormField
+                control={form.control}
+                name="postalCode"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Postnummer</FormLabel>
+                    <FormControl>
+                      <Input placeholder="123 45" value={field.value ?? ''} onChange={field.onChange} />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="city"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Ort</FormLabel>
+                    <FormControl>
+                      <Input placeholder="Stockholm" value={field.value ?? ''} onChange={field.onChange} />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
+
+            <FormField
+              control={form.control}
+              name="activities"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Verksamheter</FormLabel>
+                  <FormControl>
+                    <Textarea
+                      rows={3}
+                      placeholder="Ange en aktivitet per rad"
+                      value={(field.value ?? []).join('\n')}
+                      onChange={(event) => {
+                        const entries = event.target.value
+                          .split('\n')
+                          .map((entry) => entry.trim())
+                          .filter(Boolean)
+                        field.onChange(entries)
+                      }}
+                    />
+                  </FormControl>
+                  <FormDescription>
+                    Lägg till aktiviteter eller verksamhetsområden för att underlätta filtrering och uppföljning.
+                  </FormDescription>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <FormField
+              control={form.control}
+              name="descriptionFreeText"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Övrig information</FormLabel>
+                  <FormControl>
+                    <Textarea
+                      rows={4}
+                      placeholder="Intern beskrivning eller extra information om föreningen"
+                      value={field.value ?? ''}
+                      onChange={field.onChange}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

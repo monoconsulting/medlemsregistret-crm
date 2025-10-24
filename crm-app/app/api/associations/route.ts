@@ -1,7 +1,5 @@
 import { NextResponse } from 'next/server'
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient()
+import { db } from '@/lib/db'
 
 export async function GET(request: Request) {
   try {
@@ -37,7 +35,7 @@ export async function GET(request: Request) {
       ]
     }
 
-    const associations = await prisma.association.findMany({
+    const associations = await db.association.findMany({
       where,
       select: {
         id: true,
@@ -60,12 +58,12 @@ export async function GET(request: Request) {
         description: true,
         descriptionFreeText: true,
         extras: true,
-        municipality: {
+        municipalityRef: {
           select: {
             id: true,
             name: true,
             platform: true,
-          }
+          },
         },
         contacts: {
           select: {

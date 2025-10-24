@@ -1,7 +1,5 @@
 import { NextResponse } from 'next/server'
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient()
+import { db } from '@/lib/db'
 
 export async function POST(
   request: Request,
@@ -11,7 +9,7 @@ export async function POST(
     const params = await context.params
     const { content, authorName } = await request.json()
 
-    const note = await prisma.note.create({
+    const note = await db.note.create({
       data: {
         content,
         authorName,

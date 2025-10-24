@@ -16,13 +16,13 @@ model Municipality {
   latitude       Float?
   longitude      Float?
   population     Int?
-  createdAt      DateTime      @default(now())
-  updatedAt      DateTime      @updatedAt
   platform       String?
   province       String?
   registerStatus String?
   registerUrl    String?       @db.Text
   countyCode     String?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
   associations   Association[]
   importBatches  ImportBatch[]
   scrapeRuns     ScrapeRun[]
@@ -37,7 +37,10 @@ model Municipality {
 model Association {
   id                  String               @id @default(cuid())
   sourceSystem        String
+  municipality        String
+  municipalityId      String
   scrapeRunId         String?
+  importBatchId       String?
   scrapedAt           DateTime
   detailUrl           String?              @unique
   name                String
@@ -52,92 +55,36 @@ model Association {
   email               String?
   phone               String?
   description         Json?
+  descriptionFreeText String?              @db.Text
   crmStatus           CrmStatus            @default(UNCONTACTED)
   isMember            Boolean              @default(false)
   memberSince         DateTime?
   pipeline            Pipeline             @default(PROSPECT)
-  assignedTo          String?
+  assignedToId        String?
   listPageIndex       Int?
   positionOnPage      Int?
   paginationModel     String?
   filterState         Json?
   extras              Json?
+  isDeleted           Boolean              @default(false)
+  deletedAt           DateTime?
   createdAt           DateTime             @default(now())
   updatedAt           DateTime             @updatedAt
-  municipalityId      String
-  importBatchId       String?
-  deletedAt           DateTime?
-  isDeleted           Boolean              @default(false)
-  descriptionFreeText String?              @db.Text
-  activityLog         Activity[]
+  municipalityRef     Municipality         @relation(fields: [municipalityId], references: [id])
   importBatch         ImportBatch?         @relation(fields: [importBatchId], references: [id])
-  municipality        Municipality         @relation(fields: [municipalityId], references: [id])
   scrapeRun           ScrapeRun?           @relation(fields: [scrapeRunId], references: [id])
+  assignedTo          User?                @relation("Association_assignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
   contacts            Contact[]
   descriptionSections DescriptionSection[]
   groupMemberships    GroupMembership[]
   notes               Note[]
   tags                Tag[]                @relation("AssociationTags")
-
-<<<<<<< HEAD
-  // Scraped data
-  sourceSystem      String    // "FRI", "ActorSmartbook", "Rbok"
-  municipality      String
-  scrapeRunId       String
-  scrapedAt         DateTime
-  detailUrl         String?   @unique
-
-  // Core fields
-  name              String
-  orgNumber         String?
-  types             Json      // String[]
-  activities        Json      // String[]
-  categories        Json      // String[]
-
-  homepageUrl       String?
-  streetAddress     String?
-  postalCode        String?
-  city              String?
-  email             String?
-  phone             String?
-
-  // Structured description
-  description       Json?     // {sections: [...], free_text: "..."}
-
-  // CRM-specific fields
-  crmStatus         CrmStatus @default(UNCONTACTED)
-  isMember          Boolean   @default(false)
-  memberSince       DateTime?
-  pipeline          Pipeline  @default(PROSPECT)
-  assignedToId      String?
-  assignedTo        User?     @relation("Association_assignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
-
-  // Relations
-  contacts          Contact[]
-  notes             Note[]
-  tags              Tag[]     @relation("AssociationTags")
-  groupMemberships  GroupMembership[]
-  activityLog       Activity[]
-  tasks             Task[]
-
-  // Source navigation
-  listPageIndex     Int?
-  positionOnPage    Int?
-  paginationModel   String?
-  filterState       Json?
-
-  // Extras
-  extras            Json?     // {founded_year, fiscal_year_start, national_affiliation, etc}
-
-  createdAt         DateTime  @default(now())
-  updatedAt         DateTime  @updatedAt
+  activityLog         Activity[]
+  tasks               Task[]
 
   @@index([municipality])
-  @@index([municipality, scrapedAt])
-=======
   @@index([municipalityId])
   @@index([municipalityId, scrapedAt])
->>>>>>> 75b7526 (updates)
   @@index([crmStatus, pipeline])
   @@index([importBatchId])
   @@index([scrapeRunId])
@@ -145,18 +92,12 @@ model Association {
   @@fulltext([name, city])
 }
 
-<<<<<<< HEAD
-enum UserRole {
-  ADMIN
-  MANAGER
-  USER
-=======
 model Contact {
   id            String      @id @default(cuid())
   associationId String
   name          String
   role          String?
-  email         String?
+  email         String?     @index
   phone         String?
   mobile        String?
   linkedinUrl   String?
@@ -169,7 +110,6 @@ model Contact {
   association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
 
   @@index([associationId])
-  @@index([email])
 }
 
 model DescriptionSection {
@@ -195,6 +135,7 @@ model Note {
   createdAt     DateTime    @default(now())
   updatedAt     DateTime    @updatedAt
   association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+  author        User        @relation(fields: [authorId], references: [id], onDelete: Cascade)
 
   @@index([associationId, createdAt])
 }
@@ -213,10 +154,11 @@ model Group {
   description String?           @db.Text
   searchQuery Json?
   autoUpdate  Boolean           @default(false)
-  createdBy   String
+  createdById String
   createdAt   DateTime          @default(now())
   updatedAt   DateTime          @updatedAt
   memberships GroupMembership[]
+  createdBy   User              @relation(fields: [createdById], references: [id], onDelete: Cascade)
 }
 
 model GroupMembership {
@@ -241,6 +183,7 @@ model Activity {
   userName      String
   createdAt     DateTime     @default(now())
   association   Association? @relation(fields: [associationId], references: [id], onDelete: Cascade)
+  user          User         @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([associationId, createdAt])
   @@index([userId, createdAt])
@@ -271,6 +214,7 @@ model ImportBatch {
   updatedCount   Int           @default(0)
   skippedCount   Int           @default(0)
   errorCount     Int           @default(0)
+  deletedCount   Int           @default(0)
   status         String
   importMode     String
   errors         Json?
@@ -283,7 +227,6 @@ model ImportBatch {
 
   @@index([municipalityId, createdAt])
   @@index([status])
->>>>>>> 75b7526 (updates)
 }
 
 enum CrmStatus {
@@ -305,104 +248,34 @@ enum Pipeline {
   CLOSED_LOST
 }
 
-<<<<<<< HEAD
-model Contact {
-  id              String      @id @default(cuid())
-  associationId   String
-  association     Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
-  name            String
-  role            String?
-  email           String?
-  phone           String?
-  mobile          String?
-
-  // Social media
-  linkedinUrl     String?
-  facebookUrl     String?
-  twitterUrl      String?
-  instagramUrl    String?
-
-  isPrimary       Boolean     @default(false)
-
-  createdAt       DateTime    @default(now())
-  updatedAt       DateTime    @updatedAt
-
-  @@index([associationId])
-  @@index([email])
+enum ActivityType {
+  CREATED
+  UPDATED
+  STATUS_CHANGED
+  NOTE_ADDED
+  NOTE_UPDATED
+  NOTE_DELETED
+  CONTACT_ADDED
+  EMAIL_SENT
+  CALL_MADE
+  MEETING_SCHEDULED
+  TAG_ADDED
+  MEMBER_CONVERTED
 }
 
-model Note {
-  id              String      @id @default(cuid())
-  associationId   String
-  association     Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
-  content         String      @db.Text
-  tags            Json        // String[]
-  authorId        String      // User ID
-  author          User        @relation(fields: [authorId], references: [id], onDelete: Cascade)
-  authorName      String
-
-  createdAt       DateTime    @default(now())
-  updatedAt       DateTime    @updatedAt
-
-  @@index([associationId, createdAt])
+enum TaskStatus {
+  OPEN
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+  BLOCKED
 }
 
-model Tag {
-  id              String        @id @default(cuid())
-  name            String        @unique
-  color           String        @default("#3b82f6")
-  associations    Association[] @relation("AssociationTags")
-
-  createdAt       DateTime      @default(now())
-}
-
-model Group {
-  id              String            @id @default(cuid())
-  name            String
-  description     String?           @db.Text
-
-  // Search query that defines the group
-  searchQuery     Json?             // {municipality: "Stockholm", types: ["Idrottsförening"]}
-  autoUpdate      Boolean           @default(false)
-
-  memberships     GroupMembership[]
-  createdById     String
-  createdBy       User              @relation(fields: [createdById], references: [id], onDelete: Cascade)
-  createdAt       DateTime          @default(now())
-  updatedAt       DateTime          @updatedAt
-}
-
-model GroupMembership {
-  id              String      @id @default(cuid())
-  groupId         String
-  group           Group       @relation(fields: [groupId], references: [id], onDelete: Cascade)
-  associationId   String
-  association     Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
-  addedAt         DateTime    @default(now())
-
-  @@unique([groupId, associationId])
-}
-
-model Activity {
-  id              String        @id @default(cuid())
-  associationId   String?
-  association     Association?  @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
-  type            ActivityType
-  description     String
-  metadata        Json?
-
-  userId          String
-  user            User        @relation(fields: [userId], references: [id], onDelete: Cascade)
-  userName        String
-
-  createdAt       DateTime      @default(now())
-
-  @@index([associationId, createdAt])
-  @@index([userId, createdAt])
+enum TaskPriority {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
 }
 
 model Task {
@@ -412,19 +285,15 @@ model Task {
   dueDate        DateTime?
   status         TaskStatus    @default(OPEN)
   priority       TaskPriority  @default(MEDIUM)
-
   associationId  String?
-  association    Association?  @relation(fields: [associationId], references: [id], onDelete: Cascade)
-
   assignedToId   String?
-  assignedTo     User?         @relation("TaskAssignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
-
   createdById    String
-  createdBy      User          @relation("TaskCreatedBy", fields: [createdById], references: [id], onDelete: Cascade)
-
   completedAt    DateTime?
   createdAt      DateTime      @default(now())
   updatedAt      DateTime      @updatedAt
+  association    Association?  @relation(fields: [associationId], references: [id], onDelete: Cascade)
+  assignedTo     User?         @relation("TaskAssignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
+  createdBy      User          @relation("TaskCreatedBy", fields: [createdById], references: [id], onDelete: Cascade)
 
   @@index([status, dueDate])
   @@index([assignedToId, status])
@@ -438,15 +307,20 @@ model User {
   image         String?
   role          UserRole  @default(USER)
   passwordHash  String?
-
   accounts      Account[]
   sessions      Session[]
   notes         Note[]
   activities    Activity[]
   createdGroups Group[]
   associations  Association[] @relation("Association_assignedTo")
-  createdTasks  Task[]     @relation("TaskCreatedBy")
-  assignedTasks Task[]     @relation("TaskAssignedTo")
+  createdTasks  Task[]        @relation("TaskCreatedBy")
+  assignedTasks Task[]        @relation("TaskAssignedTo")
+}
+
+enum UserRole {
+  ADMIN
+  MANAGER
+  USER
 }
 
 model Account {
@@ -482,49 +356,3 @@ model VerificationToken {
 
   @@unique([identifier, token])
 }
-
-=======
->>>>>>> 75b7526 (updates)
-enum ActivityType {
-  CREATED
-  UPDATED
-  STATUS_CHANGED
-  NOTE_ADDED
-  EMAIL_SENT
-  CALL_MADE
-  MEETING_SCHEDULED
-  TAG_ADDED
-  MEMBER_CONVERTED
-}
-<<<<<<< HEAD
-
-enum TaskStatus {
-  OPEN
-  IN_PROGRESS
-  COMPLETED
-  CANCELLED
-  BLOCKED
-}
-
-enum TaskPriority {
-  LOW
-  MEDIUM
-  HIGH
-  CRITICAL
-}
-
-model ScrapeRun {
-  id              String      @id @default(cuid())
-  municipality    String
-  status          String      // "running", "completed", "failed"
-  startedAt       DateTime
-  completedAt     DateTime?
-
-  totalFound      Int?
-  totalProcessed  Int?
-  errors          Json?
-
-  @@index([municipality, startedAt])
-}
-=======
->>>>>>> 75b7526 (updates)

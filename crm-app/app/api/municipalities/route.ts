@@ -1,13 +1,11 @@
 import { NextResponse } from 'next/server'
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient()
+import { db } from '@/lib/db'
 
 // Updated to include all municipality fields
 
 export async function GET() {
   try {
-    const municipalities = await prisma.municipality.findMany({
+    const municipalities = await db.municipality.findMany({
       select: {
         id: true,
         name: true,

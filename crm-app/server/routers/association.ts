@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { router, publicProcedure, protectedProcedure } from '../trpc'
+import { Prisma } from '@prisma/client'
 import { subDays, startOfDay, endOfDay, startOfMonth, endOfMonth, subMonths, format } from 'date-fns'
 import { sv } from 'date-fns/locale'
 import { getSearchClient } from '@/lib/search'
@@ -331,27 +332,107 @@ export const associationRouter = router({
           crmStatus: z.enum(['UNCONTACTED', 'CONTACTED', 'INTERESTED', 'NEGOTIATION', 'MEMBER', 'LOST', 'INACTIVE']).optional(),
           pipeline: z.enum(['PROSPECT', 'QUALIFIED', 'PROPOSAL_SENT', 'FOLLOW_UP', 'CLOSED_WON', 'CLOSED_LOST']).optional(),
           isMember: z.boolean().optional(),
-          memberSince: z.date().optional(),
+          memberSince: z.date().nullable().optional(),
           assignedToId: z.string().nullable().optional(),
+          streetAddress: z.string().max(255).nullable().optional(),
+          postalCode: z.string().max(20).nullable().optional(),
+          city: z.string().max(120).nullable().optional(),
+          email: z.string().email().nullable().optional(),
+          phone: z.string().nullable().optional(),
+          activities: z.array(z.string()).optional(),
+          descriptionFreeText: z.string().nullable().optional(),
+          notes: z.string().optional(),
         }),
       })
     )
     .mutation(async ({ ctx, input }) => {
-      const association = await ctx.db.association.update({
-        where: { id: input.id },
-        data: {
-          ...input.data,
-        },
-      })
+      const {
+        notes,
+        activities,
+        crmStatus,
+        pipeline,
+        isMember,
+        memberSince,
+        assignedToId,
+        streetAddress,
+        postalCode,
+        city,
+        email,
+        phone,
+        descriptionFreeText,
+      } = input.data
 
-      await ctx.db.activity.create({
-        data: {
-          associationId: input.id,
-          type: 'STATUS_CHANGED',
-          description: `Status uppdaterad av ${ctx.session?.user?.name ?? 'okänd användare'}`,
-          userId: ctx.session!.user.id,
-          userName: ctx.session?.user?.name ?? 'Okänd användare',
-        },
+      const updateData: Prisma.AssociationUpdateInput = {
+        ...(crmStatus ? { crmStatus } : {}),
+        ...(pipeline ? { pipeline } : {}),
+        ...(typeof isMember === 'boolean' ? { isMember } : {}),
+        memberSince: memberSince === undefined ? undefined : memberSince,
+        assignedToId: assignedToId === undefined ? undefined : assignedToId,
+        streetAddress: streetAddress === undefined ? undefined : streetAddress ?? null,
+        postalCode: postalCode === undefined ? undefined : postalCode ?? null,
+        city: city === undefined ? undefined : city ?? null,
+        email: email === undefined ? undefined : email ?? null,
+        phone: phone === undefined ? undefined : phone ?? null,
+        descriptionFreeText: descriptionFreeText === undefined ? undefined : descriptionFreeText ?? null,
+        activities:
+          activities === undefined
+            ? undefined
+            : (activities as unknown as Prisma.JsonValue),
+      }
+
+      const userId = ctx.session!.user.id
+      const userName = ctx.session?.user?.name ?? 'Okänd användare'
+      const noteContent = notes?.trim()
+
+      const { association } = await ctx.db.$transaction(async (tx) => {
+        const previous = await tx.association.findUnique({
+          where: { id: input.id },
+          select: { crmStatus: true, pipeline: true },
+        })
+
+        const updated = await tx.association.update({
+          where: { id: input.id },
+          data: updateData,
+        })
+
+        const statusChanged =
+          (crmStatus && previous?.crmStatus !== crmStatus) ||
+          (pipeline && previous?.pipeline !== pipeline)
+
+        await tx.activity.create({
+          data: {
+            associationId: input.id,
+            type: statusChanged ? 'STATUS_CHANGED' : 'UPDATED',
+            description: `${userName} uppdaterade föreningen`,
+            userId,
+            userName,
+          },
+        })
+
+        if (noteContent) {
+          const note = await tx.note.create({
+            data: {
+              associationId: input.id,
+              content: noteContent,
+              tags: [] as Prisma.JsonValue,
+              authorId: userId,
+              authorName: userName,
+            },
+          })
+
+          await tx.activity.create({
+            data: {
+              associationId: input.id,
+              type: 'NOTE_ADDED',
+              description: `${userName} skapade en anteckning`,
+              userId,
+              userName,
+              metadata: { noteId: note.id } as Prisma.JsonValue,
+            },
+          })
+        }
+
+        return { association: updated }
       })
 
       return association
@@ -419,28 +500,5 @@ export const associationRouter = router({
         name: m.municipality,
         count: m._count,
       }))
-    }),
-})
-    )
-    .mutation(async ({ ctx, input }) => {
-      const association = await ctx.db.association.update({
-        where: { id: input.id },
-        data: {
-          ...input.data,
-        },
-        })
-
-      // Create activity log
-      await ctx.db.activity.create({
-        data: {
-          associationId: input.id,
-          type: 'STATUS_CHANGED',
-          description: `Status uppdaterad av ${ctx.session?.user?.name ?? 'okänd användare'}`,
-          userId: ctx.session!.user.id,
-          userName: ctx.session?.user?.name ?? 'Okänd användare',
-        },
-      })
-
-      return association
     }),
 })

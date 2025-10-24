@@ -29,6 +29,13 @@ export const associationUpdateSchema = z.object({
   isMember: z.boolean(),
   memberSince: z.string().nullable().optional(),
   assignedToId: z.string().nullable().optional(),
+  streetAddress: z.string().max(255).optional(),
+  postalCode: z.string().max(20).optional(),
+  city: z.string().max(120).optional(),
+  email: z.string().email().optional(),
+  phone: z.string().optional(),
+  activities: z.array(z.string()).optional(),
+  descriptionFreeText: z.string().optional(),
   notes: z.string().optional(),
 })
 
