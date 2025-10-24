@@ -101,6 +101,24 @@ npm run db:push
 npm run db:studio
 ```
 
+### Importera fixtures
+
+Det finns färdiga JSON/JSONL-fixtures under `scraping/out/` samt i arkivet `scraping.zip`. För att hydrera databasen lokalt:
+
+1. Säkerställ att en MySQL-instans körs och att `DATABASE_URL` pekar på databasen.
+2. Installera `unzip` om det inte redan finns (skriptet använder systemets `unzip`-kommando för att läsa arkivet).
+3. Kör:
+
+```bash
+npm run db:import-fixtures
+```
+
+Skriptet:
+
+- Hittar automatiskt JSON/JSONL-filer i `scraping/out/` och i `scraping.zip`.
+- Grupperar filer per kommun och kör import i transaktioner (`new`, `update` och `replace`-lägen stöds via `--mode` flagga).
+- Skapar kommunposter vid behov och loggar resultat (skapade, uppdaterade, hoppade poster) i `ImportBatch`-tabellen.
+
 ### Utvecklingsserver
 
 ```bash
@@ -114,6 +132,19 @@ npm run dev
 ```bash
 npm run build
 npm start
+```
+
+## Kvalitetssäkring
+
+```bash
+# ESLint
+npm run lint
+
+# Playwright-smoketest för kommunlistan
+npm run test:municipalities
+
+# Kombinerad lint + smoketest
+npm run check:smoke
 ```
 
 ## Huvudfunktioner
@@ -175,7 +206,7 @@ npm start
 
 ## Nästa Steg
 
-- [ ] Skapa databas seeders från scrapad data
+- [x] Skapa databas seeders från scrapad data
 - [ ] Implementera fulltextsök med Meilisearch/Typesense
 - [ ] Bygga ut Dashboard med riktiga grafer (Recharts)
 - [ ] Implementera Kommunöversikt med Sverigekarta

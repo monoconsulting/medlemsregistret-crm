@@ -13,17 +13,18 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { Search, Filter, Plus, Loader2, RefreshCcw, Mail, UserPlus, Pencil, Map } from "lucide-react"
+import { Search, Filter, Plus, Loader2, RefreshCcw, Mail, UserPlus, Pencil, Map, UserRoundPen } from "lucide-react"
 import { AdvancedFilterPanel, type AdvancedFilterState } from "@/components/filters/advanced-filter-panel"
 import { MultiSelectOption } from "@/components/filters/multi-select-filter"
 import { BulkActionsToolbar } from "@/components/filters/bulk-actions-toolbar"
 import { ViewToggle, type ViewMode } from "@/components/filters/view-toggle"
 import { EditAssociationModal } from "@/components/modals/edit-association-modal"
 import { AddContactModal } from "@/components/modals/add-contact-modal"
+import { EditContactModal } from "@/components/modals/edit-contact-modal"
 import { SendEmailModal } from "@/components/modals/send-email-modal"
 import { trpc } from "@/lib/trpc/client"
 import { CRM_STATUSES, PIPELINES, type AssociationUpdateInput } from "@/lib/validators/association"
-import type { ContactFormValues } from "@/lib/validators/contact"
+import type { ContactFormValues, ContactUpdateValues } from "@/lib/validators/contact"
 import type { EmailComposerValues } from "@/lib/validators/email"
 import { toast } from "@/hooks/use-toast"
 
@@ -71,6 +72,13 @@ export default function AssociationsPage() {
 
   const [editTarget, setEditTarget] = useState<AssociationListItem | null>(null)
   const [contactTarget, setContactTarget] = useState<AssociationListItem | null>(null)
+  const [contactEditTarget, setContactEditTarget] = useState<
+    | {
+        association: AssociationListItem
+        contact: NonNullable<AssociationListItem["contacts"]>[number]
+      }
+    | null
+  >(null)
   const [emailTarget, setEmailTarget] = useState<AssociationListItem | null>(null)
 
   const queryInput = useMemo(() => {
@@ -120,6 +128,22 @@ export default function AssociationsPage() {
       utils.association.list.invalidate(queryInput)
     },
     onError: (error) => toast({ title: "Kunde inte skapa kontakt", description: error.message, variant: "destructive" }),
+  })
+
+  const updateContact = trpc.contacts.update.useMutation({
+    onSuccess: () => {
+      toast({ title: "Kontakt uppdaterad" })
+      utils.association.list.invalidate(queryInput)
+    },
+    onError: (error) => toast({ title: "Kunde inte uppdatera kontakt", description: error.message, variant: "destructive" }),
+  })
+
+  const deleteContactMutation = trpc.contacts.delete.useMutation({
+    onSuccess: () => {
+      toast({ title: "Kontakt borttagen" })
+      utils.association.list.invalidate(queryInput)
+    },
+    onError: (error) => toast({ title: "Kunde inte ta bort kontakt", description: error.message, variant: "destructive" }),
   })
 
   const exportAssociations = trpc.export.associations.useMutation({
@@ -225,12 +249,33 @@ export default function AssociationsPage() {
         isMember: values.isMember,
         memberSince: values.memberSince ? new Date(values.memberSince) : undefined,
         assignedToId: values.assignedToId ?? null,
+        streetAddress: values.streetAddress ?? null,
+        postalCode: values.postalCode ?? null,
+        city: values.city ?? null,
+        email: values.email ?? null,
+        phone: values.phone ?? null,
+        homepageUrl: values.homepageUrl ?? null,
+        activities: values.activities ?? [],
+        otherInformation: values.otherInformation ?? '',
+        descriptionFreeText: values.descriptionFreeText ?? '',
+        notes: values.notes,
       },
     })
   }
 
   const handleCreateContact = async (values: ContactFormValues) => {
     await createContact.mutateAsync(values)
+    setContactTarget(null)
+  }
+
+  const handleUpdateContact = async (values: ContactUpdateValues) => {
+    await updateContact.mutateAsync(values)
+    setContactEditTarget(null)
+  }
+
+  const handleDeleteContact = async (contactId: string) => {
+    await deleteContactMutation.mutateAsync({ id: contactId })
+    setContactEditTarget(null)
   }
 
   const handleSendEmail = async (values: EmailComposerValues) => {
@@ -395,9 +440,20 @@ export default function AssociationsPage() {
                         <td className="px-4 py-3 text-sm text-muted-foreground">{association.pipeline}</td>
                         <td className="px-4 py-3 text-sm">
                           {primaryContact ? (
-                            <div className="flex flex-col">
-                              <span className="font-medium">{primaryContact.name}</span>
-                              <span className="text-xs text-muted-foreground">{primaryContact.email ?? "Ingen e-post"}</span>
+                            <div className="flex items-start justify-between gap-2">
+                              <div className="flex flex-col">
+                                <span className="font-medium">{primaryContact.name}</span>
+                                <span className="text-xs text-muted-foreground">{primaryContact.email ?? "Ingen e-post"}</span>
+                              </div>
+                              <Button
+                                size="icon"
+                                variant="ghost"
+                                onClick={() =>
+                                  setContactEditTarget({ association, contact: primaryContact })
+                                }
+                              >
+                                <UserRoundPen className="h-4 w-4" />
+                              </Button>
                             </div>
                           ) : (
                             <span className="text-xs text-muted-foreground">Ingen kontakt</span>
@@ -461,11 +517,22 @@ export default function AssociationsPage() {
                           </Badge>
                         ))}
                       </div>
-                      <div className="space-y-1 text-sm">
-                        <div className="font-medium">{primaryContact?.name ?? "Ingen kontakt"}</div>
-                        <div className="text-xs text-muted-foreground">
-                          {primaryContact?.email ?? "Ingen e-post"}
+                      <div className="flex items-start justify-between gap-2 text-sm">
+                        <div className="space-y-1">
+                          <div className="font-medium">{primaryContact?.name ?? "Ingen kontakt"}</div>
+                          <div className="text-xs text-muted-foreground">
+                            {primaryContact?.email ?? "Ingen e-post"}
+                          </div>
                         </div>
+                        {primaryContact && (
+                          <Button
+                            size="icon"
+                            variant="ghost"
+                            onClick={() => setContactEditTarget({ association, contact: primaryContact })}
+                          >
+                            <UserRoundPen className="h-4 w-4" />
+                          </Button>
+                        )}
                       </div>
                       <div className="flex items-center justify-between text-xs text-muted-foreground">
                         <span>Ansvarig: {association.assignedTo?.name ?? "Obemannad"}</span>
@@ -521,6 +588,22 @@ export default function AssociationsPage() {
             isMember: editTarget.isMember,
             memberSince: editTarget.memberSince ? new Date(editTarget.memberSince).toISOString() : null,
             assignedToId: editTarget.assignedToId ?? null,
+            streetAddress: editTarget.streetAddress ?? null,
+            postalCode: editTarget.postalCode ?? null,
+            city: editTarget.city ?? null,
+            email: editTarget.email ?? null,
+            phone: editTarget.phone ?? null,
+            homepageUrl: editTarget.homepageUrl ?? null,
+            activities: Array.isArray(editTarget.activities)
+              ? (editTarget.activities as unknown[]).filter((activity): activity is string => typeof activity === "string")
+              : [],
+            otherInformation:
+              editTarget.extras && typeof editTarget.extras === 'object' && !Array.isArray(editTarget.extras)
+                ? (typeof (editTarget.extras as Record<string, unknown>).otherInformation === 'string'
+                    ? ((editTarget.extras as Record<string, unknown>).otherInformation as string)
+                    : '')
+                : '',
+            descriptionFreeText: editTarget.descriptionFreeText ?? null,
           }}
           users={userOptions.map((user) => ({ id: user.value, name: user.label }))}
           onSubmit={handleGenerateAssociationUpdate}
@@ -536,6 +619,32 @@ export default function AssociationsPage() {
           associationName={contactTarget.name}
           onSubmit={async (values) => handleCreateContact(values)}
           isSubmitting={createContact.isPending}
+        />
+      )}
+
+      {contactEditTarget && (
+        <EditContactModal
+          open={!!contactEditTarget}
+          onOpenChange={(open) => (!open ? setContactEditTarget(null) : undefined)}
+          contact={{
+            id: contactEditTarget.contact.id,
+            associationId: contactEditTarget.contact.associationId,
+            name: contactEditTarget.contact.name,
+            role: contactEditTarget.contact.role,
+            email: contactEditTarget.contact.email,
+            phone: contactEditTarget.contact.phone,
+            mobile: contactEditTarget.contact.mobile,
+            linkedinUrl: contactEditTarget.contact.linkedinUrl,
+            facebookUrl: contactEditTarget.contact.facebookUrl,
+            twitterUrl: contactEditTarget.contact.twitterUrl,
+            instagramUrl: contactEditTarget.contact.instagramUrl,
+            isPrimary: contactEditTarget.contact.isPrimary,
+            associationName: contactEditTarget.association.name,
+          }}
+          onSubmit={handleUpdateContact}
+          onDelete={() => handleDeleteContact(contactEditTarget.contact.id)}
+          isSubmitting={updateContact.isPending}
+          isDeleting={deleteContactMutation.isPending}
         />
       )}
 

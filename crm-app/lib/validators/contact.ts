@@ -15,3 +15,9 @@ export const contactFormSchema = z.object({
 })
 
 export type ContactFormValues = z.infer<typeof contactFormSchema>
+
+export const contactUpdateSchema = contactFormSchema.extend({
+  id: z.string().min(1),
+})
+
+export type ContactUpdateValues = z.infer<typeof contactUpdateSchema>
