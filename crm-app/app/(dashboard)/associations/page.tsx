@@ -595,7 +595,7 @@ export default function AssociationsPage() {
             phone: editTarget.phone ?? null,
             homepageUrl: editTarget.homepageUrl ?? null,
             activities: Array.isArray(editTarget.activities)
-              ? (editTarget.activities as unknown[]).map((activity) => String(activity))
+              ? (editTarget.activities as unknown[]).filter((activity): activity is string => typeof activity === "string")
               : [],
             otherInformation:
               editTarget.extras && typeof editTarget.extras === 'object' && !Array.isArray(editTarget.extras)
