@@ -40,4 +40,23 @@ export const municipalityRouter = router({
 
       return municipality;
     }),
+
+  update: publicProcedure
+    .input(
+      z.object({
+        id: z.string(),
+        data: z.object({
+          population: z.number().optional(),
+          registerUrl: z.string().optional(),
+        }),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const municipality = await ctx.db.municipality.update({
+        where: { id: input.id },
+        data: input.data,
+      });
+
+      return municipality;
+    }),
 });

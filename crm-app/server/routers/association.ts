@@ -266,8 +266,13 @@ export const associationRouter = router({
       const association = await ctx.db.association.findUnique({
         where: { id: input.id },
         include: {
-          contacts: true,
+          contacts: {
+            orderBy: { isPrimary: 'desc' },
+          },
           notes: {
+            include: {
+              author: true,
+            },
             orderBy: { createdAt: 'desc' },
           },
           tags: true,
@@ -280,6 +285,7 @@ export const associationRouter = router({
             orderBy: { createdAt: 'desc' },
             take: 20,
           },
+          assignedTo: true,
         },
       })
 

@@ -16,6 +16,7 @@ model Municipality {
   latitude       Float?
   longitude      Float?
   population     Int?
+  homepage       String?       @db.Text
   createdAt      DateTime      @default(now())
   updatedAt      DateTime      @updatedAt
   platform       String?
@@ -38,7 +39,7 @@ model Association {
   id                  String               @id @default(cuid())
   sourceSystem        String
   municipalityId      String?
-  municipality        String
+  municipality        String?
   scrapeRunId         String?
   scrapedAt           DateTime
   detailUrl           String?              @unique

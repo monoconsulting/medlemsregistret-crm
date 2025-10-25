@@ -6,8 +6,8 @@ RUN apk add --no-cache libc6-compat openssl
 WORKDIR /app
 
 # Kopiera package files
-COPY package*.json ./
-COPY prisma ./prisma/
+COPY crm-app/package*.json ./
+COPY crm-app/prisma ./prisma/
 
 # Installera dependencies
 RUN npm ci
@@ -21,10 +21,10 @@ WORKDIR /app
 
 # Kopiera dependencies från deps stage
 COPY --from=deps /app/node_modules ./node_modules
-COPY . .
+COPY crm-app/ .
 
 # Disable telemetry
-ENV NEXT_TELEMETRY_DISABLED 1
+ENV NEXT_TELEMETRY_DISABLED=1
 
 # Set dummy DATABASE_URL for build (will be overridden at runtime)
 ENV DATABASE_URL="mysql://user:password@localhost:3306/db"
@@ -37,11 +37,11 @@ RUN npm run build
 FROM node:20-alpine AS runner
 WORKDIR /app
 
-ENV NODE_ENV production
-ENV NEXT_TELEMETRY_DISABLED 1
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 nextjs
 
 # Kopiera nödvändiga filer
 COPY --from=builder /app/public ./public
@@ -56,8 +56,8 @@ USER nextjs
 
 EXPOSE 3000
 
-ENV PORT 3000
-ENV HOSTNAME "0.0.0.0"
+ENV PORT=3000
+ENV HOSTNAME="0.0.0.0"
 
 # Start application
 CMD ["node", "server.js"]
