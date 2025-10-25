@@ -36,7 +36,8 @@ logs/
 # Temporary files
 *.tmp
 tmp/
-temp/
+temp/*
+!temp/Foreningar3.csv
 
 # Build outputs
 dist/

@@ -1,6 +1,7 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useState } from "react"
+import dynamic from "next/dynamic"
 import { Search, Loader2, MapPin, ExternalLink, Save, Edit } from "lucide-react"
 
 import { api } from "@/lib/trpc/client"
@@ -19,6 +20,8 @@ import {
 } from "@/components/ui/table"
 import { toast } from "@/hooks/use-toast"
 import type { Municipality } from "@prisma/client"
+
+const MunicipalityMap = dynamic(() => import("@/components/MunicipalityMap"), { ssr: false })
 
 type MunicipalityWithCount = Municipality & {
   _count: { associations: number }
@@ -90,9 +93,9 @@ export default function MunicipalitiesPage() {
   }
 
   return (
-    <div className="flex h-[calc(100vh-4rem)] gap-4 p-6">
+    <div className="flex flex-col gap-4 p-6 lg:h-[calc(100vh-4rem)] lg:flex-row">
       {/* Left column: Table (80%) */}
-      <div className="flex w-[80%] flex-col">
+      <div className="flex flex-1 flex-col lg:basis-[80%]">
         <Card className="flex h-full flex-col">
           <CardHeader>
             <div className="flex items-center justify-between">
@@ -192,7 +195,7 @@ export default function MunicipalitiesPage() {
       </div>
 
       {/* Right column: Details (20%) */}
-      <div className="flex w-[20%] flex-col gap-4">
+      <div className="flex flex-col gap-4 lg:basis-[20%]">
         {!selectedMunicipality ? (
           <Card className="flex h-full items-center justify-center">
             <CardContent className="text-center text-muted-foreground">
@@ -285,19 +288,18 @@ export default function MunicipalitiesPage() {
               <CardHeader>
                 <CardTitle className="text-lg">Karta</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="h-full">
                 {selectedMunicipality.latitude && selectedMunicipality.longitude ? (
-                  <div className="flex aspect-square items-center justify-center rounded-md bg-muted">
-                    <div className="text-center text-sm text-muted-foreground">
-                      <MapPin className="mx-auto mb-2 h-8 w-8" />
-                      <p>Lat: {selectedMunicipality.latitude.toFixed(4)}</p>
-                      <p>Lng: {selectedMunicipality.longitude.toFixed(4)}</p>
-                      <p className="mt-2 text-xs">(Karta kommer här)</p>
-                    </div>
+                  <div className="h-72 overflow-hidden rounded-md border lg:h-full">
+                    <MunicipalityMap
+                      latitude={selectedMunicipality.latitude}
+                      longitude={selectedMunicipality.longitude}
+                      municipalityName={selectedMunicipality.name}
+                    />
                   </div>
                 ) : (
-                  <div className="flex aspect-square items-center justify-center rounded-md bg-muted">
-                    <p className="text-sm text-muted-foreground">Ingen position tillgänglig</p>
+                  <div className="flex h-72 items-center justify-center rounded-md border border-dashed text-sm text-muted-foreground lg:h-full">
+                    Ingen position tillgänglig
                   </div>
                 )}
               </CardContent>
