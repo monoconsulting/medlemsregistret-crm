@@ -1,0 +1,4975 @@
+[
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:34.430Z",
+    "association": {
+      "name": "Altervattnets Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Altervattnet 11",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Altervattnet 11",
+                "94293 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:36.311Z",
+    "association": {
+      "name": "Arvidsträsk Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Arvidsträsk 11",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": "b_f_pettersson@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Arvidsträsk 11",
+                "94293 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "b_f_pettersson@hotmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:38.243Z",
+    "association": {
+      "name": "Bredsels Bygdeförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.bredsel.se/",
+      "detail_url": null,
+      "street_address": "Bredsel 94",
+      "postal_code": "94295",
+      "city": "Vidsel",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/groups/393360547345342/?fref=ts"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Bredsel 94",
+                "94295 Vidsel"
+              ]
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.bredsel.se/"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/groups/393360547345342/?fref=ts"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.bredsel.se/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:40.069Z",
+    "association": {
+      "name": "Dansdraget",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "maria-eng@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "maria-eng@telia.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:41.928Z",
+    "association": {
+      "name": "EFS Vidsel",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Besöksadress Västra Vidselsvägen 15, Vidsel",
+      "postal_code": "94295",
+      "city": "Vidsel",
+      "email": null,
+      "phone": "092930174",
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Mobil: 073-243 03 88 (kapellet)"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Besöksadress Västra Vidselsvägen 15, Vidsel",
+                "94295 Vidsel"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092930174"
+            }
+          }
+        ],
+        "free_text": "Mobil: 073-243 03 88 (kapellet)"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:43.748Z",
+    "association": {
+      "name": "EFS Vistträsk",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "efsvisttrask@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/visttrask.efs?fref=ts"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "efsvisttrask@gmail.com"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/visttrask.efs?fref=ts"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:45.599Z",
+    "association": {
+      "name": "EFS Älvsbyn",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Kyrkogårdsgatan 12",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Mobil: 070-365 57 75 (ordförande)"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Kyrkogårdsgatan 12",
+                "94233 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": "Mobil: 070-365 57 75 (ordförande)"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:47.440Z",
+    "association": {
+      "name": "Eritreanska föreningen",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ahmedhassa14@yahoo.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "ahmedhassa14@yahoo.se"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:49.307Z",
+    "association": {
+      "name": "Filadelfiaförsamlingen Vidsel",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Kronovägen 14",
+      "postal_code": "94295",
+      "city": "Vidsel",
+      "email": null,
+      "phone": "092930028",
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/mojligheternasby?fref=ts#"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Kronovägen 14",
+                "94295 Vidsel"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092930028"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/mojligheternasby?fref=ts#"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:51.176Z",
+    "association": {
+      "name": "FK Laxen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "orvo@pc4v.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "orvo@pc4v.se"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:53.002Z",
+    "association": {
+      "name": "Forskarföreningen",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "alvsbyforskarna.se/",
+      "detail_url": null,
+      "street_address": "Skolgatan 23",
+      "postal_code": "94231",
+      "city": "Älvsbyn",
+      "email": "cablo@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Bibliotekets forskarhörna"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Skolgatan 23",
+                "94231 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "cablo@telia.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "alvsbyforskarna.se/"
+            }
+          }
+        ],
+        "free_text": "Bibliotekets forskarhörna"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Kulturförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://alvsbyforskarna.se/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:54.820Z",
+    "association": {
+      "name": "FSK Lodjuret",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Ängsvägen 29",
+      "postal_code": "94291",
+      "city": "Vistträsk",
+      "email": "sandmankjell1@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/p/FSK-Lodjuret-100054202163629/?locale=sv_SE"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Ängsvägen 29",
+                "94291 Vistträsk"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "sandmankjell1@gmail.com"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/p/FSK-Lodjuret-100054202163629/?locale=sv_SE"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Kulturförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:56.727Z",
+    "association": {
+      "name": "Granträsk Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "grantrask.com/wordpress-4.9.8/wordpress/",
+      "detail_url": null,
+      "street_address": "Granträsk 311",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": "092961050",
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Granträsk 311",
+                "94293 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092961050"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "grantrask.com/wordpress-4.9.8/wordpress/"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://grantrask.com/wordpress-4.9.8/wordpress/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:53:58.562Z",
+    "association": {
+      "name": "Hjärt och lung",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "staffanbergman1@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "staffanbergman1@hotmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:00.447Z",
+    "association": {
+      "name": "Höghedens Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Högheden 201",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": "092913175",
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Högheden 201",
+                "94293 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092913175"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:02.314Z",
+    "association": {
+      "name": "Jägareförbundet Älvsbyn",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Arvidsträsk 11",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Arvidsträsk 11",
+                "94293 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:04.261Z",
+    "association": {
+      "name": "Jägarförbundet",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "matsohlund51@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "matsohlund51@live.se"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:06.100Z",
+    "association": {
+      "name": "Jägarnas Riksförbund Norrbotten",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Smedjevägen 42",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/pages/J%C3%A4garnas-Riksf%C3%B6rbund-Norrbotten/178034208887224?fref=ts"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Smedjevägen 42",
+                "94292 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/pages/J%C3%A4garnas-Riksf%C3%B6rbund-Norrbotten/178034208887224?fref=ts"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:07.976Z",
+    "association": {
+      "name": "Järnporten Historiska Fäktklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gammelvägen 25",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": "jarnporten.hfk@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Gammelvägen 25",
+                "94233 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "jarnporten.hfk@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "Älvsbyn",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:09.834Z",
+    "association": {
+      "name": "Kommunal Älvsbyn",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "alvsbyn.norrbotten@kommunal.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbyn.norrbotten@kommunal.se"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:11.685Z",
+    "association": {
+      "name": "Korskyrkan",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.korskyrkanalvsbyn.se/",
+      "detail_url": null,
+      "street_address": "Skolgatan 29",
+      "postal_code": "94231",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": "092910243",
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Skolgatan 29",
+                "94231 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092910243"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.korskyrkanalvsbyn.se/"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.korskyrkanalvsbyn.se/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:13.728Z",
+    "association": {
+      "name": "Krokträsk/Laduberg Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Laduberg 221",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Laduberg 221",
+                "94293  Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:15.562Z",
+    "association": {
+      "name": "Lillträsk Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Parkgatan 7",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Parkgatan 7",
+                "94233 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:17.394Z",
+    "association": {
+      "name": "Manjärvs byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vastraheden@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "vastraheden@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:19.216Z",
+    "association": {
+      "name": "Miljögruppen Piteälvdal",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Vistbäcken 112",
+      "postal_code": "94291",
+      "city": "Vistträsk",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Vistbäcken 112",
+                "94291 Vistträsk"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:21.096Z",
+    "association": {
+      "name": "Munskänkarna",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.munskankarna.se/sv/regioner/norrbotten/alvsbyn/",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.munskankarna.se/sv/regioner/norrbotten/alvsbyn/"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Kulturförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.munskankarna.se/sv/regioner/norrbotten/alvsbyn/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:22.941Z",
+    "association": {
+      "name": "Muskus Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Muskus 5",
+      "postal_code": "94291",
+      "city": "Vistträsk",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/Muskusbya/?fref=ts"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Muskus 5",
+                "94291 Vistträsk"
+              ]
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/Muskusbya/?fref=ts"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:24.868Z",
+    "association": {
+      "name": "Naturskyddsföreningen Älvsbyn",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "alvsbyn.naturskyddsforeningen.se/",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "alvsbyn@naturskyddsforeningen.se",
+      "phone": "0737759690",
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbyn@naturskyddsforeningen.se"
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "0737759690"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "alvsbyn.naturskyddsforeningen.se/"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://alvsbyn.naturskyddsforeningen.se/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:26.718Z",
+    "association": {
+      "name": "Nedre Tväråselets Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Nedre Tväråselet 25",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/ntvsbf/?fref=ts"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Nedre Tväråselet 25",
+                "94292 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/ntvsbf/?fref=ts"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:28.558Z",
+    "association": {
+      "name": "Norrbottens Kaninhoppare",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "bdkh.weebly.com/",
+      "detail_url": null,
+      "street_address": "Sävastnäs 103",
+      "postal_code": "96193",
+      "city": "Boden",
+      "email": "Bdkh.skhrf@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/people/Norrbottens-Kaninhoppare/100069100096125/"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Sävastnäs 103",
+                "96193 Boden"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "Bdkh.skhrf@gmail.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "bdkh.weebly.com/"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/people/Norrbottens-Kaninhoppare/100069100096125/"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://bdkh.weebly.com/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:30.394Z",
+    "association": {
+      "name": "Nybyns IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Nybyn 48",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/people/Nybyns-IK/100067038795963/?fref=ts#"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Nybyn 48",
+                "94292 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/people/Nybyns-IK/100067038795963/?fref=ts#"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:32.235Z",
+    "association": {
+      "name": "Nykterhetsrörelsens bildningsverksamhet NBV",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.nbv.se/regioner/norr",
+      "detail_url": null,
+      "street_address": "Storgatan 27",
+      "postal_code": "94231",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": "092912319",
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Storgatan 27",
+                "94231 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092912319"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.nbv.se/regioner/norr"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.nbv.se/regioner/norr"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:34.068Z",
+    "association": {
+      "name": "Nystrands byggnadsförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Nystrand 20",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": "beritsundberg@alvsbyn.com",
+      "phone": "092951098",
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/people/Nystrands-Byggnadsf%C3%B6rening/100064394093629/?fref=ts#"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Nystrand 20",
+                "94292 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "beritsundberg@alvsbyn.com"
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092951098"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/people/Nystrands-Byggnadsf%C3%B6rening/100064394093629/?fref=ts#"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:35.913Z",
+    "association": {
+      "name": "Petbergslidens Intresseförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Petbergsliden 110",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": "092926020",
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Petbergsliden 110",
+                "94293 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092926020"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:37.740Z",
+    "association": {
+      "name": "Piteå och Älvsbyns Orkesterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skyttegatan 2",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Skyttegatan 2",
+                "94233 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Kulturförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:39.555Z",
+    "association": {
+      "name": "PRO Älvsbyn",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "leif-nyberg@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "leif-nyberg@hotmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Pensionärsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:41.375Z",
+    "association": {
+      "name": "Pålsträsk Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Pålsträsk 412",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Pålsträsk 412",
+                "94293  Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:54:43.209Z",
+    "association": {
+      "name": "Röda korset",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "alvsbyn.redcross@telia.com",
+      "phone": "0705135106",
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbyn.redcross@telia.com"
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "0705135106"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:55:15.165Z",
+    "association": {
+      "name": "Skol IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Medborgargatan 4",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": "Elisabet.Olund@edu.alvsbyn.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Medborgargatan 4",
+                "94233 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "Elisabet.Olund@edu.alvsbyn.se"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:55:47.193Z",
+    "association": {
+      "name": "SPF Pärlan",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Campinggatan 1",
+      "postal_code": "94234",
+      "city": "Älvsbyn",
+      "email": "martin.dahlin@alvsbyn.net",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Campinggatan 1",
+                "94234 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "martin.dahlin@alvsbyn.net"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Pensionärsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:55:49.026Z",
+    "association": {
+      "name": "Stockfors Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Stockfors 101",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": "092951131",
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Stockfors 101",
+                "94292 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092951131"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:55:50.872Z",
+    "association": {
+      "name": "Storforsens ideella kulturförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skatan 2",
+      "postal_code": "94291",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Skatan 2",
+                "94291 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Kulturförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:55:52.742Z",
+    "association": {
+      "name": "Storforsens Sportfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.storforsenssportfiskeklubb.nu/",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "savdalvidsel@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/storforsenssportfiskeklubb/?locale=sv_SE"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "savdalvidsel@gmail.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.storforsenssportfiskeklubb.nu/"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/storforsenssportfiskeklubb/?locale=sv_SE"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.storforsenssportfiskeklubb.nu/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:55:54.569Z",
+    "association": {
+      "name": "Studieförbundet Bilda Nord",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Bangårdsgatan 2c",
+      "postal_code": "97235",
+      "city": "Luleå",
+      "email": null,
+      "phone": "0920236940",
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Bangårdsgatan 2c",
+                "97235 Luleå"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "0920236940"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:55:56.399Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Kyrkostigen 2",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/SVAlvsbyn/"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Kyrkostigen 2",
+                "94233 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/SVAlvsbyn/"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:55:58.263Z",
+    "association": {
+      "name": "Sverige Demokraterna",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "orvo@pc4u.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "orvo@pc4u.se"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:00.100Z",
+    "association": {
+      "name": "Sveriges Lärare",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "alvsbyn@sverigeslarare.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbyn@sverigeslarare.se"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:01.933Z",
+    "association": {
+      "name": "Sågfors-Lillkorsträsk Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "092910515",
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Mia Lidström (kontaktperson)\n\nFacebook: https://www.facebook.com/Sagfors.LillkorstraskByaforening/?fref=ts"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092910515"
+            }
+          }
+        ],
+        "free_text": "Mia Lidström (kontaktperson)\n\nFacebook: https://www.facebook.com/Sagfors.LillkorstraskByaforening/?fref=ts"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:03.852Z",
+    "association": {
+      "name": "TAIF Bolllek",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tväråselet 69",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Tväråselet 69",
+                "94292 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:05.694Z",
+    "association": {
+      "name": "TAIF Friidrott",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tväråselet 69",
+      "postal_code": "94292",
+      "city": "ÄLVSBYN",
+      "email": "michael.nordh@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Tväråselet 69",
+                "94292 ÄLVSBYN"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "michael.nordh@outlook.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:07.536Z",
+    "association": {
+      "name": "TAIF Innebandy",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tväråselet 69",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": "viktor_lundstrom@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Tväråselet 69",
+                "94292 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "viktor_lundstrom@hotmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:09.439Z",
+    "association": {
+      "name": "Trädgårdsföreningen Blomsterkransen",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Älvbrinken 17",
+      "postal_code": "94295",
+      "city": "Vidsel",
+      "email": "amanda.furtenback@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Älvbrinken 17",
+                "94295 Vidsel"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "amanda.furtenback@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Kulturförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:11.286Z",
+    "association": {
+      "name": "Tväråns Intresseförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tvärån 411",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/people/Tv%C3%A4r%C3%A5ns-Intressef%C3%B6rening-TIF/100064458349302/?fref=ts#"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Tvärån 411",
+                "94293 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/people/Tv%C3%A4r%C3%A5ns-Intressef%C3%B6rening-TIF/100064458349302/?fref=ts#"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:13.135Z",
+    "association": {
+      "name": "Tväråselets AIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tväråselet 69",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": "tvaraselet.jordbruk@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Tväråselet 69",
+                "94292  Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "tvaraselet.jordbruk@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:14.968Z",
+    "association": {
+      "name": "Tväråselets Bygdeförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tällberg 6",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Tällberg 6",
+                "94292 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:16.820Z",
+    "association": {
+      "name": "Vandrande vänner i Älvsbyn",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Segerkarlsgatan 12",
+      "postal_code": null,
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": "092955054",
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Segerkarlsgatan 12",
+                "Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092955054"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:18.655Z",
+    "association": {
+      "name": "Vidsel skoterklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vidselsk@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "vidselsk@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:20.527Z",
+    "association": {
+      "name": "Vidsels Bygdeförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "bygdeforeningen.vidsel.se/",
+      "detail_url": null,
+      "street_address": "Åsgatan 24",
+      "postal_code": null,
+      "city": "Vidsel",
+      "email": "eina.lundberg@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/people/Vidsels-Bygdef%C3%B6rening/100064330434381/#"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Åsgatan 24",
+                "Vidsel"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "eina.lundberg@outlook.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "bygdeforeningen.vidsel.se/"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/people/Vidsels-Bygdef%C3%B6rening/100064330434381/#"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://bygdeforeningen.vidsel.se/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:22.398Z",
+    "association": {
+      "name": "Vidsels IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sape880202@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "sape880202@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:24.230Z",
+    "association": {
+      "name": "Vistträsk Byaförening",
+      "org_number": null,
+      "types": [
+        "Byaförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Muskus 24",
+      "postal_code": "94291",
+      "city": "Vistträsk",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Muskus 24",
+                "94291 Vistträsk"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Byaförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:26.091Z",
+    "association": {
+      "name": "Vistträsk IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "erik74noren@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "erik74noren@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:27.959Z",
+    "association": {
+      "name": "ÄIF Fotboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Badhusgatan 1",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": "aif.fotboll.kansli@gmail.com",
+      "phone": "0706568286",
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Badhusgatan 1",
+                "94233  Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "aif.fotboll.kansli@gmail.com"
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "0706568286"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "Älvsbyn",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:29.819Z",
+    "association": {
+      "name": "ÄIF Skidor",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.svenskalag.se/alvsbyifsk",
+      "detail_url": null,
+      "street_address": "Korngatan 11",
+      "postal_code": "94235",
+      "city": "Älvsbyn",
+      "email": "alvsbyifskidor@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/people/%C3%84IF-skidor/100064359654770/?fref=ts#"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Korngatan 11",
+                "94235 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbyifskidor@gmail.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.svenskalag.se/alvsbyifsk"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/people/%C3%84IF-skidor/100064359654770/?fref=ts#"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.svenskalag.se/alvsbyifsk"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:31.669Z",
+    "association": {
+      "name": "Älvsby Basketklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Garvargatan 3",
+      "postal_code": "94234",
+      "city": "Älvsbyn",
+      "email": "basketalvsby@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Garvargatan 3",
+                "94234 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "basketalvsby@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:33.495Z",
+    "association": {
+      "name": "Älvsby bridgeklubb",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Krokträsk 24",
+      "postal_code": "94293",
+      "city": "Älvsbyn",
+      "email": "alvsby.bk@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Krokträsk 24",
+                "94293 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsby.bk@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "",
+      "list_activity": "-",
+      "list_area": "Älvsbyn",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:35.334Z",
+    "association": {
+      "name": "Älvsby Brukshundsklubb",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.alvsbybhk.se/",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "alvsbybhk@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Kontaktperson: Ingrid Karlsson"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbybhk@gmail.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.alvsbybhk.se/"
+            }
+          }
+        ],
+        "free_text": "Kontaktperson: Ingrid Karlsson"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.alvsbybhk.se/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:37.172Z",
+    "association": {
+      "name": "Älvsby DHR Handikappförening",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skolgatan 18 B",
+      "postal_code": "94231",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Skolgatan 18 B",
+                "94231 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:39.051Z",
+    "association": {
+      "name": "Älvsby Discgolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Vetegatan 2",
+      "postal_code": "94235",
+      "city": "Älvsbyn",
+      "email": "alvsbydiscgolfklubb@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Instagram: alvsby.discgolf\nFacebook: https://www.facebook.com/groups/206388673369988"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Vetegatan 2",
+                "94235  Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbydiscgolfklubb@gmail.com"
+            }
+          }
+        ],
+        "free_text": "Instagram: alvsby.discgolf\nFacebook: https://www.facebook.com/groups/206388673369988"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "Älvsbyn",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:40.905Z",
+    "association": {
+      "name": "Älvsby Folketshusförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bowlinghallen@alvsbyn.net",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "bowlinghallen@alvsbyn.net"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Kulturförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:42.804Z",
+    "association": {
+      "name": "Älvsby Församling",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.svenskakyrkan.se/alvsby",
+      "detail_url": null,
+      "street_address": "Tingshusgatan 1",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": "092914900",
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/alvsbyforsamling/?fref=ts"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Tingshusgatan 1",
+                "94233  Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "Telefon",
+            "data": {
+              "phone": "092914900"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.svenskakyrkan.se/alvsby"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/alvsbyforsamling/?fref=ts"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.svenskakyrkan.se/alvsby"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:44.637Z",
+    "association": {
+      "name": "Älvsby IF Hockey",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.laget.se/aifhockey",
+      "detail_url": null,
+      "street_address": "Idrottsstigen 1",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": "alvsbyhockey@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/people/%C3%84IF-Hockey/100075910787363/?fref=ts#"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Idrottsstigen 1",
+                "94233 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbyhockey@gmail.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.laget.se/aifhockey"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/people/%C3%84IF-Hockey/100075910787363/?fref=ts#"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.laget.se/aifhockey"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:46.461Z",
+    "association": {
+      "name": "Älvsby IF Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "alvsbyifok.se/",
+      "detail_url": null,
+      "street_address": "Älvsby IF OK",
+      "postal_code": "94292",
+      "city": "ÄLVSBYN",
+      "email": "k-e.lindback@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Älvsby IF OK",
+                "94292 ÄLVSBYN"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "k-e.lindback@live.se"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "alvsbyifok.se/"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "Älvsbyn",
+      "list_homepage": "https://alvsbyifok.se/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:48.276Z",
+    "association": {
+      "name": "Älvsby IF Skiddkytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "xn--frening-90a.skidskytte.se/alvsby-if-skidskytteklubb",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "k-e.lindback@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "k-e.lindback@live.se"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "xn--frening-90a.skidskytte.se/alvsby-if-skidskytteklubb"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://xn--frening-90a.skidskytte.se/alvsby-if-skidskytteklubb"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:50.120Z",
+    "association": {
+      "name": "Älvsby Jaktskytteklubb",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ulfforsberg1945@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "ulfforsberg1945@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:56:51.994Z",
+    "association": {
+      "name": "Älvsby LinedanceGäng",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Älvåsvägen 5 A",
+      "postal_code": "94232",
+      "city": "Älvsbyn",
+      "email": "xstrap@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Swish 123 311 33 13"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Älvåsvägen 5 A",
+                "94232 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "xstrap@hotmail.com"
+            }
+          }
+        ],
+        "free_text": "Swish 123 311 33 13"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:23.990Z",
+    "association": {
+      "name": "Älvsby Motorsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Högheden 300",
+      "postal_code": null,
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/alvsbynsmotorsallskap"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Högheden 300",
+                "Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/alvsbynsmotorsallskap"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:25.922Z",
+    "association": {
+      "name": "Älvsby Parasport",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Magasingatan 4",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": "alvsbyparasport@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Magasingatan 4",
+                "94233 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbyparasport@hotmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:27.846Z",
+    "association": {
+      "name": "Älvsby Pistolklubben",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Nystrand 66",
+      "postal_code": "94292",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Nystrand 66",
+                "94292  Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:29.751Z",
+    "association": {
+      "name": "Älvsby Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.riksteatern.se/forening/alvsbyns-riksteaterforening",
+      "detail_url": null,
+      "street_address": "Kolmilavägen 24",
+      "postal_code": "94236",
+      "city": "Älvsbyn",
+      "email": "katarinaan83@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/alvsbynstf/?fref=ts"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Kolmilavägen 24",
+                "94236 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "katarinaan83@gmail.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.riksteatern.se/forening/alvsbyns-riksteaterforening"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/alvsbynstf/?fref=ts"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Kulturförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.riksteatern.se/forening/alvsbyns-riksteaterforening"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:31.663Z",
+    "association": {
+      "name": "Älvsby Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "alvsbyryttarforening.klubbenonline.se/",
+      "detail_url": null,
+      "street_address": "Övrabyvägen 29",
+      "postal_code": "94236",
+      "city": "Älvsbyn",
+      "email": "alvsbyryttarforening@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/alvsbyryttarforening?fref=ts#"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Övrabyvägen 29",
+                "94236 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbyryttarforening@hotmail.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "alvsbyryttarforening.klubbenonline.se/"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/alvsbyryttarforening?fref=ts#"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://alvsbyryttarforening.klubbenonline.se/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:33.589Z",
+    "association": {
+      "name": "Älvsby Schackklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:35.493Z",
+    "association": {
+      "name": "Älvsby Shotokan Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "alvsbyshotokan.se/",
+      "detail_url": null,
+      "street_address": "Skyttegatan 6",
+      "postal_code": "94233",
+      "city": "Älvsbyn",
+      "email": "alvsby.shotokan@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Skyttegatan 6",
+                "94233  Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsby.shotokan@telia.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "alvsbyshotokan.se/"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://alvsbyshotokan.se/"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:37.450Z",
+    "association": {
+      "name": "Älvsby simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "alvsbysimsallskap@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbysimsallskap@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:39.301Z",
+    "association": {
+      "name": "Älvsby Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Björkvallavägen 6",
+      "postal_code": "94234",
+      "city": "Älvsbyn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Björkvallavägen 6",
+                "94234 Älvsbyn"
+              ]
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:41.210Z",
+    "association": {
+      "name": "Älvsby Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "c/o Eva Lindbäck, Garvargatan 3",
+      "postal_code": "94234",
+      "city": "Älvsbyn",
+      "email": "eva.sportringen@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "c/o Eva Lindbäck, Garvargatan 3",
+                "94234 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "eva.sportringen@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:43.101Z",
+    "association": {
+      "name": "Älvsby United",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Lövgatan 12 Lgh 1101",
+      "postal_code": "94232",
+      "city": "Älvsbyn",
+      "email": "ahmet_989@yahoo.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Lövgatan 12 Lgh 1101",
+                "94232 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "ahmet_989@yahoo.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:44.939Z",
+    "association": {
+      "name": "Älvsbygymnasterna",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Ställverksvägen 4",
+      "postal_code": "94236",
+      "city": "Älvsbyn",
+      "email": "agkansli@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/people/%C3%84lvsbygymnasterna/100063577811147/?fref=ts#"
+              ]
+            }
+          },
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Ställverksvägen 4",
+                "94236 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "agkansli@gmail.com"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/people/%C3%84lvsbygymnasterna/100063577811147/?fref=ts#"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:46.786Z",
+    "association": {
+      "name": "Älvsbyn Taekwondo förening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tåggatan 33",
+      "postal_code": "94235",
+      "city": "Älvsbyn",
+      "email": "alvsbytaekwondo@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Adress",
+            "data": {
+              "address_lines": [
+                "Tåggatan 33",
+                "94235 Älvsbyn"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbytaekwondo@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 91,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:48.650Z",
+    "association": {
+      "name": "Älvsbyns Demensförening",
+      "org_number": null,
+      "types": [
+        "Organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karlssonanita1a@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "karlssonanita1a@gmail.com"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 92,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Organisation",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:50.556Z",
+    "association": {
+      "name": "Älvsbyns Konståkningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.laget.se/AlvsbyKK",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "alvsbykonstakning@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "misc_info": [
+                "Facebook: https://www.facebook.com/AlsvbyKK/"
+              ]
+            }
+          },
+          {
+            "title": "E-post",
+            "data": {
+              "email": "alvsbykonstakning@gmail.com"
+            }
+          },
+          {
+            "title": "Hemsida",
+            "data": {
+              "homepage": "www.laget.se/AlvsbyKK"
+            }
+          }
+        ],
+        "free_text": "Facebook: https://www.facebook.com/AlsvbyKK/"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 93,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": "https://www.laget.se/AlvsbyKK"
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Älvsbyn",
+    "scrape_run_id": "d094f079-aa30-49b6-8934-b0a1b297bec2",
+    "scraped_at": "2025-10-23T06:57:52.422Z",
+    "association": {
+      "name": "Älvsbyns Taekwondo Klubb ÄTDK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "maths@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "E-post",
+            "data": {
+              "email": "maths@live.se"
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 94,
+      "pagination_model": "vuetify_show_all",
+      "filter_state": null
+    },
+    "extras": {
+      "list_category": "Idrottsförening",
+      "list_activity": "-",
+      "list_area": "",
+      "list_homepage": ""
+    }
+  }
+]

@@ -1,0 +1,3520 @@
+[
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.850Z",
+    "association": {
+      "name": "ABF Värmland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.abf.se/varmland",
+      "detail_url": null,
+      "street_address": "Gräsdalsgatan 15",
+      "postal_code": "65343",
+      "city": "Karlstad",
+      "email": "info.varmland@abf.se",
+      "phone": "010-7099750",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 63,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.851Z",
+    "association": {
+      "name": "Afasiföreningen Karlstad med omnejd",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.afasivarmland.se",
+      "detail_url": null,
+      "street_address": "c/o Studiefrämjandet Vuxenskolan Stapelgatan 2",
+      "postal_code": "65216",
+      "city": "Karlstad",
+      "email": "info@afasivarmland.se",
+      "phone": "0761134585",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 30,
+      "mobile": "0761134585",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.851Z",
+    "association": {
+      "name": "Astma&allergiföreningen Karlstad",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Södra Kyrkogatan 11",
+      "postal_code": "65224",
+      "city": "Karlstad",
+      "email": "mellansverige@astmaoallergiforening.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 34,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.851Z",
+    "association": {
+      "name": "BRIS Region Mitt",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.bris.se/",
+      "detail_url": null,
+      "street_address": "Box 10147",
+      "postal_code": "12128",
+      "city": "Stockholm",
+      "email": "bris.mitt@bris.se",
+      "phone": "08-59888800",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 59,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.851Z",
+    "association": {
+      "name": "Brottsoffersjouren Värmland",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.varmland.boj.se",
+      "detail_url": null,
+      "street_address": "Drottninggatan 30",
+      "postal_code": "65225",
+      "city": "Karlstad",
+      "email": "eva.aronsson@varmland.boj.se",
+      "phone": "054-187575",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 565,
+      "mobile": "070-6055165",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.851Z",
+    "association": {
+      "name": "Bärstads Bollklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tullhusgatan 5A",
+      "postal_code": "65210",
+      "city": "Karlstad",
+      "email": "noooordkvist21@gmail.com",
+      "phone": "0708175593",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1854,
+      "mobile": "0708175593",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 7,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.851Z",
+    "association": {
+      "name": "Dancing Team Club Hammarö",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Danssport"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.dancingteam.se",
+      "detail_url": null,
+      "street_address": "Bruksgatan 18",
+      "postal_code": "66330",
+      "city": "Skoghall",
+      "email": "kansli@dancingteam.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 18,
+          "Name": "Danssport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.851Z",
+    "association": {
+      "name": "DansRävarna Hammarö",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Danssport"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skårebol Åsen 2",
+      "postal_code": "66591",
+      "city": "KIL",
+      "email": "dansravarna@autlook.com",
+      "phone": "070-6519785",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 150,
+      "mobile": "070-6519785",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 18,
+          "Name": "Danssport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.851Z",
+    "association": {
+      "name": "DHR Hammarö",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gösvägen 63",
+      "postal_code": "66340",
+      "city": "Hammarö",
+      "email": "lena.nahls@hotmail.com",
+      "phone": "054-525411",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 26,
+      "mobile": "0700607094",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.852Z",
+    "association": {
+      "name": "Equmenia Hammarö",
+      "org_number": null,
+      "types": [
+        "Religiösa föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.lovnaskyrkan.se",
+      "detail_url": null,
+      "street_address": "Bärstavägen 1",
+      "postal_code": "66341",
+      "city": "Hammarö",
+      "email": "hernelid@gmail.com",
+      "phone": "070-5464501",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 54,
+      "mobile": "070-5464501",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.852Z",
+    "association": {
+      "name": "Folkuniversitetet",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.folkuniversitetet.se/karlstad",
+      "detail_url": null,
+      "street_address": "Box 2542",
+      "postal_code": "40317",
+      "city": "Göteborg",
+      "email": "regionkansli.goteborg@folkuniversitetet.se",
+      "phone": "031-10 65 00",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 48,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.852Z",
+    "association": {
+      "name": "Friluftsfrämjandet Hammarö LA",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Friluftsliv"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.friluftsframjandet.se/hammaro",
+      "detail_url": null,
+      "street_address": "Åstorpsvägen 23",
+      "postal_code": "66334",
+      "city": "Skoghall",
+      "email": "hammaro@friluftsframjandet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 61,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 22,
+          "Name": "Friluftsliv"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.852Z",
+    "association": {
+      "name": "Friskvården i Värmland",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Friskvård"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.friskvarden.rog",
+      "detail_url": null,
+      "street_address": "Box 10",
+      "postal_code": "65102",
+      "city": "Karlstad",
+      "email": "pontus.folkesson@hammaro.se",
+      "phone": "0104764743",
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 661,
+        "OccupationId": 2,
+        "Occupation": "Ordförande",
+        "Name": "Anne ",
+        "Surname": "Hölmebakk",
+        "Email": "anne.holmebakk@regionvarmland.se",
+        "Mobile": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 56,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 27,
+          "Name": "Friskvård"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.852Z",
+    "association": {
+      "name": "FUB Karlstad med omnejd",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Norra Kyrkogatan 4",
+      "postal_code": "65224",
+      "city": "Karlstad",
+      "email": "info@fubkarlstad.se",
+      "phone": "0706052620",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 33,
+      "mobile": "0706052620",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.852Z",
+    "association": {
+      "name": "Föreningen Hammarö Skärgårdsmuseum",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Laxvägen 56",
+      "postal_code": "66340",
+      "city": "Hammarö",
+      "email": "hammaroskargard@gmail.com",
+      "phone": "070-6022718",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 809,
+      "mobile": "070-6022718",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.852Z",
+    "association": {
+      "name": "Föreningsarkivet i Värmland",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.foreningsarkiv.se",
+      "detail_url": null,
+      "street_address": "Box 162",
+      "postal_code": "65105",
+      "city": "Karlstad",
+      "email": "info@foreningsarkiv.se",
+      "phone": "010-833 11 77",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 60,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.853Z",
+    "association": {
+      "name": "GAS Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gösvägen 137",
+      "postal_code": "66340",
+      "city": "Hammarö",
+      "email": "jannecantona@hotmail.com",
+      "phone": "0760-171735",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 23,
+      "mobile": "0760-171735",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 7,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.853Z",
+    "association": {
+      "name": "Hammarö Basketklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.hammarobasket.se",
+      "detail_url": null,
+      "street_address": "Båtvägen 56",
+      "postal_code": "66340",
+      "city": "Hammarö",
+      "email": "info@hammarobasket.se",
+      "phone": "070-4458635",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1,
+      "mobile": "070-4458635",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Basket"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.853Z",
+    "association": {
+      "name": "Hammarö Boulehall",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "https://hammaro-boule.se",
+      "detail_url": null,
+      "street_address": "Clevevägen 10",
+      "postal_code": "66330",
+      "city": "Skoghall",
+      "email": "erik@hammaro-boule.se",
+      "phone": "0707704041",
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 687,
+        "OccupationId": 2,
+        "Occupation": "Ordförande",
+        "Name": "Erik",
+        "Surname": "Gustafsson",
+        "Email": "erik.br.gustafsson@telia.com, erik@hammaro-boule.se",
+        "Mobile": "0707704041"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 55,
+      "mobile": "0707704041",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 20,
+          "Name": "Boule"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.853Z",
+    "association": {
+      "name": "Hammarö Bridgeklubb",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Bridge"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Norsplan 2 E,  lgh 1101",
+      "postal_code": "66452",
+      "city": "Vålberg",
+      "email": "june.sandberg@telia.com",
+      "phone": "070-6411252",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 82,
+      "mobile": "070-6411252",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 21,
+          "Name": "Bridge"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.853Z",
+    "association": {
+      "name": "Hammarö Chiefs Ishockeyförening",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Parkvägen 4",
+      "postal_code": "66334",
+      "city": "Skoghall",
+      "email": "niklas.jansson1975@gmail.com",
+      "phone": "054-510283",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 5,
+      "mobile": "070-4392885",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 4,
+          "Name": "Ishockey"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.853Z",
+    "association": {
+      "name": "Hammarö Fight Club",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "https://www.hammarofightclub.se/",
+      "detail_url": null,
+      "street_address": "Oxdansvägen 28",
+      "postal_code": "66341",
+      "city": "Hammarö",
+      "email": "anderswiklundnr1@hotmail.com",
+      "phone": "0735344903",
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 877,
+        "OccupationId": 3,
+        "Occupation": "Kassör",
+        "Name": "Jessica ",
+        "Surname": "Rundh",
+        "Email": "jessica.rundh@gmail.com",
+        "Mobile": "0731818084"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1047,
+      "mobile": "0735344903",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 30,
+          "Name": "Kampsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.853Z",
+    "association": {
+      "name": "Hammarö Fotbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.laget.se/Hammarofotboll",
+      "detail_url": null,
+      "street_address": "MÖRMOPLAN, 5",
+      "postal_code": "66334",
+      "city": "SKOGHALL",
+      "email": "hammarofotbollsklubb@gmail.com",
+      "phone": "0703166832",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 13,
+      "mobile": "0703166832",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 9,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.853Z",
+    "association": {
+      "name": "Hammarö Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "https://hammarofotoklubb.se/",
+      "detail_url": null,
+      "street_address": "Laxvägen 47",
+      "postal_code": "66340",
+      "city": "Hammarö",
+      "email": "hammarofotoklubb@live.se",
+      "phone": "0705777039",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 889,
+      "mobile": "0705777039",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.853Z",
+    "association": {
+      "name": "Hammarö Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.hammarogk.se",
+      "detail_url": null,
+      "street_address": "Barrstigen 103",
+      "postal_code": "66391",
+      "city": "Hammarö",
+      "email": "info@hammarogk.se",
+      "phone": "054-522650",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 2,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Golf"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "https://www.hammarogf.se",
+      "detail_url": null,
+      "street_address": "Box 10",
+      "postal_code": "65108",
+      "city": "Karlstad",
+      "email": "hammarogf@gmail.com",
+      "phone": "0762009174",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 3,
+      "mobile": "0762009174",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 3,
+          "Name": "Gymnastik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.hembygd.se/hammaro",
+      "detail_url": null,
+      "street_address": "Kaptensvägen 14",
+      "postal_code": "66342",
+      "city": "Hammarö ",
+      "email": "hammarohembygd@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 40,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö Hockey Club",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.hammarohockey.com",
+      "detail_url": null,
+      "street_address": "Parkvägen 4",
+      "postal_code": "66334",
+      "city": "Skoghall",
+      "email": "kansli@hammarohockey.com",
+      "phone": "054-513866",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 4,
+          "Name": "Ishockey"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Judo"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.idrottonline.se/HammaroJK-Judo/",
+      "detail_url": null,
+      "street_address": "Parkvägen 20",
+      "postal_code": "66334",
+      "city": "Skoghall",
+      "email": "hammarojudo@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 16,
+          "Name": "Judo"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö Kammarkör",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.hammarokammarkor.se",
+      "detail_url": null,
+      "street_address": "Ålvägen 15",
+      "postal_code": "66340",
+      "city": "Hammarö",
+      "email": "ulrikamalmsten@hotmail.com",
+      "phone": "0708733132",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 43,
+      "mobile": "0708733132",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 23,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://idrottonline.se/HammaroKK-Karate/",
+      "detail_url": null,
+      "street_address": "Guntavägen 19",
+      "postal_code": "66333",
+      "city": "Skoghall",
+      "email": "hammarokarateklubb@gmail.com",
+      "phone": "0709-781724",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6,
+      "mobile": "0709-781724",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Karate"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö Konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Konst"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.hammarokonst.se",
+      "detail_url": null,
+      "street_address": "Lillmossevägen 15",
+      "postal_code": "66342",
+      "city": "Hammarö",
+      "email": "abergpirjo@gmail.com",
+      "phone": "0705-535020",
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 774,
+        "OccupationId": 1,
+        "Occupation": "Sekreterare",
+        "Name": "Lars",
+        "Surname": "Wennerström",
+        "Email": "larsragnar.wennerström@gmail.com",
+        "Mobile": "0722521338"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 42,
+      "mobile": "0705-535020",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 24,
+          "Name": "Konst"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö Konståkningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Konståkning"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.svenskalag.se/hammarokk",
+      "detail_url": null,
+      "street_address": "Rögrindsvägen 3",
+      "postal_code": "66330",
+      "city": "Skoghall",
+      "email": "styrelsen@hammarokk.se",
+      "phone": "0790745554",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7,
+      "mobile": "0790745554",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 6,
+          "Name": "Konståkning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö MC Veteraner",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Motorcykel"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": " Snickargården, Ask 86",
+      "postal_code": "66491",
+      "city": "Grums",
+      "email": "a.nermark@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 145,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 29,
+          "Name": "Motorcykel"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.854Z",
+    "association": {
+      "name": "Hammarö Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Ridhusvägen 10",
+      "postal_code": "66342",
+      "city": "Hammarö",
+      "email": "kansli@hammarorf.se",
+      "phone": "054-524303",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 10,
+      "mobile": "079-3469838",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Ridsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.855Z",
+    "association": {
+      "name": "Hammarö Röda korskrets",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Björkhagsgatan 2",
+      "postal_code": "66341",
+      "city": "Hammarö",
+      "email": "leif.holmqvist41@gmail.com",
+      "phone": "070-551 79 18",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 39,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.855Z",
+    "association": {
+      "name": "Hammarö Storband",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Stjärnforsvägen 37",
+      "postal_code": "66331",
+      "city": "Skoghall",
+      "email": "lasseodenbrand@gmail.com",
+      "phone": "070-6098959",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 45,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 23,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.855Z",
+    "association": {
+      "name": "Hammarö Teaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gösvägen 3",
+      "postal_code": "66340",
+      "city": "Hammarö",
+      "email": "magnus@skoghallsfolketshus.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 41,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 25,
+          "Name": "Teater"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.855Z",
+    "association": {
+      "name": "Hammarö Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.hammarotk.com",
+      "detail_url": null,
+      "street_address": "Hantverksgatan 12",
+      "postal_code": "66334",
+      "city": "Skoghall",
+      "email": "info@hammarotk.com",
+      "phone": "054-510250",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 18,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 14,
+          "Name": "Tennis"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.855Z",
+    "association": {
+      "name": "Hörselskadades Förening i Karlstad",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.hrf.se/karlstad",
+      "detail_url": null,
+      "street_address": "Herrgårdsgatan 13 B, 4 vån",
+      "postal_code": "65224",
+      "city": "Karlstad",
+      "email": "karlstad@hrf.se",
+      "phone": "0725500305",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 25,
+      "mobile": "0725500305",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.855Z",
+    "association": {
+      "name": "IFK Hammarö",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "https://www.laget.se/IFKHammaro",
+      "detail_url": null,
+      "street_address": "Prästgårdsvägen 7c",
+      "postal_code": "66332",
+      "city": "Skoghall",
+      "email": "info@ifkhammaro.nu",
+      "phone": "076-7075014",
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 860,
+        "OccupationId": 3,
+        "Occupation": "Kassör",
+        "Name": "Sofia",
+        "Surname": "Pettersson",
+        "Email": "emma_sofia_pettersson@hotmail.com",
+        "Mobile": "0702441457"
+      },
+      {
+        "Id": 875,
+        "OccupationId": 2,
+        "Occupation": "Ordförande",
+        "Name": "Anders ",
+        "Surname": "Karlsson",
+        "Email": "anderskarlsson0810@gmail.com",
+        "Mobile": "0702301473"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 15,
+      "mobile": "076-7075014",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 11,
+          "Name": "Handboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.855Z",
+    "association": {
+      "name": "IFK Skoghall Damfotboll",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.laget.se/ifkskoghalldam",
+      "detail_url": null,
+      "street_address": "Mörmoplan 5",
+      "postal_code": "66334",
+      "city": "Skoghall",
+      "email": "ifkskoghalldamfotboll@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 554,
+        "OccupationId": 1,
+        "Occupation": "Sekreterare",
+        "Name": "Ulrika",
+        "Surname": "Sandahl",
+        "Email": "ullesandahl@gmail.com",
+        "Mobile": null
+      },
+      {
+        "Id": 555,
+        "OccupationId": 3,
+        "Occupation": "Kassör",
+        "Name": "Helena",
+        "Surname": "Kohlström Ziegel",
+        "Email": "helena.kohlstrom@gmail.com",
+        "Mobile": "0730865422"
+      },
+      {
+        "Id": 556,
+        "OccupationId": 2,
+        "Occupation": "Ordförande",
+        "Name": "Petra",
+        "Surname": "Ekängen",
+        "Email": "kindberg.petra@gmail.com",
+        "Mobile": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 12,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 9,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.855Z",
+    "association": {
+      "name": "IFK Skoghall Futsal",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/IFKSkoghallFutsal",
+      "detail_url": null,
+      "street_address": "Mörmoplan 5",
+      "postal_code": "66333",
+      "city": "Skoghall",
+      "email": "kansliet@ifkskoghall.com",
+      "phone": "0702900108",
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 524,
+        "OccupationId": 2,
+        "Occupation": "Ordförande",
+        "Name": "Patrik ",
+        "Surname": "Spjut",
+        "Email": "patrik.spjut@telia.com",
+        "Mobile": "0761614596"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 668,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.856Z",
+    "association": {
+      "name": "IFK Skoghall Herrfotboll",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.ifkskoghall.com",
+      "detail_url": null,
+      "street_address": "Mörmoplan 5",
+      "postal_code": "66334",
+      "city": "Skoghall",
+      "email": "kansliet@ifkskoghall.com",
+      "phone": "070-2900108",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11,
+      "mobile": "070-2900108",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 9,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.856Z",
+    "association": {
+      "name": "IOGT-NTO",
+      "org_number": null,
+      "types": [
+        "Nykterhetsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.hammaro.iogt.se",
+      "detail_url": null,
+      "street_address": "Svenshult 309",
+      "postal_code": "66391",
+      "city": "Hammarö",
+      "email": "bostrom62@yahoo.se",
+      "phone": "070-3408652",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 35,
+      "mobile": "070-3408652",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.856Z",
+    "association": {
+      "name": "Junis Hammarö",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Svenshult 309",
+      "postal_code": "65345",
+      "city": "Karlstad",
+      "email": "bostrom62@yahoo.se",
+      "phone": "070-3408652",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 80,
+      "mobile": "070-3408652",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.856Z",
+    "association": {
+      "name": "Karlstadföreningen RTP",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Södra Kyrkogatan 11",
+      "postal_code": "65224",
+      "city": "Karlstad",
+      "email": "karlstad@rtp.se",
+      "phone": "0703352208",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 32,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.856Z",
+    "association": {
+      "name": "Karlstads Ornitologiska Förening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://hammarofagel.se/",
+      "detail_url": null,
+      "street_address": "c/o Roger Jonasson",
+      "postal_code": "65638",
+      "city": "KARLSTAD",
+      "email": "roger@euroequip.se",
+      "phone": "0708-491125",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 567,
+      "mobile": "0708-491125",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.856Z",
+    "association": {
+      "name": "Medborgarskolan Mitt",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.medborgarskolan.se",
+      "detail_url": null,
+      "street_address": "Gustaf Anders Gata 7, 4tr",
+      "postal_code": "65340",
+      "city": "Karlstad",
+      "email": "varmland@medborgarskolan.se",
+      "phone": "054-102140",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 62,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.856Z",
+    "association": {
+      "name": "Naturskyddsföreningen Hammarö",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "https://hammaro.naturskyddsforeningen.se",
+      "detail_url": null,
+      "street_address": "Mjödvägen 20",
+      "postal_code": "66344",
+      "city": "Hammarö",
+      "email": "ake.n.johansson@gmail.com",
+      "phone": "073-078 66 77",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 828,
+      "mobile": "0762917235",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.856Z",
+    "association": {
+      "name": "NBV Väst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.nbv.se/vast",
+      "detail_url": null,
+      "street_address": "Nygatan 13",
+      "postal_code": "65220",
+      "city": "Karlstad",
+      "email": "Emma.Ekblom@nbv.se",
+      "phone": "+46703961693",
+      "description": {
+        "free_text": "Jag har tidigare mejlat om att vi gör en omorganisation och från 1 jan 2026 har ett organisationsnummer för hela NBV. Där av har jag ändrat redan nu, då ansökan jag ska skicka in gäller 2026. Är detta fel hanterat får ni höra av er.\r\nJag har också ändra adress till vårt huvudkontor i Göteborg."
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 51,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.857Z",
+    "association": {
+      "name": "Neuro Karlstad med omnejd",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.neuro.se/karlstad",
+      "detail_url": null,
+      "street_address": "Norra Kyrkogatan 4",
+      "postal_code": "65224",
+      "city": "Karlstad",
+      "email": "karlstad@neuro.se",
+      "phone": "054189254",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 28,
+      "mobile": "0737522916",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.857Z",
+    "association": {
+      "name": "Nolgårds Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.nolgardsik.com",
+      "detail_url": null,
+      "street_address": "Klubbstugan Lunnevi",
+      "postal_code": "66330",
+      "city": "Skoghall",
+      "email": "vikenmats@hotmail.com",
+      "phone": "070-6599495",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 14,
+      "mobile": "070-6599495",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 9,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.857Z",
+    "association": {
+      "name": "Parkinsonföreningen Karlstad",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.parkinsonforbundet/värmland/karlstad",
+      "detail_url": null,
+      "street_address": "Visterudsgatan 17",
+      "postal_code": "65469",
+      "city": "Karlstad",
+      "email": "leffalov@gmail.com",
+      "phone": "0705348136",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 24,
+      "mobile": "0705348136",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.857Z",
+    "association": {
+      "name": "PRO Hammarö",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Golf",
+        "Gymnastik",
+        "Bangolf",
+        "Boule",
+        "Friluftsliv",
+        "Musik",
+        "Konst",
+        "Teater",
+        "Friskvård",
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "https://pro.se/distrikt/distrikt-varmland/samorganisationer/samorganisation-hammaro/foreningar/hammaro.html",
+      "detail_url": null,
+      "street_address": "Clevevägen 10",
+      "postal_code": "66330",
+      "city": "Hammarö",
+      "email": "hammaro@pro.se",
+      "phone": "054 513577",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 772,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Golf"
+        },
+        {
+          "Id": 3,
+          "Name": "Gymnastik"
+        },
+        {
+          "Id": 12,
+          "Name": "Bangolf"
+        },
+        {
+          "Id": 20,
+          "Name": "Boule"
+        },
+        {
+          "Id": 22,
+          "Name": "Friluftsliv"
+        },
+        {
+          "Id": 23,
+          "Name": "Musik"
+        },
+        {
+          "Id": 24,
+          "Name": "Konst"
+        },
+        {
+          "Id": 25,
+          "Name": "Teater"
+        },
+        {
+          "Id": 27,
+          "Name": "Friskvård"
+        },
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.857Z",
+    "association": {
+      "name": "Reumatikerföreningen Hammarö",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skogåsvägen 3",
+      "postal_code": "66330",
+      "city": "Skoghall",
+      "email": "am.rosengren@telia.com",
+      "phone": "0709716567",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 31,
+      "mobile": "0709716567",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.857Z",
+    "association": {
+      "name": "RF-SISU Värmland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.rfsisu.se/varmland",
+      "detail_url": null,
+      "street_address": "Box 10",
+      "postal_code": "65102",
+      "city": "Karlstad",
+      "email": "martin.henriksson@rfsisu.se",
+      "phone": "010-4764705",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 46,
+      "mobile": "010-4764705",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.857Z",
+    "association": {
+      "name": "Riksförbundet HjärtLung Karlstad",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.hjart-lung.se/foreningar/varmland/lokalforeningar/karlstad/",
+      "detail_url": null,
+      "street_address": "Kyrkogårdsallén 4",
+      "postal_code": "65466",
+      "city": "Karlstad",
+      "email": "info@karlstad.hjart-lung.se",
+      "phone": "054-218492",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 27,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.857Z",
+    "association": {
+      "name": "Sensus Studieförbund region Västra Sverige   enhet Värmland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sensus.se",
+      "detail_url": null,
+      "street_address": "Södra Hamngatan 29",
+      "postal_code": "41114",
+      "city": "GÖTEBORG",
+      "email": "varmland@sensus.se",
+      "phone": "054-137100",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 47,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.858Z",
+    "association": {
+      "name": "Sjöräddningssällskapet, RS Hammarö",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.sjoraddningen.se/hammaro",
+      "detail_url": null,
+      "street_address": "Ringvägen 56",
+      "postal_code": "66333",
+      "city": "Skoghall",
+      "email": "rs.hammaro@ssrs.se",
+      "phone": "031-6714287",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 83,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.858Z",
+    "association": {
+      "name": "Skoghalls Bangolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Bangolf"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.skoghallsbangolf.se",
+      "detail_url": null,
+      "street_address": "Lunserudsvägen 3",
+      "postal_code": "66331",
+      "city": "Skoghall",
+      "email": "info@skoghallsbangolf.se",
+      "phone": "054-517990",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 16,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 12,
+          "Name": "Bangolf"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.858Z",
+    "association": {
+      "name": "Skoghalls Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.skoghallsbtk.se",
+      "detail_url": null,
+      "street_address": "Lindersvägen 20",
+      "postal_code": "66341",
+      "city": "Hammarö",
+      "email": "skoghallsbtk@hotmail.com",
+      "phone": "070-0010402",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 17,
+      "mobile": "070-0010402",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 13,
+          "Name": "Bordtennis"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.858Z",
+    "association": {
+      "name": "Skoghalls Båtsällskap",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.skoghallsbat.se",
+      "detail_url": null,
+      "street_address": "Box 105",
+      "postal_code": "66322",
+      "city": "Skoghall",
+      "email": "skoghalls.batsallskap@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 883,
+        "OccupationId": 2,
+        "Occupation": "Ordförande",
+        "Name": "Christina",
+        "Surname": "Palm",
+        "Email": "skoghalls.batsallskap@outlook.com",
+        "Mobile": "0703802303"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 169,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.858Z",
+    "association": {
+      "name": "Skoghalls Cykelklubb Hammarö",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Cykelsport"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.skoghallsck.se/",
+      "detail_url": null,
+      "street_address": "Filaregatan 2B",
+      "postal_code": "65219",
+      "city": "Karlstad",
+      "email": "info@skoghallsck.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 19,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 15,
+          "Name": "Cykelsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.858Z",
+    "association": {
+      "name": "Skoghalls Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.skoghallsinnebandy.se",
+      "detail_url": null,
+      "street_address": "Idrottsvägen 2",
+      "postal_code": "66334",
+      "city": "Skoghall",
+      "email": "kansli@skoghallsinnebandy.se",
+      "phone": "0704-821852",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8,
+      "mobile": "0704-821852",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 7,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.858Z",
+    "association": {
+      "name": "Skoghalls Innebandyklubb Utveckling",
+      "org_number": null,
+      "types": [
+        "Idrott- o fritidsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.skoghallsinnebandy.se",
+      "detail_url": null,
+      "street_address": "Idrottsvägen 2",
+      "postal_code": "66334",
+      "city": "Skoghall",
+      "email": "kansli@skoghallsinnebandy.se",
+      "phone": "0704-821852",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9,
+      "mobile": "0704-821852",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 7,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.858Z",
+    "association": {
+      "name": "Skoghalls Musikkår",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.skoghallsmusikkar.se",
+      "detail_url": null,
+      "street_address": "Ringvägen 25",
+      "postal_code": "66333",
+      "city": "Skoghall",
+      "email": "gurrasson92@hotmail.com",
+      "phone": "070-636 04 91",
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 500,
+        "OccupationId": 2,
+        "Occupation": "Ordförande",
+        "Name": "Erik ",
+        "Surname": "Gustafsson",
+        "Email": "gurrasson92@hotmail.com",
+        "Mobile": "070-636 04 91"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 44,
+      "mobile": "070-636 04 91",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 23,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.859Z",
+    "association": {
+      "name": "Skoghalls Schackklubb",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Schack"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.sskh.se",
+      "detail_url": null,
+      "street_address": "Nolgårdsvägen 12",
+      "postal_code": "66341",
+      "city": "Hammarö",
+      "email": "pitzon_swede@yahoo.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 53,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 19,
+          "Name": "Schack"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.859Z",
+    "association": {
+      "name": "Skoghallsfolketshus",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://www.skoghallsfolketshus.se",
+      "detail_url": null,
+      "street_address": "Box 37",
+      "postal_code": "66321",
+      "city": "Skoghall",
+      "email": "magnus@skoghallsfolketshus.se",
+      "phone": "0708210946",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 57,
+      "mobile": "0708210946",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.859Z",
+    "association": {
+      "name": "SPF Seniorerna Hammarö",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": "http://spfseniorerna.se/hammaro",
+      "detail_url": null,
+      "street_address": "Clevevägen 10",
+      "postal_code": "66330",
+      "city": "Skoghall",
+      "email": "hammaro@spfseniorerna.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "Id": 23,
+        "OccupationId": 3,
+        "Occupation": "Kassör",
+        "Name": "Gun",
+        "Surname": "Hakefelt",
+        "Email": "gun.hakefelt@gmail.com",
+        "Mobile": "0703102778"
+      },
+      {
+        "Id": 831,
+        "OccupationId": 2,
+        "Occupation": "Ordförande",
+        "Name": "Bengt",
+        "Surname": "Tingdahl",
+        "Email": "bengt.tingdahl@gmail.com",
+        "Mobile": "0706889651"
+      },
+      {
+        "Id": 832,
+        "OccupationId": 1,
+        "Occupation": "Sekreterare",
+        "Name": "Ing-Marie ",
+        "Surname": "Enochsson",
+        "Email": "ing-marie.enochsson@hotmail.com",
+        "Mobile": "0731588989"
+      },
+      {
+        "Id": 848,
+        "OccupationId": 4,
+        "Occupation": "Revisor",
+        "Name": "Claes",
+        "Surname": "Lysén",
+        "Email": "lysenclaes@gmail.com",
+        "Mobile": "0706791603"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 37,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.859Z",
+    "association": {
+      "name": "Studiefrämjandet Örebro-Värmland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.studieframjandet.se",
+      "detail_url": null,
+      "street_address": "Verkstadsgatan 1",
+      "postal_code": "65219",
+      "city": "Karlstad",
+      "email": "varmland@studieframjandet.se",
+      "phone": "054-172970",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 50,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.859Z",
+    "association": {
+      "name": "Studieförbundet Bilda Svealand",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bilda.nu",
+      "detail_url": null,
+      "street_address": "Klostergatan 34",
+      "postal_code": "70339",
+      "city": "Örebro",
+      "email": "svealand@bilda.nu",
+      "phone": "019-6015350",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 49,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.859Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan Karlstad-Hammarö",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Stapelgatan 2",
+      "postal_code": "65216",
+      "city": "Karlstad",
+      "email": "ulrika.johansson@sv.se",
+      "phone": "054-4020137",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 52,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Utbildning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.859Z",
+    "association": {
+      "name": "Synskadades Riksförbund Karlstad med omnejd",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.srf.nu/Karlstad",
+      "detail_url": null,
+      "street_address": "Norra Kyrkogatan 4",
+      "postal_code": "65224",
+      "city": "Karlstad",
+      "email": "karlstad@srf.nu",
+      "phone": "054-155211",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 29,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Hammar├╢",
+    "scrape_run_id": "8aeb03f5-86d8-4db5-93c9-db040a4fea43",
+    "scraped_at": "2025-10-23T08:33:22.860Z",
+    "association": {
+      "name": "Verdandi avd 360",
+      "org_number": null,
+      "types": [
+        "Nykterhetsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Hammarö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tallvägen 12",
+      "postal_code": "66331",
+      "city": "Skoghall",
+      "email": "johnny.asp@comhem.se",
+      "phone": "070-6836213",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 36,
+      "mobile": "070-6836213",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Hammarö kommun"
+      ],
+      "occupations_raw": []
+    }
+  }
+]

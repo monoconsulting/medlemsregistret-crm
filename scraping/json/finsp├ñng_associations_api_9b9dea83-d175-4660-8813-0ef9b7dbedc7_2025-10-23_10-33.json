@@ -1,0 +1,7000 @@
+[
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.658Z",
+    "association": {
+      "name": "Al Khalel Kultur Centre",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Kulturförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Filarevägen 3",
+      "postal_code": "61241",
+      "city": "Finspång",
+      "email": "khzh81@gmail.com",
+      "phone": "+46769146047",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 5,
+      "mobile": "+46769146047",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 63,
+          "Name": "Kultur"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.659Z",
+    "association": {
+      "name": "Anhörigföreningen i Finspång",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Intresseorganisation"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Mellanvägen 12",
+      "postal_code": "61238",
+      "city": "Finspång",
+      "email": "ingamaj.racksater@gmail.com",
+      "phone": "+46706031380",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4,
+      "mobile": "+46706031380",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.659Z",
+    "association": {
+      "name": "Auroraringen",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Gammaldans",
+        "Folkdans",
+        "Kulturförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.folkdansringen.se/auroraringen/",
+      "detail_url": null,
+      "street_address": "Bergslagsvägen 12E",
+      "postal_code": "61230",
+      "city": "Finspång",
+      "email": "auroraringen@folkdansringen.se",
+      "phone": "0705638168",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6,
+      "mobile": "0705638168",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 61,
+          "Name": "Gammaldans"
+        },
+        {
+          "Id": 99,
+          "Name": "Folkdans"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.659Z",
+    "association": {
+      "name": "Betaniaförsamlingen, Grytgöl",
+      "org_number": null,
+      "types": [
+        "Kyrkoförbund och församling"
+      ],
+      "activities": [
+        "Kyrkoförbund och församling",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": "61273",
+      "city": "Ljusfallshammar",
+      "email": "monica@baggman.net",
+      "phone": "+46702402496",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7,
+      "mobile": "+46702402496",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 182,
+          "Name": "Kyrkoförbund och församling"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.659Z",
+    "association": {
+      "name": "Borggård Folkets Hus",
+      "org_number": null,
+      "types": [
+        "Folkets Hus"
+      ],
+      "activities": [
+        "Uthyrning av lokal",
+        "Landsbygdsutveckling",
+        "Kulturarrangemang",
+        "Social verksamhet",
+        "Folkets Hus",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tingshusvägen 9",
+      "postal_code": "61275",
+      "city": "Hällestad",
+      "email": "billy.hagstrom@telia.com",
+      "phone": "0767756800",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8,
+      "mobile": "0767756800",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 24,
+          "Name": "Uthyrning av lokal"
+        },
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 50,
+          "Name": "Kulturarrangemang"
+        },
+        {
+          "Id": 66,
+          "Name": "Social verksamhet"
+        },
+        {
+          "Id": 174,
+          "Name": "Folkets Hus"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.659Z",
+    "association": {
+      "name": "Borggårds Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Friidrott",
+        "Friluftsliv",
+        "Idrott",
+        "Tipspromenader",
+        "Ungdomsverksamhet",
+        "Idrottsförening",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Borggårdsvägen 8",
+      "postal_code": "61275",
+      "city": "Hällestad",
+      "email": "info@borggardsik.se",
+      "phone": "0706870381",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9,
+      "mobile": "0706870381",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 103,
+          "Name": "Friidrott"
+        },
+        {
+          "Id": 104,
+          "Name": "Friluftsliv"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 160,
+          "Name": "Tipspromenader"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.659Z",
+    "association": {
+      "name": "Bränntorps Vägförening",
+      "org_number": null,
+      "types": [
+        "Vägförening"
+      ],
+      "activities": [
+        "Vägförening",
+        "Simskola (sommar)",
+        "Bygdepeng",
+        "Intresseorganisation",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.branntorp.se/",
+      "detail_url": null,
+      "street_address": "Örnvägen 6",
+      "postal_code": "61272",
+      "city": "Rejmyre",
+      "email": "styrelsen@branntorp.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 10,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 7,
+          "Name": "Vägförening"
+        },
+        {
+          "Id": 46,
+          "Name": "Simskola (sommar)"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.659Z",
+    "association": {
+      "name": "Butbro fastighetsägareförening",
+      "org_number": null,
+      "types": [
+        "Landsbygdsförening"
+      ],
+      "activities": [
+        "Lekplats",
+        "Vägunderhåll",
+        "Landsbygdsutveckling",
+        "Badplats",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.butbro.nu/",
+      "detail_url": null,
+      "street_address": "Butbrovägen 57",
+      "postal_code": "61291",
+      "city": "Finspång",
+      "email": "mats@mikmar.se",
+      "phone": "0763470907",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11,
+      "mobile": "0763470907",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Lekplats"
+        },
+        {
+          "Id": 22,
+          "Name": "Vägunderhåll"
+        },
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 56,
+          "Name": "Badplats"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.659Z",
+    "association": {
+      "name": "Equmenia Ung Hällestad",
+      "org_number": null,
+      "types": [
+        "Kyrkoförbund och församling"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Religiös verksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Kyrkoförbund och församling",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Karlslundsvägen 5",
+      "postal_code": "61274",
+      "city": "Grytgöl",
+      "email": "axelsson.simon@gmail.com",
+      "phone": "+46707536582",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 12,
+      "mobile": "+46707536582",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 147,
+          "Name": "Religiös verksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 182,
+          "Name": "Kyrkoförbund och församling"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.660Z",
+    "association": {
+      "name": "Equmenia ung i Finspång",
+      "org_number": null,
+      "types": [
+        "Kyrkoförbund och församling"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Religiös verksamhet",
+        "Scoutverksamhet",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://missionskyrkanfinspang.se/moetesplatser/barn-och-unga",
+      "detail_url": null,
+      "street_address": "Svälthagsvägen 4",
+      "postal_code": "61236",
+      "city": "Finspång",
+      "email": "thomas.widgren@hotmail.com",
+      "phone": "0708617096",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 13,
+      "mobile": "0708617096",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 147,
+          "Name": "Religiös verksamhet"
+        },
+        {
+          "Id": 151,
+          "Name": "Scoutverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.660Z",
+    "association": {
+      "name": "Falla folketshusförening UPA",
+      "org_number": null,
+      "types": [
+        "Folkets Hus"
+      ],
+      "activities": [
+        "Uthyrning av lokal",
+        "Folkets Hus",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tallvägen 6B",
+      "postal_code": "61236",
+      "city": "Finspång",
+      "email": "harry.bjorn@icloud.com",
+      "phone": "0733307177",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 14,
+      "mobile": "0733307177",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 24,
+          "Name": "Uthyrning av lokal"
+        },
+        {
+          "Id": 174,
+          "Name": "Folkets Hus"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.660Z",
+    "association": {
+      "name": "FGF Gymnastik i Finspång",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Gymnastik",
+        "Idrott",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/finspangsgf",
+      "detail_url": null,
+      "street_address": "Per Hörbergs väg 9",
+      "postal_code": "61237",
+      "city": "Finspång",
+      "email": "fgfgymnastik@gmail.com",
+      "phone": "0723875151",
+      "description": {
+        "free_text": "FGF - Finspångs Gymnastikförening startades 2018. \r\n\r\nIdag tränar ca 170 gymnaster i åldrarna 2-15 år i föreningen under ledning av ett femtontal ledare och hjälpledare. \r\n\r\nFör de yngre barnen erbjuder vi Bamsegympa (2-5 år) och Grundgymnastik (från 6 år och uppåt). Här fokuserar vi på rörelseglädje och att lära sig grundläggande gymnastikövning med och utan redskap.\r\n \r\nI de avancerade grupperna tränar barn från 8 år och uppåt. För att få börja i de avancerade grupperna (Parkour och truppgymnastik) behöver barnet ha olika förkunskaper. Vi rekommenderar att gå minst två terminer grundgymnastik innan man börjar i de avancerade grupperna.\r\n\r\nVår målsättning är att att erbjuda våra gymnaster en allsidig och rolig träning där gymnasten har möjlighet att utvecklas oavsett nivå. "
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 15,
+      "mobile": "0723875151",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 110,
+          "Name": "Gymnastik"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.660Z",
+    "association": {
+      "name": "FIBAS",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Hallonstigen 10",
+      "postal_code": "61233",
+      "city": "Finspång",
+      "email": "thomas.lonnstrom@gmail.com",
+      "phone": "073-9926260",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 105,
+      "mobile": "073-9926260",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 83,
+          "Name": "Basket"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.660Z",
+    "association": {
+      "name": "Finspong Trial Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Trial",
+        "Cykel",
+        "Motorsport",
+        "Ungdomsverksamhet",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.finspongtrialclub.se/",
+      "detail_url": null,
+      "street_address": "Ekedalsvägen",
+      "postal_code": "61244",
+      "city": "Finspång",
+      "email": "finspongtrialclub@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 46,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 44,
+          "Name": "Trial"
+        },
+        {
+          "Id": 91,
+          "Name": "Cykel"
+        },
+        {
+          "Id": 138,
+          "Name": "Motorsport"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.660Z",
+    "association": {
+      "name": "Finspongs Skyttegille",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte",
+        "Aktivitetsbidrag",
+        "Idrottsförening",
+        "Intresseorganisation"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Karlsborgsvägen 6",
+      "postal_code": "61238",
+      "city": "Finspång",
+      "email": "pihl.falla@gmail.com",
+      "phone": "0703954501",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 47,
+      "mobile": "0703954501",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 155,
+          "Name": "Skytte"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.660Z",
+    "association": {
+      "name": "Finspång Cricket Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Cricket",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": "60356",
+      "city": "Norrköping",
+      "email": "finspangcricketclub@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 114,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 47,
+          "Name": "Cricket"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.661Z",
+    "association": {
+      "name": "Finspångs AIK Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton",
+        "Idrott",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.laget.se/FinspangsAIKBadmintonklubb",
+      "detail_url": null,
+      "street_address": "Östermalmsvägen 59 C",
+      "postal_code": "61241",
+      "city": "Finspång",
+      "email": "finspangaikbk@gmail.com",
+      "phone": "0706819788",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 18,
+      "mobile": "0706819788",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 80,
+          "Name": "Badminton"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.661Z",
+    "association": {
+      "name": "Finspångs AIK Bandy",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bandy",
+        "Barnverksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/faik-bandy",
+      "detail_url": null,
+      "street_address": "Leverstorpsvägen 1",
+      "postal_code": "61244",
+      "city": "Finspång",
+      "email": "faikbandy@gmail.com",
+      "phone": "0709142740",
+      "description": {
+        "free_text": "I FAIK Bandy lär du dig åka skridskor och spela bandy. Vi har verksamhet för både tjejer och killar, från de allra yngsta ända upp till seniornivå. Vi håller till på Arena Grosvad, se hemsidan för kontaktuppgifter och träningstider: https://www.svenskalag.se/faik-bandy\r\n\r\nVälkommen till oss!"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 2,
+      "mobile": "0709142740",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 81,
+          "Name": "Bandy"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.661Z",
+    "association": {
+      "name": "Finspångs AIK Brottningklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Brottning",
+        "Idrott",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://xn--finspngbrottning-hob.se/",
+      "detail_url": null,
+      "street_address": "Fridhemsvägen 29E",
+      "postal_code": "61234",
+      "city": "Finspång",
+      "email": "jan.strom@cng.se",
+      "phone": "+46760001905",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 16,
+      "mobile": "+46760001905",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 89,
+          "Name": "Brottning"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.661Z",
+    "association": {
+      "name": "Finspångs AIK Friidrott",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Friidrott",
+        "Idrott",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.laget.se/FinspangsAIKFriidrott/",
+      "detail_url": null,
+      "street_address": "Grosvadsvägen 5",
+      "postal_code": "61241",
+      "city": "Finspång",
+      "email": "info@faikfriidrott.se",
+      "phone": "+46702296747",
+      "description": {
+        "free_text": "Finspångs AIK Friidrott är en del av alliansföreningen Finspångs AIK.\r\n\r\nVår målsättning är att ge ungdomar en bra möjlighet att träna friidrott. För de yngre betyder det ”friidrott under leksamma former” och för de äldre mer avancerad träning. Fokus är på rörelseglädje, där vi vill uppmuntra till en aktiv livsstil. Föreningen har också som målsättning att kunna stötta och utmana de barn och unga som vill satsa mer på friidrotten och tävla. För att friidrott ska vara en idrott som är tillgänglig för alla har vi låga avgifter och subventionerar i viss mån tävlingar och aktiviteter.\r\n\r\nTräningen bedrivs året runt. Sommartid (från April/maj till och med september/oktober) är vi på Grosvads IP där fina friidrottsbanor och stora ytor finns tillgängliga. Vintertid är vi i inomhushallen. \r\n\r\nFör tider, se vår kalender på vår websidan. \r\n\r\n\r\n\r\n"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 19,
+      "mobile": "+46702296747",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 103,
+          "Name": "Friidrott"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.661Z",
+    "association": {
+      "name": "Finspångs Atlet och sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kraftsport",
+        "Armbrytning",
+        "Brottning",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Orrspelsvägen 7",
+      "postal_code": "61243",
+      "city": "Finspång",
+      "email": "orjan.fritiofsson@gmail.com",
+      "phone": "0706816957",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20,
+      "mobile": "0706816957",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 42,
+          "Name": "Kraftsport"
+        },
+        {
+          "Id": 79,
+          "Name": "Armbrytning"
+        },
+        {
+          "Id": 89,
+          "Name": "Brottning"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.661Z",
+    "association": {
+      "name": "Finspångs Atletklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Styrkelyft",
+        "Kraftsport",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": "61234",
+      "city": "Finspång",
+      "email": "arja.vuorenmaa@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": "Finns ej med i RD-som kund."
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 39,
+          "Name": "Styrkelyft"
+        },
+        {
+          "Id": 42,
+          "Name": "Kraftsport"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.661Z",
+    "association": {
+      "name": "Finspångs Bridgeklubb",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Bridge",
+        "Intresseorganisation"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "http://www.svenskbridge.se/finspangs-bk",
+      "detail_url": null,
+      "street_address": "Laduvägen 4",
+      "postal_code": "61242",
+      "city": "Finspång",
+      "email": "finspangsbridgeklubb@gmail.com",
+      "phone": "070-664 97 04",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 23,
+      "mobile": "070-664 97 04",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 88,
+          "Name": "Bridge"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.661Z",
+    "association": {
+      "name": "Finspångs Brukshundsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Uthyrning av lokal",
+        "Hunddressyr",
+        "Ungdomsverksamhet",
+        "Friluftsliv och fritidsförening",
+        "Idrottsförening",
+        "Agility",
+        "Hundverksamhet"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Högröstavägen 3",
+      "postal_code": "61272",
+      "city": "Ljusfallshammar",
+      "email": "natalja.nikonova84@gmail.com",
+      "phone": "0760305902",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 24,
+      "mobile": "0760305902",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 24,
+          "Name": "Uthyrning av lokal"
+        },
+        {
+          "Id": 115,
+          "Name": "Hunddressyr"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 175,
+          "Name": "Friluftsliv och fritidsförening"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 188,
+          "Name": "Agility"
+        },
+        {
+          "Id": 189,
+          "Name": "Hundverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.662Z",
+    "association": {
+      "name": "Finspångs Bågskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bågskytte",
+        "Idrott",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Risingsväg 29",
+      "postal_code": "61235",
+      "city": "Finspång",
+      "email": "sekreterare.finspangs-bsk@outlook.com",
+      "phone": "+46768477456",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 22,
+      "mobile": "+46768477456",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 90,
+          "Name": "Bågskytte"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.662Z",
+    "association": {
+      "name": "Finspångs Cykelamatörer",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Cykel",
+        "Idrott",
+        "Motionsverksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/finspangsca",
+      "detail_url": null,
+      "street_address": "Masmästarvägen 7",
+      "postal_code": "61790",
+      "city": "Skärblacka",
+      "email": "ulf.pettersson@siemens-energy.com",
+      "phone": "076-6964597",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 25,
+      "mobile": "076-6964597",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 91,
+          "Name": "Cykel"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 136,
+          "Name": "Motionsverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.662Z",
+    "association": {
+      "name": "Finspångs Diabetesförening M.o",
+      "org_number": null,
+      "types": [
+        "Funktionshinderförening"
+      ],
+      "activities": [
+        "Vård och omsorg",
+        "Funktionshinderverksamhet",
+        "Funktionshinderförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Mandelblomsvägen 53",
+      "postal_code": "61246",
+      "city": "Finspång",
+      "email": "sbm43@hotmail.se",
+      "phone": "0737525423",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 26,
+      "mobile": "0737525423",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 21,
+          "Name": "Vård och omsorg"
+        },
+        {
+          "Id": 68,
+          "Name": "Funktionshinderverksamhet"
+        },
+        {
+          "Id": 176,
+          "Name": "Funktionshinderförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.662Z",
+    "association": {
+      "name": "Finspångs Discgolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Discgolf",
+        "Driftbidrag",
+        "Friluftsliv och fritidsförening",
+        "Idrottsförening",
+        "Intresseorganisation"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/fdgk",
+      "detail_url": null,
+      "street_address": "Tommy Lipponen, Kanalgatan 9c",
+      "postal_code": "61231",
+      "city": "Finspång",
+      "email": "finspangsdiscgolf@outlook.com",
+      "phone": "0729474757",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 27,
+      "mobile": "0729474757",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 74,
+          "Name": "Discgolf"
+        },
+        {
+          "Id": 172,
+          "Name": "Driftbidrag"
+        },
+        {
+          "Id": 175,
+          "Name": "Friluftsliv och fritidsförening"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.662Z",
+    "association": {
+      "name": "Finspångs Finska Förening",
+      "org_number": null,
+      "types": [
+        "Etniska förening"
+      ],
+      "activities": [
+        "Etnisk/kulturell verksamhet"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "http://www.suomi-seura.se",
+      "detail_url": null,
+      "street_address": "Vallonvägen 20",
+      "postal_code": "61230",
+      "city": "Finspång",
+      "email": "riitta.saapunki@finspang.se",
+      "phone": "+46 701700960",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 28,
+      "mobile": "+46 701700960",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 58,
+          "Name": "Etnisk/kulturell verksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.662Z",
+    "association": {
+      "name": "Finspångs FK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Barnverksamhet",
+        "Idrott",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.finspangsfk.se/",
+      "detail_url": null,
+      "street_address": "Grosvadsvägen 5",
+      "postal_code": "61241",
+      "city": "Finspång",
+      "email": "kansli@finspangsfk.se",
+      "phone": "0735309500",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 29,
+      "mobile": "0735309500",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.662Z",
+    "association": {
+      "name": "Finspångs Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf",
+        "Idrott",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.finspangsgk.se/",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jonas@finspangsgk.se",
+      "phone": "0730974951",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 30,
+      "mobile": "0730974951",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 109,
+          "Name": "Golf"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.662Z",
+    "association": {
+      "name": "Finspångs handbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Handboll",
+        "Idrott",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/fhk",
+      "detail_url": null,
+      "street_address": "Norralundsvägen 17 ",
+      "postal_code": "61244",
+      "city": "Finspång",
+      "email": "mail@finspangshk.se",
+      "phone": "+46702590519",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 31,
+      "mobile": "+46702590519",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 111,
+          "Name": "Handboll"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.662Z",
+    "association": {
+      "name": "Finspångs Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Innebandy",
+        "Idrott",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/finspangsibk",
+      "detail_url": null,
+      "street_address": "Postbox 44",
+      "postal_code": "61222",
+      "city": "Finspång",
+      "email": "info@finspangsibk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 32,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 116,
+          "Name": "Innebandy"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.663Z",
+    "association": {
+      "name": "Finspångs Kampsport",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Boxning",
+        "Kampsport",
+        "Ungdomsverksamhet",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.finspangskampsport.se/",
+      "detail_url": null,
+      "street_address": "Oxhagsvägen 1A",
+      "postal_code": "61232",
+      "city": "Finspång",
+      "email": "mattias-larsson@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 111,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 87,
+          "Name": "Boxning"
+        },
+        {
+          "Id": 121,
+          "Name": "Kampsport"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.663Z",
+    "association": {
+      "name": "Finspångs Kanotklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kanot",
+        "Idrott",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening",
+        "Kommunal Badplats"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "http://www.finspongskanotklubb.org",
+      "detail_url": null,
+      "street_address": "Skånstorpsvägen 33",
+      "postal_code": "61275",
+      "city": "Hällestad",
+      "email": "info@finspongskanotklubb.org",
+      "phone": "070-3318399",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 33,
+      "mobile": "070-3318399",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 9,
+          "Name": "Kanot"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 180,
+          "Name": "Kommunal Badplats"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.663Z",
+    "association": {
+      "name": "Finspångs Konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Utställningar",
+        "Kultur",
+        "Konst",
+        "Kulturförening",
+        "Lotteriverksamhet"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "http://www.finspangskonstforening.se/",
+      "detail_url": null,
+      "street_address": "Ekmans väg 22A lgh 1201",
+      "postal_code": "61236",
+      "city": "Finspång",
+      "email": "ordf@finspangskonstforening.se",
+      "phone": "0733529754",
+      "description": {
+        "free_text": "Finspångs konstförening har till uppgift att väcka, underhålla och utbreda intresset för den bildande konsten, särskilt genom att anordna utställningar av konstverk. Vi genomför 6-7 konstutställningar per verksamhetsår. Vi genomför även en konstresa varje år och ett konstlotteri.\r\n\r\nVår utställningslokal finns på Bergska skolan, Ekmans väg 12, 612 37 Finspång\r\nFinspångs konstförening är en del av Sveriges konstföreningar.\r\n"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 35,
+      "mobile": "0733529754",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 40,
+          "Name": "Utställningar"
+        },
+        {
+          "Id": 63,
+          "Name": "Kultur"
+        },
+        {
+          "Id": 125,
+          "Name": "Konst"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        },
+        {
+          "Id": 184,
+          "Name": "Lotteriverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.663Z",
+    "association": {
+      "name": "Finspångs Missionsförsamling",
+      "org_number": null,
+      "types": [
+        "Kyrkoförbund och församling"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Barnverksamhet",
+        "Religiös verksamhet",
+        "Scoutverksamhet",
+        "Ungdomsverksamhet",
+        "Kommunal Badplats",
+        "Kyrkoförbund och församling"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://missionskyrkanfinspang.se/",
+      "detail_url": null,
+      "street_address": "Slottsvägen 13",
+      "postal_code": "61231",
+      "city": "Finspång",
+      "email": "larsmrfix@gmail.com",
+      "phone": "0708617096",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 36,
+      "mobile": "0708617096",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 147,
+          "Name": "Religiös verksamhet"
+        },
+        {
+          "Id": 151,
+          "Name": "Scoutverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 180,
+          "Name": "Kommunal Badplats"
+        },
+        {
+          "Id": 182,
+          "Name": "Kyrkoförbund och församling"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.663Z",
+    "association": {
+      "name": "Finspångs Modellflygklubb",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Tävlingsverksamhet",
+        "Friluftsliv",
+        "Idrott",
+        "Modellflyg",
+        "Friluftsliv och fritidsförening",
+        "Idrottsförening",
+        "Intresseorganisation"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": "61276",
+      "city": "Lotorp",
+      "email": "peredberg46@gmail.com",
+      "phone": "0727400658",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 37,
+      "mobile": "0727400658",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 57,
+          "Name": "Tävlingsverksamhet"
+        },
+        {
+          "Id": 104,
+          "Name": "Friluftsliv"
+        },
+        {
+          "Id": 118,
+          "Name": "Idrott"
+        },
+        {
+          "Id": 135,
+          "Name": "Modellflyg"
+        },
+        {
+          "Id": 175,
+          "Name": "Friluftsliv och fritidsförening"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.663Z",
+    "association": {
+      "name": "Finspångs Motorsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Enduro",
+        "Folkrace",
+        "Motocross",
+        "Motorsport",
+        "Ungdomsverksamhet",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "http://www.finspongsms.se",
+      "detail_url": null,
+      "street_address": "Eliantorp 105",
+      "postal_code": "61293",
+      "city": "Finspång",
+      "email": "info@finspongsms.se",
+      "phone": "070-5502031",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 38,
+      "mobile": "070-5502031",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 25,
+          "Name": "Enduro"
+        },
+        {
+          "Id": 100,
+          "Name": "Folkrace"
+        },
+        {
+          "Id": 137,
+          "Name": "Motocross"
+        },
+        {
+          "Id": 138,
+          "Name": "Motorsport"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.663Z",
+    "association": {
+      "name": "Finspångs Musikkår",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Konsert",
+        "Musik",
+        "Ungdomsverksamhet",
+        "Kulturförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tunnlandsvägen 15",
+      "postal_code": "61234",
+      "city": "Finspång",
+      "email": "info@finspangsmusikkar.se",
+      "phone": "+46705174999",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 39,
+      "mobile": "+46705174999",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 124,
+          "Name": "Konsert"
+        },
+        {
+          "Id": 139,
+          "Name": "Musik"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.663Z",
+    "association": {
+      "name": "Finspångs Musiksällskap",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Orkesterspel",
+        "Kultur",
+        "Musik",
+        "Kulturförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://sv-se.facebook.com/pg/Musiksallskapet/about/?ref=page_internal",
+      "detail_url": null,
+      "street_address": "Gruvvägen 26",
+      "postal_code": "61294",
+      "city": "Finspång",
+      "email": "johan.sundberg63@gmail.com",
+      "phone": "0703725225",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 40,
+      "mobile": "0703725225",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 54,
+          "Name": "Orkesterspel"
+        },
+        {
+          "Id": 63,
+          "Name": "Kultur"
+        },
+        {
+          "Id": 139,
+          "Name": "Musik"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "Finspångs Pensionärers Bowlingklubb",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Bowling",
+        "Friskvård",
+        "Idrottsförening",
+        "Lotteriverksamhet",
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Svarvarevägen 5",
+      "postal_code": "61241",
+      "city": "Finspång",
+      "email": "henrikkans47@gmail.com",
+      "phone": "0721830957",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 41,
+      "mobile": "0721830957",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 86,
+          "Name": "Bowling"
+        },
+        {
+          "Id": 106,
+          "Name": "Friskvård"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 184,
+          "Name": "Lotteriverksamhet"
+        },
+        {
+          "Id": 186,
+          "Name": "Pensionärsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "Finspångs Pistolskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Pistolskytte",
+        "Skytte",
+        "Ungdomsverksamhet",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "finspongspk@gmail.com",
+      "phone": "+46704957265",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 42,
+      "mobile": "+46704957265",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 30,
+          "Name": "Pistolskytte"
+        },
+        {
+          "Id": 155,
+          "Name": "Skytte"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "Finspångs Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Teater",
+        "Kulturförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.riksteatern.se/forening/finspangs-riksteaterforening",
+      "detail_url": null,
+      "street_address": "Örebrovägen 259B",
+      "postal_code": "61275",
+      "city": "Hällestad",
+      "email": "larserikpalmqvist@hotmail.com",
+      "phone": "0703003009",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 48,
+      "mobile": "0703003009",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 158,
+          "Name": "Teater"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "Finspångs RPG",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Religiös verksamhet",
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Risingsväg 14 A lgh 1101",
+      "postal_code": "61235",
+      "city": "Finspång",
+      "email": "lelle.andersson@hotmail.com",
+      "phone": "0705459542",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 43,
+      "mobile": "0705459542",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 147,
+          "Name": "Religiös verksamhet"
+        },
+        {
+          "Id": 186,
+          "Name": "Pensionärsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "Finspångs SK-simidrott",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Simning",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/finspangssk",
+      "detail_url": null,
+      "street_address": "De Geers väg 25",
+      "postal_code": "61244",
+      "city": "Finspång",
+      "email": "ordforande@finspangssimklubb.se",
+      "phone": "0760193931",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 44,
+      "mobile": "0760193931",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 152,
+          "Name": "Simning"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "Finspångs SOK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Rullskidor",
+        "Barnverksamhet",
+        "Elljusspår",
+        "Friskvård",
+        "Längdskidåkning",
+        "Löpning",
+        "Orientering",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.finspangssok.se/",
+      "detail_url": null,
+      "street_address": "Torstorps Motionscentral, Torstorpsvägen 60",
+      "postal_code": "61234",
+      "city": "Finspång",
+      "email": "info@finspangssok.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 45,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 77,
+          "Name": "Rullskidor"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 96,
+          "Name": "Elljusspår"
+        },
+        {
+          "Id": 106,
+          "Name": "Friskvård"
+        },
+        {
+          "Id": 131,
+          "Name": "Längdskidåkning"
+        },
+        {
+          "Id": 132,
+          "Name": "Löpning"
+        },
+        {
+          "Id": 145,
+          "Name": "Orientering"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "Friluftsfrämjandet Finspångs Lokalavdelning",
+      "org_number": null,
+      "types": [
+        "Friluftsliv och fritidsförening"
+      ],
+      "activities": [
+        "Fritidsanläggning Lunddalen",
+        "Långfärdsskridsko",
+        "Kajakpaddling",
+        "Barnverksamhet",
+        "Cykel",
+        "Elljusspår",
+        "Friluftsliv",
+        "Friskvård",
+        "Tipspromenader",
+        "Vandringar",
+        "Friluftsliv och fritidsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.friluftsframjandet.se/regioner/ost/lokalavdelningar/finspang/",
+      "detail_url": null,
+      "street_address": "Tegelbruksvägen 36",
+      "postal_code": "61242",
+      "city": "Finspång",
+      "email": "ake.kinnander@outlook.com",
+      "phone": "+46737524944",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 51,
+      "mobile": "+46737524944",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 11,
+          "Name": "Fritidsanläggning Lunddalen"
+        },
+        {
+          "Id": 13,
+          "Name": "Långfärdsskridsko"
+        },
+        {
+          "Id": 17,
+          "Name": "Kajakpaddling"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 91,
+          "Name": "Cykel"
+        },
+        {
+          "Id": 96,
+          "Name": "Elljusspår"
+        },
+        {
+          "Id": 104,
+          "Name": "Friluftsliv"
+        },
+        {
+          "Id": 106,
+          "Name": "Friskvård"
+        },
+        {
+          "Id": 160,
+          "Name": "Tipspromenader"
+        },
+        {
+          "Id": 166,
+          "Name": "Vandringar"
+        },
+        {
+          "Id": 175,
+          "Name": "Friluftsliv och fritidsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "Frälsningsarméns Ungdom",
+      "org_number": null,
+      "types": [
+        "Kyrkoförbund och församling"
+      ],
+      "activities": [
+        "Tjejgrupp från 12 år och äldre",
+        "Barnverksamhet",
+        "Religiös verksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Kyrkoförbund och församling"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.fralsningsarmen.se/finspang/",
+      "detail_url": null,
+      "street_address": "Ekmans väg 4",
+      "postal_code": "61236",
+      "city": "Finspång",
+      "email": "birgittae.lundin@gmail.com",
+      "phone": "+46739800157",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 50,
+      "mobile": "+46739800157",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 3,
+          "Name": "Tjejgrupp från 12 år och äldre"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 147,
+          "Name": "Religiös verksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 182,
+          "Name": "Kyrkoförbund och församling"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "FUB-Finspång",
+      "org_number": null,
+      "types": [
+        "Funktionshinderförening"
+      ],
+      "activities": [
+        "Funktionshinderverksamhet",
+        "Funktionshinderförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.fub.se/lokal/fub-finspang/",
+      "detail_url": null,
+      "street_address": "Örtagsvägen 4",
+      "postal_code": "61294",
+      "city": "Finspång",
+      "email": "fristad4@gmail.com",
+      "phone": "070-2197117",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 127,
+      "mobile": "070-2197117",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 68,
+          "Name": "Funktionshinderverksamhet"
+        },
+        {
+          "Id": 176,
+          "Name": "Funktionshinderförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.664Z",
+    "association": {
+      "name": "Föreningen Kägelhallen Finspong",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kägel",
+        "Minigolf",
+        "Friskvård",
+        "Idrottsförening",
+        "Lotteriverksamhet"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://kagelhallen.se/",
+      "detail_url": null,
+      "street_address": "Bergslagsvägen 17-19",
+      "postal_code": "61230",
+      "city": "Finspång",
+      "email": "webmaster@kagelhallen.se",
+      "phone": "0702041815",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 49,
+      "mobile": "0702041815",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 31,
+          "Name": "Kägel"
+        },
+        {
+          "Id": 75,
+          "Name": "Minigolf"
+        },
+        {
+          "Id": 106,
+          "Name": "Friskvård"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 184,
+          "Name": "Lotteriverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.665Z",
+    "association": {
+      "name": "Grytgöls Framtidsförening",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Landsbygdsutveckling",
+        "Samhälle",
+        "Intresseorganisation",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Högfall Ljumman 1",
+      "postal_code": "61274",
+      "city": "Grytgöl",
+      "email": "grytgolsframtidsforening@gmail.com",
+      "phone": "073-0922238",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 52,
+      "mobile": "073-0922238",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 43,
+          "Name": "Samhälle"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.665Z",
+    "association": {
+      "name": "Grytgöls IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simskola (sommar)",
+        "Badplats",
+        "Bygdepeng",
+        "Idrottsförening",
+        "Landsbygdsförening",
+        "Östgötaleden-Driftbidrag",
+        "Övertagen badplats"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Getryggen 175",
+      "postal_code": "61274",
+      "city": "Grytgöl",
+      "email": "grytgolsik@gmail.com",
+      "phone": "0706716885",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 53,
+      "mobile": "0706716885",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 46,
+          "Name": "Simskola (sommar)"
+        },
+        {
+          "Id": 56,
+          "Name": "Badplats"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        },
+        {
+          "Id": 185,
+          "Name": "Östgötaleden-Driftbidrag"
+        },
+        {
+          "Id": 191,
+          "Name": "Övertagen badplats"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.665Z",
+    "association": {
+      "name": "Hembygdsföreningen Gamla Reijmyre",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/Bygderåd"
+      ],
+      "activities": [
+        "Utställningar",
+        "Museum",
+        "Bygdepeng",
+        "Hembygdsförening/Bygderåd",
+        "Landsbygdsförening",
+        "Lotteriverksamhet"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "http://www.rejmyrehembygdsforening.se",
+      "detail_url": null,
+      "street_address": "Glasbruksvägen 55",
+      "postal_code": "61271",
+      "city": "Rejmyre",
+      "email": "andersr5@hotmail.com",
+      "phone": "0702910893",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 57,
+      "mobile": "0702910893",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 40,
+          "Name": "Utställningar"
+        },
+        {
+          "Id": 49,
+          "Name": "Museum"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 177,
+          "Name": "Hembygdsförening/Bygderåd"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        },
+        {
+          "Id": 184,
+          "Name": "Lotteriverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.665Z",
+    "association": {
+      "name": "HRF Östra Östergötland",
+      "org_number": null,
+      "types": [
+        "Funktionshinderförening"
+      ],
+      "activities": [
+        "Funktionshinderverksamhet",
+        "Funktionshinderförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gamla Övägen 23",
+      "postal_code": "60379",
+      "city": "Norrköping",
+      "email": "alex.johansson7@gmail.com",
+      "phone": "+46707882354",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 58,
+      "mobile": "+46707882354",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 68,
+          "Name": "Funktionshinderverksamhet"
+        },
+        {
+          "Id": 176,
+          "Name": "Funktionshinderförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.665Z",
+    "association": {
+      "name": "Hällestad Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/Bygderåd"
+      ],
+      "activities": [
+        "Friluftsteater",
+        "Marknad",
+        "Kultur",
+        "Bygdepeng",
+        "Hembygdsförening/Bygderåd",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.hembygd.se/hallestads-hembygdsforening",
+      "detail_url": null,
+      "street_address": "Skånstorpsvägen 48",
+      "postal_code": "61275",
+      "city": "Hällestad",
+      "email": "hembygden.hallestad@gmail.com",
+      "phone": "070-624 90 30",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 55,
+      "mobile": "070-624 90 30",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 23,
+          "Name": "Friluftsteater"
+        },
+        {
+          "Id": 38,
+          "Name": "Marknad"
+        },
+        {
+          "Id": 63,
+          "Name": "Kultur"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 177,
+          "Name": "Hembygdsförening/Bygderåd"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.665Z",
+    "association": {
+      "name": "Hällestad MHF/MHF Ungdom",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Simskola (sommar)",
+        "Nykterhetsverksamhet",
+        "Ungdomsverksamhet",
+        "Intresseorganisation",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skånstorp Kattorp 303",
+      "postal_code": "61275",
+      "city": "Hällestad",
+      "email": "gostajohansson02@gmail.com",
+      "phone": "+46702359527",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 54,
+      "mobile": "+46702359527",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 46,
+          "Name": "Simskola (sommar)"
+        },
+        {
+          "Id": 143,
+          "Name": "Nykterhetsverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.666Z",
+    "association": {
+      "name": "Hävla Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Discgolf",
+        "Barnverksamhet",
+        "Ungdomsverksamhet",
+        "Idrottsförening",
+        "Kommunal Badplats",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.havlask.se",
+      "detail_url": null,
+      "street_address": "Sjövägen 27",
+      "postal_code": "61272",
+      "city": "Rejmyre",
+      "email": "hskmartin@yahoo.com",
+      "phone": "+46731810619",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 56,
+      "mobile": "+46731810619",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 74,
+          "Name": "Discgolf"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 180,
+          "Name": "Kommunal Badplats"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.666Z",
+    "association": {
+      "name": "Igelfors IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gym",
+        "Barnverksamhet",
+        "Elljusspår",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tomtavallen",
+      "postal_code": "61295",
+      "city": "Finspång",
+      "email": "igelforsif@live.se",
+      "phone": "0738012909",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 59,
+      "mobile": "0705419640",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 32,
+          "Name": "Gym"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 96,
+          "Name": "Elljusspår"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.666Z",
+    "association": {
+      "name": "Igelfors-Regna bygderåd",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/Bygderåd"
+      ],
+      "activities": [
+        "Badplats",
+        "Bygdepeng",
+        "Hembygdsförening/Bygderåd",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://igelforsregna.se/",
+      "detail_url": null,
+      "street_address": "Hulls väg 4",
+      "postal_code": "61295",
+      "city": "Finspång",
+      "email": "info@igelforsregna.se",
+      "phone": "+46704131121",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 82,
+      "mobile": "+46704131121",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Badplats"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 177,
+          "Name": "Hembygdsförening/Bygderåd"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.666Z",
+    "association": {
+      "name": "IK Guts Finspång",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/guts",
+      "detail_url": null,
+      "street_address": "Grosvadsvägen 5",
+      "postal_code": "61241",
+      "city": "Finspång",
+      "email": "kansli@ikgutsfinspang.se",
+      "phone": "0733162558",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 60,
+      "mobile": "0733162558",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 117,
+          "Name": "Ishockey"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.666Z",
+    "association": {
+      "name": "IOGT-NTO 1714 Finspång",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Uthyrning av lokal",
+        "Drogpolitik",
+        "Nykterhetsverksamhet",
+        "Intresseorganisation"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Prästköp 504",
+      "postal_code": "61273",
+      "city": "Ljusfallshammar",
+      "email": "per-ake.andersson@iogt.se",
+      "phone": "0708505915",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 61,
+      "mobile": "0708505915",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 24,
+          "Name": "Uthyrning av lokal"
+        },
+        {
+          "Id": 36,
+          "Name": "Drogpolitik"
+        },
+        {
+          "Id": 143,
+          "Name": "Nykterhetsverksamhet"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.666Z",
+    "association": {
+      "name": "Judoklubben Källan",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Judo",
+        "Barnverksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Örebrovägen 13",
+      "postal_code": "61294",
+      "city": "Finspång",
+      "email": "kratzlinda@gmail.com",
+      "phone": "0738168039",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 62,
+      "mobile": "0738168039",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 41,
+          "Name": "Judo"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.667Z",
+    "association": {
+      "name": "Korpen Finspång",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gympa",
+        "Friskvård",
+        "Korpidrott",
+        "Motionsverksamhet",
+        "Friluftsliv och fritidsförening",
+        "Idrottsförening",
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.korpen.se/korpenfinspang",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "finspang.korpen@gmail.com",
+      "phone": "070-52 111 53",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 63,
+      "mobile": "070-52 111 53",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 71,
+          "Name": "Gympa"
+        },
+        {
+          "Id": 106,
+          "Name": "Friskvård"
+        },
+        {
+          "Id": 126,
+          "Name": "Korpidrott"
+        },
+        {
+          "Id": 136,
+          "Name": "Motionsverksamhet"
+        },
+        {
+          "Id": 175,
+          "Name": "Friluftsliv och fritidsförening"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 186,
+          "Name": "Pensionärsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.667Z",
+    "association": {
+      "name": "Kulturföreningen Örnvägen 1",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Utställningar",
+        "Kulturarrangemang",
+        "Konsert",
+        "Konst",
+        "Musik",
+        "Kulturförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.facebook.com/groups/1226863852355685",
+      "detail_url": null,
+      "street_address": "Örnvägen 1",
+      "postal_code": "61272",
+      "city": "Rejmyre",
+      "email": "boman.p64@gmail.com",
+      "phone": "0739820134",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 64,
+      "mobile": "0739820134",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 40,
+          "Name": "Utställningar"
+        },
+        {
+          "Id": 50,
+          "Name": "Kulturarrangemang"
+        },
+        {
+          "Id": 124,
+          "Name": "Konsert"
+        },
+        {
+          "Id": 125,
+          "Name": "Konst"
+        },
+        {
+          "Id": 139,
+          "Name": "Musik"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.667Z",
+    "association": {
+      "name": "Lantbruksmuseet Ljusfallshammar",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Utställningar",
+        "Museum",
+        "Hembygd",
+        "Turism",
+        "Kulturförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "http://www.lantbruksmuseum.se",
+      "detail_url": null,
+      "street_address": "Hyttsjövägen 30",
+      "postal_code": "61273",
+      "city": "Hällestad",
+      "email": "eklund.christer@yahoo.se",
+      "phone": "070-555 85 44",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 66,
+      "mobile": "070-555 85 44",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 40,
+          "Name": "Utställningar"
+        },
+        {
+          "Id": 49,
+          "Name": "Museum"
+        },
+        {
+          "Id": 114,
+          "Name": "Hembygd"
+        },
+        {
+          "Id": 162,
+          "Name": "Turism"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.667Z",
+    "association": {
+      "name": "Linköpings FC",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Kallerstads Allé 3",
+      "postal_code": "58278",
+      "city": "Linköping",
+      "email": "tobias.stucki@linkopingfc.com",
+      "phone": "0720760299",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 109,
+      "mobile": "0720760299",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.667Z",
+    "association": {
+      "name": "Lions Club Finspång",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Intresseorganisation",
+        "Lotteriverksamhet"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Box 1",
+      "postal_code": "61221",
+      "city": "Finspång",
+      "email": "admin@lionsfinspang.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 67,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        },
+        {
+          "Id": 184,
+          "Name": "Lotteriverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.667Z",
+    "association": {
+      "name": "Ljusfallshammars Byaråd",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/Bygderåd"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Landsbygdsutveckling",
+        "Bygdepeng",
+        "Hembygdsförening/Bygderåd",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://ljusfallshammar.nu/",
+      "detail_url": null,
+      "street_address": "Hammarhöjdsvägen 5",
+      "postal_code": "61273",
+      "city": "Ljusfallshammar",
+      "email": "mari.aktner@gmail.com",
+      "phone": "+46706840052",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 68,
+      "mobile": "+46706840052",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 177,
+          "Name": "Hembygdsförening/Bygderåd"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.667Z",
+    "association": {
+      "name": "Ljusfallshammars SK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simskola (sommar)",
+        "Idrottsförening",
+        "Kommunal Badplats",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://ljusfallshammar.nu/",
+      "detail_url": null,
+      "street_address": "Getryggen 19",
+      "postal_code": "61273",
+      "city": "Ljusfallshammar",
+      "email": "lsk1961@hotmail.se",
+      "phone": "+46706496897",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 69,
+      "mobile": "+46706496897",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 46,
+          "Name": "Simskola (sommar)"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 180,
+          "Name": "Kommunal Badplats"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.668Z",
+    "association": {
+      "name": "Lotorps IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Landsbygdsutveckling",
+        "Barnverksamhet",
+        "Ungdomsverksamhet",
+        "Volleyboll",
+        "Aktivitetsbidrag",
+        "Idrottsförening",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/lotorp",
+      "detail_url": null,
+      "street_address": "Ånghammarvägen 6",
+      "postal_code": "61276",
+      "city": "Lotorp",
+      "email": "anders.molund@siemens-energy.com",
+      "phone": "0702402578",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 70,
+      "mobile": "0702402578",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 167,
+          "Name": "Volleyboll"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.668Z",
+    "association": {
+      "name": "Lämmetorps Fritidsförening",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Landsbygdsutveckling",
+        "Social verksamhet",
+        "Bygdepeng",
+        "Intresseorganisation",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ewa-lilja@hotmail.com",
+      "phone": "0733843221",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 65,
+      "mobile": "0733843221",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 66,
+          "Name": "Social verksamhet"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.668Z",
+    "association": {
+      "name": "Marsjö-Byle GoIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Barnverksamhet",
+        "Motionsverksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Bygdepeng",
+        "Hembygdsförening/Bygderåd",
+        "Idrottsförening",
+        "Kommunal Badplats",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skedevivägen 439",
+      "postal_code": "64394",
+      "city": "Vingåker",
+      "email": "marsjo.byle@gmail.com",
+      "phone": "0703747728",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 71,
+      "mobile": "0703747728",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 136,
+          "Name": "Motionsverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 177,
+          "Name": "Hembygdsförening/Bygderåd"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 180,
+          "Name": "Kommunal Badplats"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.668Z",
+    "association": {
+      "name": "Naturskyddsföreningen Finspång",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Natur",
+        "Miljöarbete",
+        "Friluftsliv",
+        "Fågelskådning",
+        "Föreläsning",
+        "Friluftsliv och fritidsförening",
+        "Intresseorganisation"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://snffinspang.se/",
+      "detail_url": null,
+      "street_address": "Högamonvägen 16",
+      "postal_code": "61273",
+      "city": "Ljusfallshammar",
+      "email": "bo.tufvesson@gmail.com",
+      "phone": "0706723178",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 72,
+      "mobile": "0706723178",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 53,
+          "Name": "Natur"
+        },
+        {
+          "Id": 67,
+          "Name": "Miljöarbete"
+        },
+        {
+          "Id": 104,
+          "Name": "Friluftsliv"
+        },
+        {
+          "Id": 107,
+          "Name": "Fågelskådning"
+        },
+        {
+          "Id": 108,
+          "Name": "Föreläsning"
+        },
+        {
+          "Id": 175,
+          "Name": "Friluftsliv och fritidsförening"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.668Z",
+    "association": {
+      "name": "NEURO Förbundet Finspång",
+      "org_number": null,
+      "types": [
+        "Funktionshinderförening"
+      ],
+      "activities": [
+        "Medlemsförening för diagnoserna MS, Parkison, Stroke, Polyneuropati m.fl.",
+        "Funktionshinderförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://neuro.se/forening/foereningar-a-oe/finspaang/",
+      "detail_url": null,
+      "street_address": "Villaparksvägen 5",
+      "postal_code": "61271",
+      "city": "Rejmyre",
+      "email": "inger.hillgren@neuro.se",
+      "phone": "+46705134837",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 73,
+      "mobile": "+46705134837",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Medlemsförening för diagnoserna MS, Parkison, Stroke, Polyneuropati m.fl."
+        },
+        {
+          "Id": 176,
+          "Name": "Funktionshinderförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.668Z",
+    "association": {
+      "name": "Niklas testförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Vägen 2",
+      "postal_code": "12345",
+      "city": "Finspång",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 113,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.668Z",
+    "association": {
+      "name": "NSF Scoutkår Finspång",
+      "org_number": null,
+      "types": [
+        "Friluftsliv och fritidsförening"
+      ],
+      "activities": [
+        "Friluftsliv",
+        "Nykterhetsverksamhet",
+        "Scoutverksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Friluftsliv och fritidsförening",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "S:a Marias väg 101",
+      "postal_code": "61292",
+      "city": "Finspång",
+      "email": "lars@liljeqwist.se",
+      "phone": "+4670-5336655",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 74,
+      "mobile": "+4670-5336655",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 104,
+          "Name": "Friluftsliv"
+        },
+        {
+          "Id": 143,
+          "Name": "Nykterhetsverksamhet"
+        },
+        {
+          "Id": 151,
+          "Name": "Scoutverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 175,
+          "Name": "Friluftsliv och fritidsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.669Z",
+    "association": {
+      "name": "Pride Finspång",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Mänskliga rättigheter",
+        "Kultur",
+        "Intresseorganisation"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.facebook.com/PrideFinspang/",
+      "detail_url": null,
+      "street_address": "Fågelsångsvägen 22",
+      "postal_code": "61241",
+      "city": "Finspång",
+      "email": "pridefinspang@gmail.com",
+      "phone": "0763746647",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 75,
+      "mobile": "0763746647",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 16,
+          "Name": "Mänskliga rättigheter"
+        },
+        {
+          "Id": 63,
+          "Name": "Kultur"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.669Z",
+    "association": {
+      "name": "PRO Finspång",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Friskvård",
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://pro.se/finspang",
+      "detail_url": null,
+      "street_address": "Pirvägen 7",
+      "postal_code": "61237",
+      "city": "Finspång",
+      "email": "laila.ringqvist@icloud.com",
+      "phone": "0725869486",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 76,
+      "mobile": "0725869486",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 106,
+          "Name": "Friskvård"
+        },
+        {
+          "Id": 186,
+          "Name": "Pensionärsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.669Z",
+    "association": {
+      "name": "PRO Hällestad",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Trivselkvällar",
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://pro.se/distrikt/distrikt-ostergotland/samorganisationer/samorganisation-finspang/foreningar/hallestad.html",
+      "detail_url": null,
+      "street_address": "Grytgölsvägen 185",
+      "postal_code": "61011",
+      "city": "Grytgöl",
+      "email": "soren.joelsson2@gmail.com",
+      "phone": "+46702180881",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 77,
+      "mobile": "+46702180881",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 161,
+          "Name": "Trivselkvällar"
+        },
+        {
+          "Id": 186,
+          "Name": "Pensionärsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.669Z",
+    "association": {
+      "name": "Regna Frikyrkoförsamling",
+      "org_number": null,
+      "types": [
+        "Kyrkoförbund och församling"
+      ],
+      "activities": [
+        "Religiös verksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Kyrkoförbund och församling",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "regnafrikyrkoforsamling@outlook.com",
+      "phone": "+46763377606",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 79,
+      "mobile": "+46763377606",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 147,
+          "Name": "Religiös verksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 182,
+          "Name": "Kyrkoförbund och församling"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.669Z",
+    "association": {
+      "name": "Regna hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/Bygderåd"
+      ],
+      "activities": [
+        "Landsbygdsutveckling",
+        "Kultur",
+        "Hembygdsförening/Bygderåd",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.hembygd.se/regna",
+      "detail_url": null,
+      "street_address": "Regnavägen 80",
+      "postal_code": "61295",
+      "city": "Finspång",
+      "email": "parkvagen29@gmail.com",
+      "phone": "+46702637579",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 78,
+      "mobile": "+46702637579",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 63,
+          "Name": "Kultur"
+        },
+        {
+          "Id": 177,
+          "Name": "Hembygdsförening/Bygderåd"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.669Z",
+    "association": {
+      "name": "Regna idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Simskola (sommar)",
+        "Längdskidåkning",
+        "Orientering",
+        "Idrottsförening",
+        "Landsbygdsförening",
+        "Östgötaleden-Driftbidrag"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Glimmervägen 3",
+      "postal_code": "61295",
+      "city": "Finspång",
+      "email": "lisaandersson_@hotmail.com",
+      "phone": "0705172220",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 80,
+      "mobile": "0705172220",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 46,
+          "Name": "Simskola (sommar)"
+        },
+        {
+          "Id": 131,
+          "Name": "Längdskidåkning"
+        },
+        {
+          "Id": 145,
+          "Name": "Orientering"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        },
+        {
+          "Id": 185,
+          "Name": "Östgötaleden-Driftbidrag"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.669Z",
+    "association": {
+      "name": "Regna Skyttegille",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Liebruksvägen 11",
+      "postal_code": "61295",
+      "city": "Finspång",
+      "email": "elving.turesson@bahnhof.se",
+      "phone": "0705603114",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 81,
+      "mobile": "0705603114",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 155,
+          "Name": "Skytte"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.669Z",
+    "association": {
+      "name": "Rejmyre Art Lab",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Utställningar",
+        "Konst",
+        "Kulturförening",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "http://www.rejmyreartlab.org",
+      "detail_url": null,
+      "street_address": "Glasbruksvägen 42",
+      "postal_code": "61271",
+      "city": "Rejmyre",
+      "email": "hanna@rejmyreartlab.org",
+      "phone": "0709820209",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 84,
+      "mobile": "0709820209",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 40,
+          "Name": "Utställningar"
+        },
+        {
+          "Id": 125,
+          "Name": "Konst"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.670Z",
+    "association": {
+      "name": "Rejmyre Byaråd",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/Bygderåd"
+      ],
+      "activities": [
+        "Landsbygdsutveckling",
+        "Simskola (sommar)",
+        "Bygdepeng",
+        "Hembygdsförening/Bygderåd",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "http://www.rejmyrebyarad.se/index.shtml",
+      "detail_url": null,
+      "street_address": "Glasbruksvägen 41",
+      "postal_code": "61271",
+      "city": "Rejmyre",
+      "email": "maithekstrom@hotmail.com",
+      "phone": "+46739639582",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 86,
+      "mobile": "+46739639582",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 46,
+          "Name": "Simskola (sommar)"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 177,
+          "Name": "Hembygdsförening/Bygderåd"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.670Z",
+    "association": {
+      "name": "Rejmyre Bågskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bågskytte",
+        "Ungdomsverksamhet",
+        "Idrottsförening",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.rejmyrebsk.se/",
+      "detail_url": null,
+      "street_address": "Eriksberg",
+      "postal_code": "61272",
+      "city": "Rejmyre",
+      "email": "Hallqvist.mattias@telia.com",
+      "phone": "0703655027",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 85,
+      "mobile": "0703655027",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 90,
+          "Name": "Bågskytte"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.670Z",
+    "association": {
+      "name": "Rejmyre Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Barnverksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening",
+        "Landsbygdsförening",
+        "Östgötaleden-Driftbidrag"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/reijmyreif",
+      "detail_url": null,
+      "street_address": "Lundavägen 3",
+      "postal_code": "61271",
+      "city": "Rejmyre",
+      "email": "kansli@reijmyreif.se",
+      "phone": "0702311744",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 83,
+      "mobile": "0702311744",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        },
+        {
+          "Id": 185,
+          "Name": "Östgötaleden-Driftbidrag"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.670Z",
+    "association": {
+      "name": "Rejmyre Jaktskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Jaktvård",
+        "Skytte",
+        "Idrottsförening",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.jagarnasriksforbund.se/ostergotland/rejmyrejsk/",
+      "detail_url": null,
+      "street_address": "Tunnlandsvägen 15",
+      "postal_code": "61234",
+      "city": "Finspång",
+      "email": "rejmyrejsk@gmail.com",
+      "phone": "+46705174999",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 87,
+      "mobile": "+46705174999",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 119,
+          "Name": "Jaktvård"
+        },
+        {
+          "Id": 155,
+          "Name": "Skytte"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.670Z",
+    "association": {
+      "name": "Reumatikerföreningen Finspång",
+      "org_number": null,
+      "types": [
+        "Funktionshinderförening"
+      ],
+      "activities": [
+        "Funktionshinderförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Högamonvägen 6",
+      "postal_code": "61273",
+      "city": "Finspång",
+      "email": "gun.lasse@live.se",
+      "phone": "0702368532",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 88,
+      "mobile": "0702368532",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 176,
+          "Name": "Funktionshinderförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.670Z",
+    "association": {
+      "name": "Risinge Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/Bygderåd"
+      ],
+      "activities": [
+        "Landsbygdsutveckling",
+        "Hembygdsförening/Bygderåd",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.hembygd.se/risinge",
+      "detail_url": null,
+      "street_address": "Sankta Marias väg 111, 612 92 Finspång",
+      "postal_code": "61240",
+      "city": "Finspång",
+      "email": "annbrittwrenn@allt2.se",
+      "phone": "0706268354",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 89,
+      "mobile": "070-626 83 54",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 177,
+          "Name": "Hembygdsförening/Bygderåd"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.670Z",
+    "association": {
+      "name": "Ronin Karate Finspång",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport",
+        "Motionsverksamhet",
+        "Ungdomsverksamhet",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Fågelsångsvägen 40",
+      "postal_code": "61241",
+      "city": "Finspång",
+      "email": "roninkarate@gmx.com",
+      "phone": null,
+      "description": {
+        "free_text": "https://www.facebook.com/groups/224822004870959/?locale=sv_SE"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 91,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 90,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 121,
+          "Name": "Kampsport"
+        },
+        {
+          "Id": 136,
+          "Name": "Motionsverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.671Z",
+    "association": {
+      "name": "Ryttarkamraterna i Finspång",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hästsport",
+        "Ridning",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.ryttarkamraterna.se/",
+      "detail_url": null,
+      "street_address": "Sleipnersväg 4",
+      "postal_code": "61236",
+      "city": "Finspång",
+      "email": "rk.finspang@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi satsar på att driva en grundläggande häst- och ridutbildning med hög kvalite för barn, ungdomar och vuxna. Hos oss är alla välkomna. Vi finns i Torstorp, utanför Finspång.\r\nVi har alltid lediga ridplatser. "
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 92,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 91,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 65,
+          "Name": "Hästsport"
+        },
+        {
+          "Id": 148,
+          "Name": "Ridning"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.671Z",
+    "association": {
+      "name": "Räddningstjänsten Finspångs Kommun",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skäggebyvägen 43",
+      "postal_code": "61234",
+      "city": "Finspång",
+      "email": "anders.forsblad@finspang.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 93,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 104,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.671Z",
+    "association": {
+      "name": "Skedevi Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/Bygderåd"
+      ],
+      "activities": [
+        "Samhälle/Landsbygdsutveckling",
+        "Hembygdsförening/Bygderåd",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.hembygd.se/skedevi",
+      "detail_url": null,
+      "street_address": "Brenäsvägen 31",
+      "postal_code": "61272",
+      "city": "Rejmyre",
+      "email": "bert.hellman@bahnhof.se",
+      "phone": "0705216260",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 94,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 92,
+      "mobile": "0705216260",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 6,
+          "Name": "Samhälle/Landsbygdsutveckling"
+        },
+        {
+          "Id": 177,
+          "Name": "Hembygdsförening/Bygderåd"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.671Z",
+    "association": {
+      "name": "SKPF avd 78",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.skpf.se/avdelningar/distrikt-ostergotlands-lan/finspang-avd-78/",
+      "detail_url": null,
+      "street_address": "Videvägen 6 B",
+      "postal_code": "61241",
+      "city": "Finspång",
+      "email": "mbsvensson46@gmail.com",
+      "phone": "+46706765562",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 95,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 93,
+      "mobile": "+46706765562",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 186,
+          "Name": "Pensionärsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.671Z",
+    "association": {
+      "name": "Sonstorps IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Landsbygdsutveckling",
+        "Barnverksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Bygdepeng",
+        "Idrottsförening",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/sonstorpsik",
+      "detail_url": null,
+      "street_address": "Grytgölsvägen 52",
+      "postal_code": "61294",
+      "city": "Finspång",
+      "email": "sonstorpsik21@gmail.com",
+      "phone": "+46730427848",
+      "description": {
+        "free_text": "SONSTORPS IK är en fotbolls förening med ungdomslag från födda -20 till seniorer och även oldboys.\r\nI dagsläget har vi 6st ungdomslag och 2st seniorlag.\r\nVi som förening värnar också för landsbygden där vi är engagerade i olika arrangemang och jobbar för ett levande SONSTORP för både unga och gamla."
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 96,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 94,
+      "mobile": "+46730427848",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 171,
+          "Name": "Bygdepeng"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.671Z",
+    "association": {
+      "name": "SPF Seniorerna Finspång",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/finspang",
+      "detail_url": null,
+      "street_address": "Kapellvägen 5",
+      "postal_code": "61240",
+      "city": "Finspång",
+      "email": "spfseniorerna.finspang@outlook.com",
+      "phone": "+46733100730",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 97,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 95,
+      "mobile": "+46733100730",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 186,
+          "Name": "Pensionärsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.671Z",
+    "association": {
+      "name": "SPF Seniorerna Gruvan",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Medmänsklig/Social verksamhet",
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/distrikt/ostgotadistriktet/foreningslista/spf-seniorerna-gruvan-/",
+      "detail_url": null,
+      "street_address": "Skånstorpsvägen 90",
+      "postal_code": "61275",
+      "city": "Hällestad",
+      "email": "gorarv@gmail.com",
+      "phone": "+46704301950",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 98,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 96,
+      "mobile": "+46704301950",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Medmänsklig/Social verksamhet"
+        },
+        {
+          "Id": 186,
+          "Name": "Pensionärsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.672Z",
+    "association": {
+      "name": "STAL-kören",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Körsång",
+        "Intresseorganisation",
+        "Kulturförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://sv-se.facebook.com/pages/category/Choir/STAL-k%C3%B6ren-309414252578423/",
+      "detail_url": null,
+      "street_address": "Hovslagarbacken 5",
+      "postal_code": "60580",
+      "city": "Svärtinge",
+      "email": "per.umberg@siemens-energy.com",
+      "phone": "0761411807",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 99,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 97,
+      "mobile": "0761411807",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 129,
+          "Name": "Körsång"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        },
+        {
+          "Id": 181,
+          "Name": "Kulturförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.672Z",
+    "association": {
+      "name": "Studiefrämjandet Östergötland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Folkbildning",
+        "Film",
+        "Samhälle",
+        "Miljö",
+        "Natur",
+        "Hållbarhet",
+        "Studieförbund",
+        "Kultur",
+        "Media",
+        "Språk",
+        "Dans",
+        "Musik"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.studieframjandet.se/",
+      "detail_url": null,
+      "street_address": "Kungsgatan 53",
+      "postal_code": "60233",
+      "city": "Norrköping",
+      "email": "sara.bokvist@studieframjandet.se",
+      "phone": "0765490905",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 100,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 98,
+      "mobile": "0765490905",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Folkbildning"
+        },
+        {
+          "Id": 33,
+          "Name": "Film"
+        },
+        {
+          "Id": 43,
+          "Name": "Samhälle"
+        },
+        {
+          "Id": 45,
+          "Name": "Miljö"
+        },
+        {
+          "Id": 53,
+          "Name": "Natur"
+        },
+        {
+          "Id": 55,
+          "Name": "Hållbarhet"
+        },
+        {
+          "Id": 59,
+          "Name": "Studieförbund"
+        },
+        {
+          "Id": 63,
+          "Name": "Kultur"
+        },
+        {
+          "Id": 73,
+          "Name": "Media"
+        },
+        {
+          "Id": 76,
+          "Name": "Språk"
+        },
+        {
+          "Id": 92,
+          "Name": "Dans"
+        },
+        {
+          "Id": 139,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.672Z",
+    "association": {
+      "name": "Synskadades Riksförbund Östra Östergötland",
+      "org_number": null,
+      "types": [
+        "Funktionshinderförening"
+      ],
+      "activities": [
+        "Funktionshinderförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.srf.nu/distrikt-och-branschforeningar/distrikt/srf-ostergotland/lokalforeningar/srf-norrkoping/",
+      "detail_url": null,
+      "street_address": "Gamla Övägen 23",
+      "postal_code": "60379",
+      "city": "Norrköping",
+      "email": "ostra.ostergotland@srfost.nu",
+      "phone": "+46767897494",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 101,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 99,
+      "mobile": "+46767897494",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 176,
+          "Name": "Funktionshinderförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.672Z",
+    "association": {
+      "name": "Tisnarbro Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Landsbygdsutveckling",
+        "Aktivitetsbidrag",
+        "Idrottsförening",
+        "Kommunal Badplats",
+        "Landsbygdsförening"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/Tisnarbro_IF",
+      "detail_url": null,
+      "street_address": "Jägaregatan 29",
+      "postal_code": "64331",
+      "city": "Vingåker",
+      "email": "tisnarbroif@gmail.com",
+      "phone": "073 5299594",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 102,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 100,
+      "mobile": "073 5299594",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 27,
+          "Name": "Landsbygdsutveckling"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 180,
+          "Name": "Kommunal Badplats"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.672Z",
+    "association": {
+      "name": "Torstorps IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Barnverksamhet",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Idrottsförening",
+        "Landsbygdsförening",
+        "Lotteriverksamhet"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.svenskalag.se/Tif",
+      "detail_url": null,
+      "street_address": "Linköpingsvägen 52",
+      "postal_code": "61238",
+      "city": "Finspång",
+      "email": "info@torstorpsif.se",
+      "phone": "0761287224",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 103,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 101,
+      "mobile": "0761287224",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 1,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 82,
+          "Name": "Barnverksamhet"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 178,
+          "Name": "Idrottsförening"
+        },
+        {
+          "Id": 183,
+          "Name": "Landsbygdsförening"
+        },
+        {
+          "Id": 184,
+          "Name": "Lotteriverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.673Z",
+    "association": {
+      "name": "Victims of Gaming",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Figurspel",
+        "Brädspel",
+        "Kortspel",
+        "Rollspel",
+        "Ungdomsverksamhet",
+        "Aktivitetsbidrag",
+        "Intresseorganisation"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.facebook.com/VictimsofGaming/",
+      "detail_url": null,
+      "street_address": "Bergslagsvägen 9",
+      "postal_code": "61230",
+      "city": "Finspång",
+      "email": "victimsofgamingfinspang@hotmail.com",
+      "phone": "0706169381",
+      "description": {
+        "free_text": "Victims of Gaming är Finspångs brädspelsförening. Vi har öppet för spel i vår lokal måndagar, onsdagar och fredagar från 18:00."
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 104,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 102,
+      "mobile": "0706169381",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 35,
+          "Name": "Figurspel"
+        },
+        {
+          "Id": 64,
+          "Name": "Brädspel"
+        },
+        {
+          "Id": 78,
+          "Name": "Kortspel"
+        },
+        {
+          "Id": 149,
+          "Name": "Rollspel"
+        },
+        {
+          "Id": 164,
+          "Name": "Ungdomsverksamhet"
+        },
+        {
+          "Id": 170,
+          "Name": "Aktivitetsbidrag"
+        },
+        {
+          "Id": 179,
+          "Name": "Intresseorganisation"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Finsp├Ñng",
+    "scrape_run_id": "9b9dea83-d175-4660-8813-0ef9b7dbedc7",
+    "scraped_at": "2025-10-23T08:33:11.673Z",
+    "association": {
+      "name": "Villaägarna i Finspång",
+      "org_number": null,
+      "types": [
+        "Intresseorganisation"
+      ],
+      "activities": [
+        "Föreläsning",
+        "Evenemang"
+      ],
+      "categories": [
+        "Finspång"
+      ],
+      "homepage_url": "https://www.villaagarna.se/lokalt/region-ost/lokalforeningar-ost/villaagarna-i-finspang/aktuellt/",
+      "detail_url": null,
+      "street_address": "Fridhemsvägen 40",
+      "postal_code": "61234",
+      "city": "Finspång",
+      "email": "villaagarna.finspang@gmail.com",
+      "phone": "0705755364",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 105,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 140,
+      "mobile": "0705755364",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Finspång"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 108,
+          "Name": "Föreläsning"
+        },
+        {
+          "Id": 192,
+          "Name": "Evenemang"
+        }
+      ]
+    }
+  }
+]

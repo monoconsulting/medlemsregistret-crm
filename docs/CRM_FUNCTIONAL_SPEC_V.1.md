@@ -272,3 +272,4 @@ Every record includes a `pipeline_status` field linked to the `crm_pipeline_stat
 - `LESSONS_LEARNED_*.md` – system-specific best practices  
 
 ---
+git 

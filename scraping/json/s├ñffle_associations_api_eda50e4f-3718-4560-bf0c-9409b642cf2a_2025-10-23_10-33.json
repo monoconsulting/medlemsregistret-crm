@@ -1,0 +1,6048 @@
+[
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.592Z",
+    "association": {
+      "name": "Aktiespararna Säffle/Åmål",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.aktiespararna.se",
+      "detail_url": null,
+      "street_address": "Norra Långgatan 5",
+      "postal_code": "66231",
+      "city": "Åmål",
+      "email": "kajse-britt@tele2.se",
+      "phone": "0702659729",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21072,
+      "mobile": "0702659729",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.592Z",
+    "association": {
+      "name": "Apollon Millesviks kulturförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.apollon.nu",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@apollon.nu",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21202,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.592Z",
+    "association": {
+      "name": "Billeruds Bridgeklubb",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Bridge"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Sundsgatan 17, 3 tr.",
+      "postal_code": "66140",
+      "city": "SÄFFLE",
+      "email": "billbk@telia.com",
+      "phone": "053314380",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20631,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 54,
+          "Name": "Bridge"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.592Z",
+    "association": {
+      "name": "BK Tegnér",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Oxelgatan 6",
+      "postal_code": "66142",
+      "city": "Säffle",
+      "email": "bktegner@gmail.com",
+      "phone": "0703001121",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20101,
+      "mobile": "0703001121",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 17,
+          "Name": "Bowling"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.592Z",
+    "association": {
+      "name": "BMS Åminton",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Näsgatan 12",
+      "postal_code": "66232",
+      "city": "Åmål",
+      "email": "bmsaminton@gmail.com",
+      "phone": "0730266271",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20140,
+      "mobile": "0730266271",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 70,
+          "Name": "Badminton"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.593Z",
+    "association": {
+      "name": "Centrumkyrkans Församling",
+      "org_number": null,
+      "types": [
+        "Religion"
+      ],
+      "activities": [
+        "Religion",
+        "Scouting"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.centrumkyrkansaffle.se",
+      "detail_url": null,
+      "street_address": "Bryggerigatan 5",
+      "postal_code": "66140",
+      "city": "SÄFFLE",
+      "email": "henrik_olsson@hotmail.com",
+      "phone": "0702446555",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20181,
+      "mobile": "0702446555",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 35,
+          "Name": "Religion"
+        },
+        {
+          "Id": 38,
+          "Name": "Scouting"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.593Z",
+    "association": {
+      "name": "Dalslands Litteraturförening",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Övrigt",
+        "Litteratur"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "https://www.bokdagaridalsland.se",
+      "detail_url": null,
+      "street_address": "Kyrkogatan 14",
+      "postal_code": "66231",
+      "city": "Åmål",
+      "email": "victor@bokdagaridalsland.se",
+      "phone": "0703476174",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21850,
+      "mobile": "0703476174",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Övrigt"
+        },
+        {
+          "Id": 76,
+          "Name": "Litteratur"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.593Z",
+    "association": {
+      "name": "Dalslands Travsällskap",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": "65465",
+      "city": "Karlstad",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21355,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.593Z",
+    "association": {
+      "name": "Demensföreningen Säffle-Åmål-Grums",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Aspsäter Fiskerud",
+      "postal_code": "66195",
+      "city": "Värmlands Nysäter",
+      "email": "m.liskallin@live.se",
+      "phone": "053332116",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21032,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.593Z",
+    "association": {
+      "name": "DHB Västra",
+      "org_number": null,
+      "types": [
+        "Handikapp"
+      ],
+      "activities": [
+        "Handikapp"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "http://www.dhbvastra.se",
+      "detail_url": null,
+      "street_address": "Storgatan 7",
+      "postal_code": "46236",
+      "city": "Vänersborg",
+      "email": "bidrag@dhbvastra.se",
+      "phone": "052169610",
+      "description": {
+        "free_text": "DHB Västra vänder sig till familjer som har döva, hörselskadade barn samt barn med språkstörning. Men också de som har ytterligare funktionsnedsättningar. Inom målgruppen förekommer olika funktionsnedsättningar så som autism, ADHD, Down syndrom, rörelsehinder, asperger syndrom, intellektuell funktionsnedsättning. Det gemensamma för alla i vår målgrupp är kommunikation, vilket sker på teckenspråk. Vi anordnar teckenspråkskurser, familjeaktiviteter, sommarläger samt ungdomsläger. Barnen kommer vid dessa aktiviteter och läger träffa sina likasinnade som kommunicerar på samma språk - teckenspråk! På sommarlägret är barnen med likasinnade vänner som kommunicerar på samma språk - teckenspråket. Vi har där teckenspråkiga barnledare som gör olika aktiviteter med barnen medans föräldrarna lär sig teckenspråk. Många av våra barn har teckenspråket som sitt modersmål och detta ska det få via föräldrarna. Får inte barnen en fungerande kommunikation är det lätt att känna sig otrygg."
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20090,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 15,
+          "Name": "Handikapp"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.593Z",
+    "association": {
+      "name": "Djurskyddet Säffle-Åmål",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.djurskyddet.se/saffleamal",
+      "detail_url": null,
+      "street_address": "Trolldalen Gösta",
+      "postal_code": "66192",
+      "city": "Säffle",
+      "email": "saffle-amal@djurskyddet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21034,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.593Z",
+    "association": {
+      "name": "Drifandi Islandshästförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Säffle kommun",
+        "Åmåls kommun"
+      ],
+      "homepage_url": "https://drifandi.se/",
+      "detail_url": null,
+      "street_address": "Örrud ÖRSGÄRDE ",
+      "postal_code": "66191",
+      "city": "Säffle",
+      "email": "drifandi@hotmail.com",
+      "phone": "0768435252",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21861,
+      "mobile": "0768435252",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun",
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.594Z",
+    "association": {
+      "name": "Edsleskogs Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "https://www.edsleskog.com/",
+      "detail_url": null,
+      "street_address": " Mörkerud 1011",
+      "postal_code": "66291",
+      "city": "Åmål",
+      "email": "053412687@telia.com",
+      "phone": "0706328976",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21864,
+      "mobile": "0706328976",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.594Z",
+    "association": {
+      "name": "EFS Missionsförsaml. V. Nysäter",
+      "org_number": null,
+      "types": [
+        "Religion"
+      ],
+      "activities": [
+        "Religion"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Nyströmsvägen 18",
+      "postal_code": "66195",
+      "city": "VÄRMLANDS  NYSÄTER",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20185,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 35,
+          "Name": "Religion"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.594Z",
+    "association": {
+      "name": "EFS Stora Backa Scout",
+      "org_number": null,
+      "types": [
+        "Religion"
+      ],
+      "activities": [
+        "Religion"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Vickersrud Hulterud",
+      "postal_code": "66194",
+      "city": "SÄFFLE",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20187,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 35,
+          "Name": "Religion"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.594Z",
+    "association": {
+      "name": "EFS-Kyrkan i Säffle",
+      "org_number": null,
+      "types": [
+        "Religion"
+      ],
+      "activities": [
+        "Religion"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.kyrktorget.se/efs.saffle",
+      "detail_url": null,
+      "street_address": "Skogsvägen 10",
+      "postal_code": "66130",
+      "city": "SÄFFLE",
+      "email": "brh.robertson@glocalnet.net",
+      "phone": "053315270",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20178,
+      "mobile": "0739916450",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 35,
+          "Name": "Religion"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.594Z",
+    "association": {
+      "name": "Eskilsäters Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gunnerud Furuhagen",
+      "postal_code": "66191",
+      "city": "SÄFFLE",
+      "email": "furuhagen1@outlook.com",
+      "phone": "053323073",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20192,
+      "mobile": "0703331429",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.594Z",
+    "association": {
+      "name": "Eskilsäters IF",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.eskilsaterif.se",
+      "detail_url": null,
+      "street_address": "Hasselgatan 7",
+      "postal_code": "66142",
+      "city": "SÄFFLE",
+      "email": "eskilsaterif@hotmail.com",
+      "phone": "0707998003",
+      "description": {
+        "free_text": "Meddelat ny adress från 2025-09-02"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20130,
+      "mobile": "0707998003",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.594Z",
+    "association": {
+      "name": "Fengersfors IK",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Sjövägen 6",
+      "postal_code": "66295",
+      "city": "Fengersfors",
+      "email": "fengersforsik@telia.com",
+      "phone": "053223133",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20141,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.594Z",
+    "association": {
+      "name": "Folkkören",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "http://hem.bredband.net/folkkoren/",
+      "detail_url": null,
+      "street_address": "Bodane Gård 201",
+      "postal_code": "66295",
+      "city": "Fengersfors",
+      "email": "gunnardahlstrand@gmail.com",
+      "phone": "0702562720",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20643,
+      "mobile": "0702562720",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.595Z",
+    "association": {
+      "name": "Folkmusik i Svanskog",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": "https://folkmusiksvanskog.se",
+      "detail_url": null,
+      "street_address": "Källtegen Framgården",
+      "postal_code": "66296",
+      "city": "Svanskog",
+      "email": "hej@folkmusiksvanskog.se",
+      "phone": "0768416390",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21095,
+      "mobile": "0768416390",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.595Z",
+    "association": {
+      "name": "Friluftsfrämjandet Åmål -Säffle",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Lägerverksamhet",
+        "Naturverksamhet"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "https://www.friluftsframjandet.se/amal-saffle",
+      "detail_url": null,
+      "street_address": "Ängsgatan 8",
+      "postal_code": "66142",
+      "city": "Säffle",
+      "email": "amal@friluftsframjandet.se",
+      "phone": "0705371231",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20102,
+      "mobile": "0705371231",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 41,
+          "Name": "Lägerverksamhet"
+        },
+        {
+          "Id": 53,
+          "Name": "Naturverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.595Z",
+    "association": {
+      "name": "Friskvården i Värmland/Säffle friskvårdscentral",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Friskvård"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Sundsgatan 1 B",
+      "postal_code": "66140",
+      "city": "SÄFFLE",
+      "email": null,
+      "phone": "0533681665",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20004,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 77,
+          "Name": "Friskvård"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.595Z",
+    "association": {
+      "name": "FUB (För. För Utv.störda Barn)",
+      "org_number": null,
+      "types": [
+        "Handikapp"
+      ],
+      "activities": [
+        "Handikapp"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tångvägen 3F",
+      "postal_code": "66193",
+      "city": "Värmlandsbro",
+      "email": "ika.mattsson@telia.com",
+      "phone": "053340205",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20083,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 15,
+          "Name": "Handikapp"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.595Z",
+    "association": {
+      "name": "Föreningen Karate Shotokan JSKA",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Västerlånggat 19, lgh 1202",
+      "postal_code": "66230",
+      "city": "Åmål",
+      "email": "ruhullahmuradi8553@gmail.com",
+      "phone": "0736813063",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20167,
+      "mobile": "0736813063",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 12,
+          "Name": "Karate"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.595Z",
+    "association": {
+      "name": "Föreningen Säffle-Båt",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.safflebat.se",
+      "detail_url": null,
+      "street_address": "Ängsgatan 27",
+      "postal_code": "66142",
+      "city": "Säffle",
+      "email": "kontakt@safflebat.se",
+      "phone": "0730563494",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21201,
+      "mobile": "0730563494",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.595Z",
+    "association": {
+      "name": "Föräldraföreningen i Svanskog",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "https://www.facebook.com/profile.php?id=100062940956212",
+      "detail_url": null,
+      "street_address": "Skomakarevägen 13",
+      "postal_code": "66250",
+      "city": "Svanskog",
+      "email": "foraldraforeningensvanskog@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21307,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Övrigt"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.595Z",
+    "association": {
+      "name": "G47 - Äskekärr",
+      "org_number": null,
+      "types": [
+        "Vägförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Äskekärr 302",
+      "postal_code": "66297",
+      "city": "ÅNIMSKOG",
+      "email": "hakaaker@gmail.com",
+      "phone": "0707361641",
+      "description": {
+        "free_text": "vägunderhåll väg G47"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20763,
+      "mobile": "0707361641",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.596Z",
+    "association": {
+      "name": "Galleri Olika",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "https://www.galleriolika.com/",
+      "detail_url": null,
+      "street_address": "Krökersrudshöjden 5",
+      "postal_code": "46472",
+      "city": "Håverud",
+      "email": "ingerstranding@gmail.com",
+      "phone": "0702782073",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21869,
+      "mobile": "0702782073",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.596Z",
+    "association": {
+      "name": "Gillberga FF",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gillbergavägen 30",
+      "postal_code": "66195",
+      "city": "VÄRMLANDS NYSÄTER",
+      "email": "isabell@proviaentreprenad.se",
+      "phone": "053330108",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20103,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.596Z",
+    "association": {
+      "name": "Gillberga PRO",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionärsverks"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Kik",
+      "postal_code": "66195",
+      "city": "V NYSÄTER",
+      "email": null,
+      "phone": "053330110",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20173,
+      "mobile": "0705343496",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 30,
+          "Name": "Pensionärsverks"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.596Z",
+    "association": {
+      "name": "Gillberga Skidklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skidor"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.gillbergask.com",
+      "detail_url": null,
+      "street_address": "Nyströms väg",
+      "postal_code": "66195",
+      "city": "VÄRMLANDS NYSÄTER",
+      "email": "skidor@gillbergask.com.",
+      "phone": "053330370",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20104,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 23,
+          "Name": "Skidor"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.596Z",
+    "association": {
+      "name": "Hagenberg-Åmåls Västra Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bordtennis",
+        "Motionsidrott",
+        "Gymnastik"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Jakobsbyn 402",
+      "postal_code": "66291",
+      "city": "Åmål",
+      "email": "svantesson@medsolen.se",
+      "phone": "0767830362",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20208,
+      "mobile": "0767830362",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 20,
+          "Name": "Bordtennis"
+        },
+        {
+          "Id": 26,
+          "Name": "Motionsidrott"
+        },
+        {
+          "Id": 14,
+          "Name": "Gymnastik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.596Z",
+    "association": {
+      "name": "Hjärt och Lungsjukas Förening i Säffle",
+      "org_number": null,
+      "types": [
+        "Handikapp"
+      ],
+      "activities": [
+        "Handikapp"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Säfflekullen",
+      "postal_code": "66194",
+      "city": "SÄFFLE",
+      "email": "k.vestmalm@hotmail.com",
+      "phone": "0702297408",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20084,
+      "mobile": "0702297408",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 15,
+          "Name": "Handikapp"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.596Z",
+    "association": {
+      "name": "Hudson Bay",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Ringvägen 20",
+      "postal_code": "66250",
+      "city": "Svanskog",
+      "email": "hudsonbay@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20629,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.596Z",
+    "association": {
+      "name": "Huggenäs Byalag och Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.huggenas.se",
+      "detail_url": null,
+      "street_address": "Västra  Uggelsäter Hagaberg",
+      "postal_code": "66192",
+      "city": "SÄFFLE",
+      "email": "heleneuggelsater@hotmail.com",
+      "phone": "0790776286",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20193,
+      "mobile": "0790776286",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.596Z",
+    "association": {
+      "name": "Husföreningen Silvénska villan",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Musik",
+        "kurser",
+        "Uthyrning",
+        "Föreläsning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.silvenskavillan.se",
+      "detail_url": null,
+      "street_address": "Fogdegatan 1",
+      "postal_code": "66142",
+      "city": "SÄFFLE",
+      "email": "silvenskavillan@telia.com",
+      "phone": "053317061",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21203,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Musik"
+        },
+        {
+          "Id": 32,
+          "Name": "kurser"
+        },
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        },
+        {
+          "Id": 60,
+          "Name": "Föreläsning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.597Z",
+    "association": {
+      "name": "Häljebols Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Häljebol",
+      "postal_code": "66195",
+      "city": "VÄRMLANDS NYSÄTER",
+      "email": "gerd.widing@bredband2.com",
+      "phone": "0703107531",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20194,
+      "mobile": "0703107531",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.597Z",
+    "association": {
+      "name": "Ida Bäckmansällskapet",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Kristinebergsgatan 12 B",
+      "postal_code": "66236",
+      "city": "Åmål",
+      "email": "agnetagip@gmail.com",
+      "phone": "0737321165",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21088,
+      "mobile": "0737321165",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.597Z",
+    "association": {
+      "name": "IF Draken",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll",
+        "Innebandy",
+        "Korpverksamhet"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Torggatan 14 H",
+      "postal_code": "67131",
+      "city": "ARVIKA",
+      "email": "a.ingebro@gmail.com",
+      "phone": "0733792530",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20138,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 7,
+          "Name": "Innebandy"
+        },
+        {
+          "Id": 47,
+          "Name": "Korpverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.597Z",
+    "association": {
+      "name": "IF Friskis och Svettis Säffle",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Motionsidrott",
+        "kondition",
+        "Aerobics"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.friskissvettis.se/saffle",
+      "detail_url": null,
+      "street_address": "Karlstadsvägen 19",
+      "postal_code": "66141",
+      "city": "SÄFFLE",
+      "email": "keekberg@gmail.com",
+      "phone": "0703168600",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20136,
+      "mobile": "0703168600",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 26,
+          "Name": "Motionsidrott"
+        },
+        {
+          "Id": 57,
+          "Name": "kondition"
+        },
+        {
+          "Id": 59,
+          "Name": "Aerobics"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.597Z",
+    "association": {
+      "name": "IF Friskis och Svettis Åmål",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Ödmansgatan 8A",
+      "postal_code": "66234",
+      "city": "ÅMÅL",
+      "email": "annika.johannesson72@gmail.com",
+      "phone": "0702272309",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20157,
+      "mobile": "0702272309",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 14,
+          "Name": "Gymnastik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.597Z",
+    "association": {
+      "name": "IF Stor och Liten",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Nybrogatan 26",
+      "postal_code": "66230",
+      "city": "Åmål",
+      "email": "backman.kenneth@telia.com",
+      "phone": "0703409518",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20878,
+      "mobile": "0703409518",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.597Z",
+    "association": {
+      "name": "IF Viken",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Vikenborgsgatan 1",
+      "postal_code": "66236",
+      "city": "Åmål",
+      "email": "ifviken@telia.com",
+      "phone": "053271063",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20142,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.597Z",
+    "association": {
+      "name": "IFK fotboll senior",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Södra Kyrkogårdsgatan ",
+      "postal_code": "66231",
+      "city": "Åmål",
+      "email": "if.kamraterna@telia.com",
+      "phone": "053271961",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20875,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.598Z",
+    "association": {
+      "name": "IFK fotboll ungdom",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Södra Kyrkogårdsgatan 6",
+      "postal_code": "66231",
+      "city": "ÅMÅL",
+      "email": "if.kamraterna@telia.com",
+      "phone": "053271961",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20864,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.598Z",
+    "association": {
+      "name": "IFK Åmål",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "https://www.ifkamal.com",
+      "detail_url": null,
+      "street_address": "S:a Kyrkogårdsgatan 6",
+      "postal_code": "66231",
+      "city": "ÅMÅL",
+      "email": "info@ifkamal.com",
+      "phone": "072-229 06 24",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20158,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.598Z",
+    "association": {
+      "name": "IFK Åmål Basket",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Södra Kyrkogårdsgatan",
+      "postal_code": "66231",
+      "city": "ÅMÅL",
+      "email": "basket@ifkamal.com",
+      "phone": "0793510761",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20868,
+      "mobile": "0793510761",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 11,
+          "Name": "Basket"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.598Z",
+    "association": {
+      "name": "IFK Åmål Handboll",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Södra Kyrkogårdsgatan 6",
+      "postal_code": "66231",
+      "city": "ÅMÅL",
+      "email": "frasseballester@gmail.com",
+      "phone": "053271961",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20863,
+      "mobile": "0705550299",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 72,
+          "Name": "Handboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.598Z",
+    "association": {
+      "name": "Järnvägssällskapet Åmål-Årjäng",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://jaaj.nu",
+      "detail_url": null,
+      "street_address": "Järnvägsgatan 1",
+      "postal_code": "66250",
+      "city": "Svanskog",
+      "email": null,
+      "phone": "053230550",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21204,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.598Z",
+    "association": {
+      "name": "Kila Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "c/o Mia Helgelin, Västra Takene Söhagen 1",
+      "postal_code": "66194",
+      "city": "Säffle",
+      "email": "ekonomi@kilabyalag.se",
+      "phone": "0760206120",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21670,
+      "mobile": "0760206120",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.598Z",
+    "association": {
+      "name": "Kila Östra Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.karrholmen.se",
+      "detail_url": null,
+      "street_address": "Kärrholmen Bygdegården",
+      "postal_code": "66193",
+      "city": "SÄFFLE",
+      "email": "kontakt@karrholmen.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20195,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.598Z",
+    "association": {
+      "name": "Källarbackens Intresseförening",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Naturverksamhet"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.kallarbacken.se",
+      "detail_url": null,
+      "street_address": "Vändstigen 4",
+      "postal_code": "66131",
+      "city": "SÄFFLE",
+      "email": "kallarbackensif@gmail.com",
+      "phone": "0730269717",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20636,
+      "mobile": "0730269717",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 53,
+          "Name": "Naturverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.598Z",
+    "association": {
+      "name": "Luröskärgårdens Natur och Kulturförening",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.luronok.se",
+      "detail_url": null,
+      "street_address": "Norra Villagatan 18",
+      "postal_code": "66440",
+      "city": "Slottsbron",
+      "email": "afalkensjo@gmail.com",
+      "phone": "0706600142",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20628,
+      "mobile": "0706600142",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.599Z",
+    "association": {
+      "name": "Långseruds Utvecklingsgrupp",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gisslebyn Larsstugan",
+      "postal_code": "66196",
+      "city": "Långserud",
+      "email": "lug@bahnhof.se",
+      "phone": "0730424445",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21207,
+      "mobile": "0730424445",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.599Z",
+    "association": {
+      "name": "Lönnskogs Folkets Husförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skalbaggvägen 7",
+      "postal_code": "66143",
+      "city": "Säffle",
+      "email": "lena.johansson54@icloud.com",
+      "phone": "0730748998",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20198,
+      "mobile": "0730748998",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.599Z",
+    "association": {
+      "name": "Naturskyddsföreningen i Säffle",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://saffle.naturskyddsforeningen.se",
+      "detail_url": null,
+      "street_address": "Stockvägen 52",
+      "postal_code": "66143",
+      "city": "Säffle",
+      "email": "elisabet.rimeika@gmail.com",
+      "phone": "0705300383",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20032,
+      "mobile": "0705300383",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.599Z",
+    "association": {
+      "name": "Night Rebels Säffle",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Bråten Krokstad",
+      "postal_code": "66194",
+      "city": "SÄFFLE",
+      "email": "nightrebels@hotmail.com",
+      "phone": "0703001121",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20642,
+      "mobile": "0703001121",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Motorsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.599Z",
+    "association": {
+      "name": "Norra Eds Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Norra Ed Co Släperud",
+      "postal_code": "66194",
+      "city": "SÄFFLE",
+      "email": "beritbackstrom@telia.com",
+      "phone": "0701568369",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20199,
+      "mobile": "0701568369",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.599Z",
+    "association": {
+      "name": "Old Boys Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Steckseniigatan 21",
+      "postal_code": "66237",
+      "city": "Åmål",
+      "email": "staf.adam@gmail.com",
+      "phone": "0768984283",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21379,
+      "mobile": "0768984283",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 7,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.599Z",
+    "association": {
+      "name": "PRO i Säffle",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionärsverks"
+      ],
+      "categories": [],
+      "homepage_url": "https://pro.se/saffle",
+      "detail_url": null,
+      "street_address": "Kanalparken 3, Kanalvillan",
+      "postal_code": "66130",
+      "city": "Säffle",
+      "email": "saffle@pro.se",
+      "phone": "0736148477",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21442,
+      "mobile": "0736148477",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 30,
+          "Name": "Pensionärsverks"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.599Z",
+    "association": {
+      "name": "RSMH Säffle",
+      "org_number": null,
+      "types": [
+        "Handikapp"
+      ],
+      "activities": [
+        "Handikapp",
+        "kurser"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.rsmhsaffle.se",
+      "detail_url": null,
+      "street_address": "Sundsgatan 1",
+      "postal_code": "66140",
+      "city": "Säffle",
+      "email": "rsmh.saffle@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20089,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 15,
+          "Name": "Handikapp"
+        },
+        {
+          "Id": 32,
+          "Name": "kurser"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.599Z",
+    "association": {
+      "name": "Sâffle Synskadades förening",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Övrigt",
+        "Simning",
+        "Handikapp",
+        "Skidor",
+        "Pensionärsverks",
+        "kurser",
+        "Föreläsning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "annika.ostling@srf.nu",
+      "phone": "0550692755",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21226,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Övrigt"
+        },
+        {
+          "Id": 10,
+          "Name": "Simning"
+        },
+        {
+          "Id": 15,
+          "Name": "Handikapp"
+        },
+        {
+          "Id": 23,
+          "Name": "Skidor"
+        },
+        {
+          "Id": 30,
+          "Name": "Pensionärsverks"
+        },
+        {
+          "Id": 32,
+          "Name": "kurser"
+        },
+        {
+          "Id": 60,
+          "Name": "Föreläsning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.600Z",
+    "association": {
+      "name": "Sifhälla Kamratförening",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Brucegatan 2",
+      "postal_code": "66140",
+      "city": "Säffle",
+      "email": "lennart4801@telia.com",
+      "phone": "0708604805",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21140,
+      "mobile": "0708604805",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Övrigt"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.600Z",
+    "association": {
+      "name": "Skäggebyns Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Källbyn Sörmon",
+      "postal_code": "66296",
+      "city": "SVANSKOG",
+      "email": "hakan.johansson2@euromaint.com",
+      "phone": "0706312283",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20205,
+      "mobile": "0706312283",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.600Z",
+    "association": {
+      "name": "South Wermland Sports Club",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Box 57, Järnvägsgatan 11",
+      "postal_code": "66122",
+      "city": "Säffle",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20865,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.600Z",
+    "association": {
+      "name": "Svanskogs Folkets Husförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Bengtsforsvägen 14",
+      "postal_code": "66250",
+      "city": "SVANSKOG",
+      "email": "karinolsson.smerud@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20206,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.600Z",
+    "association": {
+      "name": "Svanskogs Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Järnbruksgatan 11",
+      "postal_code": "66250",
+      "city": "SVANSKOG",
+      "email": "svanskogsgymnastikf@hotmail.com",
+      "phone": "053230515",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20110,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 14,
+          "Name": "Gymnastik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.600Z",
+    "association": {
+      "name": "Swing Valley - Lindy hop Dalsland",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "https://www.facebook.com/profile.php?id=61556612716257",
+      "detail_url": null,
+      "street_address": "Fröskogsvägen 3",
+      "postal_code": null,
+      "city": "Fengersfors",
+      "email": "swingvalleydalsland@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21868,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.600Z",
+    "association": {
+      "name": "SÅ Volley",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "http://www.savolley.se",
+      "detail_url": null,
+      "street_address": "Nolbygatan 11",
+      "postal_code": "66233",
+      "city": "ÅMÅL",
+      "email": "o@savolley.se",
+      "phone": "0709726431",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21568,
+      "mobile": "0709726431",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.600Z",
+    "association": {
+      "name": "Säffle Basketclub",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.safflebc.se",
+      "detail_url": null,
+      "street_address": "Västra Storgatan 18 A",
+      "postal_code": "66130",
+      "city": "Säffle",
+      "email": "kansli@safflebc.se",
+      "phone": "0793510761",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21779,
+      "mobile": "0793510761",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 11,
+          "Name": "Basket"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.601Z",
+    "association": {
+      "name": "Säffle Brukshundsklubb",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "kurser"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Atlasgatan 18",
+      "postal_code": "66133",
+      "city": "SÄFFLE",
+      "email": "styrelsen@safflebrukshundklubb.se",
+      "phone": "0703282791",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20634,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 32,
+          "Name": "kurser"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.601Z",
+    "association": {
+      "name": "Säffle Dragspelsklubb",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tångvägen 3F",
+      "postal_code": "66193",
+      "city": "SÄFFLE",
+      "email": "stiruam@telia.com",
+      "phone": "053340038",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20632,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.601Z",
+    "association": {
+      "name": "Säffle Folkdanslag",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Dansverksamhet"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Lillstigen 15",
+      "postal_code": "66131",
+      "city": "SÄFFLE",
+      "email": "sune-olsson@spray.se",
+      "phone": "053314179",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20635,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 37,
+          "Name": "Dansverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.601Z",
+    "association": {
+      "name": "Säffle Friidrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Sveavägen 16 A",
+      "postal_code": "66141",
+      "city": "SÄFFLE",
+      "email": "info@safflefriidrott.se",
+      "phone": "0706189770",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20116,
+      "mobile": "0706189770",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 9,
+          "Name": "Friidrott"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.601Z",
+    "association": {
+      "name": "Säffle Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Motionsidrott"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Herkulesgatan 6",
+      "postal_code": "66131",
+      "city": "SÄFFLE",
+      "email": "rolfra6@gmail.com",
+      "phone": "0704410331",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20638,
+      "mobile": "0704410331",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 26,
+          "Name": "Motionsidrott"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.601Z",
+    "association": {
+      "name": "Säffle handbollsklubb",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Enbärsvägen 15",
+      "postal_code": "66143",
+      "city": "Säffle",
+      "email": "camilla.andersen19@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21603,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.602Z",
+    "association": {
+      "name": "Säffle Hockeyclub",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "ishockey",
+        "Skridskoskola"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Stjärngatan 1",
+      "postal_code": "66132",
+      "city": "SÄFFLE",
+      "email": "safflehc86@gmail.com",
+      "phone": "004790878471",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20118,
+      "mobile": "004790878471",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 22,
+          "Name": "ishockey"
+        },
+        {
+          "Id": 63,
+          "Name": "Skridskoskola"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.602Z",
+    "association": {
+      "name": "Säffle IBF",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Parkgatan 8",
+      "postal_code": "66142",
+      "city": "Säffle",
+      "email": "info@saffleibf.se",
+      "phone": "0703044845",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21579,
+      "mobile": "0703044845",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.602Z",
+    "association": {
+      "name": "Säffle Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skidor",
+        "Orientering",
+        "Mountainbike",
+        "Terränglöpning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Kvistvägen 19",
+      "postal_code": "66143",
+      "city": "SÄFFLE",
+      "email": "styrelsen@saffleik.se",
+      "phone": "0708579940",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20124,
+      "mobile": "0708579940",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 23,
+          "Name": "Skidor"
+        },
+        {
+          "Id": 50,
+          "Name": "Orientering"
+        },
+        {
+          "Id": 74,
+          "Name": "Mountainbike"
+        },
+        {
+          "Id": 75,
+          "Name": "Terränglöpning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.602Z",
+    "association": {
+      "name": "Säffle Kampsportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Östra Storgatan 8",
+      "postal_code": "66142",
+      "city": "Säffle",
+      "email": "Safflekampsport@outlook.com",
+      "phone": "0738055393",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21236,
+      "mobile": "0738055393",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.602Z",
+    "association": {
+      "name": "Säffle Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.safflekarateklubb.se",
+      "detail_url": null,
+      "street_address": "Gaperhult Knekterud ",
+      "postal_code": "66191",
+      "city": "SÄFFLE",
+      "email": "info@safflekarateklubb.se",
+      "phone": "0703441415",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20119,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 12,
+          "Name": "Karate"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.602Z",
+    "association": {
+      "name": "Säffle Motocrossklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Motorcykel",
+        "Motorsport"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.safflemotocross.se",
+      "detail_url": null,
+      "street_address": "Kockgatan 16",
+      "postal_code": "66140",
+      "city": "Säffle",
+      "email": "safflemotocrossklubb@gmail.com",
+      "phone": "0720043044",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20126,
+      "mobile": "0720043044",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 27,
+          "Name": "Motorcykel"
+        },
+        {
+          "Id": 48,
+          "Name": "Motorsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.602Z",
+    "association": {
+      "name": "Säffle Motorbåtssällskap",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Båtverksamhet"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "https://safflemotorbatssallskap.se/",
+      "detail_url": null,
+      "street_address": "Östbrovägen 1",
+      "postal_code": "66192",
+      "city": "SÄFFLE",
+      "email": "sms@safflemotorbatssallskap.se",
+      "phone": "0703175676",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20644,
+      "mobile": "0703175676",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 52,
+          "Name": "Båtverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.602Z",
+    "association": {
+      "name": "SÄFFLE MUAY THAI IF",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Thaiboxning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Sunsa Östra",
+      "postal_code": "66193",
+      "city": "Säffle",
+      "email": "SAFFLEMUAYTHAI@GMAIL.COM",
+      "phone": "0702769965",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21821,
+      "mobile": "0702769965",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 4,
+          "Name": "Thaiboxning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.603Z",
+    "association": {
+      "name": "Säffle Musikförening",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "https://safflemusikforening.se/",
+      "detail_url": null,
+      "street_address": "Parkgatan 5",
+      "postal_code": "66142",
+      "city": "Säffle",
+      "email": "per52@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20665,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.603Z",
+    "association": {
+      "name": "Säffle Parkourförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Parkour"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Lugnadalsgatan 28",
+      "postal_code": "66131",
+      "city": "Säffle",
+      "email": "info@saffleparkour.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20132,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 71,
+          "Name": "Parkour"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.603Z",
+    "association": {
+      "name": "Säffle Pistolskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.safflepk.se",
+      "detail_url": null,
+      "street_address": "Olov Trätäljagatan 11",
+      "postal_code": "66130",
+      "city": "Säffle",
+      "email": "info@safflepk.se",
+      "phone": "0725247440",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20121,
+      "mobile": "0725247440",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 13,
+          "Name": "Skytte"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.603Z",
+    "association": {
+      "name": "Säffle Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Handikapp",
+        "Ridning",
+        "Skolaktivitet"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.säfflerk.se",
+      "detail_url": null,
+      "street_address": "Metallgatan 5",
+      "postal_code": "66130",
+      "city": "SÄFFLE",
+      "email": "saffle.ridklubb@telia.com",
+      "phone": "053312022",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20122,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 15,
+          "Name": "Handikapp"
+        },
+        {
+          "Id": 16,
+          "Name": "Ridning"
+        },
+        {
+          "Id": 61,
+          "Name": "Skolaktivitet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.603Z",
+    "association": {
+      "name": "Säffle Schackklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Schack"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.sefflesk.se",
+      "detail_url": null,
+      "street_address": "Hesselbomsvägen 2",
+      "postal_code": "66142",
+      "city": "Säffle",
+      "email": "jan.zizala@telia.com",
+      "phone": "0702127471",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20134,
+      "mobile": "0702127471",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 36,
+          "Name": "Schack"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.603Z",
+    "association": {
+      "name": "Säffle Simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.saffless.se",
+      "detail_url": null,
+      "street_address": "Brosäter Ekåsen",
+      "postal_code": "66192",
+      "city": "Säffle",
+      "email": "kassor@saffless.se",
+      "phone": "0702213441",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20123,
+      "mobile": "0702213441",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 10,
+          "Name": "Simning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.603Z",
+    "association": {
+      "name": "Säffle Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "https://sefflesportklubb.se/start/",
+      "detail_url": null,
+      "street_address": "Sveavägen 1A",
+      "postal_code": "66141",
+      "city": "Säffle",
+      "email": "saffle-sk@telia.com",
+      "phone": "053314410",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 91,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20690,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.603Z",
+    "association": {
+      "name": "Säfflebygdens Pensionärsförening",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionärsverks"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Norra Hökhults gård",
+      "postal_code": "66191",
+      "city": "SÄFFLE",
+      "email": "maude.schlegel@gmail.com",
+      "phone": "053316333",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 92,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20175,
+      "mobile": "0703091977",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 30,
+          "Name": "Pensionärsverks"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.603Z",
+    "association": {
+      "name": "Säfflebygdens Trädgårdssällskap",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Hobbyverksamhet",
+        "Information",
+        "Trädgård"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Tegnérgatan 11",
+      "postal_code": "66142",
+      "city": "SÄFFLE",
+      "email": "maj.axelsson@hotmail.com",
+      "phone": "053315394",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 93,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20645,
+      "mobile": "07667935143",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 45,
+          "Name": "Hobbyverksamhet"
+        },
+        {
+          "Id": 46,
+          "Name": "Information"
+        },
+        {
+          "Id": 67,
+          "Name": "Trädgård"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.604Z",
+    "association": {
+      "name": "Säffleklotet",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Sundsborgsgatan 5",
+      "postal_code": "66141",
+      "city": "SÄFFLE",
+      "email": "leif.gunnar.e@telia.com",
+      "phone": "053314167",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 94,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20637,
+      "mobile": "0703411641",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 17,
+          "Name": "Bowling"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.604Z",
+    "association": {
+      "name": "SäffleOperan ",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Magasinsgatan",
+      "postal_code": "66180",
+      "city": "Säffle",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 95,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20674,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.604Z",
+    "association": {
+      "name": "Säffle-Åmål  Dykarklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Dykning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": "http://www.sadk.nu",
+      "detail_url": null,
+      "street_address": "Annelundsvägen 87",
+      "postal_code": "66131",
+      "city": "Säffle",
+      "email": "ankilarsson77@hotmail.com",
+      "phone": "0706878659",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 96,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20114,
+      "mobile": "0702265384",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 21,
+          "Name": "Dykning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.604Z",
+    "association": {
+      "name": "Three Kings Muay Thai IF",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "kampsport",
+        "Thaiboxning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Mullestigen 17",
+      "postal_code": "66131",
+      "city": "SÄFFLE",
+      "email": null,
+      "phone": "0730346670",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 97,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20139,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 3,
+          "Name": "kampsport"
+        },
+        {
+          "Id": 4,
+          "Name": "Thaiboxning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.604Z",
+    "association": {
+      "name": "Tveta Bygdeförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gatan Lärarbostaden",
+      "postal_code": "66194",
+      "city": "SÄFFLE",
+      "email": "sandra.malmkvist@hotmail.com",
+      "phone": "0722064435",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 98,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20202,
+      "mobile": "0722064435",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.604Z",
+    "association": {
+      "name": "Tösse IF Herr",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll",
+        "Innebandy"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Frillsätersvägen 3",
+      "postal_code": "66298",
+      "city": "Tösse",
+      "email": "tosseif@telia.com",
+      "phone": "053220131",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 99,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20143,
+      "mobile": "0727165457",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 7,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.604Z",
+    "association": {
+      "name": "Tösse IF innebandy",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Frillsätersvägen 3",
+      "postal_code": "66298",
+      "city": "Tösse",
+      "email": "tosseif@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": "Mail till Niklas, tränare/ansvarig: n.nilssonsbygg@hotmail.com"
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 100,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20876,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 7,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.604Z",
+    "association": {
+      "name": "Vandra i Ronjaland",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Naturverksamhet",
+        "Friluftsliv",
+        "Vandring"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Hensbyvägen 10",
+      "postal_code": "66295",
+      "city": "Fengersfors",
+      "email": "info@vandraironjaland.se",
+      "phone": "0761415270",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 101,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20660,
+      "mobile": "0761415270",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 53,
+          "Name": "Naturverksamhet"
+        },
+        {
+          "Id": 78,
+          "Name": "Friluftsliv"
+        },
+        {
+          "Id": 79,
+          "Name": "Vandring"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.605Z",
+    "association": {
+      "name": "Värmlandsbro Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Majorskullen",
+      "postal_code": "66192",
+      "city": "SÄFFLE",
+      "email": "info@varmlandsbrosk.se",
+      "phone": "053340013",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 102,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20127,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 5,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.605Z",
+    "association": {
+      "name": "Värmlandsnäs Jaktskytteklubb",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Södra Hökhults Gård",
+      "postal_code": "66191",
+      "city": "SÄFFLE",
+      "email": "jonas.westlindh@vmfqbera.se",
+      "phone": "0705887843",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 103,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20113,
+      "mobile": "0705887843",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 13,
+          "Name": "Skytte"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.605Z",
+    "association": {
+      "name": "Västsidans i Ånimskog Intresseförening ",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Ånimskogs-Smedserud 110",
+      "postal_code": "66297",
+      "city": "Ånimskog",
+      "email": "lars.skogsberg@telia.com",
+      "phone": "0703203013",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 104,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21862,
+      "mobile": "0703203013",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.605Z",
+    "association": {
+      "name": "Åmål Airsoftförening",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Stora Bergavägen 10",
+      "postal_code": "66292",
+      "city": "ÅMÅL",
+      "email": "amalpaintball@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 105,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20927,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.605Z",
+    "association": {
+      "name": "Åmål Concert Band",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": "Åmål",
+      "email": "fredrik.myren@amal.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 106,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21856,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.605Z",
+    "association": {
+      "name": "Åmål Multisport",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Multiidrott"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": "66233",
+      "city": "Åmål",
+      "email": "amalmultisport@telia.com",
+      "phone": "0704559142",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 107,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20649,
+      "mobile": "0704559142",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 58,
+          "Name": "Multiidrott"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.605Z",
+    "association": {
+      "name": "Åmåls Beska Sällskap",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Motionsidrott"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Knyttkärr 510",
+      "postal_code": "66232",
+      "city": "Åmål",
+      "email": "Vikjoh@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 108,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21216,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 26,
+          "Name": "Motionsidrott"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.605Z",
+    "association": {
+      "name": "Åmåls Bouleklubb",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Drottvägen 11",
+      "postal_code": "66234",
+      "city": "Åmål",
+      "email": "drottv11@telia.com",
+      "phone": "+46730227430",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 109,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21480,
+      "mobile": "+46730227430",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.606Z",
+    "association": {
+      "name": "Åmåls Bowlingklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Schölinsgatan 7",
+      "postal_code": "66232",
+      "city": "ÅMÅL",
+      "email": "amalsbc3@gmail.com",
+      "phone": "053214760",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 110,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20168,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.606Z",
+    "association": {
+      "name": "Åmåls Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Naturverksamhet"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "http://www.åmålsbrukshundklubb.se",
+      "detail_url": null,
+      "street_address": "Tössebäcksvägen 9",
+      "postal_code": "66298",
+      "city": "Tösse",
+      "email": null,
+      "phone": "0767614002",
+      "description": {
+        "free_text": "Utbildning av hundägare & hundar. Bred utbildnings- och tävlingsverksamhet."
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 111,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20647,
+      "mobile": "0767614002",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 53,
+          "Name": "Naturverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.606Z",
+    "association": {
+      "name": "Åmåls demensförening ",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Groggs väg 10 ",
+      "postal_code": "66298",
+      "city": "Tösse",
+      "email": "ulla-berggren@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 112,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21846,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.606Z",
+    "association": {
+      "name": "Åmåls Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Ödmansgatan 8A",
+      "postal_code": "66234",
+      "city": "Åmål",
+      "email": "annika.johannesson72@gmail.com",
+      "phone": "0702272309",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 113,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20146,
+      "mobile": "0702272309",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 14,
+          "Name": "Gymnastik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.606Z",
+    "association": {
+      "name": "Åmåls Hemvärnsförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Drottninggatan 49 B",
+      "postal_code": "66233",
+      "city": "Åmål",
+      "email": "amal.hv@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 114,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20657,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.606Z",
+    "association": {
+      "name": "Åmåls Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Patrongatan 4",
+      "postal_code": "66234",
+      "city": "ÅMÅL",
+      "email": "kansli@amalsibk.com",
+      "phone": "0704559129",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 115,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20148,
+      "mobile": "0704559129",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 7,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.606Z",
+    "association": {
+      "name": "Åmåls Nya Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Södra Kyrkogårdgatan 2",
+      "postal_code": "66231",
+      "city": "Åmål",
+      "email": "info@amalstk.se",
+      "phone": "053215949",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 116,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20155,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 18,
+          "Name": "Tennis"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.606Z",
+    "association": {
+      "name": "Åmåls Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Västra Åsenvägen 12",
+      "postal_code": "66235",
+      "city": "Åmål",
+      "email": "kansliet@amalsok.se",
+      "phone": "053215851",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 117,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20149,
+      "mobile": "0704156542",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 50,
+          "Name": "Orientering"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.607Z",
+    "association": {
+      "name": "Åmåls Pistolklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Mörtebolsgatan 6",
+      "postal_code": "66232",
+      "city": "Åmål",
+      "email": "amalspk@hotmail.com",
+      "phone": "0704597078",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 118,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20163,
+      "mobile": "0704597078",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.607Z",
+    "association": {
+      "name": "Åmåls Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Finserud 103",
+      "postal_code": "66291",
+      "city": "Åmål",
+      "email": "amalsridklubb@telia.com",
+      "phone": "0702428708",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 119,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20150,
+      "mobile": "0702428708",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 16,
+          "Name": "Ridning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.607Z",
+    "association": {
+      "name": "Åmåls Scoutkår",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Örnässkogen ",
+      "postal_code": "66231",
+      "city": "Åmål",
+      "email": "ove.holmstrom@gmail.com",
+      "phone": "0707256152",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 120,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21851,
+      "mobile": "0707256152",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.607Z",
+    "association": {
+      "name": "Åmåls Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Eriksbergsgatan 8",
+      "postal_code": "66234",
+      "city": "Åmål",
+      "email": "micke_hen@hotmail.com",
+      "phone": "0704597079",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 121,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20153,
+      "mobile": "0704597079",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 13,
+          "Name": "Skytte"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.607Z",
+    "association": {
+      "name": "Åmåls Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "ishockey"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "https://www.amalsk.se/",
+      "detail_url": null,
+      "street_address": "Töres Pedersonsgatan 11",
+      "postal_code": "66236",
+      "city": "ÅMÅL",
+      "email": "info@amalsk.se",
+      "phone": "053216135",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 122,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20154,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 22,
+          "Name": "ishockey"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.607Z",
+    "association": {
+      "name": "Åmåls Stadsmusikkår ",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Åsgatan 11",
+      "postal_code": "66234",
+      "city": "Åmål",
+      "email": "biggan_bigfoot@hotmail.com",
+      "phone": "0730981446",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 123,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21855,
+      "mobile": "0730981446",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 28,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.607Z",
+    "association": {
+      "name": "Åmåls Thaiboxningsklubb",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Berghagsvägen 9B",
+      "postal_code": "66640",
+      "city": "skåpafors",
+      "email": "rasmus@feltzing.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 124,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21760,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.607Z",
+    "association": {
+      "name": "Åmålstravets Travskola",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "http://www.amalstravet.com",
+      "detail_url": null,
+      "street_address": "Box 67",
+      "postal_code": "66222",
+      "city": "ÅMÅL",
+      "email": "jeanette.gustavsson@amal.travsport.se",
+      "phone": "0703636640",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 125,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20160,
+      "mobile": "0703636640",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.607Z",
+    "association": {
+      "name": "Ängsbackens Koloniförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Västra Storgatan 20",
+      "postal_code": "66130",
+      "city": "Säffle",
+      "email": "grundt@live.se",
+      "phone": "0706714825",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 126,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21206,
+      "mobile": "0706714825",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.608Z",
+    "association": {
+      "name": "Ärrsjöblommans Scoutkår",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Fröskogs stom 210",
+      "postal_code": "66295",
+      "city": "Fengersfors",
+      "email": "geten_7@msn.com",
+      "phone": "0735334808",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 127,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20190,
+      "mobile": "0735334808",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 38,
+          "Name": "Scouting"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.608Z",
+    "association": {
+      "name": "Öfolket",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Åmåls kommun"
+      ],
+      "homepage_url": "https://www.ofolket.se/",
+      "detail_url": null,
+      "street_address": "Edsgatan 11 lgh 1001",
+      "postal_code": "66230",
+      "city": "Åmål",
+      "email": "info@ofolket.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 128,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 21878,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åmåls kommun"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "S├ñffle",
+    "scrape_run_id": "eda50e4f-3718-4560-bf0c-9409b642cf2a",
+    "scraped_at": "2025-10-23T08:33:51.608Z",
+    "association": {
+      "name": "Ölseruds Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Samlingslokaler"
+      ],
+      "activities": [
+        "Uthyrning"
+      ],
+      "categories": [
+        "Säffle kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Gullsjö, Skogstorpet",
+      "postal_code": "66191",
+      "city": "SÄFFLE",
+      "email": "lena72andersson@gmail.com",
+      "phone": "0702490199",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 129,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 20203,
+      "mobile": "0702490199",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Säffle kommun"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 56,
+          "Name": "Uthyrning"
+        }
+      ]
+    }
+  }
+]

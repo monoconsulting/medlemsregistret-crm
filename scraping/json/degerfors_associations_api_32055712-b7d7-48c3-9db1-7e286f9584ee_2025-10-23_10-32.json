@@ -1,0 +1,5091 @@
+[
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.602Z",
+    "association": {
+      "name": "ABF Örebro län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.abf.se",
+      "detail_url": null,
+      "street_address": "Åkaregatan 8 A",
+      "postal_code": "69333",
+      "city": "DEGERFORS",
+      "email": "massood.mafan@abf.se",
+      "phone": "058642090",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 137,
+      "mobile": "0725442090",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Studieverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.602Z",
+    "association": {
+      "name": "Bergslagens Brottsofferjour",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.bergslagen.boj.se",
+      "detail_url": null,
+      "street_address": "Centralplan 7",
+      "postal_code": "69132",
+      "city": "KARLSKOGA",
+      "email": "info@bergslagen.boj.se",
+      "phone": "058657649",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 164,
+      "mobile": "0738086570",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.602Z",
+    "association": {
+      "name": "Bergsmän & Bruksfolk",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.bergsman-bruksfolk.se",
+      "detail_url": null,
+      "street_address": "Noraskog Pershyttan",
+      "postal_code": "71391",
+      "city": "Nora",
+      "email": null,
+      "phone": "058713046",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 166,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.602Z",
+    "association": {
+      "name": "Bilda Svealand",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bilda.nu",
+      "detail_url": null,
+      "street_address": "Box 2063",
+      "postal_code": "70002",
+      "city": "ÖREBRO",
+      "email": "svealand@bilda.nu",
+      "phone": "0196015350",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 138,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Studieverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.603Z",
+    "association": {
+      "name": "Birdhill Moppers",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Medskogsvägen 15",
+      "postal_code": "69373",
+      "city": "SVARTÅ",
+      "email": null,
+      "phone": "058550372",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 156,
+      "mobile": "0703100609",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.603Z",
+    "association": {
+      "name": "Bowlingklubben Asterix",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": "http://idrottonline.se/BKAsterix-Bowling/",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 86,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 18,
+          "Name": "Bowling"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.603Z",
+    "association": {
+      "name": "Bowlingklubben Spärr",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Smedgränd 2",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": "domaheco@hotmail.com",
+      "phone": "0768258764",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 87,
+      "mobile": "0768258764",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 18,
+          "Name": "Bowling"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.603Z",
+    "association": {
+      "name": "Brokyrkans Unga - en del av equmenia",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.brokyrkan.com",
+      "detail_url": null,
+      "street_address": "Lantmannavägen 1",
+      "postal_code": "69370",
+      "city": "ÅTORP",
+      "email": "brokyrkan@spray.se",
+      "phone": "0586730022",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 119,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.603Z",
+    "association": {
+      "name": "Centerpartiet Degerfors",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "https://www.centerpartiet.se/lokal/orebro-lan/degerfors/startsida.html",
+      "detail_url": null,
+      "street_address": "9 Degerfors kommun",
+      "postal_code": "69380",
+      "city": "DEGERFORS",
+      "email": "birgitta.hoijer@degerfors.se",
+      "phone": "0586-48134",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 252,
+      "mobile": "070-655 36 16",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.603Z",
+    "association": {
+      "name": "Crossroad Western Riders",
+      "org_number": null,
+      "types": [
+        "Hobbyförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Lindåsa Svennevad",
+      "postal_code": "69792",
+      "city": "PÅLSBODA",
+      "email": null,
+      "phone": "0709796369",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 84,
+      "mobile": "0709796369",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 43,
+          "Name": "Ridsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.603Z",
+    "association": {
+      "name": "De Handikappades Riksorganisation",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Klensmedsvägen 8",
+      "postal_code": "69373",
+      "city": "SVARTÅ",
+      "email": "ole.skelkjor@spray.se",
+      "phone": "058550442",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 68,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.604Z",
+    "association": {
+      "name": "Degerfors Amatörfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Hobbyförening"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [],
+      "homepage_url": "www.degerfors.afk.dinstudio.se",
+      "detail_url": null,
+      "street_address": "Nämndemansgatan 9",
+      "postal_code": "69334",
+      "city": "DEGERFORS",
+      "email": "bramodeg@telia.com",
+      "phone": "0705633945",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 77,
+      "mobile": "0705633945",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 25,
+          "Name": "Fiskevård"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.604Z",
+    "association": {
+      "name": "Degerfors Anhörigförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Sirbo 176",
+      "postal_code": "69394",
+      "city": "Åtorp",
+      "email": null,
+      "phone": "0705597961",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 169,
+      "mobile": "0705597961",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.604Z",
+    "association": {
+      "name": "Degerfors Atletklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tyngdlyftning",
+        "Styrkelyft"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Garagegatan 26",
+      "postal_code": "69335",
+      "city": "DEGERFORS",
+      "email": "nsror73@gmail.com",
+      "phone": "0707441486",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 97,
+      "mobile": "0707441486",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 9,
+          "Name": "Tyngdlyftning"
+        },
+        {
+          "Id": 58,
+          "Name": "Styrkelyft"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.604Z",
+    "association": {
+      "name": "Degerfors Boxningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boxning"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Frejgatan 6",
+      "postal_code": "69334",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 89,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 19,
+          "Name": "Boxning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.604Z",
+    "association": {
+      "name": "Degerfors Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Hobbyförening"
+      ],
+      "activities": [
+        "Hunddressyr"
+      ],
+      "categories": [],
+      "homepage_url": "www.degerforsbk.se",
+      "detail_url": null,
+      "street_address": "Parkgatan 3",
+      "postal_code": "69333",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "0731405008",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 83,
+      "mobile": "0731405008",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 29,
+          "Name": "Hunddressyr"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.604Z",
+    "association": {
+      "name": "Degerfors Dansklubb",
+      "org_number": null,
+      "types": [
+        "Dansförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.mockelnforeningarna.se/ddk/",
+      "detail_url": null,
+      "street_address": "Annedalsgatan 25",
+      "postal_code": "69334",
+      "city": "DEGERFORS",
+      "email": "degerforsdansklubb@hotmail.com",
+      "phone": "058641000",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 55,
+      "mobile": "0706841000",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 3,
+          "Name": "Dans"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.604Z",
+    "association": {
+      "name": "Degerfors Folkpark",
+      "org_number": null,
+      "types": [
+        "Folkets Hus och Hembygdsf"
+      ],
+      "activities": [
+        "Dans",
+        "Underhållning"
+      ],
+      "categories": [],
+      "homepage_url": "www.degerforsparken.se",
+      "detail_url": null,
+      "street_address": "Hagalundsgatan 12",
+      "postal_code": "69331",
+      "city": "DEGERFORS",
+      "email": "degerforsparken@telia.com",
+      "phone": "0763171016",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 57,
+      "mobile": "0705522706",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 3,
+          "Name": "Dans"
+        },
+        {
+          "Id": 56,
+          "Name": "Underhållning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.605Z",
+    "association": {
+      "name": "Degerfors Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Hobbyförening"
+      ],
+      "activities": [
+        "Foto och film"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Järnvägsgränd 25",
+      "postal_code": "69333",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 78,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 22,
+          "Name": "Foto och film"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.605Z",
+    "association": {
+      "name": "Degerfors Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Annedalsgatan 15",
+      "postal_code": "69334",
+      "city": "DEGERFORS",
+      "email": "jennifer8905@hotmail.com",
+      "phone": "0762979095",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 90,
+      "mobile": "0762979095",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 27,
+          "Name": "Gymnastik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.605Z",
+    "association": {
+      "name": "Degerfors Handbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/dhk/Board",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "uj@deform.se",
+      "phone": "0586-447 46",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 101,
+      "mobile": "070-668 99 66",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 4,
+          "Name": "Handboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.605Z",
+    "association": {
+      "name": "Degerfors Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Folkets Hus och Hembygdsf"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.hbf-degerfors.se",
+      "detail_url": null,
+      "street_address": "Medborgargatan 3 A",
+      "postal_code": "69330",
+      "city": "DEGERFORS",
+      "email": "info@hbf-degerfors.se",
+      "phone": "058643651",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 58,
+      "mobile": "0736247950",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.605Z",
+    "association": {
+      "name": "Degerfors Hushållningsgille",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Ängebäck 8160",
+      "postal_code": "69392",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "0705544647",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 158,
+      "mobile": "0705544647",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.605Z",
+    "association": {
+      "name": "Degerfors IF används ej",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Box 17",
+      "postal_code": "69321",
+      "city": "DEGERFORS",
+      "email": "elias.levi@degerforsif.se",
+      "phone": "0706212467",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1371,
+      "mobile": "0706212467",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.605Z",
+    "association": {
+      "name": "Degerfors Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "http://www.laget.se/degerforsibk",
+      "detail_url": null,
+      "street_address": "Hultstigen 3",
+      "postal_code": "69332",
+      "city": "Degerfors",
+      "email": "ida-a.gustafsson@tele2.com",
+      "phone": "0722505070",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 107,
+      "mobile": "0722505070",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 30,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.605Z",
+    "association": {
+      "name": "Degerfors Karate Klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Laxgården 3A",
+      "postal_code": "69151",
+      "city": "Karlskoga",
+      "email": "te.fager@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1401,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 31,
+          "Name": "Karate"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.605Z",
+    "association": {
+      "name": "Degerfors Missionsförsamling",
+      "org_number": null,
+      "types": [
+        "Kyrkor och församlingar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.vallakyrkan.com",
+      "detail_url": null,
+      "street_address": "Herrgårdsgatan 4",
+      "postal_code": "69331",
+      "city": "DEGERFORS",
+      "email": "vallapastor.ulf@gmail.com",
+      "phone": "058642303",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 118,
+      "mobile": "0707508775",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.606Z",
+    "association": {
+      "name": "Degerfors Motorklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Motocross"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Garagegatan 5",
+      "postal_code": "69330",
+      "city": "DEGERFORS",
+      "email": "emelie@dero.se",
+      "phone": "0703242817",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 98,
+      "mobile": "0703242817",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 37,
+          "Name": "Motocross"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.606Z",
+    "association": {
+      "name": "Degerfors Musikkår",
+      "org_number": null,
+      "types": [
+        "Musikförening"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.degerforsmusikkar.se",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mikael.carlson@sweco.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 122,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 38,
+          "Name": "Musik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.606Z",
+    "association": {
+      "name": "Degerfors NTF-grupp",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Sandgatan 19 A",
+      "postal_code": "69331",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 159,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.606Z",
+    "association": {
+      "name": "Degerfors Nysunds församling",
+      "org_number": null,
+      "types": [
+        "Kyrkor och församlingar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.svenskakyrkan.se/degerfors-nysund",
+      "detail_url": null,
+      "street_address": "Kungsvägen 39",
+      "postal_code": "69131",
+      "city": "Karlskoga",
+      "email": "degerfors-nysunds.forsamling@svenskakyrkan.se",
+      "phone": "058648708",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 117,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.606Z",
+    "association": {
+      "name": "Degerfors Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "http://www.degerforsok.se",
+      "detail_url": null,
+      "street_address": "Götvägen 22",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": "kassor.dok@gmail.com",
+      "phone": "0706543731",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 92,
+      "mobile": "0706543731",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 40,
+          "Name": "Orientering"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.606Z",
+    "association": {
+      "name": "Degerfors Pistolskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Skolgatan 22",
+      "postal_code": "69330",
+      "city": "DEGERFORS",
+      "email": "J_landin@yahoo.com",
+      "phone": "0706224487",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 93,
+      "mobile": "0706224487",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 46,
+          "Name": "Skytte"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.606Z",
+    "association": {
+      "name": "Degerfors Rally Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bilsport",
+        "Rally"
+      ],
+      "categories": [],
+      "homepage_url": "www.degerforsrc.com",
+      "detail_url": null,
+      "street_address": "Box 111",
+      "postal_code": "69322",
+      "city": "DEGERFORS",
+      "email": "klubben@degerforsrc.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 94,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 16,
+          "Name": "Bilsport"
+        },
+        {
+          "Id": 42,
+          "Name": "Rally"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.606Z",
+    "association": {
+      "name": "Degerfors Rid och Körsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Högberg 763",
+      "postal_code": "69392",
+      "city": "Degerfors",
+      "email": "junior.amigo@live.se",
+      "phone": "0722526269",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1646,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 43,
+          "Name": "Ridsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.607Z",
+    "association": {
+      "name": "Degerfors Rid- och Körsällskap",
+      "org_number": null,
+      "types": [
+        "Hobbyförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Högberg 765",
+      "postal_code": "69392",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "0722526269",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 80,
+      "mobile": "0722526269",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 43,
+          "Name": "Ridsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.607Z",
+    "association": {
+      "name": "Degerfors Röda korskrets",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://rodakorset.se/degerfors",
+      "detail_url": null,
+      "street_address": "Värmlandsgatan 5",
+      "postal_code": "69335",
+      "city": "DEGERFORS",
+      "email": "degerfors@redcross.se",
+      "phone": "072-224 97 22",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 149,
+      "mobile": "072-224 97 22",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.607Z",
+    "association": {
+      "name": "Degerfors Schacksällskap",
+      "org_number": null,
+      "types": [
+        "Hobbyförening"
+      ],
+      "activities": [
+        "Schack"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Blekingegatan 22",
+      "postal_code": "69335",
+      "city": "DEGERFORS",
+      "email": "per.anders.lundstrom@epiroc.com",
+      "phone": "0706143354",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 79,
+      "mobile": "0706143354",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 45,
+          "Name": "Schack"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.607Z",
+    "association": {
+      "name": "Degerfors Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "https://mockelnforeningarna.se/degerforsskf-skyttesport/",
+      "detail_url": null,
+      "street_address": "Lervik 410",
+      "postal_code": "69392",
+      "city": "DEGERFORS",
+      "email": "degerforsskf@hotmail.com",
+      "phone": "0586727031",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 95,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 46,
+          "Name": "Skytte"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.607Z",
+    "association": {
+      "name": "Degerfors Socialdemokratiska",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Medborgargatan 11",
+      "postal_code": "69330",
+      "city": "DEGERFORS",
+      "email": "degerfors.sap@telia.com",
+      "phone": "0586-433 56",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 259,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.607Z",
+    "association": {
+      "name": "Degerfors Sportskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Rågstigen 1",
+      "postal_code": "69333",
+      "city": "DEGERFORS",
+      "email": "staffan.silfverhjelm@hotmail.com",
+      "phone": "0702666170",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 96,
+      "mobile": "0702666170",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 46,
+          "Name": "Skytte"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.607Z",
+    "association": {
+      "name": "Degerfors Volley Orion",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Volleyboll"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "http://www.vkorion.se",
+      "detail_url": null,
+      "street_address": "Aspstigen 2",
+      "postal_code": "69335",
+      "city": "Degerfors",
+      "email": "info@degerforsvolleyorion.se",
+      "phone": "0706621098",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 105,
+      "mobile": "0706621098",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 51,
+          "Name": "Volleyboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.607Z",
+    "association": {
+      "name": "Dfs Motorförares Helnykterhets Förb",
+      "org_number": null,
+      "types": [
+        "Nykterhetsförening"
+      ],
+      "activities": [
+        "Trafik",
+        "Nykterhet"
+      ],
+      "categories": [],
+      "homepage_url": "www.mhf.se",
+      "detail_url": null,
+      "street_address": "Långåsen 131",
+      "postal_code": "69394",
+      "city": "ÅTORP",
+      "email": "mhf-lokalavd.karlskoga@telia.com",
+      "phone": "0586731053",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 128,
+      "mobile": "0705731053",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 7,
+          "Name": "Trafik"
+        },
+        {
+          "Id": 39,
+          "Name": "Nykterhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.608Z",
+    "association": {
+      "name": "EFC Örebro",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Kommunen"
+      ],
+      "homepage_url": "https://efcorebro.se/",
+      "detail_url": null,
+      "street_address": "Grankottevägen ",
+      "postal_code": "70221",
+      "city": "Örebro",
+      "email": "efcorebro@gmail.com",
+      "phone": "0705982722",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1791,
+      "mobile": "0705982722",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Kommunen"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.608Z",
+    "association": {
+      "name": "Eritreanska föreningen i Degerfors",
+      "org_number": null,
+      "types": [
+        "Invandrarförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Medborgargatan 18 B lgh 1202",
+      "postal_code": "69330",
+      "city": "Degerfors",
+      "email": null,
+      "phone": "073-029 21 41",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 250,
+      "mobile": "073-029 21 41",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.608Z",
+    "association": {
+      "name": "Finska Föreningen",
+      "org_number": null,
+      "types": [
+        "Invandrarförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.degerfors-finskaforening.se",
+      "detail_url": null,
+      "street_address": "Letälvsvägen 3",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "058644716",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 114,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.608Z",
+    "association": {
+      "name": "Finskspråkiga Socialdemokratiska föreningen",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Garagegatan 59",
+      "postal_code": "69335",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "0586-443 11",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 258,
+      "mobile": "073-087 84 31",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.608Z",
+    "association": {
+      "name": "Folkets Hus Degerfors",
+      "org_number": null,
+      "types": [
+        "Folkets Hus och Hembygdsf"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://folketshus-degerfors.org/",
+      "detail_url": null,
+      "street_address": "Medborgargatan 11",
+      "postal_code": "69330",
+      "city": "DEGERFORS",
+      "email": "fhdegerfors@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 64,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.608Z",
+    "association": {
+      "name": "Folkuniversitetet",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Box 386",
+      "postal_code": "75106",
+      "city": "UPPSALA",
+      "email": null,
+      "phone": "018680000",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 145,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Studieverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.608Z",
+    "association": {
+      "name": "Frälsningsarmén/Kristinehamns kår",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Klockaregården Åtorp 320",
+      "postal_code": "69394",
+      "city": "ÅTORP",
+      "email": "marrearv@hotmail.com",
+      "phone": "0586730275",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 116,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.608Z",
+    "association": {
+      "name": "Funktionsrätt Kga-Dfs",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Skogsrundan 2",
+      "postal_code": "69143",
+      "city": "KARLSKOGA",
+      "email": "funktionsratt.kga-dfs@outlook.se",
+      "phone": "070-7348380",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 69,
+      "mobile": "070-7348380",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.608Z",
+    "association": {
+      "name": "Fören för utveckl.störda barn,ungd o vuxna Kga-Dfs",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Vadaregatan 3",
+      "postal_code": "69133",
+      "city": "KARLSKOGA",
+      "email": null,
+      "phone": "058631866",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 73,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.609Z",
+    "association": {
+      "name": "Föreningen Berget",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.kulturcentrumberget.com",
+      "detail_url": null,
+      "street_address": "PL 3113",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": "handelsboden@kulturcentrumberget.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 151,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.609Z",
+    "association": {
+      "name": "Föreningen Konstateljén",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "http://hem.bredband.net/modir/",
+      "detail_url": null,
+      "street_address": "Gärdesvägen 6",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": "modirassari@gmail.com",
+      "phone": "070-247 98 73",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 264,
+      "mobile": "070-247 98 73",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.609Z",
+    "association": {
+      "name": "Föräldrafören mot narkotika Kga-Dfs",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Hotellgatan 3",
+      "postal_code": "69131",
+      "city": "KARLSKOGA",
+      "email": null,
+      "phone": "058639093",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 152,
+      "mobile": "0706918777",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.609Z",
+    "association": {
+      "name": "Hela människan Karlskoga-Degerfors",
+      "org_number": null,
+      "types": [
+        "Nykterhetsförening"
+      ],
+      "activities": [
+        "Nykterhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.helamanniskan.se/karlskoga-degerfors",
+      "detail_url": null,
+      "street_address": "Box 29",
+      "postal_code": "69121",
+      "city": "KARLSKOGA",
+      "email": "info.karlskoga@helamanniskan.se",
+      "phone": "058638212",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 131,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 39,
+          "Name": "Nykterhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.609Z",
+    "association": {
+      "name": "Hörselskadades lokalförening Kga-Dfs",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.hrf.se/karlskoga-degerfors",
+      "detail_url": null,
+      "street_address": "Smedgränd 2",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": "domaheco@hotmail.com",
+      "phone": "0768258765",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 70,
+      "mobile": "0768258765",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.609Z",
+    "association": {
+      "name": "IOGT-NTO 55 Degerfors",
+      "org_number": null,
+      "types": [
+        "Nykterhetsförening"
+      ],
+      "activities": [
+        "Nykterhet"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Kråkåsvägen 23",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "058645911",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 130,
+      "mobile": "0706514433",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 39,
+          "Name": "Nykterhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.609Z",
+    "association": {
+      "name": "Karlskoga Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.karlskogakarate.se/",
+      "detail_url": null,
+      "street_address": "Högberg 770",
+      "postal_code": "69392",
+      "city": "DEGERFORS",
+      "email": "p.mtlly@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 109,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 31,
+          "Name": "Karate"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.610Z",
+    "association": {
+      "name": "karlskoga Wolves",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Amerikansk Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.wolves.nu",
+      "detail_url": null,
+      "street_address": "Kilstavägen 12 C",
+      "postal_code": "69136",
+      "city": "Karlskoga",
+      "email": "tommy.axelsson@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 312,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 60,
+          "Name": "Amerikansk Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.610Z",
+    "association": {
+      "name": "Karlskoga-Degerfors Jaktvårdskrets",
+      "org_number": null,
+      "types": [
+        "Hobbyförening"
+      ],
+      "activities": [
+        "Jakt och naturvård"
+      ],
+      "categories": [],
+      "homepage_url": "www.jagareforbundet.se/orebro/kgadfs",
+      "detail_url": null,
+      "street_address": "Kanalvägen 1",
+      "postal_code": "69153",
+      "city": "KARLSKOGA",
+      "email": "jan@krey.se",
+      "phone": "0705728500",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 85,
+      "mobile": "0705728500",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 11,
+          "Name": "Jakt och naturvård"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.610Z",
+    "association": {
+      "name": "Karlskoga-Degerfors MHF Ungdom",
+      "org_number": null,
+      "types": [
+        "Nykterhetsförening"
+      ],
+      "activities": [
+        "Nykterhet"
+      ],
+      "categories": [],
+      "homepage_url": "www.mhf-ungdom.com",
+      "detail_url": null,
+      "street_address": "Murarvägen 11",
+      "postal_code": "69143",
+      "city": "KARLSKOGA",
+      "email": "mhf-ungdom.karlskoga@telia.com",
+      "phone": "058630090",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 129,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 39,
+          "Name": "Nykterhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.610Z",
+    "association": {
+      "name": "Kga-Dfs Astma-Allergiförening",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Lötgårdarna 7",
+      "postal_code": "69135",
+      "city": "KARLSKOGA",
+      "email": "gullan.svahn@bahnhof.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 71,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.610Z",
+    "association": {
+      "name": "Kga-Dfs Biodlareförening",
+      "org_number": null,
+      "types": [
+        "Natur och friluftsförenin"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Hallänningsgatan 21 A",
+      "postal_code": "69135",
+      "city": "KARLSKOGA",
+      "email": null,
+      "phone": "0586727024",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 125,
+      "mobile": "0706651227",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.610Z",
+    "association": {
+      "name": "Kga-Dfs reumatikerförening",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.karlskoga-degerfors.reumatikerforbundet.org",
+      "detail_url": null,
+      "street_address": "Skogsrundan 2",
+      "postal_code": "69143",
+      "city": "KARLSKOGA",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 74,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.610Z",
+    "association": {
+      "name": "Knutsbols Ryttarsällskap",
+      "org_number": null,
+      "types": [
+        "Hobbyförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Medelpadsgatan 7",
+      "postal_code": "69335",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "0703252536",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 76,
+      "mobile": "0703252536",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 43,
+          "Name": "Ridsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.610Z",
+    "association": {
+      "name": "Korpen Degerfors MIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Korpidrott"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.korpen.se/korpendegerfors",
+      "detail_url": null,
+      "street_address": "Bruksvägen 1b",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": "korpendegerfors@hotmail.com",
+      "phone": "0767840534",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 99,
+      "mobile": "0767840534",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 32,
+          "Name": "Korpidrott"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.610Z",
+    "association": {
+      "name": "Kristdemokraterna",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "https://kristdemokraterna.se/lokalt/orebro-lan/degerfors/",
+      "detail_url": null,
+      "street_address": "Kråkåsvägen 1",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 254,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.611Z",
+    "association": {
+      "name": "Kuniba kai karateförening Degerfors",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Budo",
+        "Boxercise",
+        "Självförsvar",
+        "Karate"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Hälsingegatan 19",
+      "postal_code": "69335",
+      "city": "DEGERFORS",
+      "email": "peter.ryning@telia.com",
+      "phone": "058647564",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 110,
+      "mobile": "0730448804",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 12,
+          "Name": "Budo"
+        },
+        {
+          "Id": 13,
+          "Name": "Boxercise"
+        },
+        {
+          "Id": 14,
+          "Name": "Självförsvar"
+        },
+        {
+          "Id": 31,
+          "Name": "Karate"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.611Z",
+    "association": {
+      "name": "Kvinnoföreningen mot våld i Kga-Dfs",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.mockelnforeningarna.se",
+      "detail_url": null,
+      "street_address": "Box 2008 (Baggängsvägen 1)",
+      "postal_code": "69102",
+      "city": "KARLSKOGA",
+      "email": "kvinnohuset.kga@tele2.se",
+      "phone": "058639500",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 153,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.611Z",
+    "association": {
+      "name": "Lesjöfors if",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Mörnbovägen 30",
+      "postal_code": "68260",
+      "city": "Lesjöfors",
+      "email": "johangjermandsen@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1517,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.611Z",
+    "association": {
+      "name": "Letälvens Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Folkets Hus och Hembygdsf"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": null,
+      "postal_code": "69392",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 59,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.611Z",
+    "association": {
+      "name": "Lions Club",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Skogalundsvägen 7",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 154,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.611Z",
+    "association": {
+      "name": "Mash MC",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Släntstigen 4",
+      "postal_code": "69331",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "0708180788",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 155,
+      "mobile": "0708180788",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.611Z",
+    "association": {
+      "name": "Medborgarskolan",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Bergsmansgatan 13",
+      "postal_code": "69131",
+      "city": "KARLSKOGA",
+      "email": "karlskoga@medborgarskolan.se",
+      "phone": "058630044",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 139,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Studieverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.611Z",
+    "association": {
+      "name": "Miljöpartiet Degerfors",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "https://www.mp.se/degerfors",
+      "detail_url": null,
+      "street_address": "Odelbergsvägen 23",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": "degerfors@mp.se",
+      "phone": "0705126833",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 255,
+      "mobile": "0705126833",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.612Z",
+    "association": {
+      "name": "Möckeln Civilförsvarsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.civil.se",
+      "detail_url": null,
+      "street_address": "Ångermannagatan 10",
+      "postal_code": "69335",
+      "city": "DEGERFORS",
+      "email": "m.weidensjo@telia.com",
+      "phone": "058640788",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 147,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.612Z",
+    "association": {
+      "name": "Möckelns Ponnyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hästsport"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Håkanbol 139",
+      "postal_code": "69392",
+      "city": "Degerfors",
+      "email": "mockelnsponnyklubb@hotmail.com",
+      "phone": "0707470958",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1348,
+      "mobile": "0707470958",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 61,
+          "Name": "Hästsport"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.612Z",
+    "association": {
+      "name": "Naturskyddsföreningen Degerfors",
+      "org_number": null,
+      "types": [
+        "Natur och friluftsförenin"
+      ],
+      "activities": [
+        "Naturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://degerfors.naturskyddsforeningen.se/",
+      "detail_url": null,
+      "street_address": "Östra Långgatan 30",
+      "postal_code": "69333",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 126,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 55,
+          "Name": "Naturverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.612Z",
+    "association": {
+      "name": "NBV Örebro Län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.nbv.se/regioner/mitt/",
+      "detail_url": null,
+      "street_address": "Köpmangatan 27",
+      "postal_code": "70223",
+      "city": "ÖREBRO",
+      "email": "orebromalardalen@nbv.se",
+      "phone": "0196708308",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 140,
+      "mobile": "0703925959",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Studieverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.612Z",
+    "association": {
+      "name": "Nysunds Biodlareförening",
+      "org_number": null,
+      "types": [
+        "Natur och friluftsförenin"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "?",
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 127,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.612Z",
+    "association": {
+      "name": "Nysunds Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Folkets Hus och Hembygdsf"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Sirbo 160",
+      "postal_code": "69394",
+      "city": "ÅTORP",
+      "email": "sven.enocsson@t.lrf.se",
+      "phone": "0586732130",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 66,
+      "mobile": "0705313431",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.612Z",
+    "association": {
+      "name": "Nysunds hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Folkets Hus och Hembygdsf"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Slättåsen 181",
+      "postal_code": "69394",
+      "city": "ÅTORP",
+      "email": null,
+      "phone": "070-652 88 24",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 60,
+      "mobile": "070-652 88 24",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.613Z",
+    "association": {
+      "name": "Offensiva Degerfors",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Bredablicksgatan 2 A",
+      "postal_code": "69335",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 263,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.613Z",
+    "association": {
+      "name": "Parkgymet",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Styrketräning",
+        "Styrkelyft"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Baldersgatan 17",
+      "postal_code": "69334",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "0739315634",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 112,
+      "mobile": "0739315634",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 47,
+          "Name": "Styrketräning"
+        },
+        {
+          "Id": 58,
+          "Name": "Styrkelyft"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.613Z",
+    "association": {
+      "name": "Pingstförsamlingen",
+      "org_number": null,
+      "types": [
+        "Kyrkor och församlingar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Högbergsgatan 5",
+      "postal_code": "69333",
+      "city": "DEGERFORS",
+      "email": "info@degerfors.pingst.se",
+      "phone": "058643370",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 115,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.613Z",
+    "association": {
+      "name": "Porrtjärns Flugfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Hobbyförening"
+      ],
+      "activities": [
+        "Fiskevård",
+        "Flugfiske"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Tvärgatan 1B Lgh 1002",
+      "postal_code": "69331",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 81,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 25,
+          "Name": "Fiskevård"
+        },
+        {
+          "Id": 53,
+          "Name": "Flugfiske"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.613Z",
+    "association": {
+      "name": "PRO Degerfors",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://pro.se/distrikt/orebro-lan/kommun/degerfors/pro-degerfors",
+      "detail_url": null,
+      "street_address": "Medborgargatan 11",
+      "postal_code": "69330",
+      "city": "DEGERFORS",
+      "email": "degerfors@pro.se",
+      "phone": "058640024",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 132,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.613Z",
+    "association": {
+      "name": "PRO Svartå",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://svarta.nu/f%C3%B6reningar-org/pro-svart%C3%A5-6198183",
+      "detail_url": null,
+      "street_address": "Bergslagsvägen 15B",
+      "postal_code": "69373",
+      "city": "SVARTÅ",
+      "email": null,
+      "phone": "0702404372",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 134,
+      "mobile": "0702404372",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.613Z",
+    "association": {
+      "name": "PRO Åtorp",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Sirbo 510",
+      "postal_code": "69394",
+      "city": "ÅTORP",
+      "email": null,
+      "phone": "0586732126",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 135,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.614Z",
+    "association": {
+      "name": "RF SISU Värmland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://iof4.idrottonline.se/SISUIdrottsutbildarna/Distrikt",
+      "detail_url": null,
+      "street_address": "Industrigatan 1",
+      "postal_code": "65221",
+      "city": "Karlstad",
+      "email": "varmland@rfsisu.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 141,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Studieverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.614Z",
+    "association": {
+      "name": "Rädda Barnen Karlskoga-Degerfors",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Hyttåsvägen 27",
+      "postal_code": "69133",
+      "city": "KARLSKOGA",
+      "email": "karlskoga-degerfors.lf@rb.se",
+      "phone": "058639849",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 91,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 168,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.614Z",
+    "association": {
+      "name": "Sensus Studieförbund",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "www.sensus.se",
+      "detail_url": null,
+      "street_address": "Drottninggatan 26",
+      "postal_code": "65225",
+      "city": "KARLSTAD",
+      "email": "varmland@sensus.se",
+      "phone": "054137100",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 92,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 142,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Studieverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.614Z",
+    "association": {
+      "name": "SIK Skidor",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott",
+        "Gång",
+        "Längdskidåkning",
+        "Löpning"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Skolgatan 9 A",
+      "postal_code": "69330",
+      "city": "DEGERFORS",
+      "email": null,
+      "phone": "0706094428",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 93,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 108,
+      "mobile": "0706094428",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 24,
+          "Name": "Friidrott"
+        },
+        {
+          "Id": 28,
+          "Name": "Gång"
+        },
+        {
+          "Id": 35,
+          "Name": "Längdskidåkning"
+        },
+        {
+          "Id": 57,
+          "Name": "Löpning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.614Z",
+    "association": {
+      "name": "SKPF avd 29",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.skpf.se/degerfors",
+      "detail_url": null,
+      "street_address": "Brattgränd 1 B",
+      "postal_code": "69333",
+      "city": "DEGERFORS",
+      "email": "Pelle.baeckman@gmail.com",
+      "phone": "0703336711",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 94,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 133,
+      "mobile": "0703336711",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.614Z",
+    "association": {
+      "name": "SKULL - Sv Kyrkans Unga Längs Letälven",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Läger",
+        "Hajk"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskakyrkan.se/sodrabergslagen/lilla-skull-degerfors",
+      "detail_url": null,
+      "street_address": "Jannelundsvägen 2",
+      "postal_code": "69331",
+      "city": "DEGERFORS",
+      "email": "degerfors-nysund.barnochunga@svenskakyrkan.se",
+      "phone": "058665608",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 95,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 157,
+      "mobile": "0702878318",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 36,
+          "Name": "Läger"
+        },
+        {
+          "Id": 59,
+          "Name": "Hajk"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.614Z",
+    "association": {
+      "name": "Smedstugans aktivitetsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "http://www.svarta.nu/f%C3%B6reningar-org./smedstugans-aktivitetsf%C3%B6rening-31354362",
+      "detail_url": null,
+      "street_address": "Klensmedsvägen 19",
+      "postal_code": "69373",
+      "city": "SVARTÅ",
+      "email": "l.nylen@swipnet.se",
+      "phone": "0585-503 90",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 96,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 265,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.614Z",
+    "association": {
+      "name": "Sonoruskören",
+      "org_number": null,
+      "types": [
+        "Musikförening"
+      ],
+      "activities": [
+        "Körsång"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.sonorus.se",
+      "detail_url": null,
+      "street_address": "Persikovägen 6",
+      "postal_code": "69145",
+      "city": "Karlskoga",
+      "email": "sonorus@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 97,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 123,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 34,
+          "Name": "Körsång"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.615Z",
+    "association": {
+      "name": "SPF Seniorerna Degerfors",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "spf.se/degerfors",
+      "detail_url": null,
+      "street_address": "Källénsgatan 5",
+      "postal_code": "69331",
+      "city": "Degerfors",
+      "email": "brandtdfs@outlook.com",
+      "phone": "058644449",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 98,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 136,
+      "mobile": "0702745301",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.615Z",
+    "association": {
+      "name": "STF Karlskoga-Degerfors",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Friluftsverksamhet",
+        "Kultur",
+        "Naturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "www.svenskaturistforeningen.se",
+      "detail_url": null,
+      "street_address": "Sjöåsvägen 7",
+      "postal_code": "69141",
+      "city": "KARLSKOGA",
+      "email": "jan.beckman@hotmail.com",
+      "phone": "0702044721",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 99,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 160,
+      "mobile": "0702044721",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 23,
+          "Name": "Friluftsverksamhet"
+        },
+        {
+          "Id": 54,
+          "Name": "Kultur"
+        },
+        {
+          "Id": 55,
+          "Name": "Naturverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.615Z",
+    "association": {
+      "name": "Strömtorps Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik",
+        "Gång",
+        "Längdskidåkning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Baldersgatan 7",
+      "postal_code": "69334",
+      "city": "DEGERFORS",
+      "email": "g_56_@hotmail.com",
+      "phone": "0703200658",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 100,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 100,
+      "mobile": "0703200658",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 27,
+          "Name": "Gymnastik"
+        },
+        {
+          "Id": 28,
+          "Name": "Gång"
+        },
+        {
+          "Id": 35,
+          "Name": "Längdskidåkning"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.615Z",
+    "association": {
+      "name": "Studiefrämjandet Södra Närke",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.studieframjandet.se",
+      "detail_url": null,
+      "street_address": "Box 1029",
+      "postal_code": "69224",
+      "city": "KUMLA",
+      "email": "sodra.narke@studieframjandet.se",
+      "phone": "019582320",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 101,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 143,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Studieverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.615Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan Örebro län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sv.se",
+      "detail_url": null,
+      "street_address": "Vinäsvägen 8",
+      "postal_code": "69150",
+      "city": "KARLSKOGA",
+      "email": "stefan.stromgren@sv.se",
+      "phone": "058650080",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 102,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 144,
+      "mobile": "0706443912",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 48,
+          "Name": "Studieverksamhet"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.615Z",
+    "association": {
+      "name": "Svartå Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Ekehjelmsvägen 5 B lgh 1102",
+      "postal_code": "69133",
+      "city": "KARLSKOGA",
+      "email": null,
+      "phone": "058550304",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 103,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 102,
+      "mobile": "0737595474",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 17,
+          "Name": "Bordtennis"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.615Z",
+    "association": {
+      "name": "Svartå Folkets Hus",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Parkvägen 12",
+      "postal_code": "69373",
+      "city": "SVARTÅ",
+      "email": "folketshus.svarta@hotmail.com",
+      "phone": "058550022",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 104,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 67,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.615Z",
+    "association": {
+      "name": "Svartå Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Folkets Hus och Hembygdsf"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Svartå 540",
+      "postal_code": "69373",
+      "city": "SVARTÅ",
+      "email": null,
+      "phone": "058550174",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 105,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 61,
+      "mobile": "0706738123",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.616Z",
+    "association": {
+      "name": "Svartå Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik",
+        "Innebandy"
+      ],
+      "categories": [
+        "Svartå"
+      ],
+      "homepage_url": "http://www.svarta.nu",
+      "detail_url": null,
+      "street_address": "Hyttvallen",
+      "postal_code": "69373",
+      "city": "SVARTÅ",
+      "email": "svarta1933@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 106,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 103,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Svartå"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 27,
+          "Name": "Gymnastik"
+        },
+        {
+          "Id": 30,
+          "Name": "Innebandy"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.616Z",
+    "association": {
+      "name": "Svartå utvecklingsgrupp",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Svartå"
+      ],
+      "homepage_url": "http://www.svarta.nu/",
+      "detail_url": null,
+      "street_address": "Smedstorpsvägen 1",
+      "postal_code": "69373",
+      "city": "SVARTÅ",
+      "email": "svartaug@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 107,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 262,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Svartå"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.616Z",
+    "association": {
+      "name": "Synskadades riksförbund Kga-Dfs",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Bangatan 2",
+      "postal_code": "69131",
+      "city": "KARLSKOGA",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 108,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 75,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.616Z",
+    "association": {
+      "name": "Ungdomscaféet Åtorp",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Åtorp 429",
+      "postal_code": "69394",
+      "city": "ÅTORP",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 109,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 82,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.616Z",
+    "association": {
+      "name": "VKU - Vallakyrkans Ungdom i Degerfors",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Tonår",
+        "Körsång",
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": "www.vallakyrkan.com",
+      "detail_url": null,
+      "street_address": "Herrgårdsgatan 4",
+      "postal_code": "69331",
+      "city": "DEGERFORS",
+      "email": "info@vallakyrkan.com",
+      "phone": "058642303",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 110,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 120,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 10,
+          "Name": "Tonår"
+        },
+        {
+          "Id": 34,
+          "Name": "Körsång"
+        },
+        {
+          "Id": 44,
+          "Name": "Scouting"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.616Z",
+    "association": {
+      "name": "Vänsterpartiet Degerfors",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": "http://degerforsaren.se/",
+      "detail_url": null,
+      "street_address": "Krontorpsvägen 1",
+      "postal_code": "69332",
+      "city": "DEGERFORS",
+      "email": "vansterpartiet.degerfors@gmail.com",
+      "phone": "0586-404 90",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 111,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 260,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.616Z",
+    "association": {
+      "name": "Yek Dest – Kurd-Svenska Föreningen för Kultur & Integration",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Degerfors"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Parkgatan 15A lgh 1102",
+      "postal_code": "69333",
+      "city": "Degerfors",
+      "email": "binafsh91@gmail.com",
+      "phone": "0725684723",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 112,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1776,
+      "mobile": "0725684723",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Degerfors"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 54,
+          "Name": "Kultur"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.617Z",
+    "association": {
+      "name": "Åtorps Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik"
+      ],
+      "categories": [
+        "Åtorp"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Lidetorpsvägen 22",
+      "postal_code": "69322",
+      "city": "ÅTORP",
+      "email": "atorpsif@gmail.com",
+      "phone": "0586730341",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 113,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 106,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åtorp"
+      ],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Fotboll"
+        },
+        {
+          "Id": 27,
+          "Name": "Gymnastik"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.617Z",
+    "association": {
+      "name": "Åtorps utvecklingsgrupp",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Åtorp"
+      ],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Västervägen 7 E",
+      "postal_code": "69370",
+      "city": "ÅTORP",
+      "email": "karl_andersandersson@hotmail.com",
+      "phone": "0586-73 04 45",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 114,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 261,
+      "mobile": "070-727 87 04",
+      "leisure_activity_card": false,
+      "district_names": [
+        "Åtorp"
+      ],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.617Z",
+    "association": {
+      "name": "Ängebäck BK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": null,
+      "street_address": "Grangatan 8",
+      "postal_code": "69330",
+      "city": "Degerfors",
+      "email": "magnusaberg87@icloud.com",
+      "phone": "0761870003",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 115,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 111,
+      "mobile": "0761870003",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 2,
+          "Name": "Fotboll"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.617Z",
+    "association": {
+      "name": "Örebro Läns Hembygdsförbund",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.hembygd.se",
+      "detail_url": null,
+      "street_address": "Box 314",
+      "postal_code": "70146",
+      "city": "ÖREBRO",
+      "email": "elinor.magnerus@orebrolansmuseum.se",
+      "phone": "0196028700",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 116,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 65,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.617Z",
+    "association": {
+      "name": "Örebro Läns Nämndemannaförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Gräsmossen 634",
+      "postal_code": "69392",
+      "city": "DEGERFORS",
+      "email": "karin40884@telia.com",
+      "phone": "0703819808",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 117,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 163,
+      "mobile": "0703819808",
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.617Z",
+    "association": {
+      "name": "Örebro Rättighetscenter",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Antidiskriminering"
+      ],
+      "categories": [],
+      "homepage_url": "https://rattighetscenter.se/",
+      "detail_url": null,
+      "street_address": "Slottsgatan 13A",
+      "postal_code": "70361",
+      "city": "Örebro",
+      "email": "info@rattighetscenter.se",
+      "phone": "019-18 40 18",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 118,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 1564,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": [
+        {
+          "Id": 8,
+          "Name": "Antidiskriminering"
+        }
+      ]
+    }
+  },
+  {
+    "source_system": "InterBook Go",
+    "municipality": "Degerfors",
+    "scrape_run_id": "32055712-b7d7-48c3-9db1-7e286f9584ee",
+    "scraped_at": "2025-10-23T08:32:54.617Z",
+    "association": {
+      "name": "Österviks Byalag",
+      "org_number": null,
+      "types": [
+        "Folkets Hus och Hembygdsf"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": " ",
+      "detail_url": null,
+      "street_address": "Labbsand Björkhaga 154",
+      "postal_code": "69194",
+      "city": "KARLSKOGA",
+      "email": "gsns@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 119,
+      "pagination_model": "api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 62,
+      "mobile": null,
+      "leisure_activity_card": false,
+      "district_names": [],
+      "occupations_raw": []
+    }
+  }
+]

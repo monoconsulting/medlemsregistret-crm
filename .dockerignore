@@ -1,0 +1,67 @@
+# Node modules
+node_modules
+npm-debug.log
+
+# Next.js
+.next
+out
+.cache
+
+# Testing
+coverage
+.nyc_output
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Storage and data directories
+storage/
+crm-app/storage/
+*.sock
+*.pid
+*.log
+
+# Prisma
+prisma/migrations/
+
+# Docker
+docker-compose*.yml
+
+# Documentation
+*.md
+
+# Tests
+tests/
+test-results/
+playwright-report/
+*.spec.ts
+*.test.ts
+
+# Scraping output
+scraping/out/
+scraping/json/
+scraping/*.log
+scraping/node_modules/
+
+# Temporary files
+tmp/
+temp/

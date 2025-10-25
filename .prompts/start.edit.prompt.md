@@ -12,4 +12,5 @@ Följ dessa steg noggrant:
 - Du ska **strikt följa de instruktioner du får**. Inga egna tolkningar eller ändringar får göras utan att först ha fått godkänt.
 - Du får **aldrig ändra i docker-compose-filer, .env-filer, README-filer eller liknande konfigurationsfiler** utan att först ha fått godkänt. 
 - Du får heller **aldrig ändra i databasstrukturer** utan att först ha fått godkänt.
+- Mockdata är aldrig okej. Fejkade saker är aldrig okej. Att sätta in en PLACEHOLDER är fullständigt meningslöst och slöseriöst. Du ska alltid arbeta med verklig data och verkliga lösningar.
 
