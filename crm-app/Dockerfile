@@ -6,8 +6,8 @@ RUN apk add --no-cache libc6-compat openssl
 WORKDIR /app
 
 # Kopiera package files
-COPY crm-app/package*.json ./
-COPY crm-app/prisma ./prisma/
+COPY package*.json ./
+COPY prisma ./prisma/
 
 # Installera dependencies
 RUN npm ci
@@ -21,7 +21,7 @@ WORKDIR /app
 
 # Kopiera dependencies från deps stage
 COPY --from=deps /app/node_modules ./node_modules
-COPY crm-app/ .
+COPY . .
 
 # Disable telemetry
 ENV NEXT_TELEMETRY_DISABLED=1
