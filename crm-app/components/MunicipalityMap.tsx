@@ -29,7 +29,7 @@ export default function MunicipalityMap({ latitude, longitude, municipalityName 
     }
   }, [latitude, longitude])
 
-  const position: LatLngTuple = [latitude, longitude]
+  const position: LatLngTuple = [longitude, latitude]
 
   return (
     <MapContainer

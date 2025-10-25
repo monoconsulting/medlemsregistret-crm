@@ -1,6 +1,7 @@
 "use client"
 
 import { useMemo, useState } from "react"
+import { useSearchParams } from "next/navigation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -93,11 +94,13 @@ const DEFAULT_FILTERS: AdvancedFilterState = {
 }
 
 export default function AssociationsPage() {
+  const searchParams = useSearchParams()
+  const municipalityFilter = searchParams.get("municipality")
   const utils = api.useUtils()
   const [searchTerm, setSearchTerm] = useState("")
   const [filters, setFilters] = useState<AdvancedFilterState>(DEFAULT_FILTERS)
   const [page, setPage] = useState(1)
-  const limit = 10
+  const [limit, setLimit] = useState(10)
   const [viewMode, setViewMode] = useState<ViewMode>("table")
   const [sortBy, setSortBy] = useState<"updatedAt" | "name" | "createdAt" | "recentActivity">("updatedAt")
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc")
@@ -130,6 +133,7 @@ export default function AssociationsPage() {
       hasPhone: typeof filters.hasPhone === "boolean" ? filters.hasPhone : undefined,
       isMember: typeof filters.isMember === "boolean" ? filters.isMember : undefined,
       assignedToId: filters.assignedToId || undefined,
+      municipality: municipalityFilter || undefined,
       dateRange: filters.dateRange?.from
         ? {
             from: filters.dateRange.from,
@@ -140,7 +144,7 @@ export default function AssociationsPage() {
       sortBy,
       sortDirection,
     }
-  }, [page, limit, searchTerm, filters, sortBy, sortDirection])
+  }, [page, limit, searchTerm, filters, sortBy, sortDirection, municipalityFilter])
 
   const associationsQuery = api.association.list.useQuery(queryInput, {
     placeholderData: (previousData) => previousData,
@@ -237,7 +241,7 @@ export default function AssociationsPage() {
   const clearSelection = () => setSelectedIds(new Set())
 
   const handleExport = async (format: "csv" | "json" | "xlsx") => {
-    const result = await exportAssociations.mutateAsync({ format, search: searchTerm.trim() || undefined })
+    const result = await exportAssociations.mutateAsync({ format, search: searchTerm.trim() || undefined, municipality: municipalityFilter || undefined })
     const binary = atob(result.data)
     const buffer = new Uint8Array(binary.length)
     for (let i = 0; i < binary.length; i++) {
@@ -388,6 +392,17 @@ export default function AssociationsPage() {
             </div>
             <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center sm:gap-3">
               <ViewToggle value={viewMode} onChange={setViewMode} />
+              <Select value={limit.toString()} onValueChange={(value) => { setLimit(parseInt(value)); setPage(1); }}>
+                <SelectTrigger className="w-full sm:w-32">
+                  <SelectValue placeholder="Per sida" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="10">10 per sida</SelectItem>
+                  <SelectItem value="25">25 per sida</SelectItem>
+                  <SelectItem value="50">50 per sida</SelectItem>
+                  <SelectItem value="100">100 per sida</SelectItem>
+                </SelectContent>
+              </Select>
               <Select value={sortBy} onValueChange={(value) => setSortBy(value as typeof sortBy)}>
                 <SelectTrigger className="w-full sm:w-44">
                   <SelectValue placeholder="Sortera" />
@@ -467,6 +482,9 @@ export default function AssociationsPage() {
                 <thead className="bg-muted/40">
                   <tr>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                      #
+                    </th>
+                    <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Val
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
@@ -496,14 +514,18 @@ export default function AssociationsPage() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-border">
-                  {associations.map((association) => {
+                  {associations.map((association, index) => {
                     const primaryContact = association.contacts?.[0]
                     const isSelected = selectedIds.has(association.id)
                     const typeValues = parseStringArray(association.types)
                     const activityValues = parseStringArray(association.activities)
+                    const rowIndex = (page - 1) * limit + index + 1
 
                     return (
                       <tr key={association.id} className={isSelected ? "bg-primary/5" : undefined}>
+                        <td className="px-4 py-3 text-sm font-medium text-muted-foreground">
+                          {rowIndex}
+                        </td>
                         <td className="px-4 py-3">
                           <Checkbox checked={isSelected} onCheckedChange={() => toggleSelection(association.id)} />
                         </td>

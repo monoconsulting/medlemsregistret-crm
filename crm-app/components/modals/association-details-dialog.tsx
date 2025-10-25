@@ -12,6 +12,8 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { CRM_STATUSES, PIPELINES } from "@/lib/validators/association"
 import { toast } from "@/hooks/use-toast"
 
 interface AssociationDetailsDialogProps {
@@ -63,11 +65,37 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
     },
   })
 
+  const updateAssociation = api.association.update.useMutation({
+    onSuccess: () => {
+      utils.association.getById.invalidate({ id: associationId! })
+      toast({ title: "Förening uppdaterad" })
+    },
+    onError: (error) => {
+      toast({ title: "Kunde inte uppdatera förening", description: error.message, variant: "destructive" })
+    },
+  })
+
   const association = detailsQuery.data
 
   const types = useMemo(() => renderList(association?.types), [association?.types])
   const activities = useMemo(() => renderList(association?.activities), [association?.activities])
   const categories = useMemo(() => renderList(association?.categories), [association?.categories])
+
+  const handleStatusChange = async (status: string) => {
+    if (!association || status === association.crmStatus) return
+    await updateAssociation.mutateAsync({
+      id: association.id,
+      data: { crmStatus: status as any },
+    })
+  }
+
+  const handlePipelineChange = async (pipeline: string) => {
+    if (!association || pipeline === association.pipeline) return
+    await updateAssociation.mutateAsync({
+      id: association.id,
+      data: { pipeline: pipeline as any },
+    })
+  }
 
   const handleSaveNote = async () => {
     if (!associationId || note.trim().length === 0) return
@@ -100,10 +128,46 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
                 </span>
                 <Separator orientation="vertical" className="h-4" />
                 <span className="text-xs uppercase tracking-wide">
-                  Status: <span className="font-medium">{association.crmStatus}</span>
+                  Status:{" "}
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="link" className="h-auto p-0 text-xs font-medium underline">
+                        {association.crmStatus}
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="start" className="w-40">
+                      {CRM_STATUSES.map((status) => (
+                        <DropdownMenuItem
+                          key={status}
+                          onSelect={() => handleStatusChange(status)}
+                          className={status === association.crmStatus ? "bg-muted" : undefined}
+                        >
+                          {status}
+                        </DropdownMenuItem>
+                      ))}
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                 </span>
                 <span className="text-xs uppercase tracking-wide">
-                  Pipeline: <span className="font-medium">{association.pipeline}</span>
+                  Pipeline:{" "}
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="link" className="h-auto p-0 text-xs font-medium underline">
+                        {association.pipeline}
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="start" className="w-44">
+                      {PIPELINES.map((pipeline) => (
+                        <DropdownMenuItem
+                          key={pipeline}
+                          onSelect={() => handlePipelineChange(pipeline)}
+                          className={pipeline === association.pipeline ? "bg-muted" : undefined}
+                        >
+                          {pipeline}
+                        </DropdownMenuItem>
+                      ))}
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                 </span>
               </div>
             </DialogHeader>
@@ -232,16 +296,38 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
                   </section>
 
                   <section className="rounded-lg border bg-card p-4">
-                    <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Beskrivning</h3>
-                    <div className="mt-4 space-y-4 text-sm">
-                      {association.descriptionFreeText ? (
-                        <div>
-                          <p className="whitespace-pre-line text-sm text-muted-foreground">
-                            {association.descriptionFreeText}
-                          </p>
-                        </div>
+                    <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Beskrivning från källa</h3>
+                    <div className="mt-4">
+                      {association.description ? (
+                        <div className="text-sm whitespace-pre-line">{String(association.description)}</div>
                       ) : (
-                        <p>Ingen beskrivning tillgänglig.</p>
+                        <p className="text-sm text-muted-foreground">Ingen beskrivning från källa.</p>
+                      )}
+                    </div>
+                  </section>
+
+                  <section className="rounded-lg border bg-card p-4">
+                    <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Ytterligare information</h3>
+                    <div className="mt-4">
+                      {association.extras && Object.keys(association.extras).length > 0 ? (
+                        <table className="min-w-full divide-y divide-border text-sm">
+                          <thead>
+                            <tr>
+                              <th className="px-2 py-1 text-left font-medium">Fält</th>
+                              <th className="px-2 py-1 text-left font-medium">Värde</th>
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-border">
+                            {Object.entries(association.extras as Record<string, unknown>).map(([key, value]) => (
+                              <tr key={key}>
+                                <td className="px-2 py-1 font-medium">{key}</td>
+                                <td className="px-2 py-1">{String(value)}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      ) : (
+                        <p className="text-sm text-muted-foreground">Ingen ytterligare information.</p>
                       )}
                     </div>
                   </section>
