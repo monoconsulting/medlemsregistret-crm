@@ -1,84 +1,106 @@
-import { PrismaClient } from '@prisma/client'
-import * as fs from 'fs'
-import * as path from 'path'
+import { PrismaClient } from "@prisma/client"
+import * as fs from "fs"
+import * as path from "path"
+import { parse } from "csv-parse/sync"
+
+import { municipalityHomepageRowSchema, type MunicipalityHomepageRow } from "@/lib/schemas/municipality-homepage"
 
 const prisma = new PrismaClient()
 
-interface CSVRow {
-  kommun: string
-  hemsida: string
-  [key: string]: string
+function normalizeUrl(value: string): string | null {
+  const trimmed = value.trim()
+  if (!trimmed.length) return null
+  if (/^https?:\/\//i.test(trimmed)) {
+    return trimmed
+  }
+  return `https://${trimmed}`
 }
 
 async function importHomepages() {
   try {
-    console.log('📖 Läser CSV-fil...')
+    const csvPath = path.join(__dirname, "../../temp/Foreningar3.csv")
 
-    const csvPath = path.join(__dirname, '../../temp/Foreningar3.csv')
-    const csvContent = fs.readFileSync(csvPath, 'utf-8')
-
-    // Parse CSV manually (skip header row)
-    const lines = csvContent.split('\n').slice(1)
-    const rows: CSVRow[] = []
-
-    for (const line of lines) {
-      if (!line.trim()) continue
-
-      // Split by comma but respect quoted strings
-      const values = line.split(',').map(v => v.trim())
-
-      if (values.length >= 2) {
-        const kommun = values[0]
-        const hemsida = values[1]
-
-        if (kommun && hemsida) {
-          rows.push({ kommun, hemsida })
-        }
-      }
+    if (!fs.existsSync(csvPath)) {
+      throw new Error(`CSV-fil saknas på ${csvPath}`)
     }
 
-    console.log(`✅ Läste ${rows.length} rader från CSV\n`)
+    console.log("📖 Läser CSV-fil…")
+    const csvContent = fs.readFileSync(csvPath, "utf-8")
+
+    const records = parse(csvContent, {
+      columns: (header) => header.map((column: string) => column.trim().toLowerCase()),
+      skip_empty_lines: true,
+      delimiter: [";", ","],
+      trim: true,
+    }) as Record<string, string>[]
+
+    const rows: MunicipalityHomepageRow[] = []
+
+    for (const record of records) {
+      const parsed = municipalityHomepageRowSchema.safeParse(record)
+      if (!parsed.success) {
+        console.warn("⚠️  Ogiltig rad hoppad över", record, parsed.error.message)
+        continue
+      }
+
+      const homepage = normalizeUrl(parsed.data.hemsida)
+      if (!homepage) {
+        console.warn(`⚠️  Ogiltig hemsideadress för ${parsed.data.kommun}`)
+        continue
+      }
+
+      rows.push({ ...parsed.data, hemsida: homepage })
+    }
+
+    console.log(`✅ Validerade ${rows.length} rader\n`)
 
     let updated = 0
     let notFound = 0
     let skipped = 0
 
     for (const row of rows) {
-      // Find municipality by name
+      const municipalityName = row.kommun.trim()
+
       const municipality = await prisma.municipality.findFirst({
-        where: {
-          name: row.kommun
-        }
+        where: { name: municipalityName },
       })
 
       if (!municipality) {
-        console.log(`⚠️  Kommun inte hittad: ${row.kommun}`)
+        console.log(`⚠️  Kommun inte hittad: ${municipalityName}`)
         notFound++
         continue
       }
 
-      if (municipality.homepage === row.hemsida) {
+      const dataToUpdate: { homepage?: string; platform?: string | null } = {}
+
+      if (municipality.homepage !== row.hemsida) {
+        dataToUpdate.homepage = row.hemsida
+      }
+
+      if (row.plattform && row.plattform.length && municipality.platform !== row.plattform) {
+        dataToUpdate.platform = row.plattform
+      }
+
+      if (!Object.keys(dataToUpdate).length) {
         skipped++
         continue
       }
 
-      // Update homepage
       await prisma.municipality.update({
         where: { id: municipality.id },
-        data: { homepage: row.hemsida }
+        data: dataToUpdate,
       })
 
-      console.log(`✓ Uppdaterad: ${municipality.name} → ${row.hemsida}`)
+      console.log(`✓ Uppdaterad: ${municipality.name} → ${row.hemsida}${row.plattform ? ` (${row.plattform})` : ""}`)
       updated++
     }
 
-    console.log('\n📊 Sammanfattning:')
+    console.log("\n📊 Sammanfattning:")
     console.log(`   ✅ Uppdaterade: ${updated}`)
-    console.log(`   ⏭️  Hoppade över (redan korrekt): ${skipped}`)
+    console.log(`   ⏭️  Hoppade över (ingen ändring): ${skipped}`)
     console.log(`   ⚠️  Inte hittade: ${notFound}`)
-
   } catch (error) {
-    console.error('❌ Fel vid import:', error)
+    console.error("❌ Fel vid import:", error)
     throw error
   } finally {
     await prisma.$disconnect()
@@ -87,10 +109,10 @@ async function importHomepages() {
 
 importHomepages()
   .then(() => {
-    console.log('\n✅ Import klar!')
+    console.log("\n✅ Import klar!")
     process.exit(0)
   })
   .catch((error) => {
-    console.error('❌ Import misslyckades:', error)
+    console.error("❌ Import misslyckades:", error)
     process.exit(1)
   })
