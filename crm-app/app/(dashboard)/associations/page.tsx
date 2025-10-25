@@ -7,27 +7,44 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Checkbox } from "@/components/ui/checkbox"
 import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { Search, Filter, Plus, Loader2, RefreshCcw, Mail, UserPlus, Pencil, Map, UserRoundPen } from "lucide-react"
+import {
+  Search,
+  Filter,
+  Plus,
+  Loader2,
+  RefreshCcw,
+  Mail,
+  Pencil,
+  Map,
+  UserRoundPen,
+  Home,
+} from "lucide-react"
 import { AdvancedFilterPanel, type AdvancedFilterState } from "@/components/filters/advanced-filter-panel"
 import { MultiSelectOption } from "@/components/filters/multi-select-filter"
 import { BulkActionsToolbar } from "@/components/filters/bulk-actions-toolbar"
 import { ViewToggle, type ViewMode } from "@/components/filters/view-toggle"
 import { EditAssociationModal } from "@/components/modals/edit-association-modal"
-import { AddContactModal } from "@/components/modals/add-contact-modal"
-import { EditContactModal } from "@/components/modals/edit-contact-modal"
+import { ContactManagerModal } from "@/components/modals/contact-manager-modal"
+import { AssociationDetailModal } from "@/components/modals/association-detail-modal"
 import { SendEmailModal } from "@/components/modals/send-email-modal"
 import { api } from "@/lib/trpc/client"
 import { CRM_STATUSES, PIPELINES, type AssociationUpdateInput } from "@/lib/validators/association"
-import type { ContactFormValues, ContactUpdateValues } from "@/lib/validators/contact"
 import type { EmailComposerValues } from "@/lib/validators/email"
 import { toast } from "@/hooks/use-toast"
 import type { Association, Contact, Tag, User, Activity } from "@prisma/client"
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card"
 
 type AssociationListItem = Association & {
   contacts?: Contact[]
@@ -35,6 +52,18 @@ type AssociationListItem = Association & {
   _count?: { contacts: number; notes: number }
   assignedTo?: User | null
   activityLog?: Activity[]
+}
+
+const toStringArray = (value: unknown): string[] => {
+  if (!value) return []
+  if (Array.isArray(value)) {
+    return value
+      .map((item) => (typeof item === "string" ? item : typeof item === "number" ? String(item) : JSON.stringify(item)))
+      .filter(Boolean)
+  }
+  if (typeof value === "string") return [value]
+  if (typeof value === "number") return [String(value)]
+  return []
 }
 
 const ACTIVITY_TYPES: MultiSelectOption[] = [
@@ -78,14 +107,8 @@ export default function AssociationsPage() {
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
 
   const [editTarget, setEditTarget] = useState<AssociationListItem | null>(null)
-  const [contactTarget, setContactTarget] = useState<AssociationListItem | null>(null)
-  const [contactEditTarget, setContactEditTarget] = useState<
-    | {
-        association: AssociationListItem
-        contact: NonNullable<AssociationListItem["contacts"]>[number]
-      }
-    | null
-  >(null)
+  const [detailTarget, setDetailTarget] = useState<AssociationListItem | null>(null)
+  const [contactManagerTarget, setContactManagerTarget] = useState<AssociationListItem | null>(null)
   const [emailTarget, setEmailTarget] = useState<AssociationListItem | null>(null)
 
   const queryInput = useMemo(() => {
@@ -120,37 +143,14 @@ export default function AssociationsPage() {
   const tagsQuery = api.tags.list.useQuery(undefined, { staleTime: 60_000 })
 
   const updateAssociation = api.association.update.useMutation({
-    onSuccess: () => {
+    onSuccess: (updated) => {
       utils.association.list.invalidate(queryInput)
       toast({ title: "Förening uppdaterad" })
+      setDetailTarget((prev) => (prev && prev.id === updated.id ? { ...prev, ...updated } : prev))
     },
     onError: (error) => {
       toast({ title: "Misslyckades", description: error.message, variant: "destructive" })
     },
-  })
-
-  const createContact = api.contacts.create.useMutation({
-    onSuccess: () => {
-      toast({ title: "Kontakt skapad" })
-      utils.association.list.invalidate(queryInput)
-    },
-    onError: (error) => toast({ title: "Kunde inte skapa kontakt", description: error.message, variant: "destructive" }),
-  })
-
-  const updateContact = api.contacts.update.useMutation({
-    onSuccess: () => {
-      toast({ title: "Kontakt uppdaterad" })
-      utils.association.list.invalidate(queryInput)
-    },
-    onError: (error) => toast({ title: "Kunde inte uppdatera kontakt", description: error.message, variant: "destructive" }),
-  })
-
-  const deleteContactMutation = api.contacts.delete.useMutation({
-    onSuccess: () => {
-      toast({ title: "Kontakt borttagen" })
-      utils.association.list.invalidate(queryInput)
-    },
-    onError: (error) => toast({ title: "Kunde inte ta bort kontakt", description: error.message, variant: "destructive" }),
   })
 
   const exportAssociations = api.export.associations.useMutation({
@@ -274,19 +274,24 @@ export default function AssociationsPage() {
     })
   }
 
-  const handleCreateContact = async (values: ContactFormValues) => {
-    await createContact.mutateAsync(values)
-    setContactTarget(null)
+  const handleStatusSelect = async (
+    association: AssociationListItem,
+    status: AssociationUpdateInput["crmStatus"]
+  ) => {
+    await updateAssociation.mutateAsync({
+      id: association.id,
+      data: { crmStatus: status },
+    })
   }
 
-  const handleUpdateContact = async (values: ContactUpdateValues) => {
-    await updateContact.mutateAsync(values)
-    setContactEditTarget(null)
-  }
-
-  const handleDeleteContact = async (contactId: string) => {
-    await deleteContactMutation.mutateAsync({ id: contactId })
-    setContactEditTarget(null)
+  const handlePipelineSelect = async (
+    association: AssociationListItem,
+    pipeline: AssociationUpdateInput["pipeline"]
+  ) => {
+    await updateAssociation.mutateAsync({
+      id: association.id,
+      data: { pipeline },
+    })
   }
 
   const handleSendEmail = async (values: EmailComposerValues) => {
@@ -411,6 +416,9 @@ export default function AssociationsPage() {
                       Val
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                      Kommun
+                    </th>
+                    <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Förening
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
@@ -420,13 +428,13 @@ export default function AssociationsPage() {
                       Pipeline
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Kontaktinfo
+                      Kontakter
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Adress
+                      Föreningstyp
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Ansvarig
+                      Taggar
                     </th>
                     <th className="px-4 py-2 text-right text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Åtgärder
@@ -435,77 +443,238 @@ export default function AssociationsPage() {
                 </thead>
                 <tbody className="divide-y divide-border">
                   {associations.map((association) => {
-                    const primaryContact = association.contacts?.[0]
+                    const contacts = association.contacts ?? []
+                    const primaryContact = contacts.find((contact) => contact.isPrimary) ?? contacts[0]
+                    const types = toStringArray(association.types)
+                    const activities = toStringArray(association.activities)
                     const isSelected = selectedIds.has(association.id)
                     return (
                       <tr key={association.id} className={isSelected ? "bg-primary/5" : undefined}>
                         <td className="px-4 py-3">
                           <Checkbox checked={isSelected} onCheckedChange={() => toggleSelection(association.id)} />
                         </td>
+                        <td className="px-4 py-3 text-sm">
+                          <div className="font-medium">{association.municipality ?? "Okänd kommun"}</div>
+                          {association.streetAddress && (
+                            <div className="text-xs text-muted-foreground">{association.streetAddress}</div>
+                          )}
+                          {(association.postalCode || association.city) && (
+                            <div className="text-xs text-muted-foreground">
+                              {association.postalCode} {association.city}
+                            </div>
+                          )}
+                        </td>
                         <td className="px-4 py-3">
-                          <div className="font-semibold">{association.name}</div>
-                          <div className="text-xs text-muted-foreground">
-                            {association.municipality ?? "Okänd kommun"}
+                          <button
+                            type="button"
+                            className="text-left"
+                            onClick={() => setDetailTarget(association)}
+                          >
+                            <div className="font-semibold text-primary underline-offset-2 hover:underline">
+                              {association.name}
+                            </div>
+                          </button>
+                          <div className="mt-1 text-xs text-muted-foreground">
+                            Organisationsnummer: {association.orgNumber ?? "Saknas"}
                           </div>
                         </td>
                         <td className="px-4 py-3">
-                          <Badge variant="secondary">{association.crmStatus}</Badge>
+                          <DropdownMenu>
+                            <DropdownMenuTrigger asChild>
+                              <Badge variant="secondary" className="cursor-pointer">
+                                {association.crmStatus}
+                              </Badge>
+                            </DropdownMenuTrigger>
+                            <DropdownMenuContent align="start" className="w-48">
+                              {CRM_STATUSES.map((status) => (
+                                <DropdownMenuItem
+                                  key={status}
+                                  onSelect={(event) => {
+                                    event.preventDefault()
+                                    if (status !== association.crmStatus) {
+                                      void handleStatusSelect(association, status as AssociationUpdateInput["crmStatus"])
+                                    }
+                                  }}
+                                  className="flex items-center justify-between"
+                                >
+                                  <span>{status}</span>
+                                  {status === association.crmStatus && <span className="text-xs text-muted-foreground">Vald</span>}
+                                </DropdownMenuItem>
+                              ))}
+                            </DropdownMenuContent>
+                          </DropdownMenu>
                         </td>
-                        <td className="px-4 py-3 text-sm text-muted-foreground">{association.pipeline}</td>
+                        <td className="px-4 py-3">
+                          <DropdownMenu>
+                            <DropdownMenuTrigger asChild>
+                              <Badge variant="outline" className="cursor-pointer">
+                                {association.pipeline}
+                              </Badge>
+                            </DropdownMenuTrigger>
+                            <DropdownMenuContent align="start" className="w-48">
+                              {PIPELINES.map((pipeline) => (
+                                <DropdownMenuItem
+                                  key={pipeline}
+                                  onSelect={(event) => {
+                                    event.preventDefault()
+                                    if (pipeline !== association.pipeline) {
+                                      void handlePipelineSelect(association, pipeline as AssociationUpdateInput["pipeline"])
+                                    }
+                                  }}
+                                  className="flex items-center justify-between"
+                                >
+                                  <span>{pipeline}</span>
+                                  {pipeline === association.pipeline && (
+                                    <span className="text-xs text-muted-foreground">Vald</span>
+                                  )}
+                                </DropdownMenuItem>
+                              ))}
+                            </DropdownMenuContent>
+                          </DropdownMenu>
+                        </td>
                         <td className="px-4 py-3 text-sm">
-                          <div className="space-y-1">
-                            {association.email && (
-                              <div className="text-xs">{association.email}</div>
-                            )}
-                            {association.phone && (
-                              <div className="text-xs text-muted-foreground">{association.phone}</div>
-                            )}
-                            {!association.email && !association.phone && (
-                              <span className="text-xs text-muted-foreground">Ingen kontaktinfo</span>
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => setContactManagerTarget(association)}
+                          >
+                            Hantera kontakter
+                          </Button>
+                          <div className="mt-1 text-xs text-muted-foreground">
+                            {primaryContact
+                              ? `${primaryContact.name}${primaryContact.email ? ` • ${primaryContact.email}` : ""}`
+                              : "Ingen primär kontakt"}
+                          </div>
+                          <div className="text-[10px] uppercase text-muted-foreground">
+                            Totalt {association._count?.contacts ?? contacts.length} kontakt(er)
+                          </div>
+                        </td>
+                        <td className="px-4 py-3 text-sm">
+                          <div className="flex flex-wrap gap-1">
+                            {types.length === 0 ? (
+                              <span className="text-xs text-muted-foreground">Saknas</span>
+                            ) : (
+                              types.map((type) => (
+                                <Badge key={`${association.id}-type-${type}`} variant="outline" className="text-xs">
+                                  {type}
+                                </Badge>
+                              ))
                             )}
                           </div>
                         </td>
                         <td className="px-4 py-3 text-sm">
-                          <div className="space-y-1">
-                            {association.streetAddress && (
-                              <div className="text-xs">{association.streetAddress}</div>
-                            )}
-                            {(association.postalCode || association.city) && (
-                              <div className="text-xs text-muted-foreground">
-                                {association.postalCode} {association.city}
-                              </div>
-                            )}
-                            {!association.streetAddress && !association.postalCode && !association.city && (
-                              <span className="text-xs text-muted-foreground">Ingen adress</span>
+                          <div className="flex flex-wrap gap-1">
+                            {activities.length === 0 ? (
+                              <span className="text-xs text-muted-foreground">Inga taggar</span>
+                            ) : (
+                              activities.map((activity) => (
+                                <Badge key={`${association.id}-activity-${activity}`} variant="secondary" className="text-xs">
+                                  {activity}
+                                </Badge>
+                              ))
                             )}
                           </div>
-                        </td>
-                        <td className="px-4 py-3 text-sm">
-                          {association.assignedTo?.name ?? "Obemannad"}
                         </td>
                         <td className="px-4 py-3">
                           <div className="flex justify-end gap-2">
-                            <Button
-                              size="icon"
-                              variant="ghost"
-                              onClick={() => setEditTarget(association)}
-                            >
-                              <Pencil className="h-4 w-4" />
-                            </Button>
-                            <Button
-                              size="icon"
-                              variant="ghost"
-                              onClick={() => setContactTarget(association)}
-                            >
-                              <UserPlus className="h-4 w-4" />
-                            </Button>
-                            <Button
-                              size="icon"
-                              variant="ghost"
-                              onClick={() => setEmailTarget(association)}
-                            >
-                              <Mail className="h-4 w-4" />
-                            </Button>
+                            <HoverCard>
+                              <HoverCardTrigger asChild>
+                                <Button
+                                  size="icon"
+                                  variant="ghost"
+                                  onClick={() => setDetailTarget(association)}
+                                >
+                                  <Pencil className="h-4 w-4" />
+                                </Button>
+                              </HoverCardTrigger>
+                              <HoverCardContent>
+                                <p className="text-sm font-medium">Redigera förening</p>
+                                <p className="text-xs text-muted-foreground">
+                                  Öppnar samma detaljerade vy som länken i kolumnen ”Förening”.
+                                </p>
+                              </HoverCardContent>
+                            </HoverCard>
+                            <HoverCard>
+                              <HoverCardTrigger asChild>
+                                <Button
+                                  size="icon"
+                                  variant="ghost"
+                                  onClick={() => setContactManagerTarget(association)}
+                                >
+                                  <UserRoundPen className="h-4 w-4" />
+                                </Button>
+                              </HoverCardTrigger>
+                              <HoverCardContent className="space-y-2 text-xs">
+                                <div>
+                                  <p className="font-semibold">Kontaktinformation</p>
+                                  <p>Organisationsnummer: {association.orgNumber ?? "Saknas"}</p>
+                                  <p>Adress: {association.streetAddress ?? "-"}</p>
+                                  <p>
+                                    {association.postalCode} {association.city}
+                                  </p>
+                                </div>
+                                <div className="space-y-1">
+                                  {contacts.length === 0 ? (
+                                    <p className="text-muted-foreground">Inga kontakter registrerade.</p>
+                                  ) : (
+                                    contacts.slice(0, 5).map((contact) => (
+                                      <div key={contact.id}>
+                                        <p className="font-medium">
+                                          {contact.name} {contact.isPrimary ? "(Primär)" : ""}
+                                        </p>
+                                        {contact.email && <p>E-post: {contact.email}</p>}
+                                        {(contact.phone || contact.mobile) && (
+                                          <p>Telefon: {contact.phone ?? contact.mobile}</p>
+                                        )}
+                                      </div>
+                                    ))
+                                  )}
+                                </div>
+                              </HoverCardContent>
+                            </HoverCard>
+                            <HoverCard>
+                              <HoverCardTrigger asChild>
+                                <Button
+                                  size="icon"
+                                  variant="ghost"
+                                  onClick={() => setEmailTarget(association)}
+                                >
+                                  <Mail className="h-4 w-4" />
+                                </Button>
+                              </HoverCardTrigger>
+                              <HoverCardContent>
+                                <p className="text-sm font-medium">Skicka e-post</p>
+                                <p className="text-xs text-muted-foreground">
+                                  Öppnar formulär till {association.email ?? primaryContact?.email ?? "registrerade adresser"}.
+                                </p>
+                              </HoverCardContent>
+                            </HoverCard>
+                            <HoverCard>
+                              <HoverCardTrigger asChild>
+                                {association.homepageUrl ? (
+                                  <Button size="icon" variant="ghost" asChild>
+                                    <a
+                                      href={association.homepageUrl}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      aria-label="Öppna hemsida"
+                                    >
+                                      <Home className="h-4 w-4" />
+                                    </a>
+                                  </Button>
+                                ) : (
+                                  <Button size="icon" variant="ghost" disabled>
+                                    <Home className="h-4 w-4" />
+                                  </Button>
+                                )}
+                              </HoverCardTrigger>
+                              <HoverCardContent>
+                                <p className="text-sm font-medium">Besök hemsida</p>
+                                <p className="text-xs text-muted-foreground">
+                                  {association.homepageUrl ?? "Ingen hemsida registrerad"}
+                                </p>
+                              </HoverCardContent>
+                            </HoverCard>
                           </div>
                         </td>
                       </tr>
@@ -646,52 +815,48 @@ export default function AssociationsPage() {
         />
       )}
 
-      {contactTarget && (
-        <AddContactModal
-          open={!!contactTarget}
-          onOpenChange={(open) => (!open ? setContactTarget(null) : undefined)}
-          associationId={contactTarget.id}
-          associationName={contactTarget.name}
-          onSubmit={async (values) => handleCreateContact(values)}
-          isSubmitting={createContact.isPending}
-        />
-      )}
-
-      {contactEditTarget && (
-        <EditContactModal
-          open={!!contactEditTarget}
-          onOpenChange={(open) => (!open ? setContactEditTarget(null) : undefined)}
-          contact={{
-            id: contactEditTarget.contact.id,
-            associationId: contactEditTarget.contact.associationId,
-            name: contactEditTarget.contact.name,
-            role: contactEditTarget.contact.role,
-            email: contactEditTarget.contact.email,
-            phone: contactEditTarget.contact.phone,
-            mobile: contactEditTarget.contact.mobile,
-            linkedinUrl: contactEditTarget.contact.linkedinUrl,
-            facebookUrl: contactEditTarget.contact.facebookUrl,
-            twitterUrl: contactEditTarget.contact.twitterUrl,
-            instagramUrl: contactEditTarget.contact.instagramUrl,
-            isPrimary: contactEditTarget.contact.isPrimary,
-            associationName: contactEditTarget.association.name,
-          }}
-          onSubmit={handleUpdateContact}
-          onDelete={() => handleDeleteContact(contactEditTarget.contact.id)}
-          isSubmitting={updateContact.isPending}
-          isDeleting={deleteContactMutation.isPending}
-        />
-      )}
-
       {emailTarget && (
         <SendEmailModal
           open={!!emailTarget}
           onOpenChange={(open) => (!open ? setEmailTarget(null) : undefined)}
           associationId={emailTarget.id}
           associationName={emailTarget.name}
-          defaultRecipient={emailTarget.email ?? emailTarget.contacts?.[0]?.email ?? null}
+          defaultRecipient={
+            emailTarget.email ?? emailTarget.contacts?.find((contact) => contact.isPrimary)?.email ?? null
+          }
           onSubmit={handleSendEmail}
           isSubmitting={false}
+        />
+      )}
+
+      {detailTarget && (
+        <AssociationDetailModal
+          open={!!detailTarget}
+          onOpenChange={(open) => (!open ? setDetailTarget(null) : undefined)}
+          association={{
+            id: detailTarget.id,
+            name: detailTarget.name,
+            municipality: detailTarget.municipality ?? null,
+            crmStatus: detailTarget.crmStatus,
+            pipeline: detailTarget.pipeline,
+            orgNumber: detailTarget.orgNumber ?? null,
+            homepageUrl: detailTarget.homepageUrl ?? null,
+            email: detailTarget.email ?? null,
+            phone: detailTarget.phone ?? null,
+            streetAddress: detailTarget.streetAddress ?? null,
+            postalCode: detailTarget.postalCode ?? null,
+            city: detailTarget.city ?? null,
+            tags: detailTarget.tags ?? [],
+          }}
+        />
+      )}
+
+      {contactManagerTarget && (
+        <ContactManagerModal
+          open={!!contactManagerTarget}
+          onOpenChange={(open) => (!open ? setContactManagerTarget(null) : undefined)}
+          associationId={contactManagerTarget.id}
+          associationName={contactManagerTarget.name}
         />
       )}
     </div>

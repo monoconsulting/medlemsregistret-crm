@@ -1,43 +1,67 @@
 import { PrismaClient } from '@prisma/client'
 import * as fs from 'fs'
 import * as path from 'path'
+import { parse } from 'csv-parse/sync'
+import { z } from 'zod'
 
 const prisma = new PrismaClient()
 
-interface CSVRow {
-  kommun: string
-  hemsida: string
-  [key: string]: string
-}
+const rowSchema = z.object({
+  kommun: z.string().min(1, 'Kommun saknas'),
+  hemsida: z
+    .string()
+    .min(1, 'Hemsida saknas')
+    .transform((value) => value.trim())
+    .transform((value) => {
+      if (!value) return value
+      return value.startsWith('http://') || value.startsWith('https://') ? value : `https://${value}`
+    }),
+})
+
+type CsvRow = z.infer<typeof rowSchema>
 
 async function importHomepages() {
   try {
     console.log('📖 Läser CSV-fil...')
 
-    const csvPath = path.join(__dirname, '../../temp/Foreningar3.csv')
+    const csvPath = path.resolve(process.cwd(), 'temp/Foreningar3.csv')
+    if (!fs.existsSync(csvPath)) {
+      throw new Error(`CSV-fil saknas på sökvägen ${csvPath}`)
+    }
+
     const csvContent = fs.readFileSync(csvPath, 'utf-8')
 
-    // Parse CSV manually (skip header row)
-    const lines = csvContent.split('\n').slice(1)
-    const rows: CSVRow[] = []
+    const parsed = parse(csvContent, {
+      bom: true,
+      columns: true,
+      skip_empty_lines: true,
+      delimiter: ',',
+      trim: true,
+    }) as Record<string, string>[]
 
-    for (const line of lines) {
-      if (!line.trim()) continue
+    const rows: CsvRow[] = []
+    const invalidRows: { row: Record<string, string>; issues: string }[] = []
 
-      // Split by comma but respect quoted strings
-      const values = line.split(',').map(v => v.trim())
-
-      if (values.length >= 2) {
-        const kommun = values[0]
-        const hemsida = values[1]
-
-        if (kommun && hemsida) {
-          rows.push({ kommun, hemsida })
-        }
+    for (const row of parsed) {
+      const result = rowSchema.safeParse(row)
+      if (result.success) {
+        rows.push(result.data)
+      } else {
+        invalidRows.push({ row, issues: result.error.issues.map((issue) => issue.message).join(', ') })
       }
     }
 
-    console.log(`✅ Läste ${rows.length} rader från CSV\n`)
+    if (invalidRows.length) {
+      console.warn('⚠️  Några rader hoppades över på grund av valideringsfel:')
+      invalidRows.slice(0, 10).forEach(({ row, issues }) => {
+        console.warn(` - ${JSON.stringify(row)} → ${issues}`)
+      })
+      if (invalidRows.length > 10) {
+        console.warn(` …och ytterligare ${invalidRows.length - 10} rader.`)
+      }
+    }
+
+    console.log(`✅ Validerade ${rows.length} rader från CSV\n`)
 
     let updated = 0
     let notFound = 0

@@ -223,8 +223,11 @@ export const associationRouter = router({
           take: limit,
           include: {
             contacts: {
-              where: { isPrimary: true },
-              take: 1,
+              orderBy: [
+                { isPrimary: 'desc' },
+                { updatedAt: 'desc' },
+              ],
+              take: 10,
             },
             tags: true,
             _count: {
