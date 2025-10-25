@@ -3,7 +3,11 @@
     "allow": [
       "Bash(npm run build:*)",
       "Bash(npx shadcn@latest add:*)",
-      "Bash(docker build:*)"
+      "Bash(docker build:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker exec:*)",
+      "Bash(cmd.exe /c scripts\\dbbackup_full.bat)",
+      "Bash(powershell -Command:*)"
     ],
     "deny": [],
     "ask": []

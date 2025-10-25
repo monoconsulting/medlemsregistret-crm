@@ -420,10 +420,7 @@ export default function AssociationsPage() {
                       Pipeline
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Kontaktinfo
-                    </th>
-                    <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Adress
+                      Kontakt
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Ansvarig
@@ -453,32 +450,25 @@ export default function AssociationsPage() {
                         </td>
                         <td className="px-4 py-3 text-sm text-muted-foreground">{association.pipeline}</td>
                         <td className="px-4 py-3 text-sm">
-                          <div className="space-y-1">
-                            {association.email && (
-                              <div className="text-xs">{association.email}</div>
-                            )}
-                            {association.phone && (
-                              <div className="text-xs text-muted-foreground">{association.phone}</div>
-                            )}
-                            {!association.email && !association.phone && (
-                              <span className="text-xs text-muted-foreground">Ingen kontaktinfo</span>
-                            )}
-                          </div>
-                        </td>
-                        <td className="px-4 py-3 text-sm">
-                          <div className="space-y-1">
-                            {association.streetAddress && (
-                              <div className="text-xs">{association.streetAddress}</div>
-                            )}
-                            {(association.postalCode || association.city) && (
-                              <div className="text-xs text-muted-foreground">
-                                {association.postalCode} {association.city}
+                          {primaryContact ? (
+                            <div className="flex items-start justify-between gap-2">
+                              <div className="flex flex-col">
+                                <span className="font-medium">{primaryContact.name}</span>
+                                <span className="text-xs text-muted-foreground">{primaryContact.email ?? "Ingen e-post"}</span>
                               </div>
-                            )}
-                            {!association.streetAddress && !association.postalCode && !association.city && (
-                              <span className="text-xs text-muted-foreground">Ingen adress</span>
-                            )}
-                          </div>
+                              <Button
+                                size="icon"
+                                variant="ghost"
+                                onClick={() =>
+                                  setContactEditTarget({ association, contact: primaryContact })
+                                }
+                              >
+                                <UserRoundPen className="h-4 w-4" />
+                              </Button>
+                            </div>
+                          ) : (
+                            <span className="text-xs text-muted-foreground">Ingen kontakt</span>
+                          )}
                         </td>
                         <td className="px-4 py-3 text-sm">
                           {association.assignedTo?.name ?? "Obemannad"}
@@ -538,35 +528,21 @@ export default function AssociationsPage() {
                           </Badge>
                         ))}
                       </div>
-                      <div className="space-y-2 text-sm">
-                        {association.email && (
-                          <div className="flex items-center gap-1 text-xs">
-                            <Mail className="h-3 w-3 text-muted-foreground" />
-                            <span>{association.email}</span>
-                          </div>
-                        )}
-                        {association.phone && (
-                          <div className="flex items-center gap-1 text-xs">
-                            <span className="text-muted-foreground">📞</span>
-                            <span>{association.phone}</span>
-                          </div>
-                        )}
-                        {association.streetAddress && (
+                      <div className="flex items-start justify-between gap-2 text-sm">
+                        <div className="space-y-1">
+                          <div className="font-medium">{primaryContact?.name ?? "Ingen kontakt"}</div>
                           <div className="text-xs text-muted-foreground">
-                            {association.streetAddress}, {association.postalCode} {association.city}
+                            {primaryContact?.email ?? "Ingen e-post"}
                           </div>
-                        )}
-                        {association.activities && Array.isArray(association.activities) && association.activities.length > 0 && (
-                          <div className="flex flex-wrap gap-1">
-                            {(association.activities as string[]).slice(0, 2).map((activity, idx) => (
-                              <Badge key={idx} variant="outline" className="text-xs">
-                                {activity}
-                              </Badge>
-                            ))}
-                            {(association.activities as string[]).length > 2 && (
-                              <Badge variant="outline" className="text-xs">+{(association.activities as string[]).length - 2}</Badge>
-                            )}
-                          </div>
+                        </div>
+                        {primaryContact && (
+                          <Button
+                            size="icon"
+                            variant="ghost"
+                            onClick={() => setContactEditTarget({ association, contact: primaryContact })}
+                          >
+                            <UserRoundPen className="h-4 w-4" />
+                          </Button>
                         )}
                       </div>
                       <div className="flex items-center justify-between text-xs text-muted-foreground">
