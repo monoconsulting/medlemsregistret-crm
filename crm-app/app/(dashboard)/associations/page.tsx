@@ -13,18 +13,34 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { Search, Filter, Plus, Loader2, RefreshCcw, Mail, UserPlus, Pencil, Map, UserRoundPen } from "lucide-react"
+import {
+  Search,
+  Filter,
+  Plus,
+  Loader2,
+  RefreshCcw,
+  Mail,
+  Pencil,
+  Map,
+  Home,
+  UserRound,
+} from "lucide-react"
 import { AdvancedFilterPanel, type AdvancedFilterState } from "@/components/filters/advanced-filter-panel"
 import { MultiSelectOption } from "@/components/filters/multi-select-filter"
 import { BulkActionsToolbar } from "@/components/filters/bulk-actions-toolbar"
 import { ViewToggle, type ViewMode } from "@/components/filters/view-toggle"
-import { EditAssociationModal } from "@/components/modals/edit-association-modal"
-import { AddContactModal } from "@/components/modals/add-contact-modal"
-import { EditContactModal } from "@/components/modals/edit-contact-modal"
 import { SendEmailModal } from "@/components/modals/send-email-modal"
+import { AssociationDetailModal } from "@/components/modals/association-detail-modal"
+import { ManageContactsModal } from "@/components/modals/manage-contacts-modal"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { api } from "@/lib/trpc/client"
 import { CRM_STATUSES, PIPELINES, type AssociationUpdateInput } from "@/lib/validators/association"
-import type { ContactFormValues, ContactUpdateValues } from "@/lib/validators/contact"
 import type { EmailComposerValues } from "@/lib/validators/email"
 import { toast } from "@/hooks/use-toast"
 import type { Association, Contact, Tag, User, Activity } from "@prisma/client"
@@ -77,15 +93,9 @@ export default function AssociationsPage() {
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc")
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
 
-  const [editTarget, setEditTarget] = useState<AssociationListItem | null>(null)
-  const [contactTarget, setContactTarget] = useState<AssociationListItem | null>(null)
-  const [contactEditTarget, setContactEditTarget] = useState<
-    | {
-        association: AssociationListItem
-        contact: NonNullable<AssociationListItem["contacts"]>[number]
-      }
-    | null
-  >(null)
+  const [detailTargetId, setDetailTargetId] = useState<string | null>(null)
+  const [contactManagerTarget, setContactManagerTarget] = useState<AssociationListItem | null>(null)
+  const [contactPopoverId, setContactPopoverId] = useState<string | null>(null)
   const [emailTarget, setEmailTarget] = useState<AssociationListItem | null>(null)
 
   const queryInput = useMemo(() => {
@@ -129,30 +139,6 @@ export default function AssociationsPage() {
     },
   })
 
-  const createContact = api.contacts.create.useMutation({
-    onSuccess: () => {
-      toast({ title: "Kontakt skapad" })
-      utils.association.list.invalidate(queryInput)
-    },
-    onError: (error) => toast({ title: "Kunde inte skapa kontakt", description: error.message, variant: "destructive" }),
-  })
-
-  const updateContact = api.contacts.update.useMutation({
-    onSuccess: () => {
-      toast({ title: "Kontakt uppdaterad" })
-      utils.association.list.invalidate(queryInput)
-    },
-    onError: (error) => toast({ title: "Kunde inte uppdatera kontakt", description: error.message, variant: "destructive" }),
-  })
-
-  const deleteContactMutation = api.contacts.delete.useMutation({
-    onSuccess: () => {
-      toast({ title: "Kontakt borttagen" })
-      utils.association.list.invalidate(queryInput)
-    },
-    onError: (error) => toast({ title: "Kunde inte ta bort kontakt", description: error.message, variant: "destructive" }),
-  })
-
   const exportAssociations = api.export.associations.useMutation({
     onError: (error) => toast({ title: "Exporten misslyckades", description: error.message, variant: "destructive" }),
   })
@@ -160,6 +146,27 @@ export default function AssociationsPage() {
   const data = associationsQuery.data
   const associations = useMemo(() => (data?.associations ?? []) as AssociationListItem[], [data?.associations])
   const totalPages = data?.pagination.totalPages ?? 1
+
+  const parseStringArray = (value: unknown): string[] => {
+    if (Array.isArray(value)) {
+      return (value as unknown[])
+        .map((item) => {
+          if (typeof item === "string") return item
+          if (item === null || item === undefined) return ""
+          if (typeof item === "object") return JSON.stringify(item)
+          return String(item)
+        })
+        .map((item) => item.trim())
+        .filter((item) => item.length > 0)
+    }
+    if (typeof value === "string") {
+      return value
+        .split(/[,;\n]/)
+        .map((item) => item.trim())
+        .filter((item) => item.length > 0)
+    }
+    return []
+  }
 
   const typeOptions: MultiSelectOption[] = useMemo(() => {
     const set = new Set<string>()
@@ -251,9 +258,9 @@ export default function AssociationsPage() {
   }
 
   const handleGenerateAssociationUpdate = async (values: AssociationUpdateInput) => {
-    if (!editTarget) return
+    if (!detailTargetId) return
     await updateAssociation.mutateAsync({
-      id: editTarget.id,
+      id: detailTargetId,
       data: {
         crmStatus: values.crmStatus,
         pipeline: values.pipeline,
@@ -274,19 +281,12 @@ export default function AssociationsPage() {
     })
   }
 
-  const handleCreateContact = async (values: ContactFormValues) => {
-    await createContact.mutateAsync(values)
-    setContactTarget(null)
+  const handleStatusChange = async (associationId: string, status: AssociationUpdateInput["crmStatus"]) => {
+    await updateAssociation.mutateAsync({ id: associationId, data: { crmStatus: status } })
   }
 
-  const handleUpdateContact = async (values: ContactUpdateValues) => {
-    await updateContact.mutateAsync(values)
-    setContactEditTarget(null)
-  }
-
-  const handleDeleteContact = async (contactId: string) => {
-    await deleteContactMutation.mutateAsync({ id: contactId })
-    setContactEditTarget(null)
+  const handlePipelineChange = async (associationId: string, pipeline: AssociationUpdateInput["pipeline"]) => {
+    await updateAssociation.mutateAsync({ id: associationId, data: { pipeline } })
   }
 
   const handleSendEmail = async (values: EmailComposerValues) => {
@@ -408,7 +408,7 @@ export default function AssociationsPage() {
                 <thead className="bg-muted/40">
                   <tr>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Val
+                      Kommun
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Förening
@@ -420,13 +420,13 @@ export default function AssociationsPage() {
                       Pipeline
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Kontaktinfo
+                      Kontakter
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Adress
+                      Föreningstyp
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Ansvarig
+                      Taggar
                     </th>
                     <th className="px-4 py-2 text-right text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Åtgärder
@@ -435,76 +435,274 @@ export default function AssociationsPage() {
                 </thead>
                 <tbody className="divide-y divide-border">
                   {associations.map((association) => {
-                    const primaryContact = association.contacts?.[0]
                     const isSelected = selectedIds.has(association.id)
+                    const municipalityLabel = association.municipality ?? "Okänd kommun"
+                    const contacts = association.contacts ?? []
+                    const primaryContact = contacts.find((contact) => contact.isPrimary) ?? contacts[0]
+                    const typeValues = parseStringArray(association.types)
+                    const activityValues = parseStringArray(association.activities)
                     return (
                       <tr key={association.id} className={isSelected ? "bg-primary/5" : undefined}>
-                        <td className="px-4 py-3">
-                          <Checkbox checked={isSelected} onCheckedChange={() => toggleSelection(association.id)} />
-                        </td>
-                        <td className="px-4 py-3">
-                          <div className="font-semibold">{association.name}</div>
-                          <div className="text-xs text-muted-foreground">
-                            {association.municipality ?? "Okänd kommun"}
-                          </div>
-                        </td>
-                        <td className="px-4 py-3">
-                          <Badge variant="secondary">{association.crmStatus}</Badge>
-                        </td>
-                        <td className="px-4 py-3 text-sm text-muted-foreground">{association.pipeline}</td>
-                        <td className="px-4 py-3 text-sm">
-                          <div className="space-y-1">
-                            {association.email && (
-                              <div className="text-xs">{association.email}</div>
-                            )}
-                            {association.phone && (
-                              <div className="text-xs text-muted-foreground">{association.phone}</div>
-                            )}
-                            {!association.email && !association.phone && (
-                              <span className="text-xs text-muted-foreground">Ingen kontaktinfo</span>
-                            )}
-                          </div>
-                        </td>
-                        <td className="px-4 py-3 text-sm">
-                          <div className="space-y-1">
-                            {association.streetAddress && (
-                              <div className="text-xs">{association.streetAddress}</div>
-                            )}
-                            {(association.postalCode || association.city) && (
+                        <td className="px-4 py-3 align-top">
+                          <div className="flex items-start gap-3">
+                            <Checkbox
+                              checked={isSelected}
+                              onCheckedChange={() => toggleSelection(association.id)}
+                              onClick={(event) => event.stopPropagation()}
+                            />
+                            <div>
+                              <div className="font-medium">{municipalityLabel}</div>
                               <div className="text-xs text-muted-foreground">
-                                {association.postalCode} {association.city}
+                                {typeof association._count?.contacts === "number"
+                                  ? `${association._count.contacts} kontakter`
+                                  : ""}
                               </div>
-                            )}
-                            {!association.streetAddress && !association.postalCode && !association.city && (
-                              <span className="text-xs text-muted-foreground">Ingen adress</span>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-4 py-3 align-top">
+                          <button
+                            type="button"
+                            className="text-left font-semibold text-primary hover:underline"
+                            onClick={(event) => {
+                              event.stopPropagation()
+                              setDetailTargetId(association.id)
+                            }}
+                          >
+                            {association.name}
+                          </button>
+                          <div className="mt-1 text-xs text-muted-foreground">
+                            Organisationsnummer: {association.orgNumber ?? "Saknas"}
+                          </div>
+                        </td>
+                        <td className="px-4 py-3 align-top">
+                          <DropdownMenu>
+                            <DropdownMenuTrigger asChild>
+                              <Button
+                                variant="secondary"
+                                size="sm"
+                                className="rounded-full"
+                                onClick={(event) => event.stopPropagation()}
+                              >
+                                {association.crmStatus}
+                              </Button>
+                            </DropdownMenuTrigger>
+                            <DropdownMenuContent align="start">
+                              {CRM_STATUSES.map((status) => (
+                                <DropdownMenuItem
+                                  key={status}
+                                  onSelect={() => handleStatusChange(association.id, status as AssociationUpdateInput["crmStatus"])}
+                                >
+                                  {status}
+                                </DropdownMenuItem>
+                              ))}
+                            </DropdownMenuContent>
+                          </DropdownMenu>
+                        </td>
+                        <td className="px-4 py-3 align-top">
+                          <DropdownMenu>
+                            <DropdownMenuTrigger asChild>
+                              <Button
+                                variant="outline"
+                                size="sm"
+                                className="rounded-full"
+                                onClick={(event) => event.stopPropagation()}
+                              >
+                                {association.pipeline}
+                              </Button>
+                            </DropdownMenuTrigger>
+                            <DropdownMenuContent align="start">
+                              {PIPELINES.map((pipeline) => (
+                                <DropdownMenuItem
+                                  key={pipeline}
+                                  onSelect={() => handlePipelineChange(association.id, pipeline as AssociationUpdateInput["pipeline"])}
+                                >
+                                  {pipeline}
+                                </DropdownMenuItem>
+                              ))}
+                            </DropdownMenuContent>
+                          </DropdownMenu>
+                        </td>
+                        <td className="px-4 py-3 align-top">
+                          <Popover
+                            open={contactPopoverId === association.id}
+                            onOpenChange={(open) => setContactPopoverId(open ? association.id : null)}
+                          >
+                            <PopoverTrigger asChild>
+                              <button
+                                type="button"
+                                className="w-full text-left"
+                                onClick={(event) => {
+                                  event.stopPropagation()
+                                  setContactManagerTarget(association)
+                                }}
+                                onMouseEnter={() => setContactPopoverId(association.id)}
+                                onMouseLeave={() => setContactPopoverId(null)}
+                              >
+                                {primaryContact ? (
+                                  <div className="space-y-1 text-sm">
+                                    <div className="font-medium">{primaryContact.name}</div>
+                                    <div className="text-xs text-muted-foreground">
+                                      {primaryContact.email ?? primaryContact.phone ?? "Ingen kontaktinfo"}
+                                    </div>
+                                  </div>
+                                ) : (
+                                  <div className="text-xs text-muted-foreground">Klicka för att lägga till kontakt</div>
+                                )}
+                              </button>
+                            </PopoverTrigger>
+                            <PopoverContent
+                              align="start"
+                              side="top"
+                              className="w-80 text-left"
+                              onMouseEnter={() => setContactPopoverId(association.id)}
+                              onMouseLeave={() => setContactPopoverId(null)}
+                            >
+                              <div className="space-y-3">
+                                <div className="text-sm font-semibold">Kontaktuppgifter</div>
+                                <div className="space-y-1 text-xs text-muted-foreground">
+                                  {association.streetAddress && <div>{association.streetAddress}</div>}
+                                  {(association.postalCode || association.city) && (
+                                    <div>
+                                      {association.postalCode} {association.city}
+                                    </div>
+                                  )}
+                                  {association.email && <div>E-post: {association.email}</div>}
+                                  {association.phone && <div>Telefon: {association.phone}</div>}
+                                  {!association.streetAddress && !association.email && !association.phone && (
+                                    <div>Ingen adress registrerad</div>
+                                  )}
+                                </div>
+                                <div className="space-y-2">
+                                  {contacts.length ? (
+                                    contacts.map((contact) => (
+                                      <div key={contact.id} className="rounded-md border p-2 text-xs">
+                                        <div className="flex items-center justify-between font-medium">
+                                          <span>{contact.name}</span>
+                                          {contact.isPrimary && <Badge variant="secondary">Primär</Badge>}
+                                        </div>
+                                        {contact.role && <div className="text-muted-foreground">{contact.role}</div>}
+                                        {contact.email && <div>E-post: {contact.email}</div>}
+                                        {contact.phone && <div>Telefon: {contact.phone}</div>}
+                                        {contact.mobile && <div>Mobil: {contact.mobile}</div>}
+                                      </div>
+                                    ))
+                                  ) : (
+                                    <div className="text-xs text-muted-foreground">Inga kontakter registrerade.</div>
+                                  )}
+                                </div>
+                              </div>
+                            </PopoverContent>
+                          </Popover>
+                        </td>
+                        <td className="px-4 py-3 align-top">
+                          <div className="flex flex-wrap gap-1">
+                            {typeValues.length ? (
+                              typeValues.map((value) => (
+                                <Badge key={value} variant="outline">
+                                  {value}
+                                </Badge>
+                              ))
+                            ) : (
+                              <span className="text-xs text-muted-foreground">Saknas</span>
                             )}
                           </div>
                         </td>
-                        <td className="px-4 py-3 text-sm">
-                          {association.assignedTo?.name ?? "Obemannad"}
+                        <td className="px-4 py-3 align-top">
+                          <div className="flex flex-wrap gap-1">
+                            {activityValues.length ? (
+                              activityValues.map((value) => (
+                                <Badge key={value} variant="secondary">
+                                  {value}
+                                </Badge>
+                              ))
+                            ) : (
+                              <span className="text-xs text-muted-foreground">Saknas</span>
+                            )}
+                          </div>
                         </td>
                         <td className="px-4 py-3">
                           <div className="flex justify-end gap-2">
                             <Button
                               size="icon"
                               variant="ghost"
-                              onClick={() => setEditTarget(association)}
+                              title="Redigera förening"
+                              onClick={(event) => {
+                                event.stopPropagation()
+                                setDetailTargetId(association.id)
+                              }}
                             >
                               <Pencil className="h-4 w-4" />
                             </Button>
+                            <Popover
+                              open={contactPopoverId === `${association.id}-action`}
+                              onOpenChange={(open) => setContactPopoverId(open ? `${association.id}-action` : null)}
+                            >
+                              <PopoverTrigger asChild>
+                                <Button
+                                  size="icon"
+                                  variant="ghost"
+                                  title="Visa kontakter"
+                                  onMouseEnter={() => setContactPopoverId(`${association.id}-action`)}
+                                  onMouseLeave={() => setContactPopoverId(null)}
+                                  onClick={(event) => {
+                                    event.stopPropagation()
+                                    setContactManagerTarget(association)
+                                  }}
+                                >
+                                  <UserRound className="h-4 w-4" />
+                                </Button>
+                              </PopoverTrigger>
+                              <PopoverContent
+                                side="top"
+                                align="end"
+                                className="w-72 text-left"
+                                onMouseEnter={() => setContactPopoverId(`${association.id}-action`)}
+                                onMouseLeave={() => setContactPopoverId(null)}
+                              >
+                                <div className="text-xs font-semibold">Kontakter</div>
+                                <div className="mt-2 space-y-2 text-xs text-muted-foreground">
+                                  {contacts.length ? (
+                                    contacts.map((contact) => (
+                                      <div key={contact.id}>
+                                        <div className="font-medium text-foreground">
+                                          {contact.name} {contact.isPrimary ? "(Primär)" : ""}
+                                        </div>
+                                        {contact.email && <div>E-post: {contact.email}</div>}
+                                        {contact.phone && <div>Telefon: {contact.phone}</div>}
+                                        {contact.mobile && <div>Mobil: {contact.mobile}</div>}
+                                      </div>
+                                    ))
+                                  ) : (
+                                    <div>Inga kontakter registrerade.</div>
+                                  )}
+                                </div>
+                              </PopoverContent>
+                            </Popover>
                             <Button
                               size="icon"
                               variant="ghost"
-                              onClick={() => setContactTarget(association)}
+                              title="Skicka e-post"
+                              onClick={(event) => {
+                                event.stopPropagation()
+                                setEmailTarget(association)
+                              }}
                             >
-                              <UserPlus className="h-4 w-4" />
+                              <Mail className="h-4 w-4" />
                             </Button>
                             <Button
                               size="icon"
                               variant="ghost"
-                              onClick={() => setEmailTarget(association)}
+                              title={association.homepageUrl ? "Besök hemsida" : "Ingen hemsida"}
+                              disabled={!association.homepageUrl}
+                              onClick={(event) => {
+                                event.stopPropagation()
+                                if (association.homepageUrl) {
+                                  window.open(association.homepageUrl, "_blank", "noopener,noreferrer")
+                                }
+                              }}
                             >
-                              <Mail className="h-4 w-4" />
+                              <Home className="h-4 w-4" />
                             </Button>
                           </div>
                         </td>
@@ -611,77 +809,28 @@ export default function AssociationsPage() {
         </CardContent>
       </Card>
 
-      {editTarget && (
-        <EditAssociationModal
-          open={!!editTarget}
-          onOpenChange={(open) => (!open ? setEditTarget(null) : undefined)}
-          association={{
-            id: editTarget.id,
-            name: editTarget.name,
-            crmStatus: editTarget.crmStatus,
-            pipeline: editTarget.pipeline,
-            isMember: editTarget.isMember,
-            memberSince: editTarget.memberSince ? new Date(editTarget.memberSince).toISOString() : null,
-            assignedToId: editTarget.assignedToId ?? null,
-            streetAddress: editTarget.streetAddress ?? null,
-            postalCode: editTarget.postalCode ?? null,
-            city: editTarget.city ?? null,
-            email: editTarget.email ?? null,
-            phone: editTarget.phone ?? null,
-            homepageUrl: editTarget.homepageUrl ?? null,
-            activities: Array.isArray(editTarget.activities)
-              ? (editTarget.activities as unknown[]).filter((activity): activity is string => typeof activity === "string")
-              : [],
-            otherInformation:
-              editTarget.extras && typeof editTarget.extras === 'object' && !Array.isArray(editTarget.extras)
-                ? (typeof (editTarget.extras as Record<string, unknown>).otherInformation === 'string'
-                    ? ((editTarget.extras as Record<string, unknown>).otherInformation as string)
-                    : '')
-                : '',
-            descriptionFreeText: editTarget.descriptionFreeText ?? null,
-          }}
-          users={userOptions.map((user) => ({ id: user.value, name: user.label }))}
+      {detailTargetId && (
+        <AssociationDetailModal
+          open={!!detailTargetId}
+          onOpenChange={(open) => (!open ? setDetailTargetId(null) : undefined)}
+          associationId={detailTargetId}
           onSubmit={handleGenerateAssociationUpdate}
           isSubmitting={updateAssociation.isPending}
+          users={userOptions.map((user) => ({ id: user.value, name: user.label }))}
         />
       )}
 
-      {contactTarget && (
-        <AddContactModal
-          open={!!contactTarget}
-          onOpenChange={(open) => (!open ? setContactTarget(null) : undefined)}
-          associationId={contactTarget.id}
-          associationName={contactTarget.name}
-          onSubmit={async (values) => handleCreateContact(values)}
-          isSubmitting={createContact.isPending}
-        />
-      )}
-
-      {contactEditTarget && (
-        <EditContactModal
-          open={!!contactEditTarget}
-          onOpenChange={(open) => (!open ? setContactEditTarget(null) : undefined)}
-          contact={{
-            id: contactEditTarget.contact.id,
-            associationId: contactEditTarget.contact.associationId,
-            name: contactEditTarget.contact.name,
-            role: contactEditTarget.contact.role,
-            email: contactEditTarget.contact.email,
-            phone: contactEditTarget.contact.phone,
-            mobile: contactEditTarget.contact.mobile,
-            linkedinUrl: contactEditTarget.contact.linkedinUrl,
-            facebookUrl: contactEditTarget.contact.facebookUrl,
-            twitterUrl: contactEditTarget.contact.twitterUrl,
-            instagramUrl: contactEditTarget.contact.instagramUrl,
-            isPrimary: contactEditTarget.contact.isPrimary,
-            associationName: contactEditTarget.association.name,
-          }}
-          onSubmit={handleUpdateContact}
-          onDelete={() => handleDeleteContact(contactEditTarget.contact.id)}
-          isSubmitting={updateContact.isPending}
-          isDeleting={deleteContactMutation.isPending}
-        />
-      )}
+      <ManageContactsModal
+        open={!!contactManagerTarget}
+        associationId={contactManagerTarget?.id ?? null}
+        associationName={contactManagerTarget?.name ?? null}
+        onOpenChange={(open) => {
+          if (!open) {
+            setContactManagerTarget(null)
+            setContactPopoverId(null)
+          }
+        }}
+      />
 
       {emailTarget && (
         <SendEmailModal
@@ -689,7 +838,12 @@ export default function AssociationsPage() {
           onOpenChange={(open) => (!open ? setEmailTarget(null) : undefined)}
           associationId={emailTarget.id}
           associationName={emailTarget.name}
-          defaultRecipient={emailTarget.email ?? emailTarget.contacts?.[0]?.email ?? null}
+          defaultRecipient={
+            emailTarget.email ??
+              emailTarget.contacts?.find((contact) => contact.isPrimary)?.email ??
+              emailTarget.contacts?.[0]?.email ??
+              null
+          }
           onSubmit={handleSendEmail}
           isSubmitting={false}
         />

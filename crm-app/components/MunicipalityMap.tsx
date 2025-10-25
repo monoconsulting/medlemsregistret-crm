@@ -36,7 +36,7 @@ export default function MunicipalityMap({ latitude, longitude, municipalityName 
   return (
     <div className="w-full h-full rounded overflow-hidden">
       <MapContainer
-        center={[longitude, latitude]}
+        center={[latitude, longitude]}
         zoom={10}
         className="w-full h-full"
         scrollWheelZoom={false}
@@ -45,7 +45,7 @@ export default function MunicipalityMap({ latitude, longitude, municipalityName 
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[longitude, latitude]} icon={icon}>
+        <Marker position={[latitude, longitude]} icon={icon}>
           <Popup>
             <strong>{municipalityName}</strong>
           </Popup>

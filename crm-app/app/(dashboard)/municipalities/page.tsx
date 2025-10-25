@@ -1,5 +1,6 @@
 "use client"
 
+import dynamic from "next/dynamic"
 import { useMemo, useState } from "react"
 import { Search, Loader2, MapPin, ExternalLink, Save, Edit } from "lucide-react"
 
@@ -23,6 +24,10 @@ import type { Municipality } from "@prisma/client"
 type MunicipalityWithCount = Municipality & {
   _count: { associations: number }
 }
+
+const MunicipalityMap = dynamic(() => import("@/components/MunicipalityMap"), {
+  ssr: false,
+})
 
 export default function MunicipalitiesPage() {
   const [searchTerm, setSearchTerm] = useState("")
@@ -285,18 +290,17 @@ export default function MunicipalitiesPage() {
               <CardHeader>
                 <CardTitle className="text-lg">Karta</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="h-full">
                 {selectedMunicipality.latitude && selectedMunicipality.longitude ? (
-                  <div className="flex aspect-square items-center justify-center rounded-md bg-muted">
-                    <div className="text-center text-sm text-muted-foreground">
-                      <MapPin className="mx-auto mb-2 h-8 w-8" />
-                      <p>Lat: {selectedMunicipality.latitude.toFixed(4)}</p>
-                      <p>Lng: {selectedMunicipality.longitude.toFixed(4)}</p>
-                      <p className="mt-2 text-xs">(Karta kommer här)</p>
-                    </div>
+                  <div className="h-64 w-full">
+                    <MunicipalityMap
+                      latitude={selectedMunicipality.latitude}
+                      longitude={selectedMunicipality.longitude}
+                      municipalityName={selectedMunicipality.name}
+                    />
                   </div>
                 ) : (
-                  <div className="flex aspect-square items-center justify-center rounded-md bg-muted">
+                  <div className="flex h-64 items-center justify-center rounded-md bg-muted">
                     <p className="text-sm text-muted-foreground">Ingen position tillgänglig</p>
                   </div>
                 )}
