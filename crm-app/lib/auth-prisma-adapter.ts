@@ -66,7 +66,6 @@ export function prismaAdapter(client: PrismaAdapterClient = db): Adapter {
           },
         },
       })
-      return account
     },
     async createSession(session) {
       const created = await client.session.create({ data: session })

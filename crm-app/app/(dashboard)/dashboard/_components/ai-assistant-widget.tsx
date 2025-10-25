@@ -54,8 +54,8 @@ export function AIAssistantWidget() {
           <Sparkles className="h-5 w-5 text-primary" />
           <CardTitle>AI-assistent</CardTitle>
         </div>
-        <Button size="sm" onClick={handleAnalyze} disabled={!selectedAssociation || analyze.isLoading}>
-          {analyze.isLoading ? (
+        <Button size="sm" onClick={handleAnalyze} disabled={!selectedAssociation || analyze.isPending}>
+          {analyze.isPending ? (
             <>
               <Loader2 className="mr-2 h-4 w-4 animate-spin" />
               Analyserar…
@@ -88,7 +88,7 @@ export function AIAssistantWidget() {
               <span className="font-medium text-foreground">Status:</span> {selected.crmStatus} • {selected.pipeline}
             </p>
             <p>
-              <span className="font-medium text-foreground">Kontakt:</span> {selected.contacts[0]?.name ?? "Okänd"}
+              <span className="font-medium text-foreground">Kontakt:</span> {(selected as any).contacts?.[0]?.name ?? "Okänd"}
             </p>
           </div>
         )}

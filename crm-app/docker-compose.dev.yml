@@ -1,112 +1,89 @@
+# =====================================================================================
+# WARNING: This docker-compose file is centrally managed. Do NOT modify it without explicit approval.
+# =====================================================================================
 # Docker-compose för DEVELOPMENT miljö
-# Använder volume mounts för hot reload
 
-name: crm-members-dev
+name: ${COMPOSE_PROJECT_NAME_DEV}
 networks:
   crm-network:
+    name: ${CRM_NETWORK_NAME}
     driver: bridge
 
 services:
-  # =========================
-  # MySQL Database
-  # =========================
   mysql:
-    image: mysql:8.0
+    image: ${MYSQL_IMAGE}
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root_password_change_me
-      MYSQL_DATABASE: crm_db
-      MYSQL_USER: crm_user
-      MYSQL_PASSWORD: crm_password
-      TZ: "Europe/Stockholm"
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD_DEV}
+      TZ: "${MYSQL_TIMEZONE}"
     volumes:
       - ./storage/dev/mysql:/var/lib/mysql
     ports:
-      - "${MYSQL_PORT:-3326}:3306"
+      - "${MYSQL_PORT_DEV}:3306"
     networks:
       - crm-network
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}"]
       interval: 10s
       timeout: 5s
       retries: 5
 
-  # =========================
-  # phpMyAdmin
-  # =========================
   phpmyadmin:
     image: phpmyadmin:latest
     restart: always
     environment:
       PMA_HOST: mysql
       PMA_PORT: 3306
-      PMA_USER: crm_user
-      PMA_PASSWORD: crm_password
+      PMA_USER: ${MYSQL_USER}
+      PMA_PASSWORD: ${MYSQL_PASSWORD_DEV}
       UPLOAD_LIMIT: 100M
-      TZ: "Europe/Stockholm"
+      TZ: "${APP_TIMEZONE}"
     ports:
-      - "${PHPMYADMIN_PORT:-8270}:80"
+      - "${PHPMYADMIN_PORT_DEV}:80"
     networks:
       - crm-network
     depends_on:
       mysql:
         condition: service_healthy
 
-  # =========================
-  # Redis (för caching)
-  # =========================
   redis:
-    image: redis:7-alpine
+    image: ${REDIS_IMAGE}
     restart: always
-    command: redis-server --appendonly yes --requirepass redis_dev
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD_DEV}
     volumes:
       - ./storage/dev/redis:/data
     ports:
-      - "${REDIS_PORT:-6279}:6379"
+      - "${REDIS_PORT_DEV}:6379"
     networks:
       - crm-network
     healthcheck:
-      test: ["CMD", "redis-cli", "--no-auth-warning", "-a", "redis_dev", "ping"]
+      test: ["CMD", "redis-cli", "--no-auth-warning", "-a", "${REDIS_PASSWORD_DEV}", "ping"]
       interval: 10s
       timeout: 5s
       retries: 5
 
-  # =========================
-  # Next.js Application (DEV)
-  # =========================
   app:
     build:
       context: .
       dockerfile: Dockerfile.dev
     restart: always
     environment:
-      # Database
-      DATABASE_URL: "mysql://crm_user:crm_password_change_me@mysql:3306/crm_db"
-      
-      # Redis
-      REDIS_URL: "redis://:redis_dev@redis:6379"
-      
-      # App
-      NODE_ENV: "development"
-      NEXT_PUBLIC_APP_URL: "http://localhost:3020
-      
-      # NextAuth
-      NEXTAUTH_URL: "http://localhost:3020
-      NEXTAUTH_SECRET: "dev_secret_change_in_production"
-    
-    # AI Providers (valfritt)
-    # OPENAI_API_KEY: "your-key-here"
-    # ANTHROPIC_API_KEY: "your-key-here"
-    # OLLAMA_HOST: "http://host.docker.internal:11434"
-    
-      TZ: "Europe/Stockholm"
+      DATABASE_URL: "mysql://${MYSQL_USER}:${MYSQL_PASSWORD_DEV}@mysql:3306/${MYSQL_DATABASE}"
+      REDIS_URL: "redis://:${REDIS_PASSWORD_DEV}@redis:6379"
+      NODE_ENV: ${NODE_ENV_DEV}
+      NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL_DEV}
+      NEXTAUTH_URL: ${NEXTAUTH_URL_DEV}
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET_DEV}
+      TZ: "${APP_TIMEZONE}"
     volumes:
-      # Volume mounts för hot reload
       - .:/app
       - /app/node_modules
       - /app/.next
     ports:
-      - "${APP_PORT:-3020}:3000"
+      - "${APP_PORT_DEV}:3000"
     networks:
       - crm-network
     depends_on:
@@ -114,8 +91,8 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
-    # Development server med hot reload
     command: sh -c "npx prisma generate && npx prisma migrate deploy && npm run dev"
+
 volumes:
   mysql_data:
   redis_data:

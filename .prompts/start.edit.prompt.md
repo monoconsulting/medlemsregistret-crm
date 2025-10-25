@@ -7,6 +7,9 @@ Följ dessa steg noggrant:
 4. Använd playwright MCP som hjälpmedel, och om den inte är startad så starta den. 
  
 **Viktiga saker att komma ihåg:** 
-Du ska alltid se igenom den ursprungliga instruktionen innan du börjar koda.
-Du ska alltid se igenom den ursprungliga instruktionen innan du slutar koda och meddelar att du är klar. Har du gjort allt som står i instruktionen?
-Du ska strikt följa de instruktioner du får. Inga egna tolkningar eller ändringar får göras utan att först ha fått godkänt.
+- Du ska **alltid se igenom den ursprungliga instruktionen innan du börjar koda**.
+- Du ska **alltid se igenom den ursprungliga instruktionen innan du slutar koda och meddelar att du är klar**. Har du gjort allt som står i instruktionen?
+- Du ska **strikt följa de instruktioner du får**. Inga egna tolkningar eller ändringar får göras utan att först ha fått godkänt.
+- Du får **aldrig ändra i docker-compose-filer, .env-filer, README-filer eller liknande konfigurationsfiler** utan att först ha fått godkänt. 
+- Du får heller **aldrig ändra i databasstrukturer** utan att först ha fått godkänt.
+

@@ -38,7 +38,7 @@ model Association {
   id                  String               @id @default(cuid())
   sourceSystem        String
   municipalityId      String?
-  municipality        String?
+  municipality        String
   scrapeRunId         String?
   scrapedAt           DateTime
   detailUrl           String?              @unique
@@ -191,6 +191,7 @@ model Activity {
   createdAt     DateTime     @default(now())
 
   association   Association? @relation(fields: [associationId], references: [id], onDelete: Cascade)
+  user          User         @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([associationId, createdAt])
   @@index([userId, createdAt])
@@ -299,6 +300,7 @@ model ImportBatch {
   updatedCount   Int           @default(0)
   skippedCount   Int           @default(0)
   errorCount     Int           @default(0)
+  deletedCount   Int           @default(0)
   status         String
   importMode     String
   errors         Json?

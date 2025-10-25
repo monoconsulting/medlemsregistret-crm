@@ -116,7 +116,11 @@ export default function GroupsPage() {
                         </p>
                       </div>
                       <FormControl>
-                        <Switch checked={field.value} onCheckedChange={field.onChange} />
+                        <Switch
+                          checked={field.value}
+                          onChange={(event) => field.onChange(event.target.checked)}
+                          aria-checked={field.value}
+                        />
                       </FormControl>
                     </FormItem>
                   )}
@@ -126,8 +130,8 @@ export default function GroupsPage() {
                   <Button type="button" variant="outline" onClick={() => setOpen(false)}>
                     Avbryt
                   </Button>
-                  <Button type="submit" disabled={createGroup.isLoading}>
-                    {createGroup.isLoading ? "Skapar…" : "Skapa"}
+                  <Button type="submit" disabled={createGroup.isPending}>
+                    {createGroup.isPending ? "Skapar…" : "Skapa"}
                   </Button>
                 </div>
               </form>

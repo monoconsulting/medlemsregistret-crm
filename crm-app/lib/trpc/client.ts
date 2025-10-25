@@ -9,9 +9,9 @@ function getBaseUrl() {
   return `http://localhost:${process.env.PORT ?? 3000}`
 }
 
-export const trpc = createTRPCReact<AppRouter>()
+export const api = createTRPCReact<AppRouter>()
 
-export const trpcClient = trpc.createClient({
+export const trpcClient = api.createClient({
   links: [
     httpBatchLink({
       url: `${getBaseUrl()}/api/trpc`,
@@ -19,3 +19,6 @@ export const trpcClient = trpc.createClient({
     }),
   ],
 })
+
+// Legacy export for backward compatibility
+export const trpc = api

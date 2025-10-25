@@ -22,13 +22,20 @@ import { EditAssociationModal } from "@/components/modals/edit-association-modal
 import { AddContactModal } from "@/components/modals/add-contact-modal"
 import { EditContactModal } from "@/components/modals/edit-contact-modal"
 import { SendEmailModal } from "@/components/modals/send-email-modal"
-import { trpc } from "@/lib/trpc/client"
+import { api } from "@/lib/trpc/client"
 import { CRM_STATUSES, PIPELINES, type AssociationUpdateInput } from "@/lib/validators/association"
 import type { ContactFormValues, ContactUpdateValues } from "@/lib/validators/contact"
 import type { EmailComposerValues } from "@/lib/validators/email"
 import { toast } from "@/hooks/use-toast"
+import type { Association, Contact, Tag, User, Activity } from "@prisma/client"
 
-type AssociationListItem = NonNullable<ReturnType<typeof trpc.association.list.useQuery>["data"]>["associations"][number]
+type AssociationListItem = Association & {
+  contacts?: Contact[]
+  tags?: Tag[]
+  _count?: { contacts: number; notes: number }
+  assignedTo?: User | null
+  activityLog?: Activity[]
+}
 
 const ACTIVITY_TYPES: MultiSelectOption[] = [
   { label: "Anteckning", value: "NOTE_ADDED" },
@@ -60,7 +67,7 @@ const DEFAULT_FILTERS: AdvancedFilterState = {
 }
 
 export default function AssociationsPage() {
-  const utils = trpc.useUtils()
+  const utils = api.useUtils()
   const [searchTerm, setSearchTerm] = useState("")
   const [filters, setFilters] = useState<AdvancedFilterState>(DEFAULT_FILTERS)
   const [page, setPage] = useState(1)
@@ -107,12 +114,12 @@ export default function AssociationsPage() {
     }
   }, [page, limit, searchTerm, filters, sortBy, sortDirection])
 
-  const associationsQuery = trpc.association.list.useQuery(queryInput, {
-    keepPreviousData: true,
+  const associationsQuery = api.association.list.useQuery(queryInput, {
+    placeholderData: (previousData) => previousData,
   })
-  const tagsQuery = trpc.tags.list.useQuery(undefined, { staleTime: 60_000 })
+  const tagsQuery = api.tags.list.useQuery(undefined, { staleTime: 60_000 })
 
-  const updateAssociation = trpc.association.update.useMutation({
+  const updateAssociation = api.association.update.useMutation({
     onSuccess: () => {
       utils.association.list.invalidate(queryInput)
       toast({ title: "Förening uppdaterad" })
@@ -122,7 +129,7 @@ export default function AssociationsPage() {
     },
   })
 
-  const createContact = trpc.contacts.create.useMutation({
+  const createContact = api.contacts.create.useMutation({
     onSuccess: () => {
       toast({ title: "Kontakt skapad" })
       utils.association.list.invalidate(queryInput)
@@ -130,7 +137,7 @@ export default function AssociationsPage() {
     onError: (error) => toast({ title: "Kunde inte skapa kontakt", description: error.message, variant: "destructive" }),
   })
 
-  const updateContact = trpc.contacts.update.useMutation({
+  const updateContact = api.contacts.update.useMutation({
     onSuccess: () => {
       toast({ title: "Kontakt uppdaterad" })
       utils.association.list.invalidate(queryInput)
@@ -138,7 +145,7 @@ export default function AssociationsPage() {
     onError: (error) => toast({ title: "Kunde inte uppdatera kontakt", description: error.message, variant: "destructive" }),
   })
 
-  const deleteContactMutation = trpc.contacts.delete.useMutation({
+  const deleteContactMutation = api.contacts.delete.useMutation({
     onSuccess: () => {
       toast({ title: "Kontakt borttagen" })
       utils.association.list.invalidate(queryInput)
@@ -146,19 +153,23 @@ export default function AssociationsPage() {
     onError: (error) => toast({ title: "Kunde inte ta bort kontakt", description: error.message, variant: "destructive" }),
   })
 
-  const exportAssociations = trpc.export.associations.useMutation({
+  const exportAssociations = api.export.associations.useMutation({
     onError: (error) => toast({ title: "Exporten misslyckades", description: error.message, variant: "destructive" }),
   })
 
   const data = associationsQuery.data
-  const associations = useMemo(() => data?.associations ?? [], [data?.associations])
+  const associations = useMemo(() => (data?.associations ?? []) as AssociationListItem[], [data?.associations])
   const totalPages = data?.pagination.totalPages ?? 1
 
   const typeOptions: MultiSelectOption[] = useMemo(() => {
     const set = new Set<string>()
     associations.forEach((association) => {
       if (Array.isArray(association.types)) {
-        association.types.forEach((value: string) => set.add(value))
+        association.types.forEach((value) => {
+          if (typeof value === 'string') {
+            set.add(value)
+          }
+        })
       }
     })
     return Array.from(set).sort().map((value) => ({ label: value, value }))
@@ -171,13 +182,13 @@ export default function AssociationsPage() {
   }))
 
   const userOptions: MultiSelectOption[] = useMemo(() => {
-    const seen = new Map<string, string>()
-    associations.forEach((association) => {
+    const seen: Record<string, string> = {}
+    associations.forEach((association: any) => {
       if (association.assignedTo) {
-        seen.set(association.assignedTo.id, association.assignedTo.name ?? "Namnlös")
+        seen[association.assignedTo.id] = association.assignedTo.name ?? "Namnlös"
       }
     })
-    return Array.from(seen.entries()).map(([value, label]) => ({ value, label }))
+    return Object.entries(seen).map(([value, label]) => ({ value, label }))
   }, [associations])
 
   const statusOptions: MultiSelectOption[] = CRM_STATUSES.map((status) => ({ label: status, value: status }))
@@ -282,7 +293,7 @@ export default function AssociationsPage() {
     toast({ title: "E-post skickad", description: `E-post skickad till ${values.to}` })
   }
 
-  const isLoading = associationsQuery.isLoading
+  const isLoading = associationsQuery.isPending
 
   return (
     <div className="space-y-6 p-6">
@@ -409,7 +420,10 @@ export default function AssociationsPage() {
                       Pipeline
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Kontakt
+                      Kontaktinfo
+                    </th>
+                    <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                      Adress
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Ansvarig
@@ -439,25 +453,32 @@ export default function AssociationsPage() {
                         </td>
                         <td className="px-4 py-3 text-sm text-muted-foreground">{association.pipeline}</td>
                         <td className="px-4 py-3 text-sm">
-                          {primaryContact ? (
-                            <div className="flex items-start justify-between gap-2">
-                              <div className="flex flex-col">
-                                <span className="font-medium">{primaryContact.name}</span>
-                                <span className="text-xs text-muted-foreground">{primaryContact.email ?? "Ingen e-post"}</span>
+                          <div className="space-y-1">
+                            {association.email && (
+                              <div className="text-xs">{association.email}</div>
+                            )}
+                            {association.phone && (
+                              <div className="text-xs text-muted-foreground">{association.phone}</div>
+                            )}
+                            {!association.email && !association.phone && (
+                              <span className="text-xs text-muted-foreground">Ingen kontaktinfo</span>
+                            )}
+                          </div>
+                        </td>
+                        <td className="px-4 py-3 text-sm">
+                          <div className="space-y-1">
+                            {association.streetAddress && (
+                              <div className="text-xs">{association.streetAddress}</div>
+                            )}
+                            {(association.postalCode || association.city) && (
+                              <div className="text-xs text-muted-foreground">
+                                {association.postalCode} {association.city}
                               </div>
-                              <Button
-                                size="icon"
-                                variant="ghost"
-                                onClick={() =>
-                                  setContactEditTarget({ association, contact: primaryContact })
-                                }
-                              >
-                                <UserRoundPen className="h-4 w-4" />
-                              </Button>
-                            </div>
-                          ) : (
-                            <span className="text-xs text-muted-foreground">Ingen kontakt</span>
-                          )}
+                            )}
+                            {!association.streetAddress && !association.postalCode && !association.city && (
+                              <span className="text-xs text-muted-foreground">Ingen adress</span>
+                            )}
+                          </div>
                         </td>
                         <td className="px-4 py-3 text-sm">
                           {association.assignedTo?.name ?? "Obemannad"}
@@ -517,21 +538,35 @@ export default function AssociationsPage() {
                           </Badge>
                         ))}
                       </div>
-                      <div className="flex items-start justify-between gap-2 text-sm">
-                        <div className="space-y-1">
-                          <div className="font-medium">{primaryContact?.name ?? "Ingen kontakt"}</div>
-                          <div className="text-xs text-muted-foreground">
-                            {primaryContact?.email ?? "Ingen e-post"}
+                      <div className="space-y-2 text-sm">
+                        {association.email && (
+                          <div className="flex items-center gap-1 text-xs">
+                            <Mail className="h-3 w-3 text-muted-foreground" />
+                            <span>{association.email}</span>
                           </div>
-                        </div>
-                        {primaryContact && (
-                          <Button
-                            size="icon"
-                            variant="ghost"
-                            onClick={() => setContactEditTarget({ association, contact: primaryContact })}
-                          >
-                            <UserRoundPen className="h-4 w-4" />
-                          </Button>
+                        )}
+                        {association.phone && (
+                          <div className="flex items-center gap-1 text-xs">
+                            <span className="text-muted-foreground">📞</span>
+                            <span>{association.phone}</span>
+                          </div>
+                        )}
+                        {association.streetAddress && (
+                          <div className="text-xs text-muted-foreground">
+                            {association.streetAddress}, {association.postalCode} {association.city}
+                          </div>
+                        )}
+                        {association.activities && Array.isArray(association.activities) && association.activities.length > 0 && (
+                          <div className="flex flex-wrap gap-1">
+                            {(association.activities as string[]).slice(0, 2).map((activity, idx) => (
+                              <Badge key={idx} variant="outline" className="text-xs">
+                                {activity}
+                              </Badge>
+                            ))}
+                            {(association.activities as string[]).length > 2 && (
+                              <Badge variant="outline" className="text-xs">+{(association.activities as string[]).length - 2}</Badge>
+                            )}
+                          </div>
                         )}
                       </div>
                       <div className="flex items-center justify-between text-xs text-muted-foreground">

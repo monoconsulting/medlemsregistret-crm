@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
     }
 
     const municipality = await db.municipality.findFirst({
-      where: { name: { equals: municipalityName, mode: 'insensitive' } },
+      where: { name: municipalityName },
       select: { id: true, name: true },
     })
 

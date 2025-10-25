@@ -8,6 +8,7 @@ import { exportRouter } from './export'
 import { aiRouter } from './ai'
 import { taskRouter } from './tasks'
 import { activityRouter } from './activities'
+import { municipalityRouter } from './municipality'
 
 export const appRouter = router({
   association: associationRouter,
@@ -19,6 +20,7 @@ export const appRouter = router({
   ai: aiRouter,
   tasks: taskRouter,
   activities: activityRouter,
+  municipality: municipalityRouter,
 })
 
 export type AppRouter = typeof appRouter

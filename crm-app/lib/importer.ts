@@ -175,6 +175,13 @@ export async function importAssociations(options: ImporterOptions): Promise<Impo
 
       for (const item of flattenedRecords) {
         const record = item.record
+        const recordMunicipality = record.municipality?.trim()
+        if (!recordMunicipality) {
+          throw new ImporterError(
+            `Posten ${record.association.name ?? 'utan namn'} saknar kommunnamn och importen avbryts.`
+          )
+        }
+
         const filename = item.filename
         let resolvedScrapeRunId: string | null = null
         if (record.scrape_run_id) {
@@ -263,18 +270,18 @@ export async function importAssociations(options: ImporterOptions): Promise<Impo
 
     await prisma.importBatch.update({
       where: { id: importBatch.id },
-      data: {
-        status: 'failed',
-        totalRecords: stats.totalRecords,
-        importedCount: stats.importedCount,
-        updatedCount: stats.updatedCount,
-        skippedCount: stats.skippedCount,
-        errorCount: stats.errorCount,
-        deletedCount: stats.deletedCount,
-        errors: stats.errors as Prisma.InputJsonValue,
-        completedAt: new Date(),
-      },
-    })
+        data: {
+          status: 'failed',
+          totalRecords: stats.totalRecords,
+          importedCount: stats.importedCount,
+          updatedCount: stats.updatedCount,
+          skippedCount: stats.skippedCount,
+          errorCount: stats.errorCount,
+          deletedCount: stats.deletedCount,
+          errors: stats.errors as Prisma.InputJsonValue,
+          completedAt: new Date(),
+        },
+      })
 
     throw error
   }
@@ -321,8 +328,8 @@ async function resolveMunicipality(
 
   const normalizedName = options.municipalityName.trim()
 
-  const existingByName = await prisma.municipality.findFirst({
-    where: { name: { equals: normalizedName, mode: 'insensitive' } },
+  const existingByName = await prisma.municipality.findUnique({
+    where: { name: normalizedName },
   })
   if (existingByName) {
     return existingByName
@@ -352,7 +359,7 @@ type AssociationPayload =
 interface NormalizedAssociationData {
   sourceSystem: string
   municipalityId: string
-  municipality: string | null
+  municipality: string
   scrapeRunId: string | null
   scrapedAt: Date
   detailUrl: string | null
@@ -398,6 +405,7 @@ function buildAssociationPayload(
     municipalityId: context.municipalityId,
     municipality: context.municipalityName,
     importBatchId: context.importBatchId,
+    scrapeRunId: context.scrapeRunId ?? null,
     scrapedAt: record.scraped_at ? new Date(record.scraped_at) : new Date(),
     name,
     orgNumber: record.association.org_number ?? null,
@@ -410,17 +418,15 @@ function buildAssociationPayload(
     city: record.association.city ?? null,
     email: record.association.email ?? null,
     phone: record.association.phone ?? null,
-    description: record.association.description ?? null,
+    description: (record.association.description as Prisma.InputJsonValue) ?? null,
     descriptionFreeText: record.association.description?.free_text ?? null,
     listPageIndex: record.source_navigation?.list_page_index ?? null,
     positionOnPage: record.source_navigation?.position_on_page ?? null,
     paginationModel: record.source_navigation?.pagination_model ?? null,
-    filterState: record.source_navigation?.filter_state ?? null,
-    extras: record.extras ?? null,
+    filterState: (record.source_navigation?.filter_state as Prisma.InputJsonValue) ?? null,
+    extras: (record.extras as Prisma.InputJsonValue) ?? null,
     detailUrl,
   }
-
-  data.scrapeRunId = context.scrapeRunId ?? null
 
   const contacts = (record.contacts ?? [])
     .filter((contact) => contact.contact_person_name?.trim())

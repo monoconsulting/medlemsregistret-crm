@@ -10,4 +10,6 @@ const handler = (req: Request) =>
     createContext: () => createTRPCContext({ headers: req.headers, req }),
   })
 
+export const runtime = 'nodejs'
+
 export { handler as GET, handler as POST }

@@ -6,7 +6,7 @@ import { auth } from '@/lib/auth'
 
 // Context for tRPC
 export const createTRPCContext = async (opts: { headers: Headers; req: Request }) => {
-  const session = await auth(opts.req)
+  const session = await auth()
   return {
     db,
     session,

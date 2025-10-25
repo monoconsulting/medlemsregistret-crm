@@ -128,9 +128,9 @@ export function SendEmailModal({
                 type="button"
                 variant="outline"
                 onClick={() => handleGenerateDraft(form.watch('tone'))}
-                disabled={aiDraft.isLoading}
+                disabled={aiDraft.isPending}
               >
-                {aiDraft.isLoading ? 'Genererar utkast…' : 'Generera AI-utkast'}
+                {aiDraft.isPending ? 'Genererar utkast…' : 'Generera AI-utkast'}
               </Button>
             </div>
 

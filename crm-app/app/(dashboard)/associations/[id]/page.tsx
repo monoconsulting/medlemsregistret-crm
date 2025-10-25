@@ -21,10 +21,11 @@ const formatDate = (date: Date | null | undefined) =>
 export default async function AssociationDetailPage({
   params,
 }: {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }) {
+  const { id } = await params
   const association = await db.association.findUnique({
-    where: { id: params.id },
+    where: { id },
     include: {
       contacts: true,
       notes: {

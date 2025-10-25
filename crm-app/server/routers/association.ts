@@ -15,6 +15,7 @@ export const associationRouter = router({
         limit: z.number().min(1).max(100).default(20),
         search: z.string().optional(),
         municipality: z.string().optional(),
+        municipalityId: z.string().optional(),
         crmStatuses: z.array(z.string()).optional(),
         pipelines: z.array(z.string()).optional(),
         types: z.array(z.string()).optional(),
@@ -49,6 +50,7 @@ export const associationRouter = router({
         limit,
         search,
         municipality,
+        municipalityId,
         crmStatuses,
         pipelines,
         types,
@@ -114,6 +116,10 @@ export const associationRouter = router({
 
       if (municipality) {
         where.municipality = municipality
+      }
+
+      if (municipalityId) {
+        where.municipalityId = municipalityId
       }
 
       if (crmStatuses?.length) {
@@ -235,11 +241,7 @@ export const associationRouter = router({
           orderBy:
             sortBy === 'recentActivity'
               ? {
-                  activityLog: {
-                    _max: {
-                      createdAt: sortDirection,
-                    },
-                  },
+                  updatedAt: sortDirection,
                 }
               : { [sortBy]: sortDirection },
         }),
@@ -317,8 +319,8 @@ export const associationRouter = router({
       contacted,
       interested,
       conversionRate,
-      topMunicipalities: municipalities.map((m: { municipalityId: string; _count: number }) => ({
-        name: m.municipalityId,
+      topMunicipalities: municipalities.map((m: { municipalityId: string | null; _count: number }) => ({
+        name: m.municipalityId ?? 'Okänd',
         count: m._count,
       })),
     }
@@ -576,7 +578,7 @@ export const associationRouter = router({
       return { labels, series }
     }),
 
-  getMunicipalityStats: protectedProcedure
+  getMunicipalityStats: publicProcedure
     .input(
       z
         .object({
@@ -591,7 +593,7 @@ export const associationRouter = router({
         _count: true,
         where: input?.search
           ? {
-              municipality: { contains: input.search, mode: 'insensitive' },
+              municipality: { contains: input.search },
             }
           : undefined,
         orderBy: {
@@ -604,7 +606,7 @@ export const associationRouter = router({
 
       return municipalities.map((m) => ({
         name: m.municipality,
-        count: m._count,
+        count: Number(m._count ?? 0),
       }))
     }),
 })

@@ -41,7 +41,7 @@ export default function MunicipalitiesPage() {
   return (
     <div className="flex h-full flex-col lg:flex-row">
       <div className="flex h-96 flex-1 items-center justify-center bg-muted/40 p-6 lg:h-auto">
-        {statsQuery.isLoading ? (
+        {statsQuery.isPending ? (
           <p className="text-sm text-muted-foreground">Laddar karta…</p>
         ) : (
           <div className="w-full max-w-lg">
