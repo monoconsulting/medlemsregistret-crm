@@ -25,7 +25,7 @@ export default function MunicipalityMap({ latitude, longitude, municipalityName 
 
   useEffect(() => {
     if (mapRef.current) {
-      mapRef.current.setView([latitude, longitude], 10)
+      mapRef.current.setView([latitude, longitude], 6)
     }
   }, [latitude, longitude])
 
@@ -34,7 +34,7 @@ export default function MunicipalityMap({ latitude, longitude, municipalityName 
   return (
     <MapContainer
       center={position}
-      zoom={10}
+      zoom={6}
       className="h-full w-full"
       scrollWheelZoom={false}
       ref={mapRef}

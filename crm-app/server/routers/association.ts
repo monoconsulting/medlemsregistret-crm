@@ -301,13 +301,17 @@ export const associationRouter = router({
       interested,
       municipalities,
     ] = await Promise.all([
-      ctx.db.association.count(),
-      ctx.db.association.count({ where: { isMember: true } }),
-      ctx.db.association.count({ where: { crmStatus: 'CONTACTED' } }),
-      ctx.db.association.count({ where: { crmStatus: 'INTERESTED' } }),
+      ctx.db.association.count({ where: { isDeleted: false } }),
+      ctx.db.association.count({ where: { isMember: true, isDeleted: false } }),
+      ctx.db.association.count({ where: { crmStatus: 'CONTACTED', isDeleted: false } }),
+      ctx.db.association.count({ where: { crmStatus: 'INTERESTED', isDeleted: false } }),
       ctx.db.association.groupBy({
         by: ['municipalityId'],
         _count: true,
+        where: {
+          municipalityId: { not: null },
+          isDeleted: false,
+        },
         orderBy: {
           _count: {
             municipalityId: 'desc',
@@ -316,6 +320,22 @@ export const associationRouter = router({
         take: 5,
       }),
     ])
+
+    // Get municipality names for the top municipalities
+    const municipalityIds = municipalities.map(m => m.municipalityId).filter((id): id is string => id !== null)
+    const municipalityRecords = await ctx.db.municipality.findMany({
+      where: {
+        id: { in: municipalityIds },
+      },
+      select: {
+        id: true,
+        name: true,
+      },
+    })
+
+    const municipalityNameMap = new Map(
+      municipalityRecords.map(m => [m.id, m.name])
+    )
 
     const conversionRate = total > 0 ? ((members / total) * 100).toFixed(1) : '0.0'
 
@@ -326,7 +346,7 @@ export const associationRouter = router({
       interested,
       conversionRate,
       topMunicipalities: municipalities.map((m: { municipalityId: string | null; _count: number }) => ({
-        name: m.municipalityId ?? 'Okänd',
+        name: municipalityNameMap.get(m.municipalityId!) ?? 'Okänd',
         count: m._count,
       })),
     }
