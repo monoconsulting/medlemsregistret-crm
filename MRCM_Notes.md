@@ -1,67 +1,177 @@
 # MCRM - NOTES
 
-## Sidlayout
-
-### Kommunöversikt
-
-Fördelning: Vänster kolumn 80%, Höger kolumn 20&
-
-Vänster kolumn;: Tabell med följande kolumner
-
-* Kommun: Municipality.name 
-
-* Kommunkod - Municipality.code
-* Län - Municipality.county
-* Länskod - Municipality.countyCode
-* Region - Municipality.region
-* Landskap - Municipality.province
-* Importstatus - Municipality.registerStatus
-* Befolkning - Municipality.population
-* Hemsida - Municipality.homepage OBS! SAKNAS! Importera detta från filen /temp/Foreningar3.csv. Skapa även schema.
-* Plattform - Municipality.platform
-
-**Höger kolumn:**
-
-* Redigerbara detaljer om kommun. Vid redigering uppdateras tabellen. Nedan ska vara redigerbart:
-  * Population
-  * Kommunens föreningsregister (länk) Municipality.registerUrl
-* Karta som visar position
 
 
+Läs AGENTS.md.
+
+Skapa först en featurebranch för detta. Därefter:
+
+Vi behöver skapa ett nytt skript för hantering av
+
+Följande korrigeringar behöver göras:
+
+## Municipalities - Kommunöversikt
+
+1. Om man klickar på kommun så vill jag att man hoppar över till "Föreningar" och där endast visar det som tillhör aktuell kommun.
+2. Byt plats på longitud och latitud i kartan nu är alla i havet
 
 ### Föreningar
 
-* Kolumn 1 ska vara kommunen de tillhör. 
+* Ingenting fungerar i sök och filtersektionen. Jättebra och snyggt - men inget alls fungerar. 
 
-* Kolumn 2 - behåll "Förening" - men den ska vara klickbara och öppna modal för redigering
+* Lägg till val 10, 25, 50 eller 100 föreningar per sida
 
-* Kolumn 3 - behåll "Status" -  men gör denna badge klickbar så att den öppnar en dropdown med befintliga statusar
+* Nästa sida fungerar inte - det är samma sida hela tiden. Till slut blir det fel och den säger sidan 12/1 inga föreningar finns
 
-* Kolumn 4 - behåll "Pipeline" - men gör denna badge klickbar så att den öppnar en dropdown med befintliga alternativ
+* Tabellerna behöver indexeras
 
-  Kolumn 5 - behåll. Klickbar - ska öppna upp redigeringsmodal med enbart kontaktuppgifter. Man ska här kunna lägga till fler kontakter. Det ska finnas en primär kontakt
+* 
 
-  Ta bort kolumn adress, ta bort kolumn ansvarig
+  #### Huvudmodalen i föreningar (när man klickar på föreningsnamnet)
 
-  Kolumn 6 - NY KOLUMN - Föreningstyp - Association.types
+* Inga fält kan redigeras i modalen
 
-  Kolumn 7 - NY KOLUMN - Taggar - Association.activities
+* Lägg till all information från Association.description. Se till att det presenteras i tabellform
 
-  Vi behöver ha de taggar som finns listade per förening
+*  Lägg till all information från Association.extras. Se till att det presenteras i tabellform
 
-* Vid klick på föreningsnamnet (i bold) så ska stor modal öppnas för redigering 80% av skärmyta centrerad
+* Lägg till descriptionFreeText 
 
-  * Alla uppgifter som finns i tabellen Association ska skrivas ut här. Var noga med att göra tabeller av multitabellskolumnerna. 
-  * Det ska stå vilken kommun föreningen tillhör
-  * Längst ner ska man kunna skriva noteringar med timestamp som sparas på den aktuella föreningen
+* Status och pipeline ska se ut exakt som i tabellen på huvudsidan för föreningar. Man klickar och väljer.
 
-* On mouse over på penna "Redigera förening" - peka till samma modul som länken i "Förening" pekar till. 
+* 
 
-* On mouse over på personen "Kontakter" - ska visa föreningens kontaktadresser, organisationsnummer, samt kontaktpersoner med fulla uppgifter
 
-* On mouse over på email - "Skicka epost" öppnar formulär för epost till de kontaktadresser som finns för föreningen
 
-* SKAPA NY IKON MED LITET HUS - skickar vidare till föreningens hemsida
+Nu:
+
+Kommunsida: 
+
+Karta. Centrera kommunen mitt i bilden vid start, och zooma ut
+
+
+
+
+
+## Förningssida
+
+### Modal
+
+- Modal för liten - Metadata sticker ut
+- Modal: Metadata - ta bort blocket helt och skapa istället en länk till en logg där allt som skett kan läsas
+- Modal: Tasks: Lägg till i modalen möjlighet att skapa tasks
+- Modal: Grupper: Lägg möjlighet att lägga till i en eller flera grupper. Ska gå från både tabellen och modalen.
+- Modal: Ta bort rutan metadata. Skapa istället en ny sida där alla händelser som finns är registrerade på ett smart sätt från import till framåt. Kan man ha yttterligare en modal så ska vi ha det. 
+- 
+- Import städer fyrställigt
+- Källsystem
+- Description saknas helt
+- founded_year - Bildad år
+- verksamhet_raw - Taggar
+- short_description - Kort beskrivning
+- fiscal_year_starts: år startar
+- free_text: Fritext
+- mobile: mobiltelefon
+- Ta bort detaljsida och lägg primär kontakt där under istället.
+
+## Ska redigeras:
+
+Organisationsnummer
+
+Email - finns i tabellen men saknas i listan
+
+Primär kontakt
+
+Adress
+
+Taggar - här ska man kunna söka i taggtabellen med json och lägga till hur många som helst
+
+Aktiviteter - slå ihop med taggar
+
+
+
+
+
+### Ytterligare information
+
+| Fält                  | Värde         |
+| :-------------------- | :------------ |
+| api_id                | 313           |
+| mobile                | 070-213 10 88 |
+| district_names        | Färila        |
+| occupations_raw       |               |
+| leisure_activity_card | false         |
+
+
+
+Skickat till Codex
+
+* ```
+  ## Sidlayout
+  
+  ### Kommunöversikt
+  
+  Fördelning: Vänster kolumn 80%, Höger kolumn 20&
+  
+  Vänster kolumn;: Tabell med följande kolumner
+  
+  * Kommun: Municipality.name 
+  
+  * Kommunkod - Municipality.code
+  * Län - Municipality.county
+  * Länskod - Municipality.countyCode
+  * Region - Municipality.region
+  * Landskap - Municipality.province
+  * Importstatus - Municipality.registerStatus
+  * Befolkning - Municipality.population
+  * Hemsida - Municipality.homepage OBS! SAKNAS! Importera detta från filen /temp/Foreningar3.csv. Skapa även schema.
+  * Plattform - Municipality.platform
+  
+  **Höger kolumn:**
+  
+  * Redigerbara detaljer om kommun. Vid redigering uppdateras tabellen. Nedan ska vara redigerbart:
+    * Population
+    * Kommunens föreningsregister (länk) Municipality.registerUrl
+  * Karta som visar position
+  
+  
+  
+  ### Föreningar
+  
+  * Kolumn 1 ska vara kommunen de tillhör. 
+  
+  * Kolumn 2 - behåll "Förening" - men den ska vara klickbara och öppna modal för redigering
+  
+  * Kolumn 3 - behåll "Status" -  men gör denna badge klickbar så att den öppnar en dropdown med befintliga statusar
+  
+  * Kolumn 4 - behåll "Pipeline" - men gör denna badge klickbar så att den öppnar en dropdown med befintliga alternativ
+  
+    Kolumn 5 - behåll. Klickbar - ska öppna upp redigeringsmodal med enbart kontaktuppgifter. Man ska här kunna lägga till fler kontakter. Det ska finnas en primär kontakt
+  
+    Ta bort kolumn adress, ta bort kolumn ansvarig
+  
+    Kolumn 6 - NY KOLUMN - Föreningstyp - Association.types
+  
+    Kolumn 7 - NY KOLUMN - Taggar - Association.activities
+  
+    Vi behöver ha de taggar som finns listade per förening
+  
+  * Vid klick på föreningsnamnet (i bold) så ska stor modal öppnas för redigering 80% av skärmyta centrerad
+  
+    * Alla uppgifter som finns i tabellen Association ska skrivas ut här. Var noga med att göra tabeller av multitabellskolumnerna. 
+    * Det ska stå vilken kommun föreningen tillhör
+    * Längst ner ska man kunna skriva noteringar med timestamp som sparas på den aktuella föreningen
+  
+  * On mouse over på penna "Redigera förening" - peka till samma modul som länken i "Förening" pekar till. 
+  
+  * On mouse over på personen "Kontakter" - ska visa föreningens kontaktadresser, organisationsnummer, samt kontaktpersoner med fulla uppgifter
+  
+  * On mouse over på email - "Skicka epost" öppnar formulär för epost till de kontaktadresser som finns för föreningen
+  
+  * SKAPA NY IKON MED LITET HUS - skickar vidare till föreningens hemsida
+  ```
+
+  
 
 
 
@@ -83,6 +193,14 @@ Actions:
 # ÖNSKELISTA
 
 Sätt larm för viss aktivitet
+
+Epost
+
+Epostadresser måste hanteras.
+
+Footer måste kunna sättas in
+
+
 
 
 
