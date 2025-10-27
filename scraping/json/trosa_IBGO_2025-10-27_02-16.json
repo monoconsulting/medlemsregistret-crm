@@ -1,0 +1,3701 @@
+[
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1691",
+      "name": "ABF Sörmland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [
+        "Västerljung"
+      ],
+      "homepage_url": "https://www.abf.se/distrikt--avdelningar/abf-sodermanland/abf-sormland/",
+      "street_address": "Kungsgatan 14",
+      "postal_code": "63219",
+      "city": "Eskilstuna",
+      "email": "carina.alander@abf.se",
+      "phone": "0766450603",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Studieverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 0,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1691,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1762",
+      "name": "Art See Ocean Gallery",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.artseeocean.com/",
+      "street_address": "Nynäs Sandvik1",
+      "postal_code": "61995",
+      "city": "Västerljung",
+      "email": "artseeocean@hotmail.com",
+      "phone": "0709-450058",
+      "description": {
+        "free_text": "Art See Ocean Gallery & Artist Residence  - en naturlig mötesplats för människor, konst, natur och kultur",
+        "sections": []
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 1,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1762,
+      "leisure_activity_card": false,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/5350",
+      "name": "Banan Outdoor",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Motion",
+        "Friskvård"
+      ],
+      "categories": [],
+      "homepage_url": "https://bananoutdoor.com",
+      "street_address": "Ejdergatan 6",
+      "postal_code": "61932",
+      "city": "Trosa",
+      "email": "info@bananoutdoor.com",
+      "phone": "0703440833",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motion"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Friskvård"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 2,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 5350,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3942",
+      "name": "Dansa Salsa",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Motion",
+        "Dans",
+        "Fest",
+        "Kultur",
+        "Konsert",
+        "Musik",
+        "Utflykter",
+        "Arrangemang"
+      ],
+      "categories": [],
+      "homepage_url": "https://dansasalsa.n.nu",
+      "street_address": "Timmermansgatan 14",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "dansasalsa@gmx.com",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen Dansa Salsa i Trosa är öppen för alla och ideell, politiskt och religiöst obunden och har till ändamål att dela med sig av karibisk kultur (dans, musik, konst, språk, litteratur, historia, mat mm). \r\n\r\nVi ordnar danskurser, fester, dansresor och andra aktiviteter för att skapa en glädjefylld samvaro mellan olika människor och för att främja vänskap, skoj och socialt utbyte. \r\n\r\nFölj oss gärna på Facebook: \r\n\r\nhttps://www.facebook.com/DansaSalsaVIP",
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motion"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Fest"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Konsert"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Musik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Utflykter"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Arrangemang"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 3,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3942,
+      "leisure_activity_card": false,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1682",
+      "name": "Delblancsällskapet",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Litterärt sällskap"
+      ],
+      "categories": [
+        "Trosa",
+        "Vagnhärad",
+        "Västerljung"
+      ],
+      "homepage_url": "http://www.delblancsallskapet.se/",
+      "street_address": "Västra Ågatan 75",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "ovepettersson405@gmail.com",
+      "phone": "0708164668",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Litterärt sällskap"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              },
+              {
+                "key": "Område",
+                "value": "Vagnhärad"
+              },
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "ove pettersson",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "ovepettersson405@gmail.com",
+        "contact_person_phone": "0708164668"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 4,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1682,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3198",
+      "name": "Enklaresport Running Club",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Biblioteksvägen 6",
+      "postal_code": "61971",
+      "city": "Vagnhärad",
+      "email": "info@enklaresport.se",
+      "phone": "0703162666",
+      "description": {
+        "free_text": "Löparklubben som är öppen för alla!",
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Friidrott"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders  Neselius",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "ah.neselius@gmail.com",
+        "contact_person_phone": "0706181534"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 5,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3198,
+      "leisure_activity_card": false,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3851",
+      "name": "Folkuniversitetet kursverksamhet vid Stockholms Universitet",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Anna Wahlbäck Jensen ",
+      "postal_code": "15171",
+      "city": "Södertälje",
+      "email": "anna.wahlback-jensen@folkuniversitetet.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Studieverksamhet"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 6,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3851,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1644",
+      "name": "Friskis & Svettis",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Motion",
+        "Gymnastik"
+      ],
+      "categories": [
+        "Vagnhärad"
+      ],
+      "homepage_url": "http://www.friskissvettis.se/trosa",
+      "street_address": "Nya Industrivägen 3",
+      "postal_code": "61971",
+      "city": "Vagnhärad",
+      "email": "kontakt@trosafriskis.se",
+      "phone": "0705928139",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motion"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vagnhärad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maritha Neiberg Karlsson",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "maritha.neiberg.karlsson@telia.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": "Lena Karlsson lexell",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "lena.karlssonma@gmail.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": "Nicoline Kinch",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": "Gun Haraldsson",
+        "contact_person_role": "Revisor",
+        "contact_person_email": "gunsan.haraldsson@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 7,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1644,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1725",
+      "name": "Föreningen Sörmlandsleden",
+      "org_number": null,
+      "types": [
+        "Övrig förening/Org."
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.sormlandsleden.se/",
+      "street_address": "Box 45",
+      "postal_code": "61321",
+      "city": "Oxelösund",
+      "email": "kansliet@sormlandsleden.se",
+      "phone": "015535564",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 8,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1725,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1764",
+      "name": "Hedeby vävstuga",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Handarbete",
+        "Textilslöjd"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Borgargatan 6",
+      "postal_code": "61935",
+      "city": "Trosa",
+      "email": "christina.ender01@gmail.com",
+      "phone": "0707512543",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Handarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Textilslöjd"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 9,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1764,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3624",
+      "name": "Korpen Södertälje Trosa",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Friskvård"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.korpensodertalje.se",
+      "street_address": "Isbjörnsvägen 17",
+      "postal_code": "15254",
+      "city": "Södertälje",
+      "email": "info@korpensodertalje.se",
+      "phone": "0855039440",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Friskvård"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 10,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3624,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3000",
+      "name": "Lions Club Trosa",
+      "org_number": null,
+      "types": [
+        "Pensionärsorganisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.lionstrosa.se",
+      "street_address": "Smäckbrogatan 25",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "info@lionstrosa.se",
+      "phone": "0708985711",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agneta Flock",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "agneta.flock@telia.com",
+        "contact_person_phone": "0703090319"
+      },
+      {
+        "contact_person_name": "Louise  Gernandt",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "louise.gernandt@telia.com",
+        "contact_person_phone": "070-6772741"
+      },
+      {
+        "contact_person_name": "Ann Larson",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "ann.larson@telia.com",
+        "contact_person_phone": "070 6623704"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 11,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3000,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/994",
+      "name": "Munskänkarna Trosa",
+      "org_number": null,
+      "types": [
+        "Övrig förening/Org."
+      ],
+      "activities": [],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "https://www.munskankarna.se/trosa",
+      "street_address": "Persögatan 13",
+      "postal_code": "61931",
+      "city": "TROSA",
+      "email": "lena.gernandt@bahnhof.se",
+      "phone": "0704156821",
+      "description": {
+        "free_text": "Munskänkarna är en ideell förening med närmare 30 000 medlemmar i Sverige, men finns också i svenskbygder utomlands. Föreningens syfte är att öka medlemmarnas kunskap om vin samt att verka för goda och måttfulla dryckesseder. \r\nI Trosasektionen är vi ca 160 medlemmar. Våra aktiviteter är vinprovningar och vinkurser. \r\n",
+        "sections": [
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena Gernandt",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "lena.gernandt@bahnhof.se",
+        "contact_person_phone": "0704156821"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 12,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 994,
+      "leisure_activity_card": false,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3727",
+      "name": "Naturskyddsföreningen Trosabygden",
+      "org_number": null,
+      "types": [
+        "Övrig förening/Org."
+      ],
+      "activities": [
+        "Utflykter"
+      ],
+      "categories": [],
+      "homepage_url": "https://trosa.naturskyddsforeningen.se",
+      "street_address": "Algots väg 3",
+      "postal_code": "61973",
+      "city": "Vagnhärad",
+      "email": "trosa@naturskyddsforeningen.se",
+      "phone": "070-5539300",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Utflykter"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 13,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3727,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3776",
+      "name": "NBV Öst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Kultur",
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.nbv.se/ost",
+      "street_address": "Klara Södra kyrkogata 20",
+      "postal_code": "11152",
+      "city": "Stockholm",
+      "email": "ost@nbv.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Studieverksamhet"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas Olli",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "thomas.olli@nbv.se",
+        "contact_person_phone": "070-778 27 92"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 14,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3776,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1685",
+      "name": "PRO Trosa-Vagnhärad-Västerljung",
+      "org_number": null,
+      "types": [
+        "Pensionärsorganisation"
+      ],
+      "activities": [
+        "Handarbete",
+        "Studieverksamhet",
+        "Boule",
+        "Möten"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "https://www.pro.se/trosa",
+      "street_address": "Smäckbrogatan 27",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "pro.trosa@gmail.com",
+      "phone": "0156-12497",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Handarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Studieverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Boule"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Möten"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agnetha Andersson",
+        "contact_person_role": "Revisor",
+        "contact_person_email": "agnetha163@hotmail.com",
+        "contact_person_phone": "070-2975629"
+      },
+      {
+        "contact_person_name": "Monica Lundquist",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "monica.lundquist@telia.com",
+        "contact_person_phone": "0706925443"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 15,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1685,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1721",
+      "name": "Reumatikerföreningen Östra Sörmland",
+      "org_number": null,
+      "types": [
+        "Handikapporganisation"
+      ],
+      "activities": [
+        "Handikappmotion",
+        "Studieverksamhet"
+      ],
+      "categories": [
+        "Västerljung"
+      ],
+      "homepage_url": "http://os.reumatiker.se",
+      "street_address": "Repslagaregatan 43 A",
+      "postal_code": "61132",
+      "city": "Nyköping",
+      "email": "ostrasormland@reumatiker.se",
+      "phone": "070-5410702",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Handikappmotion"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Studieverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 16,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1721,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3781",
+      "name": "Sensus Svealand",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.sensus.se",
+      "street_address": "Lagerkvistgatan 2",
+      "postal_code": "63346",
+      "city": "Eskilstuna",
+      "email": "therese.johnson@sensus.se",
+      "phone": "016153840",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Studieverksamhet"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 17,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3781,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1763",
+      "name": "Sparkstar",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Dans",
+        "Kultur",
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": "http://trosasommarteater.se/",
+      "street_address": "Dalgränd  6",
+      "postal_code": "12130",
+      "city": "ENSKEDEDALEN ",
+      "email": "trosasommarteater@gmail.com",
+      "phone": "073-5678 268",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Teater"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 18,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1763,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1683",
+      "name": "SPF Seniorerna Trosa",
+      "org_number": null,
+      "types": [
+        "Pensionärsorganisation"
+      ],
+      "activities": [
+        "Möten",
+        "Bridge",
+        "Friskvård",
+        "Studieverksamhet",
+        "Textilslöjd",
+        "Utflykter"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/trosa",
+      "street_address": "Smäckbrogatan 27",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "spfseniorerna.trosa@gmail.com",
+      "phone": "0705644738",
+      "description": {
+        "free_text": "Seniorverksamhet; social samvaro, föreläsningar, omfattande friskvård ( vattengymnastik, simning, gymnastik, vandringar, stavgång med träning, yoga, linedance, boule, fall träning, gåfotboll, parkour), Canasta, matlagning, släktforskning, Café Livslust, Pubkvällar, vinprovningar, litteraturcirklar  mm",
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Möten"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bridge"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Friskvård"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Studieverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Textilslöjd"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Utflykter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Margareta Wallin",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "margareta.wallin@gmail.com",
+        "contact_person_phone": "0705644738"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 19,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1683,
+      "leisure_activity_card": false,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3725",
+      "name": "Studiefrämjandet Mälardalen",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.studieframjandet.se/",
+      "street_address": "Brunnsgatan 5",
+      "postal_code": "61132",
+      "city": "NYKÖPING",
+      "email": "oscar.mander@studieframjandet.se",
+      "phone": "016-159334",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 20,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3725,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3863",
+      "name": "Studieförbundet Vuxenskolan",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [
+        "Trosa",
+        "Vagnhärad",
+        "Västerljung"
+      ],
+      "homepage_url": "https://www.sv.se/sormland",
+      "street_address": "Eskilsgatan 20",
+      "postal_code": "63356",
+      "city": "Eskilstuna",
+      "email": "sormland@sv.se",
+      "phone": "0101992330",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Studieverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              },
+              {
+                "key": "Område",
+                "value": "Vagnhärad"
+              },
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 21,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3863,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1638",
+      "name": "Trosa  Frisksportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Innebandy",
+        "Friskvård",
+        "Kanot",
+        "Simning",
+        "Trampolin",
+        "Volleyboll"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "http://www.frisksport.se/trosa",
+      "street_address": "Stensunds FHS",
+      "postal_code": "61991",
+      "city": "Trosa",
+      "email": "trosa@frisksport.se",
+      "phone": "0707992088",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Friskvård"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kanot"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Simning"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Trampolin"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Volleyboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 22,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1638,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1636",
+      "name": "Trosa Alpina klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Alpint"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "http://trosabacken.outby.se",
+      "street_address": "Svartviksvägen 30",
+      "postal_code": "61931",
+      "city": "Trosa",
+      "email": "trosabacken@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Alpint"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus Scherp",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "trosabacken@gmail.com",
+        "contact_person_phone": "0709586698"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 23,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1636,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1633",
+      "name": "Trosa Amatörfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Fiskeorganisation"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": null,
+      "street_address": "Mejselgränd 10",
+      "postal_code": "61933",
+      "city": "Trosa",
+      "email": "ordforande@trosaafk.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas Pettersson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "ordforande@trosaafk.se",
+        "contact_person_phone": "0702186392"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 24,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1633,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1756",
+      "name": "Trosa Atletik Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Motion"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Bråtagatan 8",
+      "postal_code": "61933",
+      "city": "Trosa",
+      "email": "trosaatletik@skrotnissarna.se",
+      "phone": "0703797946",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jennifer Eriksson",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "jennifer@skrotnissarna.se",
+        "contact_person_phone": "0707299685"
+      },
+      {
+        "contact_person_name": "Håkan Öberg",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "hakan@skrotnissarna.se",
+        "contact_person_phone": "0707315499"
+      },
+      {
+        "contact_person_name": "Marcus Papinniemi",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "marcus@skrotnissarna.e",
+        "contact_person_phone": "0705448119"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 25,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1756,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1757",
+      "name": "Trosa Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [
+        "Trosa",
+        "Vagnhärad",
+        "Västerljung"
+      ],
+      "homepage_url": "https://www.laget.se/trosabmk",
+      "street_address": "Betesgången 2",
+      "postal_code": "61933",
+      "city": "Trosa",
+      "email": "kontakt@trosabmk.se",
+      "phone": "0722126366",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Badminton"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              },
+              {
+                "key": "Område",
+                "value": "Vagnhärad"
+              },
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 26,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1757,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1617",
+      "name": "Trosa Boulesällskap",
+      "org_number": null,
+      "types": [
+        "Pensionärsorganisation"
+      ],
+      "activities": [],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "https://www.trosaboule.com",
+      "street_address": "Viktoriagatan 4",
+      "postal_code": "61935",
+      "city": "Trosa",
+      "email": "leif.alkerstedt@hotmail.com",
+      "phone": "0736741770",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 27,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1617,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/4158",
+      "name": "Trosa Bridgesällskap",
+      "org_number": null,
+      "types": [
+        "Övrig förening/Org."
+      ],
+      "activities": [
+        "Bridge"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskbridge.se/trosa-bs",
+      "street_address": "Norra Sundsvägen 7",
+      "postal_code": "61994",
+      "city": "Trosa",
+      "email": "trosabs@live.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bridge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 28,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 4158,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/5218",
+      "name": "Trosa Dagfilmstudio",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Filmvisning"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "https://trosabio.se/trosa-dagfilmstudio/",
+      "street_address": "Skärlagsgatan 42 C 1 tr",
+      "postal_code": "61930",
+      "city": "Trosa",
+      "email": "dagfilm@trosabio.info",
+      "phone": "070-930 0100",
+      "description": {
+        "free_text": "Trosa Dagfilmstudio är en ideell förening med syfte att främja intresset för film genom arrangerade filmvisningar.\r\nFöreningen är ansluten till Sveriges Förenade Filmstudios.\r\nFöreningens säte är Trosa.\r\nMedlem i föreningen är den som betalt medlemsavgift.\r\nMedlemsavgift erläggs genom köp av medlemskort.\r\nMedlemskort är personligt och får inte överlåtas.\r\nTillträde till föreningens filmvisningar har medlem som uppvisar medlemskort.",
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Filmvisning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 29,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 5218,
+      "leisure_activity_card": false,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1649",
+      "name": "Trosa Edanö IBK",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "http://www.trosaedano.se/",
+      "street_address": "Box 18",
+      "postal_code": "61902",
+      "city": "Vagnhärad",
+      "email": "trosa.edano@outlook.com",
+      "phone": "0708715550",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Heidi  Wester",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "heidi.m.wester@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 30,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1649,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/2948",
+      "name": "Trosa Flygklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Flygsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.trosaflygklubb.se",
+      "street_address": "Tureholms gård",
+      "postal_code": "61992",
+      "city": "TROSA",
+      "email": "henric.endoff@agenda-bd.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Flygsport"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 31,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2948,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1748",
+      "name": "Trosa Folketshusförening upa",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.trosafolketshusforening.se/",
+      "street_address": "Smäckbrogatan 25",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "info@trosafolketshusforening.se",
+      "phone": "015612162",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 32,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1748,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1675",
+      "name": "Trosa Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Hembygdsvård"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "https://www.hembygd.se/trosa",
+      "street_address": "Västra långgatan 14",
+      "postal_code": "61935",
+      "city": "Trosa",
+      "email": "trosahembygdsforening@gmail.com",
+      "phone": "0709370200",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsvård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 33,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1675,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1674",
+      "name": "Trosa Kammarmusikförening",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Västerljung"
+      ],
+      "homepage_url": "http://kammarmusiktrosa.se",
+      "street_address": "Grangatan 3",
+      "postal_code": "61935",
+      "city": "Trosa",
+      "email": "eva.karlstrom@gmail.com",
+      "phone": "0708169264",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Musik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Margit Webjörn",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "margit@webjorn.se",
+        "contact_person_phone": "070-7512657"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 34,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1674,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/5178",
+      "name": "Trosa lottakår",
+      "org_number": null,
+      "types": [
+        "Övrig förening/Org."
+      ],
+      "activities": [
+        "Hjälparbete"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalottakaren.se/lottakarer/trosa-lottakar",
+      "street_address": "Landsortsgatan 6",
+      "postal_code": "61931",
+      "city": "Trosa",
+      "email": "tlottakar@gmail.com",
+      "phone": "0704227200",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hjälparbete"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 35,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 5178,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1767",
+      "name": "Trosa Racketklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "http://www.trosaracketklubb.se",
+      "street_address": "Industrigatan 15",
+      "postal_code": "61933",
+      "city": "Trosa",
+      "email": "kansli@trosaracketklubb.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 36,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1767,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1639",
+      "name": "Trosa Ridsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "https://www.laget.se/TrosaRS",
+      "street_address": "Tureholms Gård",
+      "postal_code": "61992",
+      "city": "Trosa",
+      "email": "trosars@gmail.com",
+      "phone": "070-6081569",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ridsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann Heimdahl",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "annheimdahl69@gmail.com",
+        "contact_person_phone": "070-6081569"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 37,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1639,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1680",
+      "name": "Trosa Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Kultur",
+        "Konsert",
+        "Teater",
+        "Arrangemang"
+      ],
+      "categories": [
+        "Trosa",
+        "Vagnhärad",
+        "Västerljung"
+      ],
+      "homepage_url": "https://www.riksteatern.se/trosa",
+      "street_address": "Västra Långgatan 24",
+      "postal_code": "61935",
+      "city": "Trosa",
+      "email": "kerstin.akerlund56@gmail.com",
+      "phone": "0702693870",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Konsert"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Teater"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Arrangemang"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              },
+              {
+                "key": "Område",
+                "value": "Vagnhärad"
+              },
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstin Åkerlund",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "kerstin.akerlund56@gmail.com",
+        "contact_person_phone": "0702693870"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 38,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1680,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1731",
+      "name": "Trosa Rotaryklubb",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://portal.clubrunner.ca/15601/",
+      "street_address": "Åda Backar 32",
+      "postal_code": "61991",
+      "city": "Trosa",
+      "email": "lars.jonsson57@outlook.com",
+      "phone": "0705421842",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 39,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1731,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1753",
+      "name": "Trosa Scoutkår",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "https://trosascoutkar.se/",
+      "street_address": "Byggvägen 5F",
+      "postal_code": "61933",
+      "city": "Trosa",
+      "email": "hej@trosascoutkar.se",
+      "phone": "0767639636",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 40,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1753,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1895",
+      "name": "Trosa Stadsmusikkår",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Ankargatan 5",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "lewis.palmer@talk21.com",
+      "phone": "07358510310",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 41,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1895,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1646",
+      "name": "Trosa Taekwondo Förening",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "http://www.trosatkd.se",
+      "street_address": "Vitalisgatan 6",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "info@trosatkd.se",
+      "phone": "0704761499",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars Wiberg",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "larwib@gmail.com",
+        "contact_person_phone": "0704761499"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 42,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1646,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3704",
+      "name": "Trosa Truppgymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/TrosaTGF",
+      "street_address": "Jungmansgatan 12",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "info@trosatruppgymnastik.se",
+      "phone": "0727191150",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 43,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3704,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3701",
+      "name": "Trosa Vagnhärad Discgolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Motion"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Emils Lund 13 E",
+      "postal_code": "61992",
+      "city": "Trosa",
+      "email": "tvdiscgolfklubb@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 44,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3701,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1686",
+      "name": "Trosa Vagnhärads Finska Förening",
+      "org_number": null,
+      "types": [
+        "Pensionärsorganisation"
+      ],
+      "activities": [],
+      "categories": [
+        "Vagnhärad"
+      ],
+      "homepage_url": null,
+      "street_address": "Lånesta gård",
+      "postal_code": "61971",
+      "city": "Vagnhärad",
+      "email": "lanestagard@gmail.com",
+      "phone": "0703232902",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eira Lavio",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "eira.lavio@gmail.com",
+        "contact_person_phone": "0705551832"
+      },
+      {
+        "contact_person_name": "Tiina Alpua",
+        "contact_person_role": "Revisor",
+        "contact_person_email": "ari-tiina@hotmail.com",
+        "contact_person_phone": "0707656785"
+      },
+      {
+        "contact_person_name": "Jouko Koivisto",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "jouko.koivisto@telia.com",
+        "contact_person_phone": "0739847159"
+      },
+      {
+        "contact_person_name": "Tom Kukkonen",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "tomkukkonen@gmail.com",
+        "contact_person_phone": "0703232902"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 45,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1686,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1681",
+      "name": "Trosabygdens Konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Västerljung"
+      ],
+      "homepage_url": "http://www.trosabygdens.konstforeningar.se",
+      "street_address": "Väsbyvägen 42",
+      "postal_code": "61972",
+      "city": "Vagnhärad",
+      "email": "ordf@trosabygdenskonstforening.se",
+      "phone": "0733561223",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 46,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1681,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1641",
+      "name": "Trosabygdens OK orientering",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Friidrott",
+        "Cykel",
+        "Längdskidåkning",
+        "Löpning",
+        "Orientering",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Västerljung"
+      ],
+      "homepage_url": "https://tbok.se",
+      "street_address": "Herberts väg 4",
+      "postal_code": "61973",
+      "city": "Vagnhärad",
+      "email": "info@tbok.se",
+      "phone": "070-4974725",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Friidrott"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Cykel"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Längdskidåkning"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Löpning"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Orientering"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 47,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1641,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1755",
+      "name": "Trosabygdens simförening",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [],
+      "categories": [
+        "Trosa",
+        "Vagnhärad",
+        "Västerljung"
+      ],
+      "homepage_url": "https://www.laget.se/TBSS",
+      "street_address": "Väsby Ängsväg 22A ",
+      "postal_code": "61972",
+      "city": "Vagnhärad",
+      "email": "info@tbss.nu",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 48,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1755,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1768",
+      "name": "Trosabygdens trädgårdssällskap",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.trosatradgard.se/",
+      "street_address": "Aromavägen 18",
+      "postal_code": "61991",
+      "city": "Trosa",
+      "email": "info@trosatradgard.se",
+      "phone": "0705335448",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulla Andersson",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "086514548@telia.com",
+        "contact_person_phone": "070-531 6888"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 49,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1768,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1679",
+      "name": "Trosakören",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Körsång"
+      ],
+      "categories": [
+        "Vagnhärad"
+      ],
+      "homepage_url": null,
+      "street_address": "Vitalisgatan 4",
+      "postal_code": "61931",
+      "city": "Trosa",
+      "email": "guettlerkristina@gmail.com",
+      "phone": "073-3323106",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Körsång"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vagnhärad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena Andersson",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "lenakristina21@hotmail.com",
+        "contact_person_phone": "070-5766733"
+      },
+      {
+        "contact_person_name": "Kristina Guettler",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "guettlerkristina@gmail.com",
+        "contact_person_phone": "073-3323106"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 50,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1679,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3525",
+      "name": "TrosaRevyn 2.0",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [
+        "Trosa"
+      ],
+      "homepage_url": "http://www.trosarevyn.com",
+      "street_address": "Åda Lökholmen 3",
+      "postal_code": "61991",
+      "city": "Trosa",
+      "email": "info@trosarevyn.com",
+      "phone": "070-8591805",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Teater"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trosa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 51,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3525,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1758",
+      "name": "Trosa-Vagnhärad Kampförening",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [],
+      "categories": [
+        "Trosa",
+        "Vagnhärad",
+        "Västerljung"
+      ],
+      "homepage_url": "https://www.funfighters.se/",
+      "street_address": "Nya Industrivägen 3",
+      "postal_code": "61971",
+      "city": "Vagnhärad",
+      "email": "tvkf@funfighters.se",
+      "phone": "070-6662485",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ewelina Thille",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "ewelina@funfighters.se",
+        "contact_person_phone": "070-5115263"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 52,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1758,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1759",
+      "name": "Trosa-Vagnhärads Skyttegille",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [],
+      "categories": [
+        "Trosa",
+        "Vagnhärad"
+      ],
+      "homepage_url": "https://www.svenskalag.se/trosavagnharadsg",
+      "street_address": "Granitvägen 2",
+      "postal_code": "61934",
+      "city": "Trosa",
+      "email": "skyttehassel@gmail.com",
+      "phone": "070-9201992",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans  Ekman",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": "Anders Hasselgren",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 53,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1759,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/3388",
+      "name": "Tureholms slottsteaters förening",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Kultur",
+        "Konsert",
+        "Musik",
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Tunaby Källberget",
+      "postal_code": "61995",
+      "city": "Västerljung",
+      "email": "gunnar.karin.lundqvist@outlook.com",
+      "phone": "+46767632323",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Konsert"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Musik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Teater"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 54,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3388,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1750",
+      "name": "TV Klotet Bowling",
+      "org_number": null,
+      "types": [
+        "Pensionärsorganisation"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Fågelögatan 5",
+      "postal_code": "61932",
+      "city": "Trosa",
+      "email": "panilssontrosa@gmail.com",
+      "phone": "0705433176",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bowling"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 55,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1750,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1651",
+      "name": "TV-klotet Boule",
+      "org_number": null,
+      "types": [
+        "Pensionärsorganisation"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [
+        "Vagnhärad"
+      ],
+      "homepage_url": null,
+      "street_address": "Fänsåkersvägen 9 B",
+      "postal_code": "61973",
+      "city": "Vagnhärad",
+      "email": "tv.klotet.boule@gmail.com",
+      "phone": "0761181140",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Boule"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vagnhärad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anita Persson",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "52ansanita@gmail.com",
+        "contact_person_phone": "076-118 11 40"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 56,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1651,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1643",
+      "name": "TVSK TROSA-VAGNHÄRADS SPORTKLUBB",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Friidrott",
+        "Basket",
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.trosavagnharadsk.se",
+      "street_address": "Häradsvallen",
+      "postal_code": "61994",
+      "city": "Vagnhärad",
+      "email": "kansli@trosavagnharadsk.se",
+      "phone": "0737401162",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Friidrott"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Basket"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 57,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1643,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1754",
+      "name": "Vagnhärad Scoutkår",
+      "org_number": null,
+      "types": [
+        "Övrig förening/Org."
+      ],
+      "activities": [],
+      "categories": [
+        "Vagnhärad"
+      ],
+      "homepage_url": null,
+      "street_address": "Länsmansvägen 22",
+      "postal_code": "61972",
+      "city": "Vagnhärad",
+      "email": "bror.karlsson41@gmail.com",
+      "phone": "070-331 66 56",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 58,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1754,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1676",
+      "name": "Vagnhärads Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Möten",
+        "Fest",
+        "Hembygdsvård",
+        "Lokalhållare"
+      ],
+      "categories": [
+        "Vagnhärad"
+      ],
+      "homepage_url": "http://www.hembygd.se/sodermanland/vagnharad",
+      "street_address": "Hunga Norrgård",
+      "postal_code": "61992",
+      "city": "Trosa",
+      "email": "hbf.trostorp@gmail.com",
+      "phone": "0705375995",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Möten"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Fest"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsvård"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Lokalhållare"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vagnhärad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 59,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1676,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1640",
+      "name": "Västerljung VIF",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Västerljung"
+      ],
+      "homepage_url": "http://www.vasterljungsif.se/",
+      "street_address": "Sörbåtsvägen 2",
+      "postal_code": "61995",
+      "city": "Västerljung",
+      "email": "vasterljungsif.1927@gmail.com",
+      "phone": "0767894109",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 60,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1640,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1677",
+      "name": "Västerljungs Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturorganisation"
+      ],
+      "activities": [
+        "Hembygdsvård"
+      ],
+      "categories": [
+        "Västerljung"
+      ],
+      "homepage_url": "https://www.hembygd.se/vasterljung",
+      "street_address": "Lillväsby  ",
+      "postal_code": "61972",
+      "city": "Vagnhärad",
+      "email": "vasterljungshbf@gmail.com",
+      "phone": "0722523420",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsvård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Västerljung"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik Brandtberg",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "erik.brandtberg2@gmail.com",
+        "contact_person_phone": "072-2523420"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 61,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1677,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Trosa",
+    "scrape_run_id": "43c07a5c-52cb-40b0-b14c-507a1045358c",
+    "scraped_at": "2025-10-27T01:16:21.996Z",
+    "association": {
+      "detail_url": "https://trosa.ibgo.se/#/association/1635",
+      "name": "Åda Golf o Country Club",
+      "org_number": null,
+      "types": [
+        "Idrottsorganisation"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Vagnhärad"
+      ],
+      "homepage_url": "http://www.adagolf.se/",
+      "street_address": "Åda Säteri",
+      "postal_code": "61991",
+      "city": "Trosa",
+      "email": "lena.ivarsdotter@gmail.com",
+      "phone": "0768523075",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Golf"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vagnhärad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 62,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1635,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  }
+]

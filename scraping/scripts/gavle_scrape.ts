@@ -12,6 +12,10 @@ import { chromium, Browser, Page } from 'playwright';
 import { v4 as uuidv4 } from 'uuid';
 import * as fs from 'fs';
 import * as path from 'path';
+import { getScrapingPaths } from '../utils/scraper-base';
+import { createLogger } from '../utils/scraper-base';
+import { sanitizeForValidation } from '../utils/sanitize';
+import { runDatabaseImport } from '../utils/import-fixtures';
 
 // ========== TYPE DEFINITIONS ==========
 
@@ -69,13 +73,14 @@ interface ScraperStats {
 
 // ========== CONFIGURATION ==========
 
+const paths = getScrapingPaths();
 const CONFIG = {
   baseUrl: 'https://fri.gavle.se/forening/',
   municipality: 'Gävle',
   sourceSystem: 'FRI',
   paginationModel: 'numeric_plus_next_last',
-  outputDir: 'scraping/out',
-  logFile: 'scraping/gavle.log',
+  outputDir: paths.jsonDir,
+  logFile: path.join(paths.logsDir, `gavle_log_${new Date().toISOString().substring(0, 10)}.log`),
   retryAttempts: 2,
   minDelay: 200,
   maxDelay: 600,
@@ -84,28 +89,7 @@ const CONFIG = {
 
 // ========== LOGGING ==========
 
-class Logger {
-  private logEntries: string[] = [];
-
-  log(message: string): void {
-    const timestamp = new Date().toISOString();
-    const entry = `[${timestamp}] ${message}`;
-    console.log(entry);
-    this.logEntries.push(entry);
-  }
-
-  error(message: string, error?: any): void {
-    const timestamp = new Date().toISOString();
-    const errorMsg = error ? `${message}: ${error.message || error}` : message;
-    const entry = `[${timestamp}] ERROR: ${errorMsg}`;
-    console.error(entry);
-    this.logEntries.push(entry);
-  }
-
-  saveToFile(filePath: string): void {
-    fs.writeFileSync(filePath, this.logEntries.join('\n'), 'utf-8');
-  }
-}
+const logger = createLogger(CONFIG.logFile);
 
 // ========== UTILITIES ==========
 
@@ -154,14 +138,12 @@ function ensureDirectoryExists(dirPath: string): void {
 class GavleScraper {
   private browser: Browser | null = null;
   private page: Page | null = null;
-  private logger: Logger;
   private scrapeRunId: string;
   private scrapedAt: string;
   private records: AssociationRecord[] = [];
   private stats: ScraperStats;
 
   constructor() {
-    this.logger = new Logger();
     this.scrapeRunId = uuidv4();
     this.scrapedAt = new Date().toISOString();
     this.stats = {
@@ -175,20 +157,20 @@ class GavleScraper {
   }
 
   async initialize(): Promise<void> {
-    this.logger.log('Initializing browser and page...');
-    this.browser = await chromium.launch({ headless: false });
+    logger.info('Initializing browser and page...');
+    this.browser = await chromium.launch({ headless: true });
     const context = await this.browser.newContext({
       viewport: CONFIG.viewport,
     });
     this.page = await context.newPage();
-    this.logger.log('Browser initialized successfully');
+    logger.info('Browser initialized successfully');
   }
 
   async scrape(): Promise<void> {
     if (!this.page) throw new Error('Page not initialized');
 
-    this.logger.log(`Starting scrape for ${CONFIG.municipality} (${CONFIG.sourceSystem})`);
-    this.logger.log(`Scrape run ID: ${this.scrapeRunId}`);
+    logger.info(`Starting scrape for ${CONFIG.municipality} (${CONFIG.sourceSystem})`);
+    logger.info(`Scrape run ID: ${this.scrapeRunId}`);
 
     await this.page.goto(CONFIG.baseUrl);
     await this.page.waitForLoadState('networkidle');
@@ -198,14 +180,14 @@ class GavleScraper {
     let hasNextPage = true;
 
     while (hasNextPage) {
-      this.logger.log(`Processing page ${pageIndex}...`);
+      logger.info(`Processing page ${pageIndex}...`);
 
       const listRows = await this.collectListRows();
-      this.logger.log(`Found ${listRows.length} associations on page ${pageIndex}`);
+      logger.info(`Found ${listRows.length} associations on page ${pageIndex}`);
 
       for (let i = 0; i < listRows.length; i++) {
         const row = listRows[i];
-        this.logger.log(`  [${pageIndex}:${i}] Processing: ${row.name}`);
+        logger.info(`  [${pageIndex}:${i}] Processing: ${row.name}`);
 
         const record = await this.processAssociation(row, pageIndex, i);
         if (record) {
@@ -224,7 +206,7 @@ class GavleScraper {
       }
     }
 
-    this.logger.log('Scraping completed!');
+    logger.info('Scraping completed!');
     this.logStats();
   }
 
@@ -269,11 +251,11 @@ class GavleScraper {
             homepage: homepage ? new URL(homepage, CONFIG.baseUrl).href : null,
           });
         } catch (error) {
-          this.logger.error('Failed to extract row data', error);
+          logger.error('Failed to extract row data', error);
         }
       }
     } catch (error) {
-      this.logger.error('Failed to collect list rows', error);
+      logger.error('Failed to collect list rows', error);
     }
 
     return rows;
@@ -334,7 +316,7 @@ class GavleScraper {
         return record;
       } catch (error) {
         attempt++;
-        this.logger.error(
+        logger.error(
           `Failed to process ${row.name} (attempt ${attempt}/${CONFIG.retryAttempts})`,
           error
         );
@@ -455,7 +437,7 @@ class GavleScraper {
         }
       }
     } catch (error) {
-      this.logger.error('Failed to extract detail page data', error);
+      logger.error('Failed to extract detail page data', error);
     }
 
     return result;
@@ -476,7 +458,7 @@ class GavleScraper {
       }).catch(() => true);
 
       if (isDisabled) {
-        this.logger.log('Next button is disabled - reached last page');
+        logger.info('Next button is disabled - reached last page');
         return false;
       }
 
@@ -486,7 +468,7 @@ class GavleScraper {
 
       return true;
     } catch (error) {
-      this.logger.log('No Next button found - reached last page');
+      logger.info('No Next button found - reached last page');
       return false;
     }
   }
@@ -509,13 +491,13 @@ class GavleScraper {
   }
 
   private logStats(): void {
-    this.logger.log('=== SCRAPE STATISTICS ===');
-    this.logger.log(`Total associations scraped: ${this.stats.totalAssociations}`);
-    this.logger.log(`Total pages processed: ${this.stats.totalPages}`);
-    this.logger.log(`Missing org_number: ${this.stats.missingOrgNumber}`);
-    this.logger.log(`Missing contacts: ${this.stats.missingContacts}`);
-    this.logger.log(`Distinct homepage domains: ${this.stats.homepageDomains.size}`);
-    this.logger.log(`Homepage domains: ${Array.from(this.stats.homepageDomains).join(', ')}`);
+    logger.info('=== SCRAPE STATISTICS ===');
+    logger.info(`Total associations scraped: ${this.stats.totalAssociations}`);
+    logger.info(`Total pages processed: ${this.stats.totalPages}`);
+    logger.info(`Missing org_number: ${this.stats.missingOrgNumber}`);
+    logger.info(`Missing contacts: ${this.stats.missingContacts}`);
+    logger.info(`Distinct homepage domains: ${this.stats.homepageDomains.size}`);
+    logger.info(`Homepage domains: ${Array.from(this.stats.homepageDomains).join(', ')}`);
   }
 
   async saveResults(): Promise<void> {
@@ -530,26 +512,32 @@ class GavleScraper {
       `${CONFIG.municipality.toLowerCase()}_associations_${this.scrapeRunId}.json`
     );
 
+    // Sanitize the data
+    logger.info('Starting data sanitization...');
+    const sanitizedRecords = await sanitizeForValidation(this.records);
+    logger.info(`Sanitization complete. Processed ${sanitizedRecords.length} records.`);
+
     // Write JSONL
-    this.logger.log(`Writing JSONL to ${jsonlPath}...`);
-    const jsonlContent = this.records.map((r) => JSON.stringify(r)).join('\n');
+    logger.info(`Writing JSONL to ${jsonlPath}...`);
+    const jsonlContent = sanitizedRecords.map((r) => JSON.stringify(r)).join('\n');
     fs.writeFileSync(jsonlPath, jsonlContent, 'utf-8');
 
     // Write pretty JSON
-    this.logger.log(`Writing JSON to ${jsonPath}...`);
-    fs.writeFileSync(jsonPath, JSON.stringify(this.records, null, 2), 'utf-8');
+    logger.info(`Writing JSON to ${jsonPath}...`);
+    fs.writeFileSync(jsonPath, JSON.stringify(sanitizedRecords, null, 2), 'utf-8');
 
-    // Save log file
-    this.logger.log(`Saving log to ${CONFIG.logFile}...`);
-    this.logger.saveToFile(CONFIG.logFile);
+    // Import to database
+    logger.info('Starting database import...');
+    await runDatabaseImport(jsonPath);
+    logger.info('Database import complete.');
 
-    this.logger.log('All files saved successfully!');
+    logger.info('All files saved successfully!');
   }
 
   async close(): Promise<void> {
     if (this.browser) {
       await this.browser.close();
-      this.logger.log('Browser closed');
+      logger.info('Browser closed');
     }
   }
 }

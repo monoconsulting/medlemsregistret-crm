@@ -1,0 +1,4961 @@
+[
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Active Divers Club",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Dykning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.activedivers.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=ADC",
+      "street_address": "Severin Cavallinsgatan 16D",
+      "postal_code": "235 35",
+      "city": "VELLINGE",
+      "email": "active.divers97@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1997",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Sportdykarförbundet",
+              "verksamhet_raw": "Dykning",
+              "short_description": "Är du redo att utmana dina sinnen?Ett andetag, sedan dyker du. Svävandes viktlös genom vattnet, allt är tyst och det enda du behöver göra är att lyssna på din kropp.Upptäck hur din kropp anpassas till vattenvärlden och hur dina dyk blir längre och längre. Kroppen är nämligen anpassad för att vistas under vatten till viss del.\" Active divers är en fridykarklubb i Löddeköpinge för både unga och gamla. Välkommen!"
+            }
+          }
+        ],
+        "free_text": "Är du redo att utmana dina sinnen?Ett andetag, sedan dyker du. Svävandes viktlös genom vattnet, allt är tyst och det enda du behöver göra är att lyssna på din kropp.Upptäck hur din kropp anpassas till vattenvärlden och hur dina dyk blir längre och längre. Kroppen är nämligen anpassad för att vistas under vatten till viss del.\" Active divers är en fridykarklubb i Löddeköpinge för både unga och gamla. Välkommen!"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats mårtensson",
+        "contact_person_role": null,
+        "contact_person_email": "active.divers97@gmail.com",
+        "contact_person_phone": "+46702981350"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0702981350"
+      },
+      "founded_year": 1997,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Sportdykarförbundet",
+      "verksamhet_raw": "Dykning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Aktiv Ungdom Zwing It",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Dans",
+        "Sång"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.zwingit.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SWING+IT",
+      "street_address": "Sommarbovägen 8",
+      "postal_code": "246 32",
+      "city": "Löddeköpinge",
+      "email": "info@zwingit.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1991",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Aktiv Ungdom",
+              "verksamhet_raw": "Dans, Sång",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Alexandra laufer",
+        "contact_person_role": null,
+        "contact_person_email": "info@zwingit.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1991,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Aktiv Ungdom",
+      "verksamhet_raw": "Dans, Sång"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Barsebäcks Folkdanslag",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.barsebacksfolkdanslag.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=BFDL",
+      "street_address": "Domherrevägen 11",
+      "postal_code": "246 32",
+      "city": "Löddeköpinge",
+      "email": "rubmalmstrom@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Folkdansringen",
+              "verksamhet_raw": "Dans",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rolf malmström",
+        "contact_person_role": null,
+        "contact_person_email": "rubmalmstrom@telia.com",
+        "contact_person_phone": "+46706272071"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0706-272071"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Folkdansringen",
+      "verksamhet_raw": "Dans"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Bordtennisklubb Kävlinge",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.btkkavlinge.com/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=BTKK",
+      "street_address": "Bruksgatan 24 B",
+      "postal_code": "244 30",
+      "city": "Kävlinge",
+      "email": "b.israelsson@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1975",
+              "fiscal_year_starts_mmdd": "0501",
+              "national_affiliation": "Svenska Bordtennisförbundet",
+              "verksamhet_raw": "Bordtennis",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt israelsson",
+        "contact_person_role": null,
+        "contact_person_email": "b.israelsson@telia.com",
+        "contact_person_phone": "+46730286855"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "046-73 42 22",
+        "work": "",
+        "mobile": "0730-28 68 55"
+      },
+      "founded_year": 1975,
+      "fiscal_year_start": "0501",
+      "national_affiliation": "Svenska Bordtennisförbundet",
+      "verksamhet_raw": "Bordtennis"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Bowlingklubben Lödde",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bklodde.com/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=BKL",
+      "street_address": "Spelmansvägen 12",
+      "postal_code": "244 66",
+      "city": "Furulund",
+      "email": "loddebk@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0601",
+              "national_affiliation": "Svenska Bowlingförbundet",
+              "verksamhet_raw": "Bowling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "loddebk@gmail.com",
+        "contact_person_phone": "+46706755024"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0706755024"
+      },
+      "fiscal_year_start": "0601",
+      "national_affiliation": "Svenska Bowlingförbundet",
+      "verksamhet_raw": "Bowling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Dagstorp-Lilla Harrie Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skytte",
+        "Skyttesport"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/dagstorplillaharriesf",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=DLHSF",
+      "street_address": "Ölandsgatan 7",
+      "postal_code": "244 32",
+      "city": "Kävlinge",
+      "email": "anna@lofvander.net",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1900",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Skyttesportförbundet",
+              "verksamhet_raw": "Skytte, Skyttesport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna löfvander",
+        "contact_person_role": null,
+        "contact_person_email": "anna@lofvander.net",
+        "contact_person_phone": "+46725772863"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0725-772863",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1900,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Skyttesportförbundet",
+      "verksamhet_raw": "Skytte, Skyttesport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Dagstorpsortens Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.dagstorp.nu/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=DRF",
+      "street_address": "Grand Prixvägen",
+      "postal_code": "246 50",
+      "city": "Löddeköpinge",
+      "email": "info@dagstorp.nu",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Ridsportförbundet",
+              "verksamhet_raw": "Ridsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna pålsson",
+        "contact_person_role": null,
+        "contact_person_email": "annap@dagstorp.nu",
+        "contact_person_phone": "+46707282827"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-7282827"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Ridsportförbundet",
+      "verksamhet_raw": "Ridsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Dösjebro Scoutkår",
+      "org_number": null,
+      "types": [
+        "Scoutkårer"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": "http://dosjebro.scout.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=DSK",
+      "street_address": "Solrosgatan 8",
+      "postal_code": "242 34",
+      "city": "Hörby",
+      "email": "lennart.hansson51@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1957",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Scouterna",
+              "verksamhet_raw": "Scouting",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart hansson",
+        "contact_person_role": null,
+        "contact_person_email": "dosjebro@hotmail.com",
+        "contact_person_phone": "+46727400723"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0415-133 72",
+        "work": "",
+        "mobile": "0727-400723"
+      },
+      "founded_year": 1957,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Scouterna",
+      "verksamhet_raw": "Scouting"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Dösjöbro Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.dosjobroif.com/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=DIF",
+      "street_address": "Björnstorpsvägen 11",
+      "postal_code": "244 71",
+      "city": "Dösjebro",
+      "email": "info@dosjobroif.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1938",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Fotbollsförbundet",
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mårten ekemohn",
+        "contact_person_role": null,
+        "contact_person_email": "marten.ekemohn@energifabriken.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1938,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Fotbollsförbundet",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Equmenia Furulund",
+      "org_number": null,
+      "types": [
+        "Scoutkårer"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.equmeniafurulund.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SMU",
+      "street_address": "Parkgatan 5",
+      "postal_code": "244 62",
+      "city": "Furulund",
+      "email": "info@equmeniafurulund.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Scouterna",
+              "verksamhet_raw": "Scouting",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "David höst",
+        "contact_person_role": null,
+        "contact_person_email": "darih@hotmail.se",
+        "contact_person_phone": "+46705316373"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0705-31 63 73"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Scouterna",
+      "verksamhet_raw": "Scouting"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Folkuniversitetet",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Folkbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.folkuniversitetet.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=FOLK",
+      "street_address": "Box 2116",
+      "postal_code": "220 02",
+      "city": "Lund",
+      "email": "charlott.johansson@folkuniversitetet.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Folkbildning",
+              "short_description": "Folkuniversitetet är ett studieförbund, en idéburen organisation, som är fristående från partipolitiska, religiösa, fackliga och kommersiella särintressen. Organisationen växte fram ur universitetsvärlden under 1930- och 1940-talen, genom att universitetsstudenter höll kurser och föreläsningar inom språk, historia och litteratur för allmänheten. Än i dag har vi ett nära samarbete med universitet och högskolor. Vår idé är att genom kunskap och skapande ge människor förutsättningar för ett rikare liv. Kunskap förändrar!"
+            }
+          }
+        ],
+        "free_text": "Folkuniversitetet är ett studieförbund, en idéburen organisation, som är fristående från partipolitiska, religiösa, fackliga och kommersiella särintressen. Organisationen växte fram ur universitetsvärlden under 1930- och 1940-talen, genom att universitetsstudenter höll kurser och föreläsningar inom språk, historia och litteratur för allmänheten. Än i dag har vi ett nära samarbete med universitet och högskolor. Vår idé är att genom kunskap och skapande ge människor förutsättningar för ett rikare liv. Kunskap förändrar!"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Charlott johansson",
+        "contact_person_role": null,
+        "contact_person_email": "samverkan.syd@folkuniversitetet.se",
+        "contact_person_phone": "+4646197700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "046-197700",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Folkbildning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Friluftsfrämjandet Lödde-Kävlinge",
+      "org_number": null,
+      "types": [
+        "Scoutkårer"
+      ],
+      "activities": [
+        "Friluftsliv"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.friluftsframjandet.se/lodde-kavlinge",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=FLL",
+      "street_address": "Bäckabrinken 28 b",
+      "postal_code": "244 33",
+      "city": "Kävlinge",
+      "email": "lodde-kavlinge@friluftsframjandet.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1976",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Friluftsfrämjandet",
+              "verksamhet_raw": "Friluftsliv",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "John söderdahl",
+        "contact_person_role": null,
+        "contact_person_email": "js.soderdahl@gmail.com",
+        "contact_person_phone": "+46703008829"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-3008829"
+      },
+      "founded_year": 1976,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Friluftsfrämjandet",
+      "verksamhet_raw": "Friluftsliv"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Furulunds Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=FIK",
+      "street_address": "Box 264",
+      "postal_code": "244 02",
+      "city": "Furulund",
+      "email": "kansli@furulundsik.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1910",
+              "fiscal_year_starts_mmdd": "0401",
+              "national_affiliation": "Svenska Fotbollsförbundet",
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders planensten",
+        "contact_person_role": null,
+        "contact_person_email": "anders.planensten@gmail.com",
+        "contact_person_phone": "+46707352313"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0707352313",
+        "work": "",
+        "mobile": "0707352313"
+      },
+      "founded_year": 1910,
+      "fiscal_year_start": "0401",
+      "national_affiliation": "Svenska Fotbollsförbundet",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Furulunds Jujutsuklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Ju-jutsu"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.gakeryu.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=FJU",
+      "street_address": "Gårdsvägen 18 B",
+      "postal_code": "244 66",
+      "city": "Furulund",
+      "email": "johan.petter.sjoholm@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2013",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Budo och Kampsportsförbundet",
+              "verksamhet_raw": "Ju-jutsu",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan sjöholm",
+        "contact_person_role": null,
+        "contact_person_email": "johan.petter.sjoholm@gmail.com",
+        "contact_person_phone": "+46739787356"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "046-15 25 47",
+        "work": "",
+        "mobile": "0739-78 73 56"
+      },
+      "founded_year": 2013,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Budo och Kampsportsförbundet",
+      "verksamhet_raw": "Ju-jutsu"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Furulunds Kickboxningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Kampsport",
+        "Kickboxning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=FKB",
+      "street_address": "Triangelgatan 22",
+      "postal_code": "244 62",
+      "city": "Furulund",
+      "email": "furulundkickboxing@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2001",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Budoförbundet",
+              "verksamhet_raw": "Kampsport, Kickboxning",
+              "short_description": "Furulunds kickboxning är en klubb med inriktning på att lära ut kickboxning från grunden. Klubben startades hösten 2001."
+            }
+          }
+        ],
+        "free_text": "Furulunds kickboxning är en klubb med inriktning på att lära ut kickboxning från grunden. Klubben startades hösten 2001."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rebecca lesenius",
+        "contact_person_role": null,
+        "contact_person_email": "rebeccalesenius@live.com",
+        "contact_person_phone": "+46762571835"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0762-571835"
+      },
+      "founded_year": 2001,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Budoförbundet",
+      "verksamhet_raw": "Kampsport, Kickboxning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Furulunds Racing klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bilsport"
+      ],
+      "categories": [],
+      "homepage_url": "https://furulundsrck.blogspot.com/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=FRCK",
+      "street_address": "Bantorget 2",
+      "postal_code": "244 63",
+      "city": "Furulund",
+      "email": "furulundsrck@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1981",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Bilsportsförbundet",
+              "verksamhet_raw": "Bilsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jenny pålsson",
+        "contact_person_role": null,
+        "contact_person_email": "furulundsrck@gmail.com",
+        "contact_person_phone": "+46768309040"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0768309040"
+      },
+      "founded_year": 1981,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Bilsportsförbundet",
+      "verksamhet_raw": "Bilsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Furulunds Scoutkår",
+      "org_number": null,
+      "types": [
+        "Scoutkårer"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.furulundsscoutkar.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=FSK",
+      "street_address": "Friluftsgatan 1",
+      "postal_code": "244 65",
+      "city": "Furulund",
+      "email": "info@furulundsscoutkar.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1962",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Scouterna",
+              "verksamhet_raw": "Scouting",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christofer hagstedt",
+        "contact_person_role": null,
+        "contact_person_email": "christofer@m2studio.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1962,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Scouterna",
+      "verksamhet_raw": "Scouting"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Furulunds Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": "http://www3.idrottonline.se/furulundssf-sportskytte",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=FSF",
+      "street_address": "Frejavägen 13",
+      "postal_code": "241 72",
+      "city": "Marieholm",
+      "email": "thomasjogmark@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Frivilliga Skytterörelsen",
+              "verksamhet_raw": "Skytte",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas jogmark",
+        "contact_person_role": null,
+        "contact_person_email": "thomasjogmark@gmail.com",
+        "contact_person_phone": "+46705514453"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0705514453"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Frivilliga Skytterörelsen",
+      "verksamhet_raw": "Skytte"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "G.A.M.E.",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Gaming"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=GAME",
+      "street_address": "Kungsljusvägen 26",
+      "postal_code": "246 51",
+      "city": "Löddeköpinge",
+      "email": "linus.winterboren@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sverok",
+              "verksamhet_raw": "Gaming",
+              "short_description": "Gaming, VR, NERF och brädspel. Roligare än såhär blir det inte. Vi arbetar för en sund skärmkultur."
+            }
+          }
+        ],
+        "free_text": "Gaming, VR, NERF och brädspel. Roligare än såhär blir det inte. Vi arbetar för en sund skärmkultur."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linus winterboren",
+        "contact_person_role": null,
+        "contact_person_email": "linus.winterboren@gmail.com",
+        "contact_person_phone": "+46708250671"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0708250671"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sverok",
+      "verksamhet_raw": "Gaming"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Harjagers hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Historia",
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/harjagers-harads/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=HHFHF",
+      "street_address": "Tostarps byväg 115",
+      "postal_code": "244 91",
+      "city": "Kävlinge",
+      "email": "carina.ingelsson@kavlinge.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1930",
+              "fiscal_year_starts_mmdd": "0102",
+              "national_affiliation": "Sveriges Hembygdsförbund",
+              "verksamhet_raw": "Historia, Kultur",
+              "short_description": "Harjagers härads Fornminnes & Hembygdsförening. Ideell förening bildad 1930 i Kävlinge. Lokal forskning, Harjagers härads och Kävlinge kommuns historia. Bokugåvor, Föreläsningar, Film, Historiska artiklar, Museiverksamhet- vård, Hist- byggnader, Vetenskaplig utveckling av bl.a kommun-turism etc."
+            }
+          }
+        ],
+        "free_text": "Harjagers härads Fornminnes & Hembygdsförening. Ideell förening bildad 1930 i Kävlinge. Lokal forskning, Harjagers härads och Kävlinge kommuns historia. Bokugåvor, Föreläsningar, Film, Historiska artiklar, Museiverksamhet- vård, Hist- byggnader, Vetenskaplig utveckling av bl.a kommun-turism etc."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Alf-göran rappner",
+        "contact_person_role": null,
+        "contact_person_email": "rappner@hotmail.com",
+        "contact_person_phone": "+46730313105"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "046-73 19 25",
+        "work": "",
+        "mobile": "0730-31 31 05"
+      },
+      "founded_year": 1930,
+      "fiscal_year_start": "0102",
+      "national_affiliation": "Sveriges Hembygdsförbund",
+      "verksamhet_raw": "Historia, Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Harriebygdens hästsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=HBHS",
+      "street_address": "Dalhemsvägen 45",
+      "postal_code": "244 91",
+      "city": "Kävlinge",
+      "email": "harriebygdenshastsallskap@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2014",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Ridsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linda strand",
+        "contact_person_role": null,
+        "contact_person_email": "lindastrand73@gmail.com",
+        "contact_person_phone": "+46707230854"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0707-230854"
+      },
+      "founded_year": 2014,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Ridsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Hofterup Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.laget.se/HIBF",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=HIBF",
+      "street_address": "Kungsljusvägen 52",
+      "postal_code": "246 51",
+      "city": "Löddeköpinge",
+      "email": "hibf.kansli@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1989",
+              "fiscal_year_starts_mmdd": "0501",
+              "national_affiliation": "Svenska Innebandyförbundet",
+              "verksamhet_raw": "Innebandy",
+              "short_description": "Vi är en innebandyklubb med huvudsaklig verksamhet i Löddeköpinge. Vi har grupper för både pojkar och flickor. Vi har idag ca 250 aktiva spelare från 6 år upp till seniorer och motionsverksamhet samt ca 300 medlemmar i klubben."
+            }
+          }
+        ],
+        "free_text": "Vi är en innebandyklubb med huvudsaklig verksamhet i Löddeköpinge. Vi har grupper för både pojkar och flickor. Vi har idag ca 250 aktiva spelare från 6 år upp till seniorer och motionsverksamhet samt ca 300 medlemmar i klubben."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ina jarnekrantz",
+        "contact_person_role": null,
+        "contact_person_email": "m.jarnekrantz@hotmail.com",
+        "contact_person_phone": "+46709479305"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0709479305",
+        "work": "",
+        "mobile": "0709479305"
+      },
+      "founded_year": 1989,
+      "fiscal_year_start": "0501",
+      "national_affiliation": "Svenska Innebandyförbundet",
+      "verksamhet_raw": "Innebandy"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Idrottsföreningen Lödde",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.iflodde.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=IFL",
+      "street_address": "Bollvägen 1",
+      "postal_code": "246 35",
+      "city": "Löddeköpinge",
+      "email": "kansliet@iflodde.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Fotbollsförbundet",
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter joelsson",
+        "contact_person_role": null,
+        "contact_person_email": "pe.joelsson@telia.com",
+        "contact_person_phone": "+46705857862"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0705-85 78 62"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Fotbollsförbundet",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "IF Friskis & Svettis Lund",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Motionsgymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.friskissvettis.se/lund/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=FS",
+      "street_address": "Gustavshemsvägen 1a",
+      "postal_code": "227 64",
+      "city": "Lund",
+      "email": "camillanyman68@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Motionsgymnastik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstina ohlsson",
+        "contact_person_role": null,
+        "contact_person_email": "marie.l.persson@svalov.se",
+        "contact_person_phone": "+46703914542"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "046-733975",
+        "work": "",
+        "mobile": "070-3914542"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Motionsgymnastik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "KFUM Kävlinge IF",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kavlingeif.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KFUM",
+      "street_address": "Örnvägen 23",
+      "postal_code": "227 32",
+      "city": "Lund",
+      "email": "info@kavlingeif.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2011",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Gymnastik",
+              "short_description": "Parkour på fredagar i Korsbacka"
+            }
+          }
+        ],
+        "free_text": "Parkour på fredagar i Korsbacka"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peshang kakahama",
+        "contact_person_role": null,
+        "contact_person_email": "info@kavlingeif.se",
+        "contact_person_phone": "+46705715676"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0705-71 56 76"
+      },
+      "founded_year": 2011,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Gymnastik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Konstforum",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Erfarenhetsutbyte",
+        "hantverk",
+        "Konst",
+        "Kultur...",
+        "Kultur",
+        "Samkväm"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.konstforumkavlinge.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KONSTF",
+      "street_address": "Poppelvägen 23",
+      "postal_code": "244 41",
+      "city": "Kävlinge",
+      "email": "konstforum@hotmail.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2011",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksf Sveriges konstföreningar",
+              "verksamhet_raw": "Erfarenhetsutbyte, hantverk, Konst, Kultur, Samkväm",
+              "short_description": "VERNISSAGER, UTSTÄLLNINGAR och WORKSHOPS"
+            }
+          }
+        ],
+        "free_text": "VERNISSAGER, UTSTÄLLNINGAR och WORKSHOPS"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lisbeth persson",
+        "contact_person_role": null,
+        "contact_person_email": "lisbethpersson14@gmail.com",
+        "contact_person_phone": "+46705638422"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0705638422"
+      },
+      "founded_year": 2011,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksf Sveriges konstföreningar",
+      "verksamhet_raw": "Erfarenhetsutbyte, hantverk, Konst, Kultur, Samkväm"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "KulturföreningenSilverforsen i Kävlinge",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "hantverk",
+        "Konst",
+        "Kultur",
+        "Musik...",
+        "Musik",
+        "Sång",
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SILV",
+      "street_address": "Rinnebäcksgatan 6",
+      "postal_code": "244 32",
+      "city": "Kävlinge",
+      "email": "kulturforeningensilverforsen@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2021",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "hantverk, Konst, Kultur, Musik, Sång, Teater",
+              "short_description": "Föreningen har som ändamål att medverka till att allmänheten erbjuds nöjes och kulturaktiviteter av god kvalitet, primärt i Kävlinge Folkets Park, prioriterad grupp är barn och unga. Föreningen vänder sig till människor i alla åldrar, oavsett bakgrund. Föreningen ska aktivt arbeta för att motverka all form av diskriminering. Föreningen är religiöst och politiskt obunden."
+            }
+          }
+        ],
+        "free_text": "Föreningen har som ändamål att medverka till att allmänheten erbjuds nöjes och kulturaktiviteter av god kvalitet, primärt i Kävlinge Folkets Park, prioriterad grupp är barn och unga. Föreningen vänder sig till människor i alla åldrar, oavsett bakgrund. Föreningen ska aktivt arbeta för att motverka all form av diskriminering. Föreningen är religiöst och politiskt obunden."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anette eklund",
+        "contact_person_role": null,
+        "contact_person_email": "info@kulturforeningensilverforsen.se",
+        "contact_person_phone": "+46733689933"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0733689933"
+      },
+      "founded_year": 2021,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "hantverk, Konst, Kultur, Musik, Sång, Teater"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Amatörteater",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Kultur",
+        "Musik",
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kavlingeamatorteater.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KAT",
+      "street_address": "Tobaksvägen 3D",
+      "postal_code": "244 71",
+      "city": "Dösjebro",
+      "email": "info@kavlingeamatorteater.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1983",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Amatörteaterns RIksförbund",
+              "verksamhet_raw": "Kultur, Musik, Teater",
+              "short_description": "Spelar sommarlustspel på Högs Friluftsteater samt revyer på Kävlinge Kulturscen"
+            }
+          }
+        ],
+        "free_text": "Spelar sommarlustspel på Högs Friluftsteater samt revyer på Kävlinge Kulturscen"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per-ove nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "perove.pn@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1983,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Amatörteaterns RIksförbund",
+      "verksamhet_raw": "Kultur, Musik, Teater"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Boulesällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.svenskidrott.se/m/kavlingeboule",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KBS",
+      "street_address": "Rosengatan 14",
+      "postal_code": "242 34",
+      "city": "Hörby",
+      "email": "sh.otte@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1991",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Bouleförbundet",
+              "verksamhet_raw": "Boule",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn meijer",
+        "contact_person_role": null,
+        "contact_person_email": "sh.otte@hotmail.com",
+        "contact_person_phone": "+46705209277"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0705209277"
+      },
+      "founded_year": 1991,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Bouleförbundet",
+      "verksamhet_raw": "Boule"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Brassband",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Brassband"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KBB",
+      "street_address": "Trollsjövägen 21",
+      "postal_code": "237 33",
+      "city": "Bjärred",
+      "email": "petersson.krister@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1981",
+              "fiscal_year_starts_mmdd": "1001",
+              "national_affiliation": null,
+              "verksamhet_raw": "Brassband",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Krister petersson",
+        "contact_person_role": null,
+        "contact_person_email": "petersson.krister@hotmail.com",
+        "contact_person_phone": "+46735958082"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0735958082",
+        "work": "",
+        "mobile": "0735958082"
+      },
+      "founded_year": 1981,
+      "fiscal_year_start": "1001",
+      "verksamhet_raw": "Brassband"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Bågskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bågskytte"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kavlingebsk.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KBSK",
+      "street_address": "Upplandsgatan 5",
+      "postal_code": "244 32",
+      "city": "Kävlinge",
+      "email": "kavlingebsk@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2018",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Bågskytteförbundet",
+              "verksamhet_raw": "Bågskytte",
+              "short_description": "Kävlinge Bågskytteklubb är en av Skånes större bågskytte föreningar. Vi deltar aktivt på tävlingar sanktionerade av Svenska Bågskytteförbundet och i våra nordiska grannländer. Vår passion är skogsskytte men deltar även i taveltävlingar. Vi tränar under sommarhalvåret på Högalids idrottsplats och vintertid i Rinnebäckshallen. Du får gärna komma och prova på bågskytte. Läs mer på vår hemsida."
+            }
+          }
+        ],
+        "free_text": "Kävlinge Bågskytteklubb är en av Skånes större bågskytte föreningar. Vi deltar aktivt på tävlingar sanktionerade av Svenska Bågskytteförbundet och i våra nordiska grannländer. Vår passion är skogsskytte men deltar även i taveltävlingar. Vi tränar under sommarhalvåret på Högalids idrottsplats och vintertid i Rinnebäckshallen. Du får gärna komma och prova på bågskytte. Läs mer på vår hemsida."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats kjellman",
+        "contact_person_role": null,
+        "contact_person_email": "kavlingebsk@gmail.com",
+        "contact_person_phone": "+4646710441"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "046-710441",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 2018,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Bågskytteförbundet",
+      "verksamhet_raw": "Bågskytte"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Folkdansgille",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Brottning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KFG",
+      "street_address": "Karlsgatan 52",
+      "postal_code": "260 20",
+      "city": "Teckomatorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Brottning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jörgen wijk",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46418660210"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0418-66 02 10",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Brottning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Furulund Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kfbmk.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KFBK",
+      "street_address": "Magnegatan 8",
+      "postal_code": "244 65",
+      "city": "Furulund",
+      "email": "gilbert@kfbmk.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Badmintonförbundet",
+              "verksamhet_raw": "Badminton",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gilbert jönsson",
+        "contact_person_role": null,
+        "contact_person_email": "gilbert@kfbmk.se",
+        "contact_person_phone": "+46705913179"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-5913179"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Badmintonförbundet",
+      "verksamhet_raw": "Badminton"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Furulunds Brottarklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Brottning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kfbk.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KFBRK",
+      "street_address": "Allarpsvägen 50",
+      "postal_code": "244 93",
+      "city": "Kävlinge",
+      "email": "kfbk@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Brottningsförbundet",
+              "verksamhet_raw": "Brottning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "eva.karlsson@burlov.se",
+        "contact_person_phone": "+46705533755"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070 - 55 33 755"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Brottningsförbundet",
+      "verksamhet_raw": "Brottning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [],
+      "homepage_url": "https://kavlingegk.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KGK",
+      "street_address": "Harrievägen 120",
+      "postal_code": "244 91",
+      "city": "Kävlinge",
+      "email": "info@kavlingegk.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Golfförbundet",
+              "verksamhet_raw": "Golf",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina csanta",
+        "contact_person_role": null,
+        "contact_person_email": "klubbchef@kavlingegk.se",
+        "contact_person_phone": "+46721506677"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "046-736265",
+        "mobile": "072-1506677"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Golfförbundet",
+      "verksamhet_raw": "Golf"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Gymnastikförening SVEA",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kavlingegf.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SVEA",
+      "street_address": "Sunnanväg 2",
+      "postal_code": "244 38",
+      "city": "Kävlinge",
+      "email": "kansli@kavlingegf.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Gymnastikförbundet",
+              "verksamhet_raw": "Gymnastik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linda carlsson",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@kavlingegf.se",
+        "contact_person_phone": "+46707587601"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0707587601",
+        "work": "0707587601",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Gymnastikförbundet",
+      "verksamhet_raw": "Gymnastik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Handbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.kavlingehk.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KHK",
+      "street_address": "Sunnanväg 2",
+      "postal_code": "244 38",
+      "city": "Kävlinge",
+      "email": "khkkansli@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1969",
+              "fiscal_year_starts_mmdd": "0501",
+              "national_affiliation": "Svenska Handbollsförbundet",
+              "verksamhet_raw": "Handboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria hansén",
+        "contact_person_role": null,
+        "contact_person_email": "khkkansli@gmail.com",
+        "contact_person_phone": "+46705159820"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "046-71 01 80",
+        "mobile": "0705159820"
+      },
+      "founded_year": 1969,
+      "fiscal_year_start": "0501",
+      "national_affiliation": "Svenska Handbollsförbundet",
+      "verksamhet_raw": "Handboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Harrie FF",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kavlingeharrieff.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=HKFF",
+      "street_address": "Box 64",
+      "postal_code": "244 21",
+      "city": "Kävlinge",
+      "email": "kansliet@kavlingeharrieff.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2012",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Fotbollsförbundet",
+              "verksamhet_raw": "Fotboll",
+              "short_description": "Kävlinge Harrie FF är fotbollsföreningen för hela familjen och vi välkomnar alla som vill prova på att spela fotboll till oss. Hos oss är glädjen och gemenskapen i fokus och för oss är det lika viktigt att fostra bra fotbollsspelare som att fostra bra medmänniskor."
+            }
+          }
+        ],
+        "free_text": "Kävlinge Harrie FF är fotbollsföreningen för hela familjen och vi välkomnar alla som vill prova på att spela fotboll till oss. Hos oss är glädjen och gemenskapen i fokus och för oss är det lika viktigt att fostra bra fotbollsspelare som att fostra bra medmänniskor."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie månsson",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@kavlingeharrieff.se",
+        "contact_person_phone": "+46704384449"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0704-384449"
+      },
+      "founded_year": 2012,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Fotbollsförbundet",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kavlingeibk.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KBK",
+      "street_address": "Floravägen 27",
+      "postal_code": "244 41",
+      "city": "Kävlinge",
+      "email": "jocke@kavlingeibk.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0701",
+              "national_affiliation": "Svenska Innebandyförbundet",
+              "verksamhet_raw": "Innebandy",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Joakim truuberg",
+        "contact_person_role": null,
+        "contact_person_email": "jocke@kavlingeibk.se",
+        "contact_person_phone": "+46734341040"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0734341040"
+      },
+      "fiscal_year_start": "0701",
+      "national_affiliation": "Svenska Innebandyförbundet",
+      "verksamhet_raw": "Innebandy"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Popkör",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Kör"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=POPK",
+      "street_address": "Annelövsvägen 9",
+      "postal_code": "244 71",
+      "city": "Dösjebro",
+      "email": "helena_gangefors@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2023",
+              "fiscal_year_starts_mmdd": "0110",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kör",
+              "short_description": "En kör för alla. Ingen kunskap krävs om noter då träning sker hemma med hjälp av inspelade stämfiler."
+            }
+          }
+        ],
+        "free_text": "En kör för alla. Ingen kunskap krävs om noter då träning sker hemma med hjälp av inspelade stämfiler."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Susann karlberg",
+        "contact_person_role": null,
+        "contact_person_email": "susann.karlberg@gmail.com",
+        "contact_person_phone": "+46709719490"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0709719490"
+      },
+      "founded_year": 2023,
+      "fiscal_year_start": "0110",
+      "verksamhet_raw": "Kör"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": "http://riksteatern.se/kavlinge",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KRTF",
+      "street_address": "Alfreds väg 6A",
+      "postal_code": "244 36",
+      "city": "Kävlinge",
+      "email": "kavlinge@riksteatern.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1981",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksteatern",
+              "verksamhet_raw": "Teater",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva-carin rask",
+        "contact_person_role": null,
+        "contact_person_email": "eva_carin@yahoo.se",
+        "contact_person_phone": "+46702980941"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-2980941"
+      },
+      "founded_year": 1981,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksteatern",
+      "verksamhet_raw": "Teater"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Scoutkår Knopen",
+      "org_number": null,
+      "types": [
+        "Scoutkårer"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": "http://kavlinge.scout.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KSK",
+      "street_address": "Lillvägen 1",
+      "postal_code": "244 32",
+      "city": "Kävlinge",
+      "email": "kavlingescouter@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Scouterna",
+              "verksamhet_raw": "Scouting",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin kronvall",
+        "contact_person_role": null,
+        "contact_person_email": "kavlingescouter@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Scouterna",
+      "verksamhet_raw": "Scouting"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlinge Sportskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kavlingespk.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KSSK",
+      "street_address": "Grand Prix Vägen 76",
+      "postal_code": "246 50",
+      "city": "Löddeköpinge",
+      "email": "fredrik.lofvander@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1968",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Skyttesportförbundet",
+              "verksamhet_raw": "Skytte",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik löfvander",
+        "contact_person_role": null,
+        "contact_person_email": "fredrik.lofvander@gmail.com",
+        "contact_person_phone": "+46708870412"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0734-188775",
+        "mobile": "0708-87 04 12"
+      },
+      "founded_year": 1968,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Skyttesportförbundet",
+      "verksamhet_raw": "Skytte"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Kävlingebygdens Släktforskarförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Släktforskning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kavlingesof.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=KSFF",
+      "street_address": "Gissleberga 1036",
+      "postal_code": "268 72",
+      "city": "Teckomatorp",
+      "email": "ordforande@kavlingesof.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1985",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Släktforskarförbund",
+              "verksamhet_raw": "Släktforskning",
+              "short_description": "Främja släkt- och folklivsforskning, föreläsningar, studiebesök, kurser i databassökning m. m."
+            }
+          }
+        ],
+        "free_text": "Främja släkt- och folklivsforskning, föreläsningar, studiebesök, kurser i databassökning m. m."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Britta walldén",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@kavlingesof.se",
+        "contact_person_phone": "+46703809964"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-3809964"
+      },
+      "founded_year": 1985,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Släktforskarförbund",
+      "verksamhet_raw": "Släktforskning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Lions Club Kävlinge",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Kultur",
+        "Loppmarknad"
+      ],
+      "categories": [],
+      "homepage_url": "https://e-clubhouse.org/sites/kavlinge/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LCK",
+      "street_address": "Tostarps byväg 115",
+      "postal_code": "244 91",
+      "city": "Kävlinge",
+      "email": "mats.svedberg@kavlinge.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1958",
+              "fiscal_year_starts_mmdd": "0701",
+              "national_affiliation": "Lions Club Sverige",
+              "verksamhet_raw": "Kultur, Loppmarknad",
+              "short_description": "Lions uppgift.Att göra det möjligt för de frivilliga att tillhandahålla hjälpinsatser i samhället, tillgodose humanitära behov samt främja fred och internationell förståelse genom Lions Klubbar."
+            }
+          }
+        ],
+        "free_text": "Lions uppgift.Att göra det möjligt för de frivilliga att tillhandahålla hjälpinsatser i samhället, tillgodose humanitära behov samt främja fred och internationell förståelse genom Lions Klubbar."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael borggren",
+        "contact_person_role": null,
+        "contact_person_email": "mikael@borggren.org",
+        "contact_person_phone": "+46768018545"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "076-8018545"
+      },
+      "founded_year": 1958,
+      "fiscal_year_start": "0701",
+      "national_affiliation": "Lions Club Sverige",
+      "verksamhet_raw": "Kultur, Loppmarknad"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Lions Club Löddeköping",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.lionslodde.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LCL",
+      "street_address": "Järnvägen 10",
+      "postal_code": "246 36",
+      "city": "Löddeköpinge",
+      "email": "bo@bogarve.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1978",
+              "fiscal_year_starts_mmdd": "0701",
+              "national_affiliation": "Lions Sverige",
+              "verksamhet_raw": "Kultur",
+              "short_description": "Att göra det möjligt för de frivilliga att tillhandahålla hjälpinsatser i samhället, tillgodose humanitära behov samt främja fred och internationell förståelse genom Lions Klubbar."
+            }
+          }
+        ],
+        "free_text": "Att göra det möjligt för de frivilliga att tillhandahålla hjälpinsatser i samhället, tillgodose humanitära behov samt främja fred och internationell förståelse genom Lions Klubbar."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bo bogarve",
+        "contact_person_role": null,
+        "contact_person_email": "bo@bogarve.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1978,
+      "fiscal_year_start": "0701",
+      "national_affiliation": "Lions Sverige",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Ljungvalla Tennis",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.ljungvallatennis.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LJT",
+      "street_address": "Karderskans gata 18",
+      "postal_code": "244 63",
+      "city": "Furulund",
+      "email": "info@ljungvallatennis.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2015",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Tennisförbundet",
+              "verksamhet_raw": "Tennis",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per lundahl",
+        "contact_person_role": null,
+        "contact_person_email": "perlundahl15@gmail.com",
+        "contact_person_phone": "+46733265474"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0733265474",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 2015,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Tennisförbundet",
+      "verksamhet_raw": "Tennis"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Lödde BMK",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.laget.se/loddebk",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LBMK",
+      "street_address": "Stångbackagränd 7",
+      "postal_code": "246 57",
+      "city": "Barsebäck",
+      "email": "andreas.melvanius@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Badmintonförbundet",
+              "verksamhet_raw": "Badminton",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andreas melvanius",
+        "contact_person_role": null,
+        "contact_person_email": "andreas.melvanius@gmail.com",
+        "contact_person_phone": "+46707104305"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0707104305"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Badmintonförbundet",
+      "verksamhet_raw": "Badminton"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Lödde Kanotklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Kanot"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.loddekanot.nu/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LKK",
+      "street_address": "Backavägen",
+      "postal_code": "246 21",
+      "city": "Löddeköpinge",
+      "email": "loddekanot@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Kanotförbundet",
+              "verksamhet_raw": "Kanot",
+              "short_description": "Lödde kanotklubb bildades 1969. Sedan dess har föreningen haft stora framgångar både nationellt och internationellt. Peter Pennsäter kom som bäst 8:a på VM, K1 1000 m i början av 80-talet och 8:a K4 1000 m på VM i Tammerfors, Finland 1983. Susanne Rosenqvist tog OS brons i K4 500 m både i Barcelona 1992 och Atlanta 1996. Henrik Andersson tog två VM medaljer 1997. Lödde Kanotklubb blev bästa klubb på SM 1989 och 1996. Sedan 1997 har vi inte haft någon väletablerad seniorlandslagskanotist, men däremot många framgångrika representanter i ungdoms och juniorlandslagen.Men, klubben erbjuder inte bara träning för elitkanotister. Vi är snarare en blandning mellan unga och gamla, motionspaddlare och elitsatsare, nybörjare och veteraner som tillsammans gör det vi tycker om - Paddla kanot! Detta skapar en härlig gemenskap mellan våra kanotister. Både gammal som ung kan vara med och träna tillsammans. Att vi älskar att paddla kanot är det som förenar oss."
+            }
+          }
+        ],
+        "free_text": "Lödde kanotklubb bildades 1969. Sedan dess har föreningen haft stora framgångar både nationellt och internationellt. Peter Pennsäter kom som bäst 8:a på VM, K1 1000 m i början av 80-talet och 8:a K4 1000 m på VM i Tammerfors, Finland 1983. Susanne Rosenqvist tog OS brons i K4 500 m både i Barcelona 1992 och Atlanta 1996. Henrik Andersson tog två VM medaljer 1997. Lödde Kanotklubb blev bästa klubb på SM 1989 och 1996. Sedan 1997 har vi inte haft någon väletablerad seniorlandslagskanotist, men däremot många framgångrika representanter i ungdoms och juniorlandslagen.Men, klubben erbjuder inte bara träning för elitkanotister. Vi är snarare en blandning mellan unga och gamla, motionspaddlare och elitsatsare, nybörjare och veteraner som tillsammans gör det vi tycker om - Paddla kanot! Detta skapar en härlig gemenskap mellan våra kanotister. Både gammal som ung kan vara med och träna tillsammans. Att vi älskar att paddla kanot är det som förenar oss."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan tyrebrant",
+        "contact_person_role": null,
+        "contact_person_email": "loddekanot@gmail.com",
+        "contact_person_phone": "+46730263159"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0730263159"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Kanotförbundet",
+      "verksamhet_raw": "Kanot"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Lödde Motion",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Längskidåkning",
+        "Motion",
+        "Rullskidåkning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.loddemotion.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LM",
+      "street_address": "Brännarevägen 6 A",
+      "postal_code": "246 33",
+      "city": "Löddeköpinge",
+      "email": "aob.hansson@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1979",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Skidförbundet",
+              "verksamhet_raw": "Längskidåkning, Motion, Rullskidåkning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tor larsson",
+        "contact_person_role": null,
+        "contact_person_email": "tor_larsson@yahoo.se",
+        "contact_person_phone": "+46790795250"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "079-0795250",
+        "work": "",
+        "mobile": "079-0795250"
+      },
+      "founded_year": 1979,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Skidförbundet",
+      "verksamhet_raw": "Längskidåkning, Motion, Rullskidåkning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Lödde Padel Club",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Padel"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/lpc",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LPC",
+      "street_address": "Topasvägen 19",
+      "postal_code": "246 34",
+      "city": "Löddeköpinge",
+      "email": "info@lpc.nu",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Padel",
+              "short_description": "Löddepadelclub har i nuläget padelträning för barn och ungdomar 5-15år.Vi arrangerar seriespel för äldre som heter ligaspel med 8 divisioner och 48 lag. Träning och matcher bedrivs på LPC Padel Center i Löddeköpinge. Vi har även spel för seniorer 65 + och barn med funktionsnedsättning denna aktivitet startas ht-24."
+            }
+          }
+        ],
+        "free_text": "Löddepadelclub har i nuläget padelträning för barn och ungdomar 5-15år.Vi arrangerar seriespel för äldre som heter ligaspel med 8 divisioner och 48 lag. Träning och matcher bedrivs på LPC Padel Center i Löddeköpinge. Vi har även spel för seniorer 65 + och barn med funktionsnedsättning denna aktivitet startas ht-24."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Charlotte berg",
+        "contact_person_role": null,
+        "contact_person_email": "charlotte.berg2@gmail.com",
+        "contact_person_phone": "+46707131489"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0707-131489"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Padel"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Lödde Vikings HK",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.lvhk.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LVHK",
+      "street_address": "Guldvägen 5",
+      "postal_code": "246 36",
+      "city": "Löddeköpinge",
+      "email": "kansliet@lvhk.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1992",
+              "fiscal_year_starts_mmdd": "0501",
+              "national_affiliation": "Svenska Handbollsförbundet",
+              "verksamhet_raw": "Handboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per algback",
+        "contact_person_role": null,
+        "contact_person_email": "per.algback@kunskapsskolan.se",
+        "contact_person_phone": "+46733137142"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0733-137142"
+      },
+      "founded_year": 1992,
+      "fiscal_year_start": "0501",
+      "national_affiliation": "Svenska Handbollsförbundet",
+      "verksamhet_raw": "Handboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Löddeköpinge konstnärsförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "hantverk",
+        "Konst",
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://galleritransformatorn.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=L%c3%96KO",
+      "street_address": "Södervångsvägen 131 B",
+      "postal_code": "246 36",
+      "city": "Löddeköpinge",
+      "email": "info@galleritransformatorn.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1988",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "hantverk, Konst, Kultur",
+              "short_description": "Löddeköpinge konstnärsförening är en förening som välkomnar konstnärer och konsthantverkare. Vi håller utställningar och medlemsaktiviteter i Galleri Transformatorn."
+            }
+          }
+        ],
+        "free_text": "Löddeköpinge konstnärsförening är en förening som välkomnar konstnärer och konsthantverkare. Vi håller utställningar och medlemsaktiviteter i Galleri Transformatorn."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika bornholm wallander",
+        "contact_person_role": null,
+        "contact_person_email": "annojonno@msn.com",
+        "contact_person_phone": "+46708123827"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "046-305430",
+        "mobile": "0708-123827"
+      },
+      "founded_year": 1988,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "hantverk, Konst, Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Löddeköpinge Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.lork.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LRK",
+      "street_address": "Håkantorpsvägen 200",
+      "postal_code": "244 95",
+      "city": "Dösjebro",
+      "email": "info@lork.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1978",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Ridsportförbundet",
+              "verksamhet_raw": "Ridsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina strand",
+        "contact_person_role": null,
+        "contact_person_email": "ridskolan@lork.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1978,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Ridsportförbundet",
+      "verksamhet_raw": "Ridsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Löddeköpinge TK",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LTK",
+      "street_address": "Karl XI gatan 17 b",
+      "postal_code": "222 20",
+      "city": "Lund",
+      "email": "annenilsson1@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1973",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Tennis",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingrid sjöstedt",
+        "contact_person_role": null,
+        "contact_person_email": "ingridsjostedt@msn.com",
+        "contact_person_phone": "+46733398510"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0733 398510"
+      },
+      "founded_year": 1973,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Tennis"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Modellflygklubben Viking",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Modellflyg"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.mfkviking.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=MFKV",
+      "street_address": "Per Ols väg 7",
+      "postal_code": "237 37",
+      "city": "Bjärred",
+      "email": "bjorn.h.holmqvist@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Modellflyg",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn holmqvist",
+        "contact_person_role": null,
+        "contact_person_email": "bjorn.h.holmqvist@gmail.com",
+        "contact_person_phone": "+46702005061"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0702 00 50 61"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Modellflyg"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Mopedsällskapet Ställbart Kävlinge",
+      "org_number": null,
+      "types": [
+        "Motorföreningar"
+      ],
+      "activities": [
+        "Kultur",
+        "Moped",
+        "Motor",
+        "Samkväm...",
+        "Samkväm",
+        "Utflykter"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.nogg.se/mopedentusiast",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=MOPED",
+      "street_address": "Lundins väg 4",
+      "postal_code": "244 36",
+      "city": "Kävlinge",
+      "email": "kavlinge.mopedklubb@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2000",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Ingen",
+              "verksamhet_raw": "Kultur, Moped, Motor, Samkväm, Utflykter",
+              "short_description": ": Vi är en Ideell förening för veteranmopeder bildar år 2000 och har sitt huvud säte i Kävlinge Vi träffas från Maj till oktober har trevligt tillsammans med olika aktiviteter och som regel med månadsträffar och utflykter Vi organiserar även ett antal större moped aktiviteter under året med utflykter med våra fordon."
+            }
+          }
+        ],
+        "free_text": ": Vi är en Ideell förening för veteranmopeder bildar år 2000 och har sitt huvud säte i Kävlinge Vi träffas från Maj till oktober har trevligt tillsammans med olika aktiviteter och som regel med månadsträffar och utflykter Vi organiserar även ett antal större moped aktiviteter under året med utflykter med våra fordon."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas beirup",
+        "contact_person_role": null,
+        "contact_person_email": "kavlinge.mopedklubb@gmail.com",
+        "contact_person_phone": "+46706315493"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0706315493",
+        "work": "0706315493",
+        "mobile": "0706315493"
+      },
+      "founded_year": 2000,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Ingen",
+      "verksamhet_raw": "Kultur, Moped, Motor, Samkväm, Utflykter"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Musikföreningen i Kävlinge",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Kultur",
+        "Musik",
+        "Sång"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.kavlingemusik.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=MICK",
+      "street_address": "Högalidsvägen 53 A",
+      "postal_code": "244 36",
+      "city": "Kävlinge",
+      "email": "info@kavlingemusik.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2011",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svensk Live",
+              "verksamhet_raw": "Kultur, Musik, Sång",
+              "short_description": "Vi söker dig musikutövare och/eller arrangörshungrig som vill hjälpa oss se till att Kävlinge ritas in på musikkartan.Har du idéer på projekt som du vill genomföra så kan föreningen vara en utmärkt plattform. Vi söker även dig som vill stötta vårt arbete med att utveckla musik- och kulturlivet i kommunen. Man behöver ju inte nödvändigtvis kunna spela för att tycka om musik. Kom och ta del av våra arrangemang."
+            }
+          }
+        ],
+        "free_text": "Vi söker dig musikutövare och/eller arrangörshungrig som vill hjälpa oss se till att Kävlinge ritas in på musikkartan.Har du idéer på projekt som du vill genomföra så kan föreningen vara en utmärkt plattform. Vi söker även dig som vill stötta vårt arbete med att utveckla musik- och kulturlivet i kommunen. Man behöver ju inte nödvändigtvis kunna spela för att tycka om musik. Kom och ta del av våra arrangemang."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Joakim kasimir",
+        "contact_person_role": null,
+        "contact_person_email": "joakim.kasimir@gmail.com",
+        "contact_person_phone": "+46702547622"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0702547622"
+      },
+      "founded_year": 2011,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svensk Live",
+      "verksamhet_raw": "Kultur, Musik, Sång"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Musubi Dojo",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Ju-jutsu",
+        "Kampsport",
+        "Kickboxning",
+        "Motion...",
+        "Motion",
+        "Pensionär"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.musubi-dojo.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=LJJK",
+      "street_address": "Produktvägen 12 F",
+      "postal_code": "246 43",
+      "city": "Löddeköpinge",
+      "email": "judo.jl67@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1992",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Budo och Kampsportsförbundet",
+              "verksamhet_raw": "Ju-jutsu, Kampsport, Kickboxning, Motion, Pensionär",
+              "short_description": "Musubi Dojo är en kampsportsförening med sex olika stilar inom självskydd och kamp. Här kan du träna Aikido, Judo, Ju-Jutsu Ryu, Sport Ju-Jutsu, Systema och Kick & Box. Vi har sedan 1992 vuxit från en traditionell jujutsu klubb till en kampsportsförening med flera olika stilar inom självskydd och kamp. Alla i samma fina och fräscha träningslokal, till en medlemsavgift. Musubi är ett japanskt ord som betyder knut och symboliserar samarbete."
+            }
+          }
+        ],
+        "free_text": "Musubi Dojo är en kampsportsförening med sex olika stilar inom självskydd och kamp. Här kan du träna Aikido, Judo, Ju-Jutsu Ryu, Sport Ju-Jutsu, Systema och Kick & Box. Vi har sedan 1992 vuxit från en traditionell jujutsu klubb till en kampsportsförening med flera olika stilar inom självskydd och kamp. Alla i samma fina och fräscha träningslokal, till en medlemsavgift. Musubi är ett japanskt ord som betyder knut och symboliserar samarbete."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Joel lilleås",
+        "contact_person_role": null,
+        "contact_person_email": "info@musubi-dojo.se",
+        "contact_person_phone": "+46733365494"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0733365494"
+      },
+      "founded_year": 1992,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Budo och Kampsportsförbundet",
+      "verksamhet_raw": "Ju-jutsu, Kampsport, Kickboxning, Motion, Pensionär"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Mässingsorkestern Desideria",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Kultur",
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=DESI",
+      "street_address": "Föreningsgatan 7",
+      "postal_code": "244 32",
+      "city": "Kävlinge",
+      "email": "leifkarlsson43@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kultur, Musik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Leif karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "leifkarlsson43@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kultur, Musik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "NPF Gemenskap Kävlinge",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Anhörigstöd",
+        "Badminton",
+        "Basket",
+        "Dans...",
+        "Dans",
+        "Erfarenhetsutbyte",
+        "Fotboll",
+        "Gymnastik",
+        "Handboll",
+        "Idrott och Hälsa",
+        "Innebandy",
+        "Motion",
+        "Pyssel",
+        "Samkväm"
+      ],
+      "categories": [],
+      "homepage_url": "https://npfgemenskap.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=NPFG",
+      "street_address": "Roteringvägen 18C",
+      "postal_code": "246 35",
+      "city": "Löddeköpinge",
+      "email": "kontakt@npfgemenskap.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2025",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Anhörigstöd, Badminton, Basket, Dans, Erfarenhetsutbyte, Fotboll, Gymnastik, Handboll, Idrott och Hälsa, Innebandy, Motion, Pyssel, Samkväm",
+              "short_description": "Vi är en ideell förening för barn och familjer med NPF diagnoser. Vi träffas tillsammans med barn med diagnos och deras skuggsyskon för att få träffa andra i liknande situationer, bygga vänskaper och få känna delaktighet. Vi brukar ha gymnastik i idrottshallen och bubbelblåsning/fotboll utomhus. Ibland behöver människorna med npf få gå ut och vila lite från alla intryck i idrottshallen innan dem orkar komma in och fortsätta ha gymnastik igen. Vi håller alltså till i idrottshallen och utanför idrottshallen samtidigt för att barnen inte ska känna sig låsta och tvingade att stanna."
+            }
+          }
+        ],
+        "free_text": "Vi är en ideell förening för barn och familjer med NPF diagnoser. Vi träffas tillsammans med barn med diagnos och deras skuggsyskon för att få träffa andra i liknande situationer, bygga vänskaper och få känna delaktighet. Vi brukar ha gymnastik i idrottshallen och bubbelblåsning/fotboll utomhus. Ibland behöver människorna med npf få gå ut och vila lite från alla intryck i idrottshallen innan dem orkar komma in och fortsätta ha gymnastik igen. Vi håller alltså till i idrottshallen och utanför idrottshallen samtidigt för att barnen inte ska känna sig låsta och tvingade att stanna."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Madelenie gunnarsson",
+        "contact_person_role": null,
+        "contact_person_email": "madelenie@npfgemenskap.se",
+        "contact_person_phone": "+46704096894"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0704096894"
+      },
+      "founded_year": 2025,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Anhörigstöd, Badminton, Basket, Dans, Erfarenhetsutbyte, Fotboll, Gymnastik, Handboll, Idrott och Hälsa, Innebandy, Motion, Pyssel, Samkväm"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "OK Silva",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.oksilva.nu/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SILVA",
+      "street_address": "Lantvägen 37",
+      "postal_code": "246 33",
+      "city": "Löddeköpinge",
+      "email": "magnus.thuresson@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1940",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Orienteringsförbundet",
+              "verksamhet_raw": "Orientering",
+              "short_description": "Orienteringsklubben i Kävlinge kommun med ca 160 medlemmar."
+            }
+          }
+        ],
+        "free_text": "Orienteringsklubben i Kävlinge kommun med ca 160 medlemmar."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus thuresson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46703837994"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0703-837994"
+      },
+      "founded_year": 1940,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Orienteringsförbundet",
+      "verksamhet_raw": "Orientering"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "OneTwoSing",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Kör",
+        "Sång"
+      ],
+      "categories": [],
+      "homepage_url": "https://onetwosing.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=ONE",
+      "street_address": "Edvin Anderssons väg 23D",
+      "postal_code": "246 31",
+      "city": "Löddeköpinge",
+      "email": "info@onetwosing.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2021",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kör, Sång",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin stenéus",
+        "contact_person_role": null,
+        "contact_person_email": "info@onetwosing.se",
+        "contact_person_phone": "+46705761010"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0705761010"
+      },
+      "founded_year": 2021,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kör, Sång"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "PRO Kävlinge",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Boule",
+        "Dans",
+        "Friluftsliv",
+        "Kultur...",
+        "Kultur",
+        "Motion",
+        "Motionsgymnastik",
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=PROK%c3%84V",
+      "street_address": "Västergatan 6A",
+      "postal_code": "244 30",
+      "city": "Kävlinge",
+      "email": "kavlinge@pro.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1942",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Pensionärernas Riksorg.",
+              "verksamhet_raw": "Boule, Dans, Friluftsliv, Kultur, Motion, Motionsgymnastik, Simning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kaj hörgerud",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46706734256"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0706734256"
+      },
+      "founded_year": 1942,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Pensionärernas Riksorg.",
+      "verksamhet_raw": "Boule, Dans, Friluftsliv, Kultur, Motion, Motionsgymnastik, Simning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Scouterna Lödde",
+      "org_number": null,
+      "types": [
+        "Scoutkårer"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": "http://lodde.scout.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=HSK",
+      "street_address": "Odlarevägen 73",
+      "postal_code": "246 33",
+      "city": "Löddeköpinge",
+      "email": "lena.palsson@scoutlodde.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1977",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Scouterna",
+              "verksamhet_raw": "Scouting",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan ahlberg",
+        "contact_person_role": null,
+        "contact_person_email": "johan.ahlberg@scoutlodde.se",
+        "contact_person_phone": "+46733543040"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0733-54 30 40"
+      },
+      "founded_year": 1977,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Scouterna",
+      "verksamhet_raw": "Scouting"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Segelsällskapet Pinhättan",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Segling"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.pinhattan.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SSP",
+      "street_address": "Pinhättevägen",
+      "postal_code": "246 57",
+      "city": "Barsebäck",
+      "email": "info@pinhattan.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1961",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Seglarförbundet",
+              "verksamhet_raw": "Segling",
+              "short_description": "SSP bedriver seglingsverksamhet. Från nybörjare till elit. Klubben håller på med både jollar och kölbåtar. Pinhättan är namnet på den fyr som ligger utanför Barsebäckshamn en bit ut i havet. Under sommarlovets fyra första veckor får ungdomar möjlighet att lära sig segla. För de vuxna finns det möjlighet att lära sig segla eller damma av gamla kunskaper tillsammans med engagerade lärare och instruktörer"
+            }
+          }
+        ],
+        "free_text": "SSP bedriver seglingsverksamhet. Från nybörjare till elit. Klubben håller på med både jollar och kölbåtar. Pinhättan är namnet på den fyr som ligger utanför Barsebäckshamn en bit ut i havet. Under sommarlovets fyra första veckor får ungdomar möjlighet att lära sig segla. För de vuxna finns det möjlighet att lära sig segla eller damma av gamla kunskaper tillsammans med engagerade lärare och instruktörer"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna olsson",
+        "contact_person_role": null,
+        "contact_person_email": "annasofols@gmail.com",
+        "contact_person_phone": "+46733364560"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0733364560",
+        "work": "0733364560",
+        "mobile": ""
+      },
+      "founded_year": 1961,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Seglarförbundet",
+      "verksamhet_raw": "Segling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Sensus studieförbund",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Folkbildning",
+        "Kultur",
+        "Studiecirklar"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SEN",
+      "street_address": "Södra Vallgatan 5",
+      "postal_code": "211 40",
+      "city": "Malmö",
+      "email": "ulrika.randver@sensus.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Folkbildning, Kultur, Studiecirklar",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Barbro borglin",
+        "contact_person_role": null,
+        "contact_person_email": "barbro.borglin@sensus.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Folkbildning, Kultur, Studiecirklar"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Simklubben Nereus",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sknereus.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SKN",
+      "street_address": "Framtidsgatan 15",
+      "postal_code": "244 31",
+      "city": "Kävlinge",
+      "email": "kansliet@sknereus.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Simning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elisabeth hydén persson",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@sknereus.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Simning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "SPF Gillhög Löddeköpinge",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Pensionär"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.spfseniorerna.se/gillhog",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SPFG",
+      "street_address": "Järnvägen 10",
+      "postal_code": "246 36",
+      "city": "Löddeköpinge",
+      "email": "gillhogloddekopinge@spfseniorerna.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1967",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "SPF Seniorerna",
+              "verksamhet_raw": "Pensionär",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena syde",
+        "contact_person_role": null,
+        "contact_person_email": "lena.syde@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1967,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "SPF Seniorerna",
+      "verksamhet_raw": "Pensionär"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "SPF Seniorerna Club 75",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Pensionär"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.spf.se/spfkavlinge",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SPFC75",
+      "street_address": "Rundelsgatan 4",
+      "postal_code": "244 31",
+      "city": "Kävlinge",
+      "email": "marianne.videsson@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1975",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "SPF Seniorerna",
+              "verksamhet_raw": "Pensionär",
+              "short_description": "SPF Seniorerna är en partipolitiskt och religiöst obunden organisation för seniorer. Vi finns runt om i landet. Prioriterade frågor är: Äldres ekonomi, hälsa och omsorg, boende, inflytande och rätt att arbeta."
+            }
+          }
+        ],
+        "free_text": "SPF Seniorerna är en partipolitiskt och religiöst obunden organisation för seniorer. Vi finns runt om i landet. Prioriterade frågor är: Äldres ekonomi, hälsa och omsorg, boende, inflytande och rätt att arbeta."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran lindgren",
+        "contact_person_role": null,
+        "contact_person_email": "gran.lindgren@gmail.com",
+        "contact_person_phone": "+46707358912"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0707-35 89 12"
+      },
+      "founded_year": 1975,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "SPF Seniorerna",
+      "verksamhet_raw": "Pensionär"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Studiefrämjandet Syd",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Folkbildning",
+        "Kultur",
+        "Studiecirklar"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.studieframjandet.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=STU",
+      "street_address": "Ystadsgatan 53D",
+      "postal_code": "214 44",
+      "city": "Malmö",
+      "email": "tilde.dahl@studieframjandet.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Folkbildning, Kultur, Studiecirklar",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tilde dahl",
+        "contact_person_role": null,
+        "contact_person_email": "tilde.dahl@studieframjandet.se",
+        "contact_person_phone": "+46761096222"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0761-09 62 22"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Folkbildning, Kultur, Studiecirklar"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Studieförbundet Bilda Sydväst",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Folkbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bilda.nu/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=BILDA",
+      "street_address": "Jörgen Ankersgatan 12",
+      "postal_code": "211 45",
+      "city": "Malmö",
+      "email": "frida.rosenbabarik@bilda.nu",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Folkbildning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Frida rosen babarik",
+        "contact_person_role": null,
+        "contact_person_email": "frida.rosenbabarik@bilda.nu",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Folkbildning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan Lundabygden",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Folkbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sv.se/lundabygden",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=SV",
+      "street_address": "Glimmervägen 6",
+      "postal_code": "224 78",
+      "city": "Lund",
+      "email": "lundabygden@sv.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Folkbildning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nils-ola nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "nils-ola.nilsson@sv.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Folkbildning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Teater Oscar",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=TOSCA",
+      "street_address": "Bachmansgatan 13",
+      "postal_code": "244 39",
+      "city": "Kävlinge",
+      "email": "marielundgren02@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1989",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Amatörteaterns RIksförbund",
+              "verksamhet_raw": "Teater",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie lundgren",
+        "contact_person_role": null,
+        "contact_person_email": "marietommy13@gmail.com",
+        "contact_person_phone": "+46730361770"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0730361770"
+      },
+      "founded_year": 1989,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Amatörteaterns RIksförbund",
+      "verksamhet_raw": "Teater"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Tillsammans för Kävlinge",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Erfarenhetsutbyte",
+        "Folkbildning",
+        "Kultur",
+        "Samkväm"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.facebook.com/tillsammansforkavlinge",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=TFK",
+      "street_address": "Jägaregatan 7",
+      "postal_code": "226 52",
+      "city": "Lund",
+      "email": "tillsammanskavlinge@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2016",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Tillsammansskapet",
+              "verksamhet_raw": "Erfarenhetsutbyte, Folkbildning, Kultur, Samkväm",
+              "short_description": "Tillsammans för Kävlinge är en del av Tillsammansskapet, som arbetar för att stärka sammanhållningen och motverka rasism i lokalsamhällen. Vi är partipolitiskt och religiöst obundna. Välkommen!"
+            }
+          }
+        ],
+        "free_text": "Tillsammans för Kävlinge är en del av Tillsammansskapet, som arbetar för att stärka sammanhållningen och motverka rasism i lokalsamhällen. Vi är partipolitiskt och religiöst obundna. Välkommen!"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Filip roslund",
+        "contact_person_role": null,
+        "contact_person_email": "tillsammanskavlinge@gmail.com",
+        "contact_person_phone": "+46702835546"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0702-83 55 46"
+      },
+      "founded_year": 2016,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Tillsammansskapet",
+      "verksamhet_raw": "Erfarenhetsutbyte, Folkbildning, Kultur, Samkväm"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "VikingaTider",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Arkeologi",
+        "Friluftsmuseum",
+        "Historia",
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.vikingatider.se/",
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=VIKING",
+      "street_address": "Ådalsvägen 18",
+      "postal_code": "246 35",
+      "city": "Löddeköpinge",
+      "email": "info@vikingatider.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2000",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Hembygdsförbund",
+              "verksamhet_raw": "Arkeologi, Friluftsmuseum, Historia, Kultur",
+              "short_description": "VikingaTider är ett unikt arkeologiskt friluftsmuseum, med fokus på vikingatid och tidig medeltid. Vårt mål är att berätta den sanna historien om vikingatidens människor och deras liv genom att erbjuda en levande och trovärdig upplevelse av vikingatiden."
+            }
+          }
+        ],
+        "free_text": "VikingaTider är ett unikt arkeologiskt friluftsmuseum, med fokus på vikingatid och tidig medeltid. Vårt mål är att berätta den sanna historien om vikingatidens människor och deras liv genom att erbjuda en levande och trovärdig upplevelse av vikingatiden."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Josefin borr",
+        "contact_person_role": null,
+        "contact_person_email": "info@vikingatider.se",
+        "contact_person_phone": "+4646706210"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "046-70 62 10",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 2000,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Hembygdsförbund",
+      "verksamhet_raw": "Arkeologi, Friluftsmuseum, Historia, Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kävlinge",
+    "scrape_run_id": "a347e289-16d1-4e63-9b0b-85c15ed7159d",
+    "scraped_at": "2025-10-27T08:14:01.621Z",
+    "association": {
+      "name": "Vävslaget",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Erfarenhetsutbyte",
+        "hantverk",
+        "Konst",
+        "Kultur...",
+        "Kultur",
+        "Pensionär",
+        "Samkväm",
+        "Studiecirklar",
+        "Vävning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fritid.kavlinge.se/forening/visa.aspx?id=V%c3%84V",
+      "street_address": "Kvarngatan 21 Källaren under vårdcentral",
+      "postal_code": "244 31",
+      "city": "Kävlinge",
+      "email": "vavslaget.kavlinge@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2023",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksvävarna i Skåne",
+              "verksamhet_raw": "Erfarenhetsutbyte, hantverk, Konst, Kultur, Pensionär, Samkväm, Studiecirklar, Vävning",
+              "short_description": "Vi vill bidra till att bevara och förvalta olika vävtekniker och redskap, men även att stödja varandra i lärandet av gamla traditionella sätt att väva i Kävlingebygden. Vårt syfte är att arrangera arbetet för de fria textilkonsterna och utveckla moderna nya kreativa textila skapelser i samtiden. Vi har även ett hållbart synsätt i verksamheten och arbetar med återbruksmaterial. Vävslaget vill verka för att synliggöra barns och ungas olika kulturella och konstnärliga uttrycksformer genom textila tekniker. Inte minst vill vi öppna upp för hantverket som skapar växande magi och vara ett levande, viktigt komplement till dagens brus och stress i livet."
+            }
+          }
+        ],
+        "free_text": "Vi vill bidra till att bevara och förvalta olika vävtekniker och redskap, men även att stödja varandra i lärandet av gamla traditionella sätt att väva i Kävlingebygden. Vårt syfte är att arrangera arbetet för de fria textilkonsterna och utveckla moderna nya kreativa textila skapelser i samtiden. Vi har även ett hållbart synsätt i verksamheten och arbetar med återbruksmaterial. Vävslaget vill verka för att synliggöra barns och ungas olika kulturella och konstnärliga uttrycksformer genom textila tekniker. Inte minst vill vi öppna upp för hantverket som skapar växande magi och vara ett levande, viktigt komplement till dagens brus och stress i livet."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anja kärhä",
+        "contact_person_role": null,
+        "contact_person_email": "vavslaget.kavlinge@gmail.com",
+        "contact_person_phone": "+46768906925"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "+46768906925",
+        "work": "",
+        "mobile": "0768906925"
+      },
+      "founded_year": 2023,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksvävarna i Skåne",
+      "verksamhet_raw": "Erfarenhetsutbyte, hantverk, Konst, Kultur, Pensionär, Samkväm, Studiecirklar, Vävning"
+    }
+  }
+]

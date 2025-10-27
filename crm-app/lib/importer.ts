@@ -461,7 +461,7 @@ async function findExistingAssociation(
   options: { detailUrl: string | null; municipalityId: string; name: string }
 ) {
   if (options.detailUrl) {
-    const byDetail = await prisma.association.findUnique({ where: { detailUrl: options.detailUrl } })
+    const byDetail = await prisma.association.findFirst({ where: { detailUrl: options.detailUrl } })
     if (byDetail) {
       return byDetail
     }

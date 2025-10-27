@@ -1,0 +1,3583 @@
+[
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/78",
+      "name": "ABF Malmö",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.abf.se/distrikt--avdelningar/abf-skane/abf-malmo/",
+      "street_address": "Spånehusvägen 47",
+      "postal_code": "21158",
+      "city": "Malmö",
+      "email": "info.malmo@abf.se",
+      "phone": "040352400",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 0,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 78,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/3187",
+      "name": "Arlövs Afghanska-Svensk Vänskap Föreningen",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Fotboll",
+        "Kultur",
+        "Volleyboll"
+      ],
+      "categories": [
+        "Burlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Skolgatan 22 ",
+      "postal_code": "23231",
+      "city": "Arlöv",
+      "email": "faiz_hamdam75@hotmail.com",
+      "phone": "0735876859",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Volleyboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Burlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ali Haiderzadah",
+        "contact_person_role": "Revisor",
+        "contact_person_email": "Alihaiderzadah@gmail.com",
+        "contact_person_phone": "0702405080"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 1,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3187,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/6",
+      "name": "Arlövs Boll och Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": "http://www.arlovsbi.se",
+      "street_address": "Badhusvägen 9",
+      "postal_code": "23237",
+      "city": "Arlöv",
+      "email": "kansli@arlovsbi.se",
+      "phone": "040430566",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 2,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 6,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/38",
+      "name": "Arlövs Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Lommavägen 24",
+      "postal_code": "23235",
+      "city": "Arlöv",
+      "email": "sadeq.faqiri@live.se",
+      "phone": "0707767517",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 3,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 38,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/8",
+      "name": "Arlövs Kvinnliga Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Gymnastik",
+        "Pensionär"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Allégatan 8",
+      "postal_code": "23231",
+      "city": "Arlöv",
+      "email": "ceciliagagge@yahoo.se",
+      "phone": "0730603288",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Pensionär"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 4,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 8,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/12",
+      "name": "Arlövs Motor Club",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.arlovsmc.se",
+      "street_address": "Västra Promenaden 3",
+      "postal_code": "23235",
+      "city": "Arlöv",
+      "email": "ing.han@hotmail.se",
+      "phone": "0703443911",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motorsport"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 5,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 12,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/4737",
+      "name": "Arlövs Pensionärers Bowlingklubb",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [],
+      "categories": [
+        "Burlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Färsvägen2",
+      "postal_code": "23254",
+      "city": "Åkarp",
+      "email": "mgelch@gmail.com",
+      "phone": "0704945002",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 6,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 4737,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2467",
+      "name": "Bara härads hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/bara-harad",
+      "street_address": "Solrosvägen 6",
+      "postal_code": "23239",
+      "city": "ARLÖV",
+      "email": "karin@familjenaberg.se",
+      "phone": "0730483382",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 7,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2467,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/23",
+      "name": "Boulesällskapet Smedkulan",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Kornvägen 13",
+      "postal_code": "23238",
+      "city": "Arlöv",
+      "email": "lennart567@hotmail.com",
+      "phone": "0762389476",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Boule"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 8,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 23,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/82",
+      "name": "Bugeikan Karate IF",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Budo o kampsport"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": "http://www.bugeikan.se",
+      "street_address": "Verkstadsgatan 5",
+      "postal_code": "23235",
+      "city": "Arlöv",
+      "email": "tobbekai@gmail.com",
+      "phone": "0730248080",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Budo o kampsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 9,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 82,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/10",
+      "name": "Burlöv Hogs innebandyförening",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": "http://www.burlovhogs.se",
+      "street_address": "Västra Varvsgatan 21 D",
+      "postal_code": "21749",
+      "city": "Malmö",
+      "email": "info@burlovhogs.se",
+      "phone": "0760441697",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 10,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 10,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/4862",
+      "name": "Burlöv Tchoukball Klubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Tchoukball"
+      ],
+      "categories": [
+        "Burlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Borggatan 17",
+      "postal_code": "23231",
+      "city": "ARLÖV",
+      "email": "Burlovtchoukball@gmail.com",
+      "phone": "004542226982",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Tchoukball"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Burlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 11,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 4862,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/27",
+      "name": "Burlövs Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Friluftsliv"
+      ],
+      "activities": [
+        "Djur och Natur"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.burlovsbk.se",
+      "street_address": "Gamla Segevägen",
+      "postal_code": "23291",
+      "city": "Arlöv",
+      "email": "infoburlovsbk@gmail.com",
+      "phone": "0760688883",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Djur och Natur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 12,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 27,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/4",
+      "name": "Burlövs Folkdansgille",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://burlovsfolkdansgille.blogspot.com/",
+      "street_address": "Russvägen 10",
+      "postal_code": "24538",
+      "city": "Staffanstorp",
+      "email": "burlovsfdg@gmail.com",
+      "phone": "0702534022",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 13,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 4,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/40",
+      "name": "Burlövs Mölleförening",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.kronetorpsmolla.se",
+      "street_address": "Mejerivägen 8",
+      "postal_code": "23252",
+      "city": "Åkarp",
+      "email": "b.evert.linden@gmail.com",
+      "phone": "0708681003",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kenneth Gustavsson",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "kenneth.gustavsson@kronetorpsmolla.se",
+        "contact_person_phone": "0708407059"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 14,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 40,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/13",
+      "name": "Burlövs Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": "https://www.burf.nu/",
+      "street_address": "Helenelunds Gård",
+      "postal_code": "23239",
+      "city": "Arlöv",
+      "email": "styrelsen@burf.nu",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ridsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 15,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 13,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/18",
+      "name": "Burlövs Scoutkår",
+      "org_number": null,
+      "types": [
+        "Friluftsliv"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.burlovsscoutkar.se",
+      "street_address": "Bladvägen 42",
+      "postal_code": "23253",
+      "city": "Åkarp",
+      "email": "info@burlovsscoutkar.se",
+      "phone": "040465690",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Scouting"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 16,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 18,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/35",
+      "name": "Burlövs Socialdemokratiska Arbetarekommun",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Torngatan 6 NB",
+      "postal_code": "23234",
+      "city": "Arlöv",
+      "email": "burlov@socialdemokraterna.se",
+      "phone": "0705098899",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 17,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 35,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/52",
+      "name": "Centerpartiet",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Turelundsvägen 22",
+      "postal_code": "23291",
+      "city": "Arlöv",
+      "email": "fredrik.joergensen@lm.lrf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 18,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 52,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/5046",
+      "name": "Charlotte Weibulls Vänförening ",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Åkarp"
+      ],
+      "homepage_url": "https://www.charlotteweibull.com/",
+      "street_address": "Åkarp ",
+      "postal_code": "21774",
+      "city": "Malmö",
+      "email": "lars.weibull@weibull.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åkarp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 19,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 5046,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/41",
+      "name": "CMMC Classic Mc Moped Club",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.cmmc.se",
+      "street_address": "Dalbyvägen 19",
+      "postal_code": "23234",
+      "city": "Arlöv",
+      "email": "ordforande@cmmc.se",
+      "phone": "0705532906",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motorsport"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan Svensson Svensson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "ordforande@cmmc.se",
+        "contact_person_phone": "0705532906"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 20,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 41,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2422",
+      "name": "Folkuniversitetet",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.folkuniversitetet.se/",
+      "street_address": "Box 2116",
+      "postal_code": "22002",
+      "city": "Lund",
+      "email": "charlott.johansson@folkuniversitetet.se",
+      "phone": "046-197700",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 21,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2422,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/26",
+      "name": "Friluftsfrämjandet i Åkarp",
+      "org_number": null,
+      "types": [
+        "Friluftsliv"
+      ],
+      "activities": [
+        "Djur och Natur"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.friluftsframjandet.se/regioner/syd/lokalavdelningar/akarp/",
+      "street_address": "Skyttsvägen 6",
+      "postal_code": "23254",
+      "city": "Åkarp",
+      "email": "boman.axelsson@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Djur och Natur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 22,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 26,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/21",
+      "name": "Föreningen HjärtLung Lund",
+      "org_number": null,
+      "types": [
+        "Handikapp"
+      ],
+      "activities": [
+        "Handikapp"
+      ],
+      "categories": [],
+      "homepage_url": "http://hjart-lung.se/lund",
+      "street_address": "Vårvädersvägen 4D",
+      "postal_code": "22227",
+      "city": "Lund",
+      "email": "info@lund.hjart-lung.se",
+      "phone": "0462114990",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Handikapp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 23,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 21,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2784",
+      "name": "Granbackens koloniförening ",
+      "org_number": null,
+      "types": [
+        "Friluftsliv"
+      ],
+      "activities": [
+        "Odling",
+        "Djur och Natur"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": "https://granbackenskoloni.se/",
+      "street_address": "Allegatan",
+      "postal_code": "23231",
+      "city": "Arlöv",
+      "email": "granbackenskoloni@gmail.com",
+      "phone": "0706744047",
+      "description": {
+        "free_text": "Snart en 100 åring - Granbackens Koloniområde\r\n\r\nGranbackens koloniförening har en rik historia som sträcker sig tillbaka till 1928.\r\n\r\nHär kan du njuta av ett lugnt och idylliskt läge samtidigt som du har närhet till affärer, restauranger och bussar.\r\n\r\nTelefontider vardagar 18.00 – 19.00\r\nLördag och söndag 09.00 – 11.00",
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Odling"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Djur och Natur"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lejla Krupic",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "granbackenskoloni@gmail.com",
+        "contact_person_phone": "0704411851"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 24,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2784,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/32",
+      "name": "Hembygdsgillet Burlöv Lomma",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Burlöv"
+      ],
+      "homepage_url": "http://www.folkdansringen.se/burlov",
+      "street_address": "Ida Nilssons gata 3",
+      "postal_code": "23841",
+      "city": "Oxie",
+      "email": "burlov@folkdansringen.se",
+      "phone": "040431288",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Burlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 25,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 32,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/56",
+      "name": "Hemmaplans Sociala Idrottsförening 232 Arlöv",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Basket",
+        "Fotboll"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": "https://www.hemmaplan.eu/",
+      "street_address": "Rapsvägen 133",
+      "postal_code": "23238",
+      "city": "Arlöv",
+      "email": "hemmaplan.arlov@skanebasket.se",
+      "phone": "0764546035",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Basket"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 26,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 56,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/87",
+      "name": "Ibn Rushd",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.ibnrushd.se",
+      "street_address": "Kopparbergsgatan 4",
+      "postal_code": "21444",
+      "city": "Malmö",
+      "email": "ala.eddin.alqut@ibnrushd.se",
+      "phone": "04081310",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 27,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 87,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/1950",
+      "name": "KFUM KIOSK",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Betaniaplan 4",
+      "postal_code": "21155",
+      "city": "Malmö",
+      "email": "antinlars@hotmail.com",
+      "phone": "0730985053",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 28,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1950,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/53",
+      "name": "Liberalerna i Burlöv",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://burlov.liberalerna.se/",
+      "street_address": "Rapphönevägen 7 ",
+      "postal_code": "23252",
+      "city": "Arlöv",
+      "email": "burlov@liberalerna.se",
+      "phone": "0706364066",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 29,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 53,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/89",
+      "name": "Lådbilsentusiasterna",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Rapsvägen 115",
+      "postal_code": "23238",
+      "city": "Arlöv",
+      "email": "torgny.wallin@live.com",
+      "phone": "0707213043",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 30,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 89,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2059",
+      "name": "Malmö Burlöv Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": "http://www.malmoburlovgk.com/se",
+      "street_address": "Segesvängen 5",
+      "postal_code": "21227",
+      "city": "Malmö",
+      "email": "cw@mabgk.se",
+      "phone": "040292535",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Golf"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 31,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2059,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/74",
+      "name": "Med Vind Ideell förening",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/medvind.burlov/",
+      "street_address": "Lars Christers väg 8",
+      "postal_code": "22480",
+      "city": "Lund",
+      "email": "lonebachborius@gmail.com",
+      "phone": "0709289204",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 32,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 74,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/42",
+      "name": "Medborgarskolan Syd",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.medborgarskolan.se/",
+      "street_address": "Hans Michelsensgatan 6A",
+      "postal_code": "21120",
+      "city": "Malmö",
+      "email": "marianne.ljungberg@medborgarskolan.se",
+      "phone": "0752416850",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 33,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 42,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/80",
+      "name": "Miljöpartiet de gröna i Burlöv",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Järnvägsgatan 13",
+      "postal_code": "23235",
+      "city": "Arlöv",
+      "email": "burlov@mp.se",
+      "phone": "0705082161",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 34,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 80,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/57",
+      "name": "Moderaterna Samlingspartiet i Burlöv",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lars.johnson@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 35,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 57,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2",
+      "name": "Musikföreningen Music Dreams",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Dans",
+        "Pensionär",
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Rapsvägen 93, lgh 1103 ",
+      "postal_code": "23238",
+      "city": "Arlöv",
+      "email": "tinapettersson@live.se",
+      "phone": "0703932416",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Pensionär"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Musik"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 36,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2527",
+      "name": "Möllans Trädgårds Vänner",
+      "org_number": null,
+      "types": [
+        "Friluftsliv"
+      ],
+      "activities": [
+        "Djur och Natur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Dalbyvägen 69",
+      "postal_code": "23238",
+      "city": "Arlöv",
+      "email": "lizohl@gmail.com",
+      "phone": "070-6819612",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Djur och Natur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 37,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2527,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/3395",
+      "name": "NBV Syd",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.nbv.se/",
+      "street_address": "Ystadvägen 15",
+      "postal_code": "21430",
+      "city": "Malmö",
+      "email": "syd@nbv.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 38,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3395,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/62",
+      "name": "Neuroförbundet Lundabygden",
+      "org_number": null,
+      "types": [
+        "Handikapp"
+      ],
+      "activities": [
+        "Handikapp"
+      ],
+      "categories": [],
+      "homepage_url": "http://neuro.se/lundabygden",
+      "street_address": "Skansvägen 5",
+      "postal_code": "22649",
+      "city": "Lund",
+      "email": "lundabygden@neuro.se",
+      "phone": "046157057",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Handikapp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 39,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 62,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/63",
+      "name": "Neuroförbundet Malmö",
+      "org_number": null,
+      "types": [
+        "Handikapp"
+      ],
+      "activities": [
+        "Handikapp"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.neuroforbundet.se/malmo",
+      "street_address": "Ängelholmsgatan 6",
+      "postal_code": "21422",
+      "city": "Malmö",
+      "email": "malmo@neuroforbundet.se",
+      "phone": "040125959",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Handikapp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 40,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 63,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/3",
+      "name": "PRO Arlöv",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionär",
+        "Dans"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Lundavägen 35",
+      "postal_code": "23234",
+      "city": "Arlöv",
+      "email": "arlov@pro.se",
+      "phone": "040430088",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionär"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 41,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/30",
+      "name": "PRO Åkarp",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionär"
+      ],
+      "categories": [],
+      "homepage_url": "https://pro.se/distrikt/distrikt-skane/samorganisationer/samorganisation-burlov/foreningar/akarp.html",
+      "street_address": "Harakärrsvägen 3",
+      "postal_code": "23253",
+      "city": "Åkarp",
+      "email": "akarp@pro.se",
+      "phone": "0733314565",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionär"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 42,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 30,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/64",
+      "name": "Reumatikerföreningen i Lundabygden",
+      "org_number": null,
+      "types": [
+        "Handikapp"
+      ],
+      "activities": [
+        "Handikapp"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.lundabygden.reumatikeforbundet.org",
+      "street_address": "Skiffervägen 20",
+      "postal_code": "22478",
+      "city": "Lund",
+      "email": "reumatikerforen.lundabygdens@telia.com",
+      "phone": "046123170",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Handikapp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 43,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 64,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/66",
+      "name": "RF-SISU Skåne",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.rfsisu.se/skane",
+      "street_address": "Box 10063",
+      "postal_code": "20043",
+      "city": "Malmö",
+      "email": "joseph.azizi@rfsisu.se",
+      "phone": "0406005900",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 44,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 66,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/79",
+      "name": "Rädda Barnens lokalförening i Burlöv",
+      "org_number": null,
+      "types": [
+        "Humanitär"
+      ],
+      "activities": [
+        "Humanitära"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/RaddaBarnenBurlov/",
+      "street_address": "Kornvägen 15",
+      "postal_code": "23238",
+      "city": "Arlöv",
+      "email": "lf.burlov@medlem.rb.se",
+      "phone": "0739247434",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Humanitära"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 45,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 79,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/24",
+      "name": "Röda Korset Arlöv-Hvilankretsen",
+      "org_number": null,
+      "types": [
+        "Humanitär"
+      ],
+      "activities": [
+        "Humanitära"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Jakob Pers väg 3",
+      "postal_code": "23231",
+      "city": "Arlöv",
+      "email": "ilonamorvai@gmail.com",
+      "phone": "040431440",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Humanitära"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 46,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 24,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/5273",
+      "name": "Röda Korsets Ungdomsförbund Burlöv",
+      "org_number": null,
+      "types": [
+        "Humanitär"
+      ],
+      "activities": [
+        "Humanitära"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.rkuf.se/lokalforeningar/burlov/",
+      "street_address": "Drottninggatan 2C",
+      "postal_code": "21211",
+      "city": "Malmö",
+      "email": "rkuf.burlov@redcross.se",
+      "phone": "0707327152",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Humanitära"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mustafa Al-Jubouri",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "rkuf.burlov@redcross.se",
+        "contact_person_phone": "0707327152"
+      },
+      {
+        "contact_person_name": "Raed Abumaghafel",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "rkuf.burlov@redcross.se",
+        "contact_person_phone": "0736956213"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 47,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 5273,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/11",
+      "name": "Sakura To Katana",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Budo o kampsport"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Karolingatan 22",
+      "postal_code": "21234",
+      "city": "Malmö",
+      "email": "eliana.rothe@sweco.se",
+      "phone": "0705256475",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Budo o kampsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 48,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 11,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2359",
+      "name": "Sensus studieförbund Region Skåne-Blekinge",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sensus.se",
+      "street_address": "Torggatan 4",
+      "postal_code": "21140",
+      "city": "Malmö",
+      "email": "malmo@sensus.se",
+      "phone": "040-6645680",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 49,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2359,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2011",
+      "name": "Simsällskap Vattenpolo Akademin",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Värnhemstorget 11",
+      "postal_code": "21214",
+      "city": "Malmö",
+      "email": "na.pa@hotmail.com",
+      "phone": "0736-422044",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Simning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 50,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2011,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/29",
+      "name": "SPF Seniorerna Burlöv",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionär"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Harakärrsvägen 1",
+      "postal_code": "23253",
+      "city": "Åkarp",
+      "email": "falkocatarina@gmail.com",
+      "phone": "0703415119",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionär"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 51,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 29,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/31",
+      "name": "SPF Vårbo Seniorer Arlöv Åkarp",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionär"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Dalbyvägen 20 Arlöv",
+      "postal_code": "23254",
+      "city": "Åkarp",
+      "email": "ulla.edje@gmail.com",
+      "phone": "0707425816",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionär"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 52,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 31,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/65",
+      "name": "SRF Lundabygden",
+      "org_number": null,
+      "types": [
+        "Handikapp"
+      ],
+      "activities": [
+        "Handikapp"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Tordönsvägen 4 i",
+      "postal_code": "22227",
+      "city": "Lund",
+      "email": "srfkansli.lundabygden@bredband.net",
+      "phone": "0462110674",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Handikapp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 53,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 65,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/17",
+      "name": "Studiefrämjandet Syd",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.studieframjandet.se/",
+      "street_address": "Ystadsgatan 53 D",
+      "postal_code": "21444",
+      "city": "Malmö",
+      "email": "tilde.dahl@studieframjandet.se",
+      "phone": "0708777352",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 54,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 17,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/67",
+      "name": "Studieförbundet Bilda Sydväst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.bilda.nu/",
+      "street_address": "Jörgen Ankersgatan 12",
+      "postal_code": "21145",
+      "city": "Malmö",
+      "email": "sydvast@bilda.nu",
+      "phone": "0107099950",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 55,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 67,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2389",
+      "name": "Studieförbundet Vuxenskolan Lundabygden",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.sv.se/lundabygden",
+      "street_address": "Glimmervägen 6",
+      "postal_code": "22478",
+      "city": "Lund",
+      "email": "lundabygden@sv.se",
+      "phone": "046-2117080",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 56,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2389,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/34",
+      "name": "Sverigedemokraterna Burlöv",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://burlov.sd.se/",
+      "street_address": "Nils Anders Väg 38",
+      "postal_code": "23251",
+      "city": "Åkarp",
+      "email": "burlov@sd.se",
+      "phone": "072-2775009",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 57,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 34,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/14",
+      "name": "Sydsim",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": "http://www.sydsim.nu",
+      "street_address": "Badhusvägen 29",
+      "postal_code": "23233",
+      "city": "Arlöv",
+      "email": "kansli@sydsim.nu",
+      "phone": "729745669",
+      "description": {
+        "free_text": "Vi ska ha årsmöte den 27/3 2025",
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Simning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karl Wirstedt",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "karl.wirstedt@gmail.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": "Towa Fredriksen",
+        "contact_person_role": "Kassör",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 58,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 14,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/5315",
+      "name": "Tamam",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Fotboll",
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://tamam.se/",
+      "street_address": "Sölvegatan 29",
+      "postal_code": "22655",
+      "city": "lund",
+      "email": "admin@tamam.se",
+      "phone": "0760279289",
+      "description": {
+        "free_text": "Tamam är en partipolitiskt och religiöst obunden ideell ungdomsorganisation som arbetar med barn, unga och unga vuxna med mångfald, antirasism och ungas samhällsengagemang. Tamam arbetar för att skapa mötesplatser, organisera meningsfulla fritidsaktiviteter, ge alla samma möjligheter oavsett förutsättningar och uppmuntra unga människors samhällsengagemang.\r\n\r\n”Vänskap utan gränser” lyder Tamams motto, vilket innebär att bryta ner de hinder som står i vägen för att unga människor ska få en chans att lära känna varandra och bli vänner. Vänskap är inte något man kan tvinga fram – men man kan skapa förutsättningarna!\r\n\r\nTamam arbetar därför med att skapa nya sociala mötesplatser med mångfald, läxhjälp och fritidsaktiviteter för barn och ungdomar, vara en plattform för ungas samhällsengagemang och uppmuntra och stödja egna initiativ.",
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 59,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 5315,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/90",
+      "name": "Ungdomsrådet i Burlöv",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Amerikagården 1",
+      "postal_code": "23251",
+      "city": "Åkarp",
+      "email": "miss.frida.jensen@telia.com",
+      "phone": "0733121131",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 60,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 90,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2529",
+      "name": "Vallgårdens Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Norrevångsvägen 5",
+      "postal_code": "23253",
+      "city": "Åkarp",
+      "email": "kansli@vallgardensgk.se",
+      "phone": "040 46 31 35",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Golf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 61,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2529,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/3114",
+      "name": "Vision Burlöv",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [
+        "Politik"
+      ],
+      "categories": [
+        "Burlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Box 53",
+      "postal_code": "23221",
+      "city": "Arlöv",
+      "email": "vision@burlov.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Politik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Burlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 62,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3114,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/3401",
+      "name": "Vänskaps kultur och idrotts förening ",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kultur",
+        "Volleyboll"
+      ],
+      "categories": [
+        "Arlöv"
+      ],
+      "homepage_url": null,
+      "street_address": "Tegelbruksgatan 8",
+      "postal_code": "23234",
+      "city": "Arlöv",
+      "email": "massii__@hotmail.com",
+      "phone": "0724510834",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Volleyboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Arlöv"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Massi Noori",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "massii__@hotmail.com",
+        "contact_person_phone": "0735826573"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 63,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3401,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/2826",
+      "name": "Vänsterpartiet i Burlöv",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [
+        "Humanitära",
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://burlov.vansterpartiet.se/",
+      "street_address": "Resedavägen 49",
+      "postal_code": "23253",
+      "city": "Åkarp",
+      "email": "burlov@vansterpartiet.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Humanitära"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 64,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2826,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/19",
+      "name": "Åkarp-Burlövs Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Åkarp"
+      ],
+      "homepage_url": "http://www.akarpstk.net",
+      "street_address": "Box 70",
+      "postal_code": "23202",
+      "city": "Åkarp",
+      "email": "hakan.harvigsson@telia.com",
+      "phone": "040460335",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Tennis"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åkarp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 65,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 19,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/37",
+      "name": "Åkarps Gymnastikklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Åkarp"
+      ],
+      "homepage_url": "http://www.akarpsgk.com",
+      "street_address": "Luggudevägen 10",
+      "postal_code": "23254",
+      "city": "Åkarp",
+      "email": "akarpsgymnastik@gmail.com",
+      "phone": "0729629988",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åkarp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 66,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 37,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/28",
+      "name": "Åkarps Husmodersfören Hem Samhälle",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Allégatan 8",
+      "postal_code": "23231",
+      "city": "Arlöv",
+      "email": "ceciliagagge@yahoo.se",
+      "phone": "0730603288",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Cecilia Gagge",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "ceciliagagge@yahoo.se",
+        "contact_person_phone": "0730603288"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 67,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 28,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/7",
+      "name": "Åkarps Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Åkarp"
+      ],
+      "homepage_url": "http://www.akarpsif.se/start/?ID=159280",
+      "street_address": "Dalslundsvägen 138",
+      "postal_code": "23251",
+      "city": "Åkarp",
+      "email": "kansliet.akarpsif@hotmail.com",
+      "phone": "040462230",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åkarp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 68,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 7,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/22",
+      "name": "Åkarps Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Åkarp"
+      ],
+      "homepage_url": "http://www.akarpibk.se",
+      "street_address": "Kivra: 802431-2079",
+      "postal_code": "10631",
+      "city": "Stockholm",
+      "email": "styrelsen@akarpsibk.se",
+      "phone": "0704-732299",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åkarp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 69,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 22,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Burlöv",
+    "scrape_run_id": "ba159c03-de2b-417b-b287-b3457652d58a",
+    "scraped_at": "2025-10-26T15:03:42.544Z",
+    "association": {
+      "detail_url": "https://ibgo.burlov.se/AssociationRegister#/association/15",
+      "name": "Åkarps Sportskyttar",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Skyttesport"
+      ],
+      "categories": [
+        "Åkarp"
+      ],
+      "homepage_url": "http://www.svenskalag.se/akarpssps",
+      "street_address": "Lingongatan 68",
+      "postal_code": "23443",
+      "city": "Lomma",
+      "email": "marcus.weibull@gmail.com",
+      "phone": "+46709918020",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skyttesport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åkarp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 70,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 15,
+      "has_public_info": false
+    }
+  }
+]

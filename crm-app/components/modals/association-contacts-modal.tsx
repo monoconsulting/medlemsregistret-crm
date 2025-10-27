@@ -67,7 +67,7 @@ export function AssociationContactsModal({
     await updateContact.mutateAsync({
       id: contact.id,
       associationId: contact.associationId,
-      name: contact.name,
+      name: contact.name ?? "",
       role: contact.role ?? undefined,
       email: contact.email ?? undefined,
       phone: contact.phone ?? undefined,

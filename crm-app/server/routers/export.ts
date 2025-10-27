@@ -64,6 +64,7 @@ export const exportRouter = router({
         format: exportFormats.default('csv'),
         search: z.string().optional(),
         municipality: z.string().optional(),
+        municipalityId: z.string().optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
@@ -71,13 +72,17 @@ export const exportRouter = router({
 
       if (input.search) {
         where.OR = [
-          { name: { contains: input.search, mode: 'insensitive' } },
-          { municipality: { contains: input.search, mode: 'insensitive' } },
+          { name: { contains: input.search } },
+          { municipality: { contains: input.search } },
         ]
       }
 
       if (input.municipality) {
         where.municipality = input.municipality
+      }
+
+      if (input.municipalityId) {
+        where.municipalityId = input.municipalityId
       }
 
       const associations = await ctx.db.association.findMany({

@@ -2,19 +2,29 @@ import { chromium, Browser, Page } from 'playwright';
 import { v4 as uuidv4 } from 'uuid';
 import * as fs from 'fs';
 import * as path from 'path';
+import { config } from 'dotenv';
+import { getScrapingPaths, createLogger, runDatabaseImport } from '../utils/scraper-base';
+import { sanitizeForValidation } from '../utils/sanitize';
+
+// Load environment variables
+config();
 
 // Configuration
 const SOURCE_SYSTEM = 'ActorSmartbook';
-const MUNICIPALITY = 'Borås';
+const MUNICIPALITY = 'Boras';
 const BASE_URL = 'https://boras.actorsmartbook.se/Associations.aspx';
 const SCRAPE_RUN_ID = uuidv4();
 const SCRAPED_AT = new Date().toISOString();
 
-// Output paths
-const OUTPUT_DIR = path.join(__dirname, 'out');
-const JSONL_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY}_associations_${SCRAPE_RUN_ID}.jsonl`);
-const JSON_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY}_associations_${SCRAPE_RUN_ID}.json`);
-const LOG_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY}.log`);
+// Get paths from environment
+const paths = getScrapingPaths(MUNICIPALITY);
+const OUTPUT_DIR = paths.outputDir;
+const JSONL_PATH = paths.jsonlPath;
+const JSON_PATH = paths.jsonPath;
+const LOG_PATH = paths.logPath;
+
+// Logger
+const log = createLogger(LOG_PATH);
 
 // Stats tracking
 let totalAssociations = 0;
@@ -58,12 +68,6 @@ interface AssociationRecord {
 }
 
 // Utility functions
-function log(message: string): void {
-  const timestamp = new Date().toISOString();
-  const logMessage = `[${timestamp}] ${message}`;
-  console.log(logMessage);
-  fs.appendFileSync(LOG_PATH, logMessage + '\n');
-}
 
 function normalizeString(value: string | null | undefined): string | null {
   if (!value) return null;
@@ -121,10 +125,10 @@ async function handleCookieConsent(page: Page): Promise<void> {
     if (count > 0) {
       await cookieButton.click();
       await delay(500);
-      log('Accepted cookie consent');
+      log.info('Accepted cookie consent');
     }
   } catch (error) {
-    log(`No cookie consent found or already accepted: ${error}`);
+    log.info(`No cookie consent found or already accepted: ${error}`);
   }
 }
 
@@ -137,7 +141,7 @@ async function waitForListReady(page: Page): Promise<void> {
     });
     await delay(500);
   } catch (error) {
-    log(`Warning: Could not find association cards, trying alternative selector`);
+    log.info(`Warning: Could not find association cards, trying alternative selector`);
     await delay(1000);
   }
 }
@@ -163,34 +167,13 @@ async function hasNextPage(page: Page): Promise<boolean> {
 
 async function goToNextPage(page: Page): Promise<boolean> {
   try {
-    // Get the first association name BEFORE clicking next
-    const infoButtonsBefore = page.getByRole('button', { name: 'Info' });
-    const countBefore = await infoButtonsBefore.count();
-
-    // Get some text content to compare (to detect if page actually changed)
-    const bodyTextBefore = await page.locator('body').textContent();
-    const firstAssocTextBefore = bodyTextBefore?.substring(0, 500);
-
     const nextButton = page.getByRole('button', { name: 'Nästa' });
     await nextButton.click();
     await randomDelay(500, 1000);
     await waitForListReady(page);
-
-    // Check if page actually changed
-    const infoButtonsAfter = page.getByRole('button', { name: 'Info' });
-    const countAfter = await infoButtonsAfter.count();
-    const bodyTextAfter = await page.locator('body').textContent();
-    const firstAssocTextAfter = bodyTextAfter?.substring(0, 500);
-
-    // If nothing changed, we're at the last page
-    if (countBefore === countAfter && firstAssocTextBefore === firstAssocTextAfter) {
-      log('Page did not change after clicking Nästa - reached last page');
-      return false;
-    }
-
     return true;
   } catch (error) {
-    log(`Error navigating to next page: ${error}`);
+    log.info(`Error navigating to next page: ${error}`);
     return false;
   }
 }
@@ -203,11 +186,38 @@ async function goToFirstPage(page: Page): Promise<void> {
       await firstButton.click();
       await randomDelay(500, 1000);
       await waitForListReady(page);
-      log('Navigated to first page');
+      log.info('Navigated to first page');
     }
   } catch (error) {
-    log(`Could not navigate to first page: ${error}`);
+    log.info(`Could not navigate to first page: ${error}`);
   }
+}
+
+async function extractFieldFromList(page: Page, labelText: string): Promise<string | null> {
+  try {
+    // Find list items in ul.assn-info
+    const listItems = page.locator('ul.assn-info li');
+    const count = await listItems.count();
+
+    for (let i = 0; i < count; i++) {
+      const item = listItems.nth(i);
+      const text = await item.textContent();
+
+      if (text && text.includes(labelText)) {
+        // Extract the value part (after the label)
+        const spans = item.locator('span');
+        const spanCount = await spans.count();
+
+        if (spanCount >= 2) {
+          const value = await spans.nth(1).textContent();
+          return normalizeString(value);
+        }
+      }
+    }
+  } catch (error) {
+    log.info(`Warning: Error extracting field "${labelText}": ${error}`);
+  }
+  return null;
 }
 
 async function extractDetailModalData(page: Page): Promise<{
@@ -251,7 +261,7 @@ async function extractDetailModalData(page: Page): Promise<{
     // Wait for modal content
     await delay(800);
 
-    // Extract name from modal title/header (h3 in modal-header for Borås Actor Smartbook)
+    // Extract name from modal header
     try {
       const modalHeader = page.locator('.modal-header h3');
       const headerCount = await modalHeader.count();
@@ -263,68 +273,14 @@ async function extractDetailModalData(page: Page): Promise<{
       }
     } catch {}
 
-    // Try to extract Org.nr (Actor Smartbook shows this)
-    try {
-      const orgNrText = await page.locator('text=/Org\\.?\\s*nr/i').textContent();
-      if (orgNrText) {
-        const match = orgNrText.match(/(\d{6}-\d{4})/);
-        if (match) {
-          result.orgNumber = match[1];
-        }
-      }
-    } catch {}
-
-    // Try alternative: look for org number pattern in modal body
-    if (!result.orgNumber) {
-      try {
-        const modalBody = await page.locator('.modal-body, [class*="modal"], [class*="detail"]').textContent();
-        if (modalBody) {
-          const match = modalBody.match(/(?:Org\.?\s*nr|Organisationsnummer)[:\s]*(\d{6}-\d{4})/i);
-          if (match) {
-            result.orgNumber = match[1];
-          }
-        }
-      } catch {}
+    // Extract fields from ul.assn-info using extractFieldFromList
+    result.orgNumber = await extractFieldFromList(page, 'Org.nr:');
+    result.email = await extractFieldFromList(page, 'Epost:');
+    const homepage = await extractFieldFromList(page, 'Hemsida:');
+    if (homepage) {
+      result.homepage = homepage.startsWith('http') ? homepage : `https://${homepage}`;
     }
-
-    // Extract Email (Epost/E-post)
-    try {
-      const emailPattern = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/;
-      const bodyText = await page.locator('.modal-body, [class*="modal"]').textContent();
-      if (bodyText) {
-        const match = bodyText.match(emailPattern);
-        if (match) {
-          result.email = match[1].toLowerCase();
-        }
-      }
-    } catch {}
-
-    // Extract Homepage (Hemsida)
-    try {
-      const homepageLink = page.locator('a[href^="http"]:has-text("http"), text=/Hemsida/i').first();
-      const count = await homepageLink.count();
-      if (count > 0) {
-        const href = await homepageLink.getAttribute('href');
-        if (href) {
-          result.homepage = href;
-        }
-      }
-    } catch {}
-
-    // Extract City (Ort)
-    try {
-      const cityElement = page.locator('text=/Ort[:\s]/i');
-      const count = await cityElement.count();
-      if (count > 0) {
-        const cityText = await cityElement.textContent();
-        if (cityText) {
-          const match = cityText.match(/Ort[:\s]+(.+)/i);
-          if (match) {
-            result.city = normalizeString(match[1]);
-          }
-        }
-      }
-    } catch {}
+    result.city = await extractFieldFromList(page, 'Ort:');
 
     // Extract contact persons from table (Kontaktpersoner)
     try {
@@ -389,7 +345,7 @@ async function extractDetailModalData(page: Page): Promise<{
     }
 
   } catch (error) {
-    log(`Warning: Error extracting modal data: ${error}`);
+    log.info(`Warning: Error extracting modal data: ${error}`);
   }
 
   return result;
@@ -404,7 +360,7 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
   const infoButtons = page.getByRole('button', { name: 'Info' });
   const buttonCount = await infoButtons.count();
 
-  log(`Page ${pageIndex}: Found ${buttonCount} associations`);
+  log.info(`Page ${pageIndex}: Found ${buttonCount} associations`);
 
   for (let i = 0; i < buttonCount; i++) {
     try {
@@ -412,7 +368,7 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
       const buttons = page.getByRole('button', { name: 'Info' });
       const currentButton = buttons.nth(i);
 
-      log(`Page ${pageIndex}, Row ${i}: Opening modal...`);
+      log.info(`Page ${pageIndex}, Row ${i}: Opening modal...`);
 
       // Click the Info button to open modal
       await currentButton.click();
@@ -430,11 +386,11 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
       }
 
       if (!detailData.name) {
-        log(`Page ${pageIndex}, Row ${i}: Could not extract name from modal, skipping`);
+        log.info(`Page ${pageIndex}, Row ${i}: Could not extract name from modal, skipping`);
         continue;
       }
 
-      log(`Page ${pageIndex}, Row ${i}: Processing "${detailData.name}"`);
+      log.info(`Page ${pageIndex}, Row ${i}: Processing "${detailData.name}"`);
 
       // Build the record
       const record: AssociationRecord = {
@@ -480,7 +436,7 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
       records.push(record);
 
     } catch (error) {
-      log(`Page ${pageIndex}, Row ${i}: Error processing association: ${error}`);
+      log.info(`Page ${pageIndex}, Row ${i}: Error processing association: ${error}`);
       // Try to close any open modal before continuing
       try {
         const closeButton = page.getByRole('button', { name: '×' });
@@ -500,7 +456,7 @@ async function scrapeAllPages(page: Page): Promise<AssociationRecord[]> {
   const allRecords: AssociationRecord[] = [];
   let pageIndex = 1;
 
-  log('Starting scrape of all pages...');
+  log.info('Starting scrape of all pages...');
 
   // Go to first page to ensure we start from the beginning
   await goToFirstPage(page);
@@ -512,11 +468,11 @@ async function scrapeAllPages(page: Page): Promise<AssociationRecord[]> {
   // Continue with remaining pages
   while (await hasNextPage(page)) {
     pageIndex++;
-    log(`Navigating to page ${pageIndex}...`);
+    log.info(`Navigating to page ${pageIndex}...`);
 
     const success = await goToNextPage(page);
     if (!success) {
-      log(`Failed to navigate to page ${pageIndex}, stopping pagination`);
+      log.info(`Failed to navigate to page ${pageIndex}, stopping pagination`);
       break;
     }
 
@@ -525,12 +481,12 @@ async function scrapeAllPages(page: Page): Promise<AssociationRecord[]> {
 
     // Safety check - don't exceed 100 pages
     if (pageIndex >= 100) {
-      log(`Reached safety limit of 100 pages, stopping`);
+      log.info(`Reached safety limit of 100 pages, stopping`);
       break;
     }
   }
 
-  log(`Completed scraping ${pageIndex} pages`);
+  log.info(`Completed scraping ${pageIndex} pages`);
   return allRecords;
 }
 
@@ -540,21 +496,21 @@ async function main(): Promise<void> {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
-  // Initialize log file
-  fs.writeFileSync(LOG_PATH, `Scrape started at ${SCRAPED_AT}\n`);
-  fs.appendFileSync(LOG_PATH, `Run ID: ${SCRAPE_RUN_ID}\n`);
-  fs.appendFileSync(LOG_PATH, `Municipality: ${MUNICIPALITY}\n`);
-  fs.appendFileSync(LOG_PATH, `Source System: ${SOURCE_SYSTEM}\n\n`);
+  log.info('='.repeat(80));
+  log.info(`Starting scrape: ${MUNICIPALITY} (${SOURCE_SYSTEM})`);
+  log.info(`Run ID: ${SCRAPE_RUN_ID}`);
+  log.info(`Base URL: ${BASE_URL}`);
+  log.info('='.repeat(80));
 
-  log('Launching browser...');
-  const browser = await chromium.launch({ headless: false });
+  log.info('Launching browser...');
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
     viewport: { width: 3440, height: 1440 }
   });
   const page = await context.newPage();
 
   try {
-    log(`Navigating to ${BASE_URL}...`);
+    log.info(`Navigating to ${BASE_URL}...`);
     await page.goto(BASE_URL);
     await randomDelay();
 
@@ -564,27 +520,36 @@ async function main(): Promise<void> {
     // Scrape all pages
     const allRecords = await scrapeAllPages(page);
 
+    // Sanitize records
+    const sanitizedRecords = sanitizeForValidation(allRecords);
+
     // Write pretty JSON
-    log('Writing pretty JSON file...');
-    await writePrettyJson(allRecords);
+    log.info('Writing pretty JSON file...');
+    await writePrettyJson(sanitizedRecords);
+
+    // Import to database
+    await runDatabaseImport(MUNICIPALITY, log);
 
     // Log summary
-    log('\n=== SCRAPE SUMMARY ===');
-    log(`Total associations scraped: ${totalAssociations}`);
-    log(`Distinct homepage domains: ${homepageDomains.size}`);
-    log(`Records missing org_number: ${missingOrgNumber}`);
-    log(`Records missing contacts: ${missingContacts}`);
-    log(`\nOutput files:`);
-    log(`  JSONL: ${JSONL_PATH}`);
-    log(`  JSON: ${JSON_PATH}`);
-    log(`  Log: ${LOG_PATH}`);
+    log.info('='.repeat(80));
+    log.info('SCRAPING COMPLETE');
+    log.info('='.repeat(80));
+    log.info(`Total associations scraped: ${totalAssociations}`);
+    log.info(`Distinct homepage domains: ${homepageDomains.size}`);
+    log.info(`Records missing org_number: ${missingOrgNumber}`);
+    log.info(`Records missing contacts: ${missingContacts}`);
+    log.info(`\nOutput files:`);
+    log.info(`  JSONL: ${JSONL_PATH}`);
+    log.info(`  JSON:  ${JSON_PATH}`);
+    log.info(`  Log:   ${LOG_PATH}`);
+    log.info('='.repeat(80));
 
   } catch (error) {
-    log(`FATAL ERROR: ${error}`);
+    log.info(`FATAL ERROR: ${error}`);
     throw error;
   } finally {
     await browser.close();
-    log('\nBrowser closed. Scrape complete.');
+    log.info('\nBrowser closed. Scrape complete.');
   }
 }
 

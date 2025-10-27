@@ -47,9 +47,9 @@ export const contactRouter = router({
       if (input?.search) {
         const term = input.search.trim()
         where.OR = [
-          { name: { contains: term, mode: 'insensitive' } },
-          { email: { contains: term, mode: 'insensitive' } },
-          { phone: { contains: term, mode: 'insensitive' } },
+          { name: { contains: term } },
+          { email: { contains: term } },
+          { phone: { contains: term } },
         ]
       }
 

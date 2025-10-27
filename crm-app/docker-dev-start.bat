@@ -37,10 +37,10 @@ echo ========================================
 echo  Tjänster startade!
 echo ========================================
 echo.
-echo - Next.js App: http://localhost:3000
-echo - MySQL:       localhost:3306 (user: crm_user, pass: crm_password)
-echo - phpMyAdmin:  http://localhost:8080
-echo - Redis:       localhost:6379
+echo - Next.js App: http://localhost:3020
+echo - MySQL:       localhost:3316 (user: crm_user, pass: crm_password_change_me)
+echo - phpMyAdmin:  http://localhost:8170
+echo - Redis:       localhost:6279
 echo.
 echo Kommandon:
 echo   Visa app logs:  docker compose -f docker-compose.dev.yml logs -f app

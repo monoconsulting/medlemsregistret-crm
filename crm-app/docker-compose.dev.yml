@@ -20,7 +20,8 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD_DEV}
       TZ: "${MYSQL_TIMEZONE}"
     volumes:
-      - ./storage/dev/mysql:/var/lib/mysql
+      # Dela samma datakatalog som produktionsstacken – se till att endast en stack körs åt gången.
+      - ./storage/mysql:/var/lib/mysql
     ports:
       - "${MYSQL_PORT_DEV}:3306"
     networks:

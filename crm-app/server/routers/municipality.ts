@@ -9,6 +9,8 @@ export const municipalityRouter = router({
       z.object({
         search: z.string().optional(),
         limit: z.number().min(10).max(300).default(290),
+        sortBy: z.enum(['name', 'code', 'county', 'region', 'province', 'population', 'platform', 'associations']).optional(),
+        sortOrder: z.enum(['asc', 'desc']).optional(),
       }).optional()
     )
     .query(async ({ ctx, input }) => {
@@ -17,7 +19,11 @@ export const municipalityRouter = router({
           ? { name: { contains: input.search } }
           : undefined,
         take: input?.limit ?? 290,
-        orderBy: { name: 'asc' },
+        orderBy: input?.sortBy
+          ? input.sortBy === 'associations'
+            ? { associations: { _count: input.sortOrder ?? 'asc' } }
+            : { [input.sortBy]: input.sortOrder ?? 'asc' }
+          : { name: 'asc' },
         include: {
           _count: {
             select: { associations: true },

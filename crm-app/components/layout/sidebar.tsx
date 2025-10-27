@@ -10,7 +10,8 @@ import {
   FolderKanban,
   Settings,
   Search,
-  Upload
+  Upload,
+  UserCog
 } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -42,6 +43,11 @@ const navigation = [
     name: "Grupperingar",
     href: "/groups",
     icon: FolderKanban,
+  },
+  {
+    name: "Användare",
+    href: "/users",
+    icon: UserCog,
   },
   {
     name: "Import",

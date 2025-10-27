@@ -1,0 +1,7168 @@
+[
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/84",
+      "name": "7H Para Alpint",
+      "org_number": null,
+      "types": [
+        "Funktionshinder"
+      ],
+      "activities": [
+        "Funktionshinderverksamhet",
+        "Slalom",
+        "Cykel"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://7h.paraalpint.se/",
+      "street_address": "Skräddargårdshöjd 7",
+      "postal_code": "51737",
+      "city": "Bollebygd",
+      "email": "7h@paraalpint.se",
+      "phone": "0734-37 82 27",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Funktionshinderverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Slalom"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Cykel"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 0,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 84,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/289",
+      "name": "Altadamon Muslimska Förening",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Dalgatan 3-5, 202",
+      "postal_code": "52337",
+      "city": "Ulricehamn",
+      "email": "Mohalf01@gmail.com",
+      "phone": "0723704926",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 1,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 289,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/85",
+      "name": "Ansgars Scoutkår Gällstad",
+      "org_number": null,
+      "types": [
+        "Scoutförening"
+      ],
+      "activities": [
+        "Scout"
+      ],
+      "categories": [
+        "Gällstad"
+      ],
+      "homepage_url": null,
+      "street_address": "Intorp Örestrand 304",
+      "postal_code": "52360",
+      "city": "Gällstad",
+      "email": "arvidsson_henrik@yahoo.se",
+      "phone": "0702-76 94 99",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Scout"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gällstad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 2,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 85,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/3",
+      "name": "Badmintonklubben Tellus",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Staberg 150",
+      "postal_code": "52392",
+      "city": "Timmele",
+      "email": "bmktellus@hotmail.com",
+      "phone": "0736795310",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Badminton"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 3,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/5",
+      "name": "Blidsbergs Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Blidsberg"
+      ],
+      "homepage_url": "https://bygdegardarna.se/blidsberg/",
+      "street_address": "Vedåsla 301",
+      "postal_code": "52377",
+      "city": "Blidsberg",
+      "email": "anna-lena.kjellman@telia.com",
+      "phone": "0739-42 88 46",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Blidsberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 4,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 5,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/63",
+      "name": "Blidsbergs Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Blidsberg"
+      ],
+      "homepage_url": null,
+      "street_address": "Humla Haggården 111",
+      "postal_code": "52376",
+      "city": "Blidsberg",
+      "email": "alfhumla@outlook.com",
+      "phone": "0705-23 14 08",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Blidsberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 5,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 63,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/7",
+      "name": "Boarp-Närarps Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Boarp"
+      ],
+      "homepage_url": null,
+      "street_address": "Brokvarn Björkebo",
+      "postal_code": "51293",
+      "city": "Svenljunga",
+      "email": "arne@bjorkang.com",
+      "phone": "0705-838310",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Boarp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 6,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 7,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/4",
+      "name": "Bogesunds Boxningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boxning"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Kåtorp 2",
+      "postal_code": "52496",
+      "city": "Ljung",
+      "email": "lundkvistbjorn@hotmail.com",
+      "phone": "0702-98 18 58",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Boxning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 7,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 4,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/225",
+      "name": "Bogesunds Röda Kors Krets",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Hjälpverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://www.rodakorset.se/ulricehamn",
+      "street_address": "Södra vägen 4 ",
+      "postal_code": "52394",
+      "city": "Tvärred",
+      "email": "erensvensson@gmail.com",
+      "phone": "0705951291",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hjälpverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 8,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 225,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/47",
+      "name": "Brunns Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Björklyckan Brunn 193",
+      "postal_code": "52390",
+      "city": "Ulricehamn",
+      "email": "larsgoran.salen@gmail.com",
+      "phone": "0706-57 66 39",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 9,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 47,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/48",
+      "name": "Byalaget för Möneskolan",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Möne"
+      ],
+      "homepage_url": null,
+      "street_address": "Möne Ranagården 124",
+      "postal_code": "52377",
+      "city": "Blidsberg",
+      "email": "moneskolan@gmail.com",
+      "phone": "0705-38 60 74",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Möne"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 10,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 48,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/61",
+      "name": "Byalaget Vega",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Vegby"
+      ],
+      "homepage_url": null,
+      "street_address": "Vegagatan 12",
+      "postal_code": "52362",
+      "city": "Vegby",
+      "email": "mc.micke@hotmail.com",
+      "phone": "0708-39 79 40",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vegby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 11,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 61,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/62",
+      "name": "Bygdegårdsföreningen Årås Kvarn",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Kölingared"
+      ],
+      "homepage_url": "https://www.arassateri.se/",
+      "street_address": "Årås 112 Kölingared",
+      "postal_code": "52375",
+      "city": "Dalum",
+      "email": "info@arassateri.se",
+      "phone": "0723-29 11 51",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kölingared"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 12,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 62,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/133",
+      "name": "Centerpartiet i Ulricehamn",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [
+        "Politik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.centerpartiet.se/ulricehamn",
+      "street_address": "Södra Kullagatan 3A",
+      "postal_code": "52330",
+      "city": "Ulricehamn",
+      "email": "ulricehamn@centerpartiet.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Politik"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 13,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 133,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/79",
+      "name": "Dalums Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Dalum"
+      ],
+      "homepage_url": null,
+      "street_address": "Kyrkvägen 1",
+      "postal_code": "52375",
+      "city": "Dalum",
+      "email": "stefandahlen52@gmail.com",
+      "phone": "0733-09 28 36",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dalum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 14,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 79,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/6",
+      "name": "Dansklubben Buggie",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Lindängsvägen 38",
+      "postal_code": "52348",
+      "city": "Ulricehamn",
+      "email": "styrelse@buggie.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 15,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 6,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/109",
+      "name": "DHB Västra",
+      "org_number": null,
+      "types": [
+        "Funktionshinder"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@dhbvastra.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 16,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 109,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/138",
+      "name": "Diabetesföreningen i Borås med omnejd",
+      "org_number": null,
+      "types": [
+        "Funktionshinder"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://www.diabetes.se/",
+      "street_address": "Viskastrandsgatan 5",
+      "postal_code": "50630",
+      "city": "Borås",
+      "email": "diabetesforeningen.boras@hotmail.se",
+      "phone": "0703517472",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 17,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 138,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/87",
+      "name": "Equmenia Blidsberg",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Scout",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Blidsberg"
+      ],
+      "homepage_url": null,
+      "street_address": "Björnarp 120",
+      "postal_code": "52377",
+      "city": "Blidsberg",
+      "email": "lars-akes.skog@outlook.com",
+      "phone": "0703-27 54 47",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Scout"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Blidsberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 18,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 87,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/88",
+      "name": "Equmenia Hökerum",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Hökerum"
+      ],
+      "homepage_url": "http://www.equmeniakyrkanhokerum.se/equmenia",
+      "street_address": "Arnabovägen 5",
+      "postal_code": "52374",
+      "city": "Hökerum",
+      "email": "leifannika@hotmail.com",
+      "phone": "0730-83 71 02",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hökerum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 19,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 88,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/90",
+      "name": "Equmenia Timmele",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Scout",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Timmele"
+      ],
+      "homepage_url": "https://equmeniakyrkan.se/timmele/equmenia/",
+      "street_address": "Ek Övregården 107",
+      "postal_code": "52392",
+      "city": "Timmele",
+      "email": "robert_klemenz@hotmail.com",
+      "phone": "0767-61 20 44",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Scout"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Timmele"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 20,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 90,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/91",
+      "name": "Equmenia Tvärred",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Scout",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Tvärred"
+      ],
+      "homepage_url": null,
+      "street_address": "Tvärred 303",
+      "postal_code": "52394",
+      "city": "Tvärred",
+      "email": "martin.engqvist@hotmail.com",
+      "phone": "0734041153",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Scout"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Tvärred"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 21,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 91,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/92",
+      "name": "Equmenia Ulricehamn",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Scout",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://equmeniakyrkan.se/ulricehamn/",
+      "street_address": "Alskogsgatan 5",
+      "postal_code": "52347",
+      "city": "Ulricehamn",
+      "email": "hakan.scout@gmail.com",
+      "phone": "0701-80 04 13",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Scout"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 22,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 92,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/10",
+      "name": "FC Paratodos",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Futsal"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Rektorsvägen 23",
+      "postal_code": "52335",
+      "city": "Ulricehamn",
+      "email": "Ziad_67@hotmail.com",
+      "phone": "0725-88 22 31",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Futsal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 23,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 10,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/83",
+      "name": "FUB Ulricehamn - Tranemo",
+      "org_number": null,
+      "types": [
+        "Funktionshinder"
+      ],
+      "activities": [
+        "Funktionshinderverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "http://www.fub.se/lokal/fub-ulricehamn",
+      "street_address": "Storgatan 38",
+      "postal_code": "52330",
+      "city": "Ulricehamn",
+      "email": "fubulricehamn@outlook.com",
+      "phone": "0765-55 55 02",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Funktionshinderverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 24,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 83,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/51",
+      "name": "Föreningen Grönahögs Bygdegård",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Grönahög"
+      ],
+      "homepage_url": null,
+      "street_address": "Odla 103",
+      "postal_code": "52396",
+      "city": "Grönahög",
+      "email": "gora.kylen@gmail.com",
+      "phone": "0706-518303",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Grönahög"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 25,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 51,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/126",
+      "name": "Föreningen Gymmix Ulricehamn",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Granvägen 1",
+      "postal_code": "52361",
+      "city": "Gällstad",
+      "email": "lena.ye.johansson@hotmail.com",
+      "phone": "0705 570823",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 26,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 126,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/50",
+      "name": "Grovare - Fänneslunda Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Grovare"
+      ],
+      "homepage_url": null,
+      "street_address": "Sänningared 110",
+      "postal_code": "52399",
+      "city": "Hökerum",
+      "email": "mats@mpbioresonans.eu",
+      "phone": "0723-12 00 24",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Grovare"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 27,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 50,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/64",
+      "name": "Grönahögs Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Grönahög"
+      ],
+      "homepage_url": null,
+      "street_address": "Nyslätt, Uddagården 104",
+      "postal_code": "52396",
+      "city": "Grönahög",
+      "email": "uddagarden104@outlook.com",
+      "phone": "0702-22 84 71",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Grönahög"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 28,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 64,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/11",
+      "name": "Grönahögs Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Grönahög"
+      ],
+      "homepage_url": null,
+      "street_address": "Tokared 150",
+      "postal_code": "52391",
+      "city": "Ulricehamn",
+      "email": "gronahogsik@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Grönahög"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 29,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 11,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/52",
+      "name": "Gullereds Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Gullered"
+      ],
+      "homepage_url": null,
+      "street_address": "Nordgården 112",
+      "postal_code": "52397",
+      "city": "Ulricehamn",
+      "email": "ledigastallplatser@live.se",
+      "phone": "0763-41 58 95",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gullered"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 30,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 52,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/12",
+      "name": "Gällstads AIS",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Vägunderhåll",
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling",
+        "Fotboll"
+      ],
+      "categories": [
+        "Gällstad"
+      ],
+      "homepage_url": null,
+      "street_address": "Bollvägen 10",
+      "postal_code": "52360",
+      "city": "Gällstad",
+      "email": "gais.styrelsen@outlook.com",
+      "phone": "070-3596532",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Vägunderhåll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gällstad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 31,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 12,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/13",
+      "name": "Gällstads Fotbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Gällstad"
+      ],
+      "homepage_url": null,
+      "street_address": "Ringvägen 3",
+      "postal_code": "52360",
+      "city": "Gällstad",
+      "email": "info@gallstadsfk.se",
+      "phone": "0706 57 03 62",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gällstad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 32,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 13,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/65",
+      "name": "Gällstads Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Gällstad"
+      ],
+      "homepage_url": "http://ghf.swedenroots.se/",
+      "street_address": "Gårdö 202",
+      "postal_code": "52360",
+      "city": "Gällstad",
+      "email": "mai.johansson@gmail.com",
+      "phone": "0705-42 91 39",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gällstad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 33,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 65,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/14",
+      "name": "Gällstads Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Rånnaväg"
+      ],
+      "homepage_url": null,
+      "street_address": "Rånnevi",
+      "postal_code": "52361",
+      "city": "Gällstad",
+      "email": "per-ake@hallgrens.com",
+      "phone": "0705570047",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rånnaväg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 34,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 14,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/45",
+      "name": "Gällstadsbygdens Skid & Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Längdskidåkning",
+        "Orientering"
+      ],
+      "categories": [
+        "Röshult"
+      ],
+      "homepage_url": "https://www.gsok.se/",
+      "street_address": "Älvkvarnsvägen 14",
+      "postal_code": "52337",
+      "city": "Ulricehamn",
+      "email": "info@gsok.se",
+      "phone": "0321 712 19",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Längdskidåkning"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Orientering"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Röshult"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 35,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 45,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/96",
+      "name": "Götåkra Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [],
+      "categories": [
+        "Götåkra"
+      ],
+      "homepage_url": null,
+      "street_address": "Götåkra 154",
+      "postal_code": "52362",
+      "city": "Vegby",
+      "email": "mikael.d@hotmail.se",
+      "phone": "0703-15 32 75",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 36,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 96,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/53",
+      "name": "Handikapprörelsens Fastighetsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Storgatan 38",
+      "postal_code": "52330",
+      "city": "Ulricehamn",
+      "email": "gert.bjorklund@hotmail.com",
+      "phone": "0706-40 22 59",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 37,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 53,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/270",
+      "name": "Hjärnkraft Borås Sjuhärad",
+      "org_number": null,
+      "types": [
+        "Funktionshinder"
+      ],
+      "activities": [
+        "Funktionshinderverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Frändevägen 13",
+      "postal_code": "52338",
+      "city": "Ulricehamn",
+      "email": "claessonlars56@gmail.com",
+      "phone": "0705-41 43 84",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Funktionshinderverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 38,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 270,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/15",
+      "name": "Hworangi Tae Kwon Do-förening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tae Kwon Do"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Biblioteksgatan 1 ",
+      "postal_code": "52360",
+      "city": "Gällstad",
+      "email": "arirang@live.se",
+      "phone": "0321 53 19 06",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Tae Kwon Do"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 39,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 15,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/124",
+      "name": "Hällstads IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Älmestad"
+      ],
+      "homepage_url": null,
+      "street_address": "Ängsvallen 101",
+      "postal_code": "52395",
+      "city": "Älmestad",
+      "email": "hif@hallstadbygden.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 40,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 124,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/54",
+      "name": "Härna Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet",
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Härna"
+      ],
+      "homepage_url": null,
+      "street_address": "Härna Hult 111",
+      "postal_code": "52399",
+      "city": "Hökerum",
+      "email": "goranihult@hotmail.se",
+      "phone": "070-7454158",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Härna"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 41,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 54,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/16",
+      "name": "Härna Lawn Tennis Klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Hökerum"
+      ],
+      "homepage_url": "Https://harnaltk.se",
+      "street_address": "Härna 105",
+      "postal_code": "52399",
+      "city": "Hökerum",
+      "email": "harnaltk@gmail.com",
+      "phone": "0708 77 55 86",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Tennis"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hökerum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 42,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 16,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/251",
+      "name": "Hökerums Väg och Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Samhällsförening"
+      ],
+      "activities": [
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Hökerum"
+      ],
+      "homepage_url": "https://hokerum.com",
+      "street_address": "Vings Backen 101",
+      "postal_code": "52374",
+      "city": "Hökerum",
+      "email": "c-a.alsing@telia.com",
+      "phone": "0705751575",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hökerum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 43,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 251,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/98",
+      "name": "Hörselskadades förening",
+      "org_number": null,
+      "types": [
+        "Funktionshinder"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://hrf.se/ulricehamn/",
+      "street_address": "Backliden 1B",
+      "postal_code": "52333",
+      "city": "Ulricehamn",
+      "email": "ulricehamn@forening.hrf.se",
+      "phone": "0706-76 42 43",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 44,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 98,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/55",
+      "name": "Hössna Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Hössna"
+      ],
+      "homepage_url": null,
+      "street_address": "Karthemmet 101",
+      "postal_code": "53397",
+      "city": "Ulricehamn",
+      "email": "karthemmet1@gmail.com",
+      "phone": "0702-92 82 26",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hössna"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 45,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 55,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/66",
+      "name": "Hössna Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Gällstad"
+      ],
+      "homepage_url": null,
+      "street_address": "Hössna Bregärdet 101",
+      "postal_code": "52397",
+      "city": "Ulricehamn",
+      "email": "konkordia@konkordia.se",
+      "phone": "0705-95 00 04",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gällstad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 46,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 66,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/17",
+      "name": "Hössna Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Hössna"
+      ],
+      "homepage_url": null,
+      "street_address": "Kinnared Skogshyddan",
+      "postal_code": "52397",
+      "city": "Ulricehamn",
+      "email": "boxhallin@gmail.com",
+      "phone": "0768 15 38 95",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hössna"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 47,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 17,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/146",
+      "name": "IK Högaborgs Atleter",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Vitboksgatan 7",
+      "postal_code": "52333",
+      "city": "ulricehamn",
+      "email": "ikhoa@telia.com",
+      "phone": "0733 65 53 72",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 48,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 146,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/18",
+      "name": "KFUM IK Ulricehamn",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://www.kfumulricehamn.se/",
+      "street_address": "Tre Rosors väg 2A",
+      "postal_code": "52336",
+      "city": "Ulricehamn",
+      "email": "kansli@kfumulricehamn.se",
+      "phone": "0760-214202",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Handboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 49,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 18,
+      "leisure_activity_card": true,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/56",
+      "name": "Knätte Byggnadsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Hössna"
+      ],
+      "homepage_url": null,
+      "street_address": "Knätte, Nåtared 112",
+      "postal_code": "52391",
+      "city": "Ulricehamn",
+      "email": "kronogarden112@gmail.com",
+      "phone": "0709-92 44 42",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hössna"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 50,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 56,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/67",
+      "name": "Knätte Hembygsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Hössna"
+      ],
+      "homepage_url": null,
+      "street_address": "Knätte",
+      "postal_code": "52391",
+      "city": "Ulricehamn",
+      "email": "goran@efraimsson.se",
+      "phone": "0708-20 63 05",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hössna"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 51,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 67,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/49",
+      "name": "Kulturhuset Folkets Hus Ek. förening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Nygatan 24",
+      "postal_code": "52330",
+      "city": "Ulricehamn",
+      "email": "forestandare@folketshusulricehamn.se",
+      "phone": "0321-354 44",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 52,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 49,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/69",
+      "name": "Kölaby Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Trädet"
+      ],
+      "homepage_url": "https://kolaby.se/",
+      "street_address": "Ätragatan 12",
+      "postal_code": "52378",
+      "city": "Trädet",
+      "email": "info@kolaby.se",
+      "phone": "0705-72 91 61",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Trädet"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 53,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 69,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/70",
+      "name": "Kölingareds Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Kölingared"
+      ],
+      "homepage_url": null,
+      "street_address": "Vråna 150",
+      "postal_code": "52375",
+      "city": "Dalum",
+      "email": "kolingaredshembygdsforening@spray.se",
+      "phone": "0321-353 53",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kölingared"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 54,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 70,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/57",
+      "name": "Liareds Byggnadsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Liared"
+      ],
+      "homepage_url": null,
+      "street_address": "Liared Lindås 111. Smedäng",
+      "postal_code": "52391",
+      "city": "Ulricehamn",
+      "email": "christinajohansson57@hotmail.com",
+      "phone": "0704-71 99 83",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Liared"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 55,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 57,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/71",
+      "name": "Liareds Hembygdsförening ST Stegerhult",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Liared"
+      ],
+      "homepage_url": null,
+      "street_address": "Liared Lindås 107",
+      "postal_code": "52391",
+      "city": "Ulricehamn",
+      "email": "lillemorholmberg43@gmail.com",
+      "phone": "0730-44 90 17",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Liared"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 56,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 71,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/72",
+      "name": "Marbäcks - Åsundens Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Marbäck"
+      ],
+      "homepage_url": null,
+      "street_address": "Björkebo 120",
+      "postal_code": "52393",
+      "city": "Marbäck",
+      "email": "solveigljunghager@gmail.com",
+      "phone": "0730-22 61 70",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Marbäck"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 57,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 72,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/19",
+      "name": "Marbäcks Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Marbäck"
+      ],
+      "homepage_url": "https://www.marbacksif.se",
+      "street_address": "Nyebergsvägen 14",
+      "postal_code": "52393",
+      "city": "Marbäck",
+      "email": "evacarlborg@hotmail.se",
+      "phone": "0703-48 63 39",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Marbäck"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 58,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 19,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/58",
+      "name": "Murums Stenkrossförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Murum"
+      ],
+      "homepage_url": null,
+      "street_address": "Nygård Murum 104",
+      "postal_code": "52395",
+      "city": "Älmestad",
+      "email": "claes.muregard@outlook.com",
+      "phone": "0706-09 20 27",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Murum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 59,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 58,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/107",
+      "name": "Neuroförbundet Ätradal",
+      "org_number": null,
+      "types": [
+        "Funktionshinder"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gert.bjorklund@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 60,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 107,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/93",
+      "name": "Nitta Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Samhällsförening"
+      ],
+      "activities": [
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Nitta"
+      ],
+      "homepage_url": "http://www.nitta.nu",
+      "street_address": "Fabriksvägen 3",
+      "postal_code": "52399",
+      "city": "Hökerum",
+      "email": "kontakt@nitta.nu",
+      "phone": "0730-40 12 00",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Nitta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 61,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 93,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/80",
+      "name": "Norra Ås Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Älmestad"
+      ],
+      "homepage_url": null,
+      "street_address": "Hällstad, Hov 120",
+      "postal_code": "52395",
+      "city": "Älmestad",
+      "email": "m_kack@icloud.com",
+      "phone": "0321-800 01",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Älmestad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 62,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 80,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/59",
+      "name": "Norra Ås Kultur och Intresseförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Älmestad"
+      ],
+      "homepage_url": null,
+      "street_address": "Pl 106",
+      "postal_code": "52395",
+      "city": "Älmestad",
+      "email": "johan@klemenz.se",
+      "phone": "0703-28 00 48",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Älmestad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 63,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 59,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/226",
+      "name": "Nya Ulricehamn",
+      "org_number": null,
+      "types": [
+        "Politik"
+      ],
+      "activities": [
+        "Politik"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.nyaulricehamn.se/",
+      "street_address": "Kastanjegatan 2",
+      "postal_code": "52340",
+      "city": "Ulricehamn",
+      "email": "nyaulricehamn@outlook.com",
+      "phone": "0730604604",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Politik"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 64,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 226,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/391",
+      "name": "Oasens Seniorförening",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Järnvägsgatan 2",
+      "postal_code": "52330",
+      "city": "Ulricehamn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsverksamhet"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 65,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 391,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/89",
+      "name": "Pingstkyrkans Ungdom",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://www.ulricehamnpingst.se/",
+      "street_address": "Smedlyckevägen 1",
+      "postal_code": "52336",
+      "city": "Ulricehamn",
+      "email": "hans@yakol.se",
+      "phone": "0709-501159",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 66,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 89,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/104",
+      "name": "PRO Ulricehamn",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://pro.se/ulricehamn",
+      "street_address": "Storgatan 38",
+      "postal_code": "52330",
+      "city": "Ulricehamn",
+      "email": "ulricehamn@pro.se",
+      "phone": "0721776445",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 67,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 104,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/105",
+      "name": "PRO Åsunden",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [
+        "Gällstad"
+      ],
+      "homepage_url": "https://pro.se/asunden",
+      "street_address": "Nygatan 9",
+      "postal_code": "52362",
+      "city": "Vegby",
+      "email": "janne@borasdackservice.se",
+      "phone": "0705450201",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gällstad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 68,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 105,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/20",
+      "name": "Redvägs Fotbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Blidsberg"
+      ],
+      "homepage_url": null,
+      "street_address": "Enevi",
+      "postal_code": "52376",
+      "city": "Blidsberg",
+      "email": "redvagsfk@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Blidsberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 69,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 20,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/106",
+      "name": "Reumatikerföreningen i Ulricehamn",
+      "org_number": null,
+      "types": [
+        "Funktionshinder"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Vings Backen 154",
+      "postal_code": "52398",
+      "city": "Hökerum",
+      "email": "mlouisep54@hotmail.com",
+      "phone": "0739-13 28 99",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 70,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 106,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/128",
+      "name": "RF-SISU Västra Götaland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.rfsisu.se/vastragotaland",
+      "street_address": "Idrottsgatan 8",
+      "postal_code": "50630",
+      "city": "Borås",
+      "email": "henric.sjodin@rfsisu.se",
+      "phone": "0709-265884",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 71,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 128,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/94",
+      "name": "Röshults Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Samhällsförening"
+      ],
+      "activities": [
+        "Bygdeutveckling"
+      ],
+      "categories": [
+        "Röshult"
+      ],
+      "homepage_url": null,
+      "street_address": "Jordgubbsvägen 7",
+      "postal_code": "52361",
+      "city": "Gällstad",
+      "email": "robandasa@gmail.com",
+      "phone": "0705-30 80 32",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Röshult"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 72,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 94,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/21",
+      "name": "Slalomklubben Boge ",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Slalom"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Borgmästaregatan 10",
+      "postal_code": "52339",
+      "city": "Ulricehamn",
+      "email": "skboge@gmail.com",
+      "phone": "070 852 70 18",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Slalom"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 73,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 21,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/100",
+      "name": "SPF Seniorerna Bogesund",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Storgatan 53",
+      "postal_code": "52330",
+      "city": "Ulricehamn",
+      "email": "spfmats@gmail.com",
+      "phone": "0707-49 01 38",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 74,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 100,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/101",
+      "name": "SPF Seniorerna Hökerum",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Hökerum"
+      ],
+      "homepage_url": null,
+      "street_address": "Kyrkvägen 13",
+      "postal_code": "52374",
+      "city": "Hökerum",
+      "email": "hokerum.tommy@gmail.com",
+      "phone": "0708-58 55 37",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 75,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 101,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/102",
+      "name": "SPF Seniorerna Norra Kind",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [
+        "Gällstad"
+      ],
+      "homepage_url": null,
+      "street_address": "Börsbo 103",
+      "postal_code": "52393",
+      "city": "Marbäck",
+      "email": "belebo41@gmail.com",
+      "phone": "0702-94 44 27",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gällstad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 76,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 102,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/103",
+      "name": "SPF Seniorerna Östra Redväg",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [
+        "Hössna"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/",
+      "street_address": "Hössna Ulricehamnsvägen 22",
+      "postal_code": "52397",
+      "city": "Hössna",
+      "email": "gerhard.wichers43@gmail.com",
+      "phone": "0703-31 31 26",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hössna"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 77,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 103,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/108",
+      "name": "SRF Ulricehamn",
+      "org_number": null,
+      "types": [
+        "Funktionshinder"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Borgmästaregatan 21",
+      "postal_code": "52339",
+      "city": "Ulricehamn",
+      "email": "leif.westerlind@srf.nu",
+      "phone": "0705853480",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 78,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 108,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/60",
+      "name": "Strängsereds Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling",
+        "Vägunderhåll"
+      ],
+      "categories": [
+        "Strängsered"
+      ],
+      "homepage_url": null,
+      "street_address": "Tokared 120",
+      "postal_code": "52391",
+      "city": "Ulricehamn",
+      "email": "lindgrenbodil@hotmail.com",
+      "phone": "0702-88 01 56",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Vägunderhåll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Strängsered"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 79,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 60,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/81",
+      "name": "Strängsereds-Gullereds Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Strängsered"
+      ],
+      "homepage_url": null,
+      "street_address": "Stigared Gullered",
+      "postal_code": "52397",
+      "city": "Ulricehamn",
+      "email": "hallingjonatan@gmail.com",
+      "phone": "0730-72 77 22",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Strängsered"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 80,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 81,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/73",
+      "name": "Södra Vings Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Hökerum"
+      ],
+      "homepage_url": "https://www.hembygdsforeningen.se/",
+      "street_address": "Sjöbredared 110",
+      "postal_code": "52398",
+      "city": "Hökerum",
+      "email": "ohlund@sjobredared.se",
+      "phone": "0707-26 14 14",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hökerum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 81,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 73,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/22",
+      "name": "Södra Vings Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Hökerum"
+      ],
+      "homepage_url": null,
+      "street_address": "Stationsvägen 3",
+      "postal_code": "52374",
+      "city": "Hökerum",
+      "email": "info@sodravingsif.se",
+      "phone": "0705876299",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hökerum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 82,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 22,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/23",
+      "name": "Timmele GoIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Timmele"
+      ],
+      "homepage_url": null,
+      "street_address": "Plantvägen 6",
+      "postal_code": "52372",
+      "city": "Timmele",
+      "email": "info@timmelegoif.se",
+      "phone": "0706807999",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Timmele"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 83,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 23,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/74",
+      "name": "Timmele Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Timmele"
+      ],
+      "homepage_url": "https://www.hembygd.se/timmele",
+      "street_address": "Timmele Hasselbacken 155",
+      "postal_code": "52392",
+      "city": "Timmele",
+      "email": "lars.neuman@timmele.net",
+      "phone": "0702-46 09 41",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Timmele"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 84,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 74,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/139",
+      "name": "Timmele Racing Club",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Modellbilsracing"
+      ],
+      "categories": [
+        "Timmele"
+      ],
+      "homepage_url": null,
+      "street_address": "Timmelevägen 11",
+      "postal_code": "52372",
+      "city": "Timmele",
+      "email": "ka33021@gmail.com",
+      "phone": "0763-905021",
+      "description": {
+        "free_text": " 2 spårstyrda modellbilsbanor öppet på torsdagar.",
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Modellbilsracing"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Timmele"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 85,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 139,
+      "leisure_activity_card": false,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/95",
+      "name": "Torsbo Idrotts- och Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet",
+        "Bygdeutveckling",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Torsbo"
+      ],
+      "homepage_url": "https://www.torsbo.se/",
+      "street_address": "Torsbo 102",
+      "postal_code": "52360",
+      "city": "Gällstad",
+      "email": "susanne@bjorkkullen.se",
+      "phone": "0730-57 69 82",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdeutveckling"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torsbo"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 86,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 95,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/135",
+      "name": "Trädets Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Trädet"
+      ],
+      "homepage_url": null,
+      "street_address": "Dalgatan 5",
+      "postal_code": "52173",
+      "city": "Kinnarp",
+      "email": "tradetsif@gmail.com",
+      "phone": "0706887114",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 87,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 135,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/46",
+      "name": "Tvärred/Vegby FC",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Tvärred"
+      ],
+      "homepage_url": null,
+      "street_address": "Granvägen 14",
+      "postal_code": "52362",
+      "city": "Vegby",
+      "email": "mathias.axell@lksystems.se",
+      "phone": "0321 505 54",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Tvärred"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 88,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 46,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/75",
+      "name": "Tvärreds Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Tvärred"
+      ],
+      "homepage_url": null,
+      "street_address": "Rude 302",
+      "postal_code": "52394",
+      "city": "Tvärred",
+      "email": "lennart.gyllensten@telia.com",
+      "phone": "0705-63 14 78",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Tvärred"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 89,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 75,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/24",
+      "name": "Tvärreds Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Tvärred"
+      ],
+      "homepage_url": null,
+      "street_address": "Klubbstugan Tvärred",
+      "postal_code": "52394",
+      "city": "Tvärred",
+      "email": "tvarredsif@telia.com",
+      "phone": "0705 46 38 00",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Tvärred"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 90,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 24,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/25",
+      "name": "Ulricehamns Basketbollklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Gullrisvägen 3",
+      "postal_code": "52341",
+      "city": "Ulricehamn",
+      "email": "mahshidmoosavi19@gmail.com",
+      "phone": "0723 19 19 88",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Basket"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 91,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 25,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/26",
+      "name": "Ulricehamns Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hundsport"
+      ],
+      "categories": [
+        "Hössna"
+      ],
+      "homepage_url": "https://ulricehamnsbk.se",
+      "street_address": "Hössna Kinnared 101",
+      "postal_code": "52397",
+      "city": "Ulricehamn",
+      "email": "ulricehamnsbrukshundklubb@gmail.com",
+      "phone": "0761 86 81 86",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hundsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hössna"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 92,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 26,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/27",
+      "name": "Ulricehamns Cykelklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Cykel"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Gunnarshagsgatan 31",
+      "postal_code": "52347",
+      "city": "Ulricehamn",
+      "email": "sabinawetterlund@hotmail.com",
+      "phone": "0707-25 09 52",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Cykel"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 93,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 27,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/28",
+      "name": "Ulricehamns Dansförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Boråsvägen 38",
+      "postal_code": "52337",
+      "city": "Ulricehamn",
+      "email": "info@u-dance.se",
+      "phone": "0763 41 00 93",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 94,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 28,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/377",
+      "name": "Ulricehamns Filatelistförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Frimärkssamlande"
+      ],
+      "categories": [
+        "Hökerum"
+      ],
+      "homepage_url": "https://filatelisten.se/foreningar/",
+      "street_address": "Romsås 113",
+      "postal_code": "52398",
+      "city": "Hökerum",
+      "email": "romsas113@gmail.com",
+      "phone": "0706912050",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Frimärkssamlande"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hökerum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 95,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 377,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/29",
+      "name": "Ulricehamns Friidrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Jägaregatan 30",
+      "postal_code": "52331",
+      "city": "Ulricehamn",
+      "email": "daniel.stahl@hokerumfastigheter.se",
+      "phone": "0768 14 37 07",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Friidrott"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 96,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 29,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/153",
+      "name": "Ulricehamns Fritidsfiskare",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Sportfiske",
+        "Fiskevård"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://fritidsfiskare.com/",
+      "street_address": "Ågatan 2",
+      "postal_code": "52344",
+      "city": "Ulricehamn",
+      "email": "uffulricehamn@hotmail.com",
+      "phone": "0704-06 23 86",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Sportfiske"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 97,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 153,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/30",
+      "name": "Ulricehamns Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Sanatorieskogen 947",
+      "postal_code": "52333",
+      "city": "Ulricehamn",
+      "email": "info@ulricehamnsgk.se",
+      "phone": "0321 279 59",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Golf"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 98,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 30,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/82",
+      "name": "Ulricehamns Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Rådhusgatan 8",
+      "postal_code": "52335",
+      "city": "Ulricehamn",
+      "email": "gorantjader@telia.com",
+      "phone": "0708-35 71 08",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 99,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 82,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/31",
+      "name": "Ulricehamns IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey",
+        "Längdskidåkning",
+        "Boule",
+        "Bordtennis",
+        "Skidskytte"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Idrottsgatan 8",
+      "postal_code": "52333",
+      "city": "Ulricehamn",
+      "email": "sportkontoret@uif.se",
+      "phone": "0321 140 05",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ishockey"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Längdskidåkning"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Boule"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bordtennis"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Skidskytte"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 100,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 31,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/32",
+      "name": "Ulricehamns IFK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Futsal"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Idrottsgatan 15",
+      "postal_code": "52333",
+      "city": "Ulricehamn",
+      "email": "kansli@uifk.se",
+      "phone": "0321 127 93",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Futsal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 101,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 32,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/33",
+      "name": "Ulricehamns Kanotsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kanot"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Hemrydsgatan 8 c",
+      "postal_code": "52343",
+      "city": "Ulricehamn",
+      "email": "anderslinard@hotmail.com",
+      "phone": "0703 51 63 40",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kanot"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 102,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 33,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/34",
+      "name": "Ulricehamns Kappseglingssällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Segling"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Smörsoppsgatan 12",
+      "postal_code": "52342",
+      "city": "Ulricehamn",
+      "email": "karl.ake@telia.com",
+      "phone": "0705 87 14 94",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Segling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 103,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 34,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/35",
+      "name": "Ulricehamns Konståkningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Konståkning"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://www.ulricehamnskk.com/",
+      "street_address": "Idrottsgatan 8 Lassalyckan",
+      "postal_code": "52333",
+      "city": "Ulricehamn",
+      "email": "kontakt@ulricehamnskk.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Konståkning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 104,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 35,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/134",
+      "name": "Ulricehamns Korpen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Källängsvägen 6",
+      "postal_code": "52337",
+      "city": "Ulricehamn",
+      "email": "jerkerliden@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 105,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 134,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/36",
+      "name": "Ulricehamns Motorklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Motorcross",
+        "Enduro",
+        "Bilsport"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Kroken Timmele 260",
+      "postal_code": "52390",
+      "city": "Ulricehamn",
+      "email": "info@umk.se",
+      "phone": "0766 77 50 50",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motorcross"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Enduro"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bilsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 106,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 36,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/37",
+      "name": "Ulricehamns Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://www.ulricehamnsok.se/",
+      "street_address": "Sanatorieskogen 949",
+      "postal_code": "52333",
+      "city": "Ulricehamn",
+      "email": "info@ulricehamnsok.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Orientering"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 107,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 37,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/111",
+      "name": "Ulricehamns Pistolklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://www.ulricehamnspk.se/",
+      "street_address": "Vings Aspanäs 130",
+      "postal_code": "52398",
+      "city": "Hökerum",
+      "email": "styrelsen@ulricehamnspk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 108,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 111,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/114",
+      "name": "Ulricehamns Skateboardförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Backåsvägen 5",
+      "postal_code": "52332",
+      "city": "Ulricehamn",
+      "email": "ulricehamnssf@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 109,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 114,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/38",
+      "name": "Ulricehamns Sportskyttar",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Tåmarksgatan 12K",
+      "postal_code": "52347",
+      "city": "Ulricehamn",
+      "email": "info@sportskyttar.se",
+      "phone": "0761 16 73 17",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 110,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 38,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/39",
+      "name": "Ulricehamns Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Tre Rosors Väg 2B",
+      "postal_code": "52336",
+      "city": "Ulricehamn",
+      "email": "info@ulricehamnstk.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Tennis"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 111,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 39,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/142",
+      "name": "Ulricehamns Trädgårdsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Gläntavägen 5",
+      "postal_code": "52372",
+      "city": "Timmele",
+      "email": "marianneholst1960@yahoo.se",
+      "phone": "0706-83 06 85",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 112,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 142,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/389",
+      "name": "Ulricehamns Ungdomsfotboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Futsal"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Hemrydsgatan 6A",
+      "postal_code": "52343",
+      "city": "Ulricehamn",
+      "email": "gholamireza03@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Futsal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 113,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 389,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/40",
+      "name": "Ulricehamnsbygdens Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": "https://www.ubrk.se",
+      "street_address": "Ubbarp 806",
+      "postal_code": "52337",
+      "city": "Ulricehamn",
+      "email": "info@ubrk.se",
+      "phone": "0738 43 28 30",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ridning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 114,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 40,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/112",
+      "name": "Uno Volley",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Volleyboll"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Stationsvägen 2A",
+      "postal_code": "52374",
+      "city": "Hökerum",
+      "email": "hannadennis07@gmail.com",
+      "phone": "0760-22 08 82",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Volleyboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 115,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 112,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/76",
+      "name": "Varnums Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Varnum"
+      ],
+      "homepage_url": "https://varnum.nu/",
+      "street_address": "Tövevägen 2",
+      "postal_code": "52399",
+      "city": "Hökerum",
+      "email": "marieronn@hotmail.com",
+      "phone": "0707-42 75 28",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Varnum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 116,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 76,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/41",
+      "name": "Vegby Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Vegby"
+      ],
+      "homepage_url": null,
+      "street_address": "Sämshov",
+      "postal_code": "52362",
+      "city": "Vegby",
+      "email": "vsk@vegby.se",
+      "phone": "0706672570",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vegby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 117,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 41,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/77",
+      "name": "Vegbyortens Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsverksamhet"
+      ],
+      "categories": [
+        "Vegby"
+      ],
+      "homepage_url": "https://www.hembygd.se/vegbyorten",
+      "street_address": "Nygatan 14",
+      "postal_code": "52362",
+      "city": "Vegby",
+      "email": "marita.wegstrand@outlook.com",
+      "phone": "0702572941",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vegby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 118,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 77,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/86",
+      "name": "Åsundens Båtsällskap",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Båt"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Villagatan 26",
+      "postal_code": "52332",
+      "city": "Ulricehamn",
+      "email": "info@glennstextil.se",
+      "phone": "0705-30 35 66",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Båt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 119,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 86,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/42",
+      "name": "Åsundens Kampsportsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [
+        "Gällstad"
+      ],
+      "homepage_url": null,
+      "street_address": "Frölunda 104",
+      "postal_code": "52360",
+      "city": "Gällstad",
+      "email": "henrik_rytteras@live.com",
+      "phone": "0707 36 81 37",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kampsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gällstad"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 120,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 42,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/43",
+      "name": "Åsundens Simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [
+        "Ulricehamn"
+      ],
+      "homepage_url": null,
+      "street_address": "Tre Rosorsväg 2A",
+      "postal_code": "52336",
+      "city": "Ulricehamn",
+      "email": "info@asundenssim.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Simning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ulricehamn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 121,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 43,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ulricehamn",
+    "scrape_run_id": "57a37dc4-ea8c-46d4-9d24-e1b322ddc3d9",
+    "scraped_at": "2025-10-27T04:21:49.957Z",
+    "association": {
+      "detail_url": "https://ulricehamn.interbookfri.se/#/AssociationRegister#/association/44",
+      "name": "Åsundsholm Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Vegby"
+      ],
+      "homepage_url": null,
+      "street_address": "Åsundsholm",
+      "postal_code": "52362",
+      "city": "Vegby",
+      "email": "info@asundsholm.se",
+      "phone": "0321 345220",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Golf"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vegby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 122,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 44,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  }
+]

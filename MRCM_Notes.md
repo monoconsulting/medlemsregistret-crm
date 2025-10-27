@@ -13,21 +13,9 @@ Följande korrigeringar behöver göras:
 ## Municipalities - Kommunöversikt
 
 1. Om man klickar på kommun så vill jag att man hoppar över till "Föreningar" och där endast visar det som tillhör aktuell kommun.
-2. Byt plats på longitud och latitud i kartan nu är alla i havet
+2. Sätt utgångspunkt för kartan till Örebro län - https://maps.app.goo.gl/LN7XSDF3fjRwNiBY9xc
 
-### Föreningar
-
-* Ingenting fungerar i sök och filtersektionen. Jättebra och snyggt - men inget alls fungerar. 
-
-* Lägg till val 10, 25, 50 eller 100 föreningar per sida
-
-* Nästa sida fungerar inte - det är samma sida hela tiden. Till slut blir det fel och den säger sidan 12/1 inga föreningar finns
-
-* Tabellerna behöver indexeras
-
-* 
-
-  #### Huvudmodalen i föreningar (när man klickar på föreningsnamnet)
+* #### Huvudmodalen i föreningar (när man klickar på föreningsnamnet)
 
 * Inga fält kan redigeras i modalen
 
@@ -45,26 +33,40 @@ Följande korrigeringar behöver göras:
 
 Nu:
 
-Kommunsida: 
-
-Karta. Centrera kommunen mitt i bilden vid start, och zooma ut
 
 
+## Kommunsida
+
+* Karta. Centrera kommunen mitt i bilden vid start, och zooma ut. Målet är att sverige ska synas på bredden, så både höger och vänster sida är så nära gränsen det går
 
 
 
-## Förningssida
+
+
+## Föreningssida
 
 ### Modal
 
+#### Ska kunna redigeras:
+
+* Organisationsnummer
+
+* Email - finns i tabellen men saknas i listan
+
+* Primär kontakt
+
+* Adress
+
+* Taggar - här ska man kunna söka i taggtabellen med json och lägga till hur många som helst
+
+* Aktiviteter - slå ihop med taggar. Här ska man börja skriva och sedan kan man välja av det som kommer upp en eller flera
+* Byt namn till Ytterlig information till Övrig information
+
 - Modal för liten - Metadata sticker ut
-- Modal: Metadata - ta bort blocket helt och skapa istället en länk till en logg där allt som skett kan läsas
 - Modal: Tasks: Lägg till i modalen möjlighet att skapa tasks
 - Modal: Grupper: Lägg möjlighet att lägga till i en eller flera grupper. Ska gå från både tabellen och modalen.
 - Modal: Ta bort rutan metadata. Skapa istället en ny sida där alla händelser som finns är registrerade på ett smart sätt från import till framåt. Kan man ha yttterligare en modal så ska vi ha det. 
-- 
-- Import städer fyrställigt
-- Källsystem
+- Källsystem saknas (ex FRI)
 - Description saknas helt
 - founded_year - Bildad år
 - verksamhet_raw - Taggar
@@ -73,26 +75,19 @@ Karta. Centrera kommunen mitt i bilden vid start, och zooma ut
 - free_text: Fritext
 - mobile: mobiltelefon
 - Ta bort detaljsida och lägg primär kontakt där under istället.
-
-## Ska redigeras:
-
-Organisationsnummer
-
-Email - finns i tabellen men saknas i listan
-
-Primär kontakt
-
-Adress
-
-Taggar - här ska man kunna söka i taggtabellen med json och lägga till hur många som helst
-
-Aktiviteter - slå ihop med taggar
+- Fältet ytterligare information:
+  - Byt namn till "Övrig information"
+  - api_id - ta bort
+  - mobile=Mobiltelefon: 
+  - disctrict_names = Distrikt
+  - national_affiliation = Riksorganisation
+  - 
 
 
 
 
 
-### Ytterligare information
+
 
 | Fält                  | Värde         |
 | :-------------------- | :------------ |

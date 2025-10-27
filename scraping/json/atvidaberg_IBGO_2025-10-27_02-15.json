@@ -1,0 +1,1308 @@
+[
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/22",
+      "name": "Björsäters Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik"
+      ],
+      "categories": [
+        "Björsäter"
+      ],
+      "homepage_url": "http://www.svenskalag.se/bjorsaterssk",
+      "street_address": "Gamla Åtvidsvägen 10",
+      "postal_code": "59794",
+      "city": "Åtvidaberg",
+      "email": "info@bjorsatersk.se",
+      "phone": "0708103238",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Björsäter"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 0,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 22,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/9",
+      "name": "Bowlingklubben SF-04",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "https://www7.idrottonline.se/bksf-04atvidaberg-bowling",
+      "street_address": "Backsippevägen 6",
+      "postal_code": "59732",
+      "city": "Åtvidaberg",
+      "email": "mackan_lager@hotmail.com",
+      "phone": "072302 39 98",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bowling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 1,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 9,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/21",
+      "name": "Brukskultur Åtvidaberg",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "http://www.brukskultur.se",
+      "street_address": "Gamla Torget 1 B",
+      "postal_code": "59730",
+      "city": "Åtvidaberg",
+      "email": "info@brukskultur.se",
+      "phone": "0120-350 68",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 2,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 21,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/24",
+      "name": "Bysjöns Bryggförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": null,
+      "street_address": "Bysjöstrandsvägen 18",
+      "postal_code": "59731",
+      "city": "Åtvidaberg",
+      "email": "bysjonsbryggforening@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 3,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 24,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/32",
+      "name": "Falerums Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Falerum"
+      ],
+      "homepage_url": null,
+      "street_address": "Kronvägen 5",
+      "postal_code": "59797",
+      "city": "Åtvidaberg",
+      "email": null,
+      "phone": "070-9325241",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Falerum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 4,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 32,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/38",
+      "name": "Grebo Discgolf",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Discgolf"
+      ],
+      "categories": [
+        "Grebo"
+      ],
+      "homepage_url": null,
+      "street_address": "Melbyvägen 1",
+      "postal_code": "58595",
+      "city": "Linköping",
+      "email": "grebodiscgolf@gmail.com",
+      "phone": "0701714851",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Discgolf"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Grebo"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 5,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 38,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/35",
+      "name": "Grebo Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Grebo"
+      ],
+      "homepage_url": "http://www.greboik.se",
+      "street_address": "Grebovallen Redinge",
+      "postal_code": "58595",
+      "city": "Linköping",
+      "email": "u.kjellberg@hotmail.com",
+      "phone": "0705516832",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Grebo"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 6,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 35,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/47",
+      "name": "Hannäs Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik"
+      ],
+      "categories": [
+        "Hannäs/Kvarnvik"
+      ],
+      "homepage_url": null,
+      "street_address": "Kvarnvik Berghyddan",
+      "postal_code": "59796",
+      "city": "Åtvidaberg",
+      "email": "hallingsfall@hotmail.com",
+      "phone": "0702-834175",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hannäs/Kvarnvik"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 7,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 47,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/52",
+      "name": "Innebandyklubben Åtvidaberg",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "http://www.facebook.com/ibkatvidaberg",
+      "street_address": "Asksättersvägen Stenlunda",
+      "postal_code": "58597",
+      "city": "Linköping",
+      "email": "sonny.adahl@saabgroup.com",
+      "phone": "070-544 86 11",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 8,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 52,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/55",
+      "name": "Korpen Åtvidaberg",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "http://www.korpenatvidaberg.se",
+      "street_address": "Bruksgatan 1A",
+      "postal_code": "59730",
+      "city": "Åtvidaberg",
+      "email": "camilla-2009@live.se",
+      "phone": "070-566 89 88",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 9,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 55,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/59",
+      "name": "Orienteringsklubben EKEN",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [],
+      "homepage_url": "http://okeken.se",
+      "street_address": "Storsättersvägen 15",
+      "postal_code": "59752",
+      "city": "Åtvidaberg",
+      "email": "ok-eken@hotmail.com",
+      "phone": "0768507288",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Orientering"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 10,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 59,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/82",
+      "name": "Åtvidabergs Bandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bandy"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "http://www.atvidabergsbk.com",
+      "street_address": "Disponentens Allé 1",
+      "postal_code": "59731",
+      "city": "Åtvidaberg",
+      "email": "info@atvidabergsbk.com",
+      "phone": "0761048437",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bandy"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 11,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 82,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/16",
+      "name": "Åtvidabergs Boxningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boxning"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "http://www.idrottonline.se/atvidaberg-boxning",
+      "street_address": "Stålvägen 4",
+      "postal_code": "59750",
+      "city": "Åtvidaberg",
+      "email": "maccanc@hotmail.com",
+      "phone": "0736553417",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Boxning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 12,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 16,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/25",
+      "name": "Åtvidabergs Bågskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bågskytte"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": null,
+      "street_address": "Malmvägen 2 D",
+      "postal_code": "59750",
+      "city": "Åtvidaberg",
+      "email": "anders_kempe@hotmail.com",
+      "phone": "0706953305",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bågskytte"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 13,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 25,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/76",
+      "name": "Åtvidabergs Discgolf Förening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Discgolf"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "https://www.facebook.com/groups/136102665180052",
+      "street_address": "Västgötavägen 15",
+      "postal_code": "59732",
+      "city": "Åtvidaberg",
+      "email": "atvidabergs.dgf@gmail.com",
+      "phone": "0707694368",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Discgolf"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 14,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 76,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/77",
+      "name": "Åtvidabergs Drill",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Drill"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "http://svenskalag.se/atvidabergsdrill",
+      "street_address": "Kalkugnsvägen 15",
+      "postal_code": "59731",
+      "city": "Åtvidaberg",
+      "email": "atvidabergsdrill@gmail.com",
+      "phone": "0708452621",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Drill"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 15,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 77,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/83",
+      "name": "Åtvidabergs Fotbollförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "http://www.atvidabergsff.se",
+      "street_address": "Box 87",
+      "postal_code": "59722",
+      "city": "Åtvidaberg",
+      "email": "info@atvidabergsff.se",
+      "phone": "0120129 47",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 16,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 83,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/2",
+      "name": "Åtvidabergs Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik",
+        "Friidrott"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "http://www.atvidabergsif.nu",
+      "street_address": "Gamla Torget 1D",
+      "postal_code": "59730",
+      "city": "Åtvidaberg",
+      "email": "nilserikwetterhall@gmail.com",
+      "phone": "0706103364",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Friidrott"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 17,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/53",
+      "name": "Åtvidabergs Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Judo"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": "https://idrottonline.se/AtvidabergsJK-Judo",
+      "street_address": "Kamomillvägen 5",
+      "postal_code": "59732",
+      "city": "Åtvidaberg",
+      "email": "atvidjudo@gmail.com",
+      "phone": "0702626289",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Judo"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 18,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 53,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/90",
+      "name": "Åtvidabergs Motorklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Rally"
+      ],
+      "categories": [
+        "Åtvidaberg",
+        "Falerum"
+      ],
+      "homepage_url": "http://atvidsmk.se",
+      "street_address": "Mejerigatan 1",
+      "postal_code": "59730",
+      "city": "Åtvidaberg",
+      "email": "info@atvidsmk.se",
+      "phone": "012012222",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Rally"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              },
+              {
+                "key": "Område",
+                "value": "Falerum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 19,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 90,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/78",
+      "name": "Åtvidabergs Spelförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [
+        "Åtvidaberg",
+        "Björsäter"
+      ],
+      "homepage_url": "https://forening.sverok.se/Atvidabergspelforening",
+      "street_address": "Smultronvägen 13 A",
+      "postal_code": "59732",
+      "city": "Åtvidaberg",
+      "email": "friberg_1@hotmail.com",
+      "phone": "0727104255",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Badminton"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              },
+              {
+                "key": "Område",
+                "value": "Björsäter"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 20,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 78,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Åtvidaberg",
+    "scrape_run_id": "63a1d3c5-742f-491a-a5dc-6fb42de122b8",
+    "scraped_at": "2025-10-27T01:15:25.185Z",
+    "association": {
+      "detail_url": "https://atvidaberg.interbookfri.se/#/AssociationRegister#/association/91",
+      "name": "Åtvidabergs Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Åtvidaberg"
+      ],
+      "homepage_url": null,
+      "street_address": "Odonvägen 10",
+      "postal_code": "59732",
+      "city": "Åtvidaberg",
+      "email": "t.winberg@telia.com",
+      "phone": "070-550 39 42",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Tennis"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Åtvidaberg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 21,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 91,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  }
+]

@@ -1,0 +1,3235 @@
+[
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Amöba Kulturförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.amoba.one/",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=AM%c3%96BA",
+      "street_address": "Kansli Kulturhuset ABF",
+      "postal_code": "284 31",
+      "city": "Perstorp",
+      "email": "amoba@amoba.one",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1995",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders berling",
+        "contact_person_role": null,
+        "contact_person_email": "amoba@amoba.one",
+        "contact_person_phone": "+46708131612"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0708131612",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1995,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Artur Lundkvist & Maria Wines Stiftelse",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://arturlundkvistoderljunga.se/",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=ARTUR",
+      "street_address": "Bäckavägen 23 A",
+      "postal_code": "284 32",
+      "city": "Perstorp",
+      "email": "lgthulin@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1992",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars-göran thulin",
+        "contact_person_role": null,
+        "contact_person_email": "lgthulin@telia.com",
+        "contact_person_phone": "+46703824236"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-34236",
+        "work": "",
+        "mobile": "070-3824236"
+      },
+      "founded_year": 1992,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Bowlingklubben 74",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bk74.se/",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=BK74",
+      "street_address": "Duvstigen 13",
+      "postal_code": "284 37",
+      "city": "Perstorp",
+      "email": "gorannilsson44@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1974",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Bowlingförbundet",
+              "verksamhet_raw": "Bowling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "gorannilsson44@live.se",
+        "contact_person_phone": "+46733318923"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0733-318923"
+      },
+      "founded_year": 1974,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Bowlingförbundet",
+      "verksamhet_raw": "Bowling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Bowlingklubben Frigg",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=FRIGG",
+      "street_address": "Mossvägen 56",
+      "postal_code": "284 34",
+      "city": "Perstorp",
+      "email": "jerry.bowling@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1960",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Bowlingförbundet",
+              "verksamhet_raw": "Bowling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jerry persson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46768670752"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0435-315 42",
+        "mobile": "0768-670752"
+      },
+      "founded_year": 1960,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Bowlingförbundet",
+      "verksamhet_raw": "Bowling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Bowlingklubben Treff",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=TREFF",
+      "street_address": "Tonvägen 12",
+      "postal_code": "284 37",
+      "city": "Perstorp",
+      "email": "johnny.hurtig.jh@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1960",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Bowlingförbundet",
+              "verksamhet_raw": "Bowling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johnny hurtig",
+        "contact_person_role": null,
+        "contact_person_email": "johnny.hurtig.jh@gmail.com",
+        "contact_person_phone": "+46768686644"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0768-686644",
+        "work": "",
+        "mobile": "0768-686644"
+      },
+      "founded_year": 1960,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Bowlingförbundet",
+      "verksamhet_raw": "Bowling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Bs Friska Viljor",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=FRISKA",
+      "street_address": "Mossvägen 56",
+      "postal_code": "284 34",
+      "city": "Perstorp",
+      "email": "git.lantz@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1964",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Bowlingförbundet",
+              "verksamhet_raw": "Bowling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Wenche punnerud",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643535243"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-352 43",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1964,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Bowlingförbundet",
+      "verksamhet_raw": "Bowling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Dalshults Byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturverksamhet",
+        "Naturvård"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.dalshultsbyalag.se/",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=DBL",
+      "street_address": "Dalshult 411",
+      "postal_code": "284 92",
+      "city": "Perstorp",
+      "email": "mats.ekedahl@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2005",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet, Naturvård",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats ekedahl",
+        "contact_person_role": null,
+        "contact_person_email": "mats.ekedahl@telia.com",
+        "contact_person_phone": "+46705672420"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-5672420"
+      },
+      "founded_year": 2005,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet, Naturvård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Demensföreningen i Perstorp",
+      "org_number": null,
+      "types": [
+        "Hjälporganisation"
+      ],
+      "activities": [
+        "Hjälp/Stödverksamhet",
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=DIP",
+      "street_address": "Bäckavägen 17 A lgh 1501",
+      "postal_code": "284 32",
+      "city": "PERSTORP",
+      "email": "demperstorp@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1997",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hjälp/Stödverksamhet, Kulturverksamhet",
+              "short_description": "Föreningen är en allmän ideell förening, som är till för: • att verka för att förbättra förhållandena och livssituationen för personer med demenssjukdom samt stödja närstående, • att vara en patient- och anhörigorganisation, • att verka för forskning och utveckling inom området, • att sprida kunskap till såväl allmänhet som beslutsfattare om demenssjukas villkor."
+            }
+          }
+        ],
+        "free_text": "Föreningen är en allmän ideell förening, som är till för: • att verka för att förbättra förhållandena och livssituationen för personer med demenssjukdom samt stödja närstående, • att vara en patient- och anhörigorganisation, • att verka för forskning och utveckling inom området, • att sprida kunskap till såväl allmänhet som beslutsfattare om demenssjukas villkor."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Arne thornberg",
+        "contact_person_role": null,
+        "contact_person_email": "demperstorp@gmail.com",
+        "contact_person_phone": "+46704024116"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0704024116",
+        "mobile": "0704024116"
+      },
+      "founded_year": 1997,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hjälp/Stödverksamhet, Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Esab Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "(Saknas)"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=EIK",
+      "street_address": "Box 55",
+      "postal_code": "284 21",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1951",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "(Saknas)",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Olle svensson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1951,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "(Saknas)"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Friluftsfrämjandet",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Friluftsliv",
+        "Naturvård"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=FF",
+      "street_address": "Spjutserödsvägen 20",
+      "postal_code": "284 36",
+      "city": "Perstorp",
+      "email": "maria.harrysson@perstorp.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1969",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Friluftsliv, Naturvård",
+              "short_description": "Bedriver verksamheter med Skogsmulle,m.m."
+            }
+          }
+        ],
+        "free_text": "Bedriver verksamheter med Skogsmulle,m.m."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria harrysson",
+        "contact_person_role": null,
+        "contact_person_email": "maria.harrysson@perstorp.com",
+        "contact_person_phone": "+46706049328"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "070-6049328",
+        "work": "",
+        "mobile": "070-6049328"
+      },
+      "founded_year": 1969,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Friluftsliv, Naturvård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Friluftsklubben Boken",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friluftsliv",
+        "Löpning - Terräng",
+        "Orientering",
+        "Skidor - Längd"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=BOKEN",
+      "street_address": "Duvstigen 14",
+      "postal_code": "284 37",
+      "city": "Perstorp",
+      "email": "info@fkboken.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1948",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Orienteringsförbundet",
+              "verksamhet_raw": "Friluftsliv, Löpning - Terräng, Orientering, Skidor - Längd",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Catarina harden",
+        "contact_person_role": null,
+        "contact_person_email": "info@fkboken.se",
+        "contact_person_phone": "+46739905163"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0739-905163"
+      },
+      "founded_year": 1948,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Orienteringsförbundet",
+      "verksamhet_raw": "Friluftsliv, Löpning - Terräng, Orientering, Skidor - Längd"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Föreningen Plastens Hus",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.plastenshus.se/",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PLAST",
+      "street_address": "Hässleholmsvägen 6",
+      "postal_code": "284 34",
+      "city": "Perstorp",
+      "email": "info@plastenshus.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2005",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet",
+              "short_description": "Plastens Hus är Nordens enda plastmuseum! Besök den unika plastutställningen, framtagen utifrån verksamheterna i Perstorp, som visar plastens utveckling och betydelse i det svenska samhället. Här vägleder ord, bild och föremål dig genom mer än 140 år av industriell utveckling; innehållande bland annat isolit, hushållsplast och Perstorp-plattor. I våra lokaler hittar du även Perstorps Turistbyrå."
+            }
+          }
+        ],
+        "free_text": "Plastens Hus är Nordens enda plastmuseum! Besök den unika plastutställningen, framtagen utifrån verksamheterna i Perstorp, som visar plastens utveckling och betydelse i det svenska samhället. Här vägleder ord, bild och föremål dig genom mer än 140 år av industriell utveckling; innehållande bland annat isolit, hushållsplast och Perstorp-plattor. I våra lokaler hittar du även Perstorps Turistbyrå."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Arnold andreasson",
+        "contact_person_role": null,
+        "contact_person_email": "arnold31581@gmail.com",
+        "contact_person_phone": "+46735047695"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0735047695"
+      },
+      "founded_year": 2005,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Gospelkören Arise",
+      "org_number": null,
+      "types": [
+        "Musikförening"
+      ],
+      "activities": [
+        "Musik - Sång"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.gospelkorenarise.se/",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=ARISE",
+      "street_address": "Box 42",
+      "postal_code": "284 21",
+      "city": "Perstorp",
+      "email": "aase.ericsson@svenskakyrkan.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1996",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Musik - Sång",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Aase ericsson",
+        "contact_person_role": null,
+        "contact_person_email": "aase.ercsson@svenskakyrkan.se",
+        "contact_person_phone": "+46738454646"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "35838",
+        "work": "0738-454646",
+        "mobile": "0738-454646"
+      },
+      "founded_year": 1996,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Musik - Sång"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Gymnastikföreningen Activa",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.idrottonline.se/perstorp/gfactiva-gymnastik",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=ACTIVA",
+      "street_address": "Rökevägen 29",
+      "postal_code": "282 92",
+      "city": "Västra Torup",
+      "email": "mia.aronsson@hotmail.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2009",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Gymnastikförbundet",
+              "verksamhet_raw": "Gymnastik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mia aronsson",
+        "contact_person_role": null,
+        "contact_person_email": "mia.aronsson@hotmail.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 2009,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Gymnastikförbundet",
+      "verksamhet_raw": "Gymnastik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Handikapporg. Samrådsgrupp",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Hjälp/Stödverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=HSP",
+      "street_address": "Stockholmsv. 53",
+      "postal_code": "284 32",
+      "city": "Perstorp",
+      "email": "luddesdotter@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2011",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hjälp/Stödverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linda gottschalk",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46705534885"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0705534885",
+        "work": "",
+        "mobile": "070-5534885"
+      },
+      "founded_year": 2011,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hjälp/Stödverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Hantverkens Vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PHV",
+      "street_address": "Tonvägen 5",
+      "postal_code": "284 37",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1993",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anita bohman",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46704821855"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "070-4821855",
+        "work": "070-4821855",
+        "mobile": "070-4821855"
+      },
+      "founded_year": 1993,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Hilalo Perstorp",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=HIL",
+      "street_address": "Torggatan 3 B",
+      "postal_code": "284 31",
+      "city": "Perstorp",
+      "email": "hilalo.perstorp@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2025",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Omar musleh",
+        "contact_person_role": null,
+        "contact_person_email": "hilalo.perstorp@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 2025,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Ichiban Karate Perstorp",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=ICHIBAN",
+      "street_address": "Tomtebogatan 31",
+      "postal_code": "284 38",
+      "city": "Perstorp",
+      "email": "info@ichibankarate.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2012",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Karateförbundet",
+              "verksamhet_raw": "Kampsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kristofer gärdby",
+        "contact_person_role": null,
+        "contact_person_email": "info@ichibankarate.se",
+        "contact_person_phone": "+46705450650"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "070-5450650",
+        "work": "070-5450650",
+        "mobile": "070-5450650"
+      },
+      "founded_year": 2012,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Karateförbundet",
+      "verksamhet_raw": "Kampsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Kappsimningsklubben Karpen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/profile.php?id=100057187673279",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=KARPEN",
+      "street_address": "Badvägen 1",
+      "postal_code": "284 85",
+      "city": "Perstorp",
+      "email": "karpenperstorp@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Simförbundet",
+              "verksamhet_raw": "Simning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lina löfberg",
+        "contact_person_role": null,
+        "contact_person_email": "karpenperstorp@gmail.com",
+        "contact_person_phone": "+46708310320"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0708-310320",
+        "work": "0708-310320",
+        "mobile": "0708-310320"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Simförbundet",
+      "verksamhet_raw": "Simning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Morgonugglorna",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=MUGG",
+      "street_address": "Troedsberga 801",
+      "postal_code": "284 91",
+      "city": "Perstorp",
+      "email": "karin.nilsson@ljungkullen.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1965",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Simning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin nilsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46708103925"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-8103925"
+      },
+      "founded_year": 1965,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Simning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Oderljunga Motionsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket",
+        "Fotboll",
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=OMK",
+      "street_address": "Dalshult 706",
+      "postal_code": "284 92",
+      "city": "Perstorp",
+      "email": "lis-beth.wiberg@hotmail.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1967",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Basket, Fotboll, Innebandy",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders blomberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46435461080"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-461080",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1967,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Basket, Fotboll, Innebandy"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Oderljunga Skola och Landsbygd",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturverksamhet",
+        "Naturvård"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=OSG",
+      "street_address": "Hagstad 202",
+      "postal_code": "284 92",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1988",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet, Naturvård",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andrea labra",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46739859587"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "073-9859587",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1988,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet, Naturvård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Pensionärsföreningen Eken",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Hjälp/Stödverksamhet",
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.spfseniorerna.se/ekenperstorp",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=EKEN",
+      "street_address": "Duvstigen 13",
+      "postal_code": "284 37",
+      "city": "Perstorp",
+      "email": "ekenperstorp@spfseniorerna.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hjälp/Stödverksamhet, Kulturverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Siv nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "sivnilsson@live.se",
+        "contact_person_phone": "+46709452105"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0709-452105",
+        "work": "",
+        "mobile": "0709-452105"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hjälp/Stödverksamhet, Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Persgården",
+      "org_number": null,
+      "types": [
+        "Privat"
+      ],
+      "activities": [
+        "Badminton",
+        "Innebandy",
+        "Styrkesport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PERS",
+      "street_address": "Perstorp AB",
+      "postal_code": "284 80",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Badminton, Innebandy, Styrkesport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mia aronsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643538715"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0435-387 15",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Badminton, Innebandy, Styrkesport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorp Atletklubb 79",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Styrkesport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PAK",
+      "street_address": "Bjärröd 1010 C",
+      "postal_code": "284 91",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Styrkesport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eskil thomasson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46737453199"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "073-7453199",
+        "work": "073-7453199",
+        "mobile": "073-7453199"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Styrkesport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorp Bälinge IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket",
+        "Fotboll",
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.klubben.se/perstorpssk",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PBIK",
+      "street_address": "Box 139",
+      "postal_code": "284 22",
+      "city": "Perstorp",
+      "email": "pirkko.j-pbik@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2012",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Fotbollförbundet",
+              "verksamhet_raw": "Basket, Fotboll, Innebandy",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pirkko jokikokko",
+        "contact_person_role": null,
+        "contact_person_email": "pirkko.j-pbik@hotmail.com",
+        "contact_person_phone": "+46705574818"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-5574818"
+      },
+      "founded_year": 2012,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Fotbollförbundet",
+      "verksamhet_raw": "Basket, Fotboll, Innebandy"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorp Kör o Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hästsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www4.idrottonline.se/PerstorpsKorORF-Ridsport/",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=K%c3%96R",
+      "street_address": "Box 150",
+      "postal_code": "284 22",
+      "city": "Perstorp",
+      "email": "lotta.nordkvist@perstorp.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1984",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Ridsportförbundet",
+              "verksamhet_raw": "Hästsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lotta nordkvist",
+        "contact_person_role": null,
+        "contact_person_email": "lotta.nordkvist@perstorp.se",
+        "contact_person_phone": "+46733599109"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "073-3599109"
+      },
+      "founded_year": 1984,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Ridsportförbundet",
+      "verksamhet_raw": "Hästsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorp Motorcykelklubb",
+      "org_number": null,
+      "types": [
+        "Motorförening"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PMCK",
+      "street_address": "Juvelvägen 7",
+      "postal_code": "284 35",
+      "city": "Perstorp",
+      "email": "christer@gjoco.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Motorsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer nilsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46705128754"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-353 57",
+        "work": "070-5128754",
+        "mobile": "070-5128754"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Motorsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorp Pistolskytteklubb",
+      "org_number": null,
+      "types": [
+        "Skytteförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PISTOL",
+      "street_address": "Parkvägen 48",
+      "postal_code": "284 33",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1954",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Skytte",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åke bengtsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643531333"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-313 33",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1954,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Skytte"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorp Röda Kors Krets",
+      "org_number": null,
+      "types": [
+        "Hjälporganisation"
+      ],
+      "activities": [
+        "Hjälp/Stödverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=RK",
+      "street_address": "Fasanvägen 2",
+      "postal_code": "284 36",
+      "city": "Perstorp",
+      "email": "sven-erik.sjostrand@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hjälp/Stödverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven-erik sjöstrand",
+        "contact_person_role": null,
+        "contact_person_email": "sven-erik.sjostrand@telia.com",
+        "contact_person_phone": "+46768541985"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0768-541985",
+        "work": "0768-541985",
+        "mobile": "0768-541985"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hjälp/Stödverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorp Sportfiskeförening Carpio",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fiske",
+        "Naturvård"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=CARPIO",
+      "street_address": "Kärrvägen 37",
+      "postal_code": "284 34",
+      "city": "Perstorp",
+      "email": "urban.ohlsson@hotmail.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Fiske, Naturvård",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Urban ohlsson",
+        "contact_person_role": null,
+        "contact_person_email": "urban.ohlsson@hotmail.se",
+        "contact_person_phone": "+4643534502"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-345 02",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Fiske, Naturvård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Bangolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bangolf"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PBGK",
+      "street_address": "Allégatan 6D",
+      "postal_code": "284 31",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1951",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Bangolfförbundet",
+              "verksamhet_raw": "Bangolf",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy söderberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46704130133"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-4130133"
+      },
+      "founded_year": 1951,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Bangolfförbundet",
+      "verksamhet_raw": "Bangolf"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Bowlingförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PBF",
+      "street_address": "Box 74",
+      "postal_code": "284 21",
+      "city": "Perstorp",
+      "email": "git.lantz@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1960",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Bowlingförbundet",
+              "verksamhet_raw": "Bowling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Git lantz",
+        "contact_person_role": null,
+        "contact_person_email": "git.lantz@hotmail.com",
+        "contact_person_phone": "+46706315559"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-31542",
+        "work": "",
+        "mobile": "070-6315559"
+      },
+      "founded_year": 1960,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Bowlingförbundet",
+      "verksamhet_raw": "Bowling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Fotografering"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PFK",
+      "street_address": "Alvägen 11",
+      "postal_code": "284 32",
+      "city": "Perstorp",
+      "email": "ingelawerneraronsson@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1952",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Fotografering",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingela aronsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643530116"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-30116",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1952,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Fotografering"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PGK",
+      "street_address": "Gustavsborg 501",
+      "postal_code": "284 91",
+      "city": "Perstorp",
+      "email": "kansli@perstorpsgk.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1963",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Golfförbundet",
+              "verksamhet_raw": "Golf",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulf lindh",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@perstorpsgk.se",
+        "contact_person_phone": "+4643535411"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-35411",
+        "work": "0435-354 11",
+        "mobile": ""
+      },
+      "founded_year": 1963,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Golfförbundet",
+      "verksamhet_raw": "Golf"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturverksamhet",
+        "Naturvård"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/perstorps-hembygdsf-rening",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PHBF",
+      "street_address": "Bryggaregatan 2",
+      "postal_code": "284 32",
+      "city": "Perstorp",
+      "email": "info@perstorpshembygd.onmicrosoft.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet, Naturvård",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per gillenius",
+        "contact_person_role": null,
+        "contact_person_email": "info@perstorpshembygd.onmicrosoft.com",
+        "contact_person_phone": "+46706681005"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "070 668 10 05",
+        "work": "",
+        "mobile": "070 668 10 05"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet, Naturvård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PKK",
+      "street_address": "Vinkelgatan 6",
+      "postal_code": "284 33",
+      "city": "Perstorp",
+      "email": "kim.a.pedersen@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2003",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Karateförbundet",
+              "verksamhet_raw": "Kampsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kim pedersen",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46705152680"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-313 36",
+        "work": "",
+        "mobile": "070-51 52 680"
+      },
+      "founded_year": 2003,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Karateförbundet",
+      "verksamhet_raw": "Kampsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Koloniförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Naturvård",
+        "Trädgårdsskötsel"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=KOLONI",
+      "street_address": "Bäckavägen 3 C",
+      "postal_code": "284 32",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Naturvård, Trädgårdsskötsel",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Susanne ryberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46701591519"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "070-1591519",
+        "work": "070-1591519",
+        "mobile": "070-1591519"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Naturvård, Trädgårdsskötsel"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Missionsförsamling",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Hjälp/Stödverksamhet",
+        "Religiös"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PMF",
+      "street_address": "Björstorp",
+      "postal_code": "284 91",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hjälp/Stödverksamhet, Religiös",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders westerlund",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643524066"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-240 66",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hjälp/Stödverksamhet, Religiös"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps MX",
+      "org_number": null,
+      "types": [
+        "Motorförening"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PMX",
+      "street_address": "Spjutserödsvägen 39",
+      "postal_code": "284 37",
+      "city": "Perstorp",
+      "email": "anders@hemy.nu",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2020",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Motorsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders tuvesson",
+        "contact_person_role": null,
+        "contact_person_email": "anders@hemy.nu",
+        "contact_person_phone": "+46702208312"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-2208312"
+      },
+      "founded_year": 2020,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Motorsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Naturskyddsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Naturvård"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PNVF",
+      "street_address": "Solovägen 4",
+      "postal_code": "284 37",
+      "city": "Perstorp",
+      "email": "pia.steffert@perstorp.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1987",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Naturvård",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pia steffert",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643531621"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-316 21",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1987,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Naturvård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Padelklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Padel"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PPK",
+      "street_address": "Notvägen 4",
+      "postal_code": "284 37",
+      "city": "Perstorp",
+      "email": "perstorpspadelklubb@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2024",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Padel",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sebastian kullberg",
+        "contact_person_role": null,
+        "contact_person_email": "sebastian.kullberg@lekolar.com",
+        "contact_person_phone": "+46706432503"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "070-643 25 03",
+        "work": "",
+        "mobile": "070-643 25 03"
+      },
+      "founded_year": 2024,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Padel"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Pensionärsförening",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Hjälp/Stödverksamhet",
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://pro.se/",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PRO",
+      "street_address": "Parkvägen 2",
+      "postal_code": "284 33",
+      "city": "Perstorp",
+      "email": "perstorp@pro.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1952",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hjälp/Stödverksamhet, Kulturverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin johansson",
+        "contact_person_role": null,
+        "contact_person_email": "kae.johansson@hotmail.se",
+        "contact_person_phone": "+46702628863"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "070-2628863",
+        "work": "070-2628863",
+        "mobile": "070-2628863"
+      },
+      "founded_year": 1952,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hjälp/Stödverksamhet, Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PSF",
+      "street_address": "Oderljungavägen 51",
+      "postal_code": "284 38",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Skytte",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Arne wiktor",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643534815"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-348 15",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Skytte"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Perstorps Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=PTK",
+      "street_address": "Trastvägen 85",
+      "postal_code": "284 36",
+      "city": "Perstorp",
+      "email": "raffem@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1926",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Tennisförbundet",
+              "verksamhet_raw": "Tennis",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rafael michalak",
+        "contact_person_role": null,
+        "contact_person_email": "raffem@hotmail.com",
+        "contact_person_phone": "+46768873899"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0768-873899",
+        "mobile": "0768-873899"
+      },
+      "founded_year": 1926,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Tennisförbundet",
+      "verksamhet_raw": "Tennis"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Riksförbundet För Social o Mental Hälsa",
+      "org_number": null,
+      "types": [
+        "Hjälporganisation"
+      ],
+      "activities": [
+        "Hjälp/Stödverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rsmh.se/",
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=RSMH",
+      "street_address": "Kapellgatan 2B",
+      "postal_code": "264 38",
+      "city": "Klippan",
+      "email": "pernilla.molnar@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1999",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hjälp/Stödverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pernilla molnar",
+        "contact_person_role": null,
+        "contact_person_email": "pernilla.molnar@hotmail.com",
+        "contact_person_phone": "+46706454047"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0706-454047",
+        "work": "",
+        "mobile": "0706-454047"
+      },
+      "founded_year": 1999,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hjälp/Stödverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Räddningskårens IF",
+      "org_number": null,
+      "types": [
+        "Privat"
+      ],
+      "activities": [
+        "(Saknas)"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=R%c3%84K",
+      "street_address": "Perstorp AB",
+      "postal_code": "284 80",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "(Saknas)",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "(saknas)",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "(Saknas)"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Röda Korset Ungdomsförbund",
+      "org_number": null,
+      "types": [
+        "Hjälporganisation"
+      ],
+      "activities": [
+        "Hjälp/Stödverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=RKU",
+      "street_address": "Drottninggatan 2 C",
+      "postal_code": "212 11",
+      "city": "Malmö",
+      "email": "matilda.rabrant@redcross.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hjälp/Stödverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Arna berling",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643531415"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-314 15",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hjälp/Stödverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Svenska Missonsförbundets Ungdom",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Religiös"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=SMU",
+      "street_address": "Björstorp",
+      "postal_code": "284 91",
+      "city": "Perstorp",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Religiös",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika westerlund",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643524066"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-240 66",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Religiös"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Trädgårdsföreningen Perstorp",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Naturvård",
+        "Trädgårdsskötsel"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=TGF",
+      "street_address": "Gustavsborg 612",
+      "postal_code": "284 91",
+      "city": "Perstorp",
+      "email": "gerd.wendt@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2016",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Naturvård, Trädgårdsskötsel",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gerd wendt",
+        "contact_person_role": null,
+        "contact_person_email": "gerd.wendt@hotmail.com",
+        "contact_person_phone": "+46739122182"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0739-122182",
+        "work": "0739-122182",
+        "mobile": "0739-122182"
+      },
+      "founded_year": 2016,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Naturvård, Trädgårdsskötsel"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Perstorp",
+    "scrape_run_id": "7c10eeee-163d-4f05-a295-3ccabd6c95ee",
+    "scraped_at": "2025-10-27T10:55:09.926Z",
+    "association": {
+      "name": "Åsbobygdens Samlarförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://fri.perstorp.se/forening/visa.aspx?id=%c3%85SBO",
+      "street_address": "Spelvägen 11",
+      "postal_code": "284 37",
+      "city": "Perstorp",
+      "email": "asbobygdenssamlarforening@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven stenberg",
+        "contact_person_role": null,
+        "contact_person_email": "svir.stenberg@gmail.com",
+        "contact_person_phone": "+46706831850"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0435-317 50",
+        "work": "070-6831850",
+        "mobile": "070-6831850"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet"
+    }
+  }
+]

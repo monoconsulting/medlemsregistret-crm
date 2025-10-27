@@ -1,0 +1,6735 @@
+[
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/54",
+      "name": "Aktiv Ungdom Kinda",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Hantverk",
+        "Dans"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Barnhemsgatan 12",
+      "postal_code": "58230",
+      "city": "Linköping",
+      "email": "kinda@aktivungdom.se",
+      "phone": "070-888 07 00",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 0,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 54,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/21",
+      "name": "Allhuset i Björkfors ideell förening",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Möten"
+      ],
+      "categories": [
+        "Björkfors"
+      ],
+      "homepage_url": null,
+      "street_address": "G: Landsvägen 13",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "info@allhusbjorkfors.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Möten"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Björkfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 1,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 21,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/53",
+      "name": "Allsången i Kisa",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik / Sång"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Nyhängsgatan 3",
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "nyhagnsgatan3@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Musik / Sång"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 2,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 53,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/113",
+      "name": "Arbetarnas Bildningsförbund Östergötland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Stora torget 2",
+      "postal_code": "59037",
+      "city": "Kisa",
+      "email": "info.ostergotland@abf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 3,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 113,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/37",
+      "name": "Björkfors Båtklubb",
+      "org_number": null,
+      "types": [
+        "Båtklubb"
+      ],
+      "activities": [
+        "Båtklubb"
+      ],
+      "categories": [
+        "Björkfors"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Båtklubb"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Björkfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 4,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 37,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/9",
+      "name": "Björkfors gymnastik och idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering",
+        "Gymnastik",
+        "Friidrott",
+        "Skidor"
+      ],
+      "categories": [
+        "Rimforsa"
+      ],
+      "homepage_url": null,
+      "street_address": "Västra vägen 10",
+      "postal_code": "59044",
+      "city": "Rimforsa",
+      "email": "bgoif@bgoif.nu",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Orientering"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Friidrott"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Skidor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 5,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 9,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/102",
+      "name": "Björkfors Vägförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Björkfors",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 6,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 102,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/96",
+      "name": "Brokyrkan",
+      "org_number": null,
+      "types": [
+        "Religiösa samfund"
+      ],
+      "activities": [
+        "Religiösa samfund"
+      ],
+      "categories": [
+        "Rimforsa",
+        "Norra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Industrivägen 3",
+      "postal_code": "59044",
+      "city": "Rimforsa",
+      "email": "ordf@brokyrkan.org",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Religiösa samfund"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              },
+              {
+                "key": "Område",
+                "value": "Norra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 7,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 96,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/48",
+      "name": "DHR Kindaavd.",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kinda@dhr.se",
+      "phone": "049420254",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 8,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 48,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/24",
+      "name": "Dockekulla Bygdegårdsförening ",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Samlingslokal",
+        "Dans"
+      ],
+      "categories": [
+        "Västra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Dockekulla Bygdegård",
+      "postal_code": "59791",
+      "city": "Åtvidaberg",
+      "email": "ml.arnell62@gmail.com",
+      "phone": "0725281688",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Västra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 9,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 24,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/75",
+      "name": "Eda Ryttarsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Norra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Eda 1",
+      "postal_code": "59045",
+      "city": "Brokind",
+      "email": "eda_rs@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ridning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Norra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 10,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 75,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/7",
+      "name": "Elimförsamling i Horn",
+      "org_number": null,
+      "types": [
+        "Religiösa samfund"
+      ],
+      "activities": [
+        "Religiösa samfund"
+      ],
+      "categories": [
+        "Horn"
+      ],
+      "homepage_url": null,
+      "street_address": "Stångågatan 21",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "elim.horn@telia.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Religiösa samfund"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 11,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 7,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/58",
+      "name": "Equmeniakyrkan Rimforsa",
+      "org_number": null,
+      "types": [
+        "Religiösa samfund"
+      ],
+      "activities": [
+        "Religiösa samfund"
+      ],
+      "categories": [
+        "Rimforsa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Kalmarvägen 40",
+      "postal_code": "59043",
+      "city": "Rimforsa",
+      "email": "info@equmeniakyrkanrimforsa.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Religiösa samfund"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 12,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 58,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/109",
+      "name": "Folkuniversitetet Östergötland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Klostergatan 49",
+      "postal_code": "58283",
+      "city": "Linköping",
+      "email": "asa.forsman@folkuniversitetet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 13,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 109,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/50",
+      "name": "Friluftsfrämjandet Kinda",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Friluftsverksamhet"
+      ],
+      "categories": [
+        "Rimforsa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Kalmarvägen 28",
+      "postal_code": "59043",
+      "city": "Rimforsa",
+      "email": "kinda@friluftsframjandet.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Friluftsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 14,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 50,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/87",
+      "name": "Förskolan Arken",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Kyrkstigen 2",
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "josefine.rafelt@svenskakyrkan.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 15,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 87,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/30",
+      "name": "Godtemplargården Trofast Upa",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Norra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Ämmersvik Opphem",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "familjengerdin@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 16,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 30,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/99",
+      "name": "Hemvist",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Storgatan 45",
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "dimi1963@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 17,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 99,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/105",
+      "name": "Hope för ungdomarutveckling förening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Hjälpverksamhet"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Bergdalagatan 21A",
+      "postal_code": "59038",
+      "city": "Kisa",
+      "email": "mshagenius99@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hjälpverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 18,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 105,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/10",
+      "name": "Horn Hycklinge Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Horn",
+        "Hycklinge",
+        "Södra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hhif@hotmail.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Hycklinge"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 19,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 10,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/46",
+      "name": "Horn Hycklinge Rödakorskrets",
+      "org_number": null,
+      "types": [],
+      "activities": [
+        "Hjälpverksamhet"
+      ],
+      "categories": [
+        "Horn",
+        "Hycklinge",
+        "Södra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Finede Norrgård",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "am.olofshagen@spray.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hjälpverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Hycklinge"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 20,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 46,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/56",
+      "name": "Horn Hycklinge skytteförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Skytteverksamhet"
+      ],
+      "categories": [
+        "Horn",
+        "Hycklinge",
+        "Södra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skytteverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Hycklinge"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 21,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 56,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/64",
+      "name": "Horn-Hycklinge föreläsningsförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Föreläsningar"
+      ],
+      "categories": [
+        "Horn",
+        "Hycklinge",
+        "Södra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Horn Åbyboda 1",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "abyboda@hotmail.com",
+      "phone": "070-515 73 38",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreläsningar"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Hycklinge"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 22,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 64,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/78",
+      "name": "Horn-Hycklinge kyrkokör",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 23,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 78,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/81",
+      "name": "Horns kyrkliga syförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Hantverk",
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Horn",
+        "Södra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Församlingslokalen",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 24,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 81,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/93",
+      "name": "Horns Musikkår",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Musik / Sång"
+      ],
+      "categories": [
+        "Horn",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Sonebo Sandstugan",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Musik / Sång"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 25,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 93,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/22",
+      "name": "Horns Scoutkår",
+      "org_number": null,
+      "types": [
+        "Scoutkår"
+      ],
+      "activities": [
+        "Biograf",
+        "Friluftsverksamhet",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Horn"
+      ],
+      "homepage_url": null,
+      "street_address": "Flarkavägen 6",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "bjorn.jonsson@nsf.scout.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Biograf"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Friluftsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 26,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 22,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/95",
+      "name": "Horns vägförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Horn",
+        "Södra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Gamla Hycklingevägen 31",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "ordf@horns-vf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 27,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 95,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/25",
+      "name": "Hycklinge JUF",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Hycklinge",
+        "Södra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Hycklingevägen 33",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "christina.kallstrom@kindaydresparbank.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Hycklinge"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 28,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 25,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/94",
+      "name": "Hållbart Rimforsa",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Föreläsningar",
+        "Miljö"
+      ],
+      "categories": [
+        "Rimforsa",
+        "Norra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreläsningar"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Miljö"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              },
+              {
+                "key": "Område",
+                "value": "Norra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 29,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 94,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/31",
+      "name": "Hägerstad Bastuförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Bastubad"
+      ],
+      "categories": [
+        "Norra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jerke_pettersson@spray.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bastubad"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Norra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 30,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 31,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/20",
+      "name": "Hägerstad IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": "Hallstad Björkhaga",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "wahla45@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 31,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 20,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/40",
+      "name": "Hägerstad-Kettilstad Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdegårdsförening"
+      ],
+      "activities": [
+        "Kulturhistoria"
+      ],
+      "categories": [
+        "Norra Kinda",
+        "Östra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Österled 6",
+      "postal_code": "59043",
+      "city": "Rimforsa",
+      "email": "kalevall.konsult@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturhistoria"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Norra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Östra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 32,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 40,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/49",
+      "name": "Hörselskadades förening i Kinda",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Linnegatan 7",
+      "postal_code": "59037",
+      "city": "Kisa",
+      "email": "kinda@forening.hrf.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 33,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 49,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/148",
+      "name": "IF Seishin Kyokushin Karate",
+      "org_number": null,
+      "types": [],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Rimforsa",
+        "Södra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Heidenstams gata 3",
+      "postal_code": "58437",
+      "city": "Linköping",
+      "email": "fredrik.gundmark@kyokushin.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Karate"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 34,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 148,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/59",
+      "name": "Internationella kvinnoföreningen i Kinda",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "kicki.stridh@gmail.com",
+      "phone": "070-791 38 96",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 35,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 59,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/32",
+      "name": "IOGT-NTO Föreningen",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Biograf",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Horn",
+        "Södra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Stångågatan 37",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "laila.carlsson53@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Biograf"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 36,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 32,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/23",
+      "name": "Kinda Alpina Klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skidor"
+      ],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": "Västra vägen 40",
+      "postal_code": "59037",
+      "city": "Kisa",
+      "email": "kindaalpinaklubb@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skidor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 37,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 23,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/18",
+      "name": "Kinda Båtklubb",
+      "org_number": null,
+      "types": [
+        "Båtklubb"
+      ],
+      "activities": [
+        "Båtklubb"
+      ],
+      "categories": [
+        "Rimforsa"
+      ],
+      "homepage_url": null,
+      "street_address": "Box 79",
+      "postal_code": "59051",
+      "city": "Rimforsa",
+      "email": "claean@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Båtklubb"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 38,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 18,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/106",
+      "name": "Kinda Golf Klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Björndal, Pinnarp",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "info@kindagk.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Golf"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 39,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 106,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/90",
+      "name": "Kinda Hembygdsgille",
+      "org_number": null,
+      "types": [
+        "Hembygdegårdsförening"
+      ],
+      "activities": [
+        "Kulturhistoria"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturhistoria"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 40,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 90,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/41",
+      "name": "Kinda Kanals Veteranbåtklubb",
+      "org_number": null,
+      "types": [
+        "Båtklubb"
+      ],
+      "activities": [
+        "Båtklubb"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Torsgatan 3",
+      "postal_code": "59049",
+      "city": "Vikingstad",
+      "email": "orvst.nilsson@bredband.net",
+      "phone": "070-913 47 70",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Båtklubb"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 41,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 41,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/65",
+      "name": "Kinda Konstförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Hantverk"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": "https://www.kindakonstforening.se/",
+      "street_address": "Slätmon Solbacken",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "ordf@kindakonstforening.se",
+      "phone": "0737635134",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 42,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 65,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/74",
+      "name": "Kinda Majblommekommitté",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 43,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 74,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/62",
+      "name": "Kinda Nationaldagskommitté",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Nyhägnsgatan 3",
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "nyhagnsgatan3@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 44,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 62,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/70",
+      "name": "Kinda Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Mjölsefall 2",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "goran@mjolsefall.se",
+      "phone": "073-435 27 95",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ridning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 45,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 70,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/103",
+      "name": "Kinda Ydre FUB",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Hjälpverksamhet",
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hjälpverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 46,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 103,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/76",
+      "name": "KindaMat",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Hantverk"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Korpklevs Södergård",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "barbro@korpklev.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 47,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 76,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/55",
+      "name": "Kinda-Ydre MHF",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 48,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 55,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/101",
+      "name": "Kisa Biodlarförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Biodling"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Klubbstuga, Hargs Gård",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Biodling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 49,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 101,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/2",
+      "name": "Kisa Bollklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Innebandy"
+      ],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "59038",
+      "city": "Kisa",
+      "email": "kisabk@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 50,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 2,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/61",
+      "name": "Kisa Bridgesällskap",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kisa.bs@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 51,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 61,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/89",
+      "name": "Kisa Båtklubb",
+      "org_number": null,
+      "types": [
+        "Båtklubb"
+      ],
+      "activities": [
+        "Båtklubb"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Sundsnäs Övre",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "ordforande@kisabatklubb.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Båtklubb"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 52,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 89,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/100",
+      "name": "Kisa Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Södra Prästgatan 16",
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "info@kisafotoklubb.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 53,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 100,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/16",
+      "name": "Kisa Frikyrkoförening",
+      "org_number": null,
+      "types": [
+        "Religiösa samfund"
+      ],
+      "activities": [
+        "Religiösa samfund"
+      ],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": "Linnégatan 21",
+      "postal_code": "59037",
+      "city": "Kisa",
+      "email": "info@kisafrikyrka.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Religiösa samfund"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 54,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 16,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/107",
+      "name": "Kisa Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Gammelgårdsgatan 16",
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "marha698@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Karate"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 55,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 107,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/77",
+      "name": "Kisa kyrkliga syförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Hantverk",
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 56,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 77,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/69",
+      "name": "Kisa Rotaryklubb",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Hjälpverksamhet"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kisa@rotary.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hjälpverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 57,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 69,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/86",
+      "name": "Kisa Scoutkår",
+      "org_number": null,
+      "types": [
+        "Natur och Friluftsverksamhet"
+      ],
+      "activities": [
+        "Friluftsverksamhet"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Ulrikavägen 4",
+      "postal_code": "59044",
+      "city": "Rimforsa",
+      "email": "info@kisascout.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Friluftsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 58,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 86,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/66",
+      "name": "Kisa Skyttegille",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytteverksamhet"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Stjärneboskolan",
+      "postal_code": "59038",
+      "city": "Kisa",
+      "email": "kisaskyttegille@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skytteverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 59,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 66,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/15",
+      "name": "Kisa Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": "Torggatan 1",
+      "postal_code": "59037",
+      "city": "Kisa",
+      "email": "info@kisask.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Friidrott"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 60,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 15,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/6",
+      "name": "Kisa Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johansson.mail@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Tennis"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 61,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 6,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/91",
+      "name": "Kisa-Västra Eneby Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdegårdsförening"
+      ],
+      "activities": [
+        "Byggdekultur"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Enebygatan 29B",
+      "postal_code": "59040",
+      "city": "Kisa",
+      "email": "info@kisahembygdsgard.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Byggdekultur"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 62,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 91,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/4",
+      "name": "Korpen Kinda",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Kisa",
+        "Rimforsa"
+      ],
+      "homepage_url": "http://korpen-kinda.se",
+      "street_address": "Hamra Solbacken 1",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "info@korpen-kinda.se",
+      "phone": null,
+      "description": {
+        "free_text": "Korpen gör det enkelt för människor att sporta och ha kul tillsammans!",
+        "sections": [
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 63,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 4,
+      "leisure_activity_card": false,
+      "has_public_info": true
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/85",
+      "name": "Kristdemokraterna i Kinda",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [
+        "Möten"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Nygård Solhem",
+      "postal_code": "59043",
+      "city": "Rimforsa",
+      "email": "lena@kristdemokraterna.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Möten"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 64,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 85,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/45",
+      "name": "Lions Club Kisa",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Föreläsningar",
+        "Möten",
+        "Hjälpverksamhet"
+      ],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": "Vallingatan 2",
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "president@lionsclubkisa.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreläsningar"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Möten"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Hjälpverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 65,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 45,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/108",
+      "name": "MK Kinda",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Tjustad Södergård 1",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "info@mk-kinda.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motorsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 66,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 108,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/111",
+      "name": "NBV ÖST",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Klara Södra kyrkogata 20",
+      "postal_code": "11152",
+      "city": "Stockholm",
+      "email": "ost@nbv.se",
+      "phone": "0733730197",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 67,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 111,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/8",
+      "name": "Norra Kinda LRF",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Rimforsa"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kerstin.fornander@kinda.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 68,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 8,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/34",
+      "name": "Oppeby Bastuförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Bastubad"
+      ],
+      "categories": [
+        "Norra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Idhult Björkfors",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "lars.schedenborg.ef@telia.com",
+      "phone": "070-792 60 84",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bastubad"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Norra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 69,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 34,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/28",
+      "name": "Oppeby Bygderåd",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [],
+      "categories": [
+        "Västra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 70,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 28,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/35",
+      "name": "Oppeby Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdegårdsförening"
+      ],
+      "activities": [
+        "Samlingslokal",
+        "Bygdekultur"
+      ],
+      "categories": [
+        "Östra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Grenadjärstorpet Ekelid Oppeby",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "rj.sorenp@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdekultur"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Östra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 71,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 35,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/67",
+      "name": "Oppeby lokala jaktvårdsförening",
+      "org_number": null,
+      "types": [
+        "Viltvård / Jakt"
+      ],
+      "activities": [
+        "Viltvård / Jakt",
+        "Skytteverksamhet"
+      ],
+      "categories": [
+        "Västra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Åbylundsgatan 40",
+      "postal_code": "58236",
+      "city": "Linköping",
+      "email": "mats.nilsson@areal.se",
+      "phone": "072-531 70 88",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Viltvård / Jakt"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Skytteverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Västra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 72,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 67,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/36",
+      "name": "Opphems Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Norra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Gläntan Opphem",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "hahe58@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Norra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 73,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 36,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/33",
+      "name": "Ordkalaset",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Föreläsningar",
+        "Kulturhistoria"
+      ],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": "Hjalmar Brantings väg 3",
+      "postal_code": "59038",
+      "city": "Kisa",
+      "email": "torbjorngustafsson12@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreläsningar"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturhistoria"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 74,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 33,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/82",
+      "name": "PRO Rimforsa",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Rimforsa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "rimforsa@pro.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 75,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 82,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/13",
+      "name": "PRO Södra Kinda",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Möten"
+      ],
+      "categories": [
+        "Horn"
+      ],
+      "homepage_url": null,
+      "street_address": "Finede Norrgård",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "finede@hotmail.com",
+      "phone": "0706431580",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Möten"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 76,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 13,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/42",
+      "name": "Rimforsa Båtklubb",
+      "org_number": null,
+      "types": [
+        "Båtklubb"
+      ],
+      "activities": [
+        "Båtklubb"
+      ],
+      "categories": [
+        "Rimforsa"
+      ],
+      "homepage_url": null,
+      "street_address": "Strandvägen 3",
+      "postal_code": "59043",
+      "city": "Rimforsa",
+      "email": "peter.c.karlen@gmail.com",
+      "phone": "0494-21114",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Båtklubb"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 77,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 42,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/44",
+      "name": "Rimforsa Fiskeklubb",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Fiske"
+      ],
+      "categories": [
+        "Rimforsa"
+      ],
+      "homepage_url": "https://rimforsafk.blogspot.com/",
+      "street_address": "Fasanstigen 9",
+      "postal_code": "59044",
+      "city": "Rimforsa",
+      "email": "rimforsafiskeklubb@gmail.com",
+      "phone": "073-0820421",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiske"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 78,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 44,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/3",
+      "name": "Rimforsa Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Innebandy",
+        "Bordtennis"
+      ],
+      "categories": [
+        "Rimforsa"
+      ],
+      "homepage_url": "https://www.rimforsaif.se",
+      "street_address": "Kalmarvägen 21B. Bv",
+      "postal_code": "59043",
+      "city": "Rimforsa",
+      "email": "styrelsen@rimforsaif.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bordtennis"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 79,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/68",
+      "name": "Rimforsa jaktskytteklubb",
+      "org_number": null,
+      "types": [
+        "Viltvård / Jakt"
+      ],
+      "activities": [
+        "Viltvård / Jakt",
+        "Skytteverksamhet"
+      ],
+      "categories": [
+        "Rimforsa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Nygård Tallkotta",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "matsa.s@telia.com",
+      "phone": "073-054 99 85",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Viltvård / Jakt"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Skytteverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 80,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 68,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/83",
+      "name": "Rimforsa Simskola",
+      "org_number": null,
+      "types": [
+        "Simskola"
+      ],
+      "activities": [
+        "Simskola"
+      ],
+      "categories": [
+        "Rimforsa",
+        "Norra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Norra åkersvägen 5",
+      "postal_code": "59043",
+      "city": "Rimforsa",
+      "email": "simskola.rimforsa@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Simskola"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              },
+              {
+                "key": "Område",
+                "value": "Norra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 81,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 83,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/104",
+      "name": "Sensus studieförbund",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Föreläsningar",
+        "Musik / Sång"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Apotekaregatan 14",
+      "postal_code": "58224",
+      "city": "Linköping",
+      "email": "ostragotaland@sensus.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreläsningar"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Musik / Sång"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 82,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 104,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/97",
+      "name": "SISU Idrottsutbildarna",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Idrottens Hus, Fastes Gata 4",
+      "postal_code": "52878",
+      "city": "Linköping",
+      "email": "ostergotland@rfsisu.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 83,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 97,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/11",
+      "name": "Slätmons Bollklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Slätmon"
+      ],
+      "homepage_url": null,
+      "street_address": "Bergvallen, Slätmon",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": "roger.jacobsson60@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 84,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 11,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/26",
+      "name": "Somaliska Gabooye utvecklingsförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "musecolaad@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 85,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 26,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/27",
+      "name": "Somaliska Samhällsutvecklingsföreningen i Kinda ",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Föreläsningar",
+        "Kulturhistoria"
+      ],
+      "categories": [
+        "Kisa"
+      ],
+      "homepage_url": null,
+      "street_address": "Gamla Eksjövägen 16 C",
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "samow@hotmail.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Föreläsningar"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturhistoria"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 86,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 27,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/88",
+      "name": "Somaliska Träffpunkt Center",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Bergdalagatan 25C",
+      "postal_code": "59038",
+      "city": "Kisa",
+      "email": "shardi05@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 87,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 88,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/84",
+      "name": "SPF Kinda",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Vinstorp Ödesäng",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "christina.nysten@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 88,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 84,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/112",
+      "name": "Studiefrämjandet Östergötland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Kungsgatan 53",
+      "postal_code": "60233",
+      "city": "Norrköping",
+      "email": "info@studieframjandet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 89,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 112,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/110",
+      "name": "Studieförbundet Bilda Sydöst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Huskvarnavägen 38",
+      "postal_code": "55454",
+      "city": "Jönköping",
+      "email": "sydost@bilda.nu",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 90,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 110,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/115",
+      "name": "Studieförbundet Vuxenskolan",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Vasavägen 3",
+      "postal_code": "58220",
+      "city": "Linköping",
+      "email": "ostergotland@sv.se",
+      "phone": "013-31 40 70",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 91,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 115,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/57",
+      "name": "Stångådalsbanans Vänner",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Kulturhistoria"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Vinkelvägen 16",
+      "postal_code": "59045",
+      "city": "Brokind",
+      "email": "per.lonn@allt2.se",
+      "phone": "0703-145499",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturhistoria"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 92,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 57,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/72",
+      "name": "Svenska Peter Casselsällskapet",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Kulturhistoria",
+        "Bygdekultur"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Åbyboda Grangärde",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "britt.stenman@gmail.com",
+      "phone": "070-394 19 86",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturhistoria"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdekultur"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 93,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 72,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/51",
+      "name": "Synskadades Riksförbund Linköping",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Föreläsningar",
+        "Möten"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Västra vägen 32",
+      "postal_code": "58228",
+      "city": "Linköping",
+      "email": "srf@fontanen.org",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreläsningar"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Möten"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 94,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 51,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/63",
+      "name": "Syrianska Förening i Kinda",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kisa",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Linnégatan 9A lgh 1201",
+      "postal_code": "59037",
+      "city": "Kisa",
+      "email": "yahyaalyusef@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 95,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 63,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/17",
+      "name": "Södra Kinda Bygdegille",
+      "org_number": null,
+      "types": [
+        "Hembygdegårdsförening"
+      ],
+      "activities": [
+        "Kulturhistoria",
+        "Bygdekultur"
+      ],
+      "categories": [
+        "Horn"
+      ],
+      "homepage_url": null,
+      "street_address": "Bosand Knekttorpet",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "Elint91@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturhistoria"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdekultur"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 96,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 17,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/43",
+      "name": "Södra Kinda Båtklubb",
+      "org_number": null,
+      "types": [
+        "Båtklubb"
+      ],
+      "activities": [
+        "Båtklubb"
+      ],
+      "categories": [
+        "Horn",
+        "Hycklinge",
+        "Södra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Flarkavägen 25",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "sanden.villaalma@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Båtklubb"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Hycklinge"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 97,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 43,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/92",
+      "name": "Södra Kinda Hemträdgårdsförening",
+      "org_number": null,
+      "types": [
+        "Trädgård och odling"
+      ],
+      "activities": [
+        "Trädgård och odling"
+      ],
+      "categories": [
+        "Södra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Ådalavägen 5",
+      "postal_code": "59042",
+      "city": "Kisa",
+      "email": "sven.molander@svenskakyrkan.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Trädgård och odling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 98,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 92,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/114",
+      "name": "Södra Kinda Hästförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Horn",
+        "Hycklinge",
+        "Södra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Råshult 1, Hycklinge",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "emmaaaniiilsson@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ridning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Hycklinge"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 99,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 114,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/71",
+      "name": "Södra Kinda Jaktskytteklubb",
+      "org_number": null,
+      "types": [
+        "Viltvård / Jakt"
+      ],
+      "activities": [
+        "Viltvård / Jakt",
+        "Skytteverksamhet"
+      ],
+      "categories": [
+        "Horn",
+        "Hycklinge",
+        "Södra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Österby Olovsgården",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": "paosterby@gmail.com",
+      "phone": "076-809 05 07",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Viltvård / Jakt"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Skytteverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Hycklinge"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 100,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 71,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/47",
+      "name": "Södra Kinda Sportfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Fiske"
+      ],
+      "categories": [
+        "Horn",
+        "Hycklinge",
+        "Södra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "G:a Hycklingevägen 27",
+      "postal_code": "59042",
+      "city": "Horn",
+      "email": null,
+      "phone": "0494-302 82",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiske"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Horn"
+              },
+              {
+                "key": "Område",
+                "value": "Hycklinge"
+              },
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 101,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 47,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/73",
+      "name": "Teater Emerentia",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Fimongatan 25",
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "teater.emerentia@hotmail.com",
+      "phone": "076-106 17 81",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 102,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 73,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/38",
+      "name": "Tidersrums Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdegårdsförening"
+      ],
+      "activities": [
+        "Kulturhistoria",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Södra Kinda",
+        "Västra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Lilla Tidersrum",
+      "postal_code": "50939",
+      "city": "Kisa",
+      "email": "gustaf@idavall.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturhistoria"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Västra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 103,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 38,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/80",
+      "name": "Tidersrums kyrkliga syförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Hantverk",
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Södra Kinda",
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "G:A Eksjövägen 12B",
+      "postal_code": "59037",
+      "city": "Kisa",
+      "email": "sor.gun@live.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              },
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 104,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 80,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/19",
+      "name": "TITANS",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Motionsidrott"
+      ],
+      "categories": [
+        "Rimforsa"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johnnyg8s@lhotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motionsidrott"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 105,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 19,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/79",
+      "name": "Tjärstad kyrkliga syförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Hantverk",
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Rimforsa församlingsgård",
+      "postal_code": "59046",
+      "city": "Rimforsa",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Social verksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 106,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 79,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/52",
+      "name": "Tjärstads Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdegårdsförening"
+      ],
+      "activities": [
+        "Kulturhistoria",
+        "Bygdekultur"
+      ],
+      "categories": [
+        "Rimforsa",
+        "Norra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Strömsvägen 3",
+      "postal_code": "59043",
+      "city": "Rimforsa",
+      "email": "carl.delten@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturhistoria"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdekultur"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Rimforsa"
+              },
+              {
+                "key": "Område",
+                "value": "Norra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 107,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 52,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/39",
+      "name": "Västra Eneby Klockaregårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Föreläsningar",
+        "Hantverk",
+        "Bygdekultur"
+      ],
+      "categories": [
+        "Kisa",
+        "Västra Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Västra Eneby",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "styrelsen@vastraenebyklockaregard.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreläsningar"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bygdekultur"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kisa"
+              },
+              {
+                "key": "Område",
+                "value": "Västra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 108,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 39,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/60",
+      "name": "Västra Kinda Hemträdgårdsförening",
+      "org_number": null,
+      "types": [
+        "Trädgård och odling"
+      ],
+      "activities": [
+        "Trädgård och odling"
+      ],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "59036",
+      "city": "Kisa",
+      "email": "vastrakinda.tradgard@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Trädgård och odling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 109,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 60,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/12",
+      "name": "Ydre Motorklubb",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Box 41",
+      "postal_code": "57060",
+      "city": "Österbymo",
+      "email": "niklaskrantz@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motorsport"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 110,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 12,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/29",
+      "name": "Ydrefors Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Samlingslokal",
+        "Simskola"
+      ],
+      "categories": [
+        "Södra Kinda"
+      ],
+      "homepage_url": "https://www.ydrefors.se/",
+      "street_address": "Sjövik 1",
+      "postal_code": "59873",
+      "city": "Gullringen",
+      "email": "samhallsforeningen@ydrefors.se",
+      "phone": "0703057970",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Simskola"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Södra Kinda"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 111,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 29,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Kinda",
+    "scrape_run_id": "11648d7d-87bd-4078-ac87-ea18beb27d81",
+    "scraped_at": "2025-10-27T01:15:55.431Z",
+    "association": {
+      "detail_url": "https://kinda.interbookfri.se/#/AssociationRegister#/association/98",
+      "name": "Yxefalls vägsamfällighet",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Kinda"
+      ],
+      "homepage_url": null,
+      "street_address": "Yxefall Sädergården 1",
+      "postal_code": "59039",
+      "city": "Kisa",
+      "email": "christina.larsson1@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 112,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 98,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  }
+]

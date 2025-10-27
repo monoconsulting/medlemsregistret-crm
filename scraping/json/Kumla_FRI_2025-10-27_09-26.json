@@ -1,0 +1,4691 @@
+[
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "ABF Kumla (ABF Örebro län)",
+      "org_number": null,
+      "types": [
+        "Studieorganisation"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=ABF",
+      "street_address": "BGC - ID: ABF2128",
+      "postal_code": "106 42",
+      "city": "Stockholm",
+      "email": "peter.franzen@abf.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Studieverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per eriksson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4658213128"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Studieverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "AGA Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.agabtk.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=AGA",
+      "street_address": "Snickartorpsvägen 16",
+      "postal_code": "692 32",
+      "city": "Kumla",
+      "email": "jonasbdahlin@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1946",
+              "fiscal_year_starts_mmdd": "0815",
+              "national_affiliation": "Sv.Bordtennisförbundet",
+              "verksamhet_raw": "Bordtennis",
+              "short_description": "Träna och spela bordtennis för alla åldrar från 6 år och uppåt."
+            }
+          }
+        ],
+        "free_text": "Träna och spela bordtennis för alla åldrar från 6 år och uppåt."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas dahlin",
+        "contact_person_role": null,
+        "contact_person_email": "jonasbdahlin@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1946,
+      "fiscal_year_start": "0815",
+      "national_affiliation": "Sv.Bordtennisförbundet",
+      "verksamhet_raw": "Bordtennis"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Askhögens IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton",
+        "Tennis"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=ASKH%c3%96GEN",
+      "street_address": "Carléns väg 10",
+      "postal_code": "692 72",
+      "city": "Kumla",
+      "email": "askhogensif@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Tennisförbundet",
+              "verksamhet_raw": "Badminton, Tennis",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Örjan johnsson",
+        "contact_person_role": null,
+        "contact_person_email": "askhogensif@hotmail.com",
+        "contact_person_phone": "+46761643862"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "076-164 38 62"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Tennisförbundet",
+      "verksamhet_raw": "Badminton, Tennis"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Betaniaförsamlingen Åbytorp",
+      "org_number": null,
+      "types": [
+        "Kyrka och församling"
+      ],
+      "activities": [
+        "Kyrkor och samfund"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.betaniakyrkan.nu/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=BETANIA",
+      "street_address": "Portföljgatan 2",
+      "postal_code": "692 73",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1897",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Evangeliska Frikyrkan",
+              "verksamhet_raw": "Kyrkor och samfund",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Susanne olofsson",
+        "contact_person_role": null,
+        "contact_person_email": "susanne@betaniakyrkan.nu",
+        "contact_person_phone": "+46733302540"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073-330 25 40"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Evangeliska Frikyrkan",
+      "verksamhet_raw": "Kyrkor och samfund"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Betesda Församl i Hällabrottet",
+      "org_number": null,
+      "types": [
+        "Kyrka och församling"
+      ],
+      "activities": [
+        "Kyrkor och samfund"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.betesda.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=BETESDA",
+      "street_address": "Carléns väg 7 A",
+      "postal_code": "692 72",
+      "city": "Kumla",
+      "email": "betesdahallabrottet@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1919",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Pingstför.Ungdomsarbete",
+              "verksamhet_raw": "Kyrkor och samfund",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn ramström",
+        "contact_person_role": null,
+        "contact_person_email": "bjorn.ramstrom@telia.com",
+        "contact_person_phone": "+46705838652"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-583 86 52"
+      },
+      "founded_year": 1919,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Pingstför.Ungdomsarbete",
+      "verksamhet_raw": "Kyrkor och samfund"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Bethnahrin",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kyrkor och samfund"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=BETHNAHRIN",
+      "street_address": "Slåttergatan 26",
+      "postal_code": "692 38",
+      "city": "Kumla",
+      "email": "thamer_zamara@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2011",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kyrkor och samfund",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thamer abbo",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46762175240"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 2011,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kyrkor och samfund"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Bowlingklubben Pliggen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=PLIGGEN",
+      "street_address": "Bondgårdsgatan 5 B",
+      "postal_code": "692 34",
+      "city": "Kumla",
+      "email": "roger712@spray.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1969",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Bowlingförbundet",
+              "verksamhet_raw": "Bowling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger andersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4619572268"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1969,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Bowlingförbundet",
+      "verksamhet_raw": "Bowling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Cum-Vox sångkör",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Körsång"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=CUM-VOX",
+      "street_address": "Mossbanegatan 42",
+      "postal_code": "692 33",
+      "city": "Kumla",
+      "email": "roger_lindgren@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1985",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Körsång",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger lindgren",
+        "contact_person_role": null,
+        "contact_person_email": "roger_lindgren@hotmail.com",
+        "contact_person_phone": "+46739493171"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1985,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Körsång"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Dansklubben Dancemania",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.dancemania.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=DANCEMANIA",
+      "street_address": "Västra Drottninggatan 43",
+      "postal_code": "692 33",
+      "city": "Kumla",
+      "email": "info@dancemania.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2014",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Danssportförbundet",
+              "verksamhet_raw": "Dans",
+              "short_description": "Dans"
+            }
+          }
+        ],
+        "free_text": "Dans"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jocim moberg",
+        "contact_person_role": null,
+        "contact_person_email": "joacim@dancemania.se",
+        "contact_person_phone": "+46723761306"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "072-376 13 06"
+      },
+      "founded_year": 2014,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Danssportförbundet",
+      "verksamhet_raw": "Dans"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Ekeby Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket",
+        "Bordtennis",
+        "Dans",
+        "Gymnastik...",
+        "Gymnastik",
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.ekebyif.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=EKEBYIF",
+      "street_address": "Berga 123B",
+      "postal_code": "692 93",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1971",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Innebandyförbundet",
+              "verksamhet_raw": "Basket, Bordtennis, Dans, Gymnastik, Innebandy",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Michael nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "michael.nilsson6912@gmail.com",
+        "contact_person_phone": "+46706571425"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-657 14 25"
+      },
+      "founded_year": 1971,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Innebandyförbundet",
+      "verksamhet_raw": "Basket, Bordtennis, Dans, Gymnastik, Innebandy"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Folkatorps Ridsportsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.folkatorp.com/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=FOLKARID",
+      "street_address": "Stubbengatan 2",
+      "postal_code": "703 44",
+      "city": "Örebro",
+      "email": "styrelsen@folkatorp.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1993",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Ridsportförbundet",
+              "verksamhet_raw": "Ridsport",
+              "short_description": "Ridskola"
+            }
+          }
+        ],
+        "free_text": "Ridskola"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Greger palm",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46702431369"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-243 13 69"
+      },
+      "founded_year": 1993,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Ridsportförbundet",
+      "verksamhet_raw": "Ridsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Friluftsfrämjandet Kumla lokalavdelning",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Natur och friluft"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.friluftsframjandet.se/kumla",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=FRILUFTS",
+      "street_address": "Järnvägsgatana 35J",
+      "postal_code": "692 32",
+      "city": "Kumla",
+      "email": "anders.armgren@friluftsframjandet.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1942",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Friluftsfrämjandet",
+              "verksamhet_raw": "Natur och friluft",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders armgren",
+        "contact_person_role": null,
+        "contact_person_email": "anders.armgren@friluftsframjandet.se",
+        "contact_person_phone": "+46706092077"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0706092077"
+      },
+      "founded_year": 1942,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Friluftsfrämjandet",
+      "verksamhet_raw": "Natur och friluft"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Fylstakyrkan",
+      "org_number": null,
+      "types": [
+        "Kyrka och församling"
+      ],
+      "activities": [
+        "Kyrkor och samfund"
+      ],
+      "categories": [],
+      "homepage_url": "http://hej,www.fylstakyrkan.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=FYL-KYR",
+      "street_address": "Kvarngatan 18",
+      "postal_code": "692 34",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2004",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Evangeliska Frikyrkan",
+              "verksamhet_raw": "Kyrkor och samfund",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elisabeth larsson",
+        "contact_person_role": null,
+        "contact_person_email": "bettan.larsson.1965@hotmail.com",
+        "contact_person_phone": "+46737614421"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073-761 44 21"
+      },
+      "founded_year": 2004,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Evangeliska Frikyrkan",
+      "verksamhet_raw": "Kyrkor och samfund"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Gata upp och gata ner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=GATA-UPP",
+      "street_address": "Fabriksgatan 39",
+      "postal_code": "692 32",
+      "city": "Kumla",
+      "email": "lilian-ed@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1999",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lilian edström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4619578495"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1999,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Hallsberg-Kumla Simklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simhopp",
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sknautilus.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=HKSK",
+      "street_address": "Box 1091",
+      "postal_code": "692 25",
+      "city": "Kumla",
+      "email": "ordf@hksim.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2004",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Simförbundet",
+              "verksamhet_raw": "Simhopp, Simning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie-therese sundberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 2004,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Simförbundet",
+      "verksamhet_raw": "Simhopp, Simning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Hardemo Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsvård"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=BYGDEG%c3%85RDH",
+      "street_address": "Vreta 204",
+      "postal_code": "692 93",
+      "city": "Kumla",
+      "email": "i.kumlavvs@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1995",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hembygdsvård",
+              "short_description": "Lokalhållande förening"
+            }
+          }
+        ],
+        "free_text": "Lokalhållande förening"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "lennart.eriksson@kumla.se",
+        "contact_person_phone": "+46705285293"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-528 52 93"
+      },
+      "founded_year": 1995,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hembygdsvård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Hardemo Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=HARDEMOGYM",
+      "street_address": "Berga Mellangården 307",
+      "postal_code": "692 93",
+      "city": "Kumla",
+      "email": "hardemogymnastikforening@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1976",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Gymnastikförbundet",
+              "verksamhet_raw": "Gymnastik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Veronika tiderman",
+        "contact_person_role": null,
+        "contact_person_email": "hardemogymnastikforening@live.se",
+        "contact_person_phone": "+46736126253"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0736126253"
+      },
+      "founded_year": 1976,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Gymnastikförbundet",
+      "verksamhet_raw": "Gymnastik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Hardemo Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsvård"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=HHBF",
+      "street_address": "Julsta 511",
+      "postal_code": "692 93",
+      "city": "Kumla",
+      "email": "i.kumlavvs@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1949",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hembygdsvård",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Irene welander",
+        "contact_person_role": null,
+        "contact_person_email": "i.kumlavvs@live.se",
+        "contact_person_phone": "+46704918023"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-491 80 23"
+      },
+      "founded_year": 1949,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hembygdsvård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Hörselskadades förening i Kumla",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Handikappförening",
+        "Intresseförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=HRF",
+      "street_address": "Skolvägen 6",
+      "postal_code": "692 34",
+      "city": "Kumla",
+      "email": "asa.oscarsson73@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1982",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Hörselfrämjandets Riksför",
+              "verksamhet_raw": "Handikappförening, Intresseförening",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åsa berg oscarsson",
+        "contact_person_role": null,
+        "contact_person_email": "asa.oscarsson73@gmail.com",
+        "contact_person_phone": "+46731820352"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073-182 03 52"
+      },
+      "founded_year": 1982,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Hörselfrämjandets Riksför",
+      "verksamhet_raw": "Handikappförening, Intresseförening"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Hörsta Blåbandsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Nykterhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.blabandet.se/kontakt/foreningar",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=H%c3%96RSTABBF",
+      "street_address": "Kumla Ekeby 118",
+      "postal_code": "692 93",
+      "city": "Kumla",
+      "email": "808nilsson@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1890",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Blåbandsförbund",
+              "verksamhet_raw": "Nykterhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena nilsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4619571161"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Blåbandsförbund",
+      "verksamhet_raw": "Nykterhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "IFK Kumla Fotboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Futsal"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.ifkkumla.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=IFKFOTB",
+      "street_address": "Box 45",
+      "postal_code": "692 21",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1913",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Fotbollsförbundet",
+              "verksamhet_raw": "Fotboll, Futsal",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansliet/magnus",
+        "contact_person_role": null,
+        "contact_person_email": "ifkkumlafotboll@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1913,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Fotbollsförbundet",
+      "verksamhet_raw": "Fotboll, Futsal"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Järsjö Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=J%c3%84RS%c3%96BORD",
+      "street_address": "Mossbanegatan 58",
+      "postal_code": "692 33",
+      "city": "Kumla",
+      "email": "sten101@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1953",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Bordtennisförbundet",
+              "verksamhet_raw": "Bordtennis",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sten persson",
+        "contact_person_role": null,
+        "contact_person_email": "sten101@outlook.com",
+        "contact_person_phone": "+46704691880"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-46 918 80"
+      },
+      "founded_year": 1953,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Bordtennisförbundet",
+      "verksamhet_raw": "Bordtennis"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Korpen Kumla Badminton",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton",
+        "Korpidrott"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KORPEN",
+      "street_address": "Örstavägen 14",
+      "postal_code": "692 72",
+      "city": "Kumla",
+      "email": "maria-sjoo@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1962",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Korporatinsidrottsförb",
+              "verksamhet_raw": "Badminton, Korpidrott",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Toni lewiner",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46702356838"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-235 68 38"
+      },
+      "founded_year": 1962,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Korporatinsidrottsförb",
+      "verksamhet_raw": "Badminton, Korpidrott"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Amatörfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KAFK",
+      "street_address": "Stenevägen 6",
+      "postal_code": "692 35",
+      "city": "Kumla",
+      "email": "harrygustafsson78@yahoo.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1976",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv Sportf O Fiskevårdförb",
+              "verksamhet_raw": "Fiskevård",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Harry gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "harrygustafsson78@yahoo.se",
+        "contact_person_phone": "+46760309272"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "076-030 92 72"
+      },
+      "founded_year": 1976,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv Sportf O Fiskevårdförb",
+      "verksamhet_raw": "Fiskevård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Astronomiklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Astronomi"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.kumlaastronomi.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KAK",
+      "street_address": "Hagendalsvägen 14",
+      "postal_code": "692 30",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1989",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Astronomi",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael lännqvist",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4619579964"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1989,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Astronomi"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Barnensdag förening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kolloniverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kumlabarnensdag.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=BARNENSDAG",
+      "street_address": "Klockarbacken 50",
+      "postal_code": "692 38",
+      "city": "Kumla",
+      "email": "marie.stromberg@kumla.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1943",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kolloniverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan svensson",
+        "contact_person_role": null,
+        "contact_person_email": "stefan.svensson@kumla.se",
+        "contact_person_phone": "+46706580646"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-658 06 46"
+      },
+      "founded_year": 1943,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kolloniverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Bollklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KUMLABK",
+      "street_address": "Baldergatan 9",
+      "postal_code": "692 32",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2005",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Fotbollsförbundet",
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Helena sikh",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46733382846"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073-338 28 46"
+      },
+      "founded_year": 2005,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Fotbollsförbundet",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Bridgesällskap",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Bridge"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=BRIDGE",
+      "street_address": "Hagendalsvägen 11",
+      "postal_code": "692 30",
+      "city": "Kumla",
+      "email": "info@kumlabs.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1949",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Förbundet Svensk Bridge",
+              "verksamhet_raw": "Bridge",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kimmo pernu",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4619582258"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1949,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Förbundet Svensk Bridge",
+      "verksamhet_raw": "Bridge"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Brottarförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Brottning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=BROTTAR",
+      "street_address": "Fredsgatan 6",
+      "postal_code": "692 32",
+      "city": "Kumla",
+      "email": "ankikumla73@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1933",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Brottningsförbundet",
+              "verksamhet_raw": "Brottning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Morgan lundström",
+        "contact_person_role": null,
+        "contact_person_email": "morlun1972@gmail.com",
+        "contact_person_phone": "+46703384741"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-338 47 41"
+      },
+      "founded_year": 1933,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Brottningsförbundet",
+      "verksamhet_raw": "Brottning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Hunddressyr"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KUMLA_BRUK",
+      "street_address": "Korsbacken",
+      "postal_code": "692 93",
+      "city": "Kumla",
+      "email": "ordforande@kumlabk.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1961",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Hunddressyr",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karl-erik broström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4619581718"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1961,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Hunddressyr"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Equmenia församling",
+      "org_number": null,
+      "types": [
+        "Kyrka och församling"
+      ],
+      "activities": [
+        "Kyrkor och samfund"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KUM-EQU",
+      "street_address": "Box 1089",
+      "postal_code": "692 32",
+      "city": "Kumla",
+      "email": "henke.sandenor@spray.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kyrkor och samfund",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik sandenor",
+        "contact_person_role": null,
+        "contact_person_email": "henke.sandenor@spray.se",
+        "contact_person_phone": "+46704540855"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-454 08 55"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kyrkor och samfund"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Fotoverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KFK",
+      "street_address": "Solhemsgatan 20 c",
+      "postal_code": "692 33",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1946",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Fotoverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tomas larsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46705837966"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-58 37 966"
+      },
+      "founded_year": 1946,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Fotoverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Frimärksklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Frimärkssamling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KFK001",
+      "street_address": "Norrtorp Bäckstugan 126",
+      "postal_code": "692 92",
+      "city": "Kumla",
+      "email": "tomas.lindblad@spendrups.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1975",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Filatelistfö.Ung",
+              "verksamhet_raw": "Frimärkssamling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tomas lindblad",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4619577354"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1975,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Filatelistfö.Ung",
+      "verksamhet_raw": "Frimärkssamling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Funktionshindrades motorklubb",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Motor"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KFMK",
+      "street_address": "Skolvägen 6",
+      "postal_code": "692 34",
+      "city": "Kumla",
+      "email": "hoskumla@spray.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2006",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Motor",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jens larsson",
+        "contact_person_role": null,
+        "contact_person_email": "hoskumla@spray.se",
+        "contact_person_phone": "+46705509075"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-5509075"
+      },
+      "founded_year": 2006,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Motor"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kumlagk.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=GOLF",
+      "street_address": "Box 46",
+      "postal_code": "692 21",
+      "city": "Kumla",
+      "email": "ordf@kumlagk.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1982",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Golfförbundet",
+              "verksamhet_raw": "Golf",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar holm",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1982,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Golfförbundet",
+      "verksamhet_raw": "Golf"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KGF",
+      "street_address": "Fältvägen 9",
+      "postal_code": "702 17",
+      "city": "Örebro",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1926",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Gymnastikförbundet",
+              "verksamhet_raw": "Gymnastik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin halldin",
+        "contact_person_role": null,
+        "contact_person_email": "malinhalldin1@hotmail.com",
+        "contact_person_phone": "+46706043226"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-604 32 26"
+      },
+      "founded_year": 1926,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Gymnastikförbundet",
+      "verksamhet_raw": "Gymnastik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla handbollsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.klubben.se/kumlahf",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KHF",
+      "street_address": "Villagatan 40",
+      "postal_code": "692 35",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1969",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Handbollsförbundet",
+              "verksamhet_raw": "Handboll",
+              "short_description": "Handboll med ungdomslag och a-lagsverksamhet. Föreningen är medlem i Svenska Handbollsförbundet."
+            }
+          }
+        ],
+        "free_text": "Handboll med ungdomslag och a-lagsverksamhet. Föreningen är medlem i Svenska Handbollsförbundet."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kumla handbollsförening",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1969,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Handbollsförbundet",
+      "verksamhet_raw": "Handboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Hockey Black Bulls",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=HOCKEY",
+      "street_address": "Kumla Frasses gata 1",
+      "postal_code": "692 33",
+      "city": "Kumla",
+      "email": "kansli@kumlahockey.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1963",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Ishockeyförbundet",
+              "verksamhet_raw": "Ishockey",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Krister ahlzén",
+        "contact_person_role": null,
+        "contact_person_email": "krister@kumlahockey.se",
+        "contact_person_phone": "+46703213313"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0703213313"
+      },
+      "founded_year": 1963,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Ishockeyförbundet",
+      "verksamhet_raw": "Ishockey"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KIBK",
+      "street_address": "Gamla vägen 5F",
+      "postal_code": "702 27",
+      "city": "Örebro",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1985",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Innebandyförbundet",
+              "verksamhet_raw": "Innebandy",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Niclas noord",
+        "contact_person_role": null,
+        "contact_person_email": "niclas.noord@gmail.com",
+        "contact_person_phone": "+46705516519"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-551 65 19"
+      },
+      "founded_year": 1985,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Innebandyförbundet",
+      "verksamhet_raw": "Innebandy"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Kampsportförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://kumlakampsport.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KAMP",
+      "street_address": "Tallvägen 10",
+      "postal_code": "697 74",
+      "city": "Sköllersta",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1992",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Budoförbundet",
+              "verksamhet_raw": "Kampsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas andersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46706015428"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-601 54 28"
+      },
+      "founded_year": 1992,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Budoförbundet",
+      "verksamhet_raw": "Kampsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Mhf-Ungdom",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Nykterhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=MHF-U",
+      "street_address": "Villagatan 18",
+      "postal_code": "692 34",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1962",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Motorförares Helny.Ungdom",
+              "verksamhet_raw": "Nykterhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "(saknas)",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1962,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Motorförares Helny.Ungdom",
+      "verksamhet_raw": "Nykterhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Motorsportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Motor",
+        "Speedway"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.indianerna.nu/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KMSK",
+      "street_address": "Kungsleden 50",
+      "postal_code": "692 92",
+      "city": "Kumla",
+      "email": "kansli@indianerna.nu",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1936",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Motorcykelförbundet",
+              "verksamhet_raw": "Motor, Speedway",
+              "short_description": "Speedway"
+            }
+          }
+        ],
+        "free_text": "Speedway"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansliet",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@indianerna.nu",
+        "contact_person_phone": "+4658213990"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1936,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Motorcykelförbundet",
+      "verksamhet_raw": "Motor, Speedway"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Pensionärsbowlingsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KPBK",
+      "street_address": "Östra Drottninggatan 17",
+      "postal_code": "692 31",
+      "city": "Kumla",
+      "email": "cgeskilsson@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Bowlingförbundet",
+              "verksamhet_raw": "Bowling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Claes-göran eskilsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46708483534"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-848 35 34"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Bowlingförbundet",
+      "verksamhet_raw": "Bowling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KUMLARID",
+      "street_address": "Hagaby 105",
+      "postal_code": "692 93",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1968",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Ridsportförbundet",
+              "verksamhet_raw": "Ridsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katrin aldenfalk",
+        "contact_person_role": null,
+        "contact_person_email": "k.aldenfalk@telia.com",
+        "contact_person_phone": "+46705620931"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-562 09 31"
+      },
+      "founded_year": 1968,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Ridsportförbundet",
+      "verksamhet_raw": "Ridsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KTF",
+      "street_address": "Skolvägen 12",
+      "postal_code": "692 34",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1975",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksteatern i Sverige",
+              "verksamhet_raw": "Teater",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Carina hultqvist",
+        "contact_person_role": null,
+        "contact_person_email": "kumlaartf@gmail.com",
+        "contact_person_phone": "+46708820220"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-882 02 20"
+      },
+      "founded_year": 1975,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksteatern i Sverige",
+      "verksamhet_raw": "Teater"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Skidförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Alpint",
+        "Cykel",
+        "Friidrott",
+        "Längdskidåkning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=SKID",
+      "street_address": "Bivägen 1",
+      "postal_code": "692 35",
+      "city": "Kumla",
+      "email": "curth.modin@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1962",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Skidförbundet",
+              "verksamhet_raw": "Alpint, Cykel, Friidrott, Längdskidåkning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Curth modin",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46768060180"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "076-806 01 80"
+      },
+      "founded_year": 1962,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Skidförbundet",
+      "verksamhet_raw": "Alpint, Cykel, Friidrott, Längdskidåkning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=SKYTTE",
+      "street_address": "Rosenhillsgatan 15",
+      "postal_code": "692 32",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1904",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Frivilliga Skytterörelsen",
+              "verksamhet_raw": "Skytte",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan berglund",
+        "contact_person_role": null,
+        "contact_person_email": "stefan.h.berglund@sorfors.net",
+        "contact_person_phone": "+46705824254"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-5824254"
+      },
+      "founded_year": 1904,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Frivilliga Skytterörelsen",
+      "verksamhet_raw": "Skytte"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Släktforskarklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Släktforskning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kumla.just.nu/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KSFK",
+      "street_address": "Mästaregatan 1",
+      "postal_code": "692 33",
+      "city": "Kumla",
+      "email": "kumla.genealogi@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1987",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Släktforskning",
+              "short_description": "Förening för personer med anknytning till Kumla med omnejd samt intresse för sina anor."
+            }
+          }
+        ],
+        "free_text": "Förening för personer med anknytning till Kumla med omnejd samt intresse för sina anor."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan klingberg",
+        "contact_person_role": null,
+        "contact_person_email": "kumla.genealogi@telia.com",
+        "contact_person_phone": "+46702782920"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-278 29 20"
+      },
+      "founded_year": 1987,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Släktforskning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla spelmän",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KDK",
+      "street_address": "Norra Brovägen 8",
+      "postal_code": "702 21",
+      "city": "Örebro",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1984",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Musik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "(saknas)",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1984,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Musik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla Sportfiske",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Sportfiske"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=FISKE",
+      "street_address": "Kungsleden 7",
+      "postal_code": "692 92",
+      "city": "kumla",
+      "email": "andreas.adolfsson@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Sportfiske",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andreas adolfsson",
+        "contact_person_role": null,
+        "contact_person_email": "andreas.adolfsson@outlook.com",
+        "contact_person_phone": "+46708646385"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Sportfiske"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla sportskyttar",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KSP",
+      "street_address": "Box 1109",
+      "postal_code": "692 25",
+      "city": "Kumla",
+      "email": "erikmaxe@hotmail.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1941",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Skytte",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik jonsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1941,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Skytte"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla-Hallsbergs Orkesterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.khof.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=ORKESTER",
+      "street_address": "Parkvägen 12",
+      "postal_code": "690 45",
+      "city": "Åsbro",
+      "email": "ingela.hagenfors@kumla.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Musik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingela hagenfors",
+        "contact_person_role": null,
+        "contact_person_email": "ingela@tomsing.se",
+        "contact_person_phone": "+46709483928"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-948 39 28"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Musik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Kumla-Sannahed Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsvård"
+      ],
+      "categories": [],
+      "homepage_url": "http://kumla.just.nu/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=HEMBYGDSF",
+      "street_address": "Mästaregatan 1",
+      "postal_code": "692 71",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1923",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Hembygdsförbund",
+              "verksamhet_raw": "Hembygdsvård",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Catarina carlsson",
+        "contact_person_role": null,
+        "contact_person_email": "catarina.carlsson@kumla.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1923,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Hembygdsförbund",
+      "verksamhet_raw": "Hembygdsvård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Moodowon- Ma-Kumla",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.fightzone.nu/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=MOODOWON",
+      "street_address": "Mellangårdsvägen 15",
+      "postal_code": "692 32",
+      "city": "Kumla",
+      "email": "dai_shahed@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2003",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv Taekwondoförbundet",
+              "verksamhet_raw": "Kampsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Reza razmgah",
+        "contact_person_role": null,
+        "contact_person_email": "gym.fightzone@hotmail.com",
+        "contact_person_phone": "+46723030230"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "072-303 02 30"
+      },
+      "founded_year": 2003,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv Taekwondoförbundet",
+      "verksamhet_raw": "Kampsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Naturskyddsföreningen i Kumla",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Natur och friluft"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=BIOLOGER",
+      "street_address": "Malmgatan 4",
+      "postal_code": "692 30",
+      "city": "Kumla",
+      "email": "telja@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1946",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Naturskyddsfören",
+              "verksamhet_raw": "Natur och friluft",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åke teljå",
+        "contact_person_role": null,
+        "contact_person_email": "telja@telia.com",
+        "contact_person_phone": "+4619578962"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1946,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Naturskyddsfören",
+      "verksamhet_raw": "Natur och friluft"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "OK Tisaren",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=TISAREN",
+      "street_address": "Korsbergsgatan 3",
+      "postal_code": "694 37",
+      "city": "Hallsberg",
+      "email": "josefin.tjernlund@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1983",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Orienteringsförbundet",
+              "verksamhet_raw": "Orientering",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats nylin",
+        "contact_person_role": null,
+        "contact_person_email": "mats,nylin@telia.com",
+        "contact_person_phone": "+46706859994"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-685 99 94"
+      },
+      "founded_year": 1983,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Orienteringsförbundet",
+      "verksamhet_raw": "Orientering"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Old Fellows Billiard Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Biljard"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=OFBC",
+      "street_address": "Lädergatan 8",
+      "postal_code": "692 32",
+      "city": "Kumla",
+      "email": "peter@ttms.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Biljardförbundet",
+              "verksamhet_raw": "Biljard",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter åkesson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46706995222"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-699 52 22"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Biljardförbundet",
+      "verksamhet_raw": "Biljard"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Pingstkyrkan i Kumla",
+      "org_number": null,
+      "types": [
+        "Kyrka och församling"
+      ],
+      "activities": [
+        "Kyrkor och samfund"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kumlapingst.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=PINGST",
+      "street_address": "Box 48",
+      "postal_code": "692 21",
+      "city": "Kumla",
+      "email": "info@kumlapingst.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1926",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Pingstför.Ungdomsarbete",
+              "verksamhet_raw": "Kyrkor och samfund",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin lennartsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46762145693"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "076-21 45 693"
+      },
+      "founded_year": 1926,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Pingstför.Ungdomsarbete",
+      "verksamhet_raw": "Kyrkor och samfund"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "PRO Samorganisation Kumla",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Politik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=PRO-SAMO",
+      "street_address": "Ålsta 102",
+      "postal_code": "697 94",
+      "city": "Sköllersta",
+      "email": "sven-inge.carlsson@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1967",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Pensionärern Riksorg",
+              "verksamhet_raw": "Politik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven-inge carlsson",
+        "contact_person_role": null,
+        "contact_person_email": "sven-inge.carlsson@telia.com",
+        "contact_person_phone": "+46702047688"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-204 76 88"
+      },
+      "founded_year": 1967,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Pensionärern Riksorg",
+      "verksamhet_raw": "Politik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Reumatikerföreningen i Kumla",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Handikappförening"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kumla.reumatikerforbundet.org/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KUMLA_REU",
+      "street_address": "Tarsta Norrgården 985",
+      "postal_code": "697 91",
+      "city": "Pålsboda",
+      "email": "majbritt_norrgarden@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1990",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Reumatikerförbundet",
+              "verksamhet_raw": "Handikappförening",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maj-britt karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "majbritt_norrgarden@hotmail.com",
+        "contact_person_phone": "+46733260639"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073-326 06 39"
+      },
+      "founded_year": 1990,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Reumatikerförbundet",
+      "verksamhet_raw": "Handikappförening"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Ryttarkamraterna Kumla",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=RYTTAR",
+      "street_address": "Sånnersta 101",
+      "postal_code": "692 91",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1984",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Ridsportens Cent.Förb.",
+              "verksamhet_raw": "Ridsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kristina martinsson",
+        "contact_person_role": null,
+        "contact_person_email": "kristina.martinsson@live.se",
+        "contact_person_phone": "+46768057610"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "076-805 76 10"
+      },
+      "founded_year": 1984,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Ridsportens Cent.Förb.",
+      "verksamhet_raw": "Ridsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Röda Korset Kupan",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Social"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.redcross.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=R%c3%96DAKORSET",
+      "street_address": "Trädgårdsgatan 1",
+      "postal_code": "692 31",
+      "city": "Kumla",
+      "email": "kumlakretsen_18021@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1911",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Röda Korset",
+              "verksamhet_raw": "Social",
+              "short_description": "Sociala verksamheter, second hand, insamlingar"
+            }
+          }
+        ],
+        "free_text": "Sociala verksamheter, second hand, insamlingar"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lillemor nilsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4619570016"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1911,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Röda Korset",
+      "verksamhet_raw": "Social"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Sannaheds aktivitetsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=SAN-AKT",
+      "street_address": "Kungsleden 37",
+      "postal_code": "692 92",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kajsa heidenreich",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Skoindustrimuseets vänförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=SKO-V%c3%84N",
+      "street_address": "Kyrkogatan 6A",
+      "postal_code": "692 37",
+      "city": "Kumla",
+      "email": "anders.g.scholin@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1983",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders schölin",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46705720392"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1983,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Somaliska Kulturföreningen i Kumla",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=SOMALISKA",
+      "street_address": "Skolvägen 9",
+      "postal_code": "692 34",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jama saed ahmed",
+        "contact_person_role": null,
+        "contact_person_email": "muudh@live.se",
+        "contact_person_phone": "+46704249113"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-424 91 13"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Somaliska Kvinnor och Ungdomar",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=SOKU",
+      "street_address": "Kvarngatan 21",
+      "postal_code": "692 34",
+      "city": "kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2014",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Khadar ali ahmed",
+        "contact_person_role": null,
+        "contact_person_email": "khadar.ali.ka@gmail.com",
+        "contact_person_phone": "+46739958004"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073-995 80 04"
+      },
+      "founded_year": 2014,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "SPF Seniorerna Kumlabygden",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KUMSPF",
+      "street_address": "Nygatan 22",
+      "postal_code": "692 34",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1979",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Boule",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maud rattenborg",
+        "contact_person_role": null,
+        "contact_person_email": "maud.elisif@tele2.se",
+        "contact_person_phone": "+46730391882"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073-039 1882"
+      },
+      "founded_year": 1979,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Boule"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Stene Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=STENEIF",
+      "street_address": "Hagavallen",
+      "postal_code": "692 25",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1947",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Fotbollsförbundet",
+              "verksamhet_raw": "Fotboll, Gymnastik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan öholm",
+        "contact_person_role": null,
+        "contact_person_email": "jan@byggjan.se",
+        "contact_person_phone": "+46705763282"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-576 32 82"
+      },
+      "founded_year": 1947,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Fotbollsförbundet",
+      "verksamhet_raw": "Fotboll, Gymnastik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Svenska kyrkan i Kumla",
+      "org_number": null,
+      "types": [
+        "Kyrka och församling"
+      ],
+      "activities": [
+        "Kyrkor och samfund"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.svenskakyrkan.se/kumla",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=SKU",
+      "street_address": "Box 6",
+      "postal_code": "692 21",
+      "city": "Kumla",
+      "email": "kumla.pastorat@svenskakyrkan.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1993",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Kyrkans Unga",
+              "verksamhet_raw": "Kyrkor och samfund",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Oskar lundberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46701909512"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-1909512"
+      },
+      "founded_year": 1993,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Kyrkans Unga",
+      "verksamhet_raw": "Kyrkor och samfund"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Sällskapet Kumla Trädgårdsamatörer",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Trädgårdar"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.kumlatradgardsamatorer.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=KUM-TR%c3%84",
+      "street_address": "Stjärngatan 24",
+      "postal_code": "692 33",
+      "city": "kumla",
+      "email": "info@kumlatradgardsamatorer.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv Sportf O Fiskevårdförb",
+              "verksamhet_raw": "Trädgårdar",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mona nord",
+        "contact_person_role": null,
+        "contact_person_email": "info@kumlatradgardsamatorer.se",
+        "contact_person_phone": "+46702673698"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0702673698"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv Sportf O Fiskevårdförb",
+      "verksamhet_raw": "Trädgårdar"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Villaägarna i Kumla",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Intresseförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=VILLA%c3%84GARNA",
+      "street_address": "Box 81",
+      "postal_code": "692 00",
+      "city": "Kumla",
+      "email": "niclas@niclasnorrman.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Villaägarnas Riksförbund",
+              "verksamhet_raw": "Intresseförening",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ewa morberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46707225363"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-722 53 63"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Villaägarnas Riksförbund",
+      "verksamhet_raw": "Intresseförening"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Yxhultbygdens kultur- och hemb.förening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsvård",
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=YKH",
+      "street_address": "Winnbergs väg 7",
+      "postal_code": "692 72",
+      "city": "Kumla",
+      "email": "monica.l.strom@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1997",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hembygdsvård, Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monica ström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 1997,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hembygdsvård, Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Yxhults Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Futsal"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=YIK",
+      "street_address": "Korta gatan 8",
+      "postal_code": "692 72",
+      "city": "Kumla",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1929",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sv.Fotbollsförbundet",
+              "verksamhet_raw": "Fotboll, Futsal",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ove lindqvist",
+        "contact_person_role": null,
+        "contact_person_email": "ove.lindqvist@hotmail.com",
+        "contact_person_phone": "+46703145780"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-314 57 80"
+      },
+      "founded_year": 1929,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sv.Fotbollsförbundet",
+      "verksamhet_raw": "Fotboll, Futsal"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Åbytorps Vägförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Vägförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=STENEV%c3%84G",
+      "street_address": "Lekstigen 6",
+      "postal_code": "692 73",
+      "city": "Kumla",
+      "email": "som.jerlstrom@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Vägförening",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maths jerlström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4619573443"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Vägförening"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Örebro folk universitet",
+      "org_number": null,
+      "types": [
+        "Studieorganisation"
+      ],
+      "activities": [
+        "Föreläsningar"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=FOLK-UN",
+      "street_address": "Kund-id FUN0020",
+      "postal_code": "106 42",
+      "city": "Stockholm",
+      "email": "info.orebro@folkuniversitetet.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Föreläsningar",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jenny johansson",
+        "contact_person_role": null,
+        "contact_person_email": "jenny.johansson@folkuniversitetet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Föreläsningar"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Kumla",
+    "scrape_run_id": "a4415aa3-9a8e-421c-bcb6-31264fb12954",
+    "scraped_at": "2025-10-27T08:26:30.373Z",
+    "association": {
+      "name": "Örebro Rättighetscenter",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Stödförening"
+      ],
+      "categories": [],
+      "homepage_url": "https://rattighetscenter.se/",
+      "detail_url": "https://friweb.kumla.se/forening/visa.aspx?id=%c3%96RC",
+      "street_address": "Slottsgatan 13A",
+      "postal_code": "703 62",
+      "city": "Örebro",
+      "email": "info@rattighetscenter.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Stödförening",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Caroline daly",
+        "contact_person_role": null,
+        "contact_person_email": "caroline.daly@rattighetscenter.se",
+        "contact_person_phone": "+4619184017"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Stödförening"
+    }
+  }
+]

@@ -1,0 +1,6230 @@
+[
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "ABF Dalarna",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.abf.se/borlange-nedansiljan",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=ABF",
+      "street_address": "Storgatan 1",
+      "postal_code": "795 30",
+      "city": "Rättvik",
+      "email": "abf.borlange-nedansiljan@abf.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Utbildning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Usman storany",
+        "contact_person_role": null,
+        "contact_person_email": "usman.syed@abf.se",
+        "contact_person_phone": "+4624366942"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0243-669 42"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Utbildning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Bingsjö Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BINGBY",
+      "street_address": "Bingsjö Dådransvägen 14",
+      "postal_code": "790 26",
+      "city": "Enviken",
+      "email": "amliss71@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna-maria liss",
+        "contact_person_role": null,
+        "contact_person_email": "amliss71@gmail.com",
+        "contact_person_phone": "+46703440675"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-344 06 75"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Bleckets Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BLEBY",
+      "street_address": "Blecket Norrgårdsgatu 13",
+      "postal_code": "795 92",
+      "city": "Rättvik",
+      "email": "maudehemberg@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1911",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maud hemberg",
+        "contact_person_role": null,
+        "contact_person_email": "maudehemberg@hotmail.com",
+        "contact_person_phone": "+46707108353"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0707-108 353"
+      },
+      "founded_year": 1911,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Boda Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bodabygden.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BHF",
+      "street_address": "Nyåkersgatu 2",
+      "postal_code": "795 96",
+      "city": "Boda kyrkby",
+      "email": "info@bodabygden.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1927",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer bergin",
+        "contact_person_role": null,
+        "contact_person_email": "christer.bergin@mail.com",
+        "contact_person_phone": "+46707135797"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-713 57 97"
+      },
+      "founded_year": 1927,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Boda Spelmanslag",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bodaspelmanslag.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BSL",
+      "street_address": "Hagagatan 38",
+      "postal_code": "791 33",
+      "city": "Falun",
+      "email": "boda@bodaspelmanslag.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1953",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Övrigt",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria renström",
+        "contact_person_role": null,
+        "contact_person_email": "mariaj13@hotmail.com",
+        "contact_person_phone": "+46730305747"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "073-030 57 47"
+      },
+      "founded_year": 1953,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Övrigt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Boda Vävstugu",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Kulturverksamhet",
+        "Vävning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BOD-V%c3%84V",
+      "street_address": "Ovanmyra Jonesgatu 3",
+      "postal_code": "795 96",
+      "city": "Boda kyrkby",
+      "email": "joneslena@bodakyrkby.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet, Vävning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jones lena hedberg",
+        "contact_person_role": null,
+        "contact_person_email": "joneslena@bodakyrkby.se",
+        "contact_person_phone": "+46768006297"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0248-400 09",
+        "work": "",
+        "mobile": "076-800 62 97"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet, Vävning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Boda/Ore SK",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Badminton",
+        "Fotboll",
+        "Innebandy",
+        "Motion"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BOSK",
+      "street_address": "Silverberg Norra vägen 13",
+      "postal_code": "795 96",
+      "city": "Boda kyrkby",
+      "email": "robban@clskog.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1931",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Badminton, Fotboll, Innebandy, Motion",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert clason",
+        "contact_person_role": null,
+        "contact_person_email": "robban@clskog.se",
+        "contact_person_phone": "+46704208003"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "070-420 80 03",
+        "mobile": "070-420 80 03"
+      },
+      "founded_year": 1931,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Badminton, Fotboll, Innebandy, Motion"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Borns Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.born-rattvik.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BORNBY",
+      "street_address": "Born Sarasgatan 15",
+      "postal_code": "795 92",
+      "city": "Rättvik",
+      "email": "bornssf@hotmail.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1986",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin lönnar",
+        "contact_person_role": null,
+        "contact_person_email": "martin@lonnar.com",
+        "contact_person_phone": "+46706762551"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-676 25 51"
+      },
+      "founded_year": 1986,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Bowlingklubben Rättvik",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.laget.se/bkrattvik",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BKR",
+      "street_address": "Kålgårdsgränd 13A",
+      "postal_code": "795 36",
+      "city": "Rättvik",
+      "email": "ingolf.lundevall@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2007",
+              "fiscal_year_starts_mmdd": "0501",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Bowling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingolf lundevall",
+        "contact_person_role": null,
+        "contact_person_email": "ingolf.lundevall@gmail.com",
+        "contact_person_phone": "+46739822766"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "073-982 27 66"
+      },
+      "founded_year": 2007,
+      "fiscal_year_start": "0501",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Bowling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Brottsofferjouren Övre Dalarna",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Stödverksamhet",
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.brottsofferjouren.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BOJ",
+      "street_address": "Box 3007",
+      "postal_code": "795 03",
+      "city": "Rättvik",
+      "email": "info@ovredalarna.boj.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1998",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Stödverksamhet, Övrigt",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart hedberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@ovredalarna.boj.se",
+        "contact_person_phone": "+46706993297"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-699 32 97"
+      },
+      "founded_year": 1998,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Stödverksamhet, Övrigt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Bågskytteklubben Siljanspilen",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bågskytte"
+      ],
+      "categories": [],
+      "homepage_url": "https://siljanspilen.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=BKPILEN",
+      "street_address": "Övre Gärdsjö Sturgälsvägen 15",
+      "postal_code": "795 92",
+      "city": "Rättvik",
+      "email": "dirigent@davidlundblad.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1964",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Bågskytte",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "David lundblad",
+        "contact_person_role": null,
+        "contact_person_email": "dirigent@davidlundblad.se",
+        "contact_person_phone": "+46763969433"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "076-396 94 33"
+      },
+      "founded_year": 1964,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Bågskytte"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Centerpartiet i Rättvik",
+      "org_number": null,
+      "types": [
+        "Politiska föreningar"
+      ],
+      "activities": [
+        "Politiskverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://centerpartiet.se/rattvik",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=C",
+      "street_address": "Söderås Smasgatu 4",
+      "postal_code": "795 90",
+      "city": "Rättvik",
+      "email": "joanna.stridh@centerpartiet.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1920",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Politiskverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johanna stridh",
+        "contact_person_role": null,
+        "contact_person_email": "joanna.stridh@centerpartiet.se",
+        "contact_person_phone": "+4624870640"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0248-70 640"
+      },
+      "founded_year": 1920,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Politiskverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Classic Car Week",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Bilar"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.classiccarweek.com/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=CLASSIC",
+      "street_address": "Furudalsvägen 1",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "office@classiccarweek.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1991",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Bilar",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "office@classiccarweek.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1991,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Bilar"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Dala Åsarnas IF",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/pages/Guller%C3%A5sens-hemsida/152718924852370",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=D%c3%85IF",
+      "street_address": "Gulleråsen",
+      "postal_code": "795 96",
+      "city": "Boda kyrkby",
+      "email": "janwestman1@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1950",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Ishockey",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan westman",
+        "contact_person_role": null,
+        "contact_person_email": "janwestman1@gmail.com",
+        "contact_person_phone": "+46702560451"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-256 04 51"
+      },
+      "founded_year": 1950,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Ishockey"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Dalarnas Bilkår",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bilkaren.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=DALARNASBIL%c3%85R",
+      "street_address": "Londonvägen 2",
+      "postal_code": "790 22",
+      "city": "SÅGMYRA",
+      "email": "dalarna@bilkaren.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1951",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Övrigt",
+              "short_description": "Försvarsverksamhet, Utbildar fordonsförare till totalförsvaret"
+            }
+          }
+        ],
+        "free_text": "Försvarsverksamhet, Utbildar fordonsförare till totalförsvaret"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mia bergqvist",
+        "contact_person_role": null,
+        "contact_person_email": "dalarna@bilkaren.se",
+        "contact_person_phone": "+46703964172"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0703-96 41 72"
+      },
+      "founded_year": 1951,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Övrigt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Dalfors Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bygdegardarna.se/dalfors",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=DALFBY",
+      "street_address": "Dalfors Hyttbacken 11",
+      "postal_code": "795 97",
+      "city": "Furudal",
+      "email": "dalforsbygdegard@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1957",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart hansson",
+        "contact_person_role": null,
+        "contact_person_email": "lennart@dalfors.se",
+        "contact_person_phone": "+46702107402"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-210 74 02"
+      },
+      "founded_year": 1957,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Equmenia Rättvik",
+      "org_number": null,
+      "types": [
+        "Kyrkliga föreningar"
+      ],
+      "activities": [
+        "Dans",
+        "Innebandy",
+        "Kyrklig",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.instagram.com/equmeniarattvik/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=EQR%c3%84TTVIK",
+      "street_address": "Torggatan 10",
+      "postal_code": "795 30",
+      "city": "Rättvik",
+      "email": "eqrattvik@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2015",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Dans, Innebandy, Kyrklig, Ungdomsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Samuel neljesjö",
+        "contact_person_role": null,
+        "contact_person_email": "samuel.knutsson@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 2015,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Dans, Innebandy, Kyrklig, Ungdomsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Friluftsfrämjandet Rättvik",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Friluftsliv"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.friluftsframjandet.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=FRILUFTS",
+      "street_address": "Karnesgatu 2",
+      "postal_code": "795 70",
+      "city": "Vikarbyn",
+      "email": "mats.henriks@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1935",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Friluftsliv",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats henriks",
+        "contact_person_role": null,
+        "contact_person_email": "mats.henriks@friluftsframjandet.se",
+        "contact_person_phone": "+46702379077"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-237 90 77"
+      },
+      "founded_year": 1935,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Friluftsliv"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Gulleråsens Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=GBF",
+      "street_address": "Gulleråsen Lispersgatu 7",
+      "postal_code": "795 96",
+      "city": "Boda Kyrkby",
+      "email": "gunnar.j.hagelin@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1958",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar hagelin",
+        "contact_person_role": null,
+        "contact_person_email": "gunnar.hagelin@telia.com",
+        "contact_person_phone": "+46705240758"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-524 07 58"
+      },
+      "founded_year": 1958,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Gärdebyns Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.gardebyn.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=G%c3%84RDEBY",
+      "street_address": "Nålängsvägen 15",
+      "postal_code": "795 36",
+      "city": "Rättvik",
+      "email": "njfalkrvik@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan falk",
+        "contact_person_role": null,
+        "contact_person_email": "njfalkrvik@gmail.com",
+        "contact_person_phone": "+46707614292"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-761 42 92"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Hela Rättvik Rullar",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skateboard"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=HRR",
+      "street_address": "Parkgatan 9A",
+      "postal_code": "795 31",
+      "city": "Rättvik",
+      "email": "helarattvikrullar@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2014",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Skateboard",
+              "short_description": "Skateboard, inlines, BMX, kickbike"
+            }
+          }
+        ],
+        "free_text": "Skateboard, inlines, BMX, kickbike"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan henriks",
+        "contact_person_role": null,
+        "contact_person_email": "johanhenriks97@hotmail.com",
+        "contact_person_phone": "+46761386180"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "076-138 61 80"
+      },
+      "founded_year": 2014,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Skateboard"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Håvens Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.havensbgf.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=H%c3%85VBY",
+      "street_address": "Håvens byväg 34",
+      "postal_code": "828 93",
+      "city": "Voxnabruk",
+      "email": "jerkerdohlfors@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jerker dölfors",
+        "contact_person_role": null,
+        "contact_person_email": "jerkerdohlfors@gmail.com",
+        "contact_person_phone": "+46703553843"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-355 38 43"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Ideellaföreningen VRG´s Bystug",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=IVRGB",
+      "street_address": "Västbergs Bygatu 48",
+      "postal_code": "795 91",
+      "city": "Rättvik",
+      "email": "matsga58@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats ernestes",
+        "contact_person_role": null,
+        "contact_person_email": "matsga58@gmail.com",
+        "contact_person_phone": "+46705149069"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-514 90 69"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "IFK Ore",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Ishockey",
+        "Skidor längd"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.orehockey.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=IFK+ORE",
+      "street_address": "Ishallsvägen 8",
+      "postal_code": "795 71",
+      "city": "Furudal",
+      "email": "info@orehockey.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1937",
+              "fiscal_year_starts_mmdd": "0901",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Ishockey, Skidor längd",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "info@orehockey.se",
+        "contact_person_phone": "+4625810620"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0258-106 20",
+        "mobile": ""
+      },
+      "founded_year": 1937,
+      "fiscal_year_start": "0901",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Ishockey, Skidor längd"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "IFK Rättvik Bandy",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bandy"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.ifkrattvikbandy.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=IFKB",
+      "street_address": "Backavägen 39",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "bandy@ifkrattvik.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2008",
+              "fiscal_year_starts_mmdd": "0501",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Bandy",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "bandy@ifkrattvik.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 2008,
+      "fiscal_year_start": "0501",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Bandy"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "IFK Rättvik Fotboll",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/ifkrattvikfotboll",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=IFKF",
+      "street_address": "Backavägen 39",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "fotboll@ifkrattvik.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2008",
+              "fiscal_year_starts_mmdd": "1201",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "fotboll@ifkrattvik.com",
+        "contact_person_phone": "+46739858939"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "073-985 89 39"
+      },
+      "founded_year": 2008,
+      "fiscal_year_start": "1201",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "IFK Rättvik Handboll",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://svenskalag.se/ifkrattvikhandboll",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=IFKH",
+      "street_address": "Backavägen 39",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "handboll@ifkrattvik.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2008",
+              "fiscal_year_starts_mmdd": "0501",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Handboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ifk rättvik handboll",
+        "contact_person_role": null,
+        "contact_person_email": "handboll@ifkrattvik.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 2008,
+      "fiscal_year_start": "0501",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Handboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "IK Jarl Rättvik",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Mountainbike",
+        "Orientering",
+        "Skidor längd",
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.ikjarl.nu/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=JARL",
+      "street_address": "Backavägen 38",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "ikjarl@ikjarl.nu",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1926",
+              "fiscal_year_starts_mmdd": "1001",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Mountainbike, Orientering, Skidor längd, Övrigt",
+              "short_description": "Vi har även en Gång-sektion."
+            }
+          }
+        ],
+        "free_text": "Vi har även en Gång-sektion."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "ikjarl@ikjarl.nu",
+        "contact_person_phone": "+4624851425"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0248-514 25",
+        "mobile": ""
+      },
+      "founded_year": 1926,
+      "fiscal_year_start": "1001",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Mountainbike, Orientering, Skidor längd, Övrigt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Kulturföreningen KAOS",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.nyfiket.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=KUL-KAO",
+      "street_address": "Sjurbergsvägen 1",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "kulturforeningenkaos@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2009",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Donia krook",
+        "contact_person_role": null,
+        "contact_person_email": "donia.krook@gmail.com",
+        "contact_person_phone": "+46728588404"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0728588404"
+      },
+      "founded_year": 2009,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Lerdals Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.lerdalsbystuga.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=LERBY",
+      "street_address": "Faluvägen 63D",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "lerdalsbystuga@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrika pihlblad",
+        "contact_person_role": null,
+        "contact_person_email": "lerdalsbystuga@gmail.com",
+        "contact_person_phone": "+46733107109"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "073-310 71 09"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Lions Club, Rättvik",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Välgörenhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.lions.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=LIONS",
+      "street_address": "c/o Långbacken 6B",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "erik.bergman39@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1955",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Välgörenhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik bergman",
+        "contact_person_role": null,
+        "contact_person_email": "erik.bergman39@gmail.com",
+        "contact_person_phone": "+46732220143"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "073-222 01 43"
+      },
+      "founded_year": 1955,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Välgörenhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Miljöpartiet de gröna (MP)",
+      "org_number": null,
+      "types": [
+        "Politiska föreningar"
+      ],
+      "activities": [
+        "Politiskverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.mp.se/rattvik",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=MP",
+      "street_address": "Östra Röjeråsvägen 132",
+      "postal_code": "795 95",
+      "city": "Vikarbyn",
+      "email": "rattvik@mp.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1982",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Politiskverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael ganea",
+        "contact_person_role": null,
+        "contact_person_email": "mikael.ganea@gmail.com",
+        "contact_person_phone": "+46700612408"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-061 24 08"
+      },
+      "founded_year": 1982,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Politiskverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Modellflygklubben Fenix",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Miniracing",
+        "Modellbåtar",
+        "Modellflyg"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=MFK",
+      "street_address": "Båthamnsvägen 5",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "smurfbengan@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1973",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Miniracing, Modellbåtar, Modellflyg",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt staffas",
+        "contact_person_role": null,
+        "contact_person_email": "smurfbengan@hotmail.com",
+        "contact_person_phone": "+46702506867"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-250 68 67"
+      },
+      "founded_year": 1973,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Miniracing, Modellbåtar, Modellflyg"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Nedansiljans Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Hundsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.brukshundklubben.se/nedansiljans-brukshundklubb/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=NBHK",
+      "street_address": "Mångholsvägen 6",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "nedansiljans_bk@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1970",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hundsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marit erikes",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@nedansiljansbk.se",
+        "contact_person_phone": "+46739858939"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0739-858 939"
+      },
+      "founded_year": 1970,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hundsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Nedansiljans FUB",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [
+        "Handikappverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=NFUB",
+      "street_address": "Östanvik",
+      "postal_code": "795 97",
+      "city": "Furudal",
+      "email": "kerstin.ehlis@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1978",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Handikappverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstin ehlis",
+        "contact_person_role": null,
+        "contact_person_email": "kerstin.ehlis@gmail.com",
+        "contact_person_phone": "+46768283277"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "076-828 32 77"
+      },
+      "founded_year": 1978,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Handikappverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Nedre Gärdsjös Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=NG%c3%84RDBY",
+      "street_address": "Nedre Gärdsjö Gansgatu 2",
+      "postal_code": "795 92",
+      "city": "Rättvik",
+      "email": "kariningesbo@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1961",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin ingesbo",
+        "contact_person_role": null,
+        "contact_person_email": "kariningesbo@gmail.com",
+        "contact_person_phone": "+46705382458"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-538 24 58"
+      },
+      "founded_year": 1961,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Nittsjö Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.nittsjo.nu/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=NITTBY",
+      "street_address": "Nittsjövägen 75",
+      "postal_code": "795 91",
+      "city": "Rättvik",
+      "email": "bystugeforeningen@nittsjo.nu",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1965",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gun-britt dahlberg",
+        "contact_person_role": null,
+        "contact_person_email": "gun-britt.dahlberg@hotmail.com",
+        "contact_person_phone": "+46702455069"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-245 50 69"
+      },
+      "founded_year": 1965,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Näsets Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=N%c3%84SBY",
+      "street_address": "Näset Lövgatan 33",
+      "postal_code": "795 97",
+      "city": "Furudal",
+      "email": "carinawester1@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1976",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Carina wester",
+        "contact_person_role": null,
+        "contact_person_email": "carinawester1@gmail.com",
+        "contact_person_phone": "+46703723400"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-372 34 00"
+      },
+      "founded_year": 1976,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Ore Båtklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Båtverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=OBK",
+      "street_address": "Furudalsvägen 818",
+      "postal_code": "795 97",
+      "city": "Furudal",
+      "email": "furudalsglas@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1989",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Båtverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars rosén",
+        "contact_person_role": null,
+        "contact_person_email": "furudalsglas@telia.com",
+        "contact_person_phone": "+46703502003"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-350 20 03"
+      },
+      "founded_year": 1989,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Båtverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Ore Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Byverksamhet",
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/ore",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=OREHF",
+      "street_address": "Dalbyn Kyrkvägen 10",
+      "postal_code": "795 97",
+      "city": "Furudal",
+      "email": "info@orehf.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1927",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet, Kulturverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kristina helles",
+        "contact_person_role": null,
+        "contact_person_email": "kristina.helles@gmail.com",
+        "contact_person_phone": "+46708871234"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0708871234"
+      },
+      "founded_year": 1927,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet, Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Oreparken Ideell förening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.oreparken.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=OIF",
+      "street_address": "Lekattvägen 17E",
+      "postal_code": "793 30",
+      "city": "Leksand",
+      "email": "stenstommy@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1929",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Övrigt",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy stens",
+        "contact_person_role": null,
+        "contact_person_email": "stenstommy@gmail.com",
+        "contact_person_phone": "+46706899547"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-689 95 47"
+      },
+      "founded_year": 1929,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Övrigt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Ovanmyra Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.ovanmyra.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=OVBY",
+      "street_address": "Ovanmyra Brändgatu 8",
+      "postal_code": "795 96",
+      "city": "Boda kyrkby",
+      "email": "ordforande@ovanmyra.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Susanne moss",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@ovanmyra.se",
+        "contact_person_phone": "+46702783931"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-278 39 31"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Reumatikerföreningen i Rättvik",
+      "org_number": null,
+      "types": [
+        "Handikappföreningar"
+      ],
+      "activities": [
+        "Handikappverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://rattvik.reumatiker.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RRF",
+      "street_address": "Västbergs Bygatu 48",
+      "postal_code": "795 91",
+      "city": "Rättvik",
+      "email": "mats.ernestes@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1973",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Handikappverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats ernestes",
+        "contact_person_role": null,
+        "contact_person_email": "mats.ernestes@gmail.com",
+        "contact_person_phone": "+46705149069"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-514 90 69"
+      },
+      "founded_year": 1973,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Handikappverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "RF-SISU Dalarna",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rfsisu.se/dalarna",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RF-SISU",
+      "street_address": "Pelle Bergs Backe 3B",
+      "postal_code": "791 50",
+      "city": "Falun",
+      "email": "dalarna@rfsisu.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Utbildning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "dalarna@rfsisu.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Utbildning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rädda Barnens Lokalförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Välgörenhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.raddabarnen.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=R%c3%84DDAB",
+      "street_address": "Persslogs väg 5",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "elisabet.lambergnordin@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Välgörenhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elisabet lamberg-nordin",
+        "contact_person_role": null,
+        "contact_person_email": "elisabet.lambergnordin@gmail.com",
+        "contact_person_phone": "+46702422241"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-242 22 41"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Välgörenhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättvik Boda Motorklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Motocross",
+        "Motorsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rattvikboda.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RBMK",
+      "street_address": "Kvarngatan 76",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "rattvikboda@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1979",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Motocross, Motorsport",
+              "short_description": "Motorcross samt Enduro"
+            }
+          }
+        ],
+        "free_text": "Motorcross samt Enduro"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rättvik boda mk",
+        "contact_person_role": null,
+        "contact_person_email": "rattvikboda@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1979,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Motocross, Motorsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättvik Racing klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rattvikracing.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RRKL",
+      "street_address": "Brändavägen 51",
+      "postal_code": "795 92",
+      "city": "Rättvik",
+      "email": "gokart@rattvikracing.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2004",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Motorsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer backollas",
+        "contact_person_role": null,
+        "contact_person_email": "christer.backollas@rattvikracing.se",
+        "contact_person_phone": "+46705810323"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-581 03 23"
+      },
+      "founded_year": 2004,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Motorsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RBK",
+      "street_address": "Skommars väg 17",
+      "postal_code": "795 33",
+      "city": "Rättvik",
+      "email": "peter.12111@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1984",
+              "fiscal_year_starts_mmdd": "0701",
+              "national_affiliation": null,
+              "verksamhet_raw": "Badminton",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter sundberg",
+        "contact_person_role": null,
+        "contact_person_email": "peter.12111@gmail.com",
+        "contact_person_phone": "+46702258221"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-225 82 21"
+      },
+      "founded_year": 1984,
+      "fiscal_year_start": "0701",
+      "verksamhet_raw": "Badminton"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Baseboll/Softbollklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Baseboll",
+        "Softboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rattvikbutchers.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RBSK",
+      "street_address": "Knihsgatan 21B",
+      "postal_code": "795 31",
+      "city": "Rättvik",
+      "email": "rattvikbsk@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1975",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Baseboll, Softboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt stor",
+        "contact_person_role": null,
+        "contact_person_email": "bengt@stormaleri.se",
+        "contact_person_phone": "+46702075668"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "0248-170 96",
+        "work": "",
+        "mobile": "070-207 56 68"
+      },
+      "founded_year": 1975,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Baseboll, Softboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Boulesällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RBS",
+      "street_address": "Riksvägen 35A",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "be.thors@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2012",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Boule",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt thors",
+        "contact_person_role": null,
+        "contact_person_email": "be.thors@gmail.com",
+        "contact_person_phone": "+46705219553"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-521 95 53"
+      },
+      "founded_year": 2012,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Boule"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Båtklubb Piraten",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Båtverksamhet",
+        "Segling"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rbkpiraten.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RBP",
+      "street_address": "Båthamnsvägen 5",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "mail@rbkpiraten.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1947",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Båtverksamhet, Segling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jenny back",
+        "contact_person_role": null,
+        "contact_person_email": "jenny.back@telia.com",
+        "contact_person_phone": "+46706742881"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-674 28 81"
+      },
+      "founded_year": 1947,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Båtverksamhet, Segling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rattviksgk.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RGKL",
+      "street_address": "Hedslundsvägen 15",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "info@rattviksgk.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1954",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Golf",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "info@rattviksgk.se",
+        "contact_person_phone": "+4624851030"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0248-510 30",
+        "mobile": ""
+      },
+      "founded_year": 1954,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Golf"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Gymnastikklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Gymnastik",
+        "Motion"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.laget.se/rgk",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RGK",
+      "street_address": "Hansus väg 18",
+      "postal_code": "795 91",
+      "city": "Rättvik",
+      "email": "jossesundh@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1928",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Gymnastik, Motion",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Josefin björkman",
+        "contact_person_role": null,
+        "contact_person_email": "jossesundh@hotmail.com",
+        "contact_person_phone": "+46705948054"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-594 80 54"
+      },
+      "founded_year": 1928,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Gymnastik, Motion"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Kulturverksamhet",
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/rattvik",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RHF",
+      "street_address": "Märgatan 1",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "info@rattvikshembygd.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1909",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet, Övrigt",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Svante modin",
+        "contact_person_role": null,
+        "contact_person_email": "info@rattvikshembygd.se",
+        "contact_person_phone": "+46705836830"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-583 68 30"
+      },
+      "founded_year": 1909,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet, Övrigt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Hemslöjdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Hantverk"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rattvikshemslojd.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RHSF",
+      "street_address": "Torget",
+      "postal_code": "795 30",
+      "city": "Rättvik",
+      "email": "info@rattvikshemslojd.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1909",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Hantverk",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Joanna stridh",
+        "contact_person_role": null,
+        "contact_person_email": "joanna.stridh@hotmail.com",
+        "contact_person_phone": "+46705211863"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-521 18 63"
+      },
+      "founded_year": 1909,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Hantverk"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Innebandyförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RIBF",
+      "street_address": "Faluvägen 56",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "hedin.annelie@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1990",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Innebandy",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annelie hedin",
+        "contact_person_role": null,
+        "contact_person_email": "hedin.annelie@outlook.com",
+        "contact_person_phone": "+46702928668"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-292 86 68"
+      },
+      "founded_year": 1990,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Innebandy"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Judo"
+      ],
+      "categories": [],
+      "homepage_url": "https://rattviksjudoklubb.klubbenonline.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RJK",
+      "street_address": "HSB-gatan 1C",
+      "postal_code": "795 30",
+      "city": "Rättvik",
+      "email": "nystrom.benny.je@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1971",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Judo",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Benny nyström",
+        "contact_person_role": null,
+        "contact_person_email": "nystrom.benny.je@telia.com",
+        "contact_person_phone": "+46730378484"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "073-037 84 84"
+      },
+      "founded_year": 1971,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Judo"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.dojo.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RND",
+      "street_address": "Kvarngatan 23",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "mats.tholen@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1992",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Karate",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats tholen",
+        "contact_person_role": null,
+        "contact_person_email": "mats.tholen@gmail.com",
+        "contact_person_phone": "+46704782388"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "070-478 23 88",
+        "mobile": ""
+      },
+      "founded_year": 1992,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Karate"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Kultursällskap",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Dans",
+        "Hantverk",
+        "Kulturverksamhet",
+        "Teater...",
+        "Teater",
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.rakusall.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RKS",
+      "street_address": "Kalkbacksvägen 34",
+      "postal_code": "795 70",
+      "city": "Vikarbyn",
+      "email": "johan@rakusall.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "1001",
+              "national_affiliation": null,
+              "verksamhet_raw": "Dans, Hantverk, Kulturverksamhet, Teater, Övrigt",
+              "short_description": "Vi skall verka för att stimulera konstnärlig utveckling och främja kulturlivet i Rättvik med omnejd i form avåterkommande offentliga tillställningar och kulturaktiviteter för allmänheten, med fokus på scenkonst.Föreningen skall vara en samlingsplats för kulturens olika uttryck och hantverk och aktivt sträva mot att förenakulturlivets många aktörer."
+            }
+          }
+        ],
+        "free_text": "Vi skall verka för att stimulera konstnärlig utveckling och främja kulturlivet i Rättvik med omnejd i form avåterkommande offentliga tillställningar och kulturaktiviteter för allmänheten, med fokus på scenkonst.Föreningen skall vara en samlingsplats för kulturens olika uttryck och hantverk och aktivt sträva mot att förenakulturlivets många aktörer."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan joliden",
+        "contact_person_role": null,
+        "contact_person_email": "johan@rakusall.se",
+        "contact_person_phone": "+46703032238"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "+46703032238",
+        "work": "",
+        "mobile": "0703032238"
+      },
+      "fiscal_year_start": "1001",
+      "verksamhet_raw": "Dans, Hantverk, Kulturverksamhet, Teater, Övrigt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Naturskyddsförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "http://rattvik.naturskyddsforeningen.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RNSF",
+      "street_address": "Mårsåkersvägen 13",
+      "postal_code": "795 36",
+      "city": "Rättvik",
+      "email": "linder.stojsic@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1974",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Övrigt",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Josephine linder-stojsic",
+        "contact_person_role": null,
+        "contact_person_email": "linder.stojsic@hotmail.com",
+        "contact_person_phone": "+46721796865"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "072-179 68 65"
+      },
+      "founded_year": 1974,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Övrigt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Pensionärsförening PRO",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Penionärsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.pro.se/rattvik",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=PRO",
+      "street_address": "Torggatan 7",
+      "postal_code": "795 30",
+      "city": "Rättvik",
+      "email": "rattvik@pro.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1952",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Penionärsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bo samuelsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46761300063"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "076-130 00 63"
+      },
+      "founded_year": 1952,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Penionärsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rattviksridklubb.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RRK",
+      "street_address": "Backavägen 69",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "kontakt@rattviksridklubb.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1968",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Ridsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rättviks ridklubb",
+        "contact_person_role": null,
+        "contact_person_email": "kontakt@rattviksridklubb.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1968,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Ridsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Roddklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Båtverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RODD",
+      "street_address": "Siljansvägen 18",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "rroddklubb@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1990",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Båtverksamhet",
+              "short_description": "Tävlingsrodd med kyrkbåtar."
+            }
+          }
+        ],
+        "free_text": "Tävlingsrodd med kyrkbåtar."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Dalle dahlgren",
+        "contact_person_role": null,
+        "contact_person_email": "rroddklubb@live.se",
+        "contact_person_phone": "+46706428973"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-6428973"
+      },
+      "founded_year": 1990,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Båtverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Rödakorskrets",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RKRK",
+      "street_address": "Torget 2",
+      "postal_code": "795 30",
+      "city": "Rättvik",
+      "email": "rattvik@redcross.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1921",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Övrigt",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marianne wennström",
+        "contact_person_role": null,
+        "contact_person_email": "majanwe@gmail.com",
+        "contact_person_phone": "+46705788614"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-578 86 14"
+      },
+      "founded_year": 1921,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Övrigt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Scoutkår",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rattvik.scout.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RSCK",
+      "street_address": "Kvarngatan 128",
+      "postal_code": "795 35",
+      "city": "Rättvik",
+      "email": "rattvik.scout@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1920",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Scouting",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan fyhr",
+        "contact_person_role": null,
+        "contact_person_email": "rattvik.scout@gmail.com",
+        "contact_person_phone": "+46705495662"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0705-49 56 62",
+        "mobile": ""
+      },
+      "founded_year": 1920,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Scouting"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Simförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rattvikssimforening.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RSF",
+      "street_address": "Enåbadsvägen 8",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "info@rattvikssimforening.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2011",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Simning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria jones",
+        "contact_person_role": null,
+        "contact_person_email": "larsson.jones@live.se",
+        "contact_person_phone": "+46702913255"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-291 32 55"
+      },
+      "founded_year": 2011,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Simning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Skoterklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Friluftsliv"
+      ],
+      "categories": [],
+      "homepage_url": "http://rattviksskoterklubb.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RSKL",
+      "street_address": "Riksvägen 33C",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "rsk@rattviksskoterklubb.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1999",
+              "fiscal_year_starts_mmdd": "1001",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Friluftsliv",
+              "short_description": "Rättviks Skoterklubb nedan kallad “Föreningen” som bildades år 2000 har följande ändamål. Klubben har 544 medlemmar (20250408) och ca. 50 mil skoterlederSnöskoterklubben/Föreningen skall leda verksamheten inom sitt verksamhetsområde Rättviks Kommun genom. Att verka och ge utrymme/arbeta för att ett sunt snöskoterliv och stimulera intresset för natur- och snöskoterkunskap.Att ge medlemmar med snöskoterintresse ett forum för diskussion. Att i sammarbete med myndigheter stödja snöskoterlivets allmänna intresse. Att verka för ett hänsynsfullt uppträdande mot människor,djur och natur. Att fostra snöskoteråkare till att visa varsamhet och hänsyn mot natur och omgivning. Att vara en sammanhållande länk mellan föreningen och berörda kommunala myndigheter. Att Sprida kännedom om snöskoterns betydelse för mänsklig och samhällelig myndighet. Att verka för en sund utveckling av snöskotertrafiken.Att tillvarata snöskoter åkarnas intresse."
+            }
+          }
+        ],
+        "free_text": "Rättviks Skoterklubb nedan kallad “Föreningen” som bildades år 2000 har följande ändamål. Klubben har 544 medlemmar (20250408) och ca. 50 mil skoterlederSnöskoterklubben/Föreningen skall leda verksamheten inom sitt verksamhetsområde Rättviks Kommun genom. Att verka och ge utrymme/arbeta för att ett sunt snöskoterliv och stimulera intresset för natur- och snöskoterkunskap.Att ge medlemmar med snöskoterintresse ett forum för diskussion. Att i sammarbete med myndigheter stödja snöskoterlivets allmänna intresse. Att verka för ett hänsynsfullt uppträdande mot människor,djur och natur. Att fostra snöskoteråkare till att visa varsamhet och hänsyn mot natur och omgivning. Att vara en sammanhållande länk mellan föreningen och berörda kommunala myndigheter. Att Sprida kännedom om snöskoterns betydelse för mänsklig och samhällelig myndighet. Att verka för en sund utveckling av snöskotertrafiken.Att tillvarata snöskoter åkarnas intresse."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ove karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "rsk@rattviksskoterklubb.se",
+        "contact_person_phone": "+46706420640"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-642 06 40"
+      },
+      "founded_year": 1999,
+      "fiscal_year_start": "1001",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Friluftsliv"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Skyttegille",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/R%C3%A4ttviks-skyttegille-112156113466427/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RUSF",
+      "street_address": "Mårtanbergshyttan 74",
+      "postal_code": "795 90",
+      "city": "Rättvik",
+      "email": "mail@stefanihyttan.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1972",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Skytte",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan sjöberg",
+        "contact_person_role": null,
+        "contact_person_email": "mail@stefanihyttan.se",
+        "contact_person_phone": "+46707893252"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "070-789 32 52",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1972,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Skytte"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Slalomklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skidor alpint"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/rattviksslk",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RSLK",
+      "street_address": "Mårsgränd 13",
+      "postal_code": "795 36",
+      "city": "Rättvik",
+      "email": "rslk@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1956",
+              "fiscal_year_starts_mmdd": "0701",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Skidor alpint",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Cajsa weiberth",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 1956,
+      "fiscal_year_start": "0701",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Skidor alpint"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RTK",
+      "street_address": "Dalsåkersvägen 4",
+      "postal_code": "795 36",
+      "city": "Rättvik",
+      "email": "info@gthors.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1929",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Tennis",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran thors",
+        "contact_person_role": null,
+        "contact_person_email": "info@gthors.se",
+        "contact_person_phone": "+46703301431"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "070-330 14 31",
+        "mobile": ""
+      },
+      "founded_year": 1929,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Tennis"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Rättviks Unga Arrangörer",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Kulturverksamhet",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://facebook.com/rattviksua/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RUA",
+      "street_address": "Ängsås väg 23",
+      "postal_code": "795 33",
+      "city": "Rättvik",
+      "email": "rattviksua@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2019",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Kulturverksamhet, Ungdomsverksamhet",
+              "short_description": "Vi är en kulturförening som arbetar för att främja musikscenen i Rättvik genom olika arrangemang runt om i kommunen."
+            }
+          }
+        ],
+        "free_text": "Vi är en kulturförening som arbetar för att främja musikscenen i Rättvik genom olika arrangemang runt om i kommunen."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Joachim åström",
+        "contact_person_role": null,
+        "contact_person_email": "bubbfan@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": ""
+      },
+      "founded_year": 2019,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Kulturverksamhet, Ungdomsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Röjeråsens Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rojerasen.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=R%c3%96JBY",
+      "street_address": "Röjeråsen Tammeråsv. 32",
+      "postal_code": "795 95",
+      "city": "Vikarbyn",
+      "email": "tomas.lidell@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tomas lidell",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46768070213"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "076-80 70 213"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Röjeråsens Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Byverksamhet",
+        "Ishockey",
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=RSK",
+      "street_address": "Röjeråsen gamlavägen 37",
+      "postal_code": "795 95",
+      "city": "Vikarbyn",
+      "email": "annahell88@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1936",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Byverksamhet, Ishockey, Ridsport",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna hellkvist",
+        "contact_person_role": null,
+        "contact_person_email": "annahell88@hotmail.com",
+        "contact_person_phone": "+46705258651"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "0705258651"
+      },
+      "founded_year": 1936,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Byverksamhet, Ishockey, Ridsport"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Sensus Studieförbund",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sensus.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SENSUS",
+      "street_address": "Gruvgatan 53",
+      "postal_code": "791 61",
+      "city": "Falun",
+      "email": "dalarna@sensus.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2002",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Utbildning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulrika wiborgh",
+        "contact_person_role": null,
+        "contact_person_email": "ulrika.wiborgh@sensus.se",
+        "contact_person_phone": "+46704624939"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-462 49 39"
+      },
+      "founded_year": 2002,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Utbildning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Siljans Långskrinnare",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Långfärdsskridskor"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.skridsko.net/siljan",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SLS",
+      "street_address": "Mårsg. Sjurbergs allé 9",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "matsga58@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1992",
+              "fiscal_year_starts_mmdd": "0901",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Långfärdsskridskor",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats ernestes",
+        "contact_person_role": null,
+        "contact_person_email": "matsga58@gmail.com",
+        "contact_person_phone": "+46705149069"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-514 90 69"
+      },
+      "founded_year": 1992,
+      "fiscal_year_start": "0901",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Långfärdsskridskor"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Sjurbergs Byalag",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SJURBY",
+      "street_address": "Sjurbergsvägen 48",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "sjurbergs.byalag@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katrin wilkenson",
+        "contact_person_role": null,
+        "contact_person_email": "sjurbergs.byalag@gmail.com",
+        "contact_person_phone": "+46735341683"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "073-534 16 83"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "SKPF avd 90 Nedansiljan",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Penionärsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.skpf.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SKPF",
+      "street_address": "Almberg 84",
+      "postal_code": "793 91",
+      "city": "Leksand",
+      "email": "nedansiljan.avd90@skpf.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2014",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Penionärsverksamhet",
+              "short_description": "Resor, informationsmöten och andra olika aktiviteter"
+            }
+          }
+        ],
+        "free_text": "Resor, informationsmöten och andra olika aktiviteter"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstin karlsdotter",
+        "contact_person_role": null,
+        "contact_person_email": "erkerskesti@gmail.com",
+        "contact_person_phone": "+46702366396"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-236 63 96"
+      },
+      "founded_year": 2014,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Penionärsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Spelföreningen Valkyr",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Ungdomsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SFVA",
+      "street_address": "Enålundsvägen 10",
+      "postal_code": "795 32",
+      "city": "Rättvik",
+      "email": "johannes.thyden@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1984",
+              "fiscal_year_starts_mmdd": "0104",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Ungdomsverksamhet",
+              "short_description": "Spelkultur"
+            }
+          }
+        ],
+        "free_text": "Spelkultur"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johannes thydén",
+        "contact_person_role": null,
+        "contact_person_email": "johannes.thyden@hotmail.com",
+        "contact_person_phone": "+46768337155"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0768337155",
+        "mobile": "0768337155"
+      },
+      "founded_year": 1984,
+      "fiscal_year_start": "0104",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Ungdomsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "SPF Orebygden",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Penionärsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.spfseniorerna.se/distrikt/daladistriktet/foreningslista/spf-seniorerna-orebygden/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SPFORE",
+      "street_address": "Arvet Gammelvägen 22",
+      "postal_code": "795 97",
+      "city": "Furudal",
+      "email": "ore@spfdalarna.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1961",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Penionärsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elvine lindell",
+        "contact_person_role": null,
+        "contact_person_email": "elvinespf7@gmail.com",
+        "contact_person_phone": "+46705697580"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-569 75 80"
+      },
+      "founded_year": 1961,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Penionärsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "SPF Rättviksringen",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Penionärsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.spfseniorerna.se/distrikt/daladistriktet/foreningslista/rattviksringen",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SPF",
+      "street_address": "Mårsgränd 6",
+      "postal_code": "795 36",
+      "city": "Rättvik",
+      "email": "abjork36@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1978",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Penionärsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åsa björklund",
+        "contact_person_role": null,
+        "contact_person_email": "abjork36@gmail.com",
+        "contact_person_phone": "+46703569811"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-356 98 11"
+      },
+      "founded_year": 1978,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Penionärsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Studiefrämjandet, Mitt",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.studieframjandet.se/dalarna",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SFM",
+      "street_address": "Hjortnäsvägen 5",
+      "postal_code": "793 31",
+      "city": "Leksand",
+      "email": "leksand@studieframjandet.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Utbildning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "leksand@studieframjandet.se",
+        "contact_person_phone": "+4624713135"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0247-131 35",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Utbildning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Studieförbundet Bilda Mitt",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bilda.nu/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SFBM",
+      "street_address": "Box 119",
+      "postal_code": "826 23",
+      "city": "Söderhamn",
+      "email": "mitt@bilda.nu",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1947",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Utbildning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jon-erik flodin",
+        "contact_person_role": null,
+        "contact_person_email": "jon-erik.flodin@bilda.nu",
+        "contact_person_phone": "+46765133936"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "076-513 39 36",
+        "mobile": ""
+      },
+      "founded_year": 1947,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Utbildning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sv.se/dalarna",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SFV",
+      "street_address": "Järnvägsgatan 22",
+      "postal_code": "795 30",
+      "city": "Rättvik",
+      "email": "rattvik@sv.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Utbildning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kontor",
+        "contact_person_role": null,
+        "contact_person_email": "rattvik@sv.se",
+        "contact_person_phone": "+4624812290"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0248-122 90",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Utbildning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Stumsnäs Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=STUMBY",
+      "street_address": "Stumsnäs Sturbrandsv. 3",
+      "postal_code": "795 95",
+      "city": "Vikarbyn",
+      "email": "barbro.gudmundsson@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1991",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Barbro gudmundsson",
+        "contact_person_role": null,
+        "contact_person_email": "barbro.gudmundsson@hotmail.com",
+        "contact_person_phone": "+46702525919"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-252 59 19"
+      },
+      "founded_year": 1991,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Sunnanheds Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SUNBY",
+      "street_address": "Sunnanhed Kyrkvägen 10",
+      "postal_code": "795 97",
+      "city": "Furudal",
+      "email": "mikaelbruhn59@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael bruhn",
+        "contact_person_role": null,
+        "contact_person_email": "mikaelbruhn59@hotmail.com",
+        "contact_person_phone": "+46702164409"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-216 44 09"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Sv. Kyrkans Unga Rättvik-Boda",
+      "org_number": null,
+      "types": [
+        "Kyrkliga föreningar"
+      ],
+      "activities": [
+        "Kyrklig",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.svenskakyrkan.se/rattvik",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SKU",
+      "street_address": "Järnvägsgatan 10",
+      "postal_code": "795 30",
+      "city": "Rättvik",
+      "email": "anna-karin.kallin@svenskakyrkan.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Kyrklig, Ungdomsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna-karin kallin",
+        "contact_person_role": null,
+        "contact_person_email": "anna-karin.kallin@svenskakyrkan.se",
+        "contact_person_phone": "+4624873683"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "0248-736 83",
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Kyrklig, Ungdomsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Sörbygge Fritidsförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sorbygge.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=SFF",
+      "street_address": "Västgärde",
+      "postal_code": "795 90",
+      "city": "Rättvik",
+      "email": "carin.werkmastar@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1983",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Carin werkmästar",
+        "contact_person_role": null,
+        "contact_person_email": "carin.werkmastar@gmail.com",
+        "contact_person_phone": "+46702282711"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "070-2282711",
+        "mobile": ""
+      },
+      "founded_year": 1983,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Tammeråsens Byförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=TAMMER",
+      "street_address": "Tammeråsens Byväg 20",
+      "postal_code": "795 95",
+      "city": "Vikarbyn",
+      "email": "johannahurtigs@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johanna hurtig",
+        "contact_person_role": null,
+        "contact_person_email": "johannahurtigs@gmail.com",
+        "contact_person_phone": "+46736268736"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "073-626 87 36"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Utanåkers Bystuga",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=U%c3%85B",
+      "street_address": "Sommarbacken 5",
+      "postal_code": "795 90",
+      "city": "Rättvik",
+      "email": "stig.lyck@icloud.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stig lyck",
+        "contact_person_role": null,
+        "contact_person_email": "stig.lyck@icloud.com",
+        "contact_person_phone": "+46768474660"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "076-847 46 60"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Utby Rallare",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=UR",
+      "street_address": "Utby Gamla Landsvägen 36",
+      "postal_code": "795 90",
+      "city": "Rättvik",
+      "email": "utby.rallare@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2013",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kulturverksamhet",
+              "short_description": "Utby Rallare bygger en modelljärnväg som visar Rättvik omkring 1960."
+            }
+          }
+        ],
+        "free_text": "Utby Rallare bygger en modelljärnväg som visar Rättvik omkring 1960."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bertil bellander",
+        "contact_person_role": null,
+        "contact_person_email": "utby.rallare@telia.com",
+        "contact_person_phone": "+46706399372"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "+46706399372",
+        "mobile": ""
+      },
+      "founded_year": 2013,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kulturverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Vikarby IK",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bordtennis (pingis)",
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www4.idrottonline.se/vikarbyik-fotboll",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=VIK",
+      "street_address": "Vålsmorsvägen 6",
+      "postal_code": "795 70",
+      "city": "Vikarbyn",
+      "email": "patrikollas@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1918",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Bordtennis (pingis), Fotboll",
+              "short_description": "Ungdomsfotboll och en nyhet för i år, senior lag. Även bordtennis"
+            }
+          }
+        ],
+        "free_text": "Ungdomsfotboll och en nyhet för i år, senior lag. Även bordtennis"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Patrik ollas",
+        "contact_person_role": null,
+        "contact_person_email": "patrikollas@hotmail.com",
+        "contact_person_phone": "+46706488724"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-6488724"
+      },
+      "founded_year": 1918,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Bordtennis (pingis), Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Vikarbyns Byaförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.vikarbyn.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=VBF",
+      "street_address": "Kvarnströmsvägen 14",
+      "postal_code": "795 70",
+      "city": "Vikarbyn",
+      "email": "byaforeningen@vikarbyn.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2021",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elin nisser",
+        "contact_person_role": null,
+        "contact_person_email": "elinnisser@gmail.com",
+        "contact_person_phone": "+46702009036"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-200 90 36"
+      },
+      "founded_year": 2021,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Västbjörka Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.vastbjorka.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=V%c3%84STBY",
+      "street_address": "Västbjörka Kvarngatu 3",
+      "postal_code": "795 95",
+      "city": "Vikarbyn",
+      "email": "anne.hoglin05@bredband.net",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per gudmundsson",
+        "contact_person_role": null,
+        "contact_person_email": "gudmundssonper@gmail.com",
+        "contact_person_phone": "+46703849337"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-384 93 37"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Vävstugan Emvivi",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Vävning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.emvivi.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=VSE",
+      "street_address": "Stora vägen 43",
+      "postal_code": "795 70",
+      "city": "Vikarbyn",
+      "email": "lenfan44@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1970",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Vävning",
+              "short_description": "TraditionVävstugan Emvivi för tradition vidare genom att sätta upp fortfarande aktuella vävar med anor från bygd o omvärld.SamarbeteEmvivi har samarbete med Rättviks hemslöjd. Vi ger i vår lokal möjlighet att väva material till rättviksdräkten.FörnyelseVi tar till oss information om nyheter inom vävning genom föredrag, studiebesök o litteratur. Allt omsätts i vävnader. Inte minst inspirerar vi varandra. Vi ser gärna nya yngre medlemmar för gemensamt utbyte.InformationPå vår hemsida Emvivi.se berättar vi om vad vi gör samt visar foton på vad som händer i vävstolarna."
+            }
+          }
+        ],
+        "free_text": "TraditionVävstugan Emvivi för tradition vidare genom att sätta upp fortfarande aktuella vävar med anor från bygd o omvärld.SamarbeteEmvivi har samarbete med Rättviks hemslöjd. Vi ger i vår lokal möjlighet att väva material till rättviksdräkten.FörnyelseVi tar till oss information om nyheter inom vävning genom föredrag, studiebesök o litteratur. Allt omsätts i vävnader. Inte minst inspirerar vi varandra. Vi ser gärna nya yngre medlemmar för gemensamt utbyte.InformationPå vår hemsida Emvivi.se berättar vi om vad vi gör samt visar foton på vad som händer i vävstolarna."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena fant",
+        "contact_person_role": null,
+        "contact_person_email": "lenfan44@gmail.com",
+        "contact_person_phone": "+46761308889"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "-",
+        "work": "-",
+        "mobile": "0761308889"
+      },
+      "founded_year": 1970,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Vävning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Öppna Landskap Sörbygge Betesförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=%c3%96LSB",
+      "street_address": "Söderås Jälövägen 10",
+      "postal_code": "795 90",
+      "city": "Rättvik",
+      "email": "anna-maja.roos@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1999",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": "Återskapa och bevara öppna landskap i de södra bygarna i Rättvik."
+            }
+          }
+        ],
+        "free_text": "Återskapa och bevara öppna landskap i de södra bygarna i Rättvik."
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna-maja roos",
+        "contact_person_role": null,
+        "contact_person_email": "anna-maja.roos@hotmail.com",
+        "contact_person_phone": "+46702872066"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-287 20 66"
+      },
+      "founded_year": 1999,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Östanviks Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=%c3%96STANBY",
+      "street_address": "Östanvik Landsväg 88",
+      "postal_code": "795 97",
+      "city": "Furudal",
+      "email": "birgittadahlkvist@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta dahlkvist",
+        "contact_person_role": null,
+        "contact_person_email": "birgittadahlkvist@hotmail.com",
+        "contact_person_phone": "+46706594677"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-659 46 77"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Östbjörka Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.ostbjorkabystugeforening.se/",
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=%c3%96STBJBY",
+      "street_address": "Stora vägen 28",
+      "postal_code": "795 91",
+      "city": "Rättvik",
+      "email": "linn.gustavsson.lg@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1974",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linn gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "linn.gustavsson.lg@gmail.com",
+        "contact_person_phone": "+46706359529"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-635 95 29"
+      },
+      "founded_year": 1974,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Rättvik",
+    "scrape_run_id": "134ae6fc-a1ef-4cb4-878c-305131b764f6",
+    "scraped_at": "2025-10-27T11:07:46.203Z",
+    "association": {
+      "name": "Övre Gärdsjös Bystugeförening",
+      "org_number": null,
+      "types": [
+        "Bystugeföreningar"
+      ],
+      "activities": [
+        "Byverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://friweb.rattvik.se/forening/visa.aspx?id=%c3%96GB",
+      "street_address": "Öv Gärdsjö Landsvägen 46",
+      "postal_code": "795 92",
+      "city": "Rättvik",
+      "email": "mailtoronniebjor@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1946",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksidrottsförbundet",
+              "verksamhet_raw": "Byverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ronnie björ",
+        "contact_person_role": null,
+        "contact_person_email": "mailtoronniebjor@gmail.com",
+        "contact_person_phone": "+46702468791"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "home": "",
+        "work": "",
+        "mobile": "070-246 87 91"
+      },
+      "founded_year": 1946,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksidrottsförbundet",
+      "verksamhet_raw": "Byverksamhet"
+    }
+  }
+]

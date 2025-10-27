@@ -1,0 +1,450 @@
+{
+  "timestamp": "2025-10-27T04:22:00.372Z",
+  "totalMunicipalities": 44,
+  "totalAssociations": 11281,
+  "totalScraped": 11281,
+  "totalErrors": 2,
+  "durationSeconds": 125.605,
+  "municipalities": [
+    {
+      "municipality": "Ale",
+      "totalAssociations": 187,
+      "scraped": 187,
+      "missingEmail": 18,
+      "missingPhone": 48,
+      "withContacts": 50,
+      "errors": 0,
+      "duration": 494
+    },
+    {
+      "municipality": "Älvsbyn",
+      "totalAssociations": 95,
+      "scraped": 95,
+      "missingEmail": 38,
+      "missingPhone": 21,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 13672
+    },
+    {
+      "municipality": "Åmål",
+      "totalAssociations": 130,
+      "scraped": 130,
+      "missingEmail": 10,
+      "missingPhone": 24,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 296
+    },
+    {
+      "municipality": "Ånge",
+      "totalAssociations": 119,
+      "scraped": 119,
+      "missingEmail": 11,
+      "missingPhone": 19,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 369
+    },
+    {
+      "municipality": "Arvika",
+      "totalAssociations": 290,
+      "scraped": 290,
+      "missingEmail": 37,
+      "missingPhone": 68,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 407
+    },
+    {
+      "municipality": "Åtvidaberg",
+      "totalAssociations": 22,
+      "scraped": 22,
+      "missingEmail": 1,
+      "missingPhone": 1,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 596
+    },
+    {
+      "municipality": "Avesta",
+      "totalAssociations": 222,
+      "scraped": 222,
+      "missingEmail": 13,
+      "missingPhone": 21,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 720
+    },
+    {
+      "municipality": "Bengtsfors",
+      "totalAssociations": 72,
+      "scraped": 72,
+      "missingEmail": 10,
+      "missingPhone": 19,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 378
+    },
+    {
+      "municipality": "Borlänge",
+      "totalAssociations": 344,
+      "scraped": 344,
+      "missingEmail": 9,
+      "missingPhone": 52,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 405
+    },
+    {
+      "municipality": "Botkyrka",
+      "totalAssociations": 300,
+      "scraped": 300,
+      "missingEmail": 21,
+      "missingPhone": 62,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 413
+    },
+    {
+      "municipality": "Burlöv",
+      "totalAssociations": 71,
+      "scraped": 71,
+      "missingEmail": 0,
+      "missingPhone": 8,
+      "withContacts": 8,
+      "errors": 0,
+      "duration": 312
+    },
+    {
+      "municipality": "Degerfors",
+      "totalAssociations": 120,
+      "scraped": 120,
+      "missingEmail": 38,
+      "missingPhone": 28,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 286
+    },
+    {
+      "municipality": "Eda",
+      "totalAssociations": 53,
+      "scraped": 53,
+      "missingEmail": 1,
+      "missingPhone": 6,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 236
+    },
+    {
+      "municipality": "Finspång",
+      "totalAssociations": 106,
+      "scraped": 106,
+      "missingEmail": 1,
+      "missingPhone": 12,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 597
+    },
+    {
+      "municipality": "Gnesta",
+      "totalAssociations": 75,
+      "scraped": 75,
+      "missingEmail": 4,
+      "missingPhone": 36,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 13200
+    },
+    {
+      "municipality": "Gotland",
+      "totalAssociations": 438,
+      "scraped": 438,
+      "missingEmail": 12,
+      "missingPhone": 82,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 379
+    },
+    {
+      "municipality": "Hammarö",
+      "totalAssociations": 75,
+      "scraped": 75,
+      "missingEmail": 0,
+      "missingPhone": 12,
+      "withContacts": 10,
+      "errors": 0,
+      "duration": 599
+    },
+    {
+      "municipality": "Haninge",
+      "totalAssociations": 0,
+      "scraped": 0,
+      "missingEmail": 0,
+      "missingPhone": 0,
+      "withContacts": 0,
+      "errors": 1,
+      "duration": 0
+    },
+    {
+      "municipality": "Katrineholm",
+      "totalAssociations": 212,
+      "scraped": 212,
+      "missingEmail": 3,
+      "missingPhone": 27,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 336
+    },
+    {
+      "municipality": "Kinda",
+      "totalAssociations": 113,
+      "scraped": 113,
+      "missingEmail": 16,
+      "missingPhone": 91,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 388
+    },
+    {
+      "municipality": "Kristinehamn",
+      "totalAssociations": 128,
+      "scraped": 128,
+      "missingEmail": 14,
+      "missingPhone": 30,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 349
+    },
+    {
+      "municipality": "Linköping",
+      "totalAssociations": 417,
+      "scraped": 417,
+      "missingEmail": 20,
+      "missingPhone": 128,
+      "withContacts": 23,
+      "errors": 0,
+      "duration": 560
+    },
+    {
+      "municipality": "Ljusdal",
+      "totalAssociations": 194,
+      "scraped": 194,
+      "missingEmail": 27,
+      "missingPhone": 18,
+      "withContacts": 67,
+      "errors": 0,
+      "duration": 225
+    },
+    {
+      "municipality": "Mark",
+      "totalAssociations": 183,
+      "scraped": 183,
+      "missingEmail": 0,
+      "missingPhone": 17,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 305
+    },
+    {
+      "municipality": "Mjölby",
+      "totalAssociations": 144,
+      "scraped": 144,
+      "missingEmail": 2,
+      "missingPhone": 45,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 640
+    },
+    {
+      "municipality": "Motala",
+      "totalAssociations": 286,
+      "scraped": 286,
+      "missingEmail": 35,
+      "missingPhone": 36,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 292
+    },
+    {
+      "municipality": "Norrköping",
+      "totalAssociations": 485,
+      "scraped": 485,
+      "missingEmail": 17,
+      "missingPhone": 93,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 333
+    },
+    {
+      "municipality": "Nybro",
+      "totalAssociations": 219,
+      "scraped": 219,
+      "missingEmail": 12,
+      "missingPhone": 30,
+      "withContacts": 102,
+      "errors": 0,
+      "duration": 284
+    },
+    {
+      "municipality": "Örebro",
+      "totalAssociations": 519,
+      "scraped": 519,
+      "missingEmail": 27,
+      "missingPhone": 121,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 364
+    },
+    {
+      "municipality": "Örnsköldsvik",
+      "totalAssociations": 585,
+      "scraped": 585,
+      "missingEmail": 101,
+      "missingPhone": 82,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 398
+    },
+    {
+      "municipality": "Östersund",
+      "totalAssociations": 614,
+      "scraped": 614,
+      "missingEmail": 49,
+      "missingPhone": 88,
+      "withContacts": 112,
+      "errors": 0,
+      "duration": 593
+    },
+    {
+      "municipality": "Säffle",
+      "totalAssociations": 130,
+      "scraped": 130,
+      "missingEmail": 10,
+      "missingPhone": 24,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 256
+    },
+    {
+      "municipality": "Simrishamn",
+      "totalAssociations": 333,
+      "scraped": 333,
+      "missingEmail": 26,
+      "missingPhone": 56,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 278
+    },
+    {
+      "municipality": "Skellefteå",
+      "totalAssociations": 789,
+      "scraped": 789,
+      "missingEmail": 3,
+      "missingPhone": 67,
+      "withContacts": 290,
+      "errors": 0,
+      "duration": 703
+    },
+    {
+      "municipality": "Skövde",
+      "totalAssociations": 0,
+      "scraped": 0,
+      "missingEmail": 0,
+      "missingPhone": 0,
+      "withContacts": 0,
+      "errors": 1,
+      "duration": 0
+    },
+    {
+      "municipality": "Solna",
+      "totalAssociations": 166,
+      "scraped": 166,
+      "missingEmail": 17,
+      "missingPhone": 34,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 319
+    },
+    {
+      "municipality": "Torsby",
+      "totalAssociations": 239,
+      "scraped": 239,
+      "missingEmail": 49,
+      "missingPhone": 37,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 284
+    },
+    {
+      "municipality": "Trollhättan",
+      "totalAssociations": 378,
+      "scraped": 378,
+      "missingEmail": 17,
+      "missingPhone": 64,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 459
+    },
+    {
+      "municipality": "Trosa",
+      "totalAssociations": 63,
+      "scraped": 63,
+      "missingEmail": 0,
+      "missingPhone": 10,
+      "withContacts": 23,
+      "errors": 0,
+      "duration": 287
+    },
+    {
+      "municipality": "Ulricehamn",
+      "totalAssociations": 123,
+      "scraped": 123,
+      "missingEmail": 1,
+      "missingPhone": 16,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 510
+    },
+    {
+      "municipality": "Uppsala",
+      "totalAssociations": 968,
+      "scraped": 968,
+      "missingEmail": 34,
+      "missingPhone": 167,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 542
+    },
+    {
+      "municipality": "Vänersborg",
+      "totalAssociations": 219,
+      "scraped": 219,
+      "missingEmail": 14,
+      "missingPhone": 46,
+      "withContacts": 49,
+      "errors": 0,
+      "duration": 317
+    },
+    {
+      "municipality": "Varberg",
+      "totalAssociations": 368,
+      "scraped": 368,
+      "missingEmail": 18,
+      "missingPhone": 64,
+      "withContacts": 47,
+      "errors": 0,
+      "duration": 650
+    },
+    {
+      "municipality": "Västerås",
+      "totalAssociations": 687,
+      "scraped": 687,
+      "missingEmail": 16,
+      "missingPhone": 126,
+      "withContacts": 0,
+      "errors": 0,
+      "duration": 394
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "totalMunicipalities": 80,
+  "successful": 65,
+  "failed": 15,
+  "totalAssociationsScraped": 7281,
+  "totalDurationMs": 30017634,
+  "totalDurationMinutes": "500.29",
+  "results": [
+    {
+      "municipality": "Arboga",
+      "url": "https://www.forening.arboga.se/",
+      "status": "success",
+      "associationsScraped": 141,
+      "durationMs": 393252
+    },
+    {
+      "municipality": "Årjäng",
+      "url": "https://fri.arjang.se/FORENING/",
+      "status": "success",
+      "associationsScraped": 111,
+      "durationMs": 318753
+    },
+    {
+      "municipality": "Askersund",
+      "url": "https://friweb.askersund.se/forening/",
+      "status": "success",
+      "associationsScraped": 45,
+      "durationMs": 127190
+    },
+    {
+      "municipality": "Båstad",
+      "url": "https://bapp53.bastad.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600004
+    },
+    {
+      "municipality": "Bromölla",
+      "url": "https://fri.bromolla.se/forening/default.aspx",
+      "status": "success",
+      "associationsScraped": 139,
+      "durationMs": 391347
+    },
+    {
+      "municipality": "Ekerö",
+      "url": "https://ekero.fri-go.se/forening/",
+      "status": "success",
+      "associationsScraped": 123,
+      "durationMs": 327749
+    },
+    {
+      "municipality": "Eksjö",
+      "url": "https://fritid.eksjo.se/forening/",
+      "status": "success",
+      "associationsScraped": 168,
+      "durationMs": 510431
+    },
+    {
+      "municipality": "Emmaboda",
+      "url": "https://fri.emmaboda.se/forening/",
+      "status": "success",
+      "associationsScraped": 145,
+      "durationMs": 396070
+    },
+    {
+      "municipality": "Eskilstuna",
+      "url": "https://fri.fagersta.se/forening/",
+      "status": "success",
+      "associationsScraped": 62,
+      "durationMs": 189570
+    },
+    {
+      "municipality": "Fagersta",
+      "url": "https://fri.fagersta.se/forening/",
+      "status": "success",
+      "associationsScraped": 62,
+      "durationMs": 188966
+    },
+    {
+      "municipality": "Falkenberg",
+      "url": "https://friwebb.falkenberg.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600003
+    },
+    {
+      "municipality": "Färgelanda",
+      "url": "https://bokning.fargelanda.se/forening/",
+      "status": "success",
+      "associationsScraped": 62,
+      "durationMs": 188568
+    },
+    {
+      "municipality": "Flen",
+      "url": "https://fri.flen.se/forening/",
+      "status": "success",
+      "associationsScraped": 182,
+      "durationMs": 493454
+    },
+    {
+      "municipality": "Forshaga",
+      "url": "https://forening.forshaga.se/",
+      "status": "success",
+      "associationsScraped": 39,
+      "durationMs": 111811
+    },
+    {
+      "municipality": "Gävle",
+      "url": "https://fri.gavle.se/forening/",
+      "status": "success",
+      "associationsScraped": 60,
+      "durationMs": 197764
+    },
+    {
+      "municipality": "Hallsberg",
+      "url": "https://friweb.hallsberg.se/forening/Default.aspx",
+      "status": "success",
+      "associationsScraped": 96,
+      "durationMs": 292712
+    },
+    {
+      "municipality": "Halmstad",
+      "url": "https://fri.halmstad.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600004
+    },
+    {
+      "municipality": "Härnösand",
+      "url": "https://fri.harnosand.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600004
+    },
+    {
+      "municipality": "Hässleholm",
+      "url": "https://hassleholm.fri-go.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600006
+    },
+    {
+      "municipality": "Hofors",
+      "url": "https://fri.hofors.se/forening/default.aspx",
+      "status": "success",
+      "associationsScraped": 85,
+      "durationMs": 393291
+    },
+    {
+      "municipality": "Höganäs",
+      "url": "https://e24.hoganas.se/forening/",
+      "status": "success",
+      "associationsScraped": 175,
+      "durationMs": 473211
+    },
+    {
+      "municipality": "Höör",
+      "url": "https://frihr.unikom.se/",
+      "status": "success",
+      "associationsScraped": 0,
+      "durationMs": 13221
+    },
+    {
+      "municipality": "Hörby",
+      "url": "https://fri.horby.se/forening/",
+      "status": "success",
+      "associationsScraped": 117,
+      "durationMs": 323034
+    },
+    {
+      "municipality": "Hudiksvall",
+      "url": "https://hudiksvall.fri-go.se/forening/",
+      "status": "success",
+      "associationsScraped": 201,
+      "durationMs": 549859
+    },
+    {
+      "municipality": "Järfälla",
+      "url": "https://jarfalla.fri-go.se/forening/",
+      "status": "success",
+      "associationsScraped": 131,
+      "durationMs": 366043
+    },
+    {
+      "municipality": "Karlsborg",
+      "url": "https://bokning.karlsborg.se/forening/default.aspx",
+      "status": "success",
+      "associationsScraped": 102,
+      "durationMs": 285128
+    },
+    {
+      "municipality": "Karlshamn",
+      "url": "https://fritid.karlshamn.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600004
+    },
+    {
+      "municipality": "Karlskrona",
+      "url": "https://fri.karlskrona.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600005
+    },
+    {
+      "municipality": "Kävlinge",
+      "url": "https://fritid.kavlinge.se/forening/",
+      "status": "success",
+      "associationsScraped": 77,
+      "durationMs": 220360
+    },
+    {
+      "municipality": "Köping",
+      "url": "https://frifor.koping.se/forening/",
+      "status": "success",
+      "associationsScraped": 178,
+      "durationMs": 525343
+    },
+    {
+      "municipality": "Kumla",
+      "url": "https://friweb.kumla.se/forening/",
+      "status": "success",
+      "associationsScraped": 76,
+      "durationMs": 221591
+    },
+    {
+      "municipality": "Kungsbacka",
+      "url": "https://fri-webforening.kungsbacka.se/default.aspx",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600005
+    },
+    {
+      "municipality": "Laholm",
+      "url": "https://laholm.fri-go.se/forening/",
+      "status": "success",
+      "associationsScraped": 155,
+      "durationMs": 433414
+    },
+    {
+      "municipality": "Laxå",
+      "url": "https://friweb.laxa.sydnarke.se/forening/",
+      "status": "success",
+      "associationsScraped": 71,
+      "durationMs": 202209
+    },
+    {
+      "municipality": "Lekeberg",
+      "url": "https://bokning.lekeberg.se/forening/",
+      "status": "success",
+      "associationsScraped": 27,
+      "durationMs": 80579
+    },
+    {
+      "municipality": "Leksand",
+      "url": "https://leksand.fri-go.se/forening/",
+      "status": "success",
+      "associationsScraped": 164,
+      "durationMs": 513363
+    },
+    {
+      "municipality": "Lessebo",
+      "url": "https://fri.lessebo.se/forening/",
+      "status": "success",
+      "associationsScraped": 93,
+      "durationMs": 260143
+    },
+    {
+      "municipality": "Lidingö",
+      "url": "https://fri.lidingo.se/forening/",
+      "status": "success",
+      "associationsScraped": 140,
+      "durationMs": 398895
+    },
+    {
+      "municipality": "Ljungby",
+      "url": "https://fri.ljungby.se/forening/",
+      "status": "success",
+      "associationsScraped": 124,
+      "durationMs": 344311
+    },
+    {
+      "municipality": "Ludvika",
+      "url": "https://fri.ludvika.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600004
+    },
+    {
+      "municipality": "Lycksele",
+      "url": "https://fri.lycksele.se/forening/",
+      "status": "success",
+      "associationsScraped": 194,
+      "durationMs": 537477
+    },
+    {
+      "municipality": "Malung-Sälen",
+      "url": "https://fri.malung-salen.se/forening/",
+      "status": "success",
+      "associationsScraped": 136,
+      "durationMs": 386084
+    },
+    {
+      "municipality": "Markaryd",
+      "url": "https://foreningar.markaryd.se/forening/",
+      "status": "success",
+      "associationsScraped": 105,
+      "durationMs": 296033
+    },
+    {
+      "municipality": "Munkedal",
+      "url": "https://bokning.munkedal.se/forening/",
+      "status": "success",
+      "associationsScraped": 82,
+      "durationMs": 248261
+    },
+    {
+      "municipality": "Nässjö",
+      "url": "https://friweb.nassjo.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600004
+    },
+    {
+      "municipality": "Nynäshamn",
+      "url": "https://forening.nynashamn.se/",
+      "status": "success",
+      "associationsScraped": 125,
+      "durationMs": 348060
+    },
+    {
+      "municipality": "Öckerö",
+      "url": "https://fri4.ockero.se/forening/default.aspx",
+      "status": "success",
+      "associationsScraped": 67,
+      "durationMs": 184057
+    },
+    {
+      "municipality": "Ödeshög",
+      "url": "http://fri.odeshog.se/forening/",
+      "status": "success",
+      "associationsScraped": 42,
+      "durationMs": 122551
+    },
+    {
+      "municipality": "Örkelljunga",
+      "url": "https://friweb.orkelljunga.se/forening/",
+      "status": "success",
+      "associationsScraped": 78,
+      "durationMs": 223428
+    },
+    {
+      "municipality": "Orust",
+      "url": "https://fri.orust.se/forening/",
+      "status": "success",
+      "associationsScraped": 119,
+      "durationMs": 341896
+    },
+    {
+      "municipality": "Oskarshamn",
+      "url": "https://forening.oskarshamn.se/forening/",
+      "status": "success",
+      "associationsScraped": 195,
+      "durationMs": 541035
+    },
+    {
+      "municipality": "Österåker",
+      "url": "https://osteraker.fri-go.se/forening/",
+      "status": "success",
+      "associationsScraped": 148,
+      "durationMs": 410080
+    },
+    {
+      "municipality": "Östhammar",
+      "url": "http://fri.osthammar.se/forening/",
+      "status": "success",
+      "associationsScraped": 157,
+      "durationMs": 452609
+    },
+    {
+      "municipality": "Östra Göinge",
+      "url": "https://forening.ostragoinge.se/forening/",
+      "status": "success",
+      "associationsScraped": 137,
+      "durationMs": 371630
+    },
+    {
+      "municipality": "Oxelösund",
+      "url": "https://fri.oxelosund.se/forening/",
+      "status": "success",
+      "associationsScraped": 54,
+      "durationMs": 151902
+    },
+    {
+      "municipality": "Perstorp",
+      "url": "https://fri.perstorp.se/forening/",
+      "status": "success",
+      "associationsScraped": 51,
+      "durationMs": 152078
+    },
+    {
+      "municipality": "Piteå",
+      "url": "https://friweb.pitea.se/FRI_forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600005
+    },
+    {
+      "municipality": "Rättvik",
+      "url": "https://friweb.rattvik.se/forening/",
+      "status": "success",
+      "associationsScraped": 98,
+      "durationMs": 299778
+    },
+    {
+      "municipality": "Sala",
+      "url": "https://forening.sala.se/",
+      "status": "success",
+      "associationsScraped": 105,
+      "durationMs": 290509
+    },
+    {
+      "municipality": "Säter",
+      "url": "https://fri.sater.se/forening/",
+      "status": "success",
+      "associationsScraped": 94,
+      "durationMs": 269631
+    },
+    {
+      "municipality": "Sjöbo",
+      "url": "https://sjobo.fri-go.se/forening/",
+      "status": "success",
+      "associationsScraped": 104,
+      "durationMs": 286312
+    },
+    {
+      "municipality": "Skurup",
+      "url": "https://fri.skurup.se/forening/",
+      "status": "success",
+      "associationsScraped": 89,
+      "durationMs": 253096
+    },
+    {
+      "municipality": "Smedjebacken",
+      "url": "https://fri.smedjebacken.se/forening/default.aspx",
+      "status": "success",
+      "associationsScraped": 100,
+      "durationMs": 269164
+    },
+    {
+      "municipality": "Söderköping",
+      "url": "https://foreningar.soderkoping.se/forening/",
+      "status": "success",
+      "associationsScraped": 106,
+      "durationMs": 291972
+    },
+    {
+      "municipality": "Södertälje",
+      "url": "https://sodertalje.fri-go.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600004
+    },
+    {
+      "municipality": "Sollentuna",
+      "url": "https://boka.sollentuna.se/forening/",
+      "status": "success",
+      "associationsScraped": 186,
+      "durationMs": 509335
+    },
+    {
+      "municipality": "Sölvesborg",
+      "url": "https://funktion.solvesborg.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600005
+    },
+    {
+      "municipality": "Strängnäs",
+      "url": "https://fri.strangnas.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600004
+    },
+    {
+      "municipality": "Svedala",
+      "url": "https://fri.svedala.se/forening/",
+      "status": "success",
+      "associationsScraped": 113,
+      "durationMs": 326848
+    },
+    {
+      "municipality": "Svenljunga",
+      "url": "https://fri.svenljunga.se/forening/",
+      "status": "success",
+      "associationsScraped": 98,
+      "durationMs": 278278
+    },
+    {
+      "municipality": "Tanum",
+      "url": "https://bokning.tanum.se/forening/",
+      "status": "success",
+      "associationsScraped": 154,
+      "durationMs": 426848
+    },
+    {
+      "municipality": "Tingsryd",
+      "url": "https://www2.tingsryd.se/forening/",
+      "status": "success",
+      "associationsScraped": 116,
+      "durationMs": 321311
+    },
+    {
+      "municipality": "Tomelilla",
+      "url": "https://friweb.tomelilla.se/forening/",
+      "status": "success",
+      "associationsScraped": 109,
+      "durationMs": 317956
+    },
+    {
+      "municipality": "Tranemo",
+      "url": "https://fri.tranemo.se/forening/",
+      "status": "success",
+      "associationsScraped": 146,
+      "durationMs": 436292
+    },
+    {
+      "municipality": "Upplands Väsby",
+      "url": "https://upplandsvasby.fri-go.se/forening/",
+      "status": "success",
+      "associationsScraped": 126,
+      "durationMs": 345535
+    },
+    {
+      "municipality": "Upplands-Bro",
+      "url": "https://foreningswebb.upplands-bro.se/forening/",
+      "status": "success",
+      "associationsScraped": 126,
+      "durationMs": 402181
+    },
+    {
+      "municipality": "Uppvidinge",
+      "url": "https://fri.uppvidinge.se/forening/",
+      "status": "success",
+      "associationsScraped": 145,
+      "durationMs": 406376
+    },
+    {
+      "municipality": "Vadstena",
+      "url": "https://friweb.vadstena.se/forening/",
+      "status": "success",
+      "associationsScraped": 43,
+      "durationMs": 127034
+    },
+    {
+      "municipality": "Vetlanda",
+      "url": "https://friweb.vetlanda.se/forening/",
+      "status": "failed",
+      "errorMessage": "spawnSync C:\\Windows\\system32\\cmd.exe ETIMEDOUT",
+      "durationMs": 600004
+    },
+    {
+      "municipality": "Ystad",
+      "url": "https://ystad.fri-go.se/forening/",
+      "status": "success",
+      "associationsScraped": 182,
+      "durationMs": 502015
+    }
+  ]
+}

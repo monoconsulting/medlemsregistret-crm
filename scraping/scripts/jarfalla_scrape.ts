@@ -2,6 +2,8 @@ import { chromium, Browser, Page } from 'playwright';
 import { v4 as uuidv4 } from 'uuid';
 import * as fs from 'fs';
 import * as path from 'path';
+import { getScrapingPaths, createLogger, runDatabaseImport } from '../utils/scraper-base';
+import { sanitizeForValidation } from '../utils/sanitize';
 
 // Configuration
 const SOURCE_SYSTEM = 'FRI';
@@ -10,12 +12,15 @@ const BASE_URL = 'https://jarfalla.fri-go.se/forening/';
 const SCRAPE_RUN_ID = uuidv4();
 const SCRAPED_AT = new Date().toISOString();
 
-// Output paths
-const OUTPUT_DIR = path.join(__dirname, 'out');
-const timestamp = new Date().toISOString().replace('T', '_').replace(/:/g, '-').substring(0, 16); // YYYY-MM-DD_HH-MM
-const JSONL_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY.toLowerCase()}_associations_${SCRAPE_RUN_ID}_${timestamp}.jsonl`);
-const JSON_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY.toLowerCase()}_associations_${SCRAPE_RUN_ID}_${timestamp}.json`);
-const LOG_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY.toLowerCase()}.log`);
+// Get paths from environment
+const paths = getScrapingPaths(MUNICIPALITY);
+const OUTPUT_DIR = paths.outputDir;
+const JSONL_PATH = paths.jsonlPath;
+const JSON_PATH = paths.jsonPath;
+const LOG_PATH = paths.logPath;
+
+// Create logger
+const log = createLogger(LOG_PATH);
 
 // Stats tracking
 let totalAssociations = 0;
@@ -70,13 +75,6 @@ interface AssociationRecord {
 }
 
 // Utility functions
-function log(message: string): void {
-  const timestamp = new Date().toISOString();
-  const logMessage = `[${timestamp}] ${message}`;
-  console.log(logMessage);
-  fs.appendFileSync(LOG_PATH, logMessage + '\n');
-}
-
 function normalizeString(value: string | null | undefined): string | null {
   if (!value) return null;
   const trimmed = value.trim().replace(/\s+/g, ' ');
@@ -1070,8 +1068,15 @@ async function main() {
     await browser.close();
   }
 
+  // Sanitize records for validation
+  log('Sanitizing records for validation...');
+  const sanitizedRecords = sanitizeForValidation(allRecords);
+
   // Write pretty JSON
-  await writePrettyJson(allRecords);
+  await writePrettyJson(sanitizedRecords);
+
+  // Import to database
+  await runDatabaseImport(MUNICIPALITY, log);
 
   // Final stats
   log('='.repeat(80));

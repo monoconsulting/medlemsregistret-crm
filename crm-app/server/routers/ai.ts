@@ -1,6 +1,6 @@
 import { z } from 'zod'
 import { router, protectedProcedure } from '../trpc'
-import { getAIProvider } from '@/lib/ai/provider'
+import { getAIProvider } from '../../lib/ai/provider'
 
 const formatPercent = (value: number) => `${Math.round(value * 100)}%`
 

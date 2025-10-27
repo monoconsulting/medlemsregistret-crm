@@ -1,7 +1,7 @@
 "use client"
 
-import { useMemo, useState } from "react"
-import { useSearchParams } from "next/navigation"
+import { useEffect, useMemo, useState } from "react"
+import { useRouter, useSearchParams } from "next/navigation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -14,7 +14,21 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { Search, Filter, Plus, Loader2, RefreshCcw, Mail, Pencil, Map, UserRoundPen, Home } from "lucide-react"
+import {
+  Search,
+  Filter,
+  Plus,
+  Loader2,
+  RefreshCcw,
+  Mail,
+  Pencil,
+  Map,
+  UserRoundPen,
+  Home,
+  ArrowUpDown,
+  ArrowUp,
+  ArrowDown,
+} from "lucide-react"
 import { AdvancedFilterPanel, type AdvancedFilterState } from "@/components/filters/advanced-filter-panel"
 import { MultiSelectOption } from "@/components/filters/multi-select-filter"
 import { BulkActionsToolbar } from "@/components/filters/bulk-actions-toolbar"
@@ -93,18 +107,67 @@ const DEFAULT_FILTERS: AdvancedFilterState = {
   useSearchIndex: false,
 }
 
+type SortKey = "updatedAt" | "name" | "createdAt" | "recentActivity" | "crmStatus" | "pipeline"
+
+const SORT_OPTIONS: { value: SortKey; label: string }[] = [
+  { value: "updatedAt", label: "Senast uppdaterad" },
+  { value: "name", label: "Namn" },
+  { value: "createdAt", label: "Skapad" },
+  { value: "recentActivity", label: "Senaste aktivitet" },
+  { value: "crmStatus", label: "Status" },
+  { value: "pipeline", label: "Pipeline" },
+]
+
 export default function AssociationsPage() {
   const searchParams = useSearchParams()
-  const municipalityFilter = searchParams.get("municipality")
+  const router = useRouter()
+  const municipalityIdFilter = searchParams.get("municipalityId")
+  const municipalityNameFilter = searchParams.get("municipality")
   const utils = api.useUtils()
+  const municipalityDetailsQuery = api.municipality.getById.useQuery(
+    { id: municipalityIdFilter ?? "" },
+    { enabled: Boolean(municipalityIdFilter) }
+  )
+  const activeMunicipalityName = municipalityDetailsQuery.data?.name ?? municipalityNameFilter
   const [searchTerm, setSearchTerm] = useState("")
   const [filters, setFilters] = useState<AdvancedFilterState>(DEFAULT_FILTERS)
   const [page, setPage] = useState(1)
   const [limit, setLimit] = useState(10)
   const [viewMode, setViewMode] = useState<ViewMode>("table")
-  const [sortBy, setSortBy] = useState<"updatedAt" | "name" | "createdAt" | "recentActivity">("updatedAt")
+  const [sortBy, setSortBy] = useState<SortKey>("updatedAt")
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc")
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
+
+  useEffect(() => {
+    setPage(1)
+  }, [municipalityIdFilter, municipalityNameFilter])
+
+  const associationsTitle = activeMunicipalityName ? `Föreningar i ${activeMunicipalityName}` : "Alla föreningar"
+
+  const defaultSortDirectionFor = (field: SortKey): "asc" | "desc" =>
+    field === "updatedAt" || field === "createdAt" || field === "recentActivity" ? "desc" : "asc"
+
+  const handleColumnSort = (field: SortKey) => {
+    if (sortBy === field) {
+      setSortDirection((prev) => (prev === "asc" ? "desc" : "asc"))
+      setPage(1)
+      return
+    }
+    setSortBy(field)
+    setSortDirection(defaultSortDirectionFor(field))
+    setPage(1)
+  }
+
+  const renderSortIcon = (field: SortKey) => {
+    if (sortBy !== field) {
+      return <ArrowUpDown className="h-3 w-3 text-muted-foreground" />
+    }
+    return sortDirection === "asc" ? (
+      <ArrowUp className="h-3 w-3 text-primary" />
+    ) : (
+      <ArrowDown className="h-3 w-3 text-primary" />
+    )
+  }
 
   const [editTarget, setEditTarget] = useState<AssociationListItem | null>(null)
   const [contactTarget, setContactTarget] = useState<{ id: string; name: string } | null>(null)
@@ -133,7 +196,8 @@ export default function AssociationsPage() {
       hasPhone: typeof filters.hasPhone === "boolean" ? filters.hasPhone : undefined,
       isMember: typeof filters.isMember === "boolean" ? filters.isMember : undefined,
       assignedToId: filters.assignedToId || undefined,
-      municipality: municipalityFilter || undefined,
+      municipality: municipalityNameFilter || undefined,
+      municipalityId: municipalityIdFilter || undefined,
       dateRange: filters.dateRange?.from
         ? {
             from: filters.dateRange.from,
@@ -144,12 +208,16 @@ export default function AssociationsPage() {
       sortBy,
       sortDirection,
     }
-  }, [page, limit, searchTerm, filters, sortBy, sortDirection, municipalityFilter])
+  }, [page, limit, searchTerm, filters, sortBy, sortDirection, municipalityNameFilter, municipalityIdFilter])
 
   const associationsQuery = api.association.list.useQuery(queryInput, {
     placeholderData: (previousData) => previousData,
   })
   const tagsQuery = api.tags.list.useQuery(undefined, { staleTime: 60_000 })
+  const municipalitiesQuery = api.municipality.list.useQuery(
+    { limit: 400, sortBy: "name", sortOrder: "asc" },
+    { staleTime: 300_000 }
+  )
 
   const updateAssociation = api.association.update.useMutation({
     onSuccess: () => {
@@ -189,6 +257,11 @@ export default function AssociationsPage() {
     onError: (error) => toast({ title: "Exporten misslyckades", description: error.message, variant: "destructive" }),
   })
 
+  const usersQuery = api.users.list.useQuery(
+    { page: 1, limit: 200 },
+    { staleTime: 60_000 }
+  )
+
   const data = associationsQuery.data
   const associations = useMemo(() => (data?.associations ?? []) as AssociationListItem[], [data?.associations])
   const totalPages = data?.pagination.totalPages ?? 1
@@ -214,17 +287,23 @@ export default function AssociationsPage() {
   }))
 
   const userOptions: MultiSelectOption[] = useMemo(() => {
-    const seen: Record<string, string> = {}
-    associations.forEach((association: any) => {
-      if (association.assignedTo) {
-        seen[association.assignedTo.id] = association.assignedTo.name ?? "Namnlös"
-      }
-    })
-    return Object.entries(seen).map(([value, label]) => ({ value, label }))
-  }, [associations])
+    const users = usersQuery.data?.users ?? []
+    return users.map((user) => ({
+      value: user.id,
+      label: user.name ?? user.email ?? "Namnlös",
+    }))
+  }, [usersQuery.data?.users])
 
   const statusOptions: MultiSelectOption[] = CRM_STATUSES.map((status) => ({ label: status, value: status }))
   const pipelineOptions: MultiSelectOption[] = PIPELINES.map((pipeline) => ({ label: pipeline, value: pipeline }))
+  const municipalityOptions = useMemo(() => {
+    return (municipalitiesQuery.data ?? [])
+      .filter((municipality) => municipality.name && municipality.name.trim().length > 0)
+      .map((municipality) => ({
+        id: municipality.id,
+        name: municipality.name.trim(),
+      }))
+  }, [municipalitiesQuery.data])
 
   const toggleSelection = (id: string) => {
     setSelectedIds((prev) => {
@@ -240,8 +319,22 @@ export default function AssociationsPage() {
 
   const clearSelection = () => setSelectedIds(new Set())
 
+  const handleClearMunicipalityFilter = () => {
+    const params = new URLSearchParams(searchParams.toString())
+    params.delete("municipality")
+    params.delete("municipalityId")
+    setPage(1)
+    const next = params.toString()
+    router.push(`/associations${next ? `?${next}` : ""}`)
+  }
+
   const handleExport = async (format: "csv" | "json" | "xlsx") => {
-    const result = await exportAssociations.mutateAsync({ format, search: searchTerm.trim() || undefined, municipality: municipalityFilter || undefined })
+    const result = await exportAssociations.mutateAsync({
+      format,
+      search: searchTerm.trim() || undefined,
+      municipality: municipalityNameFilter || undefined,
+      municipalityId: municipalityIdFilter || undefined,
+    })
     const binary = atob(result.data)
     const buffer = new Uint8Array(binary.length)
     for (let i = 0; i < binary.length; i++) {
@@ -356,7 +449,27 @@ export default function AssociationsPage() {
     toast({ title: "E-post skickad", description: `E-post skickad till ${values.to}` })
   }
 
+  const handleMunicipalitySelect = (value: string) => {
+    if (value === "all") {
+      handleClearMunicipalityFilter()
+      return
+    }
+
+    const selected = municipalityOptions.find((option) => option.id === value)
+    if (!selected) {
+      return
+    }
+
+    const params = new URLSearchParams(searchParams.toString())
+    params.set("municipalityId", selected.id)
+    params.set("municipality", selected.name)
+    setPage(1)
+    const next = params.toString()
+    router.push(`/associations${next ? `?${next}` : ""}`)
+  }
+
   const isLoading = associationsQuery.isPending
+  const municipalitySelectValue = municipalityIdFilter ?? "all"
 
   return (
     <div className="space-y-6 p-6">
@@ -391,6 +504,23 @@ export default function AssociationsPage() {
               />
             </div>
             <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center sm:gap-3">
+              <Select
+                value={municipalitySelectValue}
+                onValueChange={handleMunicipalitySelect}
+                disabled={municipalitiesQuery.isLoading}
+              >
+                <SelectTrigger className="w-full sm:w-48">
+                  <SelectValue placeholder="Alla kommuner" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">Alla kommuner</SelectItem>
+                  {municipalityOptions.map((municipality) => (
+                    <SelectItem key={municipality.id} value={municipality.id}>
+                      {municipality.name}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
               <ViewToggle value={viewMode} onChange={setViewMode} />
               <Select value={limit.toString()} onValueChange={(value) => { setLimit(parseInt(value)); setPage(1); }}>
                 <SelectTrigger className="w-full sm:w-32">
@@ -403,18 +533,35 @@ export default function AssociationsPage() {
                   <SelectItem value="100">100 per sida</SelectItem>
                 </SelectContent>
               </Select>
-              <Select value={sortBy} onValueChange={(value) => setSortBy(value as typeof sortBy)}>
+              <Select
+                value={sortBy}
+                onValueChange={(value) => {
+                  const field = value as SortKey
+                  setSortBy(field)
+                  if (field !== sortBy) {
+                    setSortDirection(defaultSortDirectionFor(field))
+                  }
+                  setPage(1)
+                }}
+              >
                 <SelectTrigger className="w-full sm:w-44">
                   <SelectValue placeholder="Sortera" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="updatedAt">Senast uppdaterad</SelectItem>
-                  <SelectItem value="name">Namn</SelectItem>
-                  <SelectItem value="createdAt">Skapad</SelectItem>
-                  <SelectItem value="recentActivity">Senaste aktivitet</SelectItem>
+                  {SORT_OPTIONS.map((option) => (
+                    <SelectItem key={option.value} value={option.value}>
+                      {option.label}
+                    </SelectItem>
+                  ))}
                 </SelectContent>
               </Select>
-              <Select value={sortDirection} onValueChange={(value) => setSortDirection(value as typeof sortDirection)}>
+              <Select
+                value={sortDirection}
+                onValueChange={(value) => {
+                  setSortDirection(value as typeof sortDirection)
+                  setPage(1)
+                }}
+              >
                 <SelectTrigger className="w-full sm:w-32">
                   <SelectValue placeholder="Riktning" />
                 </SelectTrigger>
@@ -458,11 +605,27 @@ export default function AssociationsPage() {
 
       <Card>
         <CardHeader className="flex flex-row items-center justify-between">
-          <div>
-            <CardTitle>Alla föreningar</CardTitle>
-            <p className="text-sm text-muted-foreground">
-              {associationsQuery.data?.pagination.total ?? 0} resultat – sida {page} av {totalPages}
-            </p>
+          <div className="space-y-2">
+            <div>
+              <CardTitle>{associationsTitle}</CardTitle>
+              <p className="text-sm text-muted-foreground">
+                {associationsQuery.data?.pagination.total ?? 0} resultat – sida {page} av {totalPages}
+              </p>
+            </div>
+            {activeMunicipalityName && (
+              <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                <Badge variant="secondary">Filtrerat på kommun</Badge>
+                <span className="text-xs font-medium text-foreground">{activeMunicipalityName}</span>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="h-6 px-2"
+                  onClick={handleClearMunicipalityFilter}
+                >
+                  Rensa
+                </Button>
+              </div>
+            )}
           </div>
           {associationsQuery.isFetching && <Loader2 className="h-4 w-4 animate-spin text-muted-foreground" />}
         </CardHeader>
@@ -493,11 +656,31 @@ export default function AssociationsPage() {
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Förening
                     </th>
-                    <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Status
+                    <th
+                      className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground"
+                      aria-sort={sortBy === "crmStatus" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}
+                    >
+                      <button
+                        type="button"
+                        onClick={() => handleColumnSort("crmStatus")}
+                        className="flex items-center gap-1 uppercase"
+                      >
+                        Status
+                        {renderSortIcon("crmStatus")}
+                      </button>
                     </th>
-                    <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Pipeline
+                    <th
+                      className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground"
+                      aria-sort={sortBy === "pipeline" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}
+                    >
+                      <button
+                        type="button"
+                        onClick={() => handleColumnSort("pipeline")}
+                        className="flex items-center gap-1 uppercase"
+                      >
+                        Pipeline
+                        {renderSortIcon("pipeline")}
+                      </button>
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Kontaktinfo
@@ -641,15 +824,15 @@ export default function AssociationsPage() {
                           )}
                         </td>
                         <td className="px-4 py-3 text-sm">
-                          {activityValues.length ? (
+                          {association.tags?.length ? (
                             <div className="flex flex-wrap gap-1">
-                              {activityValues.slice(0, 3).map((activity) => (
-                                <Badge key={activity} variant="outline" className="text-xs">
-                                  {activity}
+                              {association.tags.slice(0, 3).map((tag) => (
+                                <Badge key={tag.id} variant="outline" className="text-xs" style={{ backgroundColor: tag.color }}>
+                                  {tag.name}
                                 </Badge>
                               ))}
-                              {activityValues.length > 3 ? (
-                                <Badge variant="secondary" className="text-xs">+{activityValues.length - 3}</Badge>
+                              {association.tags.length > 3 ? (
+                                <Badge variant="secondary" className="text-xs">+{association.tags.length - 3}</Badge>
                               ) : null}
                             </div>
                           ) : (
@@ -869,7 +1052,7 @@ export default function AssociationsPage() {
           contact={{
             id: contactEditTarget.contact.id,
             associationId: contactEditTarget.contact.associationId,
-            name: contactEditTarget.contact.name,
+            name: contactEditTarget.contact.name ?? "",
             role: contactEditTarget.contact.role ?? undefined,
             email: contactEditTarget.contact.email ?? undefined,
             phone: contactEditTarget.contact.phone ?? undefined,
@@ -921,3 +1104,7 @@ export default function AssociationsPage() {
     </div>
   )
 }
+
+
+
+

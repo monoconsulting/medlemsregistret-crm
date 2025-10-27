@@ -1,0 +1,2395 @@
+[
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Anderstorps IF",
+      "org_number": "8285000090",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Anderstorp",
+      "email": "tommy.andersson@lokalavakten.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 5163,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Anderstorps simsällskap",
+      "org_number": "8285006477",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Anderstorp",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8739,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Anderstorps SK",
+      "org_number": "8285002138",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Anderstorp",
+      "email": "kansli@ask-handboll.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6131,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Bredaryd Lanna IK",
+      "org_number": "828000-3867",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Bredaryd",
+      "email": "bredarydlannaik@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7820,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "FC Peking",
+      "org_number": "8024441316",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.fcpeking.com/",
+      "detail_url": "https://www.fcpeking.com/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gislaved",
+      "email": "kalle@fcpeking.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann Gustfafsson",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": "ann@fcpeking.com",
+        "contact_person_phone": "0703631123"
+      },
+      {
+        "contact_person_name": "Kalle Björlund",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": "kalle@fcpeking.com",
+        "contact_person_phone": "0703015548"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6291,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "FK Fenan",
+      "org_number": "802520-7989",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "bjorn@ezze.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7136,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "FK Myren",
+      "org_number": "802505-5958",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7137,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Furuhalls Islamiska kulturförening",
+      "org_number": "8024710215",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "harun.odowa@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6446,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Föreningen gymmix Gnosjö",
+      "org_number": "8280007116",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "inga.lindow@me.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6110,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Föreningen Store Mosse Nationalpark",
+      "org_number": "802505-8523",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "Laget.se/storemosseforening",
+      "detail_url": "Laget.se/storemosseforening",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Anderstorp",
+      "email": "bettanepost54@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7139,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gambiska riksförbundet",
+      "org_number": "8024901723",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "ousmandumbya58@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8754,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "GGVV Diabetesförening",
+      "org_number": "828000-5854",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Värnamo",
+      "email": "magnus@crv.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7140,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gislaveds IS",
+      "org_number": "828500-0553",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gislaved",
+      "email": "info@gislavedis.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6128,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö Biodlarförening",
+      "org_number": "8025154991",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Kulltorp",
+      "email": "jolovsson@wildrepublic.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8802,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö brass band",
+      "org_number": "828000-2828",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gislaved",
+      "email": "amella@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7141,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö Brukshundklubb",
+      "org_number": "828001-0441",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://sbkgnosjo.weebly.com/",
+      "detail_url": "https://sbkgnosjo.weebly.com/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HESTRA",
+      "email": "helena_melker@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena Björklund",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7142,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö FK",
+      "org_number": "8280006159",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "KULLTORP",
+      "email": "gnosjofk@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6120,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö IF",
+      "org_number": "8280000814",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.gnosjoif.com",
+      "detail_url": "www.gnosjoif.com",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "gnosjo-if@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars Midholt",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6112,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö IF Damklubb",
+      "org_number": "828000-4220",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Åsenhöga",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7680,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö Innebandyklubb",
+      "org_number": "8280010706",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan Larsson",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": "johan@falksmetall.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 2441,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö KF Mushindokai",
+      "org_number": "8280008619",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "Goran.Toivainen@ezze.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6111,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö Missionsförsamling",
+      "org_number": "828000-0756",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.gnosjomk.se/",
+      "detail_url": "https://www.gnosjomk.se/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "henrik.svensson.barebo@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7115,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjö Scenkonst",
+      "org_number": "8024355540",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "tommy@tolf.nu",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8090,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjöandans ridklubb",
+      "org_number": "802450-8056",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "johan@johansbygg.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7106,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Gnosjöortens jaktvårdsförening",
+      "org_number": "8024441118",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "kalebassa@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7143,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Hamnkyrkan",
+      "org_number": "8024378237",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "peter.bjuvensjo@hamnkyrkan.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Wingren",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": "elias.wingren@hamnkyrkan.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6336,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Hestra SSK",
+      "org_number": "8285000660",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HESTRA",
+      "email": "lindfredrik@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7085,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Hillerstorp Karate Do",
+      "org_number": "8025291074",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "masse.gustafsson@icloud.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6124,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Hillerstorps GOIF",
+      "org_number": "8280003636",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "hgoif@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulf Nilsson",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6113,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Hillerstorps missionsförsamling",
+      "org_number": "8280000939",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.hillerstorpsmission.se",
+      "detail_url": "www.hillerstorpsmission.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "ekonomi@hillerstorpmission.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7117,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Hillerstorps PRO",
+      "org_number": "828001-1068",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "christina.borang@crossmail.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7166,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Hillerstorps tennisklubb",
+      "org_number": "828000-3321",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "bo.ge.svensson@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bo Svensson",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": "bo.ge.svensson@gmail.com",
+        "contact_person_phone": "0706019272"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7109,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Holte ski",
+      "org_number": "30221567",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Hörsholm",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8636,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "IF Centern",
+      "org_number": "8492005635",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Halmstad",
+      "email": "tobiasallard@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8684,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Isaberg Golfklubb",
+      "org_number": "828500-3060",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Nissafors",
+      "email": "info@isaberggolf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7111,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Johans testförening",
+      "org_number": "199009050452",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johan.svedberg@gnosjo.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8647,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Kreativa Gnosjö",
+      "org_number": "0063484539",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ingrid211403@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8676,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Kulltorps Bygdegårdsförening",
+      "org_number": "728000-0576",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "KULLTORP",
+      "email": "tomas@kulltorp.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7145,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Kulltorps frikyrkoförsamling",
+      "org_number": "8280011589",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.korskyrkankulltorp.se",
+      "detail_url": "www.korskyrkankulltorp.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "KULLTORP",
+      "email": "pastor@korskyrkankulltorp.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7130,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Kulltorps GOIF",
+      "org_number": "8280005664",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "KULLTORP",
+      "email": "pia.elmersson@gnosjo.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Petter Gustafsson",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": "Petter@byggbyran.se",
+        "contact_person_phone": "070-2951276"
+      },
+      {
+        "contact_person_name": "Pia Elmersson",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6114,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Kulltorps Hembygdsförening",
+      "org_number": "8280002737",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "lisbeth@jarlstam.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8659,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Kulltorps skytteförening",
+      "org_number": "802447-2709",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "KULLTORP",
+      "email": "karl@nibbler.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7112,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Källeryds hembygdsförening",
+      "org_number": "828000-3917",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HESTRA",
+      "email": "janevertsimonsson@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7144,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Kävsjö Hembygdsförening",
+      "org_number": "828000-7264",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "Kävsjö Hembygdsförening",
+      "detail_url": "Kävsjö Hembygdsförening",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "eva.s.ekman@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva S Ekman",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": "eva.s.ekman@live.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7165,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Kävsjö skytteförening",
+      "org_number": "828000-4469",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jlt61.johansson@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7113,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Lokala Parkinsonföreningen",
+      "org_number": "802437-7882",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Forsheda",
+      "email": "jorgen@forsheda.net",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7150,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "LRF Öreryd",
+      "org_number": "802001-9850",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HESTRA",
+      "email": "ake@toppnet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7498,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Marieholms samhällsförening",
+      "org_number": "802446-6560",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://marieholmssamhallsforening.se/",
+      "detail_url": "https://marieholmssamhallsforening.se/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "MARIEHOLMSBRUK",
+      "email": "marieholmssamhallsforening@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7146,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Naurskyddsföreningen Gnosjö",
+      "org_number": "0031863111",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8687,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Nissafors IS",
+      "org_number": "828000-1358",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Nissafors",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6115,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Nix Sportclub",
+      "org_number": "8024993894",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gimulti@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8770,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Pingstförsamlingen i Gnosjö",
+      "org_number": "8280000376",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "rohde.holmgren@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 2826,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Pingstförsamlingen Åsenhöga Marieholm",
+      "org_number": "828000-0392",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://asenhogamarieholm.pingst.se/",
+      "detail_url": "https://asenhogamarieholm.pingst.se/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "MARIEHOLMSBRUK",
+      "email": "joachim.ling@pingst.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7131,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Pingstkyrkan Hovslätt",
+      "org_number": "8260000784",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Jönköping",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8454,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "PRO Gnosjö",
+      "org_number": "8280009518",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "pro.gnosjo@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8663,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Radioflygklubben Skilling",
+      "org_number": "8280011456",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skillingaryd",
+      "email": "ordforande@rfkskilling.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias Andersson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "ordforande@rfkskilling.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6471,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Saronförsamlingen",
+      "org_number": "828000-1366",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "saronforsamlingen.se",
+      "detail_url": "saronforsamlingen.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "pastorn@saronforsamlingen.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7132,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "SKPF Pensionärerna avd 73",
+      "org_number": "802422-7202",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Värnamo",
+      "email": "simson19942@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7151,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Smålands Baptistförsamling",
+      "org_number": "8025205926",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Åsenhöga",
+      "email": "kristianoskarsson@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 3573,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "SPF seniorerna Gnosjö",
+      "org_number": "802474-6813",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "svenssonleif@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7148,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "SPF seniorerna Nissafors",
+      "org_number": "802512-6197",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Nissafors",
+      "email": "thomas.ulander@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7149,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Svenskakyrkan",
+      "org_number": "252003-4741",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "maria.karlsson8@svenskakyrkan.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8755,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Träningsverket -Hillerstorp",
+      "org_number": "8280009260",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "julia.magdalena.carlsson@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7653,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Törestorps Missionsförsamling",
+      "org_number": "8280004899",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HILLERSTORP",
+      "email": "lena@gtab.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6385,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Westbo United DFF",
+      "org_number": "8024633383",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gislaved",
+      "email": "westbounited@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6863,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Vision Gnosjö avd 173",
+      "org_number": "8280007512",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "annsofie.olsson@gnosjo.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8812,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Wärnamo Sportklubb",
+      "org_number": "8280006647",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Värnamo",
+      "email": "kassor@warnamosk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik Enlund",
+        "contact_person_role": "Föreningsadministratör",
+        "contact_person_email": "erikenlund@hotmail.com",
+        "contact_person_phone": "0735280677"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8386,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Västbo sportdansklubb",
+      "org_number": "828500-4993",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gislaved",
+      "email": "vbo.kontakt@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7667,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Åsenhöga brassband",
+      "org_number": "802539-2690",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Åsenhöga",
+      "email": "joel.ni@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7163,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Åsenhöga Equmenia",
+      "org_number": "828000-5128",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Åsenhöga",
+      "email": "adine.brando@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7133,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Åsenhöga Hembygdsförening",
+      "org_number": "8280008445",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "Asenhogahembygd.se",
+      "detail_url": "Asenhogahembygd.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Gnosjö",
+      "email": "Agneta.ejderskar@bahnhof.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8660,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Gnosjö",
+    "scrape_run_id": "55f8ff8e-c2fa-43f1-84a0-656d8cfc57ca",
+    "scraped_at": "2025-10-27T05:31:06.847Z",
+    "association": {
+      "name": "Åsenhöga tennisklubb",
+      "org_number": "828000-8478",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.asenhoga.nu",
+      "detail_url": "www.asenhoga.nu",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Åsenhöga",
+      "email": "jonas.sigvardson@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 7114,
+      "age_ranges": []
+    }
+  }
+]

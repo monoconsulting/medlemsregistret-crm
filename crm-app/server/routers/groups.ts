@@ -22,7 +22,7 @@ export const groupRouter = router({
       const where: any = {}
 
       if (input?.search) {
-        where.name = { contains: input.search, mode: 'insensitive' }
+        where.name = { contains: input.search }
       }
 
       return ctx.db.group.findMany({

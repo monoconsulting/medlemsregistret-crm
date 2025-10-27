@@ -52,7 +52,7 @@ export const taskRouter = router({
       }
 
       if (input?.search) {
-        where.title = { contains: input.search, mode: 'insensitive' }
+        where.title = { contains: input.search }
       }
 
       const tasks = await ctx.db.task.findMany({

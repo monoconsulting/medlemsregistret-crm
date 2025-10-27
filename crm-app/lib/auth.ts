@@ -1,24 +1,15 @@
 import NextAuth from "next-auth"
 import Credentials from "next-auth/providers/credentials"
-import { prismaAdapter } from "@/lib/auth-prisma-adapter"
-import { createHash, timingSafeEqual } from "crypto"
+import { prismaAdapter } from "./auth-prisma-adapter"
+import * as bcrypt from "bcryptjs"
 import { z } from "zod"
-import { db } from "@/lib/db"
+import { db } from "./db"
 import { UserRole } from "@prisma/client"
 
 const credentialsSchema = z.object({
   email: z.string().email(),
   password: z.string().min(1),
 })
-
-const hashPassword = (password: string) =>
-  createHash("sha256").update(password).digest("hex")
-
-const verifyPassword = (password: string, hash: string) => {
-  const computed = Buffer.from(hashPassword(password))
-  const stored = Buffer.from(hash)
-  return computed.length === stored.length && timingSafeEqual(computed, stored)
-}
 
 export const {
   handlers: { GET, POST },
@@ -47,12 +38,14 @@ export const {
         }
 
         const { email, password } = parsed.data
-        const user = await db.user.findUnique({ where: { email } })
+        const user = await db.user.findUnique({
+          where: { email, isDeleted: false }
+        })
         if (!user || !user.passwordHash) {
           return null
         }
 
-        const isValid = verifyPassword(password, user.passwordHash)
+        const isValid = await bcrypt.compare(password, user.passwordHash)
         if (!isValid) {
           return null
         }

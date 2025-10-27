@@ -1,9 +1,9 @@
 'use client'
 
-import { useSession } from 'next-auth/react'
 import { useMemo } from 'react'
 import { Loader2 } from 'lucide-react'
 import { UserRole } from '@prisma/client'
+import { useAuth } from '@/lib/providers/auth-provider'
 
 export function RoleGuard({
   children,
@@ -14,18 +14,18 @@ export function RoleGuard({
   allowedRoles?: UserRole[]
   fallback?: React.ReactNode
 }) {
-  const { data: session, status } = useSession()
+  const { session, status } = useAuth()
 
   const isAllowed = useMemo(() => {
     if (!session?.user) return false
-    return allowedRoles.includes(session.user.role)
+    return allowedRoles.includes(session.user.role as UserRole)
   }, [session?.user, allowedRoles])
 
   if (status === 'loading') {
     return (
       <div className="flex h-full w-full items-center justify-center text-muted-foreground">
         <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-        Laddar behörighetskontroll…
+        Laddar behörighetskontroll.
       </div>
     )
   }

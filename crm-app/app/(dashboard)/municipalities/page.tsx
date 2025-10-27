@@ -1,8 +1,9 @@
 "use client"
 
-import { useState } from "react"
+import { useMemo, useState } from "react"
 import dynamic from "next/dynamic"
-import { Search, Loader2, MapPin, ExternalLink, Save, Edit } from "lucide-react"
+import Link from "next/link"
+import { Search, Loader2, MapPin, ExternalLink, Save, Edit, Users2, ChevronUp, ChevronDown } from "lucide-react"
 
 import { api } from "@/lib/trpc/client"
 import { Input } from "@/components/ui/input"
@@ -10,6 +11,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { Badge } from "@/components/ui/badge"
+import { Checkbox } from "@/components/ui/checkbox"
 import {
   Table,
   TableBody,
@@ -27,12 +29,27 @@ type MunicipalityWithCount = Municipality & {
   _count: { associations: number }
 }
 
+const formatCountyCode = (code?: string | null) => {
+  if (!code) return "-"
+  const trimmed = `${code}`.trim()
+  return trimmed.padStart(2, "0")
+}
+
+const formatMunicipalityCode = (code?: string | null) => {
+  if (!code) return "-"
+  const trimmed = `${code}`.trim()
+  return trimmed.padStart(4, "0")
+}
+
 export default function MunicipalitiesPage() {
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedMunicipality, setSelectedMunicipality] = useState<MunicipalityWithCount | null>(null)
   const [isEditing, setIsEditing] = useState(false)
   const [editedPopulation, setEditedPopulation] = useState<string>("")
   const [editedRegisterUrl, setEditedRegisterUrl] = useState("")
+  const [sortBy, setSortBy] = useState<string>("name")
+  const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc")
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
 
   const utils = api.useUtils()
 
@@ -40,6 +57,8 @@ export default function MunicipalitiesPage() {
   const municipalitiesQuery = api.municipality.list.useQuery({
     search: searchTerm.trim() || undefined,
     limit: 290,
+    sortBy: sortBy as any,
+    sortOrder,
   })
 
   // Update municipality mutation
@@ -59,13 +78,49 @@ export default function MunicipalitiesPage() {
     onError: (error) => toast({ title: "Kunde inte uppdatera kommun", description: error.message, variant: "destructive" }),
   })
 
-  const municipalities = municipalitiesQuery.data ?? []
+  const municipalities = useMemo(() => {
+    return (municipalitiesQuery.data ?? []).map((municipality) => ({
+      ...municipality,
+      code: municipality.code ? formatMunicipalityCode(municipality.code) : municipality.code,
+      countyCode: municipality.countyCode ? formatCountyCode(municipality.countyCode) : municipality.countyCode,
+    }))
+  }, [municipalitiesQuery.data])
 
   const handleSelectMunicipality = (municipality: MunicipalityWithCount) => {
     setSelectedMunicipality(municipality)
     setIsEditing(false)
     setEditedPopulation(municipality.population?.toString() ?? "")
     setEditedRegisterUrl(municipality.registerUrl ?? "")
+  }
+
+  const handleSort = (column: string) => {
+    if (sortBy === column) {
+      setSortOrder(sortOrder === "asc" ? "desc" : "asc")
+    } else {
+      setSortBy(column)
+      setSortOrder("asc")
+    }
+  }
+
+  const handleSelect = (id: string, checked: boolean) => {
+    setSelectedIds(prev => {
+      const newSet = new Set(prev)
+      if (checked) {
+        newSet.add(id)
+      } else {
+        newSet.delete(id)
+      }
+      return newSet
+    })
+  }
+
+  const handleCreateGroup = () => {
+    if (selectedIds.size === 0) {
+      toast({ title: "Inga kommuner valda", description: "Välj minst en kommun för att skapa en grupp.", variant: "destructive" })
+      return
+    }
+    toast({ title: "Grupp skapad", description: `Grupp skapad med ${selectedIds.size} kommuner.` })
+    // TODO: Implement actual group creation
   }
 
   const handleSave = async () => {
@@ -100,14 +155,21 @@ export default function MunicipalitiesPage() {
           <CardHeader>
             <div className="flex items-center justify-between">
               <CardTitle>Kommunöversikt</CardTitle>
-              <div className="relative w-80">
-                <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                <Input
-                  placeholder="Sök kommun..."
-                  className="pl-9"
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                />
+              <div className="flex items-center gap-4">
+                {selectedIds.size > 0 && (
+                  <Button onClick={handleCreateGroup} variant="outline">
+                    Skapa grupp ({selectedIds.size})
+                  </Button>
+                )}
+                <div className="relative w-80">
+                  <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
+                  <Input
+                    placeholder="Sök kommun..."
+                    className="pl-9"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                  />
+                </div>
               </div>
             </div>
           </CardHeader>
@@ -124,16 +186,78 @@ export default function MunicipalitiesPage() {
               <Table>
                 <TableHeader>
                   <TableRow>
-                    <TableHead>Kommun</TableHead>
+                    <TableHead className="w-12">
+                      <Checkbox
+                        checked={selectedIds.size === municipalities.length && municipalities.length > 0}
+                        onCheckedChange={(checked) => {
+                          if (checked) {
+                            setSelectedIds(new Set(municipalities.map(m => m.id)))
+                          } else {
+                            setSelectedIds(new Set())
+                          }
+                        }}
+                      />
+                    </TableHead>
+                    <TableHead>
+                      <Button variant="ghost" className="h-auto p-0 font-medium" onClick={() => handleSort("name")}>
+                        Kommun
+                        {sortBy === "name" && (
+                          sortOrder === "asc" ? <ChevronUp className="ml-1 h-4 w-4" /> : <ChevronDown className="ml-1 h-4 w-4" />
+                        )}
+                      </Button>
+                    </TableHead>
                     <TableHead>Kommunkod</TableHead>
-                    <TableHead>Län</TableHead>
+                    <TableHead>
+                      <Button variant="ghost" className="h-auto p-0 font-medium" onClick={() => handleSort("county")}>
+                        Län
+                        {sortBy === "county" && (
+                          sortOrder === "asc" ? <ChevronUp className="ml-1 h-4 w-4" /> : <ChevronDown className="ml-1 h-4 w-4" />
+                        )}
+                      </Button>
+                    </TableHead>
                     <TableHead>Länskod</TableHead>
-                    <TableHead>Region</TableHead>
-                    <TableHead>Landskap</TableHead>
+                    <TableHead>
+                      <Button variant="ghost" className="h-auto p-0 font-medium" onClick={() => handleSort("region")}>
+                        Region
+                        {sortBy === "region" && (
+                          sortOrder === "asc" ? <ChevronUp className="ml-1 h-4 w-4" /> : <ChevronDown className="ml-1 h-4 w-4" />
+                        )}
+                      </Button>
+                    </TableHead>
+                    <TableHead>
+                      <Button variant="ghost" className="h-auto p-0 font-medium" onClick={() => handleSort("province")}>
+                        Landskap
+                        {sortBy === "province" && (
+                          sortOrder === "asc" ? <ChevronUp className="ml-1 h-4 w-4" /> : <ChevronDown className="ml-1 h-4 w-4" />
+                        )}
+                      </Button>
+                    </TableHead>
                     <TableHead>Importstatus</TableHead>
-                    <TableHead>Befolkning</TableHead>
+                    <TableHead>
+                      <Button variant="ghost" className="h-auto p-0 font-medium" onClick={() => handleSort("population")}>
+                        Befolkning
+                        {sortBy === "population" && (
+                          sortOrder === "asc" ? <ChevronUp className="ml-1 h-4 w-4" /> : <ChevronDown className="ml-1 h-4 w-4" />
+                        )}
+                      </Button>
+                    </TableHead>
+                    <TableHead>
+                      <Button variant="ghost" className="h-auto p-0 font-medium" onClick={() => handleSort("associations")}>
+                        Föreningar
+                        {sortBy === "associations" && (
+                          sortOrder === "asc" ? <ChevronUp className="ml-1 h-4 w-4" /> : <ChevronDown className="ml-1 h-4 w-4" />
+                        )}
+                      </Button>
+                    </TableHead>
                     <TableHead>Hemsida</TableHead>
-                    <TableHead>Plattform</TableHead>
+                    <TableHead>
+                      <Button variant="ghost" className="h-auto p-0 font-medium" onClick={() => handleSort("platform")}>
+                        Plattform
+                        {sortBy === "platform" && (
+                          sortOrder === "asc" ? <ChevronUp className="ml-1 h-4 w-4" /> : <ChevronDown className="ml-1 h-4 w-4" />
+                        )}
+                      </Button>
+                    </TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
@@ -147,7 +271,27 @@ export default function MunicipalitiesPage() {
                       }`}
                       onClick={() => handleSelectMunicipality(municipality)}
                     >
-                      <TableCell className="font-medium">{municipality.name}</TableCell>
+                      <TableCell onClick={(e) => e.stopPropagation()}>
+                        <Checkbox
+                          checked={selectedIds.has(municipality.id)}
+                          onCheckedChange={(checked) => handleSelect(municipality.id, checked as boolean)}
+                        />
+                      </TableCell>
+                      <TableCell className="font-medium">
+                        <Link
+                          href={{
+                            pathname: "/associations",
+                            query: {
+                              municipalityId: municipality.id,
+                              municipality: municipality.name,
+                            },
+                          }}
+                          className="text-left text-blue-600 hover:underline"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          {municipality.name}
+                        </Link>
+                      </TableCell>
                       <TableCell>{municipality.code ?? "-"}</TableCell>
                       <TableCell>{municipality.county ?? "-"}</TableCell>
                       <TableCell>{municipality.countyCode ?? "-"}</TableCell>
@@ -162,6 +306,9 @@ export default function MunicipalitiesPage() {
                       </TableCell>
                       <TableCell>
                         {municipality.population?.toLocaleString("sv-SE") ?? "-"}
+                      </TableCell>
+                      <TableCell>
+                        {municipality._count.associations.toLocaleString("sv-SE")}
                       </TableCell>
                       <TableCell>
                         {municipality.homepage ? (
@@ -261,6 +408,23 @@ export default function MunicipalitiesPage() {
                   )}
                 </div>
 
+                <div className="grid grid-cols-2 gap-3 text-sm">
+                  <div>
+                    <p className="text-xs text-muted-foreground">Kommunkod</p>
+                    <p className="font-medium">{selectedMunicipality.code ? formatMunicipalityCode(selectedMunicipality.code) : "Saknas"}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-muted-foreground">Länskod</p>
+                    <p className="font-medium">{selectedMunicipality.countyCode ? formatCountyCode(selectedMunicipality.countyCode) : "Saknas"}</p>
+                  </div>
+                  <div className="col-span-2 flex items-center gap-2 rounded-md border bg-muted/40 px-3 py-2">
+                    <Users2 className="h-4 w-4 text-muted-foreground" />
+                    <div>
+                      <p className="text-xs text-muted-foreground">Antal föreningar</p>
+                      <p className="font-medium">{selectedMunicipality._count.associations.toLocaleString("sv-SE")}</p>
+                    </div>
+                  </div>
+                </div>
                 {isEditing && (
                   <div className="flex gap-2">
                     <Button

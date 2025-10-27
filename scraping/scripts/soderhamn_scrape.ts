@@ -2,6 +2,8 @@ import { chromium, Browser, Page } from 'playwright';
 import { v4 as uuidv4 } from 'uuid';
 import * as fs from 'fs';
 import * as path from 'path';
+import { getScrapingPaths, createLogger, runDatabaseImport } from '../utils/scraper-base';
+import { sanitizeForValidation } from '../utils/sanitize';
 
 // Configuration
 const SOURCE_SYSTEM = 'Rbok';
@@ -10,11 +12,15 @@ const BASE_URL = 'https://soderhamn.rbok.se/foreningsregister';
 const SCRAPE_RUN_ID = uuidv4();
 const SCRAPED_AT = new Date().toISOString();
 
-// Output paths
-const OUTPUT_DIR = path.join(__dirname, 'out');
-const JSONL_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY}_associations_${SCRAPE_RUN_ID}.jsonl`);
-const JSON_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY}_associations_${SCRAPE_RUN_ID}.json`);
-const LOG_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY}.log`);
+// Get paths from environment
+const paths = getScrapingPaths(MUNICIPALITY);
+const OUTPUT_DIR = paths.outputDir;
+const JSONL_PATH = paths.jsonlPath;
+const JSON_PATH = paths.jsonPath;
+const LOG_PATH = paths.logPath;
+
+// Create logger
+const log = createLogger(LOG_PATH);
 
 // Stats tracking
 let totalAssociations = 0;
@@ -58,13 +64,6 @@ interface AssociationRecord {
 }
 
 // Utility functions
-function log(message: string): void {
-  const timestamp = new Date().toISOString();
-  const logMessage = `[${timestamp}] ${message}`;
-  console.log(logMessage);
-  fs.appendFileSync(LOG_PATH, logMessage + '\n');
-}
-
 function normalizeString(value: string | null | undefined): string | null {
   if (!value) return null;
   const trimmed = value.trim();
@@ -537,6 +536,16 @@ async function main(): Promise<void> {
     // Write pretty JSON
     log('Writing pretty JSON file...');
     await writePrettyJson(allRecords);
+
+    // Sanitize records for validation
+    log('Sanitizing records for validation...');
+    const sanitizedRecords = sanitizeForValidation(allRecords);
+
+    // Write sanitized pretty JSON
+    await writePrettyJson(sanitizedRecords);
+
+    // Import to database
+    await runDatabaseImport(MUNICIPALITY, log);
 
     // Log summary
     log('\n=== SCRAPE SUMMARY ===');

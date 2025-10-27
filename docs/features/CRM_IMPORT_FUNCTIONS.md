@@ -515,23 +515,7 @@ schema.
 Den beskrivna lösningen passar in i den befintliga stacken och kräver ingen extern infrastruktur. Allt kan
 köras lokalt med Docker (MySQL i container; Node-applikationen kan antingen köras i container eller på
 host med åtkomst till DB). Genom att använda Prisma säkerställs typssäkerhet och enkel integration
-med övriga tRPC-API:er i systemet. AI-komponenten utnyttjar redan existerande AI-integration för att ge mervärde utan att störa det huvudsakliga dataflödet. Slutresultatet blir ett **helt automatiserat flöde** där man exempelvis kan köra ett enda kommando (eller vänta på en schemalagd tid) och få: _"Scraping -> JSON -> Databas -> AI-förslag"_ utfört. Detta gör det enkelt att hålla CRM-systemets data uppdaterad
-> med minimal handpåläggning, samtidigt som man får smarta insikter direkt vid import.
+med övriga tRPC-API:er i systemet. AI-komponenten utnyttjar redan existerande AI-integration för att ge mervärde utan att störa det huvudsakliga dataflödet. Slutresultatet blir ett **helt automatiserat flöde** där man exempelvis kan köra ett enda kommando (eller vänta på en schemalagd tid) och få: _"Scraping -> JSON -> Databas -> AI-förslag"_ utfört. Detta gör det enkelt att hålla CRM-systemets data uppdaterad med minimal handpåläggning, samtidigt som man får smarta insikter direkt vid import.
 
-CRM_IMPLEMENTATION_1.md
-file://file-R5bqACgmgSpNp2KPtpM66d
 
-CRM_SCRAPING_INSTRUCTIONS_V.1.1.md
-file://file-U7tVtYiCvpX52n6Kg4qRPV
 
-CRM_IMPLEMENTATION_2.md
-file://file-41SaBtZtKH4gDFsSVxFKgM
-
-1 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 23
-2 6
-22
-```
-
-This is a offline tool, your data stays locally and is not send to any server!
-
-[Feedback & Bug Reports](https://github.com/jzillmann/pdf-to-markdown/issues)

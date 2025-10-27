@@ -1,0 +1,7321 @@
+[
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/336",
+      "name": "ABF Ånge",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Kultur",
+        "Bildningsverksamhet"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://www.abf.se/distrikt--avdelningar/abf-vasternorrlands-lan/abf-ange/",
+      "street_address": "Parkgatan 10 A",
+      "postal_code": "84133",
+      "city": "Ånge",
+      "email": "info.ange@abf.se",
+      "phone": "0691-614 14",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 0,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 336,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/230",
+      "name": "Alby Fotbollsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Badminton",
+        "Innebandy",
+        "Boxning"
+      ],
+      "categories": [
+        "Alby"
+      ],
+      "homepage_url": null,
+      "street_address": "Albyvägen 34",
+      "postal_code": "84144",
+      "city": "Alby",
+      "email": "junghester@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Badminton"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Boxning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Alby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 1,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 230,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/301",
+      "name": "Alby Snöskoterklubb",
+      "org_number": null,
+      "types": [
+        "Skoter och motorförening"
+      ],
+      "activities": [
+        "Skotersport"
+      ],
+      "categories": [
+        "Alby"
+      ],
+      "homepage_url": null,
+      "street_address": "Torsjövägen 26",
+      "postal_code": "84144",
+      "city": "ALBY",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skotersport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Alby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 2,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 301,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1612",
+      "name": "Attention Ånge",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Föreningsaktiviteter",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "https://attention.ange.se",
+      "street_address": null,
+      "postal_code": "84174",
+      "city": "Fränsta",
+      "email": "info@ange.attention.se",
+      "phone": "070 664 9145",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 3,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1612,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1593",
+      "name": "Azerbajdanska-Svenska folkdräkt och folklore förening ",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Hantverk"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84134",
+      "city": "Ånge",
+      "email": "azswe.folklore@gmail.com",
+      "phone": "073-727 03 40",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 4,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1593,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/225",
+      "name": "Borgsjö Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsfrågor"
+      ],
+      "categories": [
+        "Borgsjö"
+      ],
+      "homepage_url": null,
+      "street_address": "Borgsjöbyn 187",
+      "postal_code": "84197",
+      "city": "Erikslund",
+      "email": "info@borgsjohembygdsforening.se",
+      "phone": "0705876322",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsfrågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Borgsjö"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 5,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 225,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1832",
+      "name": "Borgsjö Mellersta Fiskevårdsförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/BORGSJO_MELLSERSTAFVO",
+      "street_address": "Önsta 613",
+      "postal_code": "84192",
+      "city": "Ånge",
+      "email": "mats.fhaner@gmail.com",
+      "phone": "0706252220",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 6,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1832,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/361",
+      "name": "Borgsjöbyns Fiskevårdsområde",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsområden"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Borgsjö"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84174",
+      "city": "Fränsta",
+      "email": "tomas-ljohansson@hotmail.com",
+      "phone": "0706548007",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Borgsjö"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 7,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 361,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1622",
+      "name": "Bybergets Folketshusförening",
+      "org_number": null,
+      "types": [
+        "Folketshusförening"
+      ],
+      "activities": [
+        "Samlingslokal"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Fiskargatan 8",
+      "postal_code": "84134",
+      "city": "Ånge",
+      "email": "ingemar61326@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 8,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1622,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1711",
+      "name": "Bybergets Intresseförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://byberget.outby.se",
+      "street_address": "By 184",
+      "postal_code": "84194",
+      "city": "Alby",
+      "email": "byberget.info@gmail.com",
+      "phone": "0760305645",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 9,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1711,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/248",
+      "name": "Bågskyttklubben Ånge",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bågskytte"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Hallsta 216",
+      "postal_code": "84192",
+      "city": "Ånge",
+      "email": "skytte@almehed.net",
+      "phone": "0730-727204",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bågskytte"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 10,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 248,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/219",
+      "name": "DHR Ånge Avdelning",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Föreningsaktiviteter"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.dhrange.com",
+      "street_address": "Fränstavägen 248 B",
+      "postal_code": "84012",
+      "city": "Fränsta",
+      "email": "info@dhrange.com",
+      "phone": "076 7951019",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 11,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 219,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/344",
+      "name": "Djupröra Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "85353",
+      "city": "Sundsvall",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 12,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 344,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/345",
+      "name": "Erikslunds Folketshusförening",
+      "org_number": null,
+      "types": [
+        "Folketshusförening"
+      ],
+      "activities": [
+        "Dans",
+        "Bildningsverksamhet",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Erikslund"
+      ],
+      "homepage_url": "https://www.erikslundsfolketshus.com/",
+      "street_address": null,
+      "postal_code": "84199",
+      "city": "Ljungaverk",
+      "email": "sarah.boman@mail.com",
+      "phone": "0706670178",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Erikslund"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 13,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 345,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/232",
+      "name": "Erikslunds Skidklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Motionsidrott",
+        "Gymnastik",
+        "Skidor"
+      ],
+      "categories": [
+        "Erikslund"
+      ],
+      "homepage_url": null,
+      "street_address": "Gubbyn 629",
+      "postal_code": "84196",
+      "city": "Erikslund",
+      "email": "sonjamartinsson@telia.com",
+      "phone": "0730254250",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Motionsidrott"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Skidor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Erikslund"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 14,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 232,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/339",
+      "name": "Folkuniversitetet",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Bildningsverksamhet"
+      ],
+      "categories": [
+        "Sundsvall"
+      ],
+      "homepage_url": null,
+      "street_address": "Rådhusgatan 34",
+      "postal_code": "85232",
+      "city": "Sundsvall",
+      "email": "info.sundsvall@folkuniversitetet.se",
+      "phone": "060-744 32 20",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Sundsvall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 15,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 339,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/347",
+      "name": "Friluftsfrämjandet  Ånge",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Motionsidrott"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://www.friluftsframjandet.se/regioner/mitt/lokalavdelningar/ange/",
+      "street_address": "Hemskogsvägen 5 A",
+      "postal_code": "84133",
+      "city": "Ånge",
+      "email": "johnnyjonsson35@gmail.com",
+      "phone": "0690-12245",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motionsidrott"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 16,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 347,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/346",
+      "name": "Friluftsfrämjandet Torp",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Motionsidrott"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": null,
+      "street_address": "Rombäck 318",
+      "postal_code": "84174",
+      "city": "Fränsta",
+      "email": "eva.b.hoglund@gmail.com",
+      "phone": "070-2761179",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motionsidrott"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 17,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 346,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/368",
+      "name": "FRO Ånge \"Frivilliga Radio Organisationen\"",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Amatörradio",
+        "Krisberedskap"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://fro.se/",
+      "street_address": "Gamlavägen 16",
+      "postal_code": "84132",
+      "city": "Ånge",
+      "email": "eije.klemming@fro.se",
+      "phone": "0706402466",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Amatörradio"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Krisberedskap"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 18,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 368,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/233",
+      "name": "Fränsta Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Badminton",
+        "Motionsidrott",
+        "Innebandy",
+        "Skidor",
+        "Tennis"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "https://www.svenskalag.se/franstaik",
+      "street_address": "Tunforsgatan 5",
+      "postal_code": "84171",
+      "city": "Fränsta",
+      "email": "kanslifik@gmail.com",
+      "phone": "0703117148",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Badminton"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Motionsidrott"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Skidor"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Tennis"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 19,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 233,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/349",
+      "name": "Fränsta Rotary Club",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "https://www.rotary.se/https://www.rotary.se/fransta/home/",
+      "street_address": null,
+      "postal_code": "84171",
+      "city": "Fränsta",
+      "email": "fransta@rotary.se",
+      "phone": "0730228213",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 20,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 349,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/235",
+      "name": "Fränsta Skytteförening",
+      "org_number": null,
+      "types": [
+        "Jakt och skytteförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": null,
+      "street_address": "Tirsta 622",
+      "postal_code": "84174",
+      "city": "Fränsta",
+      "email": "robert.pettsson@telia.com",
+      "phone": "0703606005",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skytte"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 21,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 235,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/281",
+      "name": "Föreningen Kapellgården",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84175",
+      "city": "Torpshammar",
+      "email": "www.tommy@storboda.se",
+      "phone": "073-785 82 90",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 22,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 281,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/372",
+      "name": "Föreningen Näsets Skola",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Erikslund"
+      ],
+      "homepage_url": null,
+      "street_address": "Näset 950",
+      "postal_code": "84197",
+      "city": "Erikslund",
+      "email": "bjornnaset@gmail.com",
+      "phone": "070 626 63 00",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Erikslund"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 23,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 372,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/221",
+      "name": "Föreningen Ånge Hjärt och Lung",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Föreningsaktiviteter"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84134",
+      "city": "Ånge",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 24,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 221,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/249",
+      "name": "Getbergets Alpina Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Alpin utförsåkning"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "http://www.getberget.se/",
+      "street_address": "Hammar 321",
+      "postal_code": "84171",
+      "city": "Fränsta",
+      "email": "ordf@getberget.se",
+      "phone": "070-5855642",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Alpin utförsåkning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 25,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 249,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/226",
+      "name": "Grundsjöns Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": null,
+      "street_address": "Grundsjön 574",
+      "postal_code": "84173",
+      "city": "Fränsta",
+      "email": "herrskapet1@outlook.com",
+      "phone": "070-328 76 19",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 26,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 226,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/375",
+      "name": "Hammarslaget",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Gymnastik",
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal",
+        "Barnaktiviteter"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": null,
+      "street_address": "Klöstre 178",
+      "postal_code": "84175",
+      "city": "Torpshammar",
+      "email": null,
+      "phone": "070 395 71 52",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Barnaktiviteter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 27,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 375,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/377",
+      "name": "Haverö Fiskevårdsområde",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsområden"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Haverö"
+      ],
+      "homepage_url": "https://www.fiskekort.se/fiskevardsomrade/havero/",
+      "street_address": "Östavallsvägen 60",
+      "postal_code": "84193",
+      "city": "Östavall",
+      "email": null,
+      "phone": "0702861951",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Haverö"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 28,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 377,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/282",
+      "name": "Haverö Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Dans",
+        "Hembygdsfrågor"
+      ],
+      "categories": [
+        "Haverö"
+      ],
+      "homepage_url": null,
+      "street_address": "Säter 175",
+      "postal_code": "84193",
+      "city": "Östavall",
+      "email": "havero.hembygd@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsfrågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Haverö"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 29,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 282,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/297",
+      "name": "Haverö Snöskoterklubb",
+      "org_number": null,
+      "types": [
+        "Skoter och motorförening"
+      ],
+      "activities": [
+        "Skotersport"
+      ],
+      "categories": [
+        "Haverö"
+      ],
+      "homepage_url": null,
+      "street_address": "Ytterturingen 196",
+      "postal_code": "84195",
+      "city": "Överturingen",
+      "email": null,
+      "phone": "0706499486",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skotersport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Haverö"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 30,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 297,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/283",
+      "name": "Haverövallens intresseförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Haverö"
+      ],
+      "homepage_url": null,
+      "street_address": "Vallen 320",
+      "postal_code": "84193",
+      "city": "Östavall",
+      "email": "LOG.Karlssson@gmail.com",
+      "phone": "070-345 48 68",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Haverö"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 31,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 283,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/303",
+      "name": "Holmsjöns snöskoterklubb",
+      "org_number": null,
+      "types": [
+        "Skoter och motorförening"
+      ],
+      "activities": [
+        "Skotersport"
+      ],
+      "categories": [
+        "Östavall"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84193",
+      "city": "Östavall",
+      "email": "danielhareby@telia.com",
+      "phone": "072 402 17 88",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skotersport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Östavall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 32,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 303,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/236",
+      "name": "Hussborgs Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": "https://www.hussborggk.se/",
+      "street_address": null,
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "golf@hussborg.com",
+      "phone": "069133270",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Golf"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 33,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 236,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/250",
+      "name": "IK Fjäll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Rinkbandy",
+        "Fotboll"
+      ],
+      "categories": [
+        "Överturingen"
+      ],
+      "homepage_url": null,
+      "street_address": "Genvägen 1",
+      "postal_code": "84195",
+      "city": "Överturingen",
+      "email": "svenssonidak@gmail.com",
+      "phone": "073-808 23 14",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Rinkbandy"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Överturingen"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 34,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 250,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/251",
+      "name": "Johannisbergs AIK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skidor"
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": null,
+      "street_address": "Sörhångstavägen 45",
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "jaik.kassor@hotmail.com",
+      "phone": "0703960041",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skidor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 35,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 251,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/304",
+      "name": "Karlsro Flyers",
+      "org_number": null,
+      "types": [
+        "Skoter och motorförening"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Motorsport",
+        "Veteranbilar"
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": "http://www.karlsroflyers.se/",
+      "street_address": "Fredriksgatan 14",
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "karlsroflyers@gmail.com",
+      "phone": "0768255015",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Motorsport"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Veteranbilar"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 36,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 304,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/382",
+      "name": "Komsta-Åse Fiskevårdsområde",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsområden"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "https://www.ljungandalsvagen.se/fiske",
+      "street_address": null,
+      "postal_code": "84171",
+      "city": "Fränsta",
+      "email": "hedlund.fransta@gmail.com",
+      "phone": "0705702290",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 37,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 382,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/383",
+      "name": "Kraftsamling Fränsta",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Intresseförening"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "http://fransta.com/",
+      "street_address": "Fränstavägen 223",
+      "postal_code": "84171",
+      "city": "Fränsta",
+      "email": "kraftsamlingfransta@gmail.com",
+      "phone": "070-6564221",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Intresseförening"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 38,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 383,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/284",
+      "name": "Kulturbanken 2.0",
+      "org_number": null,
+      "types": [
+        "Musik och kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Bildningsverksamhet",
+        "Musik",
+        "Konst"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Åsgatan 14",
+      "postal_code": "84134",
+      "city": "Ånge",
+      "email": "Kulturbanken2.0@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Musik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Konst"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 39,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 284,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/228",
+      "name": "Kälens Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Hembygdsfrågor",
+        "Byförening"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "http://www.freewebs.com/kalensbygdegard/bygdegrden.htm",
+      "street_address": "Kälen 411",
+      "postal_code": "84177",
+      "city": "Torpshammar",
+      "email": "KONTAKT@KALENBF.SE",
+      "phone": "0703686886",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsfrågor"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 40,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 228,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1614",
+      "name": "Kölsillre Byggnadsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Byförening",
+        "Samlingslokal",
+        "Uthyrning",
+        "Föreningsaktiviteter"
+      ],
+      "categories": [
+        "Haverö"
+      ],
+      "homepage_url": null,
+      "street_address": "Kölsillre 242",
+      "postal_code": "84193",
+      "city": "Östavall",
+      "email": "kbf242@outlook.com",
+      "phone": "073-8349099",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrning"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Haverö"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 41,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1614,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/318",
+      "name": "Liberalerna avd Ånge",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 42,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 318,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/237",
+      "name": "Ljunga Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Motionsidrott"
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": null,
+      "street_address": "Hussborgsvägen 23",
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "sagatuva2011@gmail.com",
+      "phone": "073 046 30 56",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Motionsidrott"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 43,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 237,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/452",
+      "name": "Ljungamarkens HEMA-förening ",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "HEMA Historisk fäktning"
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": "https://www.facebook.com/ljungamarkenshema",
+      "street_address": "Movägen 11",
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "ljungamarkenshema@gmail.com",
+      "phone": "0730-829169",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "HEMA Historisk fäktning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 44,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 452,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1642",
+      "name": "Ljungandalens Kammarkör",
+      "org_number": null,
+      "types": [
+        "Musik och kulturförening"
+      ],
+      "activities": [
+        "Körsång"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84177",
+      "city": "Torpshammar",
+      "email": "arne.prenell@telia.com",
+      "phone": "0706573117",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Körsång"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 45,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1642,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/290",
+      "name": "Ljungandalens konstförening",
+      "org_number": null,
+      "types": [
+        "Musik och kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Bildningsverksamhet",
+        "Konst"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://ljungandalens.konstforeningar.se/",
+      "street_address": "Parteboda 110",
+      "postal_code": "84192",
+      "city": "Ånge",
+      "email": "ewa.ange3@hotmail.com",
+      "phone": "070-265 03 22",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Konst"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 46,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 290,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1708",
+      "name": "Ljungaverks discgolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Discgolf "
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": "https://www.facebook.com/Ljungaverks-discgolfbana-106940214860090/",
+      "street_address": "Movägen 11",
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "Ljungaverksdk@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Discgolf "
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 47,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1708,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/350",
+      "name": "Ljungaverks Folketshusförening",
+      "org_number": null,
+      "types": [
+        "Folketshusförening"
+      ],
+      "activities": [
+        "Dans",
+        "Bildningsverksamhet",
+        "Samlingslokal",
+        "Bio"
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": null,
+      "street_address": "Folkets Husvägen 1",
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "ljungaverksfolkethus@gmail.com",
+      "phone": "0691-320 89",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bio"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 48,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 350,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/351",
+      "name": "Ljungaverks Vägförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": null,
+      "street_address": "Fredriksgatan 14",
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "svensken64@hotmail.com",
+      "phone": "076 825 50 15",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 49,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 351,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/253",
+      "name": "Munkbysjöns AIK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Munkbyn 429",
+      "postal_code": "84177",
+      "city": "Torpshammar",
+      "email": "katarina.l69@hotmail.com",
+      "phone": "0706265684",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 50,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 253,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/393",
+      "name": "Munkbysjöns Fiskevårdsområde",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsområden"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": null,
+      "street_address": "Flata 566",
+      "postal_code": "84177",
+      "city": "Torpshammar",
+      "email": "fiske@munkbysjon.se",
+      "phone": "0730602047",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 51,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 393,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/392",
+      "name": "Munkbysjöns Intresseförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": null,
+      "street_address": "Munkbyn 607",
+      "postal_code": "84177",
+      "city": "Torpshammar",
+      "email": "hej@munkbysjon.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 52,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 392,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/394",
+      "name": "Naggens Ekonomiska förening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Intresseförening"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": null,
+      "street_address": "Naggen 311",
+      "postal_code": "84173",
+      "city": "Fränsta",
+      "email": "orjan.jonsson51@gmail.com",
+      "phone": "070 394 41 55",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Intresseförening"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 53,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 394,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/352",
+      "name": "Naggens Folkets Hus förening",
+      "org_number": null,
+      "types": [
+        "Folketshusförening"
+      ],
+      "activities": [
+        "Dans",
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": null,
+      "street_address": "Naggen 135",
+      "postal_code": "84173",
+      "city": "Fränsta",
+      "email": "kjellkallman@hotmail.com",
+      "phone": "0691-700 42",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 54,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 352,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/239",
+      "name": "Naggens Idrottsklubb/Stornaggens SSK",
+      "org_number": null,
+      "types": [
+        "Skoter och motorförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "https://sv-se.facebook.com/Stornaggens.skoterklubb",
+      "street_address": "Bruddalen 160",
+      "postal_code": "85592",
+      "city": "Kovland",
+      "email": "Wallin_peter@hotmail.com",
+      "phone": "073 343 97- 24",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 55,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 239,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/337",
+      "name": "NBV  Mittsverige",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [
+        "Sundsvall"
+      ],
+      "homepage_url": "https://www.nbv.se/avdelningar/norr/Kontor/sundsvall/",
+      "street_address": "Linköpingsvägen 7",
+      "postal_code": "85731",
+      "city": "Sundsvall",
+      "email": "sundsvall@nbv.se",
+      "phone": "060-12 16 50",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 56,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 337,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/285",
+      "name": "Nordanede Bygdeförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": "http://www.nordanede.se",
+      "street_address": "Nordanede 751",
+      "postal_code": "84177",
+      "city": "Torpshammar",
+      "email": "nordanede@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 57,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 285,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1833",
+      "name": "Parteboda Byförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.parteboda.se",
+      "street_address": "Parteboda 163",
+      "postal_code": "84192",
+      "city": "Ånge",
+      "email": "mikael.ericsson@hotmail.com",
+      "phone": "0703290992",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 58,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1833,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/307",
+      "name": "PRO Alby",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor",
+        "Föreningsaktiviteter",
+        "Friskvård"
+      ],
+      "categories": [
+        "Alby"
+      ],
+      "homepage_url": "https://pro.se/distrikt-medelpad/samorganisationer/samorganisation-ange/foreningar/alby.html",
+      "street_address": "Albyvägen 57",
+      "postal_code": "84144",
+      "city": "Alby",
+      "email": "b.stefan.hagglund@gmail.com",
+      "phone": "0703154579",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Friskvård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Alby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 59,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 307,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/309",
+      "name": "PRO Fränsta",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor",
+        "Föreningsaktiviteter"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84199",
+      "city": "Ljungaverk",
+      "email": "wallin400@hotmail.com",
+      "phone": "0761914621",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 60,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 309,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1675",
+      "name": "PRO Haverö",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor",
+        "Föreningsaktiviteter"
+      ],
+      "categories": [
+        "Haverö"
+      ],
+      "homepage_url": "https://pro.se",
+      "street_address": "Östavallsvägen 68",
+      "postal_code": "84193",
+      "city": "Östavall",
+      "email": "havero@pro.se",
+      "phone": "0703454868",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Haverö"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 61,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1675,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/312",
+      "name": "PRO Ljungaverk",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor"
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": null,
+      "street_address": "Risavägen 19",
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "bole.west@hotmail.com",
+      "phone": "0730744046",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 62,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 312,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/313",
+      "name": "PRO Samorganisation",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://www.pro.se/Distrikt/Medelpad/Samorganisationer/Ange-Samorg/",
+      "street_address": null,
+      "postal_code": "84144",
+      "city": "Alby",
+      "email": "ange.samorg@pro.se",
+      "phone": "070-315 45 79",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 63,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 313,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1964",
+      "name": "PRO Torpshammar",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": "https://pro.se/torpshammar",
+      "street_address": "Järnbruksgatan 23",
+      "postal_code": "84175",
+      "city": "Torpshammar",
+      "email": "torpshammar@pro.se",
+      "phone": "0703125739",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 64,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1964,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/316",
+      "name": "PRO Ånge",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor",
+        "Boule",
+        "Föreningsaktiviteter"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://pro.se/distrikt-medelpad/samorganisationer/samorganisation-ange/foreningar/ange.html",
+      "street_address": "Tulpanvägen 12",
+      "postal_code": "84132",
+      "city": "Ånge",
+      "email": "ange@pro.se",
+      "phone": "073 8309665",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Boule"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 65,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 316,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/223",
+      "name": "Reumatikerföreningen Ånge",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Föreningsaktiviteter"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84131",
+      "city": "Ånge",
+      "email": "berith.nordin@outlook.com",
+      "phone": "070 673 93 72",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 66,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 223,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1716",
+      "name": "RFSL Västernorrland",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "HBTQ-frågor"
+      ],
+      "categories": [],
+      "homepage_url": "https://vasternorrland.rfsl.se/",
+      "street_address": "Köpmangatan 18",
+      "postal_code": "85231",
+      "city": "Sundsvall",
+      "email": "info@vasternorrland.rfsl.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "HBTQ-frågor"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 67,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1716,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/400",
+      "name": "Roggafors Finsta-Vikens IF",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal",
+        "Uthyrning"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "http://www.treklovern.org/",
+      "street_address": "Finnsta 353",
+      "postal_code": "84173",
+      "city": "Fränsta",
+      "email": "info@treklovern.org",
+      "phone": "0705810001",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Uthyrning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 68,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 400,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/401",
+      "name": "Roggåns Fiskevårdsområde",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsområden"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": null,
+      "street_address": "Finnsta 647",
+      "postal_code": "84173",
+      "city": "Fränsta",
+      "email": "perconny.nordlund@gmail.com",
+      "phone": "0703169649",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 69,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 401,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/311",
+      "name": "SKPF avd 88 Ånge",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "http://www.skpf.se/angeavd88/",
+      "street_address": "Idrottsvägen 14",
+      "postal_code": "84144",
+      "city": "Alby",
+      "email": "ebb.ange@gmail.com",
+      "phone": "07020100450",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 70,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 311,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/314",
+      "name": "SKPF/Grankotten avd 263",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Aspvägen 22",
+      "postal_code": "84131",
+      "city": "Ånge",
+      "email": "lennartberggren64@gmail.com",
+      "phone": "070-3474627",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 71,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 314,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/404",
+      "name": "Skärvåns Fiskevårdsområde",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsområden"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": null,
+      "street_address": "Gissjö 428",
+      "postal_code": "84174",
+      "city": "Fränsta",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 72,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 404,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/308",
+      "name": "SPF Seniorerna Västra Medelpad",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsfrågor"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": "http://www.spfseniorerna.se/default.asp?nodeid=12418",
+      "street_address": "Badhusvägen 1",
+      "postal_code": "84171",
+      "city": "Fränsta",
+      "email": "margareta.helander21@gmail.com",
+      "phone": "0706777801",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsfrågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 73,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 308,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/224",
+      "name": "Synskadades förening i Ånge (SRF)",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Föreningsaktiviteter"
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "sagatuva2011@gmail.com",
+      "phone": "070-683 87 64",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 74,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 224,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/229",
+      "name": "Torps Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Hembygdsfrågor"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": "https://www.hembygd.se/torpshembygd",
+      "street_address": "Ö. Munkbyn 405",
+      "postal_code": "84177",
+      "city": "Torpshammar",
+      "email": "gun@mittpunkten.com",
+      "phone": "0702534383",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsfrågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 75,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 229,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/240",
+      "name": "Torps Skol-Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skolidrott"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Fränstavägen 276",
+      "postal_code": "84171",
+      "city": "Fränsta",
+      "email": "jonas.rask@ange.se",
+      "phone": "0702395334",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skolidrott"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 76,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 240,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/255",
+      "name": "Torpshammars IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Skidor"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": null,
+      "street_address": "Idrottsvägen 7",
+      "postal_code": "84175",
+      "city": "Torpshammar",
+      "email": "torpshammarsif@telia.com",
+      "phone": "073 078 03 81",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Skidor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 77,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 255,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/292",
+      "name": "Torpskören",
+      "org_number": null,
+      "types": [
+        "Musik och kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Musik",
+        "Körsång"
+      ],
+      "categories": [
+        "Fränsta"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84174",
+      "city": "Fränsta",
+      "email": "kent.bergström@telia.com",
+      "phone": "070 312 57 39",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Musik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Körsång"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Fränsta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 78,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 292,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1929",
+      "name": "Triffs & träffs",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Boltjärn 111",
+      "postal_code": "84192",
+      "city": "Ånge",
+      "email": "ann_kerfstedt@hotmail.com",
+      "phone": "0768287070",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Teater"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 79,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1929,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/436",
+      "name": "Trädgårdsföreningen Zonsprängarna",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Natur och odling"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://zonsprangarna.se/",
+      "street_address": "Gräfte 121",
+      "postal_code": "86495",
+      "city": "Stöde",
+      "email": "exponeras@gmail.com",
+      "phone": "0703620599",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Natur och odling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 80,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 436,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/373",
+      "name": "V:a Medelpads Försvarsutbildningsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Krisberedskap"
+      ],
+      "categories": [
+        "Ljungaverk"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84198",
+      "city": "Ljungaverk",
+      "email": "anders.i.carlsson@outlook.se",
+      "phone": "0705748022",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Krisberedskap"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ljungaverk"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 81,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 373,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/298",
+      "name": "Vikens Crossklubb",
+      "org_number": null,
+      "types": [
+        "Skoter och motorförening"
+      ],
+      "activities": [
+        "Motorsport",
+        "Motocross"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "S:a Borgsjöv. 25",
+      "postal_code": "84134",
+      "city": "Ånge",
+      "email": "vck.ange@outlook.com",
+      "phone": "0706955686",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motorsport"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Motocross"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 82,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 298,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/356",
+      "name": "Villaföreningen Myren",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Intresseförening"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Björkvägen 5",
+      "postal_code": "84131",
+      "city": "Ånge",
+      "email": null,
+      "phone": "0706665983",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Intresseförening"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 83,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 356,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/256",
+      "name": "Wiskans IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Stöde"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "wiskansif@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Stöde"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 84,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 256,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/435",
+      "name": "Wiskans Marina",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Intresseförening"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": "http://www.wiskan.se/",
+      "street_address": "Boda 296",
+      "postal_code": "84175",
+      "city": "Torpshammar",
+      "email": "marinan@wiskan.se",
+      "phone": "070 625 73 07",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Intresseförening"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 85,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 435,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/328",
+      "name": "Vänsterpartiet",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": "https://ange.vansterpartiet.se",
+      "street_address": "Hjältan 349",
+      "postal_code": "84013",
+      "city": "Torpshammar",
+      "email": "ain.liivlaid@telia.com",
+      "phone": "0705731196",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 86,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 328,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/412",
+      "name": "Västanå-Östby Fiskevårdsförening",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsområden"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Erikslund"
+      ],
+      "homepage_url": null,
+      "street_address": "Östby 127",
+      "postal_code": "84197",
+      "city": "Erikslund",
+      "email": null,
+      "phone": "0703412893",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Erikslund"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 87,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 412,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/414",
+      "name": "Västra Medelpads Biodlarförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Biodling"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Näset 442",
+      "postal_code": "84196",
+      "city": "Erikslund",
+      "email": "nyanget442@hotmail.com",
+      "phone": "0730698540",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Biodling"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 88,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 414,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/415",
+      "name": "Västra Medelpads Brukshundsklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Hundsport"
+      ],
+      "categories": [
+        "Erikslund"
+      ],
+      "homepage_url": "http://www.vastramedelpad.nu/",
+      "street_address": "Fältjägargränd 18 lgh 1002",
+      "postal_code": "83150",
+      "city": "Östersund",
+      "email": "sekreterare@vastramedelpad.nu",
+      "phone": "0703723734",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hundsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Erikslund"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 89,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 415,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/257",
+      "name": "Ånge Atletklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Styrkelyft"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://sv-se.facebook.com/AngeAtletklubb/",
+      "street_address": "Box 10",
+      "postal_code": "84121",
+      "city": "Ånge",
+      "email": "angeatletklubb@gmail.com",
+      "phone": "070-245 07 00",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Styrkelyft"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 90,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 257,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/263",
+      "name": "Ånge Basketklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Brännan 242",
+      "postal_code": "84191",
+      "city": "Ånge",
+      "email": "Jennie79.ja@gmail.com",
+      "phone": "0703273482",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Basket"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 91,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 263,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1701",
+      "name": "Ånge Bys Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Olskogen187",
+      "postal_code": "84141",
+      "city": "Ånge",
+      "email": "info@olskogen.com",
+      "phone": "0706797082",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 92,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1701,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/548",
+      "name": "Ånge Discgolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Discgolf ",
+        "Frisbee"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://www.facebook.com/angediscgolf/gediscgolf",
+      "street_address": "Aspvägen 15",
+      "postal_code": "84131",
+      "city": "Ånge",
+      "email": "angediscgolf@gmail.com",
+      "phone": "070-741 77 77",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Discgolf "
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Frisbee"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 93,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 548,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/419",
+      "name": "Ånge Fiskevårdsområde",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsområden"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Olskogen187",
+      "postal_code": "84191",
+      "city": "Ånge",
+      "email": "loj@olskogen.com",
+      "phone": "0706797082",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 94,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 419,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/299",
+      "name": "Ånge Flygklubb",
+      "org_number": null,
+      "types": [
+        "Skoter och motorförening"
+      ],
+      "activities": [
+        "Flygsport",
+        "Modellflyg"
+      ],
+      "categories": [
+        "Erikslund"
+      ],
+      "homepage_url": "http://www.angeflygklubb.se",
+      "street_address": "Näset 843",
+      "postal_code": "84197",
+      "city": "Erikslund",
+      "email": "kenneth.edlund@railrace.se",
+      "phone": "070 177 40 86",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Flygsport"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Modellflyg"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Erikslund"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 95,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 299,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/357",
+      "name": "Ånge Folkets Husförening",
+      "org_number": null,
+      "types": [
+        "Folketshusförening"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Samlingslokal",
+        "Bio",
+        "Teater"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://www.angefolketshus.se",
+      "street_address": "Centraltorget 20",
+      "postal_code": "84133",
+      "city": "Ånge",
+      "email": "info@angefolketshus.se",
+      "phone": "0690-15090",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bio"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Teater"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 96,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 357,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/241",
+      "name": "Ånge Gymnastiksällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Motionsidrott",
+        "Gymnastik"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Fridhemsvägen 12",
+      "postal_code": "84132",
+      "city": "Ånge",
+      "email": "jonsson2gm@telia.com",
+      "phone": "070-229 30 78",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motionsidrott"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 97,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 241,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/222",
+      "name": "Ånge Hörselskadades RF(HRF)",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Föreningsaktiviteter"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": null,
+      "postal_code": "84144",
+      "city": "Alby",
+      "email": "tord.ringdalen@gmail.com",
+      "phone": "0705556772",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Föreningsaktiviteter"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 98,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 222,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/242",
+      "name": "Ånge Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://www.angeif.se/",
+      "street_address": "Bågskyttevägen 25",
+      "postal_code": "84134",
+      "city": "Ånge",
+      "email": "kansliet@angeif.se",
+      "phone": "0730-689032",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 99,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 242,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/243",
+      "name": "Ånge Ishockeyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://www.laget.se/ungdomsledare_angeik",
+      "street_address": "Bågskyttevägen 25",
+      "postal_code": "84134",
+      "city": "Ånge",
+      "email": "ange.ishockeyklubb@telia.com",
+      "phone": "0690-61841",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ishockey"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 100,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 243,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/258",
+      "name": "Ånge Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Judo"
+      ],
+      "categories": [],
+      "homepage_url": "http://www7.idrottonline.se/AngeJK-Judo/",
+      "street_address": "Johannisberg 500",
+      "postal_code": "84199",
+      "city": "Ljungaverk",
+      "email": "info.angejudo@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Judo"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 101,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 258,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/294",
+      "name": "Ånge Kabarè",
+      "org_number": null,
+      "types": [
+        "Musik och kulturförening"
+      ],
+      "activities": [
+        "Dans",
+        "Kultur",
+        "Teater"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "http://angekabare.nu/",
+      "street_address": "Boltjärn 148",
+      "postal_code": "84192",
+      "city": "Ånge",
+      "email": "Karstin.leander@telia.com",
+      "phone": "0703245988",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Dans"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Teater"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 102,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 294,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/300",
+      "name": "Ånge Motorklubb",
+      "org_number": null,
+      "types": [
+        "Skoter och motorförening"
+      ],
+      "activities": [
+        "Motorsport",
+        "Folkrace"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://www.angemk.se",
+      "street_address": "Ängsvägen 10",
+      "postal_code": "84132",
+      "city": "Ånge",
+      "email": "micke@ilt.nu",
+      "phone": "070 6030967",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motorsport"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Folkrace"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 103,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 300,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/286",
+      "name": "Ånge Musiksällskap",
+      "org_number": null,
+      "types": [
+        "Musik och kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Musik"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Tirsta 622",
+      "postal_code": "84174",
+      "city": "Fränsta",
+      "email": "robert.pettsson@telia.com",
+      "phone": "0703606005",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Musik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 104,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 286,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/244",
+      "name": "Ånge Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [],
+      "homepage_url": "http://idrottonline.se/AngeOK-Orientering/",
+      "street_address": "Granboda 243",
+      "postal_code": "84192",
+      "city": "Ånge",
+      "email": "granboda@hotmail.com",
+      "phone": "072 525 44 30",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Orientering"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 105,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 244,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1638",
+      "name": "Ånge Pride",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Samlingslokal",
+        "HBTQ-frågor"
+      ],
+      "categories": [
+        "Erikslund"
+      ],
+      "homepage_url": "https://angepride.se/",
+      "street_address": null,
+      "postal_code": "84133",
+      "city": "Ånge",
+      "email": "info@angepride.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "HBTQ-frågor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Erikslund"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 106,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1638,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/246",
+      "name": "Ånge Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://idrottonline.se/AngeRK-Ridsport",
+      "street_address": "S:a  Borgsjövägen 41",
+      "postal_code": "84134",
+      "city": "Ånge",
+      "email": "info@angeridklubb.se",
+      "phone": "0690-61511",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ridsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 107,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 246,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/288",
+      "name": "Ånge Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Musik och kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Musik"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Villagatan 1 Lgh 1204",
+      "postal_code": "84133",
+      "city": "Ånge",
+      "email": "karwen1@outlook.com",
+      "phone": "0703289433",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Musik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 108,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 288,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/422",
+      "name": "Ånge Rotaryklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "https://www.rotary.se/ange/home/",
+      "street_address": "Torggatan 8",
+      "postal_code": "84121",
+      "city": "Ånge",
+      "email": "ulfsteck@msn.com",
+      "phone": "0730860719",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 109,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 422,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/261",
+      "name": "Ånge Skidklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skidor"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": "http://www7.idrottonline.se/AngeSK-Skidor/",
+      "street_address": "Slåttervägen 4",
+      "postal_code": "84131",
+      "city": "Ånge",
+      "email": "ange.skidklubb@gmail.com",
+      "phone": "0706267695",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skidor"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 110,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 261,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/287",
+      "name": "Ånge Slöjd o Konsthantverksför.",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Bildningsverksamhet",
+        "Hantverk"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": "https://www.facebook.com/Sockenmagasinet-Borgsj%C3%B6-150893415322147/",
+      "street_address": null,
+      "postal_code": "84175",
+      "city": "Torpshammar",
+      "email": "lena-ericson@spray.se",
+      "phone": "070 282 88 05",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kultur"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Hantverk"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 111,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 287,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/306",
+      "name": "Ånge Snöskoterklubb",
+      "org_number": null,
+      "types": [
+        "Skoter och motorförening"
+      ],
+      "activities": [
+        "Skotersport"
+      ],
+      "categories": [
+        "Ånge"
+      ],
+      "homepage_url": null,
+      "street_address": "Kvarngatan 159",
+      "postal_code": "84191",
+      "city": "Ånge",
+      "email": "andersrising@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skotersport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ånge"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 112,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 306,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/423",
+      "name": "Öh Bys SFF",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsområden"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [
+        "Erikslund"
+      ],
+      "homepage_url": null,
+      "street_address": "Ö 222",
+      "postal_code": "84197",
+      "city": "Erikslund",
+      "email": "karl-ingvar.angstrom@telia.com",
+      "phone": "0703602152",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fiskevård"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Erikslund"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 113,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 423,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/1607",
+      "name": "Öns Byggnadsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Intresseförening"
+      ],
+      "categories": [
+        "Överturingen"
+      ],
+      "homepage_url": null,
+      "street_address": "Ön 320",
+      "postal_code": "84195",
+      "city": "Överturingen",
+      "email": "hakan.backstrom@yahoo.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Intresseförening"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Överturingen"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 114,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 1607,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/425",
+      "name": "Östavalls Folkets Hus förening",
+      "org_number": null,
+      "types": [
+        "Folketshusförening"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Östavall"
+      ],
+      "homepage_url": null,
+      "street_address": "Östavallsväg 68",
+      "postal_code": "84193",
+      "city": "Östavall",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Östavall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 115,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 425,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/427",
+      "name": "Östbyggareskattelagets VVO",
+      "org_number": null,
+      "types": [
+        "Jakt och skytteförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Västlandsvägen 12",
+      "postal_code": "86331",
+      "city": "Sundsbruk",
+      "email": "bert.hagg@haggfullerton.se",
+      "phone": "0702286475",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 116,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 427,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/428",
+      "name": "Östra Finnbygdens Intresseförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård och intresse"
+      ],
+      "activities": [
+        "Byförening",
+        "Intresseförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Torpshammar"
+      ],
+      "homepage_url": null,
+      "street_address": "Hjältanstorp 170",
+      "postal_code": "84177",
+      "city": "Torpshammar",
+      "email": "evasoderberg62@hotmail.com",
+      "phone": "073-042 04 62",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Intresseförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torpshammar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 117,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 428,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Ånge",
+    "scrape_run_id": "e48250ef-d794-4864-9c92-b98f625bf702",
+    "scraped_at": "2025-10-27T01:15:20.621Z",
+    "association": {
+      "detail_url": "https://ange.ibgo.se/AssociationRegister#/association/430",
+      "name": "Överturingens Folkets Hus förening",
+      "org_number": null,
+      "types": [
+        "Folketshusförening"
+      ],
+      "activities": [
+        "Bildningsverksamhet",
+        "Byförening",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Överturingen"
+      ],
+      "homepage_url": null,
+      "street_address": "Turingevägen 12",
+      "postal_code": "84195",
+      "city": "Överturingen",
+      "email": "turingens.069071148@telia.com",
+      "phone": "0706699148",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bildningsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Byförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Överturingen"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 118,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 430,
+      "leisure_activity_card": false,
+      "has_public_info": false
+    }
+  }
+]

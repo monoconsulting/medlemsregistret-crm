@@ -2,6 +2,8 @@ import { chromium, Browser, Page } from 'playwright';
 import { v4 as uuidv4 } from 'uuid';
 import * as fs from 'fs';
 import * as path from 'path';
+import { sanitizeForValidation } from '../utils/sanitize';
+import { getScrapingPaths, runDatabaseImport, createLogger } from '../utils/scraper-base';
 
 // Configuration
 const SOURCE_SYSTEM = 'FRI';
@@ -11,71 +13,14 @@ const SCRAPE_RUN_ID = uuidv4();
 const SCRAPED_AT = new Date().toISOString();
 
 // Output paths
-const OUTPUT_DIR = path.join(__dirname, 'out');
-const timestamp = new Date().toISOString().replace('T', '_').replace(/:/g, '-').substring(0, 16); // YYYY-MM-DD_HH-MM
-const JSONL_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY.toLowerCase()}_associations_${SCRAPE_RUN_ID}_${timestamp}.jsonl`);
-const JSON_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY.toLowerCase()}_associations_${SCRAPE_RUN_ID}_${timestamp}.json`);
-const LOG_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY.toLowerCase()}.log`);
+const paths = getScrapingPaths(MUNICIPALITY);
+const OUTPUT_DIR = paths.outputDir;
+const JSONL_PATH = paths.jsonlPath;
+const JSON_PATH = paths.jsonPath;
+const LOG_PATH = paths.logPath;
 
-// Stats tracking
-let totalAssociations = 0;
-let missingOrgNumber = 0;
-let missingContacts = 0;
-let missingAddress = 0;
-const homepageDomains = new Set<string>();
-const uniqueTypes = new Set<string>();
-const uniqueActivities = new Set<string>();
-
-interface DescriptionSection {
-  title: string;
-  data: Record<string, any>;
-}
-
-interface AssociationRecord {
-  source_system: string;
-  municipality: string;
-  scrape_run_id: string;
-  scraped_at: string;
-  association: {
-    name: string;
-    org_number: string | null;
-    types: string[];
-    activities: string[];
-    categories: string[];
-    homepage_url: string | null;
-    detail_url: string;
-    street_address: string | null;
-    postal_code: string | null;
-    city: string | null;
-    email: string | null;
-    phone: string | null;
-    description: {
-      sections: DescriptionSection[];
-      free_text: string | null;
-    } | string | null;
-  };
-  contacts: Array<{
-    contact_person_name: string;
-    contact_person_role: string | null;
-    contact_person_email: string | null;
-    contact_person_phone: string | null;
-  }>;
-  source_navigation: {
-    list_page_index: number;
-    position_on_page: number;
-    pagination_model: string;
-    filter_state: any;
-  };
-  extras: Record<string, any>;
-}
-
-// Utility functions
-function log(message: string): void {
-  const timestamp = new Date().toISOString();
-  const logMessage = `[${timestamp}] ${message}`;
-  console.log(logMessage);
-  fs.appendFileSync(LOG_PATH, logMessage + '\n');
-}
+// Logger
+const log = createLogger(LOG_PATH);
 
 function normalizeString(value: string | null | undefined): string | null {
   if (!value) return null;
@@ -1024,7 +969,7 @@ async function main() {
   log(`Base URL: ${BASE_URL}`);
   log('='.repeat(80));
 
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
     viewport: { width: 1760, height: 1256 }
   });
@@ -1078,8 +1023,19 @@ async function main() {
     await browser.close();
   }
 
+  // Sanitize data
+  allRecords = allRecords.map(sanitizeForValidation) as AssociationRecord[];
+
   // Write pretty JSON
   await writePrettyJson(allRecords);
+
+  log('Running validation and import...');
+  try {
+    await runDatabaseImport(MUNICIPALITY, log);
+    log('Import completed successfully.');
+  } catch (error) {
+    log(`Import failed: ${error}`);
+  }
 
   // Final stats
   log('='.repeat(80));

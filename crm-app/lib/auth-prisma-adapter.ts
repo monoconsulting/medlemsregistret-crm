@@ -1,6 +1,6 @@
 import type { Adapter, AdapterSession, AdapterUser, AdapterAccount, VerificationToken } from 'next-auth/adapters'
 import type { PrismaClient } from '@prisma/client'
-import { db } from '@/lib/db'
+import { db } from './db'
 
 type PrismaAdapterClient = Pick<
   PrismaClient,

@@ -4,7 +4,7 @@ import { Prisma } from '@prisma/client'
 import { TRPCError } from '@trpc/server'
 import { subDays, startOfDay, endOfDay, startOfMonth, endOfMonth, subMonths, format } from 'date-fns'
 import { sv } from 'date-fns/locale'
-import { getSearchClient } from '@/lib/search'
+import { getSearchClient } from '../../lib/search'
 
 export const associationRouter = router({
   // Get all associations with pagination and filtering
@@ -38,6 +38,8 @@ export const associationRouter = router({
             'name',
             'createdAt',
             'recentActivity',
+            'crmStatus',
+            'pipeline',
           ])
           .default('updatedAt'),
         sortDirection: z.enum(['asc', 'desc']).default('desc'),
@@ -107,11 +109,29 @@ export const associationRouter = router({
 
       if (search) {
         const normalized = search.trim()
-        where.OR = [
-          { name: { contains: normalized, mode: 'insensitive' } },
-          { city: { contains: normalized, mode: 'insensitive' } },
-          { municipality: { contains: normalized, mode: 'insensitive' } },
+        const orConditions: Prisma.AssociationWhereInput[] = [
+          { name: { contains: normalized } },
+          { city: { contains: normalized } },
+          { municipality: { contains: normalized } },
+          { tags: { some: { name: { contains: normalized } } } },
         ]
+
+        const tagMatches = await ctx.db.tag.findMany({
+          where: { name: { contains: normalized } },
+          select: { associations: { select: { id: true } } },
+          take: 250,
+        })
+
+        if (tagMatches.length) {
+          const tagAssociationIds = Array.from(
+            new Set(tagMatches.flatMap((tag) => tag.associations.map((assoc) => assoc.id)))
+          )
+          if (tagAssociationIds.length) {
+            orConditions.push({ id: { in: tagAssociationIds } })
+          }
+        }
+
+        where.OR = orConditions
       }
 
       if (municipality) {

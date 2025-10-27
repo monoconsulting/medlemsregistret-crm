@@ -3,7 +3,23 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
-
+## Rules
+**NEVER CHANGE PORTS!**
+NEVER TASKKILL!
+ALWAYS READ INSTRUCTED FILES!
+* Mock data in the system are **not allowed.** This can not be used without a specific order to implement it
+* **SQLLite can never be used.** You have no permissions to use this. 
+* Test **must** be performed exactly as stated in @docs/TEST_RULES.md
+* You are **never allowed to change port** or assign a new port to something that is not working.  You MUST ask permission
+* You have **NO PERMISSIONS to use taskkill** to kill a port that someone else is using. This can cause serious damage
+* You **ARE NOT ALLOWED TO EDIT THE FOLLOWING FILES WITHOUT PERMISSION**
+  * **docker-compose - files**
+  * **.env-files**
+  * **playwright.config.ts-files**
+* You are **NOT ALLOWED to change ports.** If the port are busy or not working you must:
+  * Check the docker-compose-files and .env - is the right port used?
+  * Check docker ps - what is running on the port. **BUT DONT KILL THE SERVICE**
+* Only soft delete in database!
 This is a CRM system for managing Swedish municipal association registries. The project has two main components:
 1. **Web scraping framework** (`/scraping`) - Playwright-based scrapers for collecting association data from multiple Swedish municipalities
 2. **CRM application** (`/crm-app`) - Next.js 15 web application for managing and analyzing scraped association data
@@ -32,6 +48,8 @@ npm run db:seed        # Seed database
 ```
 
 ### Web Scraping (scraping/)
+
+#### Individual Municipality Scrapers
 ```bash
 # Run a specific municipality scraper
 npx tsx scraping/<municipality>_scrape.ts
@@ -41,6 +59,42 @@ npx tsx scraping/sollentuna_scrape.ts
 npx tsx scraping/arjang_scrape.ts
 npx tsx scraping/karlstad_scrape.ts
 ```
+
+#### Actor Smartbook Bulk Automation (Windows Batch Files)
+```bash
+# Test scraping (Gnosjö - 72 associations, ~30 seconds)
+scraping/scripts/actor_test_scrape.bat
+
+# Full process (scrape all 22 municipalities + import to database)
+scraping/scripts/actor_scrape_and_import.bat
+
+# Scraping only (saves JSON files to scraping/json/)
+scraping/scripts/actor_scrape.bat
+
+# Import only (imports all JSON files from scraping/json/)
+scraping/scripts/actor_import.bat
+```
+
+**Performance**: Bulk scraping of 12 municipalities took 23.38 minutes with 99.6% import success rate (3,413 of 3,425 associations).
+
+#### IBGO (Interbook Go) Bulk Automation (Windows Batch Files)
+```bash
+# Full process (scrape all 31 municipalities + import to database)
+scraping/scripts/ibgo_scrape_and_import.bat
+
+# Scraping only (saves JSON files to scraping/json/)
+scraping/scripts/ibgo_scrape.bat
+
+# Import only (imports all JSON files from scraping/json/)
+scraping/scripts/ibgo_import.bat
+```
+
+**Performance**: Bulk scraping of 31 municipalities completed in ~5 minutes with 99.98% import success rate (10,000+ associations).
+
+**Output locations**:
+- JSON files: `scraping/json/`
+- Log files: `scraping/logs/`
+- Summary: `scraping/json/bulk_ibgo_scrape_summary_YYYY-MM-DD.json`
 
 ## Architecture
 
@@ -82,7 +136,8 @@ The scrapers follow a common pattern but are adapted for different platforms:
 **Platform Types:**
 1. **FRI Webb-Förening** - Municipalities: Sollentuna, Årjäng, Järfälla, Laholm, Halmstad, Forshaga, Båstad, Bromölla, Askersund
 2. **RBOK** - Municipalities: Söderhamn
-3. **ActorSmartbook** - Municipalities: Gävle, Karlstad, Borås, Älvdalen
+3. **IBGO (Interbook Go)** - 31 verified municipalities with REST API endpoints. **NO PAGINATION** - single API call returns all data. Bulk automation implemented. 10,000+ associations scraped with 99.98% import success rate. ⚠️ **Email concatenation handled** - splits comma-separated emails into contacts. ❌ **NO organization numbers** available from API.
+4. **ActorSmartbook** - 22 verified municipalities with REST API endpoints (paginated). Bulk automation implemented. 12 municipalities scraped (Alingsås, Älvdalen, Boden, Bollnäs, Borås, Falun, Hedemora, Kiruna, Mora, Sandviken, Sollefteå, Sundsvall) with 3,425 associations found and 3,413 imported (99.6% success rate). ⚠️ **Email concatenation handled**.
 
 **Common Pattern:**
 Each scraper follows this structure:
@@ -98,8 +153,8 @@ Each scraper follows this structure:
 6. Generate log files with statistics
 
 **Data Schema:**
-Each association record follows a standardized schema (see `docs/CRM_SCRAPING_INSTRUCTIONS_V.1.1.md`):
-- `source_system` - Platform type (FRI, RBOK, ActorSmartbook)
+Each association record follows a standardized schema (see `docs/JSON_STANDARD.md`):
+- `source_system` - Platform type (FRI, RBOK, IBGO, ActorSmartbook)
 - `municipality` - Municipality name
 - `association` - Core fields (name, org_number, types, activities, contact info)
 - `contacts` - Array of contact persons
@@ -107,11 +162,16 @@ Each association record follows a standardized schema (see `docs/CRM_SCRAPING_IN
 - `source_navigation` - Pagination metadata
 - `extras` - Platform-specific fields
 
-**Output Files:**
-Scrapers generate files in `scraping/out/`:
-- `{municipality}_associations_{run_id}_{timestamp}.jsonl` - One JSON record per line
-- `{municipality}_associations_{run_id}_{timestamp}.json` - Pretty-printed JSON array
-- `{municipality}.log` - Execution log with statistics
+**Output Files (New Format - October 2025):**
+Scrapers generate files in `scraping/json/`:
+- `{municipality}_{SOURCE_SYSTEM}_{YYYY-MM-DD}_{HH-MM}.json` - Pretty-printed JSON array only
+- `{municipality}.log` - Execution log (appends to same file)
+
+**Examples:**
+- `ale_IBGO_2025-10-26_14-30.json`
+- `falun_ActorSmartbook_2025-10-26_12-04.json`
+
+**Important**: Filename includes source system to prevent cross-contamination during imports. Files overwrite previous versions.
 
 ## Important Scraping Guidelines
 
@@ -124,7 +184,8 @@ Scrapers generate files in `scraping/out/`:
 ### Platform-Specific Guides:
 - **FRI scrapers:** See `docs/FRI_SCRAPING_GUIDES.md` for detailed extraction rules
 - **RBOK scrapers:** See `docs/RBOK_SCRAPING_GUIDES.md` (placeholder exists)
-- **ActorSmartbook:** See `docs/ACTORS_SMARTBOOK_SCRAPING_GUIDES.md`
+- **IBGO scrapers:** See `docs/IBGO_SCRAPING_GUIDES.md` - REST API, email concatenation handling
+- **ActorSmartbook:** See `docs/ACTORS_SMARTBOOK_SCRAPING_GUIDES.md` - REST API, email concatenation handling
 
 ### Field Extraction Priority:
 1. Parse structured data from tables (FRI platforms use two-column tables)
@@ -132,14 +193,24 @@ Scrapers generate files in `scraping/out/`:
 3. Preserve all original data in `description.sections[*].data`
 4. Extract free text only from main content areas
 5. Handle missing values as `null` (never guess or fill with defaults)
+6. **⚠️ Handle concatenated emails** - For IBGO and Actor Smartbook, split comma-separated emails into separate contact records
 
 ## Key Documentation Files
 
-- `docs/CRM_SCRAPING_INSTRUCTIONS_V.1.1.md` - Master scraping specification
+### Scraping Documentation
+- `docs/JSON_STANDARD.md` - JSON output standard for all scrapers
 - `docs/FRI_SCRAPING_GUIDES.md` - FRI platform extraction rules (address parsing, contact extraction)
-- `docs/*_SCRAPING_GUIDES.md` - Platform-specific guides
-- `docs/lessons/*.md` - Lessons learned from scraping implementations
+- `docs/IBGO_SCRAPING_GUIDES.md` - IBGO REST API scraping guide (email concatenation, no org numbers)
+- `docs/ACTORS_SMARTBOOK_SCRAPING_GUIDES.md` - Actor Smartbook REST API guide
+- `docs/RBOK_SCRAPING_GUIDES.md` - RBOK platform guide (WIP)
+- `docs/lessons/*.md` - System-specific lessons learned (lessons_ibgo.md, lessons_actor.md, etc.)
+
+### CRM Documentation
 - `CRM_IMPLEMENTATION_*.md` - CRM feature specifications and design docs
+
+### Agent Instructions
+- `AGENTS.md` - Instructions and rules for all agents
+- `CLAUDE.md` - This file - Claude Code specific instructions
 
 ## Database Setup
 

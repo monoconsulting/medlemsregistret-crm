@@ -2,6 +2,13 @@ import { chromium, Browser, Page } from 'playwright';
 import { v4 as uuidv4 } from 'uuid';
 import * as fs from 'fs';
 import * as path from 'path';
+import { config } from 'dotenv';
+import { getScrapingPaths, createLogger } from '../utils/scraper-base';
+import { sanitizeForValidation } from '../utils/sanitize';
+import { runDatabaseImport } from '../utils/import-fixtures';
+
+// Load environment variables
+config();
 
 // Configuration
 const SOURCE_SYSTEM = 'FRI';
@@ -10,12 +17,8 @@ const BASE_URL = 'https://bapp53.bastad.se/forening/';
 const SCRAPE_RUN_ID = uuidv4();
 const SCRAPED_AT = new Date().toISOString();
 
-// Output paths
-const OUTPUT_DIR = path.join(__dirname, 'out');
-const timestamp = new Date().toISOString().replace('T', '_').replace(/:/g, '-').substring(0, 16); // YYYY-MM-DD_HH-MM
-const JSONL_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY.toLowerCase()}_associations_${SCRAPE_RUN_ID}_${timestamp}.jsonl`);
-const JSON_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY.toLowerCase()}_associations_${SCRAPE_RUN_ID}_${timestamp}.json`);
-const LOG_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY.toLowerCase()}.log`);
+// Get paths from environment
+const { jsonDir, JSONL_PATH, JSON_PATH, LOG_PATH, logger } = getScrapingPaths(MUNICIPALITY, SCRAPE_RUN_ID);
 
 // Stats tracking
 let totalAssociations = 0;
@@ -70,12 +73,6 @@ interface AssociationRecord {
 }
 
 // Utility functions
-function log(message: string): void {
-  const timestamp = new Date().toISOString();
-  const logMessage = `[${timestamp}] ${message}`;
-  console.log(logMessage);
-  fs.appendFileSync(LOG_PATH, logMessage + '\n');
-}
 
 function normalizeString(value: string | null | undefined): string | null {
   if (!value) return null;
@@ -243,12 +240,12 @@ async function getPageInfo(page: Page): Promise<{ current: number; total: number
       if (match) {
         const current = parseInt(match[1]);
         const total = parseInt(match[2]);
-        log(`Page info detected: ${current}/${total}`);
+        logger.info(`Page info detected: ${current}/${total}`);
         return { current, total };
       }
     }
   } catch (error) {
-    log(`Warning: Could not extract page info: ${error}`);
+    logger.info(`Warning: Could not extract page info: ${error}`);
   }
   return { current: 1, total: 999 };
 }
@@ -305,13 +302,13 @@ async function goToNextPage(page: Page, currentPage: number): Promise<boolean> {
     // Verify page actually changed
     const newPageInfo = await getPageInfo(page);
     if (newPageInfo.current === currentPage) {
-      log(`Warning: Page number did not change after clicking Next. Stopping pagination.`);
+      logger.info(`Warning: Page number did not change after clicking Next. Stopping pagination.`);
       return false;
     }
 
     return true;
   } catch (error) {
-    log(`Error navigating to next page: ${error}`);
+    logger.info(`Error navigating to next page: ${error}`);
     return false;
   }
 }
@@ -414,7 +411,7 @@ async function extractTwoColumnTable(page: Page, table: any): Promise<Record<str
       }
     }
   } catch (error) {
-    log(`Error extracting two-column table: ${error}`);
+    logger.info(`Error extracting two-column table: ${error}`);
   }
 
   return data;
@@ -508,7 +505,7 @@ async function extractContactPerson(page: Page, rightTable: any): Promise<{
     }
 
   } catch (error) {
-    log(`Error extracting contact person: ${error}`);
+    logger.info(`Error extracting contact person: ${error}`);
   }
 
   return result;
@@ -559,7 +556,7 @@ async function extractDetailPageData(page: Page, associationName: string): Promi
     const tables = page.locator('table.compact-table, table.clean');
     const tableCount = await tables.count();
 
-    log(`Found ${tableCount} tables on detail page for "${associationName}"`);
+    logger.info(`Found ${tableCount} tables on detail page for "${associationName}"`);
 
     let leftTable = null;
     let rightTable = null;
@@ -572,17 +569,17 @@ async function extractDetailPageData(page: Page, associationName: string): Promi
 
       if (headerText === associationName) {
         leftTable = table;
-        log(`Identified left table (association info) at index ${i}`);
+        logger.info(`Identified left table (association info) at index ${i}`);
       } else if (headerText && /kontaktperson|contact/i.test(headerText)) {
         rightTable = table;
-        log(`Identified right table (contact person) at index ${i}`);
+        logger.info(`Identified right table (contact person) at index ${i}`);
       }
     }
 
     // Extract from LEFT table (association-level info)
     if (leftTable) {
       const leftData = await extractTwoColumnTable(page, leftTable);
-      log(`Extracted ${Object.keys(leftData).length} fields from left table`);
+      logger.info(`Extracted ${Object.keys(leftData).length} fields from left table`);
 
       // Process address
       if (leftData.address_raw) {
@@ -590,7 +587,7 @@ async function extractDetailPageData(page: Page, associationName: string): Promi
         result.street_address = parsed.street_address;
         result.postal_code = parsed.postal_code;
         result.city = parsed.city;
-        log(`Parsed address: street="${result.street_address}", postal="${result.postal_code}", city="${result.city}"`);
+        logger.info(`Parsed address: street="${result.street_address}", postal="${result.postal_code}", city="${result.city}"`);
       }
 
       // Separate rows for postal_code, city
@@ -633,7 +630,7 @@ async function extractDetailPageData(page: Page, associationName: string): Promi
           result.extras.contact_phones = contactData.extras.contact_phones;
         }
 
-        log(`Extracted contact: ${contactData.contact_person_name} (email: ${contactData.contact_person_email}, phone: ${contactData.contact_person_phone})`);
+        logger.info(`Extracted contact: ${contactData.contact_person_name} (email: ${contactData.contact_person_email}, phone: ${contactData.contact_person_phone})`);
       }
     }
 
@@ -647,14 +644,14 @@ async function extractDetailPageData(page: Page, associationName: string): Promi
       const headingText = normalizeString(await heading.textContent());
 
       if (headingText && /övrig information|other information/i.test(headingText)) {
-        log(`Found "Övrig information" section via heading`);
+        logger.info(`Found "Övrig information" section via heading`);
 
         const nextTable = heading.locator('xpath=following::table[contains(@class,"compact-table") or contains(@class,"clean")][1]');
         const nextTableCount = await nextTable.count();
 
         if (nextTableCount > 0) {
           const sectionData = await extractTwoColumnTable(page, nextTable);
-          log(`Extracted ${Object.keys(sectionData).length} fields from Övrig information section`);
+          logger.info(`Extracted ${Object.keys(sectionData).length} fields from Övrig information section`);
 
           result.description_sections.push({
             title: 'Övrig information',
@@ -726,10 +723,10 @@ async function extractDetailPageData(page: Page, associationName: string): Promi
           const firstLabel = normalizeString(await firstCells.nth(0).textContent());
 
           if (firstLabel && /founded|bildad|financial year|verksamhetsår|activity|verksamhet|summary|sammanfattning/i.test(firstLabel)) {
-            log(`Found "Övrig information" section as table ${i} (no heading)`);
+            logger.info(`Found "Övrig information" section as table ${i} (no heading)`);
 
             const sectionData = await extractTwoColumnTable(page, table);
-            log(`Extracted ${Object.keys(sectionData).length} fields from Övrig information section`);
+            logger.info(`Extracted ${Object.keys(sectionData).length} fields from Övrig information section`);
 
             result.description_sections.push({
               title: 'Övrig information',
@@ -819,11 +816,11 @@ async function extractDetailPageData(page: Page, associationName: string): Promi
 
         if (freeTextParts.length > 0 && !result.free_text) {
           result.free_text = freeTextParts.join('\n\n');
-          log(`Extracted free text (${result.free_text.length} chars)`);
+          logger.info(`Extracted free text (${result.free_text.length} chars)`);
         }
       }
     } catch (error) {
-      log(`Could not extract free text from main content: ${error}`);
+      logger.info(`Could not extract free text from main content: ${error}`);
     }
 
     // Fallback: check "Kort beskrivning" row if free_text still empty
@@ -837,7 +834,7 @@ async function extractDetailPageData(page: Page, associationName: string): Promi
     }
 
   } catch (error) {
-    log(`Error extracting detail page data: ${error}`);
+    logger.info(`Error extracting detail page data: ${error}`);
   }
 
   return result;
@@ -895,7 +892,7 @@ async function scrapeAssociation(
   if (listData.detailLink) {
     let detailPageVisited = false;
     try {
-      log(`Visiting detail page: ${listData.detailLink}`);
+      logger.info(`Visiting detail page: ${listData.detailLink}`);
       await page.goto(listData.detailLink, { timeout: 60000 }); // Increased timeout to 60s
       await randomDelay();
       detailPageVisited = true;
@@ -945,20 +942,20 @@ async function scrapeAssociation(
       await waitForListReady(page);
 
     } catch (error) {
-      log(`Error visiting detail page for "${listData.name}": ${error}`);
+      logger.info(`Error visiting detail page for "${listData.name}": ${error}`);
 
       // Recovery: if we navigated away but failed, try to go back to the list
       if (detailPageVisited) {
         try {
-          log(`Attempting to navigate back to list page after error...`);
+          logger.info(`Attempting to navigate back to list page after error...`);
           await page.goBack();
           await randomDelay(500, 1000);
           await waitForListReady(page);
         } catch (recoveryError) {
-          log(`Failed to recover: ${recoveryError}`);
+          logger.info(`Failed to recover: ${recoveryError}`);
           // Last resort: reload the list page
           try {
-            log(`Last resort: reloading list page...`);
+            logger.info(`Last resort: reloading list page...`);
             const currentPageInfo = await getPageInfo(page);
             // Navigate to the current page directly
             await page.goto(BASE_URL);
@@ -969,7 +966,7 @@ async function scrapeAssociation(
               await goToNextPage(page, i);
             }
           } catch (reloadError) {
-            log(`Critical error: could not reload list page: ${reloadError}`);
+            logger.info(`Critical error: could not reload list page: ${reloadError}`);
             throw reloadError;
           }
         }
@@ -990,18 +987,18 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
     const rows = table.locator('tbody tr');
     const rowCount = await rows.count();
 
-    log(`Page ${pageIndex}: Found ${rowCount} associations`);
+    logger.info(`Page ${pageIndex}: Found ${rowCount} associations`);
 
     for (let i = 0; i < rowCount; i++) {
       const row = rows.nth(i);
       const listData = await extractListRowData(page, row, i);
 
       if (!listData.name) {
-        log(`Skipping row ${i} - no name found`);
+        logger.info(`Skipping row ${i} - no name found`);
         continue;
       }
 
-      log(`[${pageIndex}.${i}] Processing: ${listData.name}`);
+      logger.info(`[${pageIndex}.${i}] Processing: ${listData.name}`);
 
       const record = await scrapeAssociation(page, pageIndex, i, listData);
       records.push(record);
@@ -1024,7 +1021,7 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
     }
 
   } catch (error) {
-    log(`Error scraping page ${pageIndex}: ${error}`);
+    logger.info(`Error scraping page ${pageIndex}: ${error}`);
   }
 
   return records;
@@ -1033,20 +1030,17 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
 
 async function main() {
   // Ensure output directory exists
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  if (!fs.existsSync(jsonDir)) {
+    fs.mkdirSync(jsonDir, { recursive: true });
   }
 
-  // Clear log file
-  fs.writeFileSync(LOG_PATH, '');
+  logger.info('='.repeat(80));
+  logger.info(`Starting scrape: ${MUNICIPALITY} (${SOURCE_SYSTEM})`);
+  logger.info(`Run ID: ${SCRAPE_RUN_ID}`);
+  logger.info(`Base URL: ${BASE_URL}`);
+  logger.info('='.repeat(80));
 
-  log('='.repeat(80));
-  log(`Starting scrape: ${MUNICIPALITY} (${SOURCE_SYSTEM})`);
-  log(`Run ID: ${SCRAPE_RUN_ID}`);
-  log(`Base URL: ${BASE_URL}`);
-  log('='.repeat(80));
-
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
     viewport: { width: 1760, height: 1256 }
   });
@@ -1056,69 +1050,75 @@ async function main() {
 
   try {
     // Navigate to list page
-    log(`Navigating to ${BASE_URL}`);
+    logger.info(`Navigating to ${BASE_URL}`);
     await page.goto(BASE_URL);
     await waitForListReady(page);
 
     // Get total pages
     const pageInfo = await getPageInfo(page);
-    log(`Detected ${pageInfo.total} total pages`);
+    logger.info(`Detected ${pageInfo.total} total pages`);
 
     let currentPage = 1;
     let hasMore = true;
 
     while (hasMore) {
-      log(`\nScraping page ${currentPage}...`);
+      logger.info(`\nScraping page ${currentPage}...`);
       const pageRecords = await scrapePage(page, currentPage);
       allRecords.push(...pageRecords);
 
       // Check if there's a next page
       const pageInfoAfter = await getPageInfo(page);
       if (pageInfoAfter.current >= pageInfoAfter.total) {
-        log(`Reached last page (${pageInfoAfter.current}/${pageInfoAfter.total})`);
+        logger.info(`Reached last page (${pageInfoAfter.current}/${pageInfoAfter.total})`);
         hasMore = false;
       } else {
         hasMore = await hasNextPage(page);
         if (hasMore) {
-          log(`Navigating to page ${currentPage + 1}...`);
+          logger.info(`Navigating to page ${currentPage + 1}...`);
           const success = await goToNextPage(page, currentPage);
           if (!success) {
-            log('Failed to navigate to next page. Stopping.');
+            logger.info('Failed to navigate to next page. Stopping.');
             hasMore = false;
           } else {
             currentPage++;
           }
         } else {
-          log('No next page available. Stopping.');
+          logger.info('No next page available. Stopping.');
         }
       }
     }
 
   } catch (error) {
-    log(`Fatal error during scraping: ${error}`);
+    logger.info(`Fatal error during scraping: ${error}`);
   } finally {
     await browser.close();
   }
 
+  // Sanitize records
+  const sanitizedRecords = sanitizeForValidation(allRecords);
+
   // Write pretty JSON
-  await writePrettyJson(allRecords);
+  await writePrettyJson(sanitizedRecords);
+
+  // Import to database
+  await runDatabaseImport();
 
   // Final stats
-  log('='.repeat(80));
-  log('SCRAPING COMPLETE');
-  log('='.repeat(80));
-  log(`Total associations scraped: ${totalAssociations}`);
-  log(`Missing org_number: ${missingOrgNumber} (${((missingOrgNumber / totalAssociations) * 100).toFixed(1)}%)`);
-  log(`Missing contacts: ${missingContacts} (${((missingContacts / totalAssociations) * 100).toFixed(1)}%)`);
-  log(`Missing address: ${missingAddress} (${((missingAddress / totalAssociations) * 100).toFixed(1)}%)`);
-  log(`Unique types: ${uniqueTypes.size}`);
-  log(`Unique activities: ${uniqueActivities.size}`);
-  log(`Homepage domains: ${homepageDomains.size}`);
-  log(`\nOutput files:`);
-  log(`  JSONL: ${JSONL_PATH}`);
-  log(`  JSON:  ${JSON_PATH}`);
-  log(`  Log:   ${LOG_PATH}`);
-  log('='.repeat(80));
+  logger.info('='.repeat(80));
+  logger.info('SCRAPING COMPLETE');
+  logger.info('='.repeat(80));
+  logger.info(`Total associations scraped: ${totalAssociations}`);
+  logger.info(`Missing org_number: ${missingOrgNumber} (${((missingOrgNumber / totalAssociations) * 100).toFixed(1)}%)`);
+  logger.info(`Missing contacts: ${missingContacts} (${((missingContacts / totalAssociations) * 100).toFixed(1)}%)`);
+  logger.info(`Missing address: ${missingAddress} (${((missingAddress / totalAssociations) * 100).toFixed(1)}%)`);
+  logger.info(`Unique types: ${uniqueTypes.size}`);
+  logger.info(`Unique activities: ${uniqueActivities.size}`);
+  logger.info(`Homepage domains: ${homepageDomains.size}`);
+  logger.info(`\nOutput files:`);
+  logger.info(`  JSONL: ${JSONL_PATH}`);
+  logger.info(`  JSON:  ${JSON_PATH}`);
+  logger.info(`  Log:   ${LOG_PATH}`);
+  logger.info('='.repeat(80));
 }
 
 main().catch(error => {

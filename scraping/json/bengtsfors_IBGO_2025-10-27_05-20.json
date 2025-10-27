@@ -1,0 +1,4465 @@
+[
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/59",
+      "name": "Backa Gårdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsarbete"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Övrigt"
+      ],
+      "categories": [
+        "Vårvik"
+      ],
+      "homepage_url": null,
+      "street_address": "Skattegärde 17",
+      "postal_code": "44338",
+      "city": "Lerum",
+      "email": "stig.liljeqvist@telia.com",
+      "phone": "0705865448",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vårvik"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 0,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 59,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/3",
+      "name": "Bengtsfors BoIS",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Längdåkning",
+        "Kanot"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Almgatan 3B",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "marcus.holm@bengtsfors.se",
+      "phone": "0531 52 60 20",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Längdåkning"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kanot"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 1,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 3,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/57",
+      "name": "Bengtsfors Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Agility",
+        "Övrigt"
+      ],
+      "categories": [
+        "Steneby"
+      ],
+      "homepage_url": null,
+      "street_address": "Norra Dingelvik 5",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": "bbk.kontakt@hotmail.se",
+      "phone": "0722456278",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Agility"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Steneby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 2,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 57,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/353",
+      "name": "Bengtsfors Föreningsarkiv",
+      "org_number": null,
+      "types": [
+        "Hembygdsarbete"
+      ],
+      "activities": [
+        "Hembygdsarbete"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Laxarby Kroken Asphögen",
+      "postal_code": "66640",
+      "city": "Skåpafors",
+      "email": "0531.willy@gmail.com",
+      "phone": "0706818039",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 3,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 353,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/4",
+      "name": "Bengtsfors Gymnastikklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": "http://www.bengtsforsgymnastikklubb.se",
+      "street_address": "Edsleskogs Hult 210",
+      "postal_code": "66291",
+      "city": "Åmål",
+      "email": "gymmix.bgk@gmail.com",
+      "phone": "0730641755",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 4,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 4,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/5",
+      "name": "Bengtsfors IF",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Södra vägen 25",
+      "postal_code": "66632",
+      "city": "Bengtsfors",
+      "email": "bengtsfors.bif@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 5,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 5,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/10",
+      "name": "Bengtsfors Motorbåtsklubb",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Kyrkogatan 23",
+      "postal_code": "66231",
+      "city": "Åmål",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 6,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 10,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/6",
+      "name": "Bengtsfors Motorclub",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Bilsport"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": " Alfhemsgatan 8",
+      "postal_code": "66131",
+      "city": "Säffle",
+      "email": "bengan@racefoto.se",
+      "phone": "0703409300",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bilsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 7,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 6,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/9",
+      "name": "Bengtsfors Motorcykelklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Motocross"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Flolanda Lyckane",
+      "postal_code": "66691",
+      "city": "Bengtsfors",
+      "email": "karlsson_torrskog@hotmail.com",
+      "phone": "0768043990",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motocross"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 8,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 9,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/102",
+      "name": "Bengtsfors Musikkår",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Kunghällsvägen 7",
+      "postal_code": "66630",
+      "city": "Bengtsfors",
+      "email": "teji7212@gmail.com",
+      "phone": "0708101618",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 9,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 102,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/7",
+      "name": "Bengtsfors Pistolskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Bergsgatan 3",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "ovister@msn.com",
+      "phone": "0709377785",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 10,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 7,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/8",
+      "name": "Bengtsfors Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Knöstvikens ridhus",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "bengtsforsridklubb@outlook.com",
+      "phone": "0531 311 65",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Ridsport"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 11,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 8,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/186",
+      "name": "Bengtsfors Scoutkår",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Bergsgatan 7",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "sara.hojman@live.se",
+      "phone": "0763-08 99 60",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Scouting"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 12,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 186,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/36",
+      "name": "Bengtsforstraktens Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsarbete"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Gammelgården Majberget",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "info@gammelgarden.com",
+      "phone": "0730464429",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 13,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 36,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/11",
+      "name": "Billingsfors Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Billingsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Skiffervägen 6",
+      "postal_code": "66641",
+      "city": "Billingsfors",
+      "email": "561sh-elh@telia.com",
+      "phone": "0738423031",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Billingsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 14,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 11,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/12",
+      "name": "Billingsfors IK",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Billingsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Klövervägen 1A",
+      "postal_code": "66235",
+      "city": "Åmål",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Billingsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 15,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 12,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/13",
+      "name": "Billingsfors Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Billingsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Lindvägen 3",
+      "postal_code": "66641",
+      "city": "Billingsfors",
+      "email": "gudbrandur.mats@gmail.com",
+      "phone": "0703413908",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Innebandy"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Billingsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 16,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 13,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/14",
+      "name": "Billingsfors Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Billingsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Dingelvik, Västra Mon 49",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": "anders.hassel@edu.bengtsfors.se",
+      "phone": "0705773537",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Karate"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Billingsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 17,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 14,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/244",
+      "name": "Björneruds Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Hembygdsarbete"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Tunemyrsgatan 3",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "bjornerudsbyalag@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 18,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 244,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/38",
+      "name": "Bäcke Sockenstugeförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsarbete"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Kulturarrangemang",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Bäckefors"
+      ],
+      "homepage_url": null,
+      "street_address": "Hjulsrud 1",
+      "postal_code": "66894",
+      "city": "Bäckefors",
+      "email": "hjulsrud@hotmail.com",
+      "phone": "0702309853",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bäckefors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 19,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 38,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/15",
+      "name": "Bäckefors Atletklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Styrketräning"
+      ],
+      "categories": [
+        "Bäckefors"
+      ],
+      "homepage_url": null,
+      "street_address": "Källevägen 6",
+      "postal_code": "66895",
+      "city": "Ödskölt",
+      "email": "jim.jacobsson@telia.com",
+      "phone": "0730882860",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Styrketräning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bäckefors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 20,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 15,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/37",
+      "name": "Bäckefors Hembygds och Framtidsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård/Folkets Hus"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Hembygdsarbete",
+        "Kulturarrangemang",
+        "Samlingslokal"
+      ],
+      "categories": [
+        "Bäckefors"
+      ],
+      "homepage_url": null,
+      "street_address": "Lasarettsvägen 56",
+      "postal_code": "66840",
+      "city": "Bäckefors",
+      "email": "maylis.svensson@hotmail.com",
+      "phone": "0706874477",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Barnverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bäckefors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 21,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 37,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/16",
+      "name": "Bäckefors IF",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Längdåkning",
+        "Fotboll",
+        "Gymnastik",
+        "Tennis",
+        "Bordtennis"
+      ],
+      "categories": [
+        "Bäckefors"
+      ],
+      "homepage_url": null,
+      "street_address": "Gamla Bruksgatan 40",
+      "postal_code": "66840",
+      "city": "Bäckefors",
+      "email": "info.backeforsif@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Längdåkning"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Tennis"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bordtennis"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bäckefors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 22,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 16,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/17",
+      "name": "Bäckefors Jaktskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Bäckefors"
+      ],
+      "homepage_url": null,
+      "street_address": "Böle Svarthult 1",
+      "postal_code": "66893",
+      "city": "Ed",
+      "email": "johanssonreino@gmail.com",
+      "phone": "0709945889",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skytte"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bäckefors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 23,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 17,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/18",
+      "name": "Dals Långeds IK",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Längdåkning",
+        "Fotboll",
+        "Gymnastik",
+        "Motionsverksamhet"
+      ],
+      "categories": [
+        "Dals Långed"
+      ],
+      "homepage_url": null,
+      "street_address": "Stenebyvägen 18",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": "info@dlik.nu",
+      "phone": "0733327304",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Längdåkning"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Gymnastik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Motionsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dals Långed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 24,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 18,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/190",
+      "name": "Dals Långeds Kaféförening DLKF",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Caféverksamhet",
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Dals Långed"
+      ],
+      "homepage_url": "https://m.facebook.com/KafeSchuckert",
+      "street_address": "Enetsvägen 3",
+      "postal_code": "66695",
+      "city": "Dals Långed",
+      "email": "kerstin.adell@outlook.com",
+      "phone": "0725134673",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Caféverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dals Långed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 25,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 190,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/44",
+      "name": "Dals Långeds Utvecklingsråd",
+      "org_number": null,
+      "types": [
+        "Hembygdsarbete"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Kulturarrangemang",
+        "Övrigt"
+      ],
+      "categories": [
+        "Dals Långed"
+      ],
+      "homepage_url": null,
+      "street_address": "Kallkällevägen 32",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": "lars.thomas.erlandsson@gmail.com",
+      "phone": "0734205935",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dals Långed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 26,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 44,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/104",
+      "name": "Dalslands Konstförening",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Enesundsvägen 6",
+      "postal_code": "66695",
+      "city": "Dals Långed",
+      "email": "barbroebratt@telia.com",
+      "phone": "0709797950",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 27,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 104,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/106",
+      "name": "Dalslands Litteraturförening",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Box 14",
+      "postal_code": "66695",
+      "city": "Dals Långed",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 28,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 106,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/105",
+      "name": "Dalslands Skrivarförening",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Norebyn Björkliden",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": "boellofgren@hotmail.com",
+      "phone": "0706893108",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 29,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 105,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/437",
+      "name": "DHB Västra",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.dhb.se/vastra/startsidan/",
+      "street_address": "Storgatan 7",
+      "postal_code": "46236",
+      "city": "Vänersborg",
+      "email": "info@dhbvastra.se",
+      "phone": "0521-69610",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Barnverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 30,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 437,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/61",
+      "name": "Equmenia Bengtsfors",
+      "org_number": null,
+      "types": [
+        "Religion"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Ungdomsverksamhet",
+        "Scouting"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Bön Björkbacken",
+      "postal_code": "66693",
+      "city": "Gustavsfors",
+      "email": null,
+      "phone": "0703628338",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Barnverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Scouting"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 31,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 61,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/60",
+      "name": "Equmenia Bäckefors",
+      "org_number": null,
+      "types": [
+        "Religion"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Ungdomsverksamhet",
+        "Scouting"
+      ],
+      "categories": [
+        "Bäckefors"
+      ],
+      "homepage_url": null,
+      "street_address": "Skolgatan 2",
+      "postal_code": "66840",
+      "city": "Bäckefors",
+      "email": "margit.ilbratt@gmail.com",
+      "phone": "0706996964",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Barnverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Ungdomsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Scouting"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bäckefors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 32,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 60,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/101",
+      "name": "Filmföreningen på Dal",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Bio"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Centralbacken 6",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "kontakt@filmfestivalpadal.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Bio"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 33,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 101,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/50",
+      "name": "Folkets Hus Mustadfors",
+      "org_number": null,
+      "types": [
+        "Bygdegård/Folkets Hus"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Kulturarrangemang",
+        "Samlingslokal",
+        "Övrigt"
+      ],
+      "categories": [
+        "Dals Långed"
+      ],
+      "homepage_url": null,
+      "street_address": "Badplatsstigen 10",
+      "postal_code": "66695",
+      "city": "Dals Långed",
+      "email": "per.nordin@primomix.se",
+      "phone": "0706640875",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dals Långed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 34,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 50,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/54",
+      "name": "Folkparken Valhalls Framtid",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kulturarrangemang",
+        "Samlingslokal",
+        "Övrigt"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Hagegatan 8",
+      "postal_code": "66630",
+      "city": "Bengtsfors",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 35,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 54,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/58",
+      "name": "Föreningen Dalslands Guider",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Lilla Ransberg 1",
+      "postal_code": "46471",
+      "city": "Köpmannebro",
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 36,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 58,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/103",
+      "name": "Galleriföreningen Olika",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "street_address": "Krökersrudshöjden 5",
+      "postal_code": "46472",
+      "city": "Håverud",
+      "email": "ingerstranding@gmail.com",
+      "phone": "0702782073",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 37,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 103,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/53",
+      "name": "Gustavsfors Folkets Hus",
+      "org_number": null,
+      "types": [
+        "Bygdegård/Folkets Hus"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Kulturarrangemang",
+        "Samlingslokal",
+        "Övrigt"
+      ],
+      "categories": [
+        "Gustavsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Hastabergsvägen 2",
+      "postal_code": "66693",
+      "city": "Gustavsfors",
+      "email": "folketshus.gustavsfors@hotmail.com",
+      "phone": "0738383878",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gustavsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 38,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 53,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/19",
+      "name": "Gustavsfors IF",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Fotboll",
+        "Motionsverksamhet"
+      ],
+      "categories": [
+        "Gustavsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Ekhagsbacken 12",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": "jonas.lindell@passagen.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Motionsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Gustavsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 39,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 19,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/191",
+      "name": "Halmens Hus",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Kulturarrangemang",
+        "Övrigt"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Gammelgården",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "info@halmenshus.com",
+      "phone": "+46531528021",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 40,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 191,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/21",
+      "name": "IF Friskis och Svettis",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Motionsverksamhet"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Övre Terrassgatan 11",
+      "postal_code": "66641",
+      "city": "Billingsfors",
+      "email": "alicew@telia.com",
+      "phone": "0703561911",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motionsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 41,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 21,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/45",
+      "name": "Jenseruds Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Övrigt"
+      ],
+      "categories": [
+        "Dals Långed"
+      ],
+      "homepage_url": null,
+      "street_address": "Skogvaktarvägen 11",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": "jenserudsbyalag@gmail.com",
+      "phone": "0709665168",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dals Långed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 42,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 45,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/43",
+      "name": "Laxarby Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Övrigt"
+      ],
+      "categories": [
+        "Laxarby"
+      ],
+      "homepage_url": null,
+      "street_address": "Bratterud 2",
+      "postal_code": "66692",
+      "city": "Bengtsfors",
+      "email": null,
+      "phone": "0709616419",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Laxarby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 43,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 43,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/245",
+      "name": "Laxarby Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsarbete"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Övrigt"
+      ],
+      "categories": [
+        "Laxarby"
+      ],
+      "homepage_url": "https://hembygd.se/laxarby",
+      "street_address": "Laxarby Kroken Asphögen",
+      "postal_code": "66640",
+      "city": "Skåpafors",
+      "email": "0531.willy@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Laxarby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 44,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 245,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/22",
+      "name": "Laxarby IF",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Laxarby"
+      ],
+      "homepage_url": "https://www.laget.se/LAXARBYIF",
+      "street_address": "Tunemyrsgatan 3",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "laxarbyif@hotmail.com",
+      "phone": "0734205771",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Laxarby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 45,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 22,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/46",
+      "name": "Långeds Folkets Hus",
+      "org_number": null,
+      "types": [
+        "Bygdegård/Folkets Hus"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Kulturarrangemang",
+        "Samlingslokal",
+        "Övrigt"
+      ],
+      "categories": [
+        "Dals Långed"
+      ],
+      "homepage_url": null,
+      "street_address": "Tomtebacken 2",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": null,
+      "phone": "0531 40883",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dals Långed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 46,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 46,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/257",
+      "name": "Långeds garderob",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.langedsgarderob.se/",
+      "street_address": "Hemslöjdsvägen 2",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": "langedsgarderob@gmail.com",
+      "phone": "0736737217",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 47,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 257,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/25",
+      "name": "Mics Gymförening",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Styrketräning"
+      ],
+      "categories": [
+        "Billingsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Nedre Terrassgatan 22",
+      "postal_code": "66641",
+      "city": "Billingsfors",
+      "email": "freddybrynte@hotmail.com",
+      "phone": "0705701616",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Styrketräning"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Billingsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 48,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 25,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/56",
+      "name": "Musikföreningen Decibel",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Musik",
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Dals Långed"
+      ],
+      "homepage_url": null,
+      "street_address": "Hallebyvägen 5 J",
+      "postal_code": "66695",
+      "city": "Dals Långed",
+      "email": null,
+      "phone": "076 801 40 70",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Musik"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dals Långed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 49,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 56,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/47",
+      "name": "Odéon Bio & Teater/ IOGT Klipprosen",
+      "org_number": null,
+      "types": [
+        "Kultur"
+      ],
+      "activities": [
+        "Teater",
+        "Kulturarrangemang",
+        "Samlingslokal",
+        "Bio"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": "https://www.odeon.nu",
+      "street_address": "Centralbacken 6",
+      "postal_code": "66631",
+      "city": "Bengtsfors",
+      "email": "info@odeon.nu",
+      "phone": "0705830278",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Teater"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Bio"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 50,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 47,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/30",
+      "name": "PRO Bengtsfors",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionärsförening",
+        "Boule"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Årviksvägen 4",
+      "postal_code": "66632",
+      "city": "Bengtsfors",
+      "email": "bengtsfors@pro.se",
+      "phone": "0702887829",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Boule"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 51,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 30,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/31",
+      "name": "PRO Billingsfors",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Caféverksamhet",
+        "Pensionärsförening",
+        "Boule"
+      ],
+      "categories": [
+        "Billingsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Nedre Terrassgatan 49",
+      "postal_code": "66641",
+      "city": "Billingsfors",
+      "email": "solveig.nettelbo@gmail.com",
+      "phone": "0704134623",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Caféverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Boule"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Billingsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 52,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 31,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/35",
+      "name": "PRO Skåpafors-Laxarby",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Boule",
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Laxarby"
+      ],
+      "homepage_url": null,
+      "street_address": "Storgatan 14 B",
+      "postal_code": "66630",
+      "city": "Bengtsfors",
+      "email": null,
+      "phone": "0703851972",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Boule"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsförening"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Laxarby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 53,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 35,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/51",
+      "name": "Skåpafors Folkets Hus",
+      "org_number": null,
+      "types": [
+        "Bygdegård/Folkets Hus"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Samlingslokal",
+        "Övrigt"
+      ],
+      "categories": [
+        "Skåpafors"
+      ],
+      "homepage_url": null,
+      "street_address": "Tornvägen 2",
+      "postal_code": "66640",
+      "city": "Skåpafors",
+      "email": "peter@skapafors.se",
+      "phone": "0706970305",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Skåpafors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 54,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 51,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/23",
+      "name": "Skåpafors IF",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Motionsverksamhet"
+      ],
+      "categories": [
+        "Skåpafors"
+      ],
+      "homepage_url": null,
+      "street_address": "Södra Liden 1",
+      "postal_code": "66632",
+      "city": "Bengtsfors",
+      "email": "erik.skolvagen@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motionsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Skåpafors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 55,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 23,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/33",
+      "name": "SPF Seniorerna Bäcke-Ödskölt",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionärsförening",
+        "Boule"
+      ],
+      "categories": [
+        "Bäckefors"
+      ],
+      "homepage_url": null,
+      "street_address": "Ringvägen 2",
+      "postal_code": "66840",
+      "city": "Bäckefors",
+      "email": "spfbackeodskolt@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsförening"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Boule"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bäckefors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 56,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 33,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/34",
+      "name": "SPF Seniorerna Lelångsbygden",
+      "org_number": null,
+      "types": [
+        "Pensionär"
+      ],
+      "activities": [
+        "Pensionärsförening"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Storgatan 38 G",
+      "postal_code": "66630",
+      "city": "Bengtsfors",
+      "email": "lelangsbygden@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Pensionärsförening"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 57,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 34,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/55",
+      "name": "Steneby Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård/Folkets Hus"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Kulturarrangemang",
+        "Samlingslokal",
+        "Övrigt"
+      ],
+      "categories": [
+        "Steneby"
+      ],
+      "homepage_url": null,
+      "street_address": "Vammen Hagen 1",
+      "postal_code": "66694",
+      "city": "Dals Långed",
+      "email": "carinaisteneby@hotmail.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Steneby"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 58,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 55,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/24",
+      "name": "Steneby Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Billingsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Kvarnlyckevägen 39",
+      "postal_code": "66695",
+      "city": "Dals Långed",
+      "email": "rigor.nr1@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Skytte"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Billingsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 59,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 24,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/26",
+      "name": "Stigsökarna",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Orientering",
+        "Motionsverksamhet"
+      ],
+      "categories": [
+        "Bengtsfors"
+      ],
+      "homepage_url": null,
+      "street_address": "Storgatan 37",
+      "postal_code": "66630",
+      "city": "Bengtsfors",
+      "email": "stigsokarna@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Orientering"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Motionsverksamhet"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Bengtsfors"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 60,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 26,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/40",
+      "name": "Tisselskogs Byalag",
+      "org_number": null,
+      "types": [
+        "Hembygdsarbete"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Övrigt"
+      ],
+      "categories": [
+        "Tisselskog"
+      ],
+      "homepage_url": null,
+      "street_address": "Värnebo 20",
+      "postal_code": "66694",
+      "city": "Tisselskog",
+      "email": "warnebo@telia.com",
+      "phone": "0708484296",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Tisselskog"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 61,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 40,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/41",
+      "name": "Torrskogs Byalag",
+      "org_number": null,
+      "types": [
+        "Hembygdsarbete"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Övrigt"
+      ],
+      "categories": [
+        "Torrskog"
+      ],
+      "homepage_url": null,
+      "street_address": "Torrskog Stom Kyrkviken 2",
+      "postal_code": "66691",
+      "city": "Bengtsfors",
+      "email": "ulla.g.johansson@gmail.com",
+      "phone": "0531 25038",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torrskog"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 62,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 41,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/48",
+      "name": "Torrskogs Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård/Folkets Hus"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Caféverksamhet",
+        "Samlingslokal",
+        "Övrigt"
+      ],
+      "categories": [
+        "Torrskog"
+      ],
+      "homepage_url": null,
+      "street_address": "Barkerud Bollsbyn 4",
+      "postal_code": "66691",
+      "city": "Bengtsfors",
+      "email": "stefan.torrskog@hotmail.com",
+      "phone": "0705530132",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Caféverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Torrskog"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 63,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 48,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/27",
+      "name": "Varpaklubben Kulan",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Badminton",
+        "Volleyboll",
+        "Dart"
+      ],
+      "categories": [
+        "Dals Långed"
+      ],
+      "homepage_url": null,
+      "street_address": "Kvarnlyckevägen 16",
+      "postal_code": "66695",
+      "city": "Dals Långed",
+      "email": "bror_johannesson@hotmail.com",
+      "phone": "0703640718",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Badminton"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Volleyboll"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Dart"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dals Långed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 64,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 27,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/42",
+      "name": "Vikens Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Övrigt"
+      ],
+      "categories": [
+        "Dals Långed"
+      ],
+      "homepage_url": null,
+      "street_address": "Badplatsstigen 10",
+      "postal_code": "66695",
+      "city": "Dals Långed",
+      "email": "per.nordin@primomix.se",
+      "phone": "0706640875",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Dals Långed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 65,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 42,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/49",
+      "name": "Vårviks Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård/Folkets Hus"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Samlingslokal",
+        "Övrigt"
+      ],
+      "categories": [
+        "Vårvik"
+      ],
+      "homepage_url": null,
+      "street_address": "Vårviks Näs 30",
+      "postal_code": "66692",
+      "city": "Bengtsfors",
+      "email": "naslantbruk@hotmail.com",
+      "phone": "0706893034",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Vårvik"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 66,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 49,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/260",
+      "name": "Västra Götalands Parasportförbund",
+      "org_number": null,
+      "types": [
+        "Övriga"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://parasport.se/distrikt/vastra-gotaland",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anders.johannesson@parasport.se",
+      "phone": "0706861249",
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 67,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 260,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/39",
+      "name": "Ärtemarks Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Övrigt"
+      ],
+      "categories": [
+        "Ärtemark"
+      ],
+      "homepage_url": null,
+      "street_address": "Herrenäs Backen 2",
+      "postal_code": "66691",
+      "city": "Bengtsfors",
+      "email": "ulrika.sandberg@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ärtemark"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 68,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 39,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/28",
+      "name": "Ärtemarks IF",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Ärtemark"
+      ],
+      "homepage_url": null,
+      "street_address": "Grean Skopperud",
+      "postal_code": "66630",
+      "city": "Bengtsfors",
+      "email": "artemarksif@hotmail.com",
+      "phone": "0733911151",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Fotboll"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ärtemark"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 69,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 28,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/52",
+      "name": "Ödskölts Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegård/Folkets Hus"
+      ],
+      "activities": [
+        "Hembygdsarbete",
+        "Kulturarrangemang",
+        "Samlingslokal",
+        "Övrigt"
+      ],
+      "categories": [
+        "Ödskölt"
+      ],
+      "homepage_url": null,
+      "street_address": "Ödskölts Berg 40",
+      "postal_code": "66895",
+      "city": "Ödskölt",
+      "email": "inger.v.hedlund@gmail.com",
+      "phone": "0733123909",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Hembygdsarbete"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Kulturarrangemang"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Samlingslokal"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ödskölt"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 70,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 52,
+      "has_public_info": false
+    }
+  },
+  {
+    "source_system": "IBGO",
+    "municipality": "Bengtsfors",
+    "scrape_run_id": "26a52eda-3c20-4232-b372-464e7e42c789",
+    "scraped_at": "2025-10-27T04:20:25.323Z",
+    "association": {
+      "detail_url": "https://ibgo.bengtsfors.se/AssociationRegister#/association/29",
+      "name": "Ödskölts IF",
+      "org_number": null,
+      "types": [
+        "Idrott"
+      ],
+      "activities": [
+        "Motionsverksamhet",
+        "Övrigt"
+      ],
+      "categories": [
+        "Ödskölt"
+      ],
+      "homepage_url": null,
+      "street_address": "Källevägen 6",
+      "postal_code": "66895",
+      "city": "Ödskölt",
+      "email": "jim.jacobsson@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "label": "Verksamhet",
+            "items": [
+              {
+                "key": "Aktivitet",
+                "value": "Motionsverksamhet"
+              },
+              {
+                "key": "Aktivitet",
+                "value": "Övrigt"
+              }
+            ]
+          },
+          {
+            "label": "Områden",
+            "items": [
+              {
+                "key": "Område",
+                "value": "Ödskölt"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": null,
+      "position_on_page": 71,
+      "pagination_model": "single_api_call",
+      "filter_state": null
+    },
+    "extras": {
+      "ibgo_id": 29,
+      "has_public_info": false
+    }
+  }
+]

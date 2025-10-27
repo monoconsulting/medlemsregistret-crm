@@ -8,25 +8,26 @@ datasource db {
 }
 
 model Municipality {
-  id             String        @id @default(cuid())
-  name           String        @unique
-  code           String?       @unique
-  county         String?
-  region         String?
-  latitude       Float?
-  longitude      Float?
-  population     Int?
-  homepage       String?       @db.Text
-  createdAt      DateTime      @default(now())
-  updatedAt      DateTime      @updatedAt
-  platform       String?
-  province       String?
-  registerStatus String?
-  registerUrl    String?       @db.Text
-  countyCode     String?
-  associations   Association[]
-  importBatches  ImportBatch[]
-  scrapeRuns     ScrapeRun[]
+  id               String        @id @default(cuid())
+  name             String        @unique
+  code             String?       @unique
+  county           String?
+  region           String?
+  latitude         Float?
+  longitude        Float?
+  population       Int?
+  homepage         String?       @db.Text
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+  platform         String?
+  province         String?
+  registerStatus   String?
+  registerUrl      String?       @db.Text
+  registryEndpoint String?       @db.Text
+  countyCode       String?
+  associations     Association[]
+  importBatches    ImportBatch[]
+  scrapeRuns       ScrapeRun[]
 
   @@index([county])
   @@index([province])
@@ -42,7 +43,7 @@ model Association {
   municipality        String?
   scrapeRunId         String?
   scrapedAt           DateTime
-  detailUrl           String?              @unique
+  detailUrl           String?
   name                String
   orgNumber           String?
   types               Json
@@ -52,7 +53,7 @@ model Association {
   streetAddress       String?
   postalCode          String?
   city                String?
-  email               String?
+  email               String?              @db.Text
   phone               String?
   description         Json?
   descriptionFreeText String?              @db.Text
@@ -97,7 +98,7 @@ model Association {
 model Contact {
   id            String      @id @default(cuid())
   associationId String
-  name          String
+  name          String?
   role          String?
   email         String?
   phone         String?
@@ -228,6 +229,10 @@ model User {
   image         String?
   role          UserRole      @default(USER)
   passwordHash  String?
+  deletedAt     DateTime?
+  isDeleted     Boolean       @default(false)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
 
   accounts      Account[]
   sessions      Session[]
@@ -237,6 +242,9 @@ model User {
   associations  Association[] @relation("Association_assignedTo")
   createdTasks  Task[]        @relation("TaskCreatedBy")
   assignedTasks Task[]        @relation("TaskAssignedTo")
+
+  @@index([isDeleted])
+  @@index([email])
 }
 
 model Account {

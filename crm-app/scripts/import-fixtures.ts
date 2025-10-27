@@ -30,7 +30,7 @@ const VALID_MODES: ImportMode[] = ['new', 'update', 'replace']
 async function main() {
   const options = parseArgs(process.argv.slice(2))
   const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..')
-  const fixtureDir = path.join(rootDir, 'scraping', 'out')
+  const fixtureDir = path.join(rootDir, 'scraping', 'json')
   const archivePath = path.join(rootDir, 'scraping.zip')
 
   const candidates: FixtureCandidate[] = []
@@ -179,7 +179,7 @@ async function discoverArchiveFixtures(zipPath: string): Promise<FixtureCandidat
 
   for (const entryName of entries) {
     const normalized = entryName.toLowerCase()
-    if (!normalized.startsWith('scraping/out/')) {
+    if (!normalized.startsWith('scraping/json/')) {
       continue
     }
 

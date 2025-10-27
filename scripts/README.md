@@ -1,6 +1,38 @@
-# Database Backup Scripts
+# Database Scripts
 
-Detta är backup-skript för CRM-systemets MySQL-databas.
+Detta är skript för hantering av CRM-systemets MySQL-databas.
+
+## populate_tags.bat
+
+Populerar Tag-tabellen med data från föreningarnas fält (types, activities, categories) och länkar föreningar till dessa taggar.
+
+### Användning
+
+1. Se till att databasen är tillgänglig (dev- eller prod-miljö körs).
+
+2. Kör skriptet:
+   ```bash
+   scripts\populate_tags.bat
+   ```
+
+### Vad gör skriptet?
+
+- Extraherar unika taggar från `types`, `activities`, och `categories` fält i Association-tabellen
+- Normaliserar till lowercase och deduplicerar
+- Skapar unika Tag-poster (upsert)
+- Länkar föreningar till taggarna (skriver över befintliga länkar)
+- Bevarar originalvärden i fälten oförändrade
+
+### Varningar
+
+- Detta modifierar databasen permanent
+- Tag-tabellen antas vara tom initialt
+- Körs i batchar om 100 föreningar för prestanda
+
+### Efter körning
+
+- Kontrollera att taggar skapades: `npx prisma db studio`
+- Verifiera att föreningar har taggar länkade
 
 ## dbbackup_full.bat
 

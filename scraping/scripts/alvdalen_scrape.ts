@@ -2,6 +2,8 @@ import { chromium, Browser, Page, Locator } from 'playwright';
 import { v4 as uuidv4 } from 'uuid';
 import * as fs from 'fs';
 import * as path from 'path';
+import { sanitizeForValidation } from '../utils/sanitize';
+import { getScrapingPaths, runDatabaseImport, createLogger } from '../utils/scraper-base';
 
 // Configuration
 const SOURCE_SYSTEM = 'ActorSmartbook';
@@ -11,10 +13,13 @@ const SCRAPE_RUN_ID = uuidv4();
 const SCRAPED_AT = new Date().toISOString();
 
 // Output paths
-const OUTPUT_DIR = path.join(__dirname, 'out');
-const JSONL_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY}_associations_${SCRAPE_RUN_ID}.jsonl`);
-const JSON_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY}_associations_${SCRAPE_RUN_ID}.json`);
-const LOG_PATH = path.join(OUTPUT_DIR, `${MUNICIPALITY}.log`);
+const { jsonDir, logsDir } = getScrapingPaths();
+const JSON_PATH = path.join(jsonDir, `${MUNICIPALITY}.json`);
+const JSONL_PATH = path.join(jsonDir, `${MUNICIPALITY}.jsonl`);
+const LOG_PATH = path.join(logsDir, `${MUNICIPALITY}_log_${new Date().toISOString().split('T')[0]}.log`);
+
+// Logger
+const logger = createLogger(MUNICIPALITY);
 
 // Stats tracking
 let totalAssociations = 0;
@@ -58,13 +63,6 @@ interface AssociationRecord {
 }
 
 // Utility functions
-function log(message: string): void {
-  const timestamp = new Date().toISOString();
-  const logMessage = `[${timestamp}] ${message}`;
-  console.log(logMessage);
-  fs.appendFileSync(LOG_PATH, logMessage + '\n');
-}
-
 function normalizeString(value: string | null | undefined): string | null {
   if (!value) return null;
   const trimmed = value.trim();
@@ -127,7 +125,7 @@ async function waitForListReady(page: Page): Promise<void> {
     });
     await delay(800); // Additional stability wait for Actor Smartbook
   } catch (error) {
-    log(`Warning: waitForListReady timed out: ${error}`);
+    logger.info(`Warning: waitForListReady timed out: ${error}`);
   }
 }
 
@@ -155,7 +153,7 @@ async function goToNextPage(page: Page, retries: number = 2): Promise<boolean> {
       await waitForListReady(page);
       return true;
     } catch (error) {
-      log(`Error navigating to next page (attempt ${attempt + 1}/${retries}): ${error}`);
+      logger.info(`Error navigating to next page (attempt ${attempt + 1}/${retries}): ${error}`);
       if (attempt < retries - 1) {
         await delay(1000);
       }
@@ -188,7 +186,7 @@ async function openAssociationDetail(page: Page, index: number, retries: number 
       await delay(500);
       return true;
     } catch (error) {
-      log(`Error opening detail (attempt ${attempt + 1}/${retries}): ${error}`);
+      logger.info(`Error opening detail (attempt ${attempt + 1}/${retries}): ${error}`);
       if (attempt < retries - 1) {
         await delay(500);
       }
@@ -204,7 +202,7 @@ async function closeAssociationDetail(page: Page): Promise<void> {
     await closeButton.click();
     await delay(300);
   } catch (error) {
-    log(`Warning: Error closing detail modal: ${error}`);
+    logger.info(`Warning: Error closing detail modal: ${error}`);
   }
 }
 
@@ -230,7 +228,7 @@ async function extractFieldFromList(page: Page, labelText: string): Promise<stri
       }
     }
   } catch (error) {
-    log(`Warning: Error extracting field "${labelText}": ${error}`);
+    logger.info(`Warning: Error extracting field "${labelText}": ${error}`);
   }
   return null;
 }
@@ -275,7 +273,7 @@ async function extractDetailData(page: Page): Promise<{
       const headingText = await heading.textContent();
       result.name = normalizeString(headingText) || '';
     } catch {
-      log('Warning: Could not extract association name from modal header');
+      logger.info('Warning: Could not extract association name from modal header');
     }
 
     // Extract fields from ul.assn-info using the helper function
@@ -320,13 +318,13 @@ async function extractDetailData(page: Page): Promise<{
         }
       }
 
-      log(`  Extracted ${result.contacts.length} contact(s)`);
+      logger.info(`  Extracted ${result.contacts.length} contact(s)`);
     } catch (error) {
-      log(`Warning: Error extracting contacts table: ${error}`);
+      logger.info(`Warning: Error extracting contacts table: ${error}`);
     }
 
   } catch (error) {
-    log(`Warning: Error in extractDetailData: ${error}`);
+    logger.info(`Warning: Error in extractDetailData: ${error}`);
   }
 
   return result;
@@ -341,20 +339,20 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
   const associationCount = await getAssociationButtons(page);
 
   if (associationCount === 0) {
-    log(`Page ${pageIndex}: No associations found`);
+    logger.info(`Page ${pageIndex}: No associations found`);
     return records;
   }
 
-  log(`Page ${pageIndex}: Found ${associationCount} associations`);
+  logger.info(`Page ${pageIndex}: Found ${associationCount} associations`);
 
   for (let i = 0; i < associationCount; i++) {
     try {
-      log(`Page ${pageIndex}, Position ${i}: Opening detail...`);
+      logger.info(`Page ${pageIndex}, Position ${i}: Opening detail...`);
 
       // Open detail modal
       const opened = await openAssociationDetail(page, i);
       if (!opened) {
-        log(`Page ${pageIndex}, Position ${i}: Failed to open detail after retries, skipping`);
+        logger.info(`Page ${pageIndex}, Position ${i}: Failed to open detail after retries, skipping`);
         continue;
       }
 
@@ -362,12 +360,12 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
       const detailData = await extractDetailData(page);
 
       if (!detailData.name) {
-        log(`Page ${pageIndex}, Position ${i}: No name found, skipping`);
+        logger.info(`Page ${pageIndex}, Position ${i}: No name found, skipping`);
         await closeAssociationDetail(page);
         continue;
       }
 
-      log(`Page ${pageIndex}, Position ${i}: Processing "${detailData.name}"`);
+      logger.info(`Page ${pageIndex}, Position ${i}: Processing "${detailData.name}"`);
 
       // Build the record
       const record: AssociationRecord = {
@@ -417,7 +415,7 @@ async function scrapePage(page: Page, pageIndex: number): Promise<AssociationRec
       await randomDelay(300, 500);
 
     } catch (error) {
-      log(`Page ${pageIndex}, Position ${i}: Error processing association: ${error}`);
+      logger.info(`Page ${pageIndex}, Position ${i}: Error processing association: ${error}`);
       // Try to close modal if it's open
       try {
         await closeAssociationDetail(page);
@@ -435,11 +433,11 @@ async function getTotalPages(page: Page): Promise<number> {
     const match = bodyText?.match(/Sidan\s+(\d+)\s*\/\s*(\d+)/i);
     if (match) {
       const totalPages = parseInt(match[2]);
-      log(`Detected total pages: ${totalPages}`);
+      logger.info(`Detected total pages: ${totalPages}`);
       return totalPages;
     }
   } catch (error) {
-    log(`Warning: Could not detect total pages: ${error}`);
+    logger.info(`Warning: Could not detect total pages: ${error}`);
   }
   return 999; // Fallback to high number
 }
@@ -448,11 +446,11 @@ async function scrapeAllPages(page: Page): Promise<AssociationRecord[]> {
   const allRecords: AssociationRecord[] = [];
   let pageIndex = 1;
 
-  log('Starting scrape of all pages...');
+  logger.info('Starting scrape of all pages...');
 
   // Get total number of pages
   const totalPages = await getTotalPages(page);
-  log(`Will scrape ${totalPages} pages`);
+  logger.info(`Will scrape ${totalPages} pages`);
 
   // Scrape first page
   const firstPageRecords = await scrapePage(page, pageIndex);
@@ -461,11 +459,11 @@ async function scrapeAllPages(page: Page): Promise<AssociationRecord[]> {
   // Continue with remaining pages using "Nästa" button
   while (pageIndex < totalPages && await hasNextPage(page)) {
     pageIndex++;
-    log(`Navigating to page ${pageIndex}/${totalPages}...`);
+    logger.info(`Navigating to page ${pageIndex}/${totalPages}...`);
 
     const success = await goToNextPage(page);
     if (!success) {
-      log(`Failed to navigate to page ${pageIndex}, stopping pagination`);
+      logger.info(`Failed to navigate to page ${pageIndex}, stopping pagination`);
       break;
     }
 
@@ -474,63 +472,63 @@ async function scrapeAllPages(page: Page): Promise<AssociationRecord[]> {
 
     // Stop if we've reached the total pages
     if (pageIndex >= totalPages) {
-      log(`Reached final page ${pageIndex}/${totalPages}, stopping`);
+      logger.info(`Reached final page ${pageIndex}/${totalPages}, stopping`);
       break;
     }
   }
 
-  log(`Completed scraping ${pageIndex} pages out of ${totalPages} total`);
+  logger.info(`Completed scraping ${pageIndex} pages out of ${totalPages} total`);
   return allRecords;
 }
 
 async function main(): Promise<void> {
   // Ensure output directory exists
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  if (!fs.existsSync(jsonDir)) {
+    fs.mkdirSync(jsonDir, { recursive: true });
   }
 
-  // Initialize log file
-  fs.writeFileSync(LOG_PATH, `Scrape started at ${SCRAPED_AT}\n`);
-  fs.appendFileSync(LOG_PATH, `Run ID: ${SCRAPE_RUN_ID}\n`);
-  fs.appendFileSync(LOG_PATH, `Municipality: ${MUNICIPALITY}\n`);
-  fs.appendFileSync(LOG_PATH, `Source System: ${SOURCE_SYSTEM}\n\n`);
-
-  log('Launching browser...');
-  const browser = await chromium.launch({ headless: false });
+  logger.info('Launching browser...');
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
     viewport: { width: 3440, height: 1440 }
   });
   const page = await context.newPage();
 
   try {
-    log(`Navigating to ${BASE_URL}...`);
+    logger.info(`Navigating to ${BASE_URL}...`);
     await page.goto(BASE_URL);
     await randomDelay(1000, 1500);
 
     // Scrape all pages
     const allRecords = await scrapeAllPages(page);
 
+    // Sanitize records
+    const sanitizedRecords = sanitizeForValidation(allRecords);
+
     // Write pretty JSON
-    log('Writing pretty JSON file...');
-    await writePrettyJson(allRecords);
+    logger.info('Writing pretty JSON file...');
+    await writePrettyJson(sanitizedRecords);
+
+    // Import to database
+    await runDatabaseImport();
 
     // Log summary
-    log('\n=== SCRAPE SUMMARY ===');
-    log(`Total associations scraped: ${totalAssociations}`);
-    log(`Distinct homepage domains: ${homepageDomains.size}`);
-    log(`Records missing org_number: ${missingOrgNumber}`);
-    log(`Records missing contacts: ${missingContacts}`);
-    log(`\nOutput files:`);
-    log(`  JSONL: ${JSONL_PATH}`);
-    log(`  JSON: ${JSON_PATH}`);
-    log(`  Log: ${LOG_PATH}`);
+    logger.info('\n=== SCRAPE SUMMARY ===');
+    logger.info(`Total associations scraped: ${totalAssociations}`);
+    logger.info(`Distinct homepage domains: ${homepageDomains.size}`);
+    logger.info(`Records missing org_number: ${missingOrgNumber}`);
+    logger.info(`Records missing contacts: ${missingContacts}`);
+    logger.info(`\nOutput files:`);
+    logger.info(`  JSONL: ${JSONL_PATH}`);
+    logger.info(`  JSON: ${JSON_PATH}`);
+    logger.info(`  Log: ${LOG_PATH}`);
 
   } catch (error) {
-    log(`FATAL ERROR: ${error}`);
+    logger.info(`FATAL ERROR: ${error}`);
     throw error;
   } finally {
     await browser.close();
-    log('\nBrowser closed. Scrape complete.');
+    logger.info('\nBrowser closed. Scrape complete.');
   }
 }
 

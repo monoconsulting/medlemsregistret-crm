@@ -1,0 +1,272 @@
+{
+  "timestamp": "2025-10-26T13:14:07.949Z",
+  "summary": {
+    "total": 29,
+    "successful": 0,
+    "failed": 29,
+    "totalAssociations": 6323
+  },
+  "results": [
+    {
+      "municipality": "Ale",
+      "registerUrl": "https://ale.ibgo.se/AssociationRegister",
+      "derivedEndpoint": "https://ale.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 187,
+      "error": null,
+      "responseTime": 329
+    },
+    {
+      "municipality": "Älvsbyn",
+      "registerUrl": "https://alvsbyn.interbookfri.se/#/AssociationRegister",
+      "derivedEndpoint": "https://alvsbyn.interbookfri.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 95,
+      "error": null,
+      "responseTime": 524
+    },
+    {
+      "municipality": "Åmål",
+      "registerUrl": "https://saffle.ibgo.se/#/AssociationRegister",
+      "derivedEndpoint": "https://saffle.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 130,
+      "error": null,
+      "responseTime": 212
+    },
+    {
+      "municipality": "Ånge",
+      "registerUrl": "https://ange.ibgo.se/AssociationRegister",
+      "derivedEndpoint": "https://ange.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 119,
+      "error": null,
+      "responseTime": 562
+    },
+    {
+      "municipality": "Arvika",
+      "registerUrl": "https://arvika.ibgo.se/",
+      "derivedEndpoint": "https://arvika.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 290,
+      "error": null,
+      "responseTime": 547
+    },
+    {
+      "municipality": "Åtvidaberg",
+      "registerUrl": "https://atvidaberg.interbookfri.se/#/AssociationRegister",
+      "derivedEndpoint": "https://atvidaberg.interbookfri.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 22,
+      "error": null,
+      "responseTime": 204
+    },
+    {
+      "municipality": "Avesta",
+      "registerUrl": "https://avesta.ibgo.se/#/AssociationRegister",
+      "derivedEndpoint": "https://avesta.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 222,
+      "error": null,
+      "responseTime": 552
+    },
+    {
+      "municipality": "Bengtsfors",
+      "registerUrl": "https://ibgo.bengtsfors.se/AssociationRegister",
+      "derivedEndpoint": "https://ibgo.bengtsfors.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 72,
+      "error": null,
+      "responseTime": 703
+    },
+    {
+      "municipality": "Borlänge",
+      "registerUrl": "https://ibgo.borlange.se/AssociationRegister",
+      "derivedEndpoint": "https://ibgo.borlange.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 344,
+      "error": null,
+      "responseTime": 467
+    },
+    {
+      "municipality": "Botkyrka",
+      "registerUrl": "https://botkyrka.ibgo.se/AssociationRegister",
+      "derivedEndpoint": "https://botkyrka.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 300,
+      "error": null,
+      "responseTime": 495
+    },
+    {
+      "municipality": "Burlöv",
+      "registerUrl": "https://ibgo.burlov.se/AssociationRegister",
+      "derivedEndpoint": "https://ibgo.burlov.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 71,
+      "error": null,
+      "responseTime": 301
+    },
+    {
+      "municipality": "Degerfors",
+      "registerUrl": "https://degerfors.ibgo.se/#/AssociationRegister",
+      "derivedEndpoint": "https://degerfors.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 120,
+      "error": null,
+      "responseTime": 479
+    },
+    {
+      "municipality": "Eda",
+      "registerUrl": "https://eda.ibgo.se/#/",
+      "derivedEndpoint": "https://eda.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 53,
+      "error": null,
+      "responseTime": 543
+    },
+    {
+      "municipality": "Finspång",
+      "registerUrl": "https://finspang.ibgo.se/#/AssociationRegister",
+      "derivedEndpoint": "https://finspang.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 106,
+      "error": null,
+      "responseTime": 418
+    },
+    {
+      "municipality": "Gnesta",
+      "registerUrl": "https://gnesta.interbookfri.se/",
+      "derivedEndpoint": "https://gnesta.interbookfri.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 75,
+      "error": null,
+      "responseTime": 207
+    },
+    {
+      "municipality": "Gotland",
+      "registerUrl": "https://gotland.ibgo.se/#/AssociationRegister",
+      "derivedEndpoint": "https://gotland.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 438,
+      "error": null,
+      "responseTime": 288
+    },
+    {
+      "municipality": "Hammarö",
+      "registerUrl": "https://ibgo.hammaro.se/AssociationRegister",
+      "derivedEndpoint": "https://ibgo.hammaro.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 75,
+      "error": null,
+      "responseTime": 481
+    },
+    {
+      "municipality": "Haninge",
+      "registerUrl": "https://haninge.rbok.se/foreningsregister",
+      "derivedEndpoint": "https://haninge.rbok.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": false,
+      "associationCount": null,
+      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "responseTime": 82
+    },
+    {
+      "municipality": "Katrineholm",
+      "registerUrl": "https://katrineholm.ibgo.se/AssociationRegister",
+      "derivedEndpoint": "https://katrineholm.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 212,
+      "error": null,
+      "responseTime": 256
+    },
+    {
+      "municipality": "Ljusdal",
+      "registerUrl": "https://interbook.ljusdal.se/AssociationRegister",
+      "derivedEndpoint": "https://interbook.ljusdal.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 194,
+      "error": null,
+      "responseTime": 298
+    },
+    {
+      "municipality": "Motala",
+      "registerUrl": "https://ibgo.motala.se/AssociationRegister",
+      "derivedEndpoint": "https://ibgo.motala.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 286,
+      "error": null,
+      "responseTime": 459
+    },
+    {
+      "municipality": "Nybro",
+      "registerUrl": "https://ibgo.nybro.se/#/AssociationRegister",
+      "derivedEndpoint": "https://ibgo.nybro.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 219,
+      "error": null,
+      "responseTime": 254
+    },
+    {
+      "municipality": "Örebro",
+      "registerUrl": "https://orebro.ibgo.se/",
+      "derivedEndpoint": "https://orebro.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 519,
+      "error": null,
+      "responseTime": 294
+    },
+    {
+      "municipality": "Örnsköldsvik",
+      "registerUrl": "https://ornskoldsvik.ibgo.se/AssociationRegister",
+      "derivedEndpoint": "https://ornskoldsvik.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 585,
+      "error": null,
+      "responseTime": 371
+    },
+    {
+      "municipality": "Säffle",
+      "registerUrl": "https://saffle.ibgo.se/#/",
+      "derivedEndpoint": "https://saffle.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 130,
+      "error": null,
+      "responseTime": 222
+    },
+    {
+      "municipality": "Skellefteå",
+      "registerUrl": "https://ibgo.skelleftea.se/AssociationRegister",
+      "derivedEndpoint": "https://ibgo.skelleftea.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 789,
+      "error": null,
+      "responseTime": 300
+    },
+    {
+      "municipality": "Torsby",
+      "registerUrl": "https://torsby.ibgo.se/#/AssociationRegister",
+      "derivedEndpoint": "https://torsby.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 239,
+      "error": null,
+      "responseTime": 446
+    },
+    {
+      "municipality": "Trosa",
+      "registerUrl": "https://trosa.ibgo.se/",
+      "derivedEndpoint": "https://trosa.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 63,
+      "error": null,
+      "responseTime": 215
+    },
+    {
+      "municipality": "Varberg",
+      "registerUrl": "https://varberg.ibgo.se/#/AssociationRegister",
+      "derivedEndpoint": "https://varberg.ibgo.se/APIAssociationRegister/GetAssociationsList/",
+      "isValid": true,
+      "associationCount": 368,
+      "error": null,
+      "responseTime": 263
+    }
+  ]
+}

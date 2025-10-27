@@ -1,0 +1,3779 @@
+[
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Dagsholm Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.dagsholmgolf.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=DGOLF",
+      "street_address": "Dagsholm 12",
+      "postal_code": "458 92",
+      "city": "Färgelanda",
+      "email": "info@dagsholmgolf.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2010",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Golfförbundet",
+              "verksamhet_raw": "Golf",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars-åke jansson",
+        "contact_person_role": null,
+        "contact_person_email": "lagjansson@outlook.com",
+        "contact_person_phone": "+46705603130"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-5603130"
+      },
+      "founded_year": 2010,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Golfförbundet",
+      "verksamhet_raw": "Golf"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Dals Dansklubb Färgelanda",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [],
+      "homepage_url": "http://www5.idrottonline.se/Dals%20DK-Danssport",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=DDK",
+      "street_address": "Spikklipparevägen 2",
+      "postal_code": "458 40",
+      "city": "Ödeborg",
+      "email": "jennylarsson75@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Danssportförbundet",
+              "verksamhet_raw": "Dans",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jenny larsson",
+        "contact_person_role": null,
+        "contact_person_email": "jennylarsson75@gmail.com",
+        "contact_person_phone": "+46738055663"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0738 055663"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Danssportförbundet",
+      "verksamhet_raw": "Dans"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Dals Motorklubb Folkrace",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Folkrace",
+        "Motor"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.dalsmotorklubb.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=DMK",
+      "street_address": "Högsäter Prästgård 19",
+      "postal_code": "458 70",
+      "city": "Högsäter",
+      "email": "martin.krangh@kynningsrud.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "SBF",
+              "verksamhet_raw": "Folkrace, Motor",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin krångh",
+        "contact_person_role": null,
+        "contact_person_email": "martin.krangh@kynningsrud.se",
+        "contact_person_phone": "+46707714308"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-7714308"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "SBF",
+      "verksamhet_raw": "Folkrace, Motor"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Dalslands ballongklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ballongflygning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.dalslandsballongklubb.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=DBK",
+      "street_address": "Norra Kyrkovägen 7",
+      "postal_code": "458 70",
+      "city": "Högsäter",
+      "email": "eva@dalslandsballongklubb.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2004",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Flygsportförbund",
+              "verksamhet_raw": "Ballongflygning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva olsson",
+        "contact_person_role": null,
+        "contact_person_email": "eva@dalslandsballongklubb.se",
+        "contact_person_phone": "+46706640523"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0706 640523"
+      },
+      "founded_year": 2004,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Flygsportförbund",
+      "verksamhet_raw": "Ballongflygning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Dalslands Södra biodlarförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Biodling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=DAL-BI",
+      "street_address": "Kärr 300",
+      "postal_code": "464 63",
+      "city": "Brålanda",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Biodlares riksförbund",
+              "verksamhet_raw": "Biodling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik oskarsson",
+        "contact_person_role": null,
+        "contact_person_email": "erik.oskarsson@telia.com",
+        "contact_person_phone": "+4652871482"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Biodlares riksförbund",
+      "verksamhet_raw": "Biodling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Ellenö Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.idrottonline.se/f%C3%A4rgelanda/ellenoik-fotboll",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=EIK",
+      "street_address": "Violinvägen 83",
+      "postal_code": "451 62",
+      "city": "Uddevalla",
+      "email": "chja1211@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Riksidrottsförbundet",
+              "verksamhet_raw": "Fotboll, Innebandy",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christoffer jansson",
+        "contact_person_role": null,
+        "contact_person_email": "chja1211@gmail.com",
+        "contact_person_phone": "+46707466642"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0707 466642"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Riksidrottsförbundet",
+      "verksamhet_raw": "Fotboll, Innebandy"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Friskis och Svettis Färgelanda",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.friskissvettis.se/fargelanda",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FOCHS",
+      "street_address": "Råggärds Stom 7",
+      "postal_code": "458 96",
+      "city": "Högsäter",
+      "email": "friskisfargelanda@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2003",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Gymnastik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Caroline josefsson",
+        "contact_person_role": null,
+        "contact_person_email": "c-j-90@hotmail.com",
+        "contact_person_phone": "+46736574699"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0736 574699"
+      },
+      "founded_year": 2003,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Gymnastik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Arbetarekommun",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [
+        "Politisk verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FARBK",
+      "street_address": "Centrumvägen 8",
+      "postal_code": "458 32",
+      "city": "Färgelanda",
+      "email": "ulla.borjesson@fargelanda.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Politisk verksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulla börjesson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46528567110"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Politisk verksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Brukshundsklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Hunddressyr"
+      ],
+      "categories": [],
+      "homepage_url": "http://wwwfargelandabhk.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FBHK",
+      "street_address": "Skogsvägen 20",
+      "postal_code": "458 94",
+      "city": "Stigen",
+      "email": "maria@larwass.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Brukshundsklubben",
+              "verksamhet_raw": "Hunddressyr",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria larsson",
+        "contact_person_role": null,
+        "contact_person_email": "maria@larwass.se",
+        "contact_person_phone": "+46739060633"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073-9060633"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Brukshundsklubben",
+      "verksamhet_raw": "Hunddressyr"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Foto"
+      ],
+      "categories": [],
+      "homepage_url": "http://fargelandafotoklubb.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FOTOK",
+      "street_address": "Torsbyn 10",
+      "postal_code": "458 91",
+      "city": "Färgelanda",
+      "email": "fargelandafotoklubb@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2012",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Foto",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger myrström",
+        "contact_person_role": null,
+        "contact_person_email": "ortaberget@home.se",
+        "contact_person_phone": "+46768822490"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "founded_year": 2012,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Foto"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.fargelandaif.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FIF",
+      "street_address": "Dyrtorpsvallen",
+      "postal_code": "458 32",
+      "city": "Färgelanda",
+      "email": "fargelanda.if@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "RF",
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monica uthberg",
+        "contact_person_role": null,
+        "contact_person_email": "monica.uthberg@gmail.com",
+        "contact_person_phone": "+46705763805"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0705 763805"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "RF",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Jaktvårdskret",
+      "org_number": null,
+      "types": [
+        "Jaktförening"
+      ],
+      "activities": [
+        "Jakt"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FJVK",
+      "street_address": "Genavägen 47",
+      "postal_code": "458 70",
+      "city": "Högsäter",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Jägarförbundet",
+              "verksamhet_raw": "Jakt",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan olsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4652840232"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Jägarförbundet",
+      "verksamhet_raw": "Jakt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Judo"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.fjk.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FJK",
+      "street_address": "Gränsenvägen 13",
+      "postal_code": "458 32",
+      "city": "Färgelanda",
+      "email": "info@fargelandajudo.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Judoförbundet",
+              "verksamhet_raw": "Judo",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy widekärr",
+        "contact_person_role": null,
+        "contact_person_email": "tommy.widekarr@gmail.com",
+        "contact_person_phone": "+46705526126"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0705 526126"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Judoförbundet",
+      "verksamhet_raw": "Judo"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Parasportförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handikappidrott"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FHIF",
+      "street_address": "Sandbäcken 1",
+      "postal_code": "458 93",
+      "city": "Färgelanda",
+      "email": "ebba.sensier@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Parasportförbundet",
+              "verksamhet_raw": "Handikappidrott",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ebba sensier",
+        "contact_person_role": null,
+        "contact_person_email": "ebba.sensier@gmail.com",
+        "contact_person_phone": "+46739480503"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0739 480503"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Parasportförbundet",
+      "verksamhet_raw": "Handikappidrott"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.frk.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FRK",
+      "street_address": "Slätthult 182",
+      "postal_code": "458 93",
+      "city": "Färgelanda",
+      "email": "ridskola@frk.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Ridsportförbundet",
+              "verksamhet_raw": "Ridverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marianne göthberg",
+        "contact_person_role": null,
+        "contact_person_email": "ridskola@frk.se",
+        "contact_person_phone": "+46762496634"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "076 2496634"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Ridsportförbundet",
+      "verksamhet_raw": "Ridverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FTF",
+      "street_address": "Vävarevägen 4",
+      "postal_code": "458 94",
+      "city": "Stigen",
+      "email": "kerstin.fredriksson@fargelanda.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Riksteatern",
+              "verksamhet_raw": "Kultur, Teater",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann blomberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46705223514"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0705 223 514"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Riksteatern",
+      "verksamhet_raw": "Kultur, Teater"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Rödakorskrets",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Hjälp"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=DALVAL",
+      "street_address": "Slåttervägen 13",
+      "postal_code": "458 31",
+      "city": "Färgelanda",
+      "email": "astridberggren2@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "RK",
+              "verksamhet_raw": "Hjälp",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Astrid berggren",
+        "contact_person_role": null,
+        "contact_person_email": "astridberggren2@gmail.com",
+        "contact_person_phone": "+46738002830"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073 8002830"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "RK",
+      "verksamhet_raw": "Hjälp"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Scoutkår",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Scoutverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.flascout.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FSK",
+      "street_address": "Ålnäs 1 Björklunden 1",
+      "postal_code": "458 91",
+      "city": "Färgelanda",
+      "email": "flascout@live.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Scoutförbundet",
+              "verksamhet_raw": "Scoutverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven melkersson",
+        "contact_person_role": null,
+        "contact_person_email": "sven.melkersson@gmail.com",
+        "contact_person_phone": "+46703287371"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070 3287371"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Scoutförbundet",
+      "verksamhet_raw": "Scoutverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Släktforskarförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Släktforskning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.fargelandasf.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FSF",
+      "street_address": "Ljungvägen 1",
+      "postal_code": "458 31",
+      "city": "Färgelanda",
+      "email": "in.lindhe@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Släktforskarförening",
+              "verksamhet_raw": "Släktforskning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingemar lindhe",
+        "contact_person_role": null,
+        "contact_person_email": "in.lindhe@telia.com",
+        "contact_person_phone": "+4652871468"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Släktforskarförening",
+      "verksamhet_raw": "Släktforskning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Spinningklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Spinning"
+      ],
+      "categories": [],
+      "homepage_url": "http://fargelandaspinningklubb@weben.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FS",
+      "street_address": "Stuveryr 9",
+      "postal_code": "458 92",
+      "city": "Färgelanda",
+      "email": "ebbeman@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Spinning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin bäckström",
+        "contact_person_role": null,
+        "contact_person_email": "malintbackstrom@gmail.com",
+        "contact_person_phone": "+46704801735"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0704 801735"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Spinning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Färgelanda Vi Unga Klubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Ungdomsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FVU",
+      "street_address": "Norra Edstena 13",
+      "postal_code": "458 96",
+      "city": "Högsäter",
+      "email": "tobbe_100@outlook.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Förbundet Vi Unga",
+              "verksamhet_raw": "Ungdomsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tobias ericsson",
+        "contact_person_role": null,
+        "contact_person_email": "tobbe_100@outlook.com",
+        "contact_person_phone": "+46707275990"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0707 275990"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Förbundet Vi Unga",
+      "verksamhet_raw": "Ungdomsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Handbollsklubben HÖFERS",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hkhofers.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HKH",
+      "street_address": "Gränsenvägen 26",
+      "postal_code": "458 32",
+      "city": "Färgelanda",
+      "email": "hkhofers@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Handbollsförbundet",
+              "verksamhet_raw": "Handboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna baldesjö",
+        "contact_person_role": null,
+        "contact_person_email": "anna_baldesjo@hotmail.com",
+        "contact_person_phone": "+46707591976"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-7591976"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Handbollsförbundet",
+      "verksamhet_raw": "Handboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "HEF Valbo BK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.svenskalag.se/hefvalbobk",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HEF",
+      "street_address": "458 92",
+      "postal_code": "458 92",
+      "city": "Färgelanda",
+      "email": "hefvalbobk@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Fotbollsförbundet",
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna fredriksson",
+        "contact_person_role": null,
+        "contact_person_email": "annakfredriksson@hotmail.com",
+        "contact_person_phone": "+46737129985"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073 7129985"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Fotbollsförbundet",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäter Gym",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Styrketräning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hogsatergym.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HGFSTYR",
+      "street_address": "Rännelandavägen 13",
+      "postal_code": "458 70",
+      "city": "Högsäter",
+      "email": "rune.andersson@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2015",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Styrketräning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rune andersson",
+        "contact_person_role": null,
+        "contact_person_email": "rune.andersson@gmail.com",
+        "contact_person_phone": "+46707984932"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0707 984932"
+      },
+      "founded_year": 2015,
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Styrketräning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäters Bouleförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HBOULE",
+      "street_address": "Kvarntorp 4",
+      "postal_code": "458 96",
+      "city": "Högsäter",
+      "email": "hogsaterboule@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Boule",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Boule"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäters Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Bygdens utveckling"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hogsater.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HBYALAG",
+      "street_address": "Norra Kyrkovägen 7",
+      "postal_code": "458 70",
+      "city": "Högsäter",
+      "email": "info@hogsater.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Hela Sverige ska leva",
+              "verksamhet_raw": "Bygdens utveckling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva olsson",
+        "contact_person_role": null,
+        "contact_person_email": "eva@pkdata.se",
+        "contact_person_phone": "+46706640523"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070 6640523"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Hela Sverige ska leva",
+      "verksamhet_raw": "Bygdens utveckling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäters Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Filmvisning"
+      ],
+      "categories": [],
+      "homepage_url": "http://hogsater.com/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=H%c3%96BYG",
+      "street_address": "Lingonvägen 9",
+      "postal_code": "458 70",
+      "city": "Högsäter",
+      "email": "bygdegarden@hogsater.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Bygdegårdarnas Riksförbund",
+              "verksamhet_raw": "Filmvisning",
+              "short_description": "Filmvisning"
+            }
+          }
+        ],
+        "free_text": "Filmvisning"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars christiansen",
+        "contact_person_role": null,
+        "contact_person_email": "lars.c@icloud.com",
+        "contact_person_phone": "+46761757739"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0761 757739"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Bygdegårdarnas Riksförbund",
+      "verksamhet_raw": "Filmvisning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäters Centerkvinnor",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [
+        "Politisk verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HCK",
+      "street_address": "Frejas väg 10",
+      "postal_code": "458 70",
+      "city": "Högsäter",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Politisk verksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Barbro karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "bolk@telia.com",
+        "contact_person_phone": "+4652840354"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Politisk verksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäters GF Fotboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.laget.se/HogsatersGF",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HGF",
+      "street_address": "Genevi IP",
+      "postal_code": "458 70",
+      "city": "Högsäter",
+      "email": "hgf_fotboll@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "RF",
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johnny malm",
+        "contact_person_role": null,
+        "contact_person_email": "hgf_fotboll@telia.com",
+        "contact_person_phone": "+46707196388"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0707 196388"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "RF",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäters Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/hogsater",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HHBF",
+      "street_address": "Tveten",
+      "postal_code": "458 97",
+      "city": "Högsäter",
+      "email": "ulfrag123@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1953",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Hembygsförbund",
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulf ragnesten",
+        "contact_person_role": null,
+        "contact_person_email": "ulfrag123@gmail.com",
+        "contact_person_phone": "+46705451815"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070 5451815"
+      },
+      "founded_year": 1953,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Hembygsförbund",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäters kyrkliga samfällighet",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Kyrklig verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HKSF",
+      "street_address": "Allèvägen 1",
+      "postal_code": "458 70",
+      "city": "Högsäter",
+      "email": "hogsaters.pastorat@svenskakyrkan.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kyrklig verksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Saknas",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kyrklig verksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäters Skidklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skidåkning"
+      ],
+      "categories": [],
+      "homepage_url": "https://hogsaterskidklubb.klubbenonline.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HGFS",
+      "street_address": "Rösäter 6",
+      "postal_code": "458 97",
+      "city": "Högsäter",
+      "email": "perssonsgot@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2015",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "SSF",
+              "verksamhet_raw": "Skidåkning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Barbro andersson",
+        "contact_person_role": null,
+        "contact_person_email": "baran7@telia.com",
+        "contact_person_phone": "+46705237092"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0705 237092"
+      },
+      "founded_year": 2015,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "SSF",
+      "verksamhet_raw": "Skidåkning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Högsäters tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HGFTENNIS",
+      "street_address": "Tosterud 1",
+      "postal_code": "458 96",
+      "city": "Högäster",
+      "email": "sten.inge.magnusson@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2015",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Tennisförbundet",
+              "verksamhet_raw": "Tennis",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sten magnusson",
+        "contact_person_role": null,
+        "contact_person_email": "sten.inge.magnusson@gmail.com",
+        "contact_person_phone": "+46768790060"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0768 790060"
+      },
+      "founded_year": 2015,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Tennisförbundet",
+      "verksamhet_raw": "Tennis"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Järbo byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Bygdens utveckling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=J%c3%84R+BYA",
+      "street_address": "Låkön 11",
+      "postal_code": "458 97",
+      "city": "Högsäter",
+      "email": "sune.f@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Bygdens utveckling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Edit fredriksson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4653092164"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Bygdens utveckling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Järbo Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Samlingslokal"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=J%c3%84RBYG",
+      "street_address": "Nordgårdsgärdet 42",
+      "postal_code": "458 97",
+      "city": "Högsäter",
+      "email": "nyckelpigan_96@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Bygdegårdarnas Riksförbund",
+              "verksamhet_raw": "Samlingslokal",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maj andersson",
+        "contact_person_role": null,
+        "contact_person_email": "maj.lm.andersson@gmail.com",
+        "contact_person_phone": "+46761413799"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "076 1413799"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Bygdegårdarnas Riksförbund",
+      "verksamhet_raw": "Samlingslokal"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Järbo Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://jarbo-dalsland.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=JHEM",
+      "street_address": "Vinnsäter",
+      "postal_code": "458 97",
+      "city": "Högsäter",
+      "email": "sekr@jarbo-dalsland.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Hembygsförbund",
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva fred",
+        "contact_person_role": null,
+        "contact_person_email": "eva@fred.st",
+        "contact_person_phone": "+46703163241"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0703 163241"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Hembygsförbund",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Kulturföreningen Allhem i Färgelanda",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=KFAF",
+      "street_address": "Håbyn 6",
+      "postal_code": "458 93",
+      "city": "Färgelanda",
+      "email": "kaif.kultur@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2023",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Folkets Hus o Parker",
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Yvonne pettersson",
+        "contact_person_role": null,
+        "contact_person_email": "dalmanstorp@hotmail.com",
+        "contact_person_phone": "+46723135512"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0723 135512"
+      },
+      "founded_year": 2023,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Folkets Hus o Parker",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Lerdals Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Bygdens utveckling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=LERBYA",
+      "street_address": "Lerdals Stom 6",
+      "postal_code": "458 96",
+      "city": "Högsäter",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Bygdens utveckling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Claes edquist",
+        "contact_person_role": null,
+        "contact_person_email": "beritedquist@gmail.com",
+        "contact_person_phone": "+4652860013"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Bygdens utveckling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Lerdals Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd/lerdal",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=LHBF",
+      "street_address": "Lerdal Björnerud 4",
+      "postal_code": "458 96",
+      "city": "Högsäter",
+      "email": "m.christina.gustafsson@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Hembygsförbund",
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christina gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "m.christina.gustafsson@telia.com",
+        "contact_person_phone": "+46702439460"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-2439460"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Hembygsförbund",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Lerdals Jaktvårdsförening",
+      "org_number": null,
+      "types": [
+        "Jaktförening"
+      ],
+      "activities": [
+        "Jakt"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=LJVF",
+      "street_address": "Gillanda Backa 1",
+      "postal_code": "668 93",
+      "city": "ED",
+      "email": "jobb.bygg@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Jägarförbundet",
+              "verksamhet_raw": "Jakt",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer olsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46737045607"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073-7045607"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Jägarförbundet",
+      "verksamhet_raw": "Jakt"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Nättjebacka Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Kurs",
+        "Samlingslokal"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/nattjebacka",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=N%c3%84TTHEM",
+      "street_address": "Nättjebacka Hembygdsgård",
+      "postal_code": "451 93",
+      "city": "Uddevalla",
+      "email": "nattjebacka.hembygdsforening@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Kurs, Samlingslokal",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nils johansson",
+        "contact_person_role": null,
+        "contact_person_email": "nattjebacka@gmail.com",
+        "contact_person_phone": "+46703622076"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0703 622076"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Kurs, Samlingslokal"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "OK Skärmen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.okskarmen.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=OKS",
+      "street_address": "Lilla Ödeborg",
+      "postal_code": "458 92",
+      "city": "Färgelanda",
+      "email": "okskarmen@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1952",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Orienteringsförbundet",
+              "verksamhet_raw": "Orientering",
+              "short_description": "Swish: 1230799817"
+            }
+          }
+        ],
+        "free_text": "Swish: 1230799817"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peo johansson",
+        "contact_person_role": null,
+        "contact_person_email": "peo-johansson@outlook.com",
+        "contact_person_phone": "+46706098331"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0706 098331"
+      },
+      "founded_year": 1952,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Orienteringsförbundet",
+      "verksamhet_raw": "Orientering"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "PRO Färgelanda",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=FPRO",
+      "street_address": "Tegners väg 5",
+      "postal_code": "458 30",
+      "city": "Färgelanda",
+      "email": "profargelanda386@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "PRO",
+              "verksamhet_raw": "Pensionärsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Håkan ekman",
+        "contact_person_role": null,
+        "contact_person_email": "h.ekman44@outlook.com",
+        "contact_person_phone": "+46702428072"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0702 428072"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "PRO",
+      "verksamhet_raw": "Pensionärsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Rådanefors IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=R%c3%85IF",
+      "street_address": "Rådanefors Björkudden 1",
+      "postal_code": "458 93",
+      "city": "Färgelanda",
+      "email": "anders.ahlqvist@ncc.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders ahlqvist",
+        "contact_person_role": null,
+        "contact_person_email": "anders.ahlqvist@ncc.se",
+        "contact_person_phone": "+46706890732"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-6890732"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Råggärds Friluftsklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=RFK",
+      "street_address": "Långelanda Berget 2",
+      "postal_code": "458 96",
+      "city": "Högsäter",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Gymnastik",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gun löf",
+        "contact_person_role": null,
+        "contact_person_email": "berget3@hotmail.com",
+        "contact_person_phone": "+46703045310"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070 3045310"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Gymnastik"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Råggärds Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=R%c3%85HEM",
+      "street_address": "Steneryr Myrarna 1",
+      "postal_code": "458 97",
+      "city": "Högsäter",
+      "email": "roland.myrane@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Hembygsförbund",
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roland jakobsson",
+        "contact_person_role": null,
+        "contact_person_email": "roland.myrane@hotmail.com",
+        "contact_person_phone": "+46730267374"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0730 267374"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Hembygsförbund",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Rännelanda Intresseförening",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Bygdens utveckling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=R%c3%84IF",
+      "street_address": "Rännelanda Östby 7",
+      "postal_code": "458 96",
+      "city": "Högsäter",
+      "email": "rannelandaif@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Bygdegårdarnas Riksförbund",
+              "verksamhet_raw": "Bygdens utveckling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Curt hansson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4652850188"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0528 501 88"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Bygdegårdarnas Riksförbund",
+      "verksamhet_raw": "Bygdens utveckling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "SPF Färgelanda",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=SPF",
+      "street_address": "Slåttervägen 13",
+      "postal_code": "458 31",
+      "city": "Färgelanda",
+      "email": "sture.tegenfeldt@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "SPF",
+              "verksamhet_raw": "Pensionärsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sture tegenfeldt",
+        "contact_person_role": null,
+        "contact_person_email": "sture.tegenfeldt@gmail.com",
+        "contact_person_phone": "+46705662098"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 2,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070 5662098"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "SPF",
+      "verksamhet_raw": "Pensionärsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "SPF Seniorerna Högsäter",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://spfseniorerna.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=HSPF",
+      "street_address": "Högsäter Tveten",
+      "postal_code": "458 97",
+      "city": "Högsäter",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "SPF",
+              "verksamhet_raw": "Pensionärsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Barbro andersson",
+        "contact_person_role": null,
+        "contact_person_email": "baran7@telia.com",
+        "contact_person_phone": "+46705237092"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 3,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070 5237092"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "SPF",
+      "verksamhet_raw": "Pensionärsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Stigens Folkets Hus",
+      "org_number": null,
+      "types": [
+        "Folkets Hus Förening"
+      ],
+      "activities": [
+        "Samlingslokal"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=SFH",
+      "street_address": "Vänersborgsvägen 47",
+      "postal_code": "458 94",
+      "city": "Stigen",
+      "email": "kerstinfredriksson54@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Samlingslokal",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstin fredriksson",
+        "contact_person_role": null,
+        "contact_person_email": "kerstinfredriksson54@gmail.com",
+        "contact_person_phone": "+46706936814"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 4,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070 6936814"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Samlingslokal"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Stigens IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Core",
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=SIF",
+      "street_address": "Stigevivägen 15 B",
+      "postal_code": "458 94",
+      "city": "Stigen",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Fotbollsförbundet",
+              "verksamhet_raw": "Core, Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik andersson",
+        "contact_person_role": null,
+        "contact_person_email": "henrik72@outlook.com",
+        "contact_person_phone": "+46706082417"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 5,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0706 082417"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Fotbollsförbundet",
+      "verksamhet_raw": "Core, Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Stigens Sportfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Sportfiskeklubb"
+      ],
+      "activities": [
+        "Fiskevård"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=SSFK",
+      "street_address": "Pl 193 Fölen",
+      "postal_code": "458 93",
+      "city": "Färgelanda",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Fiskevård",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "(saknas)",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 6,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": ""
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Fiskevård"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Stigens Unga Örnar",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Ungdomsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=SU%c3%96",
+      "street_address": "Stigevivägen 29",
+      "postal_code": "458 94",
+      "city": "Stigen",
+      "email": "kerstin.fredriksson@fargelanda.se",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Unga Örnar",
+              "verksamhet_raw": "Ungdomsverksamhet",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstin fredriksson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46706936814"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 7,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0706 936814"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Unga Örnar",
+      "verksamhet_raw": "Ungdomsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Södra Valbo Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/sodra-valbo",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=SVHBF",
+      "street_address": "Flatebyn 12",
+      "postal_code": "458 92",
+      "city": "Färgelanda",
+      "email": "kerstin-sandell@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Sveriges Hembygsförbund",
+              "verksamhet_raw": "Kultur",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstin sandell",
+        "contact_person_role": null,
+        "contact_person_email": "kerstin-sandell@hotmail.com",
+        "contact_person_phone": "+46722230688"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 8,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0722 230688"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Sveriges Hembygsförbund",
+      "verksamhet_raw": "Kultur"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Torps Byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Bygdens utveckling"
+      ],
+      "categories": [],
+      "homepage_url": "http://torpsbyalag.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=TORP+BY",
+      "street_address": "Stuveryr 13",
+      "postal_code": "458 92",
+      "city": "Färgelanda",
+      "email": null,
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Bygdens utveckling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "larse419@gmail.com",
+        "contact_person_phone": "+46706004182"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 9,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0706 004182"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Bygdens utveckling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Torps Bygdegård",
+      "org_number": null,
+      "types": [
+        "Bygdegårdsförening"
+      ],
+      "activities": [
+        "Bygdens utveckling"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.torpsbygdgard.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=TORBYG",
+      "street_address": "Torp 6",
+      "postal_code": "458 92",
+      "city": "Färgelanda",
+      "email": "ingemar@lindhe.org",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "2015",
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Bygdegårdarnas Riksförbund",
+              "verksamhet_raw": "Bygdens utveckling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingemar lindhe",
+        "contact_person_role": null,
+        "contact_person_email": "ingemar@lindhe.org",
+        "contact_person_phone": "+46761072323"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 10,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0761 072323"
+      },
+      "founded_year": 2015,
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Bygdegårdarnas Riksförbund",
+      "verksamhet_raw": "Bygdens utveckling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Valbo Sportunion",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=VALBOSPORT",
+      "street_address": "Högalid Idrottsplats",
+      "postal_code": "458 32",
+      "city": "Färgelanda",
+      "email": "052810001@telia.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Fotboll",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael jansson",
+        "contact_person_role": null,
+        "contact_person_email": "mikael-t-jansson@outlook.com",
+        "contact_person_phone": "+46735310341"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 11,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "073 5310341"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Fotboll"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Valbodalens Atletklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Styrketräning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.vak.nu/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=VAK",
+      "street_address": "Dalmanstorp",
+      "postal_code": "458 93",
+      "city": "Färgelanda",
+      "email": "valbodalens@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Svenska Styrkelyftförbundet",
+              "verksamhet_raw": "Styrketräning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Yvonne pettersson",
+        "contact_person_role": null,
+        "contact_person_email": "dalmanstorp@hotmail.com",
+        "contact_person_phone": "+46723135512"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 12,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "072-3135512"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Svenska Styrkelyftförbundet",
+      "verksamhet_raw": "Styrketräning"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Valbodalens Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton",
+        "Ungdomsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://idrottonline.se/ValbodalensBMK-Badminton/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=VDBK",
+      "street_address": "Dalvägen 4",
+      "postal_code": "458 40",
+      "city": "Ödeborg",
+      "email": "valbodalensbmk@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": "1969",
+              "fiscal_year_starts_mmdd": "0501",
+              "national_affiliation": "Svenska Riksidrottsförbundet",
+              "verksamhet_raw": "Badminton, Ungdomsverksamhet",
+              "short_description": "MotionsbadmintonFamiljebadminton"
+            }
+          }
+        ],
+        "free_text": "MotionsbadmintonFamiljebadminton"
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika berntsson",
+        "contact_person_role": null,
+        "contact_person_email": "annika.berntsson@familjebostader.se",
+        "contact_person_phone": "+46730333389"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 13,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0730 333389"
+      },
+      "founded_year": 1969,
+      "fiscal_year_start": "0501",
+      "national_affiliation": "Svenska Riksidrottsförbundet",
+      "verksamhet_raw": "Badminton, Ungdomsverksamhet"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Ödeborgs byalag",
+      "org_number": null,
+      "types": [
+        "Byalag"
+      ],
+      "activities": [
+        "Bygdens utveckling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=%c3%96DE+BYA",
+      "street_address": "Prärievägen 5 B",
+      "postal_code": "458 40",
+      "city": "Ödeborg",
+      "email": "gunnar.hagstedt@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": null,
+              "verksamhet_raw": "Bygdens utveckling",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar hagstedt",
+        "contact_person_role": null,
+        "contact_person_email": "gunnar.hagstedt@gmail.com",
+        "contact_person_phone": "+46705705890"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 14,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "0705 705890"
+      },
+      "fiscal_year_start": "0101",
+      "verksamhet_raw": "Bygdens utveckling"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Ödeborgs Folkets Hus Ek. Förening",
+      "org_number": null,
+      "types": [
+        "Folkets Hus Förening"
+      ],
+      "activities": [
+        "Samlingslokal"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=%c3%96FH",
+      "street_address": "Bruksvägen 18",
+      "postal_code": "458 40",
+      "city": "Ödeborg",
+      "email": "eva_lenaj@hotmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "Folkets Hus o Parker",
+              "verksamhet_raw": "Samlingslokal",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stig emanuelsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46706764294"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 0,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "070-6764294"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "Folkets Hus o Parker",
+      "verksamhet_raw": "Samlingslokal"
+    }
+  },
+  {
+    "source_system": "FRI",
+    "municipality": "Färgelanda",
+    "scrape_run_id": "f69bdf28-c710-49c5-84b1-b34e92ed883d",
+    "scraped_at": "2025-10-27T06:21:58.029Z",
+    "association": {
+      "name": "Ödeborgs IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowle",
+        "Fotboll",
+        "Gymnastik",
+        "Innebandy...",
+        "Innebandy",
+        "Spinning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.odeborg.se/",
+      "detail_url": "https://bokning.fargelanda.se/forening/visa.aspx?id=%c3%96IF",
+      "street_address": "Bruksvägen 17",
+      "postal_code": "458 40",
+      "city": "Ödeborg",
+      "email": "odeborgsidrottsforening@gmail.com",
+      "phone": null,
+      "description": {
+        "sections": [
+          {
+            "title": "Övrig information",
+            "data": {
+              "founded_year": null,
+              "fiscal_year_starts_mmdd": "0101",
+              "national_affiliation": "RF",
+              "verksamhet_raw": "Bowle, Fotboll, Gymnastik, Innebandy, Spinning",
+              "short_description": null
+            }
+          }
+        ],
+        "free_text": null
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Carina alexandersson",
+        "contact_person_role": null,
+        "contact_person_email": "carinaalexandersson88@gmail.com",
+        "contact_person_phone": "+46761131507"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 1,
+      "pagination_model": "numeric_plus_next_last",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_phones": {
+        "mobile": "076 1131507"
+      },
+      "fiscal_year_start": "0101",
+      "national_affiliation": "RF",
+      "verksamhet_raw": "Bowle, Fotboll, Gymnastik, Innebandy, Spinning"
+    }
+  }
+]

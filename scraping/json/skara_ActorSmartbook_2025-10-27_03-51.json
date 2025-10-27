@@ -1,0 +1,6693 @@
+[
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "ABF Skaraborg",
+      "org_number": "869000-3630",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lidköping",
+      "email": "info.skaraborg@abf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4437,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Ardala GoIF",
+      "org_number": "8684000048",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "kassor.ardalagoif@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Emma Jilderbo",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "emma.jilderbo@gmail.com",
+        "contact_person_phone": "0706673007"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4273,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Ardala Junis",
+      "org_number": "8025028971",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skaraborg@junis.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria Hagman",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "skaraborg@junis.se",
+        "contact_person_phone": "0723389909"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4277,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Astma och Allergiföreningen",
+      "org_number": "8690008712",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lidköping",
+      "email": "lidkoping@astmaochallergi.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann-Sofie Palmhammar",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "lidkoping@astmaochallergi.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4417,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Ateljén",
+      "org_number": "8025424147",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "ateljenmalmgatan@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 13877,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Autism &Asperger Föreningen VG Skaraborg",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skövde",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4418,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Axevalla Folkdansgille",
+      "org_number": "8024412697",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.folkdansringen.se/axevallafolkdansgille/",
+      "detail_url": "www.folkdansringen.se/axevallafolkdansgille/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "AXVALL",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Dagmar Grahn",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "dagmar.grahn@skara.net",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "miltoneggby@gmail.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "axevallafolkdansgille@folkdansringen.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4279,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Axevalla Travförening",
+      "org_number": "8024205455",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "axtrav.se",
+      "detail_url": "axtrav.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "info@axtrav.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 14709,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Axevalla Travskola",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "maria.karlsson@travsport.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4280,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Axvall Race Nation",
+      "org_number": "8024769518",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skövde",
+      "email": "sebastian.abelsson@arnracing.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4278,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Axvall Röda Korskrets",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4281,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Axvalls IF",
+      "org_number": "8684006078",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "Mathias.Klang@axvallsif.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mathias Klang",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "mathias.klang@axvallsif.se",
+        "contact_person_phone": "0721681678"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4274,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Axvalls Skytteförening",
+      "org_number": "8684006516",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/axvallsskf",
+      "detail_url": "https://www.svenskalag.se/axvallsskf",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "aj.hjartqvist@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans Eriksson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "hasse.strv103@gmail.com",
+        "contact_person_phone": "0703449156"
+      },
+      {
+        "contact_person_name": "Jessica Hjärtqvist",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "aj.hjartqvist@gmail.com",
+        "contact_person_phone": "0705557964"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4282,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Bio Kontrast",
+      "org_number": "8025166227",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skara.bio.kontrast@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4286,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Bowlingklubben GRAFIA",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "kjell.051163535@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4284,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Bowlingklubben HURRICANE",
+      "org_number": "8684009304",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "Catarina.tiveljung@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4285,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Bowlingklubben KÅESS",
+      "org_number": "8684008546",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "benny.ternemar@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4287,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Brottarklubben SANA",
+      "org_number": "8024562442",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skarabrottarnabksana@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter Inhammar",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "peterinhammar@gmail.com",
+        "contact_person_phone": "0704331822"
+      },
+      {
+        "contact_person_name": "Magnus Johansson",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "magnus8011@hotmail.se",
+        "contact_person_phone": "0725413975"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4342,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Bröstcancerfören. Agatha i Skaraborg",
+      "org_number": "8666017085",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": "info@bcfagatha.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika Månsson",
+        "contact_person_role": "Kassör",
+        "contact_person_email": null,
+        "contact_person_phone": "073-5882903"
+      },
+      {
+        "contact_person_name": "Gull-Britt Alexandersson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": null,
+        "contact_person_phone": "0730-451185"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4419,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Celiakiföreningen i Skaraborg",
+      "org_number": "8666010304",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "pettersson.jerry@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6122,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Charlies Teater",
+      "org_number": "8024682562",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "marita.graad@vgb.nu",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6047,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "DF Skararockarna",
+      "org_number": "8684010955",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lidköping",
+      "email": "annbj371@msn.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika Oskarsson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "annika.oskarsson@rekordverken.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4386,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "DHB Västra",
+      "org_number": "862500-6831",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Vänersborg",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4422,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "DHR Skaraavdelningen",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "dhr.skara@swipnet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4293,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Eggby-Istrum-Öglunda Bygdeg.f.",
+      "org_number": "8684000436",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "ingegerd.ambertsson@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4400,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Eggby-Istrum-Öglunda Hembygdsf",
+      "org_number": "8684007613",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "lb.snickaretorpet@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena Bäckdahl",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "lb.snickaretorpet@gmail.com",
+        "contact_person_phone": "0709723234"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4305,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "EJ ANVÄNDAS Axevalla Folkhögskola",
+      "org_number": "8684007472",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "info@axevalla.fhsk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4449,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Equmenia Skara",
+      "org_number": "8684009080",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "info@skaramissionskyrka.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4381,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Eritreanska kultur- och fritidsföreningen i Skara",
+      "org_number": "8025240576",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "meharitesfai@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 10830,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Eritrianska Föreningen i Skara",
+      "org_number": "8025116842",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "Futzum.Zerai@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Biniam Tsegia",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": null,
+        "contact_person_phone": "0704995868"
+      },
+      {
+        "contact_person_name": "Futzum Zerai",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "Futzum.Zerai@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 3,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4826,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Eritrianska Kvinnor Kulturförening",
+      "org_number": "802468-8510",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "tibe.tesfazgi@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4297,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Folkuniversitetet",
+      "org_number": "8572006313",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Göteborg",
+      "email": "regionkansli.goteborg@folkuniversitetet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4439,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Friluftsfrämjandet",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "ulf.adolfsson@jula.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4301,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Fub Skara-Götene",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "ias.bokf@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4303,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "För. för psykiatriskt samarb.",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Tidan",
+      "email": "henning.lindh@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4424,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Fören. för Västgötalitteratur",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "sven-olof.ask@tele2.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4327,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Föreningen Djurens Vänner",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4294,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Föreningen Norden i Skara",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "sven-olof.ask@tele2.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4334,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Föreningen Planeten Skara",
+      "org_number": "802461-4649",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "asa.wikman@svenskakyrkan.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4337,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Garnisonsmusei Vänner",
+      "org_number": "8666015568",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.garnisonsmuseet.se",
+      "detail_url": "www.garnisonsmuseet.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "info@garnisonsmuseet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 4,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4304,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "GF Kroppskultur",
+      "org_number": "8024284989",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Uddevalla",
+      "email": "info@kroppskultur.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 17841,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Hangelösa Idrottsförening",
+      "org_number": "8690005148",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lundsbrunn",
+      "email": "rasmus.sunden@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11892,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Hembygdsför Skarke-Varnhem",
+      "org_number": "8684009874",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": "bosseingegerd@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4311,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Hjärnkraft Skaraborg",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lidköping",
+      "email": "skaralokalen@skara.net",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4425,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "HjärtLung Skara",
+      "org_number": "8024434725",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "aama.j@outlook.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "faclk.gud@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4313,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "HRF Hörselskadades Förening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "almqvist.kerstinnelly@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4314,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Husfarsgymnastiken",
+      "org_number": "8684011664",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "hans100och@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4315,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Händene Bygdegårdsförening",
+      "org_number": "8024287768",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "angela.olausson@vastkom.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4317,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Härlunda IF",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "lise-lotte-sabel@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4316,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Härlunda-Bjärka Hembygdsfören",
+      "org_number": "8684007977",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "jerker.strom62@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 5,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4306,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "IK Gandvik",
+      "org_number": "8684000865",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "CeCeanna@hotmail.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna Andersson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "ceceanna@hotmail.se",
+        "contact_person_phone": "0761057978"
+      },
+      {
+        "contact_person_name": "Magnus Södervall",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "magnusol@skara.net",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4320,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "ILCO Riksförb. för stomi & reservoarop.",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lidköping",
+      "email": "roger.eiler@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4426,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "ILCO Skaraborg",
+      "org_number": "8666015485",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "lena.thunman@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8199,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Istrums SK",
+      "org_number": "8684006086",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "friidrott@istrumssk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Doris Danielsson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "dorda325@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4321,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Jägareförbundet Skaraborg",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Hjo",
+      "email": "ingemarhj@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4322,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Kinnekulle Para Bowlingklubb",
+      "org_number": "8024584809",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "lisbethljungkvist548@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik Sundbom",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "sundbomfredrik@hotmail.com",
+        "contact_person_phone": "076-265 01 45"
+      },
+      {
+        "contact_person_name": "Lisbeth Ljungkvist",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "lisbethljungkvist548@gmail.com",
+        "contact_person_phone": "070-2590499"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 14802,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Kulturens Bildningsverksamhet",
+      "org_number": "8024351689",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.kulturens.se",
+      "detail_url": "www.kulturens.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Solna",
+      "email": "info@kulturens.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monica Misson",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "monica.misson@kulturens.se",
+        "contact_person_phone": "0761394327"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4441,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Ljungstorps Bygdegårdsförening",
+      "org_number": "8684013124",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": "ma.holm@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4328,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Medborgarskolan",
+      "org_number": "8494001913",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.medborgarskolan.se",
+      "detail_url": "www.medborgarskolan.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skara@medborgarskolan.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4442,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Medieverkstan Skaraborg",
+      "org_number": "769610-1471",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skövde",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 6,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4428,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Mellby Idrottsklubb",
+      "org_number": "8690006419",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nellan.hagman@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 16959,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Musikens vänner",
+      "org_number": "8025195069",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.musikensvenner.se/",
+      "detail_url": "https://www.musikensvenner.se/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "musikensvenner@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "John Stadig",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "John.stadig@telia.com",
+        "contact_person_phone": "0734433447"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 14223,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Naturskyddsföreningen Skara",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "torbjorn.hagin@yahoo.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4382,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "NBV-Väst",
+      "org_number": "8666004695",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skövde",
+      "email": "emma.ekblom@nbv.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4443,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Norra Lundby Sockengille",
+      "org_number": "8024448246",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "goran.tysk@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran Tysk",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4333,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Norra Vings Hembygdsförening",
+      "org_number": "868401-0500",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "svenerikstolpe32a@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven-Erik Stolpe",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "svenerikstolpe32a@gmail.com",
+        "contact_person_phone": "0703324614"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4308,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Nya IF Friskis&Svettis Skara",
+      "org_number": "802481-4140",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "elvingbond59@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11491,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Oromo Förening i Skara",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4335,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Personskadeförbundet RTP",
+      "org_number": "8666015527",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Mariestad",
+      "email": "bertilolin42@hotmail.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bertil Olin",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "bertilolin42@hotmail.se",
+        "contact_person_phone": "0706916916"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6026,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Personskadeförbundet RTP",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "bertilolin42@hotmail.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 7,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4431,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "PRO Skara",
+      "org_number": "8684009643",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skara@pro.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena Brodin",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "skara@pro.se",
+        "contact_person_phone": "0733734437"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9177,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "PSO Västra Götaland/Skaraborg",
+      "org_number": "8684012241",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Karlsborg",
+      "email": "skaraborg@pso.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4429,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "RBU Skaraborg",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "rbuskaraborg@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4430,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Reumatikerfören.  Skara/Götene",
+      "org_number": "8684010625",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lidköping",
+      "email": "karlssonkirsten820@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4338,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "RF-SISU Västra Götaland",
+      "org_number": "8572007774",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Göteborg",
+      "email": "Ing-Marie.Andersson@rfsisu.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4415,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "RSMH-Skara",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4339,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Rörelsehindrade barn och ungdomar Skaraborg RBU",
+      "org_number": "8684007399",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "skaraborg.rbu.se",
+      "detail_url": "skaraborg.rbu.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skaraborg@rbu.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annette Lusterberg",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "skaraborg@rbu.se",
+        "contact_person_phone": "070-42 33 599"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 13536,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Sensus Studieförbund",
+      "org_number": "857203-9868",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Halmstad",
+      "email": "skovde@sensus.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4444,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Atletklubb",
+      "org_number": "8684012621",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "simon_88wt@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4341,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Badmintonklubb",
+      "org_number": "8684010237",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lundsbrunn",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik Karlen",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "henrik.karlen86@gmail.com",
+        "contact_person_phone": "0705105998"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "henrik.karlen86@gmail.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "mattias.romfelt@scansverige.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 8,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4344,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Baptistförsamling",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "chris_johansson64@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4343,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Biodlareförening",
+      "org_number": "8559007599",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "lerdala@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 12604,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Bowlingallians",
+      "org_number": "802413-4663",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4288,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Bridgesällskap",
+      "org_number": "0125741876",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "annbonander@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar Johansson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": null,
+        "contact_person_phone": "0705259904"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4289,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Brukshundklubb",
+      "org_number": "8684005575",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "sekreterare.skarabk@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jeanette Lundström",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "ordforande@skarabk.se",
+        "contact_person_phone": "073-7640507"
+      },
+      {
+        "contact_person_name": "Lise-Lotte Sabel",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "lise-lotte-sabel@hotmail.com",
+        "contact_person_phone": "070-6821917"
+      },
+      {
+        "contact_person_name": "Monika Berggren",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "sekreterare.skarabk@telia.com",
+        "contact_person_phone": "0709540788"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4290,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Bågskytteklubb",
+      "org_number": "8025310221",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "skarabagskytteklubb@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin Arvidsson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "hutkerhd@gmail.com",
+        "contact_person_phone": "0721945653"
+      },
+      {
+        "contact_person_name": "Patrick Hallström",
+        "contact_person_role": "Vice ordförande",
+        "contact_person_email": "patrick.hallstrom@gmail.com",
+        "contact_person_phone": "0723231722"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11584,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Cykelklubb",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "info@skarack.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Micael Gustafsson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "cykel-micke@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4346,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Dansklubb",
+      "org_number": "8025502132",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "johanna@skarabil.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 16840,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara E-Sport",
+      "org_number": "8025322572",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skövde",
+      "email": "skaraesport@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ludwig Carlsson",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "skaraesport@gmail.com",
+        "contact_person_phone": "0793136889"
+      },
+      {
+        "contact_person_name": "Simon Gartman",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "skaraesport@gmail.com",
+        "contact_person_phone": "0707583126"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 12157,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Fibromyalgiförening",
+      "org_number": "8024482476",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skara@fibromyalgi.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 9,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4361,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Filatelistförening",
+      "org_number": "8684010815",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "bengt.weidow@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4349,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Fotbolls Club",
+      "org_number": "8684011201",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "kansli@skarafc.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4348,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Fotoklubb",
+      "org_number": "8684008645",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.skarafotoklubb.se",
+      "detail_url": "www.skarafotoklubb.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "info@skarafotoklubb.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bo Stenberg",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "bostenberg25@gmail.com",
+        "contact_person_phone": "0709809422"
+      },
+      {
+        "contact_person_name": "Bo Stenberg",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "bostenberg25@gmail.com",
+        "contact_person_phone": "0709809422"
+      },
+      {
+        "contact_person_name": "Jesper Eggertsen",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "jesper.eggertsen@gmail.com",
+        "contact_person_phone": "0706613832"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4350,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Frimärksungdom",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "gosta@skaramail.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4362,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Gille",
+      "org_number": "8684006615",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "tommy@skaragille.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar Karlsson",
+        "contact_person_role": "Vice ordförande",
+        "contact_person_email": "karlgunnar51@hotmail.com",
+        "contact_person_phone": "0723130785"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4351,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Götene reumatikerförening",
+      "org_number": "8684010625",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "carina.sahlstrom@vgregion.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 16887,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Handbollsförening",
+      "org_number": "8684007191",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.skarahf.se",
+      "detail_url": "www.skarahf.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skarahf@skara.net",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Håkan Persson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "hakan.persson@skarahf.se",
+        "contact_person_phone": "0705-316558"
+      },
+      {
+        "contact_person_name": "Lena Berthou",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "lena.berthou@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4353,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Handbollsklubb",
+      "org_number": "8684004800",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.skarahk.se",
+      "detail_url": "www.skarahk.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "kansli@skarahk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4354,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Humanistiska förbund",
+      "org_number": "8684012001",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "johanhjerten@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Chatarina Sjölin",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "chatarina.sjolin@hotmail.se",
+        "contact_person_phone": "0767840252"
+      },
+      {
+        "contact_person_name": "Johan Hjertén",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "johanhjerten@gmail.com",
+        "contact_person_phone": "0709326529"
+      },
+      {
+        "contact_person_name": "Kristina Gustafsson Bonnier",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "gustafssonbonnier@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 6123,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Idrottsförening",
+      "org_number": "8684002259",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "leif.a.i.nordh@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 10,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4367,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Idrottshistoriska Fören.",
+      "org_number": "8024757083",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "info@skaraihs.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart Persson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "herrpersson50@gmail.com",
+        "contact_person_phone": "0725291291"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4318,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Innebandyklubb",
+      "org_number": "8684009510",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "info@skaraibk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael Nyström",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "mikael.nystrom@hsb.se",
+        "contact_person_phone": "0708386160"
+      },
+      {
+        "contact_person_name": "Karin Ström",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "karinstromberg.80@gmail.com",
+        "contact_person_phone": "0766102411"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4356,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Ishockeyklubb",
+      "org_number": "8684007985",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skaraikungdom@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4357,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Jaktskytteklubb",
+      "org_number": "8684005898",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4359,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Judoklubb",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ing-marie.elmgren@skara.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4358,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Junis",
+      "org_number": "8025028971",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skaraborg@junis.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria Hagman",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "skaraborg@junis.se",
+        "contact_person_phone": "0723389909"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4323,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Konstförening",
+      "org_number": "8666018158",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://skara.konstforeningar.se",
+      "detail_url": "https://skara.konstforeningar.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "helene.andersson.ha@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Arja Laaksonen",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "arja.koho.laaksonen@gmail.com",
+        "contact_person_phone": "0706536411"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4372,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Konståkningsförening",
+      "org_number": "8684006938",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "info@skarakf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marcus Sundén",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "markus.sunden@edu.skara.se",
+        "contact_person_phone": "0704040701"
+      },
+      {
+        "contact_person_name": "Rebecca Pedersen",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4370,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Korpen Idrottsförbund",
+      "org_number": "8684007142",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "irina_nyberg@hotmail.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "matsfredrik@me.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 14456,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Korpidrottsförbund",
+      "org_number": "8684007142",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "rolandg.nyberg@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 11,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4325,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Manskör",
+      "org_number": "8684008520",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "53295 Skara",
+      "email": "torstensgarden@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4330,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Medeltidsgille",
+      "org_number": "868401-2043",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "postmaster@skaramedeltidsgille.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4331,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Missionsförsamling",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "info@skaramissionskyrka.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4378,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Motorklubb",
+      "org_number": "8684002069",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "info@skaramk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4380,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara On Line",
+      "org_number": "8024325634",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "HÄLLEKIS",
+      "email": "info@skaraonline.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9266,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Parasport Viljan",
+      "org_number": "8024399340",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "skarahif@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4352,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Petanque Club",
+      "org_number": "8684009247",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "kg.josefsson@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4384,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Riksteaterförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 14685,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Rödakorskrets",
+      "org_number": "8684006623",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "margareta.k.lundh@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11490,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Schacksällskap",
+      "org_number": "8684010757",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://skara.schack.se/",
+      "detail_url": "http://skara.schack.se/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "fredkjell7@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 12,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4387,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Scoutkår",
+      "org_number": "8684010179",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "masjoblom@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4373,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Simsällskap",
+      "org_number": "8684008389",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "ulrika.m.lindahl@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Natalia Jivanova",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "jiv.t@hotmail.com",
+        "contact_person_phone": "076-2647620"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4390,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Släktforskarförening",
+      "org_number": "802520-7880",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.skarasf.se",
+      "detail_url": "www.skarasf.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "irgu001@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4368,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Sportfiskeklubb",
+      "org_number": "8684013926",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "Skarasfk.blogspot.com",
+      "detail_url": "Skarasfk.blogspot.com",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "morgan.ek@petainer.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4388,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Taekwon-Do Klubb",
+      "org_number": "8024703483",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "info@skaratkd.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4366,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Teaterförening",
+      "org_number": "868400-8595",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skara.tf@riksteatern.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt Andersson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "bengt@catchword.se",
+        "contact_person_phone": "070-8679933"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4392,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Tennisklubb",
+      "org_number": "8684005393",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "tennis@skaratennis.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4394,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Thaiboxningsklubb",
+      "org_number": "802442-9279",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skaratbk@hotmail.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4365,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Trädgårdsförening",
+      "org_number": "868400-8918",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": "skaratradgardsforening@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kicki Bäsck Nielsen",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "kickibacknielsen@gmail.com",
+        "contact_person_phone": "0706857570"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4374,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara United Sport",
+      "org_number": "8024938014",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "skaraunited15@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sahlemariam Tesfai",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 13,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4364,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Vocalis",
+      "org_number": "8650010096",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lerdala",
+      "email": "info@skarakammarkor.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Astrid Lovén Persson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "astrid.loven.p@gmail.com",
+        "contact_person_phone": "0761078170"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4324,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara Volleybollklubb",
+      "org_number": "8025170864",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.skaravk.se",
+      "detail_url": "www.skaravk.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Inese Demida",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "inese.demida@skara.se",
+        "contact_person_phone": "0733885892"
+      },
+      {
+        "contact_person_name": "Mikael Berglund",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "Kassor@skaravk.se",
+        "contact_person_phone": "0728895953"
+      },
+      {
+        "contact_person_name": "Joakim Karlsson",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "lundsbrunn.jocke@gmail.com",
+        "contact_person_phone": "0708195975"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@skaravk.se",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "ludwig.karlsson@edu.skara.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 8908,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skaraborgs  lokalavd av RMT",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lidköping",
+      "email": "rmt.skaraborg@lidkoping.org",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4427,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skaraborgs Föreningsarkiv",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lidköping",
+      "email": "folkrorelse.s@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4423,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skarabowlarna",
+      "org_number": "8025145072",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "lisa.y.nilsson@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lisa Nilsson",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "lisa.y.nilsson@gmail.com",
+        "contact_person_phone": "0704387780"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4360,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skarabygdens Symfoniorkester",
+      "org_number": "8684012829",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.sbso.se",
+      "detail_url": "www.sbso.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "pererik.a.larsson@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4363,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skaradjäknarnas förening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "skaraavd@skaradjaknarna.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4295,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara-Lundsbrunns Järnväg",
+      "org_number": "8684008629",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lundsbrunn",
+      "email": "tomasrothtoker@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4371,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skaramoderaterna",
+      "org_number": "8684011680",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 16986,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara-OnLine",
+      "org_number": "8024325634",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Hällekis",
+      "email": "solveig.pettersson@skara.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 14,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9217,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skaraortens Ryttarförening",
+      "org_number": "8684001947",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "info@skaraortensrf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4383,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skara-Radviliskis Vänortsför",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "sune.wallstrom@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4340,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skånings Åsaka Sockengille",
+      "org_number": "8024432489",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.skanings-asaka.se/",
+      "detail_url": "https://www.skanings-asaka.se/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "cecilia.meijer@emprender.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Caroline Jonsson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "ersviken@telia.com",
+        "contact_person_phone": "073-0511883"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4396,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skånings-Åsaka Bygdegårdsförening",
+      "org_number": "8684002291",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "kjellinger_skara@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4377,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skärblacka IF",
+      "org_number": "8250008367",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skärblacka",
+      "email": "cnblacka@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11819,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Skärvs Hembygdsförening",
+      "org_number": "868400-4768",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.hembygd.se/skarv",
+      "detail_url": "www.hembygd.se/skarv",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "skarvs.hbf@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stig Larsson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "skarvs.hbf@gmail.com",
+        "contact_person_phone": "0706249698"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4309,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Sommarmusiken i Varnhem",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": "jennifer.lidgren@svenskakyrkan.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4332,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "SomSkara ungdomsförening i Skara",
+      "org_number": "8025317663",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "cabdullefarax@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11586,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "SPF Seniorerna Ardala",
+      "org_number": "6425812002",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "elsa.hovmark@telia.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9520,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "SPF Seniorerna Vallebygden",
+      "org_number": "8666017184",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "Marita.berner@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 15,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9174,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "SPF Skara",
+      "org_number": "8684011011",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "Ib.bohlin@gmail.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "estalarm@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 10883,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "SRF Skara-Götene",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4385,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Stenums Hembygdsförening",
+      "org_number": "802447-4564",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "evy.margareta.ekdahl@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Evy Ekdahl",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "evy.margareta.ekdahl@gmail.com",
+        "contact_person_phone": "0730576012"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4310,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Stiftelse Axevalla Folkhögskola",
+      "org_number": "8684007472",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Stockholm",
+      "email": "info@axevalla.fhsk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 12504,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Stiftelsen Bräcke diakoni",
+      "org_number": "8572003104",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Göteborg",
+      "email": "annacarin.stahl@brackediakoni.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 12312,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Stiftelsen Västergötlands Museum",
+      "org_number": "8684003190",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "kristina.johansson@vgmuseum.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4414,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Street Stars Cruisers",
+      "org_number": "8559007490",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.streetstars.se",
+      "detail_url": "www.streetstars.se",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "styrelsen@streetstars.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anneli Nordström",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "styrelsen@streetstars.se",
+        "contact_person_phone": "0725251864"
+      },
+      {
+        "contact_person_name": "Peter \"Lillebror\" Lindqvist",
+        "contact_person_role": "Vice ordförande",
+        "contact_person_email": "styrelsen@streetstars.se",
+        "contact_person_phone": "070-3338988"
+      },
+      {
+        "contact_person_name": "Robert Werner",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "ungdom@streetstars.se",
+        "contact_person_phone": "070 230 66 51"
+      },
+      {
+        "contact_person_name": "Tomas Nordström",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "styrelsen@streetstars.se",
+        "contact_person_phone": "073-3136526"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11711,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Strokeföreningen Skaraborg",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skövde",
+      "email": "nils@ypperlig.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar Hedberg",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "toguhed@gmail.com",
+        "contact_person_phone": "070-6532777"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4435,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Studiefrämjandet Väst",
+      "org_number": "8020032895",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Lidköping",
+      "email": "linda.savane@studieframjandet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Studiefrämjandet Väst",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "vast@studieframjandet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4445,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Studieförbundet Bilda SydVäst",
+      "org_number": "864001-0149",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.bilda.nu",
+      "detail_url": "www.bilda.nu",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skövde",
+      "email": "sydvast@bilda.nu",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Matilda Andin",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "matilda.andin@bilda.nu",
+        "contact_person_phone": "0721-44 55 29"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 16,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4438,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Studieförbundet Ibn Rushd",
+      "org_number": "802411-0762",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Göteborg",
+      "email": "ala.haidari@ibnrushd.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4440,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan",
+      "org_number": "8684004586",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Falköping",
+      "email": "lena.lillienberger@sv.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4446,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Sv Kyrkans Unga Ardala",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "asa.m.karlsson@svenskakyrkan.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4376,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Sv Kyrkans Unga i Skara",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4375,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Svenska Bandyförbundet",
+      "org_number": "8185002733",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Vänersborg",
+      "email": "thomas.borgstrom@svenskbandy.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 15520,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Svenska Danssportförbundet",
+      "org_number": "8020100452",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Stockholm",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 12691,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Svenska Kettlebell Förbundet",
+      "org_number": "8025102172",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "maria.granath@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 12308,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "SvenskaTuristföreningen Skara/Götene",
+      "org_number": "8025100002",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "www.svenskaturistföreningen.se/stflokalavdelningen",
+      "detail_url": "www.svenskaturistföreningen.se/stflokalavdelningen",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "kurtandersson.skara@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva Eriksson",
+        "contact_person_role": "Medlem",
+        "contact_person_email": "aee.eriksson@gmail.com",
+        "contact_person_phone": "070-7511514"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4393,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Synnerby Bygdeförening",
+      "org_number": "868401-1029",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "yvonne.karlsson@abf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4291,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Synnerby Hembygdsförening",
+      "org_number": "868400-7969",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "ek.lennart@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 17,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4312,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Synnerby Skytteförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4395,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Sällskapet Länkarna",
+      "org_number": "8684004289",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "roslund.mattias@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4329,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Teater Pegasus Kulturförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skövde",
+      "email": "info@pegasusforlag.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena Pettersson",
+        "contact_person_role": "Medlem",
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4336,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Teater Tidlös Kulturförening",
+      "org_number": "802461-9135",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.teatertidloes.se/",
+      "detail_url": "http://www.teatertidloes.se/",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": "051160909.ari@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4397,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Tibro Konståkningsklubb",
+      "org_number": "8666006823",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Tibro",
+      "email": "styrelsen@skatetibrokk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9203,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Tre Berg Cykelklubb",
+      "org_number": "8024993779",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "hans_eo@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11713,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Valle PRO-förening",
+      "org_number": "8684010534",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9176,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Valle Sportskytteklubb",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": "calle.rehn@bahnhof.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4412,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Vallebygdens kök",
+      "org_number": "8025481014",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "vallebygdenskok@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 16908,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Vallebygdens Pistolskytteför",
+      "org_number": "8684005047",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvall",
+      "email": "sekreterare@vpsf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik Gustafsson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "freddie357@hotmail.com",
+        "contact_person_phone": "0708105767"
+      },
+      {
+        "contact_person_name": "Tomas Monsèn",
+        "contact_person_role": "Sekreterare",
+        "contact_person_email": "grefven@grefven.se",
+        "contact_person_phone": "0704492914"
+      },
+      {
+        "contact_person_name": "Åsa Dahlstedt",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "asa.dahlstedt76@gmail.com",
+        "contact_person_phone": "0703399365"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 18,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4409,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Vallentuna Damfotboll",
+      "org_number": "8024085311",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Vallentuna",
+      "email": "vdf.f08@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 0,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 11784,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Varnhems Alliansförsamling",
+      "org_number": "8684007217",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": "uv@varnhemsallianskyrka.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 1,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4399,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Varnhems IF",
+      "org_number": "8684008009",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": "ekonomi@varnhemsif.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Madeleine Börjesson",
+        "contact_person_role": "Ordförande",
+        "contact_person_email": "maddeborjesson@hotmail.com",
+        "contact_person_phone": "0730330188"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 2,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4407,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Varnhemsspelets Intressenter",
+      "org_number": "8024573456",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Varnhem",
+      "email": "lisbeth.karlsson@skara.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 3,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4402,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Vinköls Bygdegårdsförening",
+      "org_number": "802445-9086",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "vinkolsbygdegard@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingela Johansson",
+        "contact_person_role": "Kassör",
+        "contact_person_email": "ingela.johansson.ij@gmail.com",
+        "contact_person_phone": "0704093458"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 4,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4408,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Vinköls Skytteförening",
+      "org_number": null,
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Skara",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 5,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4411,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Välviljan",
+      "org_number": "06012619-2483",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Vara",
+      "email": "valviljan@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 6,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4413,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Västergötlands Fornminnesfören",
+      "org_number": "868400-6870",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "SKARA",
+      "email": "info@vastergotlands-fornminnesforening.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 7,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 4300,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Västergötlands Konståkningsförbund",
+      "org_number": "8684007753",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Hjo",
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 8,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 12129,
+      "age_ranges": []
+    }
+  },
+  {
+    "source_system": "ActorSmartbook",
+    "municipality": "Skara",
+    "scrape_run_id": "2c20c045-e7a3-47e7-9e7d-d1c509855bc0",
+    "scraped_at": "2025-10-27T02:49:30.914Z",
+    "association": {
+      "name": "Västergötlands travsällskap",
+      "org_number": "8684003208",
+      "types": [],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "",
+      "street_address": null,
+      "postal_code": null,
+      "city": "Axvalla",
+      "email": "roger.mostrom@axevalla.travsport.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 19,
+      "position_on_page": 9,
+      "pagination_model": "api_pagination",
+      "filter_state": null
+    },
+    "extras": {
+      "api_id": 9622,
+      "age_ranges": []
+    }
+  }
+]

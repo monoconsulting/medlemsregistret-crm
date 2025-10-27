@@ -1,8 +1,7 @@
 'use client'
 
-import { useState, Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { signIn } from 'next-auth/react'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
@@ -11,6 +10,7 @@ import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form'
 import { AlertCircle } from 'lucide-react'
+import { useAuth } from '@/lib/providers/auth-provider'
 
 const loginSchema = z.object({
   email: z.string().email('Ogiltig e-postadress'),
@@ -22,8 +22,9 @@ type LoginSchema = z.infer<typeof loginSchema>
 function LoginForm() {
   const router = useRouter()
   const params = useSearchParams()
+  const { login } = useAuth()
   const [error, setError] = useState<string | null>(null)
-  const [isLoading, setIsLoading] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
   const form = useForm<LoginSchema>({
     resolver: zodResolver(loginSchema),
@@ -34,18 +35,14 @@ function LoginForm() {
   })
 
   const onSubmit = async (values: LoginSchema) => {
-    setIsLoading(true)
     setError(null)
-    const result = await signIn('credentials', {
-      redirect: false,
-      email: values.email,
-      password: values.password,
-    })
+    setIsSubmitting(true)
 
-    setIsLoading(false)
+    const result = await login(values.email, values.password)
+    setIsSubmitting(false)
 
-    if (result?.error) {
-      setError('Felaktig e-post eller lösenord')
+    if (!result.ok) {
+      setError(result.error ?? 'Felaktig e-post eller lösenord')
       return
     }
 
@@ -98,8 +95,8 @@ function LoginForm() {
                 </div>
               )}
 
-              <Button type="submit" className="w-full" disabled={isLoading}>
-                {isLoading ? 'Loggar in…' : 'Logga in'}
+              <Button type="submit" className="w-full" disabled={isSubmitting}>
+                {isSubmitting ? 'Loggar in…' : 'Logga in'}
               </Button>
             </form>
           </Form>
@@ -114,15 +111,17 @@ function LoginForm() {
 
 export default function LoginPage() {
   return (
-    <Suspense fallback={
-      <div className="flex min-h-screen items-center justify-center bg-slate-100 p-6">
-        <Card className="w-full max-w-md shadow-lg">
-          <CardHeader className="space-y-1 text-center">
-            <CardTitle className="text-2xl font-semibold">Logga in</CardTitle>
-          </CardHeader>
-        </Card>
-      </div>
-    }>
+    <Suspense
+      fallback={
+        <div className="flex min-h-screen items-center justify-center bg-slate-100 p-6">
+          <Card className="w-full max-w-md shadow-lg">
+            <CardHeader className="space-y-1 text-center">
+              <CardTitle className="text-2xl font-semibold">Logga in</CardTitle>
+            </CardHeader>
+          </Card>
+        </div>
+      }
+    >
       <LoginForm />
     </Suspense>
   )
