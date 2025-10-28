@@ -2,7 +2,7 @@ import { Router } from 'express';
 import multer from 'multer';
 import { z } from 'zod';
 
-import { db } from '../../crm-app/lib/db';
+import { prisma } from '../lib/prisma';
 import {
   ImporterError,
   importAssociations,
@@ -69,7 +69,7 @@ importRouter.post(
 
     try {
       const result = await importAssociations({
-        prisma: db,
+        prisma,
         files: parsedFiles,
         mode,
         municipalityId,
@@ -117,7 +117,7 @@ importRouter.post(
         return;
       }
 
-      const municipality = await db.municipality.findFirst({
+      const municipality = await prisma.municipality.findFirst({
         where: { name: firstMunicipalityName },
         select: {
           id: true,
@@ -135,7 +135,7 @@ importRouter.post(
         return;
       }
 
-      const count = await db.association.count({
+      const count = await prisma.association.count({
         where: { municipalityId: municipality.id },
       });
 

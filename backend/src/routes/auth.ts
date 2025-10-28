@@ -2,8 +2,9 @@ import { Router } from 'express';
 import bcrypt from 'bcryptjs';
 import { z } from 'zod';
 
-import { db } from '../../crm-app/lib/db';
+import { prisma } from '../lib/prisma';
 import { clearSessionCookie, createSessionToken, setSessionCookie } from '../auth/session';
+import { clearCsrfCookies, refreshCsrfToken } from '../middleware/security';
 
 const loginSchema = z.object({
   email: z.string().email(),
@@ -20,7 +21,7 @@ authRouter.post('/login', async (req, res) => {
 
   const { email, password } = parsed.data;
 
-  const user = await db.user.findFirst({
+  const user = await prisma.user.findFirst({
     where: {
       email,
       isDeleted: false,
@@ -45,17 +46,20 @@ authRouter.post('/login', async (req, res) => {
 
   const token = createSessionToken(sessionUser);
   setSessionCookie(res, token);
+  refreshCsrfToken(req, res);
 
   return res.json({ user: sessionUser });
 });
 
 authRouter.post('/logout', (req, res) => {
   clearSessionCookie(res);
+  clearCsrfCookies(res);
   res.status(204).end();
 });
 
 authRouter.get('/me', (req, res) => {
   const session = req.userSession ?? null;
+  refreshCsrfToken(req, res);
   res.json({
     user: session?.user ?? null,
   });
