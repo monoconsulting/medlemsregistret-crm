@@ -140,6 +140,39 @@ export const groupRouter = router({
       })
     }),
 
+  addMembers: protectedProcedure
+    .input(
+      z.object({
+        groupId: z.string(),
+        associationIds: z.array(z.string()).min(1),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const group = await ctx.db.group.findUnique({ where: { id: input.groupId } })
+      if (!group) {
+        throw new TRPCError({ code: "NOT_FOUND", message: "Grupp saknas" })
+      }
+
+      if (group.createdById !== ctx.session!.user.id && ctx.session!.user.role !== "ADMIN") {
+        throw new TRPCError({ code: "FORBIDDEN", message: "Endast ägare eller admin kan uppdatera gruppen" })
+      }
+
+      const uniqueAssociationIds = Array.from(new Set(input.associationIds))
+      if (uniqueAssociationIds.length === 0) {
+        return { count: 0 }
+      }
+
+      const result = await ctx.db.groupMembership.createMany({
+        data: uniqueAssociationIds.map((associationId) => ({
+          groupId: input.groupId,
+          associationId,
+        })),
+        skipDuplicates: true,
+      })
+
+      return { count: result.count }
+    }),
+
   removeMember: protectedProcedure
     .input(
       z.object({

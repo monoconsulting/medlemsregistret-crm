@@ -30,7 +30,7 @@ import {
   ArrowDown,
 } from "lucide-react"
 import { AdvancedFilterPanel, type AdvancedFilterState } from "@/components/filters/advanced-filter-panel"
-import { MultiSelectOption } from "@/components/filters/multi-select-filter"
+import { MultiSelectFilter, type MultiSelectOption } from "@/components/filters/multi-select-filter"
 import { BulkActionsToolbar } from "@/components/filters/bulk-actions-toolbar"
 import { ViewToggle, type ViewMode } from "@/components/filters/view-toggle"
 import { AddContactModal } from "@/components/modals/add-contact-modal"
@@ -38,6 +38,7 @@ import { EditContactModal } from "@/components/modals/edit-contact-modal"
 import { SendEmailModal } from "@/components/modals/send-email-modal"
 import { AssociationDetailsDialog } from "@/components/modals/association-details-dialog"
 import { AssociationContactsModal } from "@/components/modals/association-contacts-modal"
+import { AddAssociationsToGroupModal } from "@/components/modals/add-associations-to-group-modal"
 import { api } from "@/lib/trpc/client"
 import { CRM_STATUSES, PIPELINES, type AssociationUpdateInput } from "@/lib/validators/association"
 import type { ContactFormValues, ContactUpdateValues } from "@/lib/validators/contact"
@@ -78,13 +79,16 @@ const parseStringArray = (value: unknown): string[] => {
   return []
 }
 
-const ACTIVITY_TYPES: MultiSelectOption[] = [
-  { label: "Anteckning", value: "NOTE_ADDED" },
-  { label: "Mail skickat", value: "EMAIL_SENT" },
-  { label: "Samtal", value: "CALL_MADE" },
-  { label: "Möte", value: "MEETING_SCHEDULED" },
-  { label: "Statusändring", value: "STATUS_CHANGED" },
-]
+const parseMunicipalityIds = (value: string | null): string[] =>
+  value
+    ? value
+        .split(",")
+        .map((item) => item.trim())
+        .filter((item) => item.length > 0)
+    : []
+
+const areStringArraysEqual = (a: string[], b: string[]) =>
+  a.length === b.length && a.every((value, index) => value === b[index])
 
 const ACTIVITY_WINDOWS = [
   { label: "Senaste 7 dagarna", value: 7 },
@@ -96,15 +100,8 @@ const DEFAULT_FILTERS: AdvancedFilterState = {
   statuses: [],
   pipelines: [],
   types: [],
-  activities: [],
   tags: [],
-  assignedToId: undefined,
-  hasEmail: undefined,
-  hasPhone: undefined,
-  isMember: undefined,
-  dateRange: undefined,
   lastActivityDays: undefined,
-  useSearchIndex: false,
 }
 
 const CRM_STATUS_VALUES = new Set<string>(CRM_STATUSES)
@@ -133,11 +130,12 @@ export default function AssociationsPage() {
   const municipalityIdFilter = searchParams.get("municipalityId")
   const municipalityNameFilter = searchParams.get("municipality")
   const utils = api.useUtils()
-  const municipalityDetailsQuery = api.municipality.getById.useQuery(
-    { id: municipalityIdFilter ?? "" },
-    { enabled: Boolean(municipalityIdFilter) }
-  )
-  const activeMunicipalityName = municipalityDetailsQuery.data?.name ?? municipalityNameFilter
+  const municipalityIdsParam = searchParams.get("municipalityIds")
+  const [selectedMunicipalityIds, setSelectedMunicipalityIds] = useState<string[]>(() => {
+    const fromQuery = parseMunicipalityIds(municipalityIdsParam)
+    if (fromQuery.length) return fromQuery
+    return municipalityIdFilter ? [municipalityIdFilter] : []
+  })
   const [searchTerm, setSearchTerm] = useState("")
   const deferredSearchTerm = useDeferredValue(searchTerm)
   const [filters, setFilters] = useState<AdvancedFilterState>(DEFAULT_FILTERS)
@@ -150,9 +148,14 @@ export default function AssociationsPage() {
 
   useEffect(() => {
     setPage(1)
-  }, [municipalityIdFilter, municipalityNameFilter])
+  }, [municipalityIdsParam, municipalityIdFilter, municipalityNameFilter])
 
-  const associationsTitle = activeMunicipalityName ? `Föreningar i ${activeMunicipalityName}` : "Alla föreningar"
+  useEffect(() => {
+    const fromQuery = parseMunicipalityIds(municipalityIdsParam)
+    const fallback = municipalityIdFilter ? [municipalityIdFilter] : []
+    const next = fromQuery.length ? fromQuery : fallback
+    setSelectedMunicipalityIds((previous) => (areStringArraysEqual(previous, next) ? previous : next))
+  }, [municipalityIdsParam, municipalityIdFilter])
 
   const defaultSortDirectionFor = (field: SortKey): "asc" | "desc" =>
     field === "updatedAt" || field === "createdAt" || field === "recentActivity" ? "desc" : "asc"
@@ -191,10 +194,14 @@ export default function AssociationsPage() {
   const [emailTarget, setEmailTarget] = useState<AssociationListItem | null>(null)
   const [detailsAssociationId, setDetailsAssociationId] = useState<string | null>(null)
   const [contactsPanelAssociationId, setContactsPanelAssociationId] = useState<string | null>(null)
+  const [isAddToGroupModalOpen, setAddToGroupModalOpen] = useState(false)
 
   const queryInput = useMemo(() => {
     const crmStatuses = filters.statuses.length ? normalizeStatuses(filters.statuses) : undefined
     const pipelines = filters.pipelines.length ? normalizePipelines(filters.pipelines) : undefined
+    const municipalityIds = selectedMunicipalityIds.length ? selectedMunicipalityIds : undefined
+    const municipalityIdParam = municipalityIds ? undefined : municipalityIdFilter || undefined
+    const municipalityNameParam = municipalityIds ? undefined : municipalityNameFilter || undefined
 
     return {
       page,
@@ -203,26 +210,25 @@ export default function AssociationsPage() {
       crmStatuses,
       pipelines,
       types: filters.types.length ? filters.types : undefined,
-      activities: filters.activities.length ? filters.activities : undefined,
       tags: filters.tags.length ? filters.tags : undefined,
-      hasEmail: typeof filters.hasEmail === "boolean" ? filters.hasEmail : undefined,
-      hasPhone: typeof filters.hasPhone === "boolean" ? filters.hasPhone : undefined,
-      isMember: typeof filters.isMember === "boolean" ? filters.isMember : undefined,
-      assignedToId: filters.assignedToId || undefined,
-      municipality: municipalityNameFilter || undefined,
-      municipalityId: municipalityIdFilter || undefined,
-      dateRange: filters.dateRange?.from
-        ? {
-            from: filters.dateRange.from,
-            to: filters.dateRange.to,
-          }
-        : undefined,
+      municipality: municipalityNameParam,
+      municipalityId: municipalityIdParam,
+      municipalityIds,
       lastActivityDays: filters.lastActivityDays,
       sortBy,
       sortDirection,
-      useSearchIndex: filters.useSearchIndex ?? false,
     }
-  }, [page, limit, deferredSearchTerm, filters, sortBy, sortDirection, municipalityNameFilter, municipalityIdFilter])
+  }, [
+    page,
+    limit,
+    deferredSearchTerm,
+    filters,
+    sortBy,
+    sortDirection,
+    municipalityNameFilter,
+    municipalityIdFilter,
+    selectedMunicipalityIds,
+  ])
 
   const associationsQuery = api.association.list.useQuery(queryInput, {
     placeholderData: (previousData) => previousData,
@@ -280,6 +286,27 @@ export default function AssociationsPage() {
   const associations = useMemo(() => (data?.associations ?? []) as AssociationListItem[], [data?.associations])
   const totalPages = data?.pagination.totalPages ?? 1
 
+  const selectedAssociationIds = useMemo(() => Array.from(selectedIds), [selectedIds])
+  const allVisibleSelected = associations.length > 0 && associations.every((association) => selectedIds.has(association.id))
+  const someVisibleSelected = associations.some((association) => selectedIds.has(association.id))
+  const headerCheckboxState: boolean | "indeterminate" = allVisibleSelected
+    ? true
+    : someVisibleSelected
+      ? "indeterminate"
+      : false
+
+  const toggleSelectAllVisible = (checked: boolean) => {
+    setSelectedIds((prev) => {
+      const next = new Set(prev)
+      if (checked) {
+        associations.forEach((association) => next.add(association.id))
+      } else {
+        associations.forEach((association) => next.delete(association.id))
+      }
+      return next
+    })
+  }
+
   const typeOptions: MultiSelectOption[] = useMemo(() => {
     const set = new Set<string>()
     associations.forEach((association) => {
@@ -319,6 +346,58 @@ export default function AssociationsPage() {
       }))
   }, [municipalitiesQuery.data])
 
+  const municipalityFilterOptions: MultiSelectOption[] = useMemo(
+    () => municipalityOptions.map((option) => ({ label: option.name, value: option.id })),
+    [municipalityOptions]
+  )
+
+  const selectedMunicipalities = useMemo(() => {
+    if (municipalityOptions.length === 0) {
+      if (selectedMunicipalityIds.length === 1 && municipalityNameFilter) {
+        return [{ id: selectedMunicipalityIds[0], name: municipalityNameFilter }]
+      }
+      return []
+    }
+
+    const optionMap = new Map(municipalityOptions.map((option) => [option.id, option]))
+    return selectedMunicipalityIds
+      .map((id) => optionMap.get(id) ?? (id === municipalityIdFilter && municipalityNameFilter ? { id, name: municipalityNameFilter } : undefined))
+      .filter((value): value is { id: string; name: string } => Boolean(value))
+  }, [
+    municipalityOptions,
+    selectedMunicipalityIds,
+    municipalityIdFilter,
+    municipalityNameFilter,
+  ])
+
+  const selectedMunicipalityNames = selectedMunicipalities.map((municipality) => municipality.name)
+
+  const associationsTitle = selectedMunicipalityNames.length
+    ? selectedMunicipalityNames.length === 1
+      ? `Föreningar i ${selectedMunicipalityNames[0]}`
+      : `Föreningar i ${selectedMunicipalityNames.length} kommuner`
+    : municipalityNameFilter
+      ? `Föreningar i ${municipalityNameFilter}`
+      : "Alla föreningar"
+
+  const updateMunicipalitySelection = (ids: string[]) => {
+    setSelectedMunicipalityIds(ids)
+    setPage(1)
+    const params = new URLSearchParams(searchParams.toString())
+    params.delete("municipality")
+    params.delete("municipalityId")
+    if (ids.length) {
+      params.set("municipalityIds", ids.join(","))
+    } else {
+      params.delete("municipalityIds")
+    }
+    const next = params.toString()
+    if (next === searchParams.toString()) {
+      return
+    }
+    router.push(`/associations${next ? `?${next}` : ""}`)
+  }
+
   const toggleSelection = (id: string) => {
     setSelectedIds((prev) => {
       const next = new Set(prev)
@@ -334,20 +413,16 @@ export default function AssociationsPage() {
   const clearSelection = () => setSelectedIds(new Set())
 
   const handleClearMunicipalityFilter = () => {
-    const params = new URLSearchParams(searchParams.toString())
-    params.delete("municipality")
-    params.delete("municipalityId")
-    setPage(1)
-    const next = params.toString()
-    router.push(`/associations${next ? `?${next}` : ""}`)
+    updateMunicipalitySelection([])
   }
 
   const handleExport = async (format: "csv" | "json" | "xlsx") => {
     const result = await exportAssociations.mutateAsync({
       format,
       search: searchTerm.trim() || undefined,
-      municipality: municipalityNameFilter || undefined,
-      municipalityId: municipalityIdFilter || undefined,
+      municipality: selectedMunicipalityIds.length ? undefined : municipalityNameFilter || undefined,
+      municipalityId: selectedMunicipalityIds.length ? undefined : municipalityIdFilter || undefined,
+      municipalityIds: selectedMunicipalityIds.length ? selectedMunicipalityIds : undefined,
     })
     const binary = atob(result.data)
     const buffer = new Uint8Array(binary.length)
@@ -463,27 +538,7 @@ export default function AssociationsPage() {
     toast({ title: "E-post skickad", description: `E-post skickad till ${values.to}` })
   }
 
-  const handleMunicipalitySelect = (value: string) => {
-    if (value === "all") {
-      handleClearMunicipalityFilter()
-      return
-    }
-
-    const selected = municipalityOptions.find((option) => option.id === value)
-    if (!selected) {
-      return
-    }
-
-    const params = new URLSearchParams(searchParams.toString())
-    params.set("municipalityId", selected.id)
-    params.set("municipality", selected.name)
-    setPage(1)
-    const next = params.toString()
-    router.push(`/associations${next ? `?${next}` : ""}`)
-  }
-
   const isLoading = associationsQuery.isPending
-  const municipalitySelectValue = municipalityIdFilter ?? "all"
 
   return (
     <div className="space-y-6 p-6">
@@ -518,23 +573,13 @@ export default function AssociationsPage() {
               />
             </div>
             <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center sm:gap-3">
-              <Select
-                value={municipalitySelectValue}
-                onValueChange={handleMunicipalitySelect}
-                disabled={municipalitiesQuery.isLoading}
-              >
-                <SelectTrigger className="w-full sm:w-48">
-                  <SelectValue placeholder="Alla kommuner" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="all">Alla kommuner</SelectItem>
-                  {municipalityOptions.map((municipality) => (
-                    <SelectItem key={municipality.id} value={municipality.id}>
-                      {municipality.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+              <MultiSelectFilter
+                label="Kommuner"
+                placeholder="Alla kommuner"
+                options={municipalityFilterOptions}
+                values={selectedMunicipalityIds}
+                onChange={updateMunicipalitySelection}
+              />
               <ViewToggle value={viewMode} onChange={setViewMode} />
               <Select value={limit.toString()} onValueChange={(value) => { setLimit(parseInt(value)); setPage(1); }}>
                 <SelectTrigger className="w-full sm:w-32">
@@ -594,18 +639,10 @@ export default function AssociationsPage() {
               statuses: statusOptions,
               pipelines: pipelineOptions,
               types: typeOptions,
-              activities: ACTIVITY_TYPES,
               tags: tagOptions,
-              users: userOptions,
               activityWindows: ACTIVITY_WINDOWS,
             }}
           />
-          {filters.useSearchIndex && (
-            <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <Badge variant="secondary">Meilisearch</Badge>
-              Avancerad sökning med extern indexering är aktiverad.
-            </div>
-          )}
         </CardContent>
       </Card>
 
@@ -615,6 +652,7 @@ export default function AssociationsPage() {
         onExport={handleExport}
         onAssignOwner={handleBulkAssign}
         owners={userOptions.map((user) => ({ id: user.value, name: user.label }))}
+        onAddToGroup={() => setAddToGroupModalOpen(true)}
       />
 
       <Card>
@@ -626,10 +664,12 @@ export default function AssociationsPage() {
                 {associationsQuery.data?.pagination.total ?? 0} resultat – sida {page} av {totalPages}
               </p>
             </div>
-            {activeMunicipalityName && (
+            {selectedMunicipalityNames.length > 0 && (
               <div className="flex items-center gap-2 text-xs text-muted-foreground">
                 <Badge variant="secondary">Filtrerat på kommun</Badge>
-                <span className="text-xs font-medium text-foreground">{activeMunicipalityName}</span>
+                <span className="text-xs font-medium text-foreground">
+                  {selectedMunicipalityNames.join(", ")}
+                </span>
                 <Button
                   variant="ghost"
                   size="sm"
@@ -662,7 +702,11 @@ export default function AssociationsPage() {
                       #
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Val
+                      <Checkbox
+                        checked={headerCheckboxState}
+                        onCheckedChange={(value) => toggleSelectAllVisible(value === true)}
+                        aria-label="Markera alla synliga föreningar"
+                      />
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Kommun
@@ -715,7 +759,6 @@ export default function AssociationsPage() {
                     const primaryContact = association.contacts?.[0]
                     const isSelected = selectedIds.has(association.id)
                     const typeValues = parseStringArray(association.types)
-                    const activityValues = parseStringArray(association.activities)
                     const rowIndex = (page - 1) * limit + index + 1
 
                     return (
@@ -1114,6 +1157,16 @@ export default function AssociationsPage() {
         onRequestAddContact={(associationId, associationName) =>
           setContactTarget({ id: associationId, name: associationName })
         }
+      />
+
+      <AddAssociationsToGroupModal
+        open={isAddToGroupModalOpen}
+        onOpenChange={setAddToGroupModalOpen}
+        associationIds={selectedAssociationIds}
+        onCompleted={() => {
+          clearSelection()
+          utils.association.list.invalidate(queryInput)
+        }}
       />
     </div>
   )

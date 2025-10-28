@@ -2,7 +2,7 @@
 
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
-import { Download, Users, X } from 'lucide-react'
+import { Download, PlusCircle, Users, X } from 'lucide-react'
 
 interface BulkActionsToolbarProps {
   selectedCount: number
@@ -10,9 +10,17 @@ interface BulkActionsToolbarProps {
   onExport: (format: 'csv' | 'json' | 'xlsx') => void
   onAssignOwner: (ownerId: string | null) => void
   owners: { id: string; name: string }[]
+  onAddToGroup: () => void
 }
 
-export function BulkActionsToolbar({ selectedCount, onClear, onExport, onAssignOwner, owners }: BulkActionsToolbarProps) {
+export function BulkActionsToolbar({
+  selectedCount,
+  onClear,
+  onExport,
+  onAssignOwner,
+  owners,
+  onAddToGroup,
+}: BulkActionsToolbarProps) {
   if (selectedCount === 0) return null
 
   return (
@@ -24,6 +32,9 @@ export function BulkActionsToolbar({ selectedCount, onClear, onExport, onAssignO
         </Button>
       </div>
       <div className="flex flex-wrap items-center gap-2">
+        <Button variant="default" size="sm" className="gap-2" onClick={onAddToGroup}>
+          <PlusCircle className="h-4 w-4" /> Lägg till i grupp
+        </Button>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" size="sm" className="gap-2">
