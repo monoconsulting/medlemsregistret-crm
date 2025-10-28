@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { resolveApiUrl } from '@/lib/api-base'
+import { ensureCsrfToken } from '@/lib/csrf'
 
 const roleSchema = z.enum(['ADMIN', 'MANAGER', 'USER'])
 
@@ -60,10 +61,13 @@ export async function fetchSession(): Promise<AuthSession | null> {
 }
 
 export async function loginRequest(email: string, password: string): Promise<{ ok: boolean; error?: string }> {
+  const csrfToken = await ensureCsrfToken()
+
   const response = await fetch(resolveApiUrl('/api/auth/login'), {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      ...(csrfToken ? { 'X-CSRF-Token': csrfToken } : {}),
     },
     credentials: 'include',
     body: JSON.stringify({ email, password }),
@@ -81,8 +85,11 @@ export async function loginRequest(email: string, password: string): Promise<{ o
 }
 
 export async function logoutRequest(): Promise<void> {
+  const csrfToken = await ensureCsrfToken()
+
   await fetch(resolveApiUrl('/api/auth/logout'), {
     method: 'POST',
+    headers: csrfToken ? { 'X-CSRF-Token': csrfToken } : undefined,
     credentials: 'include',
   })
 }
