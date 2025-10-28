@@ -16,6 +16,7 @@ export const associationRouter = router({
         search: z.string().optional(),
         municipality: z.string().optional(),
         municipalityId: z.string().optional(),
+        municipalityIds: z.array(z.string()).optional(),
         crmStatuses: z.array(z.nativeEnum(CrmStatus)).optional(),
         pipelines: z.array(z.nativeEnum(Pipeline)).optional(),
         types: z.array(z.string()).optional(),
@@ -53,6 +54,7 @@ export const associationRouter = router({
         search,
         municipality,
         municipalityId,
+        municipalityIds,
         crmStatuses,
         pipelines,
         types,
@@ -80,6 +82,7 @@ export const associationRouter = router({
             query: search,
             filters: {
               municipality,
+              municipalityIds,
               crmStatuses,
               pipelines,
               types,
@@ -203,6 +206,10 @@ export const associationRouter = router({
 
       if (municipalityId) {
         where.municipalityId = municipalityId
+      }
+
+      if (municipalityIds?.length) {
+        and.push({ municipalityId: { in: municipalityIds } })
       }
 
       if (crmStatuses?.length) {

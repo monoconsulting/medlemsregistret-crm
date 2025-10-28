@@ -1,18 +1,17 @@
-'use client'
+"use client"
 
-import { Button } from '@/components/ui/button'
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
-import { Download, Users, X } from 'lucide-react'
+import { Button } from "@/components/ui/button"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { Download, FolderPlus, X } from "lucide-react"
 
 interface BulkActionsToolbarProps {
   selectedCount: number
   onClear: () => void
-  onExport: (format: 'csv' | 'json' | 'xlsx') => void
-  onAssignOwner: (ownerId: string | null) => void
-  owners: { id: string; name: string }[]
+  onExport: (format: "csv" | "json" | "xlsx") => void
+  onAddToGroup: () => void
 }
 
-export function BulkActionsToolbar({ selectedCount, onClear, onExport, onAssignOwner, owners }: BulkActionsToolbarProps) {
+export function BulkActionsToolbar({ selectedCount, onClear, onExport, onAddToGroup }: BulkActionsToolbarProps) {
   if (selectedCount === 0) return null
 
   return (
@@ -24,6 +23,9 @@ export function BulkActionsToolbar({ selectedCount, onClear, onExport, onAssignO
         </Button>
       </div>
       <div className="flex flex-wrap items-center gap-2">
+        <Button variant="default" size="sm" className="gap-2" onClick={onAddToGroup}>
+          <FolderPlus className="h-4 w-4" /> Lägg till i grupp
+        </Button>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" size="sm" className="gap-2">
@@ -32,25 +34,9 @@ export function BulkActionsToolbar({ selectedCount, onClear, onExport, onAssignO
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             <DropdownMenuLabel>Välj format</DropdownMenuLabel>
-            <DropdownMenuItem onClick={() => onExport('csv')}>CSV</DropdownMenuItem>
-            <DropdownMenuItem onClick={() => onExport('json')}>JSON</DropdownMenuItem>
-            <DropdownMenuItem onClick={() => onExport('xlsx')}>Excel</DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button variant="outline" size="sm" className="gap-2">
-              <Users className="h-4 w-4" /> Tilldela ansvarig
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="end">
-            <DropdownMenuLabel>Handläggare</DropdownMenuLabel>
-            <DropdownMenuItem onClick={() => onAssignOwner(null)}>Ta bort ansvarig</DropdownMenuItem>
-            {owners.map((owner) => (
-              <DropdownMenuItem key={owner.id} onClick={() => onAssignOwner(owner.id)}>
-                {owner.name}
-              </DropdownMenuItem>
-            ))}
+            <DropdownMenuItem onClick={() => onExport("csv")}>CSV</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => onExport("json")}>JSON</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => onExport("xlsx")}>Excel</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
