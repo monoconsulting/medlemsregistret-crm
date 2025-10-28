@@ -6,6 +6,108 @@ import { subDays, startOfDay, endOfDay, startOfMonth, endOfMonth, subMonths, for
 import { sv } from 'date-fns/locale'
 import { getSearchClient } from '../../lib/search'
 
+type JsonArrayField = 'types' | 'activities' | 'categories'
+
+const SWEDISH_LOCALE = 'sv-SE'
+
+const createCaseVariants = (value: string): string[] => {
+  const trimmed = value.trim()
+  if (!trimmed.length) {
+    return []
+  }
+
+  const lower = trimmed.toLocaleLowerCase(SWEDISH_LOCALE)
+  const upper = trimmed.toLocaleUpperCase(SWEDISH_LOCALE)
+  const title = lower
+    .split(/([\s\-_/]+)/)
+    .map((segment) => {
+      if (!segment.length || /[\s\-_/]+/.test(segment)) {
+        return segment
+      }
+
+      const [first, ...rest] = Array.from(segment)
+      return first.toLocaleUpperCase(SWEDISH_LOCALE) + rest.join('')
+    })
+    .join('')
+
+  return Array.from(new Set([trimmed, lower, upper, title].filter(Boolean)))
+}
+
+const buildJsonArrayFilter = (
+  field: JsonArrayField,
+  selectedValues: string[]
+): Prisma.AssociationWhereInput | null => {
+  const seen = new Set<string>()
+  const orConditions: Prisma.AssociationWhereInput[] = []
+
+  selectedValues.forEach((value) => {
+    createCaseVariants(value).forEach((variant) => {
+      if (!variant.length) {
+        return
+      }
+
+      const key = `${field}::array_contains::${variant}`
+      if (seen.has(key)) {
+        return
+      }
+
+      seen.add(key)
+      orConditions.push({
+        [field]: {
+          array_contains: variant,
+        },
+      } as Prisma.AssociationWhereInput)
+    })
+  })
+
+  if (!orConditions.length) {
+    return null
+  }
+
+  return { OR: orConditions }
+}
+
+const buildJsonSearchConditions = (term: string): Prisma.AssociationWhereInput[] => {
+  const variants = createCaseVariants(term)
+  if (!variants.length) {
+    return []
+  }
+
+  const fields: JsonArrayField[] = ['types', 'activities', 'categories']
+  const seen = new Set<string>()
+  const conditions: Prisma.AssociationWhereInput[] = []
+
+  fields.forEach((field) => {
+    variants.forEach((variant) => {
+      if (!variant.length) {
+        return
+      }
+
+      const arrayKey = `${field}::array::${variant}`
+      if (!seen.has(arrayKey)) {
+        seen.add(arrayKey)
+        conditions.push({
+          [field]: {
+            array_contains: variant,
+          },
+        } as Prisma.AssociationWhereInput)
+      }
+
+      const stringKey = `${field}::string::${variant}`
+      if (!seen.has(stringKey)) {
+        seen.add(stringKey)
+        conditions.push({
+          [field]: {
+            string_contains: variant,
+          },
+        } as Prisma.AssociationWhereInput)
+      }
+    })
+  })
+
+  return conditions
+}
+
 export const associationRouter = router({
   // Get all associations with pagination and filtering
   list: publicProcedure
@@ -129,6 +231,7 @@ export const associationRouter = router({
             { homepageUrl: { contains: term } },
             { descriptionFreeText: { contains: term } },
             { sourceSystem: { contains: term } },
+            ...buildJsonSearchConditions(term),
             {
               tags: {
                 some: {
@@ -206,19 +309,17 @@ export const associationRouter = router({
       }
 
       if (types?.length) {
-        and.push({
-          types: {
-            hasSome: types,
-          },
-        })
+        const typeFilter = buildJsonArrayFilter('types', types)
+        if (typeFilter) {
+          and.push(typeFilter)
+        }
       }
 
       if (activities?.length) {
-        and.push({
-          activities: {
-            hasSome: activities,
-          },
-        })
+        const activityFilter = buildJsonArrayFilter('activities', activities)
+        if (activityFilter) {
+          and.push(activityFilter)
+        }
       }
 
       if (tags?.length) {
