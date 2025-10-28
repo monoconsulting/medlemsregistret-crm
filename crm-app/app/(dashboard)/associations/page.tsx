@@ -1,6 +1,7 @@
 "use client"
 
 import { useDeferredValue, useEffect, useMemo, useState } from "react"
+import type { CheckedState } from "@radix-ui/react-checkbox"
 import { useRouter, useSearchParams } from "next/navigation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -31,6 +32,7 @@ import {
 } from "lucide-react"
 import { AdvancedFilterPanel, type AdvancedFilterState } from "@/components/filters/advanced-filter-panel"
 import { MultiSelectOption } from "@/components/filters/multi-select-filter"
+import { SearchableMultiSelect } from "@/components/filters/searchable-multi-select"
 import { BulkActionsToolbar } from "@/components/filters/bulk-actions-toolbar"
 import { ViewToggle, type ViewMode } from "@/components/filters/view-toggle"
 import { AddContactModal } from "@/components/modals/add-contact-modal"
@@ -38,6 +40,7 @@ import { EditContactModal } from "@/components/modals/edit-contact-modal"
 import { SendEmailModal } from "@/components/modals/send-email-modal"
 import { AssociationDetailsDialog } from "@/components/modals/association-details-dialog"
 import { AssociationContactsModal } from "@/components/modals/association-contacts-modal"
+import { BulkAddToGroupModal } from "@/components/modals/bulk-add-to-group-modal"
 import { api } from "@/lib/trpc/client"
 import { CRM_STATUSES, PIPELINES, type AssociationUpdateInput } from "@/lib/validators/association"
 import type { ContactFormValues, ContactUpdateValues } from "@/lib/validators/contact"
@@ -78,14 +81,6 @@ const parseStringArray = (value: unknown): string[] => {
   return []
 }
 
-const ACTIVITY_TYPES: MultiSelectOption[] = [
-  { label: "Anteckning", value: "NOTE_ADDED" },
-  { label: "Mail skickat", value: "EMAIL_SENT" },
-  { label: "Samtal", value: "CALL_MADE" },
-  { label: "Möte", value: "MEETING_SCHEDULED" },
-  { label: "Statusändring", value: "STATUS_CHANGED" },
-]
-
 const ACTIVITY_WINDOWS = [
   { label: "Senaste 7 dagarna", value: 7 },
   { label: "Senaste 30 dagarna", value: 30 },
@@ -96,15 +91,8 @@ const DEFAULT_FILTERS: AdvancedFilterState = {
   statuses: [],
   pipelines: [],
   types: [],
-  activities: [],
   tags: [],
-  assignedToId: undefined,
-  hasEmail: undefined,
-  hasPhone: undefined,
-  isMember: undefined,
-  dateRange: undefined,
   lastActivityDays: undefined,
-  useSearchIndex: false,
 }
 
 const CRM_STATUS_VALUES = new Set<string>(CRM_STATUSES)
@@ -133,11 +121,6 @@ export default function AssociationsPage() {
   const municipalityIdFilter = searchParams.get("municipalityId")
   const municipalityNameFilter = searchParams.get("municipality")
   const utils = api.useUtils()
-  const municipalityDetailsQuery = api.municipality.getById.useQuery(
-    { id: municipalityIdFilter ?? "" },
-    { enabled: Boolean(municipalityIdFilter) }
-  )
-  const activeMunicipalityName = municipalityDetailsQuery.data?.name ?? municipalityNameFilter
   const [searchTerm, setSearchTerm] = useState("")
   const deferredSearchTerm = useDeferredValue(searchTerm)
   const [filters, setFilters] = useState<AdvancedFilterState>(DEFAULT_FILTERS)
@@ -147,12 +130,28 @@ export default function AssociationsPage() {
   const [sortBy, setSortBy] = useState<SortKey>("updatedAt")
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc")
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
+  const [selectedMunicipalityIds, setSelectedMunicipalityIds] = useState<string[]>([])
+  const [hasCustomMunicipalityFilter, setHasCustomMunicipalityFilter] = useState(false)
+  const [isGroupModalOpen, setIsGroupModalOpen] = useState(false)
+  const selectedCount = selectedIds.size
+  const selectedIdList = useMemo(() => Array.from(selectedIds), [selectedIds])
+
+  useEffect(() => {
+    if (selectedIdList.length === 0) {
+      setIsGroupModalOpen(false)
+    }
+  }, [selectedIdList.length])
 
   useEffect(() => {
     setPage(1)
   }, [municipalityIdFilter, municipalityNameFilter])
 
-  const associationsTitle = activeMunicipalityName ? `Föreningar i ${activeMunicipalityName}` : "Alla föreningar"
+  const associationsTitle =
+    selectedMunicipalityNames.length === 1
+      ? `Föreningar i ${selectedMunicipalityNames[0]}`
+      : selectedMunicipalityNames.length > 1
+        ? `Föreningar i ${selectedMunicipalityNames.length} kommuner`
+        : "Alla föreningar"
 
   const defaultSortDirectionFor = (field: SortKey): "asc" | "desc" =>
     field === "updatedAt" || field === "createdAt" || field === "recentActivity" ? "desc" : "asc"
@@ -192,6 +191,21 @@ export default function AssociationsPage() {
   const [detailsAssociationId, setDetailsAssociationId] = useState<string | null>(null)
   const [contactsPanelAssociationId, setContactsPanelAssociationId] = useState<string | null>(null)
 
+  const effectiveMunicipalityIds = useMemo(() => {
+    if (hasCustomMunicipalityFilter) {
+      return selectedMunicipalityIds
+    }
+    if (municipalityIdFilter) {
+      return [municipalityIdFilter]
+    }
+    return []
+  }, [hasCustomMunicipalityFilter, selectedMunicipalityIds, municipalityIdFilter])
+  const municipalityIdForQuery = effectiveMunicipalityIds.length === 1 ? effectiveMunicipalityIds[0] : undefined
+  const municipalityNameForQuery = !hasCustomMunicipalityFilter && !municipalityIdForQuery
+    ? municipalityNameFilter || undefined
+    : undefined
+  const municipalityFilterValues = hasCustomMunicipalityFilter ? selectedMunicipalityIds : effectiveMunicipalityIds
+
   const queryInput = useMemo(() => {
     const crmStatuses = filters.statuses.length ? normalizeStatuses(filters.statuses) : undefined
     const pipelines = filters.pipelines.length ? normalizePipelines(filters.pipelines) : undefined
@@ -203,26 +217,25 @@ export default function AssociationsPage() {
       crmStatuses,
       pipelines,
       types: filters.types.length ? filters.types : undefined,
-      activities: filters.activities.length ? filters.activities : undefined,
       tags: filters.tags.length ? filters.tags : undefined,
-      hasEmail: typeof filters.hasEmail === "boolean" ? filters.hasEmail : undefined,
-      hasPhone: typeof filters.hasPhone === "boolean" ? filters.hasPhone : undefined,
-      isMember: typeof filters.isMember === "boolean" ? filters.isMember : undefined,
-      assignedToId: filters.assignedToId || undefined,
-      municipality: municipalityNameFilter || undefined,
-      municipalityId: municipalityIdFilter || undefined,
-      dateRange: filters.dateRange?.from
-        ? {
-            from: filters.dateRange.from,
-            to: filters.dateRange.to,
-          }
-        : undefined,
+      municipality: municipalityNameForQuery,
+      municipalityId: municipalityIdForQuery,
+      municipalityIds: effectiveMunicipalityIds.length ? effectiveMunicipalityIds : undefined,
       lastActivityDays: filters.lastActivityDays,
       sortBy,
       sortDirection,
-      useSearchIndex: filters.useSearchIndex ?? false,
     }
-  }, [page, limit, deferredSearchTerm, filters, sortBy, sortDirection, municipalityNameFilter, municipalityIdFilter])
+  }, [
+    page,
+    limit,
+    deferredSearchTerm,
+    filters,
+    sortBy,
+    sortDirection,
+    municipalityNameForQuery,
+    municipalityIdForQuery,
+    effectiveMunicipalityIds,
+  ])
 
   const associationsQuery = api.association.list.useQuery(queryInput, {
     placeholderData: (previousData) => previousData,
@@ -280,6 +293,24 @@ export default function AssociationsPage() {
   const associations = useMemo(() => (data?.associations ?? []) as AssociationListItem[], [data?.associations])
   const totalPages = data?.pagination.totalPages ?? 1
 
+  const visibleAssociationIds = useMemo(() => associations.map((association) => association.id), [associations])
+  const allVisibleSelected =
+    visibleAssociationIds.length > 0 && visibleAssociationIds.every((id) => selectedIds.has(id))
+  const someVisibleSelected = visibleAssociationIds.some((id) => selectedIds.has(id))
+  const headerCheckboxState: CheckedState = allVisibleSelected ? true : someVisibleSelected ? "indeterminate" : false
+
+  const handleToggleSelectAllVisible = (checked: CheckedState) => {
+    setSelectedIds((prev) => {
+      const next = new Set(prev)
+      if (checked === true) {
+        visibleAssociationIds.forEach((id) => next.add(id))
+      } else {
+        visibleAssociationIds.forEach((id) => next.delete(id))
+      }
+      return next
+    })
+  }
+
   const typeOptions: MultiSelectOption[] = useMemo(() => {
     const set = new Set<string>()
     associations.forEach((association) => {
@@ -319,6 +350,28 @@ export default function AssociationsPage() {
       }))
   }, [municipalitiesQuery.data])
 
+  const municipalityFilterOptions: MultiSelectOption[] = useMemo(
+    () => municipalityOptions.map((municipality) => ({ label: municipality.name, value: municipality.id })),
+    [municipalityOptions]
+  )
+
+  const municipalityNameMap = useMemo(
+    () => new Map(municipalityOptions.map((municipality) => [municipality.id, municipality.name])),
+    [municipalityOptions]
+  )
+
+  const selectedMunicipalityNames = useMemo(() => {
+    const names = effectiveMunicipalityIds
+      .map((id) => municipalityNameMap.get(id))
+      .filter((name): name is string => Boolean(name))
+
+    if (!names.length && municipalityNameFilter) {
+      names.push(municipalityNameFilter)
+    }
+
+    return names
+  }, [effectiveMunicipalityIds, municipalityNameFilter, municipalityNameMap])
+
   const toggleSelection = (id: string) => {
     setSelectedIds((prev) => {
       const next = new Set(prev)
@@ -337,17 +390,20 @@ export default function AssociationsPage() {
     const params = new URLSearchParams(searchParams.toString())
     params.delete("municipality")
     params.delete("municipalityId")
+    setSelectedMunicipalityIds([])
+    setHasCustomMunicipalityFilter(false)
     setPage(1)
     const next = params.toString()
-    router.push(`/associations${next ? `?${next}` : ""}`)
+    router.replace(`/associations${next ? `?${next}` : ""}`)
   }
 
   const handleExport = async (format: "csv" | "json" | "xlsx") => {
     const result = await exportAssociations.mutateAsync({
       format,
       search: searchTerm.trim() || undefined,
-      municipality: municipalityNameFilter || undefined,
-      municipalityId: municipalityIdFilter || undefined,
+      municipality: municipalityNameForQuery,
+      municipalityId: municipalityIdForQuery,
+      municipalityIds: effectiveMunicipalityIds.length ? effectiveMunicipalityIds : undefined,
     })
     const binary = atob(result.data)
     const buffer = new Uint8Array(binary.length)
@@ -463,27 +519,22 @@ export default function AssociationsPage() {
     toast({ title: "E-post skickad", description: `E-post skickad till ${values.to}` })
   }
 
-  const handleMunicipalitySelect = (value: string) => {
-    if (value === "all") {
-      handleClearMunicipalityFilter()
-      return
-    }
-
-    const selected = municipalityOptions.find((option) => option.id === value)
-    if (!selected) {
-      return
-    }
-
-    const params = new URLSearchParams(searchParams.toString())
-    params.set("municipalityId", selected.id)
-    params.set("municipality", selected.name)
+  const handleMunicipalitySelectionChange = (values: string[]) => {
+    const uniqueValues = Array.from(new Set(values))
+    setSelectedMunicipalityIds(uniqueValues)
+    setHasCustomMunicipalityFilter(uniqueValues.length > 0)
     setPage(1)
-    const next = params.toString()
-    router.push(`/associations${next ? `?${next}` : ""}`)
+
+    if (municipalityIdFilter || municipalityNameFilter) {
+      const params = new URLSearchParams(searchParams.toString())
+      params.delete("municipality")
+      params.delete("municipalityId")
+      const next = params.toString()
+      router.replace(`/associations${next ? `?${next}` : ""}`)
+    }
   }
 
   const isLoading = associationsQuery.isPending
-  const municipalitySelectValue = municipalityIdFilter ?? "all"
 
   return (
     <div className="space-y-6 p-6">
@@ -518,23 +569,25 @@ export default function AssociationsPage() {
               />
             </div>
             <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center sm:gap-3">
-              <Select
-                value={municipalitySelectValue}
-                onValueChange={handleMunicipalitySelect}
-                disabled={municipalitiesQuery.isLoading}
-              >
-                <SelectTrigger className="w-full sm:w-48">
-                  <SelectValue placeholder="Alla kommuner" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="all">Alla kommuner</SelectItem>
-                  {municipalityOptions.map((municipality) => (
-                    <SelectItem key={municipality.id} value={municipality.id}>
-                      {municipality.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+              <div className="w-full sm:w-56">
+                <SearchableMultiSelect
+                  label="Kommuner"
+                  options={municipalityFilterOptions}
+                  values={municipalityFilterValues}
+                  onChange={handleMunicipalitySelectionChange}
+                  placeholder="Alla kommuner"
+                  searchPlaceholder="Sök kommun"
+                  emptyLabel="Inga kommuner"
+                  summaryFormatter={(selected) => {
+                    if (selected.length === 0) return "Alla kommuner"
+                    if (selected.length === 1) return selected[0].label
+                    if (selected.length === 2) {
+                      return `${selected[0].label}, ${selected[1].label}`
+                    }
+                    return `${selected.length} kommuner`
+                  }}
+                />
+              </div>
               <ViewToggle value={viewMode} onChange={setViewMode} />
               <Select value={limit.toString()} onValueChange={(value) => { setLimit(parseInt(value)); setPage(1); }}>
                 <SelectTrigger className="w-full sm:w-32">
@@ -594,27 +647,20 @@ export default function AssociationsPage() {
               statuses: statusOptions,
               pipelines: pipelineOptions,
               types: typeOptions,
-              activities: ACTIVITY_TYPES,
               tags: tagOptions,
-              users: userOptions,
               activityWindows: ACTIVITY_WINDOWS,
             }}
           />
-          {filters.useSearchIndex && (
-            <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <Badge variant="secondary">Meilisearch</Badge>
-              Avancerad sökning med extern indexering är aktiverad.
-            </div>
-          )}
         </CardContent>
       </Card>
 
       <BulkActionsToolbar
-        selectedCount={selectedIds.size}
+        selectedCount={selectedCount}
         onClear={clearSelection}
         onExport={handleExport}
         onAssignOwner={handleBulkAssign}
         owners={userOptions.map((user) => ({ id: user.value, name: user.label }))}
+        onAddToGroup={() => setIsGroupModalOpen(true)}
       />
 
       <Card>
@@ -626,10 +672,12 @@ export default function AssociationsPage() {
                 {associationsQuery.data?.pagination.total ?? 0} resultat – sida {page} av {totalPages}
               </p>
             </div>
-            {activeMunicipalityName && (
+            {selectedMunicipalityNames.length > 0 && (
               <div className="flex items-center gap-2 text-xs text-muted-foreground">
                 <Badge variant="secondary">Filtrerat på kommun</Badge>
-                <span className="text-xs font-medium text-foreground">{activeMunicipalityName}</span>
+                <span className="text-xs font-medium text-foreground">
+                  {selectedMunicipalityNames.join(", ")}
+                </span>
                 <Button
                   variant="ghost"
                   size="sm"
@@ -662,7 +710,12 @@ export default function AssociationsPage() {
                       #
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Val
+                      <Checkbox
+                        checked={headerCheckboxState}
+                        onCheckedChange={handleToggleSelectAllVisible}
+                        disabled={!visibleAssociationIds.length}
+                        aria-label="Markera alla synliga föreningar"
+                      />
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Kommun
@@ -715,7 +768,6 @@ export default function AssociationsPage() {
                     const primaryContact = association.contacts?.[0]
                     const isSelected = selectedIds.has(association.id)
                     const typeValues = parseStringArray(association.types)
-                    const activityValues = parseStringArray(association.activities)
                     const rowIndex = (page - 1) * limit + index + 1
 
                     return (
@@ -1096,6 +1148,16 @@ export default function AssociationsPage() {
           isSubmitting={false}
         />
       )}
+
+      <BulkAddToGroupModal
+        open={isGroupModalOpen && selectedIdList.length > 0}
+        onOpenChange={setIsGroupModalOpen}
+        associationIds={selectedIdList}
+        onComplete={() => {
+          clearSelection()
+          setIsGroupModalOpen(false)
+        }}
+      />
 
       <AssociationDetailsDialog
         associationId={detailsAssociationId}
