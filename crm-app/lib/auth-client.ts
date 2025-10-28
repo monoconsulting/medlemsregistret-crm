@@ -1,5 +1,7 @@
 import { z } from 'zod'
 import { resolveApiUrl } from '@/lib/api-base'
+import { ensureCsrfToken } from '@/lib/csrf'
+import { CSRF_HEADER_NAME } from '@/lib/security/constants'
 
 const roleSchema = z.enum(['ADMIN', 'MANAGER', 'USER'])
 
@@ -59,12 +61,29 @@ export async function fetchSession(): Promise<AuthSession | null> {
 
 }
 
+async function buildCsrfHeaders(baseHeaders?: HeadersInit): Promise<HeadersInit> {
+  const headers = new Headers(baseHeaders)
+  const token = await ensureCsrfToken(() =>
+    fetch(resolveApiUrl('/api/auth/me'), {
+      credentials: 'include',
+    }),
+  )
+
+  if (token) {
+    headers.set(CSRF_HEADER_NAME, token)
+  }
+
+  return headers
+}
+
 export async function loginRequest(email: string, password: string): Promise<{ ok: boolean; error?: string }> {
+  const headers = await buildCsrfHeaders({
+    'Content-Type': 'application/json',
+  })
+
   const response = await fetch(resolveApiUrl('/api/auth/login'), {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
+    headers,
     credentials: 'include',
     body: JSON.stringify({ email, password }),
   })
@@ -81,8 +100,11 @@ export async function loginRequest(email: string, password: string): Promise<{ o
 }
 
 export async function logoutRequest(): Promise<void> {
+  const headers = await buildCsrfHeaders()
+
   await fetch(resolveApiUrl('/api/auth/logout'), {
     method: 'POST',
+    headers,
     credentials: 'include',
   })
 }

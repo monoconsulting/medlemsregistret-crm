@@ -32,9 +32,7 @@ interface AuthContextValue {
   refresh: () => Promise<void>
 }
 
-const backendAuthEnabled = Boolean(
-  process.env.NEXT_PUBLIC_API_BASE_URL && process.env.NEXT_PUBLIC_API_BASE_URL.trim().length > 0,
-)
+const backendAuthEnabled = true
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined)
 

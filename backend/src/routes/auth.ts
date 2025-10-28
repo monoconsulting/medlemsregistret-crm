@@ -4,6 +4,7 @@ import { z } from 'zod';
 
 import { db } from '../../crm-app/lib/db';
 import { clearSessionCookie, createSessionToken, setSessionCookie } from '../auth/session';
+import { clearCsrfCookies, setCsrfCookie } from '../middleware/security';
 
 const loginSchema = z.object({
   email: z.string().email(),
@@ -46,11 +47,21 @@ authRouter.post('/login', async (req, res) => {
   const token = createSessionToken(sessionUser);
   setSessionCookie(res, token);
 
+  if (typeof req.csrfToken === 'function') {
+    try {
+      const nextToken = req.csrfToken();
+      setCsrfCookie(res, nextToken);
+    } catch (error) {
+      console.error('Kunde inte generera CSRF-token vid inloggning:', error);
+    }
+  }
+
   return res.json({ user: sessionUser });
 });
 
 authRouter.post('/logout', (req, res) => {
   clearSessionCookie(res);
+  clearCsrfCookies(res);
   res.status(204).end();
 });
 

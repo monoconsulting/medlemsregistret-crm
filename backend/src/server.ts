@@ -1,7 +1,6 @@
 import 'express-async-errors';
 import express from 'express';
-import cors from 'cors';
-import cookieParser from 'cookie-parser';
+import morgan from 'morgan';
 import { createExpressMiddleware } from '@trpc/server/adapters/express';
 
 import { appRouter } from '../crm-app/server/routers/_app';
@@ -12,33 +11,29 @@ import { associationsRouter } from './routes/associations';
 import { getSessionFromRequest } from './auth/session';
 import { createContext } from './context';
 import { requireAuth } from './middleware/requireAuth';
+import { corsMiddleware } from './middleware/cors';
+import {
+  attachCsrfToken,
+  cookieParserMiddleware,
+  csrfMiddleware,
+  helmetMiddleware,
+} from './middleware/security';
+import { configRouter } from './routes/config';
+import { healthRouter } from './routes/health';
 
 const app = express();
 
 app.disable('x-powered-by');
 
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      if (!origin || config.allowedOrigins.length === 0) {
-        callback(null, true);
-        return;
-      }
-
-      if (config.allowedOrigins.includes(origin)) {
-        callback(null, true);
-        return;
-      }
-
-      callback(new Error(`Origin ${origin} är inte tillåten.`));
-    },
-    credentials: true,
-  }),
-);
-
-app.use(cookieParser());
+app.use(helmetMiddleware);
+app.use(morgan(config.nodeEnv === 'production' ? 'combined' : 'dev'));
+app.use(corsMiddleware);
+app.use(cookieParserMiddleware);
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
+
+app.use(csrfMiddleware);
+app.use(attachCsrfToken);
 
 app.use(async (req, _res, next) => {
   try {
@@ -50,12 +45,8 @@ app.use(async (req, _res, next) => {
   next();
 });
 
-app.get('/api/health', (_req, res) => {
-  res.json({
-    status: 'ok',
-    time: new Date().toISOString(),
-  });
-});
+app.use('/config.json', configRouter);
+app.use('/api/health', healthRouter);
 
 app.use('/api/auth', authRouter);
 app.use('/api/import', importRouter);
@@ -78,11 +69,22 @@ app.post('/api/scraping/:municipalityId/run', requireAuth(['ADMIN']), (_req, res
     .json({ error: 'Automatiska scraping-körningar hanteras ännu inte av backend-servern.' });
 });
 
+app.use((_req, res) => {
+  res.status(404).json({ error: 'Not Found' });
+});
+
 app.use((err: unknown, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
-  console.error('Ohanterat fel i backend:', err);
   if (res.headersSent) {
     return;
   }
+
+  const errorObject = err as { code?: string } | null;
+  if (errorObject?.code === 'EBADCSRFTOKEN') {
+    res.status(403).json({ error: 'INVALID_CSRF_TOKEN' });
+    return;
+  }
+
+  console.error('Ohanterat fel i backend:', err);
   res.status(500).json({ error: 'Internt serverfel.' });
 });
 
