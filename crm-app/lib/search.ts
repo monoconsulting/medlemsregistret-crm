@@ -1,4 +1,4 @@
-type SearchFilters = {
+﻿type SearchFilters = {
   municipality?: string
   crmStatuses?: string[]
   pipelines?: string[]
@@ -66,7 +66,7 @@ class TypesenseClient implements SearchClient {
     const filterBy = buildFilterString(params.filters)
     const queryParams: Record<string, string> = {
       q: params.query ?? '*',
-      query_by: 'name,city,municipality',
+      query_by: 'name,city,municipality,types,activities,categories,tags',
       page: params.page.toString(),
       per_page: params.limit.toString(),
     }
@@ -141,6 +141,7 @@ class MeilisearchClient implements SearchClient {
         page: params.page,
         hitsPerPage: params.limit,
         filter: filterExpressions.length ? filterExpressions : undefined,
+        attributesToSearchOn: ['name', 'city', 'municipality', 'types', 'activities', 'categories', 'tags'],
       }),
     })
 
