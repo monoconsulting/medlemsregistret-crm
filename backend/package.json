@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsup src/server.ts --format cjs --dts false --sourcemap --minify false --out-dir dist --clean",
+    "build": "tsup src/server.ts --format cjs --sourcemap --no-dts --no-minify --out-dir dist --clean --external ../crm-app/server/routers/_app --external ../crm-app/lib/db --external ../crm-app/lib/importer --external ../../crm-app/lib/db --external ../../crm-app/lib/importer",
     "start": "node dist/server.js",
     "prisma:verify": "tsx src/tools/prisma-verify.ts"
   },
