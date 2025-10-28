@@ -1,5 +1,82 @@
 # MCRM - NOTES
 
+Nu:
+
+Karta: Sätt örebro i mitten av kartan då funktionen startar. Annars kan vi hamna på en annan kontinent
+
+
+
+## Övrigt
+
+- [ ] 
+
+## Kommuner
+
+- [ ] Möjlighet att markera kommuner och därefter skapa grupp
+- [ ] Möjlighet att gruppera kommuner
+- [x] Sortera genom klick på headern
+- [x] Fixa encodingproblemet på Föreningar
+- [x] Gör följande i kommuntabellen sorteringsbart:
+  - [x] Kommun
+  - [x] Län
+  - [x] Region
+  - [x] Landskap
+  - [x] Befolkning
+  - [x] Föreningar
+  - [x] Plattform
+
+## Föreningar
+
+- [ ] Möjlighet att välja kommun. Dropdown finns - men den är tom. Jag vill kunna välja bland alla kommuner och skriva in texten längst uppe så den kan söka istället för att man rullar.
+
+- [ ] Vanlig Sökning fortfarande inte fungerande
+- [ ] Väldigt långsamt behöver indexeras
+
+### Övrigt
+
+- [ ] Fixa tabeller för status och pipeline
+- [ ] AI-genererat taggande
+
+@start.prompt.md 
+
+Jag vill att du skapar ett nytt menyalternativ "Användare". Här ska man ha möjlighet att skapa och administrera personer som ska jobba i systemet. Basera den på innehållet i databasen och gör ett fullständigt admininterface som följer de standards som finns i designen.
+
+
+
+Torrsim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+### Kommunöversikt: 
+
+Kolumn kommun: Vid klick på kommunen ska man öppna menyval "Föreningar" och visa upp samtliga föreningar som tillhör kommunen i bokstavsordning.
+```
+
 
 
 Läs AGENTS.md.

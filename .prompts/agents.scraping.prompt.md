@@ -4,6 +4,18 @@
  **Purpose:** Standard runtime system prompt for all municipal scraping agents.
  **Audience:** Playwright-based agents executing JSON extraction + DB import tasks.
 
+**Paths:** 
+
+Must be fetched from /crm-app/.env:
+
+SCRAPING_JSON_DIR=
+SCRAPING_LOGS_DIR=
+SCRAPING_SCRIPTS_DIR=
+
+**Forbidden:**
+
+- ÅÄÖ and special characters are not allowed. Use english in all files.  Change "Borås" to "Boras" and "Östersund" to "Ostersund"
+
 ------
 
 ## 🧠 ROLE & OBJECTIVE

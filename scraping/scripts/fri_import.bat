@@ -29,9 +29,15 @@ REM Set DATABASE_URL to use production database on port 3316
 set DATABASE_URL=mysql://crm_user:crm_password_change_me@localhost:3316/crm_db
 
 REM Import all FRI JSON files (they have _FRI_ in the filename)
-for %%f in (..\scraping\json\*_FRI_*.json) do (
-    echo Importing %%f...
-    npx tsx scripts/import-fixtures.ts --mode=update "%%f"
+echo Importing latest fixtures per municipality...
+npx tsx scripts/import-fixtures.ts --mode=update
+
+if errorlevel 1 (
+    echo.
+    echo ERROR: Import failed!
+    echo.
+    pause
+    exit /b 1
 )
 
 echo.

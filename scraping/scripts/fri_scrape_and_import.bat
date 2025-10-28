@@ -53,10 +53,16 @@ echo STEP 2: IMPORTING TO DATABASE
 echo ========================================
 echo.
 
-REM Import all FRI JSON files (they have _FRI_ in the filename)
-for %%f in (..\scraping\json\*_FRI_*.json) do (
-    echo Importing %%f...
-    npx tsx scripts/import-fixtures.ts --mode=update "%%f"
+REM Import all FRI JSON files (latest per municipality)
+echo Importing latest fixtures per municipality...
+npx tsx scripts/import-fixtures.ts --mode=update
+
+if errorlevel 1 (
+    echo.
+    echo ERROR: Import failed!
+    echo.
+    pause
+    exit /b 1
 )
 
 echo.
