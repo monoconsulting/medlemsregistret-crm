@@ -76,6 +76,8 @@ export interface ImportStats {
 
 export class ImporterError extends Error {}
 
+type PrismaExecutor = PrismaClient | Prisma.TransactionClient
+
 export async function parseFixtureFile(filePath: string): Promise<ImportFile> {
   const content = await fs.readFile(filePath, 'utf-8')
   const filename = path.basename(filePath)
@@ -165,111 +167,121 @@ export async function importAssociations(options: ImporterOptions): Promise<Impo
   const scrapeRunCache = new Map<string, string | null>()
 
   try {
-    await prisma.$transaction(async (tx) => {
-      if (mode === 'replace') {
-        const deletionResult = await tx.association.deleteMany({
-          where: { municipalityId: municipality.id },
-        })
-        stats.deletedCount = deletionResult.count
+    if (mode === 'replace') {
+      const deletionResult = await prisma.association.deleteMany({
+        where: { municipalityId: municipality.id },
+      })
+      stats.deletedCount = deletionResult.count
+    }
+
+    for (const item of flattenedRecords) {
+      const record = item.record
+      const recordMunicipality = record.municipality?.trim()
+      if (!recordMunicipality) {
+        throw new ImporterError(
+          `Posten ${record.association.name ?? 'utan namn'} saknar kommunnamn och importen avbryts.`
+        )
       }
 
-      for (const item of flattenedRecords) {
-        const record = item.record
-        const recordMunicipality = record.municipality?.trim()
-        if (!recordMunicipality) {
-          throw new ImporterError(
-            `Posten ${record.association.name ?? 'utan namn'} saknar kommunnamn och importen avbryts.`
-          )
+      const filename = item.filename
+      let resolvedScrapeRunId: string | null = null
+      if (record.scrape_run_id) {
+        if (scrapeRunCache.has(record.scrape_run_id)) {
+          resolvedScrapeRunId = scrapeRunCache.get(record.scrape_run_id) ?? null
+        } else {
+          const scrapeRun = await prisma.scrapeRun.findUnique({
+            where: { id: record.scrape_run_id },
+            select: { id: true },
+          })
+          resolvedScrapeRunId = scrapeRun?.id ?? null
+          scrapeRunCache.set(record.scrape_run_id, resolvedScrapeRunId)
         }
+      }
 
-        const filename = item.filename
-        let resolvedScrapeRunId: string | null = null
-        if (record.scrape_run_id) {
-          if (scrapeRunCache.has(record.scrape_run_id)) {
-            resolvedScrapeRunId = scrapeRunCache.get(record.scrape_run_id) ?? null
-          } else {
-            const scrapeRun = await tx.scrapeRun.findUnique({
-              where: { id: record.scrape_run_id },
-              select: { id: true },
-            })
-            resolvedScrapeRunId = scrapeRun?.id ?? null
-            scrapeRunCache.set(record.scrape_run_id, resolvedScrapeRunId)
-          }
-        }
+      const associationPayload = buildAssociationPayload(record, {
+        municipalityId: municipality.id,
+        municipalityName: municipality.name,
+        importBatchId: importBatch.id,
+        scrapeRunId: resolvedScrapeRunId,
+      })
 
-        const associationPayload = buildAssociationPayload(record, {
-          municipalityId: municipality.id,
-          municipalityName: municipality.name,
-          importBatchId: importBatch.id,
-          scrapeRunId: resolvedScrapeRunId,
-        })
+      if (associationPayload instanceof ImporterError) {
+        stats.errorCount += 1
+        stats.errors.push(associationPayload.message)
+        continue
+      }
 
-        if (associationPayload instanceof ImporterError) {
+      const { data, contacts, descriptionSections, detailUrl, lookupNameKey } = associationPayload
+
+      if (detailUrl) {
+        if (processedDetailUrls.has(detailUrl)) {
           stats.errorCount += 1
-          stats.errors.push(associationPayload.message)
+          stats.errors.push(`Duplicerad detailUrl i batchen (${detailUrl}) - fil: ${filename}`)
           continue
         }
+        processedDetailUrls.add(detailUrl)
+      }
 
-        const { data, contacts, descriptionSections, detailUrl, lookupNameKey } = associationPayload
-
-        if (detailUrl) {
-          if (processedDetailUrls.has(detailUrl)) {
-            stats.errorCount += 1
-            stats.errors.push(`Duplicerad detailUrl i batchen (${detailUrl}) – fil: ${filename}`)
-            continue
-          }
-          processedDetailUrls.add(detailUrl)
+      if (lookupNameKey) {
+        if (processedNameKeys.has(lookupNameKey) && !detailUrl) {
+          stats.errorCount += 1
+          stats.errors.push(`Duplicerat namn i batchen (${lookupNameKey.split(':')[1]}) - fil: ${filename}`)
+          continue
         }
+        processedNameKeys.add(lookupNameKey)
+      }
 
-        if (lookupNameKey) {
-          if (processedNameKeys.has(lookupNameKey) && !detailUrl) {
-            stats.errorCount += 1
-            stats.errors.push(`Duplicerat namn i batchen (${lookupNameKey.split(':')[1]}) – fil: ${filename}`)
-            continue
-          }
-          processedNameKeys.add(lookupNameKey)
-        }
+      try {
+        const outcome = await prisma.$transaction(
+          async (tx) => {
+            const existing = await findExistingAssociation(tx, {
+              detailUrl,
+              municipalityId: municipality.id,
+              name: data.name,
+            })
 
-        const existing = await findExistingAssociation(tx, {
-          detailUrl,
-          municipalityId: municipality.id,
-          name: data.name,
-        })
+            if (existing) {
+              if (mode === 'new') {
+                return { status: 'skipped-existing' as const }
+              }
 
-        if (existing) {
-          if (mode === 'new') {
-            stats.skippedCount += 1
-            continue
-          }
+              await updateAssociation(tx, existing.id, data, contacts, descriptionSections)
+              return { status: 'updated' as const }
+            }
 
-          try {
-            await updateAssociation(tx, existing.id, data, contacts, descriptionSections)
-            stats.updatedCount += 1
-          } catch (error) {
-            stats.errorCount += 1
-            stats.errors.push(
-              `Kunde inte uppdatera ${data.name} (${detailUrl ?? 'saknar detailUrl'}): ${(error as Error).message}`
-            )
-          }
-        } else {
-          try {
             await createAssociation(tx, data, contacts, descriptionSections)
-            stats.importedCount += 1
-          } catch (error) {
-            stats.errorCount += 1
-            stats.errors.push(
-              `Kunde inte skapa ${data.name} (${detailUrl ?? 'saknar detailUrl'}): ${(error as Error).message}`
-            )
-          }
+            return { status: 'imported' as const }
+          },
+          { timeout: 20000, maxWait: 10000 }
+        )
+
+        if (outcome.status === 'imported') {
+          stats.importedCount += 1
+        } else if (outcome.status === 'updated') {
+          stats.updatedCount += 1
+        } else {
+          stats.skippedCount += 1
+        }
+      } catch (error) {
+        stats.errorCount += 1
+        stats.errors.push(
+          `Kunde inte behandla ${data.name} (${detailUrl ?? 'saknar detailUrl'}): ${(error as Error).message}`
+        )
+        if (detailUrl) {
+          processedDetailUrls.delete(detailUrl)
+        }
+        if (lookupNameKey) {
+          processedNameKeys.delete(lookupNameKey)
         }
       }
-    })
+    }
   } catch (error) {
     stats.errorCount += 1
     stats.errors.push(`Importen avbröts: ${(error as Error).message}`)
 
-    await prisma.importBatch.update({
-      where: { id: importBatch.id },
+    try {
+      await prisma.importBatch.update({
+        where: { id: importBatch.id },
         data: {
           status: 'failed',
           totalRecords: stats.totalRecords,
@@ -282,26 +294,37 @@ export async function importAssociations(options: ImporterOptions): Promise<Impo
           completedAt: new Date(),
         },
       })
+    } catch (updateError) {
+      stats.errors.push(
+        `Kunde inte uppdatera importBatch vid felhantering: ${(updateError as Error).message}`
+      )
+    }
 
     throw error
   }
 
   const finalStatus = stats.errorCount > 0 && stats.importedCount === 0 && stats.updatedCount === 0 ? 'failed' : 'completed'
 
-  await prisma.importBatch.update({
-    where: { id: importBatch.id },
-    data: {
-      status: finalStatus,
-      totalRecords: stats.totalRecords,
-      importedCount: stats.importedCount,
-      updatedCount: stats.updatedCount,
-      skippedCount: stats.skippedCount,
-      errorCount: stats.errorCount,
-      deletedCount: stats.deletedCount,
-      errors: stats.errors as Prisma.InputJsonValue,
-      completedAt: new Date(),
-    },
-  })
+  try {
+    await prisma.importBatch.update({
+      where: { id: importBatch.id },
+      data: {
+        status: finalStatus,
+        totalRecords: stats.totalRecords,
+        importedCount: stats.importedCount,
+        updatedCount: stats.updatedCount,
+        skippedCount: stats.skippedCount,
+        errorCount: stats.errorCount,
+        deletedCount: stats.deletedCount,
+        errors: stats.errors as Prisma.InputJsonValue,
+        completedAt: new Date(),
+      },
+    })
+  } catch (updateError) {
+    stats.errors.push(
+      `Kunde inte uppdatera importBatch efter import: ${(updateError as Error).message}`
+    )
+  }
 
   return {
     batchId: importBatch.id,
@@ -347,8 +370,8 @@ type AssociationPayload =
       data: NormalizedAssociationData
       contacts: Prisma.ContactCreateManyInput[]
       descriptionSections: Array<{
-        title: string
-        data: Prisma.InputJsonValue
+        title: string | null
+        data: Prisma.InputJsonValue | null
         orderIndex: number
       }>
       detailUrl: string | null
@@ -439,25 +462,36 @@ function buildAssociationPayload(
       isPrimary: index === 0,
     }))
 
-  const descriptionSections = record.association.description?.sections?.map((section, index) => ({
-    title: section.title,
-    data: section.data as Prisma.InputJsonValue,
-    orderIndex: index,
-  }))
+  const descriptionSections =
+    record.association.description?.sections
+      ?.map((section, index) => {
+        const rawTitle = typeof section.title === 'string' ? section.title.trim() : ''
+        const title = rawTitle.length ? rawTitle : null
+
+        const hasData = section.data && Object.keys(section.data).length > 0
+        const dataValue = hasData ? (section.data as Prisma.InputJsonValue) : Prisma.JsonNull
+
+        return {
+          title,
+          data: dataValue,
+          orderIndex: index,
+        }
+      })
+      .filter((section) => section.title !== null || section.data !== Prisma.JsonNull) ?? []
 
   const lookupNameKey = `${context.municipalityId}:${name.toLowerCase()}`
 
   return {
     data,
     contacts,
-    descriptionSections: descriptionSections ?? [],
+    descriptionSections,
     detailUrl,
     lookupNameKey,
   }
 }
 
 async function findExistingAssociation(
-  prisma: Prisma.TransactionClient,
+  prisma: PrismaExecutor,
   options: { detailUrl: string | null; municipalityId: string; name: string }
 ) {
   if (options.detailUrl) {
@@ -476,11 +510,11 @@ async function findExistingAssociation(
 }
 
 async function updateAssociation(
-  prisma: Prisma.TransactionClient,
+  prisma: PrismaExecutor,
   associationId: string,
   data: NormalizedAssociationData,
   contacts: Prisma.ContactCreateManyInput[],
-  descriptionSections: Array<{ title: string; data: Prisma.InputJsonValue; orderIndex: number }>
+  descriptionSections: Array<{ title: string | null; data: Prisma.InputJsonValue | null; orderIndex: number }>
 ) {
   await prisma.association.update({
     where: { id: associationId },
@@ -507,8 +541,8 @@ async function updateAssociation(
     await prisma.descriptionSection.createMany({
       data: descriptionSections.map((section) => ({
         associationId,
-        title: section.title,
-        data: section.data,
+        title: section.title ?? null,
+        data: section.data ?? Prisma.JsonNull,
         orderIndex: section.orderIndex,
       })),
     })
@@ -516,10 +550,10 @@ async function updateAssociation(
 }
 
 async function createAssociation(
-  prisma: Prisma.TransactionClient,
+  prisma: PrismaExecutor,
   data: NormalizedAssociationData,
   contacts: Prisma.ContactCreateManyInput[],
-  descriptionSections: Array<{ title: string; data: Prisma.InputJsonValue; orderIndex: number }>
+  descriptionSections: Array<{ title: string | null; data: Prisma.InputJsonValue | null; orderIndex: number }>
 ) {
   const association = await prisma.association.create({
     data: data as Prisma.AssociationUncheckedCreateInput,
@@ -539,8 +573,8 @@ async function createAssociation(
     await prisma.descriptionSection.createMany({
       data: descriptionSections.map((section) => ({
         associationId: association.id,
-        title: section.title,
-        data: section.data,
+        title: section.title ?? null,
+        data: section.data ?? Prisma.JsonNull,
         orderIndex: section.orderIndex,
       })),
     })

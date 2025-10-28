@@ -70,8 +70,8 @@ export const associationRouter = router({
       } = input
       const skip = (page - 1) * limit
 
-      const where: any = {}
-      const and: any[] = []
+      const where: Prisma.AssociationWhereInput = {}
+      const and: Prisma.AssociationWhereInput[] = []
 
       if (useSearchIndex) {
         const searchClient = getSearchClient()
@@ -107,31 +107,52 @@ export const associationRouter = router({
         }
       }
 
-      if (search) {
-        const normalized = search.trim()
-        const orConditions: Prisma.AssociationWhereInput[] = [
-          { name: { contains: normalized } },
-          { city: { contains: normalized } },
-          { municipality: { contains: normalized } },
-          { tags: { some: { name: { contains: normalized } } } },
-        ]
-
-        const tagMatches = await ctx.db.tag.findMany({
-          where: { name: { contains: normalized } },
-          select: { associations: { select: { id: true } } },
-          take: 250,
-        })
-
-        if (tagMatches.length) {
-          const tagAssociationIds = Array.from(
-            new Set(tagMatches.flatMap((tag) => tag.associations.map((assoc) => assoc.id)))
+      const trimmedSearch = search?.trim()
+      if (trimmedSearch?.length) {
+        const terms = Array.from(
+          new Set(
+            [trimmedSearch, ...trimmedSearch.split(/\s+/)]
+              .map((term) => term.trim())
+              .filter((term) => term.length > 0)
           )
-          if (tagAssociationIds.length) {
-            orConditions.push({ id: { in: tagAssociationIds } })
-          }
-        }
+        ).slice(0, 6)
 
-        where.OR = orConditions
+        const searchConditions = terms.map<Prisma.AssociationWhereInput>((term) => ({
+          OR: [
+            { name: { contains: term } },
+            { orgNumber: { contains: term } },
+            { streetAddress: { contains: term } },
+            { city: { contains: term } },
+            { municipality: { contains: term } },
+            { email: { contains: term } },
+            { phone: { contains: term } },
+            { homepageUrl: { contains: term } },
+            { descriptionFreeText: { contains: term } },
+            { sourceSystem: { contains: term } },
+            {
+              tags: {
+                some: {
+                  name: { contains: term },
+                },
+              },
+            },
+            {
+              contacts: {
+                some: {
+                  OR: [
+                    { name: { contains: term } },
+                    { role: { contains: term } },
+                    { email: { contains: term } },
+                    { phone: { contains: term } },
+                    { mobile: { contains: term } },
+                  ],
+                },
+              },
+            },
+          ],
+        }))
+
+        and.push(...searchConditions)
       }
 
       if (municipality) {

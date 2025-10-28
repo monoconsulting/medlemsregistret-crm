@@ -23,13 +23,13 @@ interface MunicipalityMapProps {
 export default function MunicipalityMap({ latitude, longitude, municipalityName }: MunicipalityMapProps) {
   const mapRef = useRef<L.Map | null>(null)
 
+  const position: LatLngTuple = [latitude, longitude]
+
   useEffect(() => {
     if (mapRef.current) {
-      mapRef.current.setView([latitude, longitude], 6)
+      mapRef.current.setView(position, 6)
     }
   }, [latitude, longitude])
-
-  const position: LatLngTuple = [longitude, latitude]
 
   return (
     <MapContainer

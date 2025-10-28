@@ -18,6 +18,8 @@ interface FixtureCandidate {
   filename: string
   displayPath: string
   source: 'filesystem' | 'archive'
+  scrapedAtMs: number | null
+  fileModifiedMs: number | null
 }
 
 interface CliOptions {
@@ -59,9 +61,11 @@ async function main() {
     process.exit(1)
   }
 
-  logInventory(filteredCandidates)
+  const { selected, skipped } = selectLatestPerMunicipality(filteredCandidates)
 
-  const grouped = groupByMunicipality(filteredCandidates)
+  logInventory(selected, skipped)
+
+  const grouped = groupByMunicipality(selected)
 
   for (const [municipalityName, fixtures] of grouped) {
     console.log(`\n▶ Importerar ${municipalityName} (${fixtures.totalRecords} poster från ${fixtures.files.length} filer)`)
@@ -142,12 +146,16 @@ async function discoverFilesystemFixtures(dir: string, baseDir = dir): Promise<F
     const records = parseFixtureContent(entry, content)
     const municipalityName = records[0]?.municipality ?? null
 
+    const scrapedAtMs = resolveScrapedAtMs(records)
+
     results.push({
       municipalityName,
       records,
       filename: entry,
       displayPath: path.relative(baseDir, fullPath),
       source: 'filesystem',
+      scrapedAtMs,
+      fileModifiedMs: stat.mtimeMs ?? null,
     })
   }
 
@@ -200,16 +208,49 @@ async function discoverArchiveFixtures(zipPath: string): Promise<FixtureCandidat
     const records = parseFixtureContent(filename, content)
     const municipalityName = records[0]?.municipality ?? null
 
+    const scrapedAtMs = resolveScrapedAtMs(records)
+
     results.push({
       municipalityName,
       records,
       filename,
       displayPath: entryName,
       source: 'archive',
+      scrapedAtMs,
+      fileModifiedMs: extractTimestampFromFilename(filename),
     })
   }
 
   return results
+}
+
+function selectLatestPerMunicipality(
+  candidates: FixtureCandidate[],
+): { selected: FixtureCandidate[]; skipped: FixtureCandidate[] } {
+  const selected = new Map<string, FixtureCandidate>()
+  const skipped: FixtureCandidate[] = []
+
+  for (const candidate of candidates) {
+    const key = (candidate.municipalityName ?? 'Okänd kommun').toLowerCase()
+    const existing = selected.get(key)
+
+    if (!existing) {
+      selected.set(key, candidate)
+      continue
+    }
+
+    if (isCandidateNewer(candidate, existing)) {
+      skipped.push(existing)
+      selected.set(key, candidate)
+    } else {
+      skipped.push(candidate)
+    }
+  }
+
+  return {
+    selected: Array.from(selected.values()),
+    skipped,
+  }
 }
 
 function groupByMunicipality(candidates: FixtureCandidate[]) {
@@ -224,35 +265,74 @@ function groupByMunicipality(candidates: FixtureCandidate[]) {
 
   for (const candidate of candidates) {
     const name = candidate.municipalityName ?? 'Okänd kommun'
-    const existing = grouped.get(name)
     const importFile: ImportFile = {
       filename: candidate.filename,
       records: candidate.records,
     }
 
-    if (existing) {
-      existing.files.push(importFile)
-      existing.totalRecords += candidate.records.length
-      existing.sources.push({ path: candidate.displayPath, source: candidate.source })
-    } else {
-      grouped.set(name, {
-        files: [importFile],
-        totalRecords: candidate.records.length,
-        sources: [{ path: candidate.displayPath, source: candidate.source }],
-      })
-    }
+    grouped.set(name, {
+      files: [importFile],
+      totalRecords: candidate.records.length,
+      sources: [{ path: candidate.displayPath, source: candidate.source }],
+    })
   }
 
   return grouped
 }
 
-function logInventory(candidates: FixtureCandidate[]) {
-  console.log('Hittade fixtures:')
-  for (const candidate of candidates) {
+function logInventory(selected: FixtureCandidate[], skipped: FixtureCandidate[]) {
+  console.log('Hittade fixtures (senaste per kommun):')
+  for (const candidate of selected) {
     console.log(
-      ` • ${candidate.municipalityName ?? 'Okänd kommun'} – ${candidate.records.length} poster (${candidate.source}, ${candidate.displayPath})`
+      ` • ${candidate.municipalityName ?? 'Okänd kommun'} – ${candidate.records.length} poster (${candidate.source}, ${candidate.displayPath})`,
     )
   }
+
+  if (skipped.length) {
+    console.log('\nFöljande filer hoppades över (äldre upplagor):')
+    for (const candidate of skipped) {
+      console.log(`   · ${candidate.municipalityName ?? 'Okänd kommun'} – ${candidate.displayPath}`)
+    }
+  }
+}
+
+function resolveScrapedAtMs(records: ImportFile['records']): number | null {
+  const timestamps = records
+    .map((record) => record.scraped_at)
+    .filter((value): value is string => typeof value === 'string' && value.trim().length > 0)
+    .map((value) => Date.parse(value))
+    .filter((value): value is number => Number.isFinite(value))
+
+  if (!timestamps.length) {
+    return null
+  }
+
+  return Math.max(...timestamps)
+}
+
+function extractTimestampFromFilename(filename: string): number | null {
+  const match = filename.match(/_(\d{4})-(\d{2})-(\d{2})_(\d{2})-(\d{2})/i)
+  if (!match) {
+    return null
+  }
+
+  const [, year, month, day, hour, minute] = match
+  const iso = `${year}-${month}-${day}T${hour}:${minute}:00Z`
+  const parsed = Date.parse(iso)
+  return Number.isFinite(parsed) ? parsed : null
+}
+
+function candidateTimestamp(candidate: FixtureCandidate): number {
+  return (
+    candidate.scrapedAtMs ??
+    candidate.fileModifiedMs ??
+    extractTimestampFromFilename(candidate.filename) ??
+    -Infinity
+  )
+}
+
+function isCandidateNewer(next: FixtureCandidate, current: FixtureCandidate): boolean {
+  return candidateTimestamp(next) > candidateTimestamp(current)
 }
 
 async function safeReadDir(dir: string) {

@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useDeferredValue, useEffect, useMemo, useState } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -130,6 +130,7 @@ export default function AssociationsPage() {
   )
   const activeMunicipalityName = municipalityDetailsQuery.data?.name ?? municipalityNameFilter
   const [searchTerm, setSearchTerm] = useState("")
+  const deferredSearchTerm = useDeferredValue(searchTerm)
   const [filters, setFilters] = useState<AdvancedFilterState>(DEFAULT_FILTERS)
   const [page, setPage] = useState(1)
   const [limit, setLimit] = useState(10)
@@ -186,7 +187,7 @@ export default function AssociationsPage() {
     return {
       page,
       limit,
-      search: searchTerm.trim() || undefined,
+      search: deferredSearchTerm.trim() || undefined,
       crmStatuses: filters.statuses.length ? filters.statuses : undefined,
       pipelines: filters.pipelines.length ? filters.pipelines : undefined,
       types: filters.types.length ? filters.types : undefined,
@@ -207,8 +208,9 @@ export default function AssociationsPage() {
       lastActivityDays: filters.lastActivityDays,
       sortBy,
       sortDirection,
+      useSearchIndex: filters.useSearchIndex ?? false,
     }
-  }, [page, limit, searchTerm, filters, sortBy, sortDirection, municipalityNameFilter, municipalityIdFilter])
+  }, [page, limit, deferredSearchTerm, filters, sortBy, sortDirection, municipalityNameFilter, municipalityIdFilter])
 
   const associationsQuery = api.association.list.useQuery(queryInput, {
     placeholderData: (previousData) => previousData,

@@ -2,6 +2,7 @@ import NextAuth from "next-auth"
 import Credentials from "next-auth/providers/credentials"
 import { prismaAdapter } from "./auth-prisma-adapter"
 import * as bcrypt from "bcryptjs"
+import { createHash, timingSafeEqual } from "crypto"
 import { z } from "zod"
 import { db } from "./db"
 import { UserRole } from "@prisma/client"
@@ -45,9 +46,36 @@ export const {
           return null
         }
 
-        const isValid = await bcrypt.compare(password, user.passwordHash)
+        const passwordHash = user.passwordHash
+        let isValid = false
+        let needsRehash = false
+
+        if (isBcryptHash(passwordHash)) {
+          isValid = await bcrypt.compare(password, passwordHash)
+        } else if (isLegacySha256Hash(passwordHash)) {
+          const storedBuffer = Buffer.from(passwordHash, "hex")
+          const candidateBuffer = createHash("sha256").update(password).digest()
+
+          if (storedBuffer.length === candidateBuffer.length && timingSafeEqual(storedBuffer, candidateBuffer)) {
+            isValid = true
+            needsRehash = true
+          }
+        }
+
         if (!isValid) {
           return null
+        }
+
+        if (needsRehash) {
+          try {
+            const upgradedHash = await bcrypt.hash(password, 10)
+            await db.user.update({
+              where: { id: user.id },
+              data: { passwordHash: upgradedHash },
+            })
+          } catch (error) {
+            console.warn(`[auth] Failed to upgrade password hash for user ${user.id}:`, error)
+          }
         }
 
         return {
@@ -103,3 +131,14 @@ export const {
     },
   },
 })
+
+const BCRYPT_PREFIXES = ["$2a$", "$2b$", "$2y$"]
+const LEGACY_SHA256_REGEX = /^[a-f0-9]{64}$/i
+
+function isBcryptHash(hash: string) {
+  return BCRYPT_PREFIXES.some((prefix) => hash.startsWith(prefix))
+}
+
+function isLegacySha256Hash(hash: string) {
+  return LEGACY_SHA256_REGEX.test(hash)
+}

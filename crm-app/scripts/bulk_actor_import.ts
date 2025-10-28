@@ -277,22 +277,87 @@ async function importFile(filePath: string): Promise<ImportStats> {
   return stats;
 }
 
+interface FileSelectionResult {
+  selected: string[]
+  skipped: string[]
+}
+
 /**
- * Find all Actor Smartbook JSON files
+ * Find Actor Smartbook JSON files (latest per municipality)
  */
-function findActorJsonFiles(): string[] {
-  const files = fs.readdirSync(JSON_DIR);
+function findActorJsonFiles(): FileSelectionResult {
+  if (!fs.existsSync(JSON_DIR)) {
+    return { selected: [], skipped: [] }
+  }
 
-  // Find JSON files that match Actor Smartbook pattern
-  // New pattern: {municipality}_ActorSmartbook_{YYYY-MM-DD}_{HH-MM}.json
-  const jsonFiles = files.filter(f =>
-    f.endsWith('.json') &&
-    f.includes('_ActorSmartbook_') &&
-    !f.includes('summary') &&
-    !f.includes('bulk_')
-  );
+  const files = fs.readdirSync(JSON_DIR)
+  const latestByMunicipality = new Map<
+    string,
+    { file: string; score: number }
+  >()
+  const skipped: string[] = []
 
-  return jsonFiles.map(f => path.join(JSON_DIR, f));
+  for (const file of files) {
+    if (
+      !file.toLowerCase().endsWith('.json') ||
+      !file.includes('_ActorSmartbook_') ||
+      file.includes('summary') ||
+      file.includes('bulk_')
+    ) {
+      continue
+    }
+
+    const municipality = extractMunicipalityFromFilename(file, '_ActorSmartbook_')
+    if (!municipality) {
+      continue
+    }
+
+    const key = municipality.toLowerCase()
+    const score = extractTimestampScore(file)
+    const existing = latestByMunicipality.get(key)
+
+    if (!existing || score > existing.score) {
+      if (existing) {
+        skipped.push(path.join(JSON_DIR, existing.file))
+      }
+      latestByMunicipality.set(key, { file, score })
+    } else {
+      skipped.push(path.join(JSON_DIR, file))
+    }
+  }
+
+  const selected = Array.from(latestByMunicipality.values()).map((entry) =>
+    path.join(JSON_DIR, entry.file)
+  )
+
+  return { selected, skipped }
+}
+
+function extractMunicipalityFromFilename(file: string, marker: string): string | null {
+  const index = file.indexOf(marker)
+  if (index === -1) {
+    return null
+  }
+  return file.slice(0, index)
+}
+
+function extractTimestampScore(file: string): number {
+  const match = file.match(/_(\d{4})-(\d{2})-(\d{2})_(\d{2})-(\d{2})/)
+  if (match) {
+    const [, year, month, day, hour, minute] = match
+    const iso = `${year}-${month}-${day}T${hour}:${minute}:00Z`
+    const parsed = Date.parse(iso)
+    if (Number.isFinite(parsed)) {
+      return parsed
+    }
+  }
+
+  try {
+    const stats = fs.statSync(path.join(JSON_DIR, file))
+    return stats.mtimeMs
+  } catch {
+    return -Infinity
+  }
 }
 
 /**
@@ -302,7 +367,7 @@ async function main() {
   console.log('=== BULK ACTOR SMARTBOOK DATABASE IMPORT ===\n');
 
   // Find JSON files
-  const jsonFiles = findActorJsonFiles();
+  const { selected: jsonFiles, skipped } = findActorJsonFiles();
 
   if (jsonFiles.length === 0) {
     console.log('No Actor Smartbook JSON files found in scraping/json/');
@@ -310,7 +375,12 @@ async function main() {
     return;
   }
 
-  console.log(`Found ${jsonFiles.length} JSON files to import\n`);
+  console.log(`Found ${jsonFiles.length} JSON files to import (latest per municipality)\n`);
+  if (skipped.length) {
+    console.log('Skipping older files:');
+    skipped.forEach((filePath) => console.log(`  - ${path.basename(filePath)}`));
+    console.log('');
+  }
 
   const allStats: ImportStats[] = [];
   const startTime = Date.now();
