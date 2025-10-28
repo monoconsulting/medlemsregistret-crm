@@ -1,0 +1,42 @@
+import { test, expect } from '@playwright/test';
+
+test.use({
+  viewport: {
+    height: 1256,
+    width: 1760
+  }
+});
+
+test('test', async ({ page }) => {
+  await page.goto('https://norrtalje.rbok.se/foreningsregister');
+  await page.getByRole('link', { name: 'Association register' }).click();
+  await page.getByRole('cell', { name: '1870 Väddö iogt-nto', exact: true }).click();
+  await page.getByRole('link', { name: 'Show more information about' }).first().click();
+  await page.getByRole('heading', { name: 'Väddö iogt-nto' }).click();
+  await page.getByRole('dialog', { name: 'Väddö iogt-nto' }).locator('#logoImg').click();
+  await page.getByText('Contact').click();
+  await page.getByText('0707401532').click();
+  await page.getByLabel('1870 Väddö iogt-nto', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about' }).nth(1).click();
+  await page.getByRole('dialog', { name: 'Väddö iogt-nto' }).locator('#logoImg').click();
+  await page.getByLabel('1870 Väddö iogt-nto', { exact: true }).getByText('Close').click();
+  await page.locator('tr:nth-child(6) > td').first().click();
+  await page.getByRole('link', { name: 'Show more information about Bergshamra bygdegårdsförening' }).click();
+  await page.getByLabel('Bergshamra bygdegårdsförening', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Edsbro IF' }).click();
+  await page.getByRole('heading', { name: 'Edsbro IF' }).click();
+  await page.getByText('Operations FotbollFutsalHandbollSkidor').click();
+  await page.getByText('Target groups').click();
+  await page.getByLabel('Edsbro IF', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Accept' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Next' }).click();
+  await page.getByRole('link', { name: 'Last' }).click();
+  await page.getByRole('link', { name: 'Show more information about Vätö Folkets Hus' }).click();
+  await page.getByText('Target groups Barn och ungdom').click();
+  await page.getByText('Operations FestHembygdsverksamhetKulturhistoriaLoppmarknadÅrsmöte').click();
+  await page.getByText('Folkets Hus förening med i fö').click();
+  await page.getByText('Folkets Hus förening med i fö').click();
+  await page.getByLabel('Vätö Folkets Hus', { exact: true }).getByText('Close').click();
+});

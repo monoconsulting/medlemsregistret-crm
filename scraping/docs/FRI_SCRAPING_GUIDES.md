@@ -155,3 +155,59 @@ When the page shows (visually verified):
 * Phones come **only** from the `Kontaktperson` table (no footer contamination).
 * `free_text` contains **no** login/utility/footer strings.
 * All original two-column rows preserved under `association.description.sections[*].data`.
+
+---
+
+## 12) Output Format
+
+**⚠️ Viktigt**: FRI scrapers genererar endast **Pretty JSON** (indenterad array). JSONL-format används inte längre.
+
+### Filename Pattern
+
+```
+{municipality}_FRI_{YYYY-MM-DD}_{HH-MM}.json
+```
+
+**Output-platser**:
+- JSON-filer: `scraping/json/`
+- Loggar: `scraping/logs/{municipality}.log` (appendar)
+
+**Examples**:
+- `scraping/json/Årjäng_FRI_2025-10-27_06-20.json`
+- `scraping/json/Arboga_FRI_2025-10-27_06-14.json`
+- `scraping/json/Sollentuna_FRI_2025-10-26_10-30.json`
+
+**Filhantering**:
+- Filer skrivs över vid nya körningar (ej versionerade)
+- Importeraren läser endast den senaste filen baserat på filnamnet
+- SOURCE_SYSTEM (`FRI`) inkluderas i filnamnet för att undvika cross-contamination
+
+### JSON Structure
+
+Följer `JSON_STANDARD.md` med dessa FRI-specifika detaljer:
+
+**Description structure**:
+```json
+"description": {
+  "free_text": "Narrative text from detail page",
+  "sections": [
+    {
+      "title": "Övrig information",
+      "data": {
+        "founded_year": 1945,
+        "fiscal_year_starts_mmdd": "0101",
+        "national_affiliation": "Riksorganisation namn",
+        "verksamhet_raw": "Fotboll, Ungdomsverksamhet",
+        "short_description": null,
+        "address_raw": "Drottninggatan 38, 652 25, Karlstad"
+      }
+    }
+  ]
+}
+```
+
+**Viktigt**:
+- `sections[].title` (inte `label`) används för sektionsrubriker
+- `sections[].data` är ett objekt med normaliserade nycklar enligt LABEL_MAPPING
+- Address-parsing extraherar `street_address`, `postal_code`, `city` till toppnivå men behåller rådata i `address_raw`
+- Verksamhet splitas och mergeas till `association.activities[]` men rådata sparas i `verksamhet_raw`

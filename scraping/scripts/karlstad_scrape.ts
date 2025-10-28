@@ -311,7 +311,7 @@ async function dismissCookieBanner(page: Page): Promise<void> {
     const cookiePopup = page.locator('.eupopup-container');
     const popupCount = await cookiePopup.count();
     if (popupCount > 0) {
-      const acceptButton = cookiePopup.locator('button:has-text("Accept"), button:has-text("OK"), button:has-text("Agree")');
+      const acceptButton = cookiePopup.locator('button:has-text("Acceptera"), button:has-text("Accept"), button:has-text("Agree")');
       const acceptCount = await acceptButton.count();
       if (acceptCount > 0) {
         await acceptButton.first().click({ timeout: 2000 });

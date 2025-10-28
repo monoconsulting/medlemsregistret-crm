@@ -1,0 +1,63 @@
+import { test, expect } from '@playwright/test';
+
+test.use({
+  viewport: {
+    height: 1256,
+    width: 1760
+  }
+});
+
+test('test', async ({ page }) => {
+  await page.goto('https://umea.rbok.se/foreningsregister');
+  await page.getByRole('link', { name: 'Association register' }).click();
+  await page.getByRole('link', { name: 'Accept' }).click();
+  await page.getByLabel('Default select example').selectOption('100');
+  await page.getByRole('link', { name: 'Last' }).click();
+  await page.getByText('- 586 of 586 items').click();
+  await page.getByText('- 586 of 586 items').click();
+  await page.getByText('- 586 of 586 items').click();
+  await page.getByText('- 586 of 586 items').click();
+  await page.getByText('- 586 of 586 items').click();
+  await page.getByRole('link', { name: 'First' }).click();
+  await page.getByRole('cell', { name: 'AB Volvo Umeverkens Fritidsklubb', exact: true }).click();
+  await page.getByRole('cell', { name: 'Idrott' }).first().click();
+  await page.locator('td').nth(3).click();
+  await page.locator('td').nth(3).click();
+  await page.getByRole('link', { name: 'Show more information about AB Volvo Umeverkens Fritidsklubb' }).click();
+  await page.getByRole('heading', { name: 'AB Volvo Umeverkens' }).click();
+  await page.getByText('Contact').click();
+  await page.getByLabel('AB Volvo Umeverkens Fritidsklubb', { exact: true }).getByText('Close').click();
+  await page.getByRole('cell', { name: 'AC Discgolf', exact: true }).click();
+  await page.getByRole('cell', { name: 'Idrott' }).nth(1).click();
+  await page.locator('td').filter({ hasText: 'https://acdiscgolf.wixsite.' }).click();
+  await page.getByRole('link', { name: 'Show more information about' }).nth(3).click();
+  await page.getByRole('heading', { name: 'AC Discgolf' }).click();
+  await page.getByText('Discgolf förening som idag').click();
+  await page.getByText('Operations Discgolf').click();
+  await page.getByText('Areas Holmsund/Obbola').click();
+  await page.getByText('Contact').click();
+  await page.locator('div:nth-child(6) > div:nth-child(2)').click();
+  const page1Promise = page.waitForEvent('popup');
+  await page.locator('div:nth-child(6) > div:nth-child(3)').click();
+  const page1 = await page1Promise;
+  await page.getByLabel('AC Discgolf', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about Association of Cameroonians in Umeå' }).nth(1).click();
+  await page.getByRole('heading', { name: 'Association of Cameroonians' }).click();
+  await page.getByText('The Cameroonian Association').click();
+  await page.getByText('Operations').click();
+  await page.getByText('Operations BarnkalasFotbollGruppträningKonsertMöteStudieverksamhet').click();
+  await page.getByText('Target groups').click();
+  await page.getByText('Target groups Barn (0-6 år)').click();
+  await page.getByText('Areas').click();
+  await page.getByText('Areas BackenområdetCentrala').click();
+  await page.getByText('Contact', { exact: true }).click();
+  await page.getByText('Talla Simo Valerie Rostan').click();
+  await page.getByText('+').click();
+  await page.locator('div:nth-child(6) > div:nth-child(4)').click();
+  await page.getByLabel('Association of Cameroonians in Umeå', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Last' }).click();
+  await page.getByRole('link', { name: 'Show more information about Överboda SK' }).click();
+  await page.getByRole('heading', { name: 'Överboda SK' }).click();
+  await page.locator('div').filter({ hasText: 'Contact' }).nth(5).click();
+  await page.getByLabel('Överboda SK', { exact: true }).getByText('Close').click();
+});

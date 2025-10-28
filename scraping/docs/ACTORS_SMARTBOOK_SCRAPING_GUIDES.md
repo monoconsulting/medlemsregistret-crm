@@ -527,6 +527,40 @@ while (await hasNextPage(page)) {
 }
 ```
 
+## Output Format
+
+**⚠️ Viktigt**: Scrapers genererar endast **Pretty JSON** (indenterad array). JSONL-format används inte längre.
+
+### Filename Pattern
+
+```
+{municipality}_ActorSmartbook_{YYYY-MM-DD}_{HH-MM}.json
+```
+
+**Output-platser**:
+- JSON-filer: `scraping/json/`
+- Loggar: `scraping/logs/{municipality}.log` (appendar)
+
+**Examples**:
+- `scraping/json/falun_ActorSmartbook_2025-10-26_12-04.json`
+- `scraping/json/boras_ActorSmartbook_2025-10-26_11-30.json`
+
+**Filhantering**:
+- Filer skrivs över vid nya körningar (ej versionerade)
+- Importeraren läser endast den senaste filen baserat på filnamnet
+- SOURCE_SYSTEM inkluderas i filnamnet för att undvika cross-contamination
+
+### JSON Structure
+
+Följer `JSON_STANDARD.md` med Actor Smartbook-specifika fält. Se exempel i API Field Mappings ovan.
+
+**Viktigt om description-strukturen**:
+- `description.sections[].title` (inte `label`)
+- `description.sections[].data` är ett objekt med normaliserade nycklar
+- Alla nycklar följer `snake_case`
+
+---
+
 ## Testing Checklist
 
 ### API-Based Scraper

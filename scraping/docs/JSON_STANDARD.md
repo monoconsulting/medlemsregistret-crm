@@ -4,11 +4,22 @@
 
 ## 1) Filformat
 
-- **Rekommenderat för stora körningar:** **JSONL** (en förening per rad, *compact*). Lätt att streama och robust mot partial-fel. Importeraren kan läsa rad-för-rad.
-- **Rekommenderat för granskning i Git:** **Pretty JSON** (array med objekt, indenterad). Lättläst för människor, bra för PR:er och diffar.
-   Importeraren stödjer **båda** (JSONL och JSON-array). Validering sker med Zod enligt schemat nedan.
+**Aktuellt format (Oktober 2025):**
+- **Pretty JSON array** (indenterad, array med objekt) - Detta är det enda format som sparas
+- **En fil per kommun** - Namnkonvention: `{municipality}_{SOURCE_SYSTEM}_{YYYY-MM-DD}_{HH-MM}.json`
+- **Exempel:** `Årjäng_FRI_2025-10-27_06-20.json`, `ale_IBGO_2025-10-26_14-30.json`, `falun_ActorSmartbook_2025-10-26_12-04.json`
+- **Output-plats:** `scraping/json/`
+- **Loggar:** `scraping/logs/{municipality}.log` (appendar till samma fil)
 
-> **Varför inte alltid en rad?** För maskinell import är compact JSONL effektivast. För mänsklig review är *pretty* JSON överlägset. Vi kör pretty i repo/loggar och JSONL i batch-exporter/pipe-flöden.
+**Viktigt:**
+- Filnamnet innehåller source_system för att förhindra cross-contamination vid import
+- Filer skrivs över vid nya körningar (ej versionerade)
+- Importeraren läser endast den senaste filen per kommun (baserat på filnamnet)
+- Tidigare format (JSONL) stöds fortfarande av importeraren men genereras inte längre av scrapers
+
+**Tidigare format (arkiverat):**
+- JSONL (en förening per rad, compact) - användes tidigare för stora körningar
+- Validering sker med Zod enligt schemat nedan
 
 ## 2) Top-level struktur
 
@@ -38,10 +49,16 @@ Varje **post** (rad i JSONL eller objekt i en JSON-array) måste följa:
     "description": {
       "free_text": "Föreningen bedriver fotbollsverksamhet för barn och vuxna.",
       "sections": [
-        {"label": "Övrig information", "items": [
-          {"key": "Medlemsavgift", "value": "200 kr/år"},
-          {"key": "Målgrupp", "value": "Barn, ungdomar, vuxna"}
-        ]}
+        {
+          "title": "Övrig information",
+          "data": {
+            "founded_year": 1945,
+            "fiscal_year_starts_mmdd": "0101",
+            "national_affiliation": "SvFF",
+            "verksamhet_raw": "Fotboll, Juniorverksamhet",
+            "short_description": null
+          }
+        }
       ]
     }
   },
@@ -98,18 +115,31 @@ Varje **post** (rad i JSONL eller objekt i en JSON-array) måste följa:
 
   - **Text:** `"description": "…"`
 
-  - **Objekt:**
+  - **Objekt (aktuell standard):**
 
     ```
     {
       "free_text": "…",
       "sections": [
-        {"label": "Övrig information", "items": [{"key": "…", "value": "…"}]}
+        {
+          "title": "Övrig information",
+          "data": {
+            "founded_year": 1945,
+            "fiscal_year_starts_mmdd": "0101",
+            "national_affiliation": "SvFF",
+            "verksamhet_raw": "Fotboll",
+            "short_description": null
+          }
+        }
       ]
     }
     ```
 
-  Behåller struktur för tvåkolumnstabeller m.m. vid scraping. 
+  **Notering:**
+  - `sections[].title` (inte `label`) används för sektionsrubriker
+  - `sections[].data` är ett objekt med normaliserade nycklar (se LABEL_MAPPING i scrapers)
+  - Behåller struktur för tvåkolumnstabeller m.m. vid scraping
+  - Alla nycklar i `data` följer `snake_case` normalisering enligt LABEL_MAPPING 
 
 ### `contacts` (array, required)
 
@@ -225,21 +255,24 @@ export const ScrapedEntrySchema = z.object({
 **Mål:** Leverera poster som exakt följer *Municipal Association JSON Standard* ovan.
 
 1. **Pagination & slutvillkor**
-    Navigera genom *alla* resultatsidor. När “Nästa” försvinner eller du når “Sista”/“Last”, avsluta. Logga `list_page_index` och `position_on_page` per rad. 
+    Navigera genom *alla* resultatsidor. När "Nästa" försvinner eller du når "Sista"/"Last", avsluta. Logga `list_page_index` och `position_on_page` per rad.
 2. **Detaljsidor**
     Besök varje förenings detaljsida (om finns). Sätt `association.detail_url` till detalj-URLen.
 3. **Fältmappning**
-    Extrahera kärnfälten under `association.*` enligt standarden. Om data finns i tabellsektioner (t.ex. “Övrig information”) – normalisera in i `description.sections` som `{label, items[{key,value}]}` och lägg *ev. fritext* i `description.free_text`. `types/activities/categories` blir listor. 
+    Extrahera kärnfälten under `association.*` enligt standarden. Om data finns i tabellsektioner (t.ex. "Övrig information") – normalisera in i `description.sections` som `{title, data{...}}` där `data` är ett objekt med normaliserade nycklar, och lägg *ev. fritext* i `description.free_text`. `types/activities/categories` blir listor.
 4. **Kontakter**
-    Fyll `contacts[]` med för- och efternamn, roll, e-post, telefon när detta finns. Lämna `null` där uppgift saknas (ingen gissning). 
+    Fyll `contacts[]` med för- och efternamn, roll, e-post, telefon när detta finns. Lämna `null` där uppgift saknas (ingen gissning).
+    **⚠️ IBGO & Actor Smartbook:** Hantera concatenated emails (se AGENTS.md för detaljer).
 5. **Metadata**
     Sätt `source_system`, `municipality`, `scrape_run_id`, `scraped_at`. Fyll `source_navigation` om möjligt.
 6. **Extras**
     All övrig strukturerad info som inte passar i kärnfälten hamnar under `extras` som nyckel–värde-objekt.
 7. **Validera före skrivning**
-    Kör Zod-validering med `ScrapedEntrySchema`. Vid fel: logga rad/URL och fortsätt med nästa post. 
-8. **Outputformat**
-    För batch: skriv **JSONL** (en objekt-rad). För manuell review/test: skriv en **indenterad JSON-array**.
+    Kör Zod-validering med `ScrapedEntrySchema`. Vid fel: logga rad/URL och fortsätt med nästa post.
+8. **Outputformat (AKTUELL STANDARD)**
+    Skriv **Pretty JSON array** (indenterad) till `scraping/json/{municipality}_{SOURCE_SYSTEM}_{YYYY-MM-DD}_{HH-MM}.json`.
+    Loggar sparas till `scraping/logs/{municipality}.log` (appendar).
+    **OBS:** JSONL-format genereras inte längre men stöds fortfarande av importeraren.
 
 ------
 
@@ -251,12 +284,18 @@ export const ScrapedEntrySchema = z.object({
 
 ------
 
-### Snabb not om “en rad vs pretty”
+### Format-beslut (Oktober 2025)
 
-- **Agentoutput (stora körningar)**: JSONL compact är mest effektivt och enklast att streama/återuppta.
-- **Review i Git/PR**: pretty JSON (indenterad) är bättre.
-   Importeraren accepterar båda—så vi kan använda **båda parallellt** beroende på syfte. 
+**Aktuellt:**
+- **Alla scrapers genererar endast Pretty JSON** (indenterad array)
+- **Ett format, en fil per kommun** - enklare att hantera och granska
+- **Namnkonvention inkluderar SOURCE_SYSTEM** - förhindrar cross-contamination
+- **Importeraren läser senaste filen** baserat på filnamn (inte alla versioner)
+
+**Bakgrund:**
+- Tidigare användes dubbla format (JSONL compact + Pretty JSON)
+- JSONL var tänkt för stora körningar men ökade komplexiteten
+- Nuvarande approach är enklare och tillräcklig för våra behov
+- Pretty JSON ger bättre git diffs och är lättare att granska
 
 ------
-
-- 

@@ -141,37 +141,45 @@ The scrapers follow a common pattern but are adapted for different platforms:
 
 **Common Pattern:**
 Each scraper follows this structure:
-1. Initialize browser with Playwright
+1. Initialize browser with Playwright (or use REST API if available)
 2. Navigate to association list page
 3. Paginate through all list pages
 4. For each association:
    - Extract list-level data
-   - Navigate to detail page
+   - Navigate to detail page (or fetch via API)
    - Extract detailed information (contact, address, description)
    - Normalize and structure data
-5. Output to JSONL (line-delimited JSON) and pretty JSON
-6. Generate log files with statistics
+5. Output to Pretty JSON array only (saved to `scraping/json/`)
+6. Generate log files with statistics (saved to `scraping/logs/`)
 
 **Data Schema:**
 Each association record follows a standardized schema (see `docs/JSON_STANDARD.md`):
 - `source_system` - Platform type (FRI, RBOK, IBGO, ActorSmartbook)
 - `municipality` - Municipality name
 - `association` - Core fields (name, org_number, types, activities, contact info)
+  - `description` - Object with `free_text` and `sections[]` array
+    - `sections[].title` - Section heading (not `label`)
+    - `sections[].data` - Object with normalized snake_case keys (not `items[]` array)
 - `contacts` - Array of contact persons
-- `description` - Structured sections + free text
 - `source_navigation` - Pagination metadata
 - `extras` - Platform-specific fields
 
-**Output Files (New Format - October 2025):**
+**Output Files (Current Format - October 2025):**
 Scrapers generate files in `scraping/json/`:
-- `{municipality}_{SOURCE_SYSTEM}_{YYYY-MM-DD}_{HH-MM}.json` - Pretty-printed JSON array only
-- `{municipality}.log` - Execution log (appends to same file)
+- `{municipality}_{SOURCE_SYSTEM}_{YYYY-MM-DD}_{HH-MM}.json` - Pretty-printed JSON array only (JSONL not used anymore)
+- `{municipality}.log` - Execution log (appends to same file in `scraping/logs/`)
 
 **Examples:**
-- `ale_IBGO_2025-10-26_14-30.json`
-- `falun_ActorSmartbook_2025-10-26_12-04.json`
+- `scraping/json/ale_IBGO_2025-10-26_14-30.json`
+- `scraping/json/Årjäng_FRI_2025-10-27_06-20.json`
+- `scraping/json/falun_ActorSmartbook_2025-10-26_12-04.json`
+- `scraping/logs/ale.log`
 
-**Important**: Filename includes source system to prevent cross-contamination during imports. Files overwrite previous versions.
+**Important**:
+- Filename includes source system to prevent cross-contamination during imports
+- Files overwrite previous versions (not versioned)
+- Importers read only the latest file based on filename
+- Only Pretty JSON format is generated (not JSONL)
 
 ## Important Scraping Guidelines
 

@@ -1,0 +1,39 @@
+import { test, expect } from '@playwright/test';
+
+test.use({
+  viewport: {
+    height: 1256,
+    width: 1760
+  }
+});
+
+test('test', async ({ page }) => {
+  await page.goto('https://karlskoga.rbok.se/foreningsregister');
+  await page.getByRole('link', { name: 'Association register' }).click();
+  await page.getByRole('link', { name: 'Show more information about ABF Örebro län' }).click();
+  await page.getByText('ABF Örebro län är ett studief').click();
+  await page.getByText('Operations Utbildning').click();
+  await page.getByText('Target groups Barn och ungdom').click();
+  await page.getByText('Contact').click();
+  await page.getByText('Jörgen Danielsson').click();
+  await page.getByText('010-').click();
+  await page.getByLabel('ABF Örebro län', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Show more information about BIK Karlskoga Ungdom' }).click();
+  await page.getByText('Operations Ishockey').click();
+  await page.getByText('Target groups Barn och ungdom').click();
+  await page.getByText('Areas Nobel').click();
+  await page.getByLabel('BIK Karlskoga Ungdom', { exact: true }).getByText('Close').click();
+  await page.getByRole('link', { name: 'Accept' }).click();
+  await page.getByRole('link', { name: 'Last' }).click();
+  await page.getByRole('cell', { name: 'Kulturförening' }).click();
+  await page.locator('td').nth(5).click();
+  await page.getByRole('cell').nth(5).click();
+  await page.getByRole('link', { name: 'Show more information about V' }).click();
+  await page.getByText('Utmärkning av farleden').click();
+  await page.getByRole('heading', { name: 'Värmlands Bergslags Båtfö' }).click();
+  await page.getByRole('link', { name: 'biggankarlsson48@gmail.com' }).click();
+  await page.getByLabel('Värmlands Bergslags Båtförening', { exact: true }).getByText('Close').click();
+  await page.locator('html').click();
+  await page.getByRole('link', { name: 'Previous' }).click();
+  await page.getByRole('link', { name: 'Previous' }).click();
+});

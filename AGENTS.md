@@ -9,6 +9,7 @@ Date: 2025-10-26
 NEVER TASKKILL!
 ALWAYS READ INSTRUCTED FILES!
 * Mock data in the system are **not allowed.** This can not be used without a specific order to implement it
+* Filenames must not be saved with åäö or other non standard characters
 * **SQLLite can never be used.** You have no permissions to use this. 
 * Test **must** be performed exactly as stated in @docs/TEST_RULES.md
 * You are **never allowed to change port** or assign a new port to something that is not working.  You MUST ask permission
@@ -107,5 +108,42 @@ Doing so is considered a **severe error** and will result in immediate replaceme
 | Codegen traces          | `\scraping\codegen`       | `<municipality>_codegen.txt`                         | Files provided by the user showing recorded navigation and clicks. |
 | Logs                    | `\scraping\logs`          | `<municipality>.log`                                 | Appends to same file per municipality across runs.           |
 
+---
 
+## JSON Structure Standard
+
+**CRITICAL**: All scrapers must follow `scraping/docs/JSON_STANDARD.md`
+
+### Current Format (October 2025)
+
+**Output**: Pretty JSON array only (JSONL deprecated)
+**Location**: `scraping/json/{municipality}_{SOURCE_SYSTEM}_{YYYY-MM-DD}_{HH-MM}.json`
+
+### Description Structure
+
+⚠️ **Important change from previous versions**:
+
+```json
+"description": {
+  "free_text": "Narrative text",
+  "sections": [
+    {
+      "title": "Övrig information",    // Use "title", not "label"
+      "data": {                         // Use "data" object, not "items" array
+        "founded_year": 1945,
+        "fiscal_year_starts_mmdd": "0101",
+        "verksamhet_raw": "Fotboll, Dans"
+      }
+    }
+  ]
+}
+```
+
+**Key points**:
+- `sections[].title` (not `label`)
+- `sections[].data` is an object with snake_case keys (not `items[]` array)
+- All keys in `data` follow LABEL_MAPPING normalization
+- Preserve raw data in fields like `verksamhet_raw`, `address_raw`
+
+---
 

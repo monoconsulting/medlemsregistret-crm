@@ -217,19 +217,30 @@ scraping/scripts/ibgo_scrape_and_import.bat
 
 ## Output Format
 
+**⚠️ Viktigt**: Scrapers genererar endast **Pretty JSON** (indenterad array). JSONL-format används inte längre.
+
 ### Filename Pattern
 
 ```
 {municipality}_IBGO_{YYYY-MM-DD}_{HH-MM}.json
 ```
 
+**Output-platser**:
+- JSON-filer: `scraping/json/`
+- Loggar: `scraping/logs/{municipality}.log` (appendar)
+
 **Examples**:
-- `ale_IBGO_2025-10-26_14-30.json`
-- `gnesta_IBGO_2025-10-26_14-32.json`
+- `scraping/json/ale_IBGO_2025-10-26_14-30.json`
+- `scraping/json/gnesta_IBGO_2025-10-26_14-32.json`
+
+**Filhantering**:
+- Filer skrivs över vid nya körningar (ej versionerade)
+- Importeraren läser endast den senaste filen baserat på filnamnet
+- SOURCE_SYSTEM inkluderas i filnamnet för att undvika cross-contamination
 
 ### JSON Structure
 
-Follows `MUNICIPAL_ASSOCIATION_JSON_STANDARD.md` with these specifics:
+Följer `JSON_STANDARD.md` med dessa specifika detaljer:
 
 ```json
 {
@@ -254,10 +265,11 @@ Follows `MUNICIPAL_ASSOCIATION_JSON_STANDARD.md` with these specifics:
       "free_text": "Public information text",
       "sections": [
         {
-          "label": "Verksamhet",
-          "items": [
-            {"key": "Aktivitet", "value": "Fotboll"}
-          ]
+          "title": "Verksamhet",
+          "data": {
+            "activities_count": 2,
+            "has_public_info": true
+          }
         }
       ]
     }

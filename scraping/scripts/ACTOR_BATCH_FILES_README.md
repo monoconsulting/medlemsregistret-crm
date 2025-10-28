@@ -11,7 +11,7 @@ Dessa batch-filer automatiserar scraping och import av föreningsdata från komm
 #### `actor_scrape_and_import.bat`
 **Kör hela processen** - scraping + import i ett enda kommando.
 
-- Scrapar alla 22 kommuner med Actor Smartbook
+- Scrapar alla kommuner med Actor Smartbook
 - Importerar automatiskt all data till databasen
 - **Estimerad tid**: 15-20 minuter totalt
 - **Använd när**: Du vill köra hela processen från start till mål
