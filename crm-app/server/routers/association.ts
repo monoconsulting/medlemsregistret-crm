@@ -109,48 +109,90 @@ export const associationRouter = router({
 
       const trimmedSearch = search?.trim()
       if (trimmedSearch?.length) {
+        const rawTerms = [trimmedSearch, ...trimmedSearch.split(/\s+/)]
         const terms = Array.from(
           new Set(
-            [trimmedSearch, ...trimmedSearch.split(/\s+/)]
+            rawTerms
               .map((term) => term.trim())
               .filter((term) => term.length > 0)
           )
         ).slice(0, 6)
 
-        const searchConditions = terms.map<Prisma.AssociationWhereInput>((term) => ({
-          OR: [
-            { name: { contains: term } },
-            { orgNumber: { contains: term } },
-            { streetAddress: { contains: term } },
-            { city: { contains: term } },
-            { municipality: { contains: term } },
-            { email: { contains: term } },
-            { phone: { contains: term } },
-            { homepageUrl: { contains: term } },
-            { descriptionFreeText: { contains: term } },
-            { sourceSystem: { contains: term } },
-            {
-              tags: {
-                some: {
-                  name: { contains: term },
+        const stringFields: Array<keyof Prisma.AssociationWhereInput> = [
+          'name',
+          'orgNumber',
+          'streetAddress',
+          'city',
+          'municipality',
+          'email',
+          'phone',
+          'homepageUrl',
+          'descriptionFreeText',
+          'sourceSystem',
+        ]
+
+        const jsonFields = ['types', 'activities', 'categories'] as const
+
+        const buildTermVariants = (term: string) => {
+          const lower = term.toLowerCase()
+          const upper = term.toUpperCase()
+          const capitalized = term.charAt(0).toUpperCase() + term.slice(1)
+          return Array.from(new Set([term, lower, upper, capitalized])).filter((value) => value.length > 0)
+        }
+
+        const searchConditions = terms.map<Prisma.AssociationWhereInput>((term) => {
+          const variants = buildTermVariants(term)
+
+          const stringFieldConditions = stringFields.flatMap((field) =>
+            variants.map(
+              (variant) => ({ [field]: { contains: variant } } as Prisma.AssociationWhereInput)
+            )
+          )
+
+          const tagConditions = variants.map(
+            (variant) =>
+              ({
+                tags: {
+                  some: {
+                    name: { contains: variant },
+                  },
                 },
-              },
-            },
-            {
-              contacts: {
-                some: {
-                  OR: [
-                    { name: { contains: term } },
-                    { role: { contains: term } },
-                    { email: { contains: term } },
-                    { phone: { contains: term } },
-                    { mobile: { contains: term } },
-                  ],
+              }) as Prisma.AssociationWhereInput
+          )
+
+          const contactConditions = variants.map(
+            (variant) =>
+              ({
+                contacts: {
+                  some: {
+                    OR: [
+                      { name: { contains: variant } },
+                      { role: { contains: variant } },
+                      { email: { contains: variant } },
+                      { phone: { contains: variant } },
+                      { mobile: { contains: variant } },
+                    ],
+                  },
                 },
-              },
-            },
-          ],
-        }))
+              }) as Prisma.AssociationWhereInput
+          )
+
+          const jsonFieldConditions = jsonFields.flatMap((field) =>
+            variants.flatMap((variant) => [
+              ({ [field]: { string_contains: variant } } as Prisma.AssociationWhereInput),
+              ({ [field]: { array_contains: variant } } as Prisma.AssociationWhereInput),
+            ])
+          )
+
+          return {
+            OR: [
+              ...stringFieldConditions,
+              ...tagConditions,
+              ...contactConditions,
+              ...jsonFieldConditions,
+            ],
+          }
+        })
 
         and.push(...searchConditions)
       }
