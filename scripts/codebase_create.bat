@@ -129,11 +129,13 @@ echo.
 REM Step 3: Create zip archive from temp directory
 echo Step 3: Creating archive...
 
+REM Define 7-Zip path
+set SEVENZIP_PATH=C:\Program Files\7-Zip\7z.exe
+
 REM Check if 7-Zip is available
-where 7z >nul 2>nul
-if not errorlevel 1 (
+if exist "%SEVENZIP_PATH%" (
     echo Using 7-Zip to create archive...
-    7z a -tzip "%BACKUP_FILE%" "%TEMP_DIR%\*" -r
+    "%SEVENZIP_PATH%" a -tzip "%BACKUP_FILE%" "%TEMP_DIR%\*" -r
 
     if errorlevel 1 (
         echo ERROR: Failed to create zip archive with 7-Zip!
@@ -148,7 +150,7 @@ where tar >nul 2>nul
 if not errorlevel 1 (
     echo Using tar to create archive...
     cd /d "%TEMP_DIR%"
-    tar -czf "%BACKUP_FILE%" .
+    tar -a -cf "%BACKUP_FILE%" *
 
     if errorlevel 1 (
         echo ERROR: Failed to create archive with tar!

@@ -41,7 +41,14 @@
       "Bash(npx prisma db push:*)",
       "Bash(cmd.exe /c \"set DATABASE_URL=mysql://crm_user:crm_password_change_me@localhost:3316/crm_db && npx prisma db push\")",
       "Bash(temp_db_push.bat)",
-      "Bash(cmd.exe /c \"e:\\projects\\CRM\\crm-app\\temp_db_push.bat\")"
+      "Bash(cmd.exe /c \"e:\\projects\\CRM\\crm-app\\temp_db_push.bat\")",
+      "Bash(dir:*)",
+      "Bash(cmd.exe /c \"dir e:\\projects\\CRM\\.codebasebackup /o-d\")",
+      "Bash(cmd.exe /c \"cd /d e:\\projects\\CRM\\.codebasebackup && dir /o-d\")",
+      "Bash(7z t:*)",
+      "Bash(unzip:*)",
+      "Bash(where:*)",
+      "Read(//c/Program Files/7-Zip/**)"
     ],
     "deny": [],
     "ask": []
