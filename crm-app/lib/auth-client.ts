@@ -47,7 +47,16 @@ export async function fetchSession(): Promise<AuthSession | null> {
     return null
   }
 
-  return { user: parsed.data.user }
+  const u = parsed.data.user
+  const normalizedUser: AuthSessionUser = {
+    id: u.id,
+    role: u.role,
+    email: u.email ?? null,
+    name: u.name ?? null,
+  }
+
+  return { user: normalizedUser }
+
 }
 
 export async function loginRequest(email: string, password: string): Promise<{ ok: boolean; error?: string }> {

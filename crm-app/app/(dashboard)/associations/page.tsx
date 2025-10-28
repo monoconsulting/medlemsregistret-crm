@@ -107,6 +107,15 @@ const DEFAULT_FILTERS: AdvancedFilterState = {
   useSearchIndex: false,
 }
 
+const CRM_STATUS_VALUES = new Set<string>(CRM_STATUSES)
+const PIPELINE_VALUES = new Set<string>(PIPELINES)
+
+const normalizeStatuses = (values: string[]): (typeof CRM_STATUSES)[number][] =>
+  values.filter((value): value is (typeof CRM_STATUSES)[number] => CRM_STATUS_VALUES.has(value))
+
+const normalizePipelines = (values: string[]): (typeof PIPELINES)[number][] =>
+  values.filter((value): value is (typeof PIPELINES)[number] => PIPELINE_VALUES.has(value))
+
 type SortKey = "updatedAt" | "name" | "createdAt" | "recentActivity" | "crmStatus" | "pipeline"
 
 const SORT_OPTIONS: { value: SortKey; label: string }[] = [
@@ -184,12 +193,15 @@ export default function AssociationsPage() {
   const [contactsPanelAssociationId, setContactsPanelAssociationId] = useState<string | null>(null)
 
   const queryInput = useMemo(() => {
+    const crmStatuses = filters.statuses.length ? normalizeStatuses(filters.statuses) : undefined
+    const pipelines = filters.pipelines.length ? normalizePipelines(filters.pipelines) : undefined
+
     return {
       page,
       limit,
       search: deferredSearchTerm.trim() || undefined,
-      crmStatuses: filters.statuses.length ? filters.statuses : undefined,
-      pipelines: filters.pipelines.length ? filters.pipelines : undefined,
+      crmStatuses,
+      pipelines,
       types: filters.types.length ? filters.types : undefined,
       activities: filters.activities.length ? filters.activities : undefined,
       tags: filters.tags.length ? filters.tags : undefined,
