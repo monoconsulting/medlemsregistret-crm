@@ -246,13 +246,23 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
       <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="h-[90vh] w-[90vw] max-w-7xl p-0">
         {detailsQuery.isPending ? (
-          <div className="flex h-full items-center justify-center text-muted-foreground">
-            <Loader2 className="mr-2 h-5 w-5 animate-spin" /> Hämtar förening…
-          </div>
+          <>
+            <DialogHeader className="sr-only">
+              <DialogTitle>Laddar förening</DialogTitle>
+            </DialogHeader>
+            <div className="flex h-full items-center justify-center text-muted-foreground">
+              <Loader2 className="mr-2 h-5 w-5 animate-spin" /> Hämtar förening…
+            </div>
+          </>
         ) : !association ? (
-          <div className="flex h-full items-center justify-center text-muted-foreground">
-            <p>Föreningen kunde inte laddas.</p>
-          </div>
+          <>
+            <DialogHeader className="sr-only">
+              <DialogTitle>Föreningen kunde inte laddas</DialogTitle>
+            </DialogHeader>
+            <div className="flex h-full items-center justify-center text-muted-foreground">
+              <p>Föreningen kunde inte laddas.</p>
+            </div>
+          </>
         ) : (
           <div className="flex h-full flex-col">
             <DialogHeader className="border-b px-6 py-4">
