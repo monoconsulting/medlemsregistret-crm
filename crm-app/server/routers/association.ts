@@ -2,9 +2,8 @@ import { z } from 'zod'
 import { router, publicProcedure, protectedProcedure } from '../trpc'
 import { Prisma, CrmStatus, Pipeline } from '@prisma/client'
 import { TRPCError } from '@trpc/server'
-import { subDays, startOfDay, endOfDay, startOfMonth, endOfMonth, subMonths, format } from 'date-fns'
+import { startOfMonth, endOfMonth, subMonths, format } from 'date-fns'
 import { sv } from 'date-fns/locale'
-import { getSearchClient } from '../../lib/search'
 
 export const associationRouter = router({
   // Get all associations with pagination and filtering
@@ -14,24 +13,11 @@ export const associationRouter = router({
         page: z.number().min(1).default(1),
         limit: z.number().min(1).max(100).default(20),
         search: z.string().optional(),
-        municipality: z.string().optional(),
-        municipalityId: z.string().optional(),
+        municipalityIds: z.array(z.string()).optional(),
         crmStatuses: z.array(z.nativeEnum(CrmStatus)).optional(),
         pipelines: z.array(z.nativeEnum(Pipeline)).optional(),
         types: z.array(z.string()).optional(),
-        activities: z.array(z.string()).optional(),
         tags: z.array(z.string()).optional(),
-        hasEmail: z.boolean().optional(),
-        hasPhone: z.boolean().optional(),
-        isMember: z.boolean().optional(),
-        assignedToId: z.string().optional(),
-        dateRange: z
-          .object({
-            from: z.date(),
-            to: z.date().optional(),
-          })
-          .optional(),
-        lastActivityDays: z.number().min(1).max(365).optional(),
         sortBy: z
           .enum([
             'updatedAt',
@@ -43,7 +29,6 @@ export const associationRouter = router({
           ])
           .default('updatedAt'),
         sortDirection: z.enum(['asc', 'desc']).default('desc'),
-        useSearchIndex: z.boolean().optional(),
       })
     )
     .query(async ({ ctx, input }) => {
@@ -51,61 +36,18 @@ export const associationRouter = router({
         page,
         limit,
         search,
-        municipality,
-        municipalityId,
+        municipalityIds,
         crmStatuses,
         pipelines,
         types,
-        activities,
         tags,
-        hasEmail,
-        hasPhone,
-        isMember,
-        assignedToId,
-        dateRange,
-        lastActivityDays,
         sortBy,
         sortDirection,
-        useSearchIndex,
       } = input
       const skip = (page - 1) * limit
 
       const where: Prisma.AssociationWhereInput = {}
       const and: Prisma.AssociationWhereInput[] = []
-
-      if (useSearchIndex) {
-        const searchClient = getSearchClient()
-        if (searchClient && (search?.length || tags?.length || types?.length)) {
-          const searchResult = await searchClient.search({
-            query: search,
-            filters: {
-              municipality,
-              crmStatuses,
-              pipelines,
-              types,
-              activities,
-              tags,
-              isMember,
-            },
-            page,
-            limit,
-          })
-
-          if (searchResult?.ids?.length) {
-            and.push({ id: { in: searchResult.ids } })
-          } else {
-            return {
-              associations: [],
-              pagination: {
-                page,
-                limit,
-                total: 0,
-                totalPages: 0,
-              },
-            }
-          }
-        }
-      }
 
       const trimmedSearch = search?.trim()
       if (trimmedSearch?.length) {
@@ -197,12 +139,8 @@ export const associationRouter = router({
         and.push(...searchConditions)
       }
 
-      if (municipality) {
-        where.municipality = municipality
-      }
-
-      if (municipalityId) {
-        where.municipalityId = municipalityId
+      if (municipalityIds?.length) {
+        and.push({ municipalityId: { in: municipalityIds } })
       }
 
       if (crmStatuses?.length) {
@@ -213,40 +151,6 @@ export const associationRouter = router({
         and.push({ pipeline: { in: pipelines } })
       }
 
-      if (typeof hasEmail === 'boolean') {
-        and.push(hasEmail ? { email: { not: null } } : { email: null })
-      }
-
-      if (typeof hasPhone === 'boolean') {
-        and.push(
-          hasPhone
-            ? {
-                OR: [
-                  { phone: { not: null } },
-                  { phone: { gt: '' } },
-                  {
-                    contacts: {
-                      some: {
-                        OR: [{ phone: { not: null } }, { mobile: { not: null } }],
-                      },
-                    },
-                  },
-                ],
-              }
-            : {
-                phone: null,
-              }
-        )
-      }
-
-      if (typeof isMember === 'boolean') {
-        and.push({ isMember })
-      }
-
-      if (assignedToId) {
-        and.push({ assignedToId })
-      }
-
       if (types?.length) {
         const typeConditions = types.map(
           (typeValue) =>
@@ -255,41 +159,11 @@ export const associationRouter = router({
         and.push({ OR: typeConditions })
       }
 
-      if (activities?.length) {
-        const activityConditions = activities.map(
-          (activityValue) =>
-            ({ activities: { array_contains: activityValue } } as Prisma.AssociationWhereInput)
-        )
-        and.push({ OR: activityConditions })
-      }
-
       if (tags?.length) {
         and.push({
           tags: {
             some: {
               id: { in: tags },
-            },
-          },
-        })
-      }
-
-      if (dateRange?.from) {
-        and.push({
-          createdAt: {
-            gte: startOfDay(dateRange.from),
-            lte: endOfDay(dateRange.to ?? dateRange.from),
-          },
-        })
-      }
-
-      if (lastActivityDays) {
-        const since = subDays(new Date(), lastActivityDays)
-        and.push({
-          activityLog: {
-            some: {
-              createdAt: {
-                gte: since,
-              },
             },
           },
         })
