@@ -1,6 +1,6 @@
 import { z } from 'zod'
 import { router, publicProcedure, protectedProcedure } from '../trpc'
-import { Prisma } from '@prisma/client'
+import { Prisma, CrmStatus, Pipeline } from '@prisma/client'
 import { TRPCError } from '@trpc/server'
 import { subDays, startOfDay, endOfDay, startOfMonth, endOfMonth, subMonths, format } from 'date-fns'
 import { sv } from 'date-fns/locale'
@@ -16,8 +16,8 @@ export const associationRouter = router({
         search: z.string().optional(),
         municipality: z.string().optional(),
         municipalityId: z.string().optional(),
-        crmStatuses: z.array(z.string()).optional(),
-        pipelines: z.array(z.string()).optional(),
+        crmStatuses: z.array(z.nativeEnum(CrmStatus)).optional(),
+        pipelines: z.array(z.nativeEnum(Pipeline)).optional(),
         types: z.array(z.string()).optional(),
         activities: z.array(z.string()).optional(),
         tags: z.array(z.string()).optional(),
@@ -248,19 +248,19 @@ export const associationRouter = router({
       }
 
       if (types?.length) {
-        and.push({
-          types: {
-            hasSome: types,
-          },
-        })
+        const typeConditions = types.map(
+          (typeValue) =>
+            ({ types: { array_contains: typeValue } } as Prisma.AssociationWhereInput)
+        )
+        and.push({ OR: typeConditions })
       }
 
       if (activities?.length) {
-        and.push({
-          activities: {
-            hasSome: activities,
-          },
-        })
+        const activityConditions = activities.map(
+          (activityValue) =>
+            ({ activities: { array_contains: activityValue } } as Prisma.AssociationWhereInput)
+        )
+        and.push({ OR: activityConditions })
       }
 
       if (tags?.length) {

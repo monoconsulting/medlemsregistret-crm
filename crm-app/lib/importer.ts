@@ -78,6 +78,12 @@ export class ImporterError extends Error {}
 
 type PrismaExecutor = PrismaClient | Prisma.TransactionClient
 
+type NormalizedDescriptionSection = {
+  title: string | null
+  data: Prisma.InputJsonValue | Prisma.NullTypes.JsonNull
+  orderIndex: number
+}
+
 export async function parseFixtureFile(filePath: string): Promise<ImportFile> {
   const content = await fs.readFile(filePath, 'utf-8')
   const filename = path.basename(filePath)
@@ -369,11 +375,7 @@ type AssociationPayload =
   | {
       data: NormalizedAssociationData
       contacts: Prisma.ContactCreateManyInput[]
-      descriptionSections: Array<{
-        title: string | null
-        data: Prisma.InputJsonValue | null
-        orderIndex: number
-      }>
+      descriptionSections: NormalizedDescriptionSection[]
       detailUrl: string | null
       lookupNameKey: string | null
     }
@@ -462,7 +464,7 @@ function buildAssociationPayload(
       isPrimary: index === 0,
     }))
 
-  const descriptionSections =
+  const descriptionSections: NormalizedDescriptionSection[] =
     record.association.description?.sections
       ?.map((section, index) => {
         const rawTitle = typeof section.title === 'string' ? section.title.trim() : ''
@@ -514,7 +516,7 @@ async function updateAssociation(
   associationId: string,
   data: NormalizedAssociationData,
   contacts: Prisma.ContactCreateManyInput[],
-  descriptionSections: Array<{ title: string | null; data: Prisma.InputJsonValue | null; orderIndex: number }>
+  descriptionSections: NormalizedDescriptionSection[]
 ) {
   await prisma.association.update({
     where: { id: associationId },
@@ -553,7 +555,7 @@ async function createAssociation(
   prisma: PrismaExecutor,
   data: NormalizedAssociationData,
   contacts: Prisma.ContactCreateManyInput[],
-  descriptionSections: Array<{ title: string | null; data: Prisma.InputJsonValue | null; orderIndex: number }>
+  descriptionSections: NormalizedDescriptionSection[]
 ) {
   const association = await prisma.association.create({
     data: data as Prisma.AssociationUncheckedCreateInput,
