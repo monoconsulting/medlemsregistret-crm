@@ -12,6 +12,7 @@ export type AdvancedFilterState = {
   pipelines: string[]
   types: string[]
   activities: string[]
+  categories: string[]
   tags: string[]
   assignedToId?: string
   hasEmail?: boolean
@@ -30,6 +31,7 @@ interface AdvancedFilterPanelProps {
     pipelines: MultiSelectOption[]
     types: MultiSelectOption[]
     activities: MultiSelectOption[]
+    categories: MultiSelectOption[]
     tags: MultiSelectOption[]
     users: MultiSelectOption[]
     activityWindows: { label: string; value: number }[]
@@ -67,6 +69,12 @@ export function AdvancedFilterPanel({ state, onChange, options }: AdvancedFilter
           options={options.activities}
           values={state.activities}
           onChange={(values) => onChange({ activities: values })}
+        />
+        <MultiSelectFilter
+          label="Kategorier"
+          options={options.categories}
+          values={state.categories}
+          onChange={(values) => onChange({ categories: values })}
         />
         <MultiSelectFilter
           label="Taggar"

@@ -97,6 +97,7 @@ const DEFAULT_FILTERS: AdvancedFilterState = {
   pipelines: [],
   types: [],
   activities: [],
+  categories: [],
   tags: [],
   assignedToId: undefined,
   hasEmail: undefined,
@@ -192,6 +193,7 @@ export default function AssociationsPage() {
       pipelines: filters.pipelines.length ? filters.pipelines : undefined,
       types: filters.types.length ? filters.types : undefined,
       activities: filters.activities.length ? filters.activities : undefined,
+      categories: filters.categories.length ? filters.categories : undefined,
       tags: filters.tags.length ? filters.tags : undefined,
       hasEmail: typeof filters.hasEmail === "boolean" ? filters.hasEmail : undefined,
       hasPhone: typeof filters.hasPhone === "boolean" ? filters.hasPhone : undefined,
@@ -271,13 +273,23 @@ export default function AssociationsPage() {
   const typeOptions: MultiSelectOption[] = useMemo(() => {
     const set = new Set<string>()
     associations.forEach((association) => {
-      if (Array.isArray(association.types)) {
-        association.types.forEach((value) => {
-          if (typeof value === 'string') {
-            set.add(value)
-          }
-        })
-      }
+      parseStringArray(association.types).forEach((value) => {
+        if (value.length > 0) {
+          set.add(value)
+        }
+      })
+    })
+    return Array.from(set).sort().map((value) => ({ label: value, value }))
+  }, [associations])
+
+  const categoryOptions: MultiSelectOption[] = useMemo(() => {
+    const set = new Set<string>()
+    associations.forEach((association) => {
+      parseStringArray(association.categories).forEach((value) => {
+        if (value.length > 0) {
+          set.add(value)
+        }
+      })
     })
     return Array.from(set).sort().map((value) => ({ label: value, value }))
   }, [associations])
@@ -583,6 +595,7 @@ export default function AssociationsPage() {
               pipelines: pipelineOptions,
               types: typeOptions,
               activities: ACTIVITY_TYPES,
+              categories: categoryOptions,
               tags: tagOptions,
               users: userOptions,
               activityWindows: ACTIVITY_WINDOWS,

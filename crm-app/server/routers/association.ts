@@ -20,6 +20,7 @@ export const associationRouter = router({
         pipelines: z.array(z.string()).optional(),
         types: z.array(z.string()).optional(),
         activities: z.array(z.string()).optional(),
+        categories: z.array(z.string()).optional(),
         tags: z.array(z.string()).optional(),
         hasEmail: z.boolean().optional(),
         hasPhone: z.boolean().optional(),
@@ -57,6 +58,7 @@ export const associationRouter = router({
         pipelines,
         types,
         activities,
+        categories,
         tags,
         hasEmail,
         hasPhone,
@@ -137,6 +139,24 @@ export const associationRouter = router({
               },
             },
             {
+              types: {
+                string_contains: term,
+                mode: 'insensitive',
+              },
+            },
+            {
+              activities: {
+                string_contains: term,
+                mode: 'insensitive',
+              },
+            },
+            {
+              categories: {
+                string_contains: term,
+                mode: 'insensitive',
+              },
+            },
+            {
               contacts: {
                 some: {
                   OR: [
@@ -206,19 +226,48 @@ export const associationRouter = router({
       }
 
       if (types?.length) {
-        and.push({
-          types: {
-            hasSome: types,
-          },
-        })
+        const normalized = types
+          .map((value) => value.trim())
+          .filter((value) => value.length > 0)
+        if (normalized.length) {
+          and.push({
+            OR: normalized.map((value) => ({
+              types: {
+                array_contains: [value],
+              },
+            })),
+          })
+        }
       }
 
       if (activities?.length) {
-        and.push({
-          activities: {
-            hasSome: activities,
-          },
-        })
+        const normalized = activities
+          .map((value) => value.trim())
+          .filter((value) => value.length > 0)
+        if (normalized.length) {
+          and.push({
+            OR: normalized.map((value) => ({
+              activities: {
+                array_contains: [value],
+              },
+            })),
+          })
+        }
+      }
+
+      if (categories?.length) {
+        const normalized = categories
+          .map((value) => value.trim())
+          .filter((value) => value.length > 0)
+        if (normalized.length) {
+          and.push({
+            OR: normalized.map((value) => ({
+              categories: {
+                array_contains: [value],
+              },
+            })),
+          })
+        }
       }
 
       if (tags?.length) {
