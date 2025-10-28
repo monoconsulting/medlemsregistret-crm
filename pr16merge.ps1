@@ -5,8 +5,8 @@
     - Merge PR #16 (backend search fix)
     - Cherry-pick targeted files from PR #14 (external search config) and PR #15 (sv-SE case handling)
   Usage:
-    ./pr16merge.ps1            # normal
-    ./pr16merge.ps1 -DryRun    # no changes, just prints commands
+    ./pr16merge.ps1            # normal (no build)
+    ./pr16merge.ps1 -DryRun    # prints commands, no changes
 #>
 
 param(
@@ -40,32 +40,48 @@ function BranchExists {
   return ($LASTEXITCODE -eq 0)
 }
 
-function TryCheckoutFromBranch {
+function RefExists {
+  param([string]$Ref)
+  git show-ref --verify --quiet "$Ref"
+  return ($LASTEXITCODE -eq 0)
+}
+
+function PreferRef {
+  param([string]$MergeRef, [string]$HeadRef)
+  if (RefExists $MergeRef) { return $MergeRef }
+  if (RefExists $HeadRef)  { return $HeadRef }
+  return $null
+}
+
+function TryCheckoutFromRefs {
   param(
-    [string]$FromBranch,
+    [string[]]$FromRefs,
     [string[]]$CandidatePaths,
     [string]$CommitMessage
   )
   $checkedOut = @()
-  foreach ($p in $CandidatePaths) {
-    # Does the path exist in source branch?
-    $null = git ls-tree -r --name-only $FromBranch | findstr /r /c:"^$([Regex]::Escape($p))$"
-    if ($LASTEXITCODE -eq 0) {
-      Exec "git checkout $FromBranch -- `"$p`""
-      $checkedOut += $p
+  foreach ($ref in $FromRefs) {
+    if (-not (RefExists $ref)) { continue }
+    foreach ($p in $CandidatePaths) {
+      # Check if path exists in the ref tree
+      $null = git ls-tree -r --name-only $ref | findstr /r /c:"^$([Regex]::Escape($p))$"
+      if ($LASTEXITCODE -eq 0) {
+        Exec "git checkout $ref -- `"$p`""
+        $checkedOut += $p
+      }
     }
+    if ($checkedOut.Count -gt 0) { break } # we found files in this ref; stop
   }
+
   if ($checkedOut.Count -gt 0) {
     $pathsJoined = ($checkedOut | ForEach-Object { "`"`$_`"" }) -join ' '
     Exec "git add $pathsJoined"
     Exec "git commit -m `"$CommitMessage`""
-
-    # ---- FIXED LINES (use $() before colon):
-    Write-Host ("  ✓ Included from $($FromBranch):") -ForegroundColor Green
+    Write-Host ("  ✓ Included from $($FromRefs -join ' OR '):") -ForegroundColor Green
     foreach ($f in $checkedOut) { Write-Host ("    - {0}" -f $f) }
   }
   else {
-    Write-Warning "No matching files found in $FromBranch. Skipped."
+    Write-Warning ("No matching files found in: {0}. Skipped." -f ($FromRefs -join ', '))
   }
 }
 
@@ -84,11 +100,11 @@ if ($LASTEXITCODE -ne 0) {
   }
 }
 
-# Fetch PR heads as local branches pr-14, pr-15, pr-16
-Write-Host "`nFetching PR branches..." -ForegroundColor Yellow
-Exec "git fetch origin +pull/14/head:pr-14"
-Exec "git fetch origin +pull/15/head:pr-15"
-Exec "git fetch origin +pull/16/head:pr-16"
+# Fetch PR heads and merge refs
+Write-Host "`nFetching PR refs (head + merge)..." -ForegroundColor Yellow
+Exec "git fetch origin +pull/14/head:pr-14 +pull/14/merge:pr-14-merge"
+Exec "git fetch origin +pull/15/head:pr-15 +pull/15/merge:pr-15-merge"
+Exec "git fetch origin +pull/16/head:pr-16 +pull/16/merge:pr-16-merge"
 
 # Create feature branch
 $ts = Get-Date -Format "yyyyMMdd-HHmm"
@@ -102,9 +118,14 @@ Exec "git checkout $baseBranch"
 Exec "git pull --ff-only origin $baseBranch"
 Exec "git checkout -b $featureBranch"
 
-# Merge PR #16
+# Merge PR #16 (prefer merge-ref for conflict-resolved tree)
 Write-Host "`nMerging PR #16..." -ForegroundColor Yellow
-Exec "git merge --no-ff pr-16 -m `"Merge PR #16: Association search robustness and coverage`""
+$ref16 = PreferRef "pr-16-merge" "pr-16"
+if (-not $ref16) {
+  Write-Error "Could not find PR #16 refs."
+  exit 1
+}
+Exec "git merge --no-ff $ref16 -m `"Merge PR #16: Association search robustness and coverage`""
 
 # Cherry-pick targeted files from PR #14 (external search config)
 $pr14Paths = @(
@@ -115,7 +136,7 @@ $pr14Paths = @(
   "packages/web/lib/search.ts"
 )
 Write-Host "`nCherry-picking key files from PR #14 (external search config)..." -ForegroundColor Yellow
-TryCheckoutFromBranch -FromBranch "pr-14" -CandidatePaths $pr14Paths -CommitMessage "Cherry-pick (#14): align external search (Typesense/Meili) fields (types, activities, categories, tags)."
+TryCheckoutFromRefs -FromRefs @("pr-14-merge","pr-14") -CandidatePaths $pr14Paths -CommitMessage "Cherry-pick (#14): align external search (Typesense/Meili) fields (types, activities, categories, tags)."
 
 # Cherry-pick sv-SE handling from PR #15
 $pr15Paths = @(
@@ -126,20 +147,9 @@ $pr15Paths = @(
   "crm-app/lib/search.ts"
 )
 Write-Host "`nCherry-picking key files from PR #15 (sv-SE diacritics handling)..." -ForegroundColor Yellow
-TryCheckoutFromBranch -FromBranch "pr-15" -CandidatePaths $pr15Paths -CommitMessage "Cherry-pick (#15): sv-SE diacritic handling for search terms (Å/Ä/Ö normalization)."
+TryCheckoutFromRefs -FromRefs @("pr-15-merge","pr-15") -CandidatePaths $pr15Paths -CommitMessage "Cherry-pick (#15): sv-SE diacritic handling for search terms (Å/Ä/Ö normalization)."
 
-# Optional build step
-if (-not $DryRun) {
-  if (Test-Path "package.json") {
-    Write-Host "`nRunning install/build (if present)..." -ForegroundColor Yellow
-    Exec "npm install --no-audit --no-fund"
-    if (Test-Path "crm-app/package.json") {
-      Exec "npm --prefix crm-app run build"
-    }
-  }
-}
-
-Write-Host "`nAll done! You are now on branch: $featureBranch" -ForegroundColor Green
+Write-Host "`nDone. You are now on branch: $featureBranch" -ForegroundColor Green
 Write-Host "Next:"
 Write-Host "  1) Verify searches (Å/Ä/Ö + types/activities/categories/tags)."
 Write-Host "  2) git push -u origin $featureBranch"
