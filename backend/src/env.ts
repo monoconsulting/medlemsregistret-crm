@@ -53,5 +53,11 @@ export const config = {
     sameSite: env.SESSION_COOKIE_SAME_SITE as 'lax' | 'strict' | 'none',
     ttlMs: env.SESSION_TTL_DAYS * 24 * 60 * 60 * 1000,
   },
+  csrfCookie: {
+    name: 'csrf',
+    domain: env.SESSION_COOKIE_DOMAIN,
+    secure: secureCookie,
+    sameSite: 'none' as const,
+  },
 } as const;
 

@@ -1,7 +1,6 @@
 import 'express-async-errors';
 import express from 'express';
 import cors from 'cors';
-import cookieParser from 'cookie-parser';
 import { createExpressMiddleware } from '@trpc/server/adapters/express';
 
 import { appRouter } from '../crm-app/server/routers/_app';
@@ -12,11 +11,18 @@ import { associationsRouter } from './routes/associations';
 import { getSessionFromRequest } from './auth/session';
 import { createContext } from './context';
 import { requireAuth } from './middleware/requireAuth';
+import {
+  attachCsrfToken,
+  cookieParserMiddleware,
+  csrfMiddleware,
+  helmetMiddleware,
+} from './middleware/security';
 
 const app = express();
 
 app.disable('x-powered-by');
 
+app.use(helmetMiddleware);
 app.use(
   cors({
     origin: (origin, callback) => {
@@ -36,9 +42,11 @@ app.use(
   }),
 );
 
-app.use(cookieParser());
+app.use(cookieParserMiddleware);
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
+app.use(csrfMiddleware);
+app.use(attachCsrfToken);
 
 app.use(async (req, _res, next) => {
   try {
@@ -79,6 +87,13 @@ app.post('/api/scraping/:municipalityId/run', requireAuth(['ADMIN']), (_req, res
 });
 
 app.use((err: unknown, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
+  if (typeof err === 'object' && err && 'code' in err && (err as { code?: string }).code === 'EBADCSRFTOKEN') {
+    if (!res.headersSent) {
+      return res.status(403).json({ error: 'Ogiltig CSRF-token.' });
+    }
+    return;
+  }
+
   console.error('Ohanterat fel i backend:', err);
   if (res.headersSent) {
     return;
