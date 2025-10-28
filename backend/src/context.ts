@@ -1,6 +1,6 @@
 import type { CreateExpressContextOptions } from '@trpc/server/adapters/express';
 
-import { db } from '../../crm-app/lib/db';
+import { prisma } from './lib/prisma';
 
 export async function createContext({ req, res }: CreateExpressContextOptions) {
   const headers = new Headers();
@@ -21,7 +21,7 @@ export async function createContext({ req, res }: CreateExpressContextOptions) {
   });
 
   return {
-    db,
+    db: prisma,
     session: req.userSession ?? null,
     headers,
     req,

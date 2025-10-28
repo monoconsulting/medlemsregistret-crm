@@ -4,7 +4,7 @@ import { z } from 'zod';
 import type { UserRole } from '@prisma/client';
 
 import { config } from '../env';
-import { db } from '../../crm-app/lib/db';
+import { prisma } from '../lib/prisma';
 
 const tokenPayloadSchema = z.object({
   sub: z.string(),
@@ -96,7 +96,7 @@ export async function getSessionFromRequest(req: Request): Promise<Session | nul
     return null;
   }
 
-  const user = await db.user.findFirst({
+  const user = await prisma.user.findFirst({
     where: {
       id: parsed.data.sub,
       isDeleted: false,

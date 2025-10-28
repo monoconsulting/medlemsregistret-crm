@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { z } from 'zod';
 
-import { db } from '../../crm-app/lib/db';
+import { prisma } from '../lib/prisma';
 import { requireAuth } from '../middleware/requireAuth';
 
 const noteSchema = z.object({
@@ -26,7 +26,7 @@ associationsRouter.post(
       return;
     }
 
-    const association = await db.association.findUnique({
+    const association = await prisma.association.findUnique({
       where: { id: associationId },
       select: { id: true },
     });
@@ -45,7 +45,7 @@ associationsRouter.post(
     const userName = session.user.name ?? 'Okänd användare';
 
     try {
-      const note = await db.note.create({
+      const note = await prisma.note.create({
         data: {
           associationId,
           content: parseResult.data.content,
