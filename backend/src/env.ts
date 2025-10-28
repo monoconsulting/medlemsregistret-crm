@@ -9,7 +9,7 @@ const envSchema = z.object({
   PORT: z.coerce.number().default(4000),
   ALLOWED_ORIGINS: z.string().optional(),
   JWT_SECRET: z.string().min(16, 'JWT_SECRET måste vara minst 16 tecken.'),
-  SESSION_COOKIE_NAME: z.string().default('crm_session'),
+  SESSION_COOKIE_NAME: z.string().default('sid'),
   SESSION_COOKIE_DOMAIN: z
     .string()
     .trim()
@@ -22,6 +22,13 @@ const envSchema = z.object({
     .enum(['lax', 'strict', 'none'])
     .default('none'),
   SESSION_TTL_DAYS: z.coerce.number().default(7),
+  PUBLIC_API_BASE_URL: z
+    .string()
+    .trim()
+    .optional(),
+  ENABLE_AI: z.enum(['true', 'false']).default('false'),
+  ENABLE_SEARCH_PROXY: z.enum(['true', 'false']).default('false'),
+  ALLOW_SHELL_SCRIPTS: z.enum(['true', 'false']).default('false'),
 });
 
 const parsed = envSchema.safeParse(process.env);
@@ -52,6 +59,14 @@ export const config = {
     secure: secureCookie,
     sameSite: env.SESSION_COOKIE_SAME_SITE as 'lax' | 'strict' | 'none',
     ttlMs: env.SESSION_TTL_DAYS * 24 * 60 * 60 * 1000,
+  },
+  publicApiBaseUrl: env.PUBLIC_API_BASE_URL?.length
+    ? env.PUBLIC_API_BASE_URL.replace(/\/$/, '')
+    : null,
+  features: {
+    ai: env.ENABLE_AI === 'true',
+    searchProxy: env.ENABLE_SEARCH_PROXY === 'true',
+    allowShellScripts: env.ALLOW_SHELL_SCRIPTS === 'true',
   },
 } as const;
 
