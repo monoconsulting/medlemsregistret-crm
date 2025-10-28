@@ -1,6 +1,6 @@
 "use client"
 
-import { useDeferredValue, useEffect, useMemo, useState } from "react"
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -30,7 +30,7 @@ import {
   ArrowDown,
 } from "lucide-react"
 import { AdvancedFilterPanel, type AdvancedFilterState } from "@/components/filters/advanced-filter-panel"
-import { MultiSelectOption } from "@/components/filters/multi-select-filter"
+import { MultiSelectFilter, MultiSelectOption } from "@/components/filters/multi-select-filter"
 import { BulkActionsToolbar } from "@/components/filters/bulk-actions-toolbar"
 import { ViewToggle, type ViewMode } from "@/components/filters/view-toggle"
 import { AddContactModal } from "@/components/modals/add-contact-modal"
@@ -38,6 +38,7 @@ import { EditContactModal } from "@/components/modals/edit-contact-modal"
 import { SendEmailModal } from "@/components/modals/send-email-modal"
 import { AssociationDetailsDialog } from "@/components/modals/association-details-dialog"
 import { AssociationContactsModal } from "@/components/modals/association-contacts-modal"
+import { AddAssociationsToGroupModal } from "@/components/modals/add-associations-to-group-modal"
 import { api } from "@/lib/trpc/client"
 import { CRM_STATUSES, PIPELINES, type AssociationUpdateInput } from "@/lib/validators/association"
 import type { ContactFormValues, ContactUpdateValues } from "@/lib/validators/contact"
@@ -78,14 +79,6 @@ const parseStringArray = (value: unknown): string[] => {
   return []
 }
 
-const ACTIVITY_TYPES: MultiSelectOption[] = [
-  { label: "Anteckning", value: "NOTE_ADDED" },
-  { label: "Mail skickat", value: "EMAIL_SENT" },
-  { label: "Samtal", value: "CALL_MADE" },
-  { label: "Möte", value: "MEETING_SCHEDULED" },
-  { label: "Statusändring", value: "STATUS_CHANGED" },
-]
-
 const ACTIVITY_WINDOWS = [
   { label: "Senaste 7 dagarna", value: 7 },
   { label: "Senaste 30 dagarna", value: 30 },
@@ -96,15 +89,8 @@ const DEFAULT_FILTERS: AdvancedFilterState = {
   statuses: [],
   pipelines: [],
   types: [],
-  activities: [],
   tags: [],
-  assignedToId: undefined,
-  hasEmail: undefined,
-  hasPhone: undefined,
-  isMember: undefined,
-  dateRange: undefined,
   lastActivityDays: undefined,
-  useSearchIndex: false,
 }
 
 const CRM_STATUS_VALUES = new Set<string>(CRM_STATUSES)
@@ -147,12 +133,28 @@ export default function AssociationsPage() {
   const [sortBy, setSortBy] = useState<SortKey>("updatedAt")
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc")
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
+  const [selectedMunicipalityIds, setSelectedMunicipalityIds] = useState<string[]>(() =>
+    municipalityIdFilter ? [municipalityIdFilter] : []
+  )
+  const municipalitySelectionTouched = useRef(false)
+  const [showAddToGroupModal, setShowAddToGroupModal] = useState(false)
 
   useEffect(() => {
-    setPage(1)
-  }, [municipalityIdFilter, municipalityNameFilter])
+    if (selectedIds.size === 0 && showAddToGroupModal) {
+      setShowAddToGroupModal(false)
+    }
+  }, [selectedIds, showAddToGroupModal])
 
-  const associationsTitle = activeMunicipalityName ? `Föreningar i ${activeMunicipalityName}` : "Alla föreningar"
+  useEffect(() => {
+    if (municipalitySelectionTouched.current) {
+      return
+    }
+    if (municipalityIdFilter) {
+      setSelectedMunicipalityIds([municipalityIdFilter])
+    } else {
+      setSelectedMunicipalityIds([])
+    }
+  }, [municipalityIdFilter])
 
   const defaultSortDirectionFor = (field: SortKey): "asc" | "desc" =>
     field === "updatedAt" || field === "createdAt" || field === "recentActivity" ? "desc" : "asc"
@@ -192,6 +194,16 @@ export default function AssociationsPage() {
   const [detailsAssociationId, setDetailsAssociationId] = useState<string | null>(null)
   const [contactsPanelAssociationId, setContactsPanelAssociationId] = useState<string | null>(null)
 
+  const effectiveMunicipalityIds = useMemo(() => {
+    if (selectedMunicipalityIds.length) {
+      return selectedMunicipalityIds
+    }
+    if (municipalityIdFilter) {
+      return [municipalityIdFilter]
+    }
+    return []
+  }, [selectedMunicipalityIds, municipalityIdFilter])
+
   const queryInput = useMemo(() => {
     const crmStatuses = filters.statuses.length ? normalizeStatuses(filters.statuses) : undefined
     const pipelines = filters.pipelines.length ? normalizePipelines(filters.pipelines) : undefined
@@ -203,26 +215,21 @@ export default function AssociationsPage() {
       crmStatuses,
       pipelines,
       types: filters.types.length ? filters.types : undefined,
-      activities: filters.activities.length ? filters.activities : undefined,
       tags: filters.tags.length ? filters.tags : undefined,
-      hasEmail: typeof filters.hasEmail === "boolean" ? filters.hasEmail : undefined,
-      hasPhone: typeof filters.hasPhone === "boolean" ? filters.hasPhone : undefined,
-      isMember: typeof filters.isMember === "boolean" ? filters.isMember : undefined,
-      assignedToId: filters.assignedToId || undefined,
-      municipality: municipalityNameFilter || undefined,
-      municipalityId: municipalityIdFilter || undefined,
-      dateRange: filters.dateRange?.from
-        ? {
-            from: filters.dateRange.from,
-            to: filters.dateRange.to,
-          }
-        : undefined,
+      municipalityIds: effectiveMunicipalityIds.length ? effectiveMunicipalityIds : undefined,
       lastActivityDays: filters.lastActivityDays,
       sortBy,
       sortDirection,
-      useSearchIndex: filters.useSearchIndex ?? false,
     }
-  }, [page, limit, deferredSearchTerm, filters, sortBy, sortDirection, municipalityNameFilter, municipalityIdFilter])
+  }, [
+    page,
+    limit,
+    deferredSearchTerm,
+    filters,
+    sortBy,
+    sortDirection,
+    effectiveMunicipalityIds,
+  ])
 
   const associationsQuery = api.association.list.useQuery(queryInput, {
     placeholderData: (previousData) => previousData,
@@ -271,11 +278,6 @@ export default function AssociationsPage() {
     onError: (error) => toast({ title: "Exporten misslyckades", description: error.message, variant: "destructive" }),
   })
 
-  const usersQuery = api.users.list.useQuery(
-    { page: 1, limit: 200 },
-    { staleTime: 60_000 }
-  )
-
   const data = associationsQuery.data
   const associations = useMemo(() => (data?.associations ?? []) as AssociationListItem[], [data?.associations])
   const totalPages = data?.pagination.totalPages ?? 1
@@ -300,24 +302,80 @@ export default function AssociationsPage() {
     count: undefined,
   }))
 
-  const userOptions: MultiSelectOption[] = useMemo(() => {
-    const users = usersQuery.data?.users ?? []
-    return users.map((user) => ({
-      value: user.id,
-      label: user.name ?? user.email ?? "Namnlös",
-    }))
-  }, [usersQuery.data?.users])
-
   const statusOptions: MultiSelectOption[] = CRM_STATUSES.map((status) => ({ label: status, value: status }))
   const pipelineOptions: MultiSelectOption[] = PIPELINES.map((pipeline) => ({ label: pipeline, value: pipeline }))
   const municipalityOptions = useMemo(() => {
-    return (municipalitiesQuery.data ?? [])
+    const baseOptions = (municipalitiesQuery.data ?? [])
       .filter((municipality) => municipality.name && municipality.name.trim().length > 0)
       .map((municipality) => ({
         id: municipality.id,
         name: municipality.name.trim(),
       }))
-  }, [municipalitiesQuery.data])
+
+    if (municipalityDetailsQuery.data) {
+      const exists = baseOptions.some((option) => option.id === municipalityDetailsQuery.data?.id)
+      if (!exists && municipalityDetailsQuery.data.id) {
+        baseOptions.push({
+          id: municipalityDetailsQuery.data.id,
+          name: municipalityDetailsQuery.data.name ?? municipalityNameFilter ?? "Okänd kommun",
+        })
+      }
+    } else if (municipalityIdFilter && municipalityNameFilter) {
+      const exists = baseOptions.some((option) => option.id === municipalityIdFilter)
+      if (!exists) {
+        baseOptions.push({ id: municipalityIdFilter, name: municipalityNameFilter })
+      }
+    }
+
+    return baseOptions.sort((a, b) => a.name.localeCompare(b.name, "sv"))
+  }, [
+    municipalitiesQuery.data,
+    municipalityDetailsQuery.data,
+    municipalityIdFilter,
+    municipalityNameFilter,
+  ])
+
+  const municipalityFilterOptions: MultiSelectOption[] = useMemo(
+    () => municipalityOptions.map((option) => ({ label: option.name, value: option.id })),
+    [municipalityOptions],
+  )
+
+  const selectedMunicipalities = useMemo(() => {
+    if (selectedMunicipalityIds.length === 0) {
+      return []
+    }
+    const lookup = new Map(municipalityOptions.map((option) => [option.id, option.name]))
+    return selectedMunicipalityIds.map((id) => ({
+      id,
+      name:
+        lookup.get(id) ??
+        (id === municipalityDetailsQuery.data?.id
+          ? municipalityDetailsQuery.data?.name ?? municipalityNameFilter ?? "Okänd kommun"
+          : id === municipalityIdFilter
+            ? municipalityNameFilter ?? "Okänd kommun"
+            : "Okänd kommun"),
+    }))
+  }, [
+    selectedMunicipalityIds,
+    municipalityOptions,
+    municipalityDetailsQuery.data?.id,
+    municipalityDetailsQuery.data?.name,
+    municipalityNameFilter,
+    municipalityIdFilter,
+  ])
+
+  const associationsTitle = useMemo(() => {
+    if (selectedMunicipalities.length === 1) {
+      return `Föreningar i ${selectedMunicipalities[0].name}`
+    }
+    if (selectedMunicipalities.length > 1) {
+      return `Föreningar i ${selectedMunicipalities.length} kommuner`
+    }
+    if (activeMunicipalityName) {
+      return `Föreningar i ${activeMunicipalityName}`
+    }
+    return "Alla föreningar"
+  }, [selectedMunicipalities, activeMunicipalityName])
 
   const toggleSelection = (id: string) => {
     setSelectedIds((prev) => {
@@ -333,21 +391,42 @@ export default function AssociationsPage() {
 
   const clearSelection = () => setSelectedIds(new Set())
 
-  const handleClearMunicipalityFilter = () => {
+  const visibleAssociationIds = useMemo(() => associations.map((association) => association.id), [associations])
+  const allVisibleSelected = visibleAssociationIds.length > 0 && visibleAssociationIds.every((id) => selectedIds.has(id))
+  const someVisibleSelected = visibleAssociationIds.some((id) => selectedIds.has(id))
+
+  const handleToggleAllVisible = (_checked: boolean | "indeterminate") => {
+    setSelectedIds((prev) => {
+      const next = new Set(prev)
+      if (allVisibleSelected) {
+        visibleAssociationIds.forEach((id) => next.delete(id))
+      } else {
+        visibleAssociationIds.forEach((id) => next.add(id))
+      }
+      return next
+    })
+  }
+
+  const handleMunicipalityFilterChange = (values: string[]) => {
+    municipalitySelectionTouched.current = true
+    setSelectedMunicipalityIds(values)
+    setPage(1)
     const params = new URLSearchParams(searchParams.toString())
     params.delete("municipality")
     params.delete("municipalityId")
-    setPage(1)
     const next = params.toString()
-    router.push(`/associations${next ? `?${next}` : ""}`)
+    router.replace(`/associations${next ? `?${next}` : ""}`)
+  }
+
+  const handleClearMunicipalityFilters = () => {
+    handleMunicipalityFilterChange([])
   }
 
   const handleExport = async (format: "csv" | "json" | "xlsx") => {
     const result = await exportAssociations.mutateAsync({
       format,
       search: searchTerm.trim() || undefined,
-      municipality: municipalityNameFilter || undefined,
-      municipalityId: municipalityIdFilter || undefined,
+      municipalityIds: effectiveMunicipalityIds.length ? effectiveMunicipalityIds : undefined,
     })
     const binary = atob(result.data)
     const buffer = new Uint8Array(binary.length)
@@ -364,21 +443,6 @@ export default function AssociationsPage() {
     document.body.removeChild(link)
     URL.revokeObjectURL(url)
     toast({ title: "Export skapad", description: `Fil: ${result.filename}` })
-  }
-
-  const handleBulkAssign = async (ownerId: string | null) => {
-    if (selectedIds.size === 0) return
-    await Promise.all(
-      Array.from(selectedIds).map((id) =>
-        updateAssociation.mutateAsync({
-          id,
-          data: {
-            assignedToId: ownerId,
-          },
-        })
-      )
-    )
-    clearSelection()
   }
 
   const handleFilterChange = (patch: Partial<AdvancedFilterState>) => {
@@ -463,27 +527,7 @@ export default function AssociationsPage() {
     toast({ title: "E-post skickad", description: `E-post skickad till ${values.to}` })
   }
 
-  const handleMunicipalitySelect = (value: string) => {
-    if (value === "all") {
-      handleClearMunicipalityFilter()
-      return
-    }
-
-    const selected = municipalityOptions.find((option) => option.id === value)
-    if (!selected) {
-      return
-    }
-
-    const params = new URLSearchParams(searchParams.toString())
-    params.set("municipalityId", selected.id)
-    params.set("municipality", selected.name)
-    setPage(1)
-    const next = params.toString()
-    router.push(`/associations${next ? `?${next}` : ""}`)
-  }
-
   const isLoading = associationsQuery.isPending
-  const municipalitySelectValue = municipalityIdFilter ?? "all"
 
   return (
     <div className="space-y-6 p-6">
@@ -518,23 +562,13 @@ export default function AssociationsPage() {
               />
             </div>
             <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center sm:gap-3">
-              <Select
-                value={municipalitySelectValue}
-                onValueChange={handleMunicipalitySelect}
-                disabled={municipalitiesQuery.isLoading}
-              >
-                <SelectTrigger className="w-full sm:w-48">
-                  <SelectValue placeholder="Alla kommuner" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="all">Alla kommuner</SelectItem>
-                  {municipalityOptions.map((municipality) => (
-                    <SelectItem key={municipality.id} value={municipality.id}>
-                      {municipality.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+              <MultiSelectFilter
+                label="Kommuner"
+                placeholder="Alla kommuner"
+                options={municipalityFilterOptions}
+                values={selectedMunicipalityIds}
+                onChange={handleMunicipalityFilterChange}
+              />
               <ViewToggle value={viewMode} onChange={setViewMode} />
               <Select value={limit.toString()} onValueChange={(value) => { setLimit(parseInt(value)); setPage(1); }}>
                 <SelectTrigger className="w-full sm:w-32">
@@ -594,18 +628,10 @@ export default function AssociationsPage() {
               statuses: statusOptions,
               pipelines: pipelineOptions,
               types: typeOptions,
-              activities: ACTIVITY_TYPES,
               tags: tagOptions,
-              users: userOptions,
               activityWindows: ACTIVITY_WINDOWS,
             }}
           />
-          {filters.useSearchIndex && (
-            <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <Badge variant="secondary">Meilisearch</Badge>
-              Avancerad sökning med extern indexering är aktiverad.
-            </div>
-          )}
         </CardContent>
       </Card>
 
@@ -613,8 +639,7 @@ export default function AssociationsPage() {
         selectedCount={selectedIds.size}
         onClear={clearSelection}
         onExport={handleExport}
-        onAssignOwner={handleBulkAssign}
-        owners={userOptions.map((user) => ({ id: user.value, name: user.label }))}
+        onAddToGroup={() => setShowAddToGroupModal(true)}
       />
 
       <Card>
@@ -626,15 +651,17 @@ export default function AssociationsPage() {
                 {associationsQuery.data?.pagination.total ?? 0} resultat – sida {page} av {totalPages}
               </p>
             </div>
-            {activeMunicipalityName && (
-              <div className="flex items-center gap-2 text-xs text-muted-foreground">
+            {selectedMunicipalities.length > 0 && (
+              <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
                 <Badge variant="secondary">Filtrerat på kommun</Badge>
-                <span className="text-xs font-medium text-foreground">{activeMunicipalityName}</span>
+                <span className="text-xs font-medium text-foreground">
+                  {selectedMunicipalities.map((item) => item.name).join(", ")}
+                </span>
                 <Button
                   variant="ghost"
                   size="sm"
                   className="h-6 px-2"
-                  onClick={handleClearMunicipalityFilter}
+                  onClick={handleClearMunicipalityFilters}
                 >
                   Rensa
                 </Button>
@@ -662,7 +689,11 @@ export default function AssociationsPage() {
                       #
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Val
+                      <Checkbox
+                        checked={allVisibleSelected ? true : someVisibleSelected ? "indeterminate" : false}
+                        onCheckedChange={handleToggleAllVisible}
+                        aria-label="Välj alla synliga föreningar"
+                      />
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Kommun
@@ -1114,6 +1145,16 @@ export default function AssociationsPage() {
         onRequestAddContact={(associationId, associationName) =>
           setContactTarget({ id: associationId, name: associationName })
         }
+      />
+
+      <AddAssociationsToGroupModal
+        open={showAddToGroupModal}
+        onOpenChange={setShowAddToGroupModal}
+        associationIds={Array.from(selectedIds)}
+        onCompleted={() => {
+          clearSelection()
+          setShowAddToGroupModal(false)
+        }}
       />
     </div>
   )

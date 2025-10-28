@@ -65,6 +65,7 @@ export const exportRouter = router({
         search: z.string().optional(),
         municipality: z.string().optional(),
         municipalityId: z.string().optional(),
+        municipalityIds: z.array(z.string()).optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
@@ -81,7 +82,9 @@ export const exportRouter = router({
         where.municipality = input.municipality
       }
 
-      if (input.municipalityId) {
+      if (input.municipalityIds?.length) {
+        where.municipalityId = { in: input.municipalityIds }
+      } else if (input.municipalityId) {
         where.municipalityId = input.municipalityId
       }
 
