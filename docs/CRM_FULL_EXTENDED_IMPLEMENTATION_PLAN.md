@@ -5,6 +5,13 @@
   - Backend i **en** container, kopplad direkt mot **Loopia MariaDB**.
   - **Inget** Next/NextAuth i backend, **inga** extra motorer (Redis/Meili/BullMQ).
 
+  ## Status (2025-10-29)
+  - ✅ Backend dependency list trimmed: Next.js and NextAuth removed, Prisma CLI added for local client generation.
+  - ✅ Backend runtime now ships in a minimal Docker image (multi-stage build, `npm ci --omit=dev`, `CMD ["node", "dist/server.js"]`).
+  - ✅ Backend owns its Prisma schema/client (`backend/prisma/schema.prisma`, `backend/src/db.ts`) and no longer imports code from `crm-app`.
+  - ✅ Minimal `compose.yml` defined with a single backend service targeting Loopia MariaDB and explicit feature flags.
+  - ⚠️ `prisma generate` pending in CI because npm registry access for the Prisma CLI returned HTTP 403 during local install.
+
   ## Phase 1 – Backend decoupling & stability
   1. Remove Next from backend:
      - Delete `"next"` dep + `backend/package-lock.json`, rebuild node_modules.

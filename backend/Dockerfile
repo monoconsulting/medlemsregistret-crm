@@ -1,39 +1,37 @@
 # syntax=docker/dockerfile:1.6
 
-FROM node:20.17-alpine AS build
-WORKDIR /app
+# ---------- Build stage ----------
+FROM node:20-alpine AS build
+WORKDIR /app/backend
 
-ENV BACKEND_ENV_FILE=/app/backend/.env.production.backend
+# Copy backend package manifests and install dev dependencies for build
+COPY backend/package.json backend/package-lock.json ./
+RUN npm ci
 
-# Backend dependencies (include dev deps for the build step)
-COPY backend/package.json ./backend/
-RUN cd backend && npm install --include=dev
+# Copy source and config
+COPY backend/tsconfig.json ./
+COPY backend/prisma ./prisma
+COPY backend/src ./src
+COPY backend/.env.production.backend ./
 
-# Copy backend source and configuration
-COPY backend/tsconfig.json ./backend/
-COPY backend/.env.production.backend ./backend/.env.production.backend
-COPY backend/src ./backend/src
+# Build TypeScript sources to dist/
+RUN npm run build
 
-# Copy CRM app code needed for shared imports
-COPY crm-app/lib ./crm-app/lib
-COPY crm-app/server ./crm-app/server
-COPY crm-app/prisma ./crm-app/prisma
+# ---------- Runtime stage ----------
+FROM node:20-alpine AS runtime
+WORKDIR /app/backend
+ENV NODE_ENV=production
 
-# Build backend bundle
-RUN cd backend && npm run build
+# Install production dependencies only
+COPY --from=build /app/backend/package.json ./
+COPY --from=build /app/backend/package-lock.json ./
+RUN npm ci --omit=dev
 
-FROM node:20.17-alpine
-WORKDIR /app
-
-ENV NODE_ENV=production \
-    BACKEND_ENV_FILE=/app/backend/.env.production.backend
-
-COPY --from=build /app/backend/dist ./backend/dist
-COPY --from=build /app/backend/node_modules ./backend/node_modules
-COPY --from=build /app/backend/package.json ./backend/package.json
-COPY --from=build /app/backend/.env.production.backend ./backend/.env.production.backend
-COPY --from=build /app/crm-app ./crm-app
+# Copy compiled application and Prisma schema
+COPY --from=build /app/backend/dist ./dist
+COPY --from=build /app/backend/prisma ./prisma
+COPY --from=build /app/backend/.env.production.backend ./
 
 EXPOSE 4040
 
-CMD ["node", "backend/dist/server.cjs"]
+CMD ["node", "dist/server.js"]

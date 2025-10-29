@@ -2,16 +2,13 @@
  * backend/src/server.ts
  * Minimal Express + tRPC server (decoupled from Next/NextAuth).
  * - No imports from crm-app.
- * - No CSRF/session coupling to frontend.
- * - CORS restricted by ALLOWED_ORIGINS (comma-separated).
+ * - Local session + CSRF handled via Express middleware (no Next coupling).
+ * - CORS restricted by ALLOWED_ORIGINS from env config.
  * - Health endpoints and local tRPC mounted.
  */
 
 import express from 'express';
 import morgan from 'morgan';
-import helmet from 'helmet';
-import cors from 'cors';
-
 import { createExpressMiddleware } from '@trpc/server/adapters/express';
 import { appRouter, createContext } from './trpc';
 
@@ -22,31 +19,36 @@ import { importRouter } from './routes/import';
 import { associationsRouter } from './routes/associations';
 
 import { aiConfig, isAiEnabled } from './config/ai';
+import { corsMiddleware } from './middleware/cors';
+import {
+  attachCsrfToken,
+  cookieParserMiddleware,
+  csrfMiddleware,
+  helmetMiddleware,
+} from './middleware/security';
+import { getSessionFromRequest } from './auth/session';
 
 const app = express();
 
 // ---- Base hardening & server info ----
 app.disable('x-powered-by');
-app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
 app.use(morgan(config.nodeEnv === 'production' ? 'combined' : 'dev'));
 
-// ---- CORS (only allow known frontends) ----
-const allowedOrigins = (process.env.ALLOWED_ORIGINS || '')
-  .split(',')
-  .map(s => s.trim())
-  .filter(Boolean);
-
-app.use(
-  cors({
-    origin(origin, cb) {
-      // allow server-to-server/curl (no Origin header)
-      if (!origin) return cb(null, true);
-      if (allowedOrigins.includes(origin)) return cb(null, true);
-      return cb(new Error('Not allowed by CORS'));
-    },
-    credentials: false, // no cross-site cookies in this simplified setup
-  }),
-);
+// ---- CORS & baseline middleware ----
+app.use(helmetMiddleware);
+app.use(corsMiddleware);
+app.use(cookieParserMiddleware);
+app.use(async (req, _res, next) => {
+  try {
+    req.userSession = await getSessionFromRequest(req);
+  } catch (error) {
+    console.error('[session] failed to resolve session', error);
+    req.userSession = null;
+  }
+  next();
+});
+app.use(csrfMiddleware);
+app.use(attachCsrfToken);
 
 // ---- Body parsing ----
 app.use(express.json({ limit: '10mb' }));

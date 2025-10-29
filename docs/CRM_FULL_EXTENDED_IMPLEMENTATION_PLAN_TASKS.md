@@ -23,18 +23,18 @@
 ## 🧩 TASK LIST — EXECUTION STEPS
 
 ### BLOCK 1 — Backend crash fix and decoupling
-- [ ] **Remove `"next"`** from `backend/package.json`.  
-- [ ] **Delete** `backend/package-lock.json` to allow clean dependency rebuild.  
-- [ ] **Update Dockerfile** in backend:  
+- [x] **Remove `"next"`** from `backend/package.json`.
+- [x] **Delete** `backend/package-lock.json` to allow clean dependency rebuild. _(Replaced with a regenerated lockfile without Next/NextAuth.)_
+- [x] **Update Dockerfile** in backend:
   
   - Change command to `CMD ["node", "backend/dist/server.js"]`.  
   - Use `npm ci --omit=dev` in final stage.  
-- [ ] **Create new file** `backend/src/trpc.ts` that initializes tRPC **without any NextAuth imports**.  
-- [ ] **Copy or port routers** needed for backend to `backend/src/routers`, OR  
-  - Create `crm-app/server/trpc-core.ts` (auth-free) and import only that.  
-- [ ] **Generate a local Prisma client** in backend (`prisma generate`).  
-- [ ] **Remove imports** from `crm-app/lib/db` — backend must use its own DB client.  
-- [ ] **Rebuild container:**  
+- [x] **Create new file** `backend/src/trpc.ts` that initializes tRPC **without any NextAuth imports**.
+- [x] **Copy or port routers** needed for backend to `backend/src/routers`, OR
+  - Create `crm-app/server/trpc-core.ts` (auth-free) and import only that. _(Replaced by standalone backend routers and importer code.)_
+- [ ] **Generate a local Prisma client** in backend (`prisma generate`). _(Pending: requires npm registry access for Prisma CLI.)_
+- [x] **Remove imports** from `crm-app/lib/db` — backend must use its own DB client.
+- [ ] **Rebuild container:**
   ```bash
   docker compose build --no-cache backend
   docker compose up backend
@@ -43,14 +43,14 @@
 
 ### BLOCK 2 — Minimal production environment
 
--  **Simplify compose setup**:
+- [x] **Simplify compose setup**:
 
   - Keep only the backend container.
   - Remove MySQL, Redis, Meilisearch, phpMyAdmin.
 
--  **Connect directly to Loopia MariaDB** via `DATABASE_URL`.
+- [x] **Connect directly to Loopia MariaDB** via `DATABASE_URL`.
 
--  **Add environment variables:**
+- [x] **Add environment variables:**
 
   ```
   ALLOWED_ORIGINS=https://your-loopia-domain.se
@@ -59,9 +59,9 @@
   ALLOW_SHELL_SCRIPTS=false
   ```
 
--  **Add optional `x-api-key` middleware** for write-protected routes (only if needed).
+- [ ] **Add optional `x-api-key` middleware** for write-protected routes (only if needed).
 
--  **Verify** backend health endpoint:
+- [ ] **Verify** backend health endpoint:
    `GET /api/health` → must return `{ ok: true }`.
 
 ------
