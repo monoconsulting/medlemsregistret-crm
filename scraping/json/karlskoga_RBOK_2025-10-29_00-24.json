@@ -1,0 +1,6027 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "ABF Örebro län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.abf.se/orebro-lan/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=ABF%20%C3%96rebro%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info.orebro@abf.se",
+      "phone": "+46102031700",
+      "description": {
+        "free_text": "ABF Örebro län är ett studieförbund som bedriver folkbildning i hela länet. I Karlskoga driver vi Musikhuset i den gamla brandstationen med musikstudio, replokaler, keramik och annan kulturverksamhet. Vi samarbetar med lokala föreningar, kulturskolan och Ungdomens Hus och erbjuder kurser, cirklar och föreningsutbildningar. Vårt mål är att stärka demokratin, kulturlivet och skapa mötesplatser för alla invånare.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Utbildning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jörgen danielsson",
+        "contact_person_role": null,
+        "contact_person_email": "info.orebro@abf.se",
+        "contact_person_phone": "+46102031700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Jörgen Danielsson",
+        "010-2031700",
+        "info.orebro@abf.se",
+        "https://www.abf.se/orebro-lan/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "BIK Karlskoga Ungdom",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [
+        "Nobel"
+      ],
+      "homepage_url": "https://www.bikkarlskogaungdom.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=BIK%20Karlskoga%20Ungdom",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@scandfoil.se",
+      "phone": "+46705604491",
+      "description": {
+        "free_text": "Ishockeyverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ishockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nobel"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Paul sjödin",
+        "contact_person_role": null,
+        "contact_person_email": "info@scandfoil.se",
+        "contact_person_phone": "+46705604491"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Paul Sjödin",
+        "070-560 4491",
+        "info@scandfoil.se",
+        "https://www.bikkarlskogaungdom.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Björkborns GoIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [
+        "Nobel"
+      ],
+      "homepage_url": "https://www.svenskalag.se/bjorkbornsgoif",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Bj%C3%B6rkborns%20GoIF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bgoif@bahnhof.se",
+      "phone": "+46706364887",
+      "description": {
+        "free_text": "Bordtennis träning och tävling för Seniorer/juniorer/Ungdomar/Barn",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nobel"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus adolfsson",
+        "contact_person_role": null,
+        "contact_person_email": "bgoif@bahnhof.se",
+        "contact_person_phone": "+46706364887"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Magnus Adolfsson",
+        "0706364887",
+        "bgoif@bahnhof.se",
+        "https://www.svenskalag.se/bjorkbornsgoif",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "BK Avance",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boxning"
+      ],
+      "categories": [
+        "Karlberg"
+      ],
+      "homepage_url": "http://bkavance.com/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=BK%20Avance",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46702988885",
+      "description": {
+        "free_text": "Boxningsträning för stora och små .Nybörjare ,motion och avancerade",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Boxning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Karlberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael appelbring",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46702988885"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "http://bkavance.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "BK Nobel",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [
+        "Nobel"
+      ],
+      "homepage_url": "https://bknobel.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=BK%20Nobel",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "c_lehmus@hotmail.com",
+      "phone": "+46736433970",
+      "description": {
+        "free_text": "Bowlingklubb med ungdomsverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bowling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nobel"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christopher lehmus",
+        "contact_person_role": null,
+        "contact_person_email": "c_lehmus@hotmail.com",
+        "contact_person_phone": "+46736433970"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Christopher Lehmus",
+        "0736433970",
+        "C_Lehmus@hotmail.com",
+        "Https://bknobel.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Bofors Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.boforsgymnastik.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Bofors%20Gymnastikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Gymnastikförening med verksamhet inom gruppträning, barn & ungdomsgymnastik och truppgymnastik.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna lekberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "https://www.boforsgymnastik.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Bofors Kanotklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Kanot"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.boforskanotklubb.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Bofors%20Kanotklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@boforskanotklubb.se",
+      "phone": "+46704461030",
+      "description": {
+        "free_text": "Klubben för dig som vill paddla kajak och SUP för både ungdomar och vuxna",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kanot"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders jonsson",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@boforskanotklubb.se",
+        "contact_person_phone": "+46704461030"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Anders Jonsson",
+        "0704461030",
+        "styrelsen@boforskanotklubb.se",
+        "http://www.boforskanotklubb.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Bofors Luftvärnsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturhistoria"
+      ],
+      "categories": [
+        "Nobel"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Bofors%20Luftv%C3%A4rnsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningens motto är \"Vårdar historien och verkar i nutiden\", bildades i januari 1938\nSyftet vid bildandet av BOFORS LUFTVÄRNSFÖRENING var: \"att tillvarata intresset rörande luftförsvaret av det vitala BOFORS och KARLSKOGA stad\"\nDagens föreningsverksamhet består av försvarsupplysning, ofta genom uppföljning av tekniska försvarsmaterielprojekt, samt att värna om föreningens och Karlskoga historia.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturhistoria"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nobel"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Bofors Musikkår",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik orkester"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Bofors%20Musikk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "boforsmusikkar@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Musik orkester"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "boforsmusikkar@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "boforsmusikkar@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Bofors Simhopps Klubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Simhopp"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Bofors%20Simhopps%20Klubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mathz@mollis.se",
+      "phone": "+46705155397",
+      "description": {
+        "free_text": "Klubben bedriver Simmhopps verksamhet för barn och ungdom",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Simhopp"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mathz lindberg",
+        "contact_person_role": null,
+        "contact_person_email": "mathz@mollis.se",
+        "contact_person_phone": "+46705155397"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Mathz Lindberg",
+        "070-5155397",
+        "mathz@mollis.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Bofors tennisklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Stråningstorp"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Bofors%20tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johan.brorsson1978@gmail.com",
+      "phone": "+46704461240",
+      "description": {
+        "free_text": "Tennisverksamhet för barn och ungdomar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Stråningstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan brorsson",
+        "contact_person_role": null,
+        "contact_person_email": "johan.brorsson1978@gmail.com",
+        "contact_person_phone": "+46704461240"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Johan Brorsson",
+        "070-4461240",
+        "johan.brorsson1978@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Boule Förening Näset",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boule verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://.www.boulenaset.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Boule%20F%C3%B6rening%20N%C3%A4set",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "boule@boulenaset.se",
+      "phone": "+46704217674",
+      "description": {
+        "free_text": "Bedriver Boule spel vid Näset, Innomhus-Boule på Nickkällan",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Boule verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rolf karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "boule@boulenaset.se",
+        "contact_person_phone": "+46704217674"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Rolf Karlsson",
+        "0704217674",
+        "boule@boulenaset.se",
+        "http://.www.boulenaset.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Brottsofferjouren Örebro län",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://orebrolan.boj.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Brottsofferjouren%20%C3%96rebro%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@orebrolan.boj.se",
+      "phone": "+46104891030",
+      "description": {
+        "free_text": "Brottsofferjouren (BOJ) är en ideell, partipolitiskt och religiöst obunden organisation. Vi erbjuder konfidentiellt, personligt, empatiskt, medmänskligt och kostnadsfritt stöd som ger kraft till brottsutsatta, vittnen och anhöriga till dem, samt anhöriga till gärningspersoner.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingela wistedt",
+        "contact_person_role": null,
+        "contact_person_email": "info@orebrolan.boj.se",
+        "contact_person_phone": "+46104891030"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Ingela Wistedt",
+        "010-489 10 30",
+        "info@orebrolan.boj.se",
+        "https://orebrolan.boj.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Bråtens IK",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Bråten"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Br%C3%A5tens%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ungdoms- och Senior fotboll",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bråten"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Bygdegillet Karlskoga",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Folkdans",
+        "Folkmusik"
+      ],
+      "categories": [],
+      "homepage_url": "http://bygdegillet.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Bygdegillet%20Karlskoga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@bygdegillet.se",
+      "phone": null,
+      "description": {
+        "free_text": "Bygdegillet är Karlskogas folkmusik- och dansförening.\nVi jobbar för att bevara och levandegöra vår sköna dans- och musiktradition.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Folkdans",
+                "Folkmusik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas sönnerstam",
+        "contact_person_role": null,
+        "contact_person_email": "info@bygdegillet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Thomas Sönnerstam",
+        "info@bygdegillet.se",
+        "http://bygdegillet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Bågskytteklubben Fjädern",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Bågskytte"
+      ],
+      "categories": [],
+      "homepage_url": "http://bkfjadern.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=B%C3%A5gskytteklubben%20Fj%C3%A4dern",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@bkfjadern.se",
+      "phone": "+46705168352",
+      "description": {
+        "free_text": "Föreningen ska bedriva bågskytteverksamhet som syftar till att skapa och bredda intresset för sporten.",
+        "sections": [
+          {
+            "title": "Verksamheten ska vara öppen för alla, oavsett ålder och kön. Minimiålder dock 7 år.",
+            "data": {
+              "activities": [
+                "Föreningen ska förfoga över bågskyttematerial som kan lånas ut till nybörjare och medlemmar för såväl tränings- som tävlingsverksamhet."
+              ]
+            }
+          },
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bågskytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rolf larsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@bkfjadern.se",
+        "contact_person_phone": "+46705168352"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Rolf Larsson",
+        "0705168352",
+        "info@bkfjadern.se",
+        "http://bkfjadern.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Floorball club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Floorball"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Floorball%20club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karlskogafbc@gmail.com",
+      "phone": "+46725040003",
+      "description": {
+        "free_text": "Innebandy",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Floorball"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nicklas jonsson",
+        "contact_person_role": null,
+        "contact_person_email": "karlskogafbc@gmail.com",
+        "contact_person_phone": "+46725040003"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Nicklas Jonsson",
+        "0725040003",
+        "karlskogafbc@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Funktionsrätt Karlskoga-Degerfors",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [
+        "Skranta"
+      ],
+      "homepage_url": "https://mockelnforeningarna.se/funktionsratt/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Funktionsr%C3%A4tt%20Karlskoga-Degerfors",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "funktionsratt.kga-dfs@outlook.com",
+      "phone": "+46707348380",
+      "description": {
+        "free_text": "Vi är en Paraplyorganisation inom funktionshinderrörelsen. Vi arbetar intressepolitiskt i samverkan med funktionshinderorganisationer inom Karlskoga och Degerfors Kommun. Vi har även huvudansvaret för år föreningslokal på Skogsrundan.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skranta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Petra nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "funktionsratt.kga-dfs@outlook.com",
+        "contact_person_phone": "+46707348380"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Petra Nilsson",
+        "0707348380",
+        "funktionsratt.kga-dfs@outlook.com",
+        "https://mockelnforeningarna.se/funktionsratt/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Föreningen Barnens dag Kedjeåsen",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Barnverksamhet"
+      ],
+      "categories": [
+        "Granbergsdal"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=F%C3%B6reningen%20Barnens%20dag%20Kedje%C3%A5sen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "barnensdagkedjeasen@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi anordnar Barnens dag en gång om året i Kedjeåsen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barnverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Granbergsdal"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "barnensdagkedjeasen@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Malin Eriksson",
+        "barnensdagkedjeasen@outlook.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Granbergsdals byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturhistoria"
+      ],
+      "categories": [
+        "Granbergsdal"
+      ],
+      "homepage_url": "http://www.granbergsdalsbyalag.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Granbergsdals%20byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kmv366@gmail.com",
+      "phone": "+46702088651",
+      "description": {
+        "free_text": "Vi i byalaget i Granbergsdal, ordnar trevliga, offentlig verksamhet i bygden. Sommartid är verksamheten vid hyttan och vintertid i Solhem eller skolan. Vi försöker att ordna verksamhet för en så stor målgrupp som möjligt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturhistoria"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Granbergsdal"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin varg",
+        "contact_person_role": null,
+        "contact_person_email": "kmv366@gmail.com",
+        "contact_person_phone": "+46702088651"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Karin Varg",
+        "070-2088651",
+        "kmv366@gmail.com",
+        "http://www.granbergsdalsbyalag.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Granbergsdals IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Skidverksamhet"
+      ],
+      "categories": [
+        "Granbergsdal"
+      ],
+      "homepage_url": "http://www.granbergsdalsif.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Granbergsdals%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "chreri04@gmail.com",
+      "phone": "+46725712224",
+      "description": {
+        "free_text": "Aktivitetsdagar på lördagar vid Solvallen höst-vinter och vår.\nTerrängtävlingar, vår och höst.\nTalangjakter på skidor, vinter.\nHyttloppet, löpartävling för ungdomar och vuxna, sommaren, samarrangemang med Byalaget.\nGå lunka löp, våren.\nSköter om elljusspåret, röjer sly och slår gräs 2 gånger per år.\nKlipper fotbollsplanen och alla grönytor 2 gånger per vecka.\nUpplåter fotbollsplanen och löpspår till skolans aktiviteter.\nLampbyte på elljusspåret från kvicksilver till ledbelysning, ett antal per år.\nVi söker aktivt efter ledare till fotbollsverksamheten.\nUnderhåller och gör förbättringar på våra fastigheter.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Skidverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Granbergsdal"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer ericsson",
+        "contact_person_role": null,
+        "contact_person_email": "chreri04@gmail.com",
+        "contact_person_phone": "+46725712224"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Christer Ericsson",
+        "0725712224",
+        "chreri04@gmail.com",
+        "http://www.granbergsdalsif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Hemlösa Tassar",
+      "org_number": null,
+      "types": [
+        "Djurförening"
+      ],
+      "activities": [
+        "Djurhållning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hemlosatassar.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Heml%C3%B6sa%20Tassar",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hemlosatassar@hotmail.com",
+      "phone": "+46706741700",
+      "description": {
+        "free_text": "Hemlösa tassar är en grupp av ideellt arbetande kattvänner som verkar i Karlskoga med omnejd. Vi hjälper hemlösa katter till ett bättre liv. De katter som vi tar in placeras i jourhem då vi inte har något fysiskt katthem. Vi strävar efter att alla katter ska kastrerar/steriliseras, sjuka katter ska ges veterinärvård.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Djurhållning"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linda",
+        "contact_person_role": null,
+        "contact_person_email": "hemlosatassar@hotmail.com",
+        "contact_person_phone": "+46706741700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Linda",
+        "0706741700",
+        "hemlosatassar@hotmail.com",
+        "http://www.hemlosatassar.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Islamisk kulturell förening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Islamisk%20kulturell%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jamaal.adan@hotmail.com",
+      "phone": "+46727788770",
+      "description": {
+        "free_text": "Föreningen har inte bara fotboll utan även verksamheter som begravning, bröllop mm.\nMötesplats",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "jamaal.adan@hotmail.com",
+        "contact_person_phone": "+46727788770"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "jamaal.adan@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "jamaal.adan@hotmail.com",
+        "0727788770",
+        "jamaal.adan@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Junis Karlskoga",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Barnverksamhet"
+      ],
+      "categories": [
+        "Stråningstorp"
+      ],
+      "homepage_url": "https://www.junis.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Junis%20Karlskoga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "junis.karlskoga@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": "Nykterhetsförening för barn mellen 6-15år",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barnverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Stråningstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "junis.karlskoga@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "junis.karlskoga@telia.com",
+        "https://www.junis.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlsdals Byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Barnverksamhet",
+        "Kulturhistoria"
+      ],
+      "categories": [
+        "Granbergsdal"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlsdals%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "elisabeth.karlsdal@gmail.com",
+      "phone": "+46706058035",
+      "description": {
+        "free_text": "Byalag i Karlsdal",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barnverksamhet",
+                "Kulturhistoria"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Granbergsdal"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elisabeth larsson",
+        "contact_person_role": null,
+        "contact_person_email": "elisabeth.karlsdal@gmail.com",
+        "contact_person_phone": "+46706058035"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Elisabeth Larsson",
+        "070 605 80 35",
+        "elisabeth.karlsdal@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Agility Sports Kennelklubb",
+      "org_number": null,
+      "types": [
+        "Djurförening"
+      ],
+      "activities": [
+        "Hundsport"
+      ],
+      "categories": [],
+      "homepage_url": "https://kaskagility.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Agility%20Sports%20Kennelklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@kaskagility.se",
+      "phone": "+46702559817",
+      "description": {
+        "free_text": "Aktiv Hundklubb som arrangerar kurser, tävlingar, träningar och tema träffar. Vi har ett ökande medlemsantal under flera år. Vi har en fin anläggningsyta som är mycket uppskattad av medlemmar. Fin klubb som värnar om sina medlemmar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hundsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marianne tegnelund",
+        "contact_person_role": null,
+        "contact_person_email": "info@kaskagility.se",
+        "contact_person_phone": "+46702559817"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Marianne Tegnelund",
+        "0702559817",
+        "info@kaskagility.se",
+        "https://kaskagility.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [
+        "Stråningstorp"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Badmintonklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "infokgabmk@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Badminton",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Stråningstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik ahlbom",
+        "contact_person_role": null,
+        "contact_person_email": "infokgabmk@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Erik Ahlbom",
+        "infokgabmk@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Baseball Bats klubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Baseboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://facebook.com/KarlskogaBats/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Baseball%20Bats%20klubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Baseboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jesper joelsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Jesper Joelsson",
+        "https://facebook.com/KarlskogaBats/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Bergslags Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturhistoria"
+      ],
+      "categories": [],
+      "homepage_url": "http://karlskoga/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Bergslags%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karlskogahembygd@gmail.com",
+      "phone": "+46760052480",
+      "description": {
+        "free_text": "Vi är en lokal hembygdsförening som tillvaratar och vårdar Karlskoga historia , dåtid.nutid och framtid",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturhistoria"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sif eklund",
+        "contact_person_role": null,
+        "contact_person_email": "karlskogahembygd@gmail.com",
+        "contact_person_phone": "+46760052480"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Sif Eklund",
+        "076-0052480",
+        "karlskogahembygd@gmail.com",
+        "http://Karlskoga Bergslags hembygdsförening",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Brottarklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Brottning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.laget.se/karlskogabrottarklubb",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Brottarklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kgabrottarklubb@hotmail.com",
+      "phone": "+46725726814",
+      "description": {
+        "free_text": "Brottning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Brottning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Simon gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "kgabrottarklubb@hotmail.com",
+        "contact_person_phone": "+46725726814"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Simon Gustafsson",
+        "072-5726814",
+        "kgabrottarklubb@hotmail.com",
+        "http://www.laget.se/karlskogabrottarklubb",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Djurförening"
+      ],
+      "activities": [
+        "Hundsport"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.karlskogabhk.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20brukshundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@karlskogabhk.se",
+      "phone": null,
+      "description": {
+        "free_text": "Ideell förening som erbjuder kurser, utbildningar och aktiviteter för hundägare. Utbildar även förare och hundar till tjänst inom försvar, räddningstjänst och samhällsnytta.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hundsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna hultkrantz",
+        "contact_person_role": null,
+        "contact_person_email": "info@karlskogabhk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Anna Hultkrantz",
+        "info@karlskogabhk.se",
+        "https://www.karlskogabhk.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Cyklisterna",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Cykelsport"
+      ],
+      "categories": [
+        "Nobel"
+      ],
+      "homepage_url": "http://karlskogacyklisterna.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Cyklisterna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karlskogacyklisterna@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Cykelsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nobel"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elisabeth bjurenhed",
+        "contact_person_role": null,
+        "contact_person_email": "karlskogacyklisterna@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Elisabeth Bjurenhed",
+        "karlskogacyklisterna@gmail.com",
+        "http://karlskogacyklisterna.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Dansförening",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [],
+      "homepage_url": "https://mockelnforeningarna.se/kdf/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Dansf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karlskogadansforening@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Dansförening för barn och ungdomar som arrangerar danstävlingar och förenlig verksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria sohlberg",
+        "contact_person_role": null,
+        "contact_person_email": "karlskogadansforening@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Maria Sohlberg",
+        "karlskogadansforening@gmail.com",
+        "https://mockelnforeningarna.se/kdf/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Degerfors Frivilliga Samhällsarbetare",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://rfs.se/om-rfs/foreningar/orebro-lan/karlskoga-degerfors-frivilliga-samhallsarbetare/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Degerfors%20Frivilliga%20Samh%C3%A4llsarbetare",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "https://rfs.se/om-rfs/foreningar/orebro-lan/karlskoga-degerfors-frivilliga-samhallsarbetare/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Degerfors Grafikverkstad",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Fotografering",
+        "Konst",
+        "Studie/kursverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Degerfors%20Grafikverkstad",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karlskoga.grafikverkstad@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Grafisk verkstad för konstnärer och konstintresserade i Karlskoga-Degerforsregionen",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotografering",
+                "Konst",
+                "Studie/kursverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "karlskoga.grafikverkstad@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "karlskoga.grafikverkstad@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Enduroklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.karlskogaek.com/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Enduroklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Barn & Ungdomsverksamhet inom motorsporten Enduro.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Motorsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel berg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Daniel Berg",
+        "http://www.karlskogaek.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Friidrott",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [
+        "Nobel"
+      ],
+      "homepage_url": "https://karlskogafriidrott.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Friidrott",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@karlskogfriidrott.se",
+      "phone": null,
+      "description": {
+        "free_text": "Klubbens huvudsakliga verksamhet omfattar arenafriidrott för ungdomar på bredd- och elitnivå. Målsättningen är att satsa på breddverksamhet i unga år för att på sikt få fram ungdomar som kan hävda sig bland svensk ungdomselit. Det ligger även i klubbens ambition att stimulera och utveckla de ungdomar som nått ungdomselit så långt egna och kommunens resurser räcker till eller med andra åtgärder och medel hjälpa den enskilde aktive till personlig utveckling.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nobel"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Torbjörn östin",
+        "contact_person_role": null,
+        "contact_person_email": "info@karlskogfriidrott.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Torbjörn Östin",
+        "info@karlskogfriidrott.se",
+        "https://karlskogafriidrott.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Golfklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.karlskogagk.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@karlskogagk.se",
+      "phone": "+46586728190",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Golf"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marcus grimstad",
+        "contact_person_role": null,
+        "contact_person_email": "info@karlskogagk.se",
+        "contact_person_phone": "+46586728190"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Marcus Grimstad",
+        "0586-72 81 90",
+        "info@karlskogagk.se",
+        "http://www.karlskogagk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Handbollklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Handbollklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karlskogahk@gmail.com",
+      "phone": "+46706648875",
+      "description": {
+        "free_text": "Vi är en barn och ungdomsförening som bedriver handbolls träning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "karlskogahk@gmail.com",
+        "contact_person_phone": "+46706648875"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Mattias Karlsson",
+        "0706648875",
+        "karlskogahk@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Hästsportklubb",
+      "org_number": null,
+      "types": [
+        "Djurförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://karlskogahsk.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20H%C3%A4stsportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@karlskogahsk.se",
+      "phone": "+46738306809",
+      "description": {
+        "free_text": "Hästsportklubb som vänder sig till alla nivåer och inriktningar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina andersson",
+        "contact_person_role": null,
+        "contact_person_email": "info@karlskogahsk.se",
+        "contact_person_phone": "+46738306809"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Katarina Andersson",
+        "0738306809",
+        "info@karlskogahsk.se",
+        "http://karlskogahsk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Idrottshistoriska Sällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Idrottshistoria"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.kivkarlskoga.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Idrottshistoriska%20S%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "curtan45@gmail.com",
+      "phone": "+46706688992",
+      "description": {
+        "free_text": "Att nå ut till allmänheten om historiska idrottshändelser. Bevara foton och idrottsredskap. Föreningen har ett stort arkiv och museum med foton/idrottsredskap mm.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Idrottshistoria"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Curt- ola fridén",
+        "contact_person_role": null,
+        "contact_person_email": "curtan45@gmail.com",
+        "contact_person_phone": "+46706688992"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Curt- Ola Fridén",
+        "0706688992",
+        "curtan45@gmail.com",
+        "https://www.kivkarlskoga.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Innebandy Förening",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Karlberg"
+      ],
+      "homepage_url": "https://www.karlskogainnebandy.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Innebandy%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@karlskogainnebandy.se",
+      "phone": null,
+      "description": {
+        "free_text": "Innebandyförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Karlberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@karlskogainnebandy.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "kansli@karlskogainnebandy.se",
+        "https://www.karlskogainnebandy.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Kammarkör",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Körsång"
+      ],
+      "categories": [],
+      "homepage_url": "https://karlskogakammarkor.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Kammark%C3%B6r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "13malin@gmail.com",
+      "phone": "+4672203913013",
+      "description": {
+        "free_text": "Körsång för blandad kör, vuxna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Körsång"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin stäring",
+        "contact_person_role": null,
+        "contact_person_email": "13malin@gmail.com",
+        "contact_person_phone": "+4672203913013"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Malin Stäring",
+        "0722039130",
+        "13malin@gmail.com",
+        "https://karlskogakammarkor.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Karateklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Karateklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Karate"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga konsertförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik orkester"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.karlskogakonsertforening.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20konsertf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "elainelindblom0@gmail.com",
+      "phone": "+46706346585",
+      "description": {
+        "free_text": "Vi erbjuder ett brett utbud av musikevenemang med hög konstnärlig kvalitet. Vårt uppdrag är att värna och erbjuda klassisk symfonisk musik, kammarmusik, världsmusik/folkmusik, jazz samt musik speciellt riktad mot barn och unga.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Musik orkester"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elaine lindblom",
+        "contact_person_role": null,
+        "contact_person_email": "elainelindblom0@gmail.com",
+        "contact_person_phone": "+46706346585"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Elaine Lindblom",
+        "0706346585",
+        "elainelindblom0@gmail.com",
+        "http://www.karlskogakonsertforening.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Modellflygklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Modellflyg"
+      ],
+      "categories": [],
+      "homepage_url": "http://kmfk.org/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Modellflygklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vår förening utövar modellflyg i alla dess former.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Modellflyg"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "http://kmfk.org",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Motorflygklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Motorflyg"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.karlskogamfk.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Motorflygklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@karlskogamfk.se",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen driver sportflygverksamhet på Karlskoga flygplats.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Motorflyg"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@karlskogamfk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "info@karlskogamfk.se",
+        "https://www.karlskogamfk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Motorförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [],
+      "homepage_url": "https://karlskogamotorforening.com/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Motorf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Motorsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "https://karlskogamotorforening.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Naturskyddsförening",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Natur"
+      ],
+      "categories": [],
+      "homepage_url": "https://karlskoga.naturskyddsforeningen.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Naturskyddsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "evalena.christensen.knf@gmail.com",
+      "phone": "+46738289342",
+      "description": {
+        "free_text": "Ideell förening för alla åldersgrupper, med inriktning natur och miljö. Arrangerar guidade naturupplevelser, kurser, studiecirklar och föreläsningar. Har speciell natursnoksverksamhet för barn under helger och skollov.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Natur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva-lena christensen",
+        "contact_person_role": null,
+        "contact_person_email": "evalena.christensen.knf@gmail.com",
+        "contact_person_phone": "+46738289342"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Eva-Lena Christensen",
+        "073-828 93 42",
+        "evalena.christensen.knf@gmail.com",
+        "https://karlskoga.naturskyddsforeningen.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga ridklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": "https://karlskogaridklubb.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20ridklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ridskolan@karlskogaridklubb.se",
+      "phone": "+46724457756",
+      "description": {
+        "free_text": "Karlskoga ridklubb är en ideell förening som ger möjlighet till barn, ungdomar och vuxna att utvecklas inom hästsporten. Vi har utbildad personal och även ett stort antal ideella som hjälper till.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ridskolan@karlskogaridklubb.se",
+        "contact_person_phone": "+46724457756"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "072-4457756",
+        "ridskolan@karlskogaridklubb.se",
+        "https://karlskogaridklubb.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Rödakorskrets",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20R%C3%B6dakorskrets",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Hjälp- och socialorganisation. Bedriver en secondhandbutik i Karlskoga för att få in pengar som skickas till huvudkontoret f.v.b till behövande",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga segelsällskap",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Segling"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/100057671408929",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20segels%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karlskogasegling@gmail.com",
+      "phone": "+46763934450",
+      "description": {
+        "free_text": "Segelklubb i Karlskoga med klubbhus på Näset. Där har vi även brygga och segelbåtar för medlemmar att använda. Vi anordnar varje år segelskola för barn och ungdomar med målsättning att hålla seglingen levande och låta alla få uppleva segling.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Segling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gustav tavander",
+        "contact_person_role": null,
+        "contact_person_email": "karlskogasegling@gmail.com",
+        "contact_person_phone": "+46763934450"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Gustav Tavander",
+        "0763934450",
+        "karlskogasegling@gmail.com",
+        "https://www.facebook.com/100057671408929",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Simförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [
+        "Bregården"
+      ],
+      "homepage_url": "https://www.karlskogasf.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Simf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@karlskogasf.se",
+      "phone": "+46586777240",
+      "description": {
+        "free_text": "Karlskoga Simförening erbjuder en bredd av simidrott för alla åldrar – från de yngsta i Minisim till vuxna motionärer och elitsatsande tävlingssimmare.\nHos oss står glädje, trygghet och utveckling i centrum.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bregården"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Simon eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "info@karlskogasf.se",
+        "contact_person_phone": "+46586777240"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Simon Eriksson",
+        "0586-777240",
+        "info@karlskogasf.se",
+        "https://www.karlskogasf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Skateboardförening",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Skateboard"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.mockelnforeningarna.se/rampaborg",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Skateboardf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skateboard"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "https://www.mockelnforeningarna.se/rampaborg",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Slot Racing Club KSRC",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Slotracing"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/groups/448457328526910",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Slot%20Racing%20Club%20KSRC",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bjorn.a.lundmark@gmail.com",
+      "phone": "+46725797929",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Slotracing"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn lundmark",
+        "contact_person_role": null,
+        "contact_person_email": "bjorn.a.lundmark@gmail.com",
+        "contact_person_phone": "+46725797929"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Björn Lundmark",
+        "0725797929",
+        "bjorn.a.lundmark@gmail.com",
+        "https://www.facebook.com/groups/448457328526910",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Sportdykarklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Sportdykning och fridykning"
+      ],
+      "categories": [],
+      "homepage_url": "https://karlskogasdk.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Sportdykarklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ulferik82@gmail.com",
+      "phone": "+46709525044",
+      "description": {
+        "free_text": "Karlskoga Sportdykarklubb bedriver verksamhet inom dykning, fridykning, undervattensrugby, undervattensfotografering mm. Allt under vatten.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Sportdykning och fridykning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulf eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "ulferik82@gmail.com",
+        "contact_person_phone": "+46709525044"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Ulf Eriksson",
+        "0709525044",
+        "ulferik82@gmail.com",
+        "https://karlskogasdk.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Sportklubb",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Stråningstorp"
+      ],
+      "homepage_url": "https://karlskogask.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20Sportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "liselotte.eriksson@karlskoga.se",
+      "phone": "+46705784554",
+      "description": {
+        "free_text": "Fotbollsförening med lag för flickor och pojkar från unga till A-lag för damer och herrar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Stråningstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Liselotte eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "liselotte.eriksson@karlskoga.se",
+        "contact_person_phone": "+46705784554"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Liselotte Eriksson",
+        "0705784554",
+        "liselotte.eriksson@karlskoga.se",
+        "https://karlskogask.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Västra Atletklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Styrkelyft"
+      ],
+      "categories": [
+        "Nobel"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20V%C3%A4stra%20Atletklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "dgunnars@outlook.com",
+      "phone": "+46764962952",
+      "description": {
+        "free_text": "Förening för tävling och träning i styrkelyft.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Styrkelyft"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nobel"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan östlund",
+        "contact_person_role": null,
+        "contact_person_email": "dgunnars@outlook.com",
+        "contact_person_phone": "+46764962952"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Jan Östlund",
+        "076 496 29 52",
+        "dgunnars@outlook.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga Östra PRO",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärs verksamhet"
+      ],
+      "categories": [
+        "Sandviken"
+      ],
+      "homepage_url": "http://www.pro.se/karlskoga-ostra",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga%20%C3%96stra%20PRO",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "conyn@live.se",
+      "phone": "+46730691137",
+      "description": {
+        "free_text": "Pensionärsförening som anordnar aktiviteter till pensionärer",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Pensionärs verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Sandviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Conny nyblom",
+        "contact_person_role": null,
+        "contact_person_email": "conyn@live.se",
+        "contact_person_phone": "+46730691137"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Conny Nyblom",
+        "073-0691137",
+        "conyn@live.se",
+        "http://www.pro.se/karlskoga-ostra",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Karlskoga-Degerfors Inner Wheel Club",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Karlskoga-Degerfors%20Inner%20Wheel%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Internationell kvinnoförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "KB Karlskoga FF",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Nobel"
+      ],
+      "homepage_url": "https://www.svenskalag.se/kbkarlskoga",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=KB%20Karlskoga%20FF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@kbkarlskoga.se",
+      "phone": "+46734463403",
+      "description": {
+        "free_text": "Fotbollsförening med verksamhet för ungdom, senior och pensionär.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nobel"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@kbkarlskoga.se",
+        "contact_person_phone": "+46734463403"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Thomas Karlsson",
+        "0734463403",
+        "kansli@kbkarlskoga.se",
+        "https://www.svenskalag.se/kbkarlskoga",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "KFUM Karlskoga",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [],
+      "homepage_url": "https://kfumkarlskoga.com/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=KFUM%20Karlskoga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@kfumkarlskoga.com",
+      "phone": null,
+      "description": {
+        "free_text": "Basketverksamhet för barn, ungdom och senior.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@kfumkarlskoga.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "info@kfumkarlskoga.com",
+        "https://kfumkarlskoga.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Konst Runt Möckeln",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Konst Målning"
+      ],
+      "categories": [],
+      "homepage_url": "https://konstruntmockeln.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Konst%20Runt%20M%C3%B6ckeln",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "shotter61@hotmail.com",
+      "phone": "+46707501123",
+      "description": {
+        "free_text": "Anordna konstrunda runt Möckeln sista helgen i september varje år.\nSamarbete mellan konstnärer och konsthantverkare Karlskoga - Degerfors",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konst Målning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sinikka holma",
+        "contact_person_role": null,
+        "contact_person_email": "shotter61@hotmail.com",
+        "contact_person_phone": "+46707501123"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Sinikka Holma",
+        "0707501123",
+        "shotter61@hotmail.com",
+        "httpS://konstruntmockeln.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Kontaktservice",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [
+        "Botorp"
+      ],
+      "homepage_url": "https://mockelnforeningarna.se/kontaktservice/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Kontaktservice",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Botorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "https://mockelnforeningarna.se/kontaktservice/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Kvinnoföreningen mot våld i Karlskoga/Degerfors",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [
+        "Skranta"
+      ],
+      "homepage_url": "https://kvinnojourenmaggan.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Kvinnof%C3%B6reningen%20mot%20v%C3%A5ld%20i%20Karlskoga%2FDegerfors",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "cecilia@jourenmaggan.se",
+      "phone": "+46737662213",
+      "description": {
+        "free_text": "Föreningen arbetar mot mäns våld mot kvinnor, tjejer och barn. Driver utåtriktad verksamhet, stödverksamhet och skyddat boende.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skranta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Cecilia heikkinen",
+        "contact_person_role": null,
+        "contact_person_email": "cecilia@jourenmaggan.se",
+        "contact_person_phone": "+46737662213"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Cecilia Heikkinen",
+        "0737662213",
+        "cecilia@jourenmaggan.se",
+        "https://kvinnojourenmaggan.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Kördelux vänner",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://kordelux.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=K%C3%B6rdelux%20v%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "backalilja@gmail.com",
+      "phone": "+46728545511",
+      "description": {
+        "free_text": "Stötta Kördelux med att arrangera konserter, mycket idéellt jobb och att söka pengar till verksamhet och konserter.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna-lena lilja",
+        "contact_person_role": null,
+        "contact_person_email": "backalilja@gmail.com",
+        "contact_person_phone": "+46728545511"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Anna-Lena Lilja",
+        "0728545511",
+        "backalilja@gmail.com",
+        "https://kordelux.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Loud Dance Company",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Loud%20Dance%20Company",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Loud dance company är ett danskompani som grundades år 2010. Vårt främsta mål är att sprida dansglädje i och runt Karlskoga!\nVi vill att dansen ska vara tillgänglig för alla och hoppas att ni blir lika glada av vår dans som vi blir!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Medborgarskolan Mitt",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studie/kursverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Medborgarskolan%20Mitt",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Studie/kursverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Moderata ungdomsförbundet Karlskoga",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Politik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Moderata%20ungdomsf%C3%B6rbundet%20Karlskoga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Politik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "NBV Öst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studie/kursverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.nbv.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=NBV%20%C3%96st",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ost@nbv.se",
+      "phone": "+46196708300",
+      "description": {
+        "free_text": "Nykterhetsrörelsens bildningsverksamhet, NBV, är landets äldsta studieförbund med 130 års erfarenhet av folkbildning. På NBV arbetar vi med frågor som handlar om alkohol och andra droger, folkhälsa och integration. NBV finns över hela landet och vi erbjuder studiecirklar, kurser, föreläsningar och kulturarrangemang.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Studie/kursverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Oscar ekelund",
+        "contact_person_role": null,
+        "contact_person_email": "ost@nbv.se",
+        "contact_person_phone": "+46196708300"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Oscar Ekelund",
+        "019-670 83 00",
+        "ost@nbv.se",
+        "https://www.nbv.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Nolsokna Byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://nolsokna.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Nolsokna%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nolsokna.byalag@gmail.com",
+      "phone": "+46703505882",
+      "description": {
+        "free_text": "Föreningen finns till på bygdens initiativ och ska bidra till lokal utveckling där de verkar. Genom\nkulturverksamhet och andra insatser ska föreningen erbjuda meningsfulla aktiviteter för att stärka\nbygdens attraktionskraft.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sören frisk",
+        "contact_person_role": null,
+        "contact_person_email": "nolsokna.byalag@gmail.com",
+        "contact_person_phone": "+46703505882"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sören Frisk",
+        "0703505882",
+        "nolsokna.byalag@gmail.com",
+        "https://nolsokna.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "OK Djerf",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.okdjerf.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=OK%20Djerf",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@okdjerf.se",
+      "phone": "+46702627366",
+      "description": {
+        "free_text": "Idrottsförening med inriktning på orientering.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Orientering"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel brohede",
+        "contact_person_role": null,
+        "contact_person_email": "info@okdjerf.se",
+        "contact_person_phone": "+46702627366"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Daniel Brohede",
+        "070-2627366",
+        "info@okdjerf.se",
+        "https://www.okdjerf.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "PBK Strike",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": "https://pbkstrike.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=PBK%20Strike",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bowling@pbkstrike.se",
+      "phone": null,
+      "description": {
+        "free_text": "Pensionärsbowlingklubb i Karlskoga",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bowling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bertil forsebrink",
+        "contact_person_role": null,
+        "contact_person_email": "bowling@pbkstrike.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Bertil Forsebrink",
+        "bowling@pbkstrike.se",
+        "https://pbkstrike.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "PRO Karlskoga Centrala",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärs verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=PRO%20Karlskoga%20Centrala",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46700933808",
+      "description": {
+        "free_text": "PRO ska ta tillvara på pensionärernas intresse",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Pensionärs verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46700933808"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "karlskoga,centrala@pro,se",
+        "0700933808",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "RF-SISU Värmland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studie/kursverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.rfsisu.se/distrikt/varmland",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=RF-SISU%20V%C3%A4rmland",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kristin.adamsson@rfsisu.se",
+      "phone": "+46104764745",
+      "description": {
+        "free_text": "Studieförbundet SISU Idrottsutbildarna Värmland stöttar, bildar, utbildar och finns tillgängliga som bollplank i olika frågor till idrottsföreningar i alla värmländska kommuner.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Studie/kursverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kristin adamsson",
+        "contact_person_role": null,
+        "contact_person_email": "kristin.adamsson@rfsisu.se",
+        "contact_person_phone": "+46104764745"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Kristin Adamsson",
+        "010-476 47 45",
+        "kristin.adamsson@rfsisu.se",
+        "https://www.rfsisu.se/distrikt/varmland",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "RSMH Karlskoga",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://.mockelnforeningarna.se/rsmh",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=RSMH%20Karlskoga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "rsmh.kga@telia.com",
+      "phone": "+46703001782",
+      "description": {
+        "free_text": "Kamratförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pia lammassaari",
+        "contact_person_role": null,
+        "contact_person_email": "rsmh.kga@telia.com",
+        "contact_person_phone": "+46703001782"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Pia Lammassaari",
+        "0703001782",
+        "rsmh.kga@telia.com",
+        "https://.mockelnforeningarna.se/rsmh",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Rädda Barnens Lokalförening Karlskoga-Degerfors",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.raddabarnen.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=R%C3%A4dda%20Barnens%20Lokalf%C3%B6rening%20Karlskoga-Degerfors",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "christer.nygren@telia.com",
+      "phone": "+46730659984",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kristina nygren",
+        "contact_person_role": null,
+        "contact_person_email": "christer.nygren@telia.com",
+        "contact_person_phone": "+46730659984"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kristina Nygren",
+        "073-0659984",
+        "christer.nygren@telia.com",
+        "https://www.raddabarnen.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Rävåsens IK Karlskoga",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.rikkarlskoga.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=R%C3%A4v%C3%A5sens%20IK%20Karlskoga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@rikkarlskoga.se",
+      "phone": "+46707109307",
+      "description": {
+        "free_text": "Fotbollsförening med fokus på dam-, flickfotboll",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Frida ståhl",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@rikkarlskoga.se",
+        "contact_person_phone": "+46707109307"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Frida Ståhl",
+        "070-7109307",
+        "kansli@rikkarlskoga.se",
+        "http://www.rikkarlskoga.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Rävåskyrkans unga - en del av Equmenia",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Scoutverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.ravaskyrkan.se/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=R%C3%A4v%C3%A5skyrkans%20unga%20-%20en%20del%20av%20Equmenia",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pastor@ravaskyrkan.se",
+      "phone": "+46705497345",
+      "description": {
+        "free_text": "Barn- och ungdomsförening på kristen grund, alla välkomna oavsett vad man tror eller inte tror. Föreningen kan ha olika typer av grupper. Just nu endast en grupp igång, lördagsscout. Scoutverksamhet för barn, tillsammans med vuxen deltagare, tonåringar och vuxna. Träffas ungefär 1 ggr/månad, lördagar kl 10-13. Uteaktiviteter av olika slag, alltid matlagning och måltid tillsammans ute vid varje samling, någon form av bibelberättelse.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scoutverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna-lena hårsmar",
+        "contact_person_role": null,
+        "contact_person_email": "pastor@ravaskyrkan.se",
+        "contact_person_phone": "+46705497345"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Anna-Lena Hårsmar",
+        "0705497345",
+        "pastor@ravaskyrkan.se",
+        "http://www.ravaskyrkan.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Studieförbundet Bilda Svealand",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.bilda.nu/",
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20Bilda%20Svealand",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "andreas.wistrand@bilda.nu",
+      "phone": "+46196015353",
+      "description": {
+        "free_text": "Bilda är ett studieförbund för möten mellan människor. Med kultur och bildning i olika former vill vi bidra till att möten uppstår och nya perspektiv skapas.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Utbildning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andreas wistrand",
+        "contact_person_role": null,
+        "contact_person_email": "andreas.wistrand@bilda.nu",
+        "contact_person_phone": "+46196015353"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Andreas Wistrand",
+        "019-6015353",
+        "andreas.wistrand@bilda.nu",
+        "http://www.bilda.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Sällskapet Länkarna",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Stödjande verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=S%C3%A4llskapet%20L%C3%A4nkarna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "dfsl.karlskoga@gmail.com",
+      "phone": "+46730830313",
+      "description": {
+        "free_text": "Kamratstödjande verksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Stödjande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pia johansson",
+        "contact_person_role": null,
+        "contact_person_email": "dfsl.karlskoga@gmail.com",
+        "contact_person_phone": "+46730830313"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Pia Johansson",
+        "073-083 03 13",
+        "dfsl.karlskoga@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Karlskoga",
+    "scrape_run_id": "4c93e98e-ddae-42f9-8976-aa3adf639877",
+    "scraped_at": "2025-10-28T23:24:15.196Z",
+    "association": {
+      "name": "Värmlands Bergslags Båtförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Båt verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://karlskoga.rbok.se/foreningsregister?association=V%C3%A4rmlands%20Bergslags%20B%C3%A5tf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "biggankarlsson48@gmail.com",
+      "phone": "+46735086826",
+      "description": {
+        "free_text": "Utmärkning av farleden Karlskoga-Filipstad \"Bergslagskanalen\"",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Båt verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgit karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "biggankarlsson48@gmail.com",
+        "contact_person_phone": "+46735086826"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Birgit Karlsson",
+        "073-5086826",
+        "biggankarlsson48@gmail.com",
+        "Stäng"
+      ]
+    }
+  }
+]

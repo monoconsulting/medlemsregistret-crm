@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsup src/server.ts --format cjs --sourcemap --no-dts --no-minify --out-dir dist --clean --external ../crm-app/server/routers/_app --external ../crm-app/lib/db --external ../crm-app/lib/importer --external ../../crm-app/lib/db --external ../../crm-app/lib/importer",
+    "build": "tsup src/server.ts --format cjs --sourcemap --no-dts --no-minify --out-dir dist --clean --env.BACKEND_MONOREPO=1",
     "start": "node dist/server.js",
     "prisma:verify": "tsx src/tools/prisma-verify.ts"
   },
@@ -20,10 +20,15 @@
     "express": "^4.19.2",
     "express-async-errors": "^3.1.1",
     "helmet": "^8.0.0",
+    "superjson": "^2.2.1",
+    "date-fns": "^4.1.0",
+    "copy-anything": "^3.0.3",
+    "next-auth": "^5.0.0-beta.29",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
-    "zod": "^3.23.8"
+    "zod": "^3.23.8",
+    "next": "15.1.6"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",

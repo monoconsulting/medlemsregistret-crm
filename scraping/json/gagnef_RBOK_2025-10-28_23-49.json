@@ -1,0 +1,2748 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Aktivitetshuset",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Föreläsning",
+        "Hantverk",
+        "Intresseförening",
+        "Kultur",
+        "Kurs/Studiecirkel",
+        "Möte/Sammanträde",
+        "Utställningar"
+      ],
+      "categories": [
+        "Djurmo",
+        "Djurås",
+        "Gagnef"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Aktivitetshuset",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "a-c.fjarsmans@outlook.com",
+      "phone": "+46706792782",
+      "description": {
+        "free_text": "En sammanslutning av föreningar som förvaltar och använder Aktivitetshuset på Ängsholsvägen till egna verksamheter. Vi hyr också ut samlingslokaler med Wi-Fi och bildskärm, kök eller pentry. Dagar, kvällar och helger.\nAktivitetshuset används av föreningslivet för möten och aktiviteter. Vi tar gärna emot nya föreningar. Hjärtstartare finns i huset.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreläsning",
+                "Hantverk",
+                "Intresseförening",
+                "Kultur",
+                "Kurs/Studiecirkel",
+                "Möte/Sammanträde",
+                "Utställningar"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Senior (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurmo",
+                "Djurås",
+                "Gagnef"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann-christin fjärsmans",
+        "contact_person_role": null,
+        "contact_person_email": "a-c.fjarsmans@outlook.com",
+        "contact_person_phone": "+46706792782"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Senior (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Ann-Christin Fjärsmans",
+        "0706792782",
+        "a-c.fjarsmans@outlook.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Björbo IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy",
+        "Ishockey",
+        "Övrigt"
+      ],
+      "categories": [
+        "Björbo",
+        "Dala-Floda",
+        "Mockfjärd"
+      ],
+      "homepage_url": "https://www.bjorboif.com/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Bj%C3%B6rbo%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bif@bjorboif.com",
+      "phone": "+46705713474",
+      "description": {
+        "free_text": "Hockeyverksamhet, innebandy och styrketräning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy",
+                "Ishockey",
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Björbo",
+                "Dala-Floda",
+                "Mockfjärd"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robin larsson",
+        "contact_person_role": null,
+        "contact_person_email": "bif@bjorboif.com",
+        "contact_person_phone": "+46705713474"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Robin Larsson",
+        "0705713474",
+        "bif@bjorboif.com",
+        "https://www.bjorboif.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Byförening -Nordåker, Gagnefsbyn, Nordbäck samt Älvnäs",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Byf%C3%B6rening%20-Nord%C3%A5ker%2C%20Gagnefsbyn%2C%20Nordb%C3%A4ck%20samt%20%C3%84lvn%C3%A4s",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mimmi.ryde@gmail.com",
+      "phone": "+46705407494",
+      "description": {
+        "free_text": "Föreningen sköter badplats, lekplats bystuga mm samt arrangerar gemensamma aktiviteter för gemenskap i byarna",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mimmi ryde",
+        "contact_person_role": null,
+        "contact_person_email": "mimmi.ryde@gmail.com",
+        "contact_person_phone": "+46705407494"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mimmi Ryde",
+        "0705407494",
+        "mimmi.ryde@gmail.com",
+        "Gagnefsbyn.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Bäsna bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bygdegardarna.se/basnabygdegard/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=B%C3%A4sna%20bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "basnabygdegard@gmail.com",
+      "phone": "+46720050538",
+      "description": {
+        "free_text": "Bäsna bygdegårds­förening är en ideell förening som drivs av medlemmarna. Vi är en del av Bygdegårdarnas riksförbund. Bygdegården är en samlingslokal till stöd för det lokala föreningslivet. medlemmar och andra och används till möten, uthyrning vid bröllop, födelsedagsfest, dop eller andra högtider. Verksamheten omfattar egna musik- och andra kulturevenemang, t.ex. midsommarfirande.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats fahlén",
+        "contact_person_role": null,
+        "contact_person_email": "basnabygdegard@gmail.com",
+        "contact_person_phone": "+46720050538"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mats Fahlén",
+        "072-005 05 38",
+        "basnabygdegard@gmail.com",
+        "https://bygdegardarna.se/basnabygdegard/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Campanula-kören",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Campanula-k%C3%B6ren",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Körsång",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Centerpartiet i Gagnefs kommun",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.centerpartiet.se/lokal/dalarna/gagnef/startsida",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Centerpartiet%20i%20Gagnefs%20kommun",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Politisk förening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.centerpartiet.se/lokal/dalarna/gagnef/startsida",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Dala-Floda IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Dala-Floda%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marcushomman@hotmail.com",
+      "phone": "+4673925942",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marcus homman",
+        "contact_person_role": null,
+        "contact_person_email": "marcushomman@hotmail.com",
+        "contact_person_phone": "+4673925942"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marcus Homman",
+        "073925942",
+        "marcushomman@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Dalarnas Bilkår",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Dalarnas%20Bilk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "dalarna@bilkaren.se",
+      "phone": "+46703964172",
+      "description": {
+        "free_text": "Bilkåren rekryterar och utbildar fordonsförare till Sveriges totalförsvar, dvs frivilliga till både det militära och det civila försvaret.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mia bergqvist",
+        "contact_person_role": null,
+        "contact_person_email": "dalarna@bilkaren.se",
+        "contact_person_phone": "+46703964172"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mia Bergqvist",
+        "0703-96 41 72",
+        "dalarna@bilkaren.se",
+        "www.bilkaren.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Dalarnas fridsförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Dalarnas%20fridsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningens syfte är bland annat att väcka och stimulera ett kristet trosliv, främja kristna levnadsvanor, folknykterhet, samhälls- och medborgaransvar och fosterlandskärlek samt öka respekten för arvet från äldre generationer. Väckelserörelsen verkar inom Svenska kyrkan.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Dalarnasfridsforening.se",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Dalarnasfridsforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Djurmo Östra Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Djurmo%20%C3%96stra%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vägförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Djurmo/Sifferbo IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.dsif.se/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Djurmo%2FSifferbo%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "dsif@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": "Fotboll, friidrott, gymnastik och padel",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "dsif@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "dsif@telia.com",
+        "http://www.dsif.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Edstjärns IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.eik.one/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Edstj%C3%A4rns%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@eik.one",
+      "phone": null,
+      "description": {
+        "free_text": "Edstjärns Idrottsklubb är en ideell idrottsklubb öppen för alla. EIK inriktar sig inte på någon speciell sport utan vill uppmuntra all form av idrott, främst bland ungdomar. Varje år arrangerar EIK olika evenemang i Edstjärnsområdet.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Adrian wahlström",
+        "contact_person_role": null,
+        "contact_person_email": "info@eik.one",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Adrian Wahlström",
+        "info@eik.one",
+        "https://www.eik.one/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Floda Forsfarare",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Floda%20Forsfarare",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@flodaforsfarare.se",
+      "phone": "+46703604403",
+      "description": {
+        "free_text": "Kanotklubb med gym, lägerlokal, boende, forspaddlinsarena och badplats med brygga.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "David levrén",
+        "contact_person_role": null,
+        "contact_person_email": "info@flodaforsfarare.se",
+        "contact_person_phone": "+46703604403"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "David Levrén",
+        "0703604403",
+        "info@flodaforsfarare.se",
+        "www.flodaforsfarare.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Floda Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.flodahembygd.se/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Floda%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "flodahembygdsforening@gmail.com",
+      "phone": "+46706940079",
+      "description": {
+        "free_text": "Föreningens ändamål är att värna om och vårda hembygdens miljö och dess kulturarv och föra detta vidare till kommande generationer.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "flodahembygdsforening@gmail.com",
+        "contact_person_phone": "+46706940079"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "070-6940079",
+        "flodahembygdsforening@gmail.com",
+        "https://www.flodahembygd.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Friluftsfrämjandet Gagnef",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Friluftsfr%C3%A4mjandet%20Gagnef",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Föreningen Gagnefs Bio",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Filmvisning"
+      ],
+      "categories": [
+        "Björbo",
+        "Bäsna",
+        "Dala-Floda",
+        "Djurmo",
+        "Djurås",
+        "Gagnef",
+        "Mockfjärd",
+        "Sifferbo"
+      ],
+      "homepage_url": "https://www.gagnefsbio.se/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=F%C3%B6reningen%20Gagnefs%20Bio",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@gagnefsbio.se",
+      "phone": "+46768168540",
+      "description": {
+        "free_text": "Vi visar film i Lindberghallen nästan varje torsdag och ibland på söndagar under höst, vinter och vår.\nBlir du medlem i Gagnefs Bio så får du lägre biljettpris.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Filmvisning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Senior (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Björbo",
+                "Bäsna",
+                "Dala-Floda",
+                "Djurmo",
+                "Djurås",
+                "Gagnef",
+                "Mockfjärd",
+                "Sifferbo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per målare",
+        "contact_person_role": null,
+        "contact_person_email": "info@gagnefsbio.se",
+        "contact_person_phone": "+46768168540"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Senior (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Per Målare",
+        "076-8168540",
+        "info@gagnefsbio.se",
+        "https://www.gagnefsbio.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnef Floda Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnef%20Floda%20Brukshundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lenadyrsmeds@hotmail.com",
+      "phone": "+46707424991",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena dyrsmeds",
+        "contact_person_role": null,
+        "contact_person_email": "lenadyrsmeds@hotmail.com",
+        "contact_person_phone": "+46707424991"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lena Dyrsmeds",
+        "0707424991",
+        "lenadyrsmeds@hotmail.com",
+        "www.g-fbk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnef-Mockfjärds Pistolskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnef-Mockfj%C3%A4rds%20Pistolskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Pistolskytteklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan jonsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johan Jonsson",
+        "gmpsk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Amatörteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Amat%C3%B6rteaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hannaostman20@hotmail.com",
+      "phone": "+46708558933",
+      "description": {
+        "free_text": "Årliga uppsättningar av bygdespel, sedan snart 40 år.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hanna östman",
+        "contact_person_role": null,
+        "contact_person_email": "hannaostman20@hotmail.com",
+        "contact_person_phone": "+46708558933"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hanna Östman",
+        "0708558933",
+        "hannaostman20@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Flygklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.gagnefsflygklubb.se/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Flygklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.gagnefsflygklubb.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.gagnefsfotoklubb.se/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Fotoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@gagnefsfotoklubb.se",
+      "phone": "+46706408884",
+      "description": {
+        "free_text": "Fotoverksamhet, kurser, årlig dokumentär fotokalender",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ordförande urban jansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@gagnefsfotoklubb.se",
+        "contact_person_phone": "+46706408884"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ordförande Urban Jansson",
+        "0706408884",
+        "info@gagnefsfotoklubb.se",
+        "https://www.gagnefsfotoklubb.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Hockeyclub",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Hockeyclub",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "maria.liss@gagnefsmail.se",
+      "phone": "+46706339309",
+      "description": {
+        "free_text": "Skötsel av ishockeyplan och verksamhet för barn och ungdomar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria liss",
+        "contact_person_role": null,
+        "contact_person_email": "maria.liss@gagnefsmail.se",
+        "contact_person_phone": "+46706339309"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Maria Liss",
+        "0706339309",
+        "maria.liss@gagnefsmail.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis",
+        "Fotboll",
+        "Friidrott",
+        "Gymnastik",
+        "Skidor",
+        "Tennis"
+      ],
+      "categories": [
+        "Gagnef"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "maria.liss@gagnefsmail.se",
+      "phone": "+46706339309",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis",
+                "Fotboll",
+                "Friidrott",
+                "Gymnastik",
+                "Skidor",
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Senior (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gagnef"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria liss",
+        "contact_person_role": null,
+        "contact_person_email": "maria.liss@gagnefsmail.se",
+        "contact_person_phone": "+46706339309"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Senior (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Maria Liss",
+        "0706339309",
+        "maria.liss@gagnefsmail.se",
+        "www.gagnefsif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Intresseförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Intresseförening"
+      ],
+      "categories": [],
+      "homepage_url": "https://gagnefsintresse.se/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Intressef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gagnefsintresseforening@gmail.com",
+      "phone": "+46707511177",
+      "description": {
+        "free_text": "Kultur och fritid",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Intresseförening"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Senior (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans dahlkvist",
+        "contact_person_role": null,
+        "contact_person_email": "gagnefsintresseforening@gmail.com",
+        "contact_person_phone": "+46707511177"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Senior (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Hans Dahlkvist",
+        "070-7511177",
+        "gagnefsintresseforening@gmail.com",
+        "https://gagnefsintresse.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Konst och hantverksförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://konstgagnef.se/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Konst%20och%20hantverksf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "konstgagnef@gmail.com",
+      "phone": "+46738288984",
+      "description": {
+        "free_text": "Målet med föreningen är att skapa en mötesplats för konst och hantverk i Gagnefs kommun, tex genom att årligen arrangera Konstrundan Gagnef.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annelie jämte",
+        "contact_person_role": null,
+        "contact_person_email": "konstgagnef@gmail.com",
+        "contact_person_phone": "+46738288984"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Annelie Jämte",
+        "0738288984",
+        "konstgagnef@gmail.com",
+        "https://konstgagnef.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [
+        "Björbo",
+        "Bäsna",
+        "Dala-Floda",
+        "Djurmo",
+        "Djurås",
+        "Gagnef"
+      ],
+      "homepage_url": "http://www.gagnefsok.se/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Orienteringsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@gagnefsok.se",
+      "phone": "+46706339309",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Orientering"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Senior (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Björbo",
+                "Bäsna",
+                "Dala-Floda",
+                "Djurmo",
+                "Djurås",
+                "Gagnef"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria liss",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@gagnefsok.se",
+        "contact_person_phone": "+46706339309"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Senior (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Maria Liss",
+        "0706339309",
+        "kansli@gagnefsok.se",
+        "http://www.gagnefsok.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Ridklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gagnefs.ridklubb@telia.com",
+      "phone": "+4624121120",
+      "description": {
+        "free_text": "Ridskola",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.gagnefsridklubb.org",
+        "contact_person_role": null,
+        "contact_person_email": "gagnefs.ridklubb@telia.com",
+        "contact_person_phone": "+4624121120"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "024121120",
+        "gagnefs.ridklubb@telia.com",
+        "www.gagnefsridklubb.org",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs skateboardförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20skateboardf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gagnefskate@gmail.com",
+      "phone": "+46721741014",
+      "description": {
+        "free_text": "Att verka för intresset och kunskapen kring skateboard och annan spontanidrott i Gagnefs kommun, i en fördomsfri och trygg miljö.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "David rönnegård",
+        "contact_person_role": null,
+        "contact_person_email": "gagnefskate@gmail.com",
+        "contact_person_phone": "+46721741014"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "David Rönnegård",
+        "072-1741014",
+        "gagnefskate@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs släktforskarförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20sl%C3%A4ktforskarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@gagnefsslaktforskarforening.se",
+      "phone": "+46702244988",
+      "description": {
+        "free_text": "Släkthistorisk forskning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger mattsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@gagnefsslaktforskarforening.se",
+        "contact_person_phone": "+46702244988"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Roger Mattsson",
+        "070-2244988",
+        "info@gagnefsslaktforskarforening.se",
+        "www.gagnefsslaktforskarforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Snöskoterklubb",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Sn%C3%B6skoterklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gagnefssnoskoterklubb@gmail.com",
+      "phone": "+46703152498",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars köpman",
+        "contact_person_role": null,
+        "contact_person_email": "gagnefssnoskoterklubb@gmail.com",
+        "contact_person_phone": "+46703152498"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lars Köpman",
+        "0703152498",
+        "gagnefssnoskoterklubb@gmail.com",
+        "Gagnefs Snöskoterklubb.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Socialdemokratiska Arbetarekommun",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Socialdemokratiska%20Arbetarekommun",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sap-gagnef@outlook.com",
+      "phone": "+46703543505",
+      "description": {
+        "free_text": "Socialdemokratisk förening med politisk verksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christina walles",
+        "contact_person_role": null,
+        "contact_person_email": "sap-gagnef@outlook.com",
+        "contact_person_phone": "+46703543505"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christina Walles",
+        "0703543505",
+        "SAP-gagnef@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Spelmanslag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://gagnefsspelmanslag.se/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Spelmanslag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://gagnefsspelmanslag.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs Trädgårdssällskap",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20Tr%C3%A4dg%C3%A5rdss%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gagnefstradgard@gmail.com",
+      "phone": "+46768022320",
+      "description": {
+        "free_text": "Vi är en förening som vill bidra till ett lokalt nätverk och sprida kunskap och glädje kring odling och trädgård i form av aktiviteter och kurser.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christin persson",
+        "contact_person_role": null,
+        "contact_person_email": "gagnefstradgard@gmail.com",
+        "contact_person_phone": "+46768022320"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christin Persson",
+        "076-8022320",
+        "gagnefstradgard@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Gagnefs vävstuga",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [
+        "Hantverk"
+      ],
+      "categories": [
+        "Djurmo",
+        "Djurås",
+        "Gagnef",
+        "Sifferbo"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Gagnefs%20v%C3%A4vstuga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gagnefsvavstuga@gmail.com",
+      "phone": "+46702312479",
+      "description": {
+        "free_text": "Vävning i olika tekniker samt social samvaro",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hantverk"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Senior (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurmo",
+                "Djurås",
+                "Gagnef",
+                "Sifferbo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Susanne naula",
+        "contact_person_role": null,
+        "contact_person_email": "gagnefsvavstuga@gmail.com",
+        "contact_person_phone": "+46702312479"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Senior (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Susanne Naula",
+        "0702312479",
+        "gagnefsvavstuga@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Hyresgästföreningen Reg Mitt, Leksand/Gagnef",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Hyresg%C3%A4stf%C3%B6reningen%20Reg%20Mitt%2C%20Leksand%2FGagnef",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "asa.billvik@hyresgastforeningen.se",
+      "phone": "+46104591562",
+      "description": {
+        "free_text": "Hyresförhandlingar, juridisk rådgivning, opinionsarbete och lokalt engagemang",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åsa billvik",
+        "contact_person_role": null,
+        "contact_person_email": "asa.billvik@hyresgastforeningen.se",
+        "contact_person_phone": "+46104591562"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Åsa Billvik",
+        "0104591562",
+        "asa.billvik@hyresgastforeningen.se",
+        "www.hyresgastforeningen.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "IBF Gagnef",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Djurås",
+        "Mockfjärd"
+      ],
+      "homepage_url": "https://ibfgagnef.web.sportadmin.se/start/?ID=142709",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=IBF%20Gagnef",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "peter73larsson@gmail.com",
+      "phone": "+46703481584",
+      "description": {
+        "free_text": "Ideell Innebandyförening med matchspel i Mockfjärd.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Senior (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurås",
+                "Mockfjärd"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter larsson",
+        "contact_person_role": null,
+        "contact_person_email": "peter73larsson@gmail.com",
+        "contact_person_phone": "+46703481584"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Senior (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Peter Larsson",
+        "0703481584",
+        "peter73larsson@gmail.com",
+        "https://ibfgagnef.web.sportadmin.se/start/?ID=142709",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "IFK Mockfjärd",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll",
+        "Ishockey",
+        "Motionsidrott",
+        "Skidor",
+        "Tennis"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=IFK%20Mockfj%C3%A4rd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Skidor, Handboll, Motion, Ishockey och Tennis",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll",
+                "Ishockey",
+                "Motionsidrott",
+                "Skidor",
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Senior (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Senior (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "IK Segro",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik",
+        "Ishockey",
+        "Löpning",
+        "Motionsidrott",
+        "Möte/Sammanträde",
+        "Tennis"
+      ],
+      "categories": [
+        "Bäsna"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=IK%20Segro",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "iksegro@hotmail.com",
+      "phone": "+46707547122",
+      "description": {
+        "free_text": "Gym, skidorspår, slalombacke, multiarena, fotbollsplan, ridbana, tennisplan och motionsspår.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Gymnastik",
+                "Ishockey",
+                "Löpning",
+                "Motionsidrott",
+                "Möte/Sammanträde",
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Senior (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bäsna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas hellsten",
+        "contact_person_role": null,
+        "contact_person_email": "iksegro@hotmail.com",
+        "contact_person_phone": "+46707547122"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Senior (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Jonas Hellsten",
+        "070-7547122",
+        "iksegro@hotmail.com",
+        "www.iksegro.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Kommunal Nedansiljan",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Djurås"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Kommunal%20Nedansiljan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nedansiljan.bergslagen@kommunal.se",
+      "phone": "+46104428132",
+      "description": {
+        "free_text": "Fackförening",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurås"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann-christin norberg",
+        "contact_person_role": null,
+        "contact_person_email": "nedansiljan.bergslagen@kommunal.se",
+        "contact_person_phone": "+46104428132"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Ann-Christin Norberg",
+        "0104428132",
+        "nedansiljan.bergslagen@kommunal.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Mockfjärd MK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Mockfj%C3%A4rd%20MK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Motorklubb med motocross i huvudsak",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christoffer mätare",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christoffer Mätare",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Mockfjärds Atletklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Mockfj%C3%A4rds%20Atletklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@atletklubben.nu",
+      "phone": null,
+      "description": {
+        "free_text": "Styrketräning/Tyngdlyftning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael persson",
+        "contact_person_role": null,
+        "contact_person_email": "info@atletklubben.nu",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@atletklubben.nu",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mikael Persson",
+        "Info@atletklubben.nu",
+        "Info@atletklubben.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Mockfjärds BK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Mockfj%C3%A4rds%20BK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Mockfjärds discgolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Mockfj%C3%A4rds%20discgolfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Moderaterna i Gagnef",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://moderaterna.se/gagnef",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Moderaterna%20i%20Gagnef",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gagnef@moderaterna.se",
+      "phone": "+46704713648",
+      "description": {
+        "free_text": "Politiskt parti",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter vogt",
+        "contact_person_role": null,
+        "contact_person_email": "gagnef@moderaterna.se",
+        "contact_person_phone": "+46704713648"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Peter Vogt",
+        "070 4713648",
+        "gagnef@moderaterna.se",
+        "https://moderaterna.se/gagnef",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Sifferbo By Ideella Förening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Sifferbo%20By%20Ideella%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sifferbo.com",
+      "phone": "+46702164403",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Cecilia löfgren nordby",
+        "contact_person_role": null,
+        "contact_person_email": "info@sifferbo.com",
+        "contact_person_phone": "+46702164403"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Cecilia Löfgren Nordby",
+        "0702164403",
+        "info@sifferbo.com",
+        "www.sifferbo.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "SPF Seniorerna Gagnef Floda",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Gagnef%20Floda",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46706184293",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Berit johansson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46706184293"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Berit Johansson",
+        "070-618 42 93",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Suomi fritid",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=Suomi%20fritid",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Gagnef",
+    "scrape_run_id": "1ce0e4e0-4300-4d12-ba64-f8385cebbcb4",
+    "scraped_at": "2025-10-28T22:49:17.586Z",
+    "association": {
+      "name": "Västra Djurmo Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://xn--vstradjurmo-l8a.xn--samfllighetsfrening-jwb10b.net/",
+      "detail_url": "https://gagnef.rbok.se/foreningsregister?association=V%C3%A4stra%20Djurmo%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mikael@djurmo.net",
+      "phone": "+46709651179",
+      "description": {
+        "free_text": "Underhåll av enskilda vägar i Gamla Djurmo",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael rust",
+        "contact_person_role": null,
+        "contact_person_email": "mikael@djurmo.net",
+        "contact_person_phone": "+46709651179"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mikael Rust",
+        "070-965 11 79",
+        "mikael@djurmo.net",
+        "https://vÄstradjurmo.samfällighetsförening.net",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

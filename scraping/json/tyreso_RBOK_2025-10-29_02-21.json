@@ -1,0 +1,4081 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "ABF Södertörn",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Föreläsning",
+        "Kultur",
+        "Kurs",
+        "Möte / Sammankomst",
+        "Studiecirkel",
+        "Utbildning"
+      ],
+      "categories": [
+        "Bollmora"
+      ],
+      "homepage_url": "https://www.abf.se/sodertorn",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=ABF%20S%C3%B6dert%C3%B6rn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info.sodertorn@abf.se",
+      "phone": "+46855652030",
+      "description": {
+        "free_text": "Studiecirklar, kurser, kultur, föreningsutveckling",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreläsning",
+                "Kultur",
+                "Kurs",
+                "Möte / Sammankomst",
+                "Studiecirkel",
+                "Utbildning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info.sodertorn@abf.se",
+        "contact_person_phone": "+46855652030"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "08-55652030",
+        "info.sodertorn@abf.se",
+        "https://www.abf.se/sodertorn",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Afasiföreningen Haninge Tyresö",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [
+        "Funktionell träning"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.afasi.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Afasif%C3%B6reningen%20Haninge%20Tyres%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46768636838",
+      "description": {
+        "free_text": "Afasiföreningen ska arbeta för att förbättra villkoren för personer med afasi eller annan språkstörning, samt deras anhöriga.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Funktionell träning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Personer med funktionsnedsättning"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jörgen oostdijk",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46768636838"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Personer med funktionsnedsättning"
+      ],
+      "contact_lines": [
+        "Jörgen Oostdijk",
+        "0768636838",
+        "https://www.afasi.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Alami Kampsport Akademi IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport",
+        "Taekwondo"
+      ],
+      "categories": [
+        "Bollmora"
+      ],
+      "homepage_url": "https://www.alamikampsport.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Alami%20Kampsport%20Akademi%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "noak.alami@hotmail.com",
+      "phone": "+46728897972",
+      "description": {
+        "free_text": "Kampsportsträning för barn och ungdomar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport",
+                "Taekwondo"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Noak alami",
+        "contact_person_role": null,
+        "contact_person_email": "noak.alami@hotmail.com",
+        "contact_person_phone": "+46728897972"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Noak Alami",
+        "0728897972",
+        "noak.alami@hotmail.com",
+        "https://www.alamikampsport.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Concrete BJJ Tyresö",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.concretebjj.com/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Concrete%20BJJ%20Tyres%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "concretebjj@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Concrete BJJ är en ideell förening som bedriver träning inom Brasiliansk Jiu-Jitsu och Submission Wrestling. Våra lokaler ligger centralt i Tyresö Centrum i anslutning till goda busskommunikationer.\nVi har instruktörer med mångårig erfarenhet inom BJJ och SW, och välkomnar alla som vill att träna hos oss. Barn kan vara med på knattepassen i BJJ från 5 års ålder.\nVi tränar efter principerna att alla ska ha roligt och få ut något av träningen. Därför är ömsesidig respekt väldigt viktigt samt att man anpassar nivån till den man tränar med. Om ens träningspartners blir bättre blir man även bättre själv.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert wåhlin",
+        "contact_person_role": null,
+        "contact_person_email": "concretebjj@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Robert Wåhlin",
+        "concretebjj@gmail.com",
+        "http://www.concretebjj.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "DHR Tyresö",
+      "org_number": null,
+      "types": [
+        "Handikappförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://dhr.se/tyreso/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=DHR%20Tyres%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tyreso@dhr.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Personer med funktionsnedsättning"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "tyreso@dhr.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Personer med funktionsnedsättning"
+      ],
+      "contact_lines": [
+        "tyreso@dhr.se",
+        "https://dhr.se/tyreso/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Friskis Tyresö",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gym",
+        "Parasport",
+        "Träning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.friskissvettis.se/tyreso",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Friskis%20Tyres%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyreso.friskissvettis.se",
+      "phone": "+4687423450",
+      "description": {
+        "free_text": "Tyresös största gym, vår verksamhetsidé är lustfylld och lättillgänglig träning av hög kvalitet för alla!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gym",
+                "Parasport",
+                "Träning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Receptionen",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyreso.friskissvettis.se",
+        "contact_person_phone": "+4687423450"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Receptionen",
+        "087423450",
+        "info@tyreso.friskissvettis.se",
+        "http://www.friskissvettis.se/tyreso",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Ground Game Jiu-jitsu",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [
+        "Bollmora"
+      ],
+      "homepage_url": "https://www.ggjj.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Ground%20Game%20Jiu-jitsu",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ggjj.se",
+      "phone": "+46761896813",
+      "description": {
+        "free_text": "Ground Game Jiu-Jitsu är en engagerad förening som fokuserar på att främja och utveckla Brasiliansk Jiu-Jitsu (BJJ) som kampsport. Med en passion för teknik, disciplin och gemenskap erbjuder föreningen träning för både nybörjare och erfarna utövare. Ground Game Jiu-Jitsu strävar efter att skapa en positiv och inkluderande miljö där medlemmar kan förbättra sina färdigheter, bygga självförtroende och träffa likasinnade. Genom regelbundna träningar, tävlingar och seminarium bidrar föreningen till att sprida kunskap och kärlek för BJJ i Tyresö.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Abbas reyhanian",
+        "contact_person_role": null,
+        "contact_person_email": "info@ggjj.se",
+        "contact_person_phone": "+46761896813"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Abbas Reyhanian",
+        "076-1896813",
+        "info@ggjj.se",
+        "https://www.ggjj.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Gymnastikklubben Trollbäcken",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Bollmora"
+      ],
+      "homepage_url": "http://www.gktrollbacken.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Gymnastikklubben%20Trollb%C3%A4cken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi erbjuder Gymnastikskola och Truppgymnastik för både flickor och pojkar från 4 år och uppåt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "http://www.gktrollbacken.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Hantverksgårdens vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://visomvaver.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Hantverksg%C3%A5rdens%20v%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@visomvaver.se",
+      "phone": null,
+      "description": {
+        "free_text": "Förening för dem som är intresserade av vävning i alla former",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monica åhlén",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@visomvaver.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Monica Åhlén",
+        "styrelsen@visomvaver.se",
+        "http://visomvaver.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Hanvikens SK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Friidrott",
+        "Fritids",
+        "Ishockey"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken"
+      ],
+      "homepage_url": "https://hanvikenssk.myclub.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Hanvikens%20SK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@hanvikenssk.se",
+      "phone": "+4687124403",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Friidrott",
+                "Fritids",
+                "Ishockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hanvikens sk kansli",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@hanvikenssk.se",
+        "contact_person_phone": "+4687124403"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Hanvikens SK Kansli",
+        "08-712 44 03",
+        "kansli@hanvikenssk.se",
+        "https://hanvikenssk.myclub.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Konstrundan Tyresö",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://konstrundantyreso.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Konstrundan%20Tyres%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Konstrundan Tyresö är en förening för konstnärer som bor eller har ateljé i Tyresö. Vi verkar för att stärka konstens plats och anordnar varje år en populär Konstrunda.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://konstrundantyreso.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Krusboda scoutkår",
+      "org_number": null,
+      "types": [
+        "Friluftsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://krusboda.scout.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Krusboda%20scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelse@krusbodascouter.se",
+      "phone": null,
+      "description": {
+        "free_text": "Förening som bedriver scoutverksamhet inom Tyresö kommun",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Felicia friberg backman",
+        "contact_person_role": null,
+        "contact_person_email": "styrelse@krusbodascouter.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Felicia Friberg Backman",
+        "N/A",
+        "styrelse@krusbodascouter.se",
+        "https://krusboda.scout.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Kulturella folkdansgillet",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken"
+      ],
+      "homepage_url": "https://www.kulturellafolkdansgillet.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Kulturella%20folkdansgillet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@kulturellafolkdansgillet.se",
+      "phone": "+46707500907",
+      "description": {
+        "free_text": "Svensk folkdans, musik samt allmoge slöjd",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders öström",
+        "contact_person_role": null,
+        "contact_person_email": "info@kulturellafolkdansgillet.se",
+        "contact_person_phone": "+46707500907"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Anders Öström",
+        "0707500907",
+        "info@kulturellafolkdansgillet.se",
+        "https://www.kulturellafolkdansgillet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Kören Mamsellerna",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Körsång"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=K%C3%B6ren%20Mamsellerna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "catharina.wallin@telia.com",
+      "phone": "+46761050553",
+      "description": {
+        "free_text": "Kören Mamsellerna är en damkör som sjunger en blandad repertoar från gammalt till nytt, från visa till rock och pop, vårsånger och julsånger och allt däremellan. Dvs ett brett repertoarspektrum.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Körsång"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Catharina wallin nyman",
+        "contact_person_role": null,
+        "contact_person_email": "catharina.wallin@telia.com",
+        "contact_person_phone": "+46761050553"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Catharina Wallin Nyman",
+        "0761050553",
+        "catharina.wallin@telia.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Munskänkarna Tyresö",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Föreläsning"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.munskankarna.se/sv/regioner/stor-stockholm-sodra/tyreso/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Munsk%C3%A4nkarna%20Tyres%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Munskänkarna är en riksomfattande organisation för vinintresserade som håller föreläsningar och utbildningar på temat vin. Tyresö-sektionen är en del av region stockholm syd och vi har ca 200 medlemmar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreläsning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "https://www.munskankarna.se/sv/regioner/stor-stockholm-sodra/tyreso/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "NBV Öst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.nbv.se/ost",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=NBV%20%C3%96st",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ost@nbv.se",
+      "phone": "+46733730197",
+      "description": {
+        "free_text": "Folkbildning med studiecirklar, annan folkbildning och kulturprogram.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Börje bergfeldt",
+        "contact_person_role": null,
+        "contact_person_email": "ost@nbv.se",
+        "contact_person_phone": "+46733730197"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Börje Bergfeldt",
+        "0733730197",
+        "ost@nbv.se",
+        "https://www.nbv.se/ost",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "PRO Tyresö",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Bridge",
+        "Fest",
+        "Föreläsning",
+        "Möte / Sammankomst",
+        "Studiecirkel",
+        "Tekniker"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://pro.se/tyreso",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=PRO%20Tyres%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anita.hilden@outlook.com",
+      "phone": "+46707767680",
+      "description": {
+        "free_text": "Pensionärsvarksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bridge",
+                "Fest",
+                "Föreläsning",
+                "Möte / Sammankomst",
+                "Studiecirkel",
+                "Tekniker"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mer vuxna (65+)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anita hilden",
+        "contact_person_role": null,
+        "contact_person_email": "anita.hilden@outlook.com",
+        "contact_person_phone": "+46707767680"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mer vuxna (65+)"
+      ],
+      "contact_lines": [
+        "Anita Hilden",
+        "0707767680",
+        "anita.hilden@outlook.com",
+        "https://pro.se/tyreso",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "SeniorNet Tyresö",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://tyreso.seniornet.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=SeniorNet%20Tyres%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tyreso@seniornet.se",
+      "phone": "+46703431946",
+      "description": {
+        "free_text": "SeniorNet Tyresö är en ideell och opolitisk förening för seniorer som vill lära och vidareutveckla sig i hur man har glädje och nytta av den digitala världen. Detta genom olika erbjudanden som IT-hjälp, cirklar, föreläsningar, digitala möten etc. Vi erbjuder också introduktion och hjälp med släktforskning.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mer vuxna (65+)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Carl-olof strand",
+        "contact_person_role": null,
+        "contact_person_email": "tyreso@seniornet.se",
+        "contact_person_phone": "+46703431946"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mer vuxna (65+)"
+      ],
+      "contact_lines": [
+        "Carl-Olof Strand",
+        "0703431946",
+        "tyreso@seniornet.se",
+        "https://tyreso.seniornet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan Stockholms län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Föreläsning",
+        "Studiecirkel"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.sv.se/stockholmslan",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Studief%C3%B6rbundet%20Vuxenskolan%20Stockholms%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "abc@sv.se",
+      "phone": "+46812055100",
+      "description": {
+        "free_text": "Vi arbetar med folkbildningsverksamhet i hela Tyresö",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreläsning",
+                "Studiecirkel"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "abc@sv.se",
+        "contact_person_phone": "+46812055100"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "08-12055100",
+        "abc@sv.se",
+        "https://www.sv.se/stockholmslan",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Trollbäcken Ju-jutsuklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [
+        "Trollbäcken"
+      ],
+      "homepage_url": "http://tyresojujutsu.com/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Trollb%C3%A4cken%20Ju-jutsuklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en kampsports förening som driver kampsportsträning i Kumla Skolas idrottshall för personer från 9 år och uppåt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Trollbäcken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "http://tyresojujutsu.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Trollbäckens Båtsällskap",
+      "org_number": null,
+      "types": [
+        "Båtförening"
+      ],
+      "activities": [
+        "Friluftliv"
+      ],
+      "categories": [
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.trbs.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Trollb%C3%A4ckens%20B%C3%A5ts%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Trollbäckens båtsällskap är en ideell förening som drivs helt av medlemmarna själva.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friluftliv"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "https://www.trbs.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Trollbäckens Scoutkår",
+      "org_number": null,
+      "types": [
+        "Friluftsförening"
+      ],
+      "activities": [
+        "Scouter"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.trollbackensscoutkar.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Trollb%C3%A4ckens%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@trollbackensscoutkar.se",
+      "phone": null,
+      "description": {
+        "free_text": "Scouting - Gör unga redo för livet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scouter"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Susanna sonander",
+        "contact_person_role": null,
+        "contact_person_email": "info@trollbackensscoutkar.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Susanna Sonander",
+        "info@trollbackensscoutkar.se",
+        "https://www.trollbackensscoutkar.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Trollbäckens Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton",
+        "Tennis"
+      ],
+      "categories": [],
+      "homepage_url": "https://trollbackenstk.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Trollb%C3%A4ckens%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stefan@trollbackenstk.se",
+      "phone": "+4687987520",
+      "description": {
+        "free_text": "Tennis, Badminton och Padelträning för barn och vuxna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton",
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "stefan@trollbackenstk.se",
+        "contact_person_phone": "+4687987520"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@trollbackenstk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "stefan@trollbackenstk.se",
+        "087987520",
+        "info@trollbackenstk.se",
+        "https://Trollbackenstk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Amerikanska Fotbollsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.royalcrowns.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Amerikanska%20Fotbollsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@royalcrowns.se",
+      "phone": "+46702848412",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna bergkvist",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@royalcrowns.se",
+        "contact_person_phone": "+46702848412"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anna Bergkvist",
+        "070-284 84 12",
+        "ordforande@royalcrowns.se",
+        "http://www.royalcrowns.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Barnförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.tyresobf.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Barnf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tyresobf@tyresobf.se",
+      "phone": null,
+      "description": {
+        "free_text": "Bedriver gymnastik och bamsegympa för barn 3-10 år.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "tyresobf@tyresobf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "tyresobf@tyresobf.se",
+        "https://www.tyresobf.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Basket",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://tyresobasket.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Basket",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@tyresobasket.se",
+      "phone": "+46703014405",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@tyresobasket.se",
+        "contact_person_phone": "+46703014405"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Kansli",
+        "070-3014405",
+        "kansliet@tyresobasket.se",
+        "https://tyresobasket.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://brukshundklubben.se/tyreso-brukshundklubb/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Brukshundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresobk.se",
+      "phone": null,
+      "description": {
+        "free_text": "Utbildar hundar och hundförare, samt bedriver tävlingar och prov.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Charlotte öhrn",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresobk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Charlotte Öhrn",
+        "info@tyresobk.se",
+        "https://brukshundklubben.se/tyreso-brukshundklubb/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö BTK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken"
+      ],
+      "homepage_url": "http://www.tbtk.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20BTK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tbtk.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en bordtennisförening med spelare från 6 år upp till pensionärer.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@tbtk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "info@tbtk.se",
+        "http://www.tbtk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Bågskyttar",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bågskytte"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.tyresobs.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20B%C3%A5gskyttar",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tyresobs@tyresobs.se",
+      "phone": "+46702584248",
+      "description": {
+        "free_text": "Båg- och armborstskytte",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bågskytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert sahlin",
+        "contact_person_role": null,
+        "contact_person_email": "tyresobs@tyresobs.se",
+        "contact_person_phone": "+46702584248"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Robert Sahlin",
+        "070 258 4248",
+        "tyresobs@tyresobs.se",
+        "https://www.tyresobs.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Cykelklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://tyreso-ck.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Cykelklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyreso-ck.se",
+      "phone": null,
+      "description": {
+        "free_text": "Tyresö Cykelklubb har som målsättning att ge intresserade av cykelsporten en lokal möjlighet att utvecklas, träna, tävla och umgås med likasinnade.\nVi cyklar landsväg, mountainbike samt cyclocross. Beroende på säsong erbjuder vi gemensamma cykelträningar av olika former.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Oscar kumlin",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyreso-ck.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Oscar Kumlin",
+        "info@tyreso-ck.se",
+        "http://tyreso-ck.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö FF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Bollmora",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "http://www.tyresofotboll.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20FF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresofotboll.se",
+      "phone": "+46709558842",
+      "description": {
+        "free_text": "Vi bedriver fotboll och futsal för alla från 3 år till gå-fotboll (50+)",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jeppe mauritzson",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresofotboll.se",
+        "contact_person_phone": "+46709558842"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Jeppe Mauritzson",
+        "0709558842",
+        "info@tyresofotboll.se",
+        "http://www.tyresofotboll.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Fight Center",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.tyresofightcenter.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Fight%20Center",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresofightcenter.se",
+      "phone": null,
+      "description": {
+        "free_text": "Tyresö Fightcenter IF (TFC) är en ideell förening och började sin verksamhet 2013 i en liten lokal i Trollbäcken. År 2014 flyttade TFC till befintliga lokaler i Hedvigslunds industriområde ,Älta. På TFC är alla välkomna att träna, vi har elever i alla åldrar mellan 1- och 75 år. Hos oss tränar tjejer och killar tillsammans, det fina med kampsport är att alla kan träna på sina villkor.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jens jansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresofightcenter.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Jens Jansson",
+        "info@tyresofightcenter.se",
+        "http://www.tyresofightcenter.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Filmförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Filmvisning"
+      ],
+      "categories": [
+        "Bollmora"
+      ],
+      "homepage_url": "http://www.bioforellen.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Filmf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bioforellen@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi visar film för alla åldersgrupper under januari-april samt aug/sept.- december. Visningsdagar i ordinarie program söndag, tisdag och onsdag.\nVi har slutna visningar för kommun och företag samt Tyresö församling m fl.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Filmvisning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "bioforellen@hotmail.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "bioforellen@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "bioforellen@hotmail.com",
+        "bioforellen@hotmail.com",
+        "http://www.bioforellen.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Handboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll",
+        "Parasport"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "http://www.tyresohandboll.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Handboll",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@tyresohandboll.se",
+      "phone": null,
+      "description": {
+        "free_text": "Tyresö Handboll bedriver verksamhet hela vägen från fyraåringar upp till två allsvenska elitlag. Vi har lika mycket pojkar som flickor i verksamheten och bedriver profilfritids i våra lokaler i Tyresöhallen. Vi tränar i hallar i hela kommunen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll",
+                "Parasport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias bejbom",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@tyresohandboll.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Mattias Bejbom",
+        "kansli@tyresohandboll.se",
+        "http://www.tyresohandboll.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "http://www.hembygd.se/tyreso",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "goran.sundgren@gmail.com",
+      "phone": "+46768430504",
+      "description": {
+        "free_text": "Hembygdsförening. Bevaka och berätta om Tyresös kulturarv och kulturhistoria. Förvaltar Ahlstorps båtsmanstorp",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran sundgren",
+        "contact_person_role": null,
+        "contact_person_email": "goran.sundgren@gmail.com",
+        "contact_person_phone": "+46768430504"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Göran Sundgren",
+        "0768430504",
+        "goran.sundgren@gmail.com",
+        "http://www.hembygd.se/tyreso",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Jazz& Blues Club",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.tyresojazzclub.com/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Jazz%26%20Blues%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "leif.lof@kemibolage.se",
+      "phone": "+46706292880",
+      "description": {
+        "free_text": "Anordnar musikspelningar med olika typer av jazzmusilk för alla åldrar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mer vuxna (65+)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "leif.lof@kemibolage.se",
+        "contact_person_phone": "+46706292880"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresojazzclub.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mer vuxna (65+)"
+      ],
+      "contact_lines": [
+        "leif.lof@kemibolage.se",
+        "0706292880",
+        "info@tyresojazzclub.com",
+        "http://www.tyresojazzclub.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Judo",
+        "Kampsport"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.tyresojudo.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20judoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresojudo.se",
+      "phone": null,
+      "description": {
+        "free_text": "Judo från 7 år.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Judo",
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hasse näslund",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresojudo.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Hasse Näslund",
+        "info@tyresojudo.se",
+        "https://www.tyresojudo.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Kampsportsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [
+        "Bollmora"
+      ],
+      "homepage_url": "http://www.tyresokampsport.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Kampsportsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresokampsport.se",
+      "phone": "+46763096837",
+      "description": {
+        "free_text": "Tyresö Kampsport bedriver kickboxning. Vi har hela bredden från motionär till tävlande, under erfarna och meriterade instruktörer. Vi har även en tjejgrupp i kickboxning med kvinnliga instruktörer. Barngrupper från 7-12 år. Alla är välkomna!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresokampsport.se",
+        "contact_person_phone": "+46763096837"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "0763096837",
+        "info@tyresokampsport.se",
+        "http://www.tyresokampsport.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Kompisar",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Kompisar",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karimeh.noori22@gmail.com",
+      "phone": "+46700103828",
+      "description": {
+        "free_text": "Sociala kontakter, integration, lära om svensk kultur och våra högtider",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karimeh noori",
+        "contact_person_role": null,
+        "contact_person_email": "karimeh.noori22@gmail.com",
+        "contact_person_phone": "+46700103828"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Karimeh Noori",
+        "070 010 38 28",
+        "karimeh.noori22@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Naturskyddsförening",
+      "org_number": null,
+      "types": [
+        "Friluftsförening"
+      ],
+      "activities": [
+        "Föreläsning",
+        "Möte / Sammankomst"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://tyreso.naturskyddsforeningen.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Naturskyddsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tyreso@naturskyddsforeningen.se",
+      "phone": "+46707323473",
+      "description": {
+        "free_text": "Visa, Vårda och Värna om naturvärden i Tyresö",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreläsning",
+                "Möte / Sammankomst"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva keith-rosander",
+        "contact_person_role": null,
+        "contact_person_email": "tyreso@naturskyddsforeningen.se",
+        "contact_person_phone": "+46707323473"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Eva Keith-Rosander",
+        "070-732 3473",
+        "tyreso@naturskyddsforeningen.se",
+        "https://tyreso.naturskyddsforeningen.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Närradioförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Allmänheten",
+        "Kultur",
+        "Möte / Sammankomst"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.tyresoradion.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20N%C3%A4rradiof%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ann.sandinlindgren@gmail.com",
+      "phone": "+46722323331",
+      "description": {
+        "free_text": "Tyresö närradioförening är en ideell förening i Tyresö med syfte att sända radio.\nTyresöradion sänder närradio på 91,4 MHz och lägger ut programmen på webben och som poddar.\nDe föreningar som är med i Närradioföreningen har alla möjlighet att göra egna program och göra reklam för sin verksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Allmänheten",
+                "Kultur",
+                "Möte / Sammankomst"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann sandin lindgren",
+        "contact_person_role": null,
+        "contact_person_email": "ann.sandinlindgren@gmail.com",
+        "contact_person_phone": "+46722323331"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Ann Sandin Lindgren",
+        "0722323331",
+        "ann.sandinlindgren@gmail.com",
+        "https://www.tyresoradion.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [],
+      "homepage_url": "https://tyresoryttarforening.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Ryttarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresoryttarforening.se",
+      "phone": null,
+      "description": {
+        "free_text": "Tyresö Ryttarförenings huvuduppgift är att:\n-driva ridskola i Tyresö i föreningsform\n-ge hästintresserade barn, ungdomar och vuxna undervisning i ridning och hästhållning\n-skapa en meningsfull fritid för kommunens ungdomar\nRidskolan drivs på ideell bas av Tyresö Ryttarförening.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nina ström",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresoryttarforening.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Nina Ström",
+        "info@tyresoryttarforening.se",
+        "https://tyresoryttarforening.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Schackklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.tyresoschack.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Schackklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi spelar schack, som är både idrott och kultur!",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "http://www.tyresoschack.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.tss.nu/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Sims%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sara@tss.nu",
+      "phone": null,
+      "description": {
+        "free_text": "Simförening med undervisning från simskola till elitverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sara nyström",
+        "contact_person_role": null,
+        "contact_person_email": "sara@tss.nu",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Sara Nyström",
+        "sara@tss.nu",
+        "http://www.tss.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Skeppslag",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Segling"
+      ],
+      "categories": [
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.tyresoskeppslag.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Skeppslag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresoskeppslag.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi bedriver seglarläger under 2 veckor varje sommar unt midsommar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Segling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresoskeppslag.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "info@tyresoskeppslag.se",
+        "https://www.tyresoskeppslag.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Bollmora",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://panga.nu/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresoskf.se",
+      "phone": null,
+      "description": {
+        "free_text": "Skytte med luft och krut",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Personer med funktionsnedsättning",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonny fransson",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresoskf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Personer med funktionsnedsättning",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Jonny Fransson",
+        "info@tyresoskf.se",
+        "https://panga.nu/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Strand FC",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Parasport"
+      ],
+      "categories": [
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.svenskalag.se/tyresostrandfc",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Strand%20FC",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@tyresostrandfc.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Parasport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@tyresostrandfc.se",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@tyresostrandfc.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "styrelsen@tyresostrandfc.se",
+        "styrelsen@tyresostrandfc.se",
+        "https://www.svenskalag.se/tyresostrandfc",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö teaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.tyresoteater.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20teaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresoteater.se",
+      "phone": null,
+      "description": {
+        "free_text": "Teaterförening som framfört produktioner som Tyresöspelet, Hemsöborna, revyer, barnteater, radioteater m.m. sedan 1985 då första Tyresöspelet var vid Tyresö slott.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin andreason",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresoteater.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Karin Andreason",
+        "info@tyresoteater.se",
+        "http://www.tyresoteater.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Trollbäcken IBK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.ttibk.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Trollb%C3%A4cken%20IBK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@ttibk.se",
+      "phone": "+4687420408",
+      "description": {
+        "free_text": "Innebandyförening, barn, ungdom, junior och senior.\nVi tränar, spelar matcher och har kul tillsammans.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansliet",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@ttibk.se",
+        "contact_person_phone": "+4687420408"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Kansliet",
+        "087420408",
+        "kansliet@ttibk.se",
+        "https://www.ttibk.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresö Trädgårdssällskap",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.tyrgarden.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6%20Tr%C3%A4dg%C3%A5rdss%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyrgarden.se",
+      "phone": "+46704611920",
+      "description": {
+        "free_text": "Främja den fritidsmässiga trädgårdsodlingen i Tyresö kommun genom föredrag och andra aktiviteter inom trädgård.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Riitta johansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyrgarden.se",
+        "contact_person_phone": "+46704611920"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Riitta Johansson",
+        "0704611920",
+        "info@tyrgarden.se",
+        "https://www.tyrgarden.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresögymnastiken",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik",
+        "Parasport",
+        "Parkour"
+      ],
+      "categories": [
+        "Bollmora",
+        "Trollbäcken",
+        "Östra Tyresö"
+      ],
+      "homepage_url": "https://www.tyresogymnastiken.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6gymnastiken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@tyresogymnastiken.se",
+      "phone": null,
+      "description": {
+        "free_text": "Gymnastikförening i Tyresö för alla från 2 år och uppåt. Truppgymnastik, paragymnastik och parkour.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik",
+                "Parasport",
+                "Parkour"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Personer med funktionsnedsättning"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bollmora",
+                "Trollbäcken",
+                "Östra Tyresö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@tyresogymnastiken.se",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "kansli@tyresogymnastiken.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Personer med funktionsnedsättning"
+      ],
+      "contact_lines": [
+        "Kansli@tyresogymnastiken.se",
+        "kansli@tyresogymnastiken.se",
+        "https://www.tyresogymnastiken.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Tyresökören",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Konsert",
+        "Körsång",
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.tyresokoren.se/",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Tyres%C3%B6k%C3%B6ren",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tyresokoren.se",
+      "phone": null,
+      "description": {
+        "free_text": "Fristående blandad kör med bred repertoar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konsert",
+                "Körsång",
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ordförande: lena sundblad",
+        "contact_person_role": null,
+        "contact_person_email": "info@tyresokoren.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Ordförande: Lena Sundblad",
+        "info@tyresokoren.se",
+        "https://www.tyresokoren.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tyresö",
+    "scrape_run_id": "f7e24f53-92a6-41c5-9e7f-09f18a8438a0",
+    "scraped_at": "2025-10-29T01:21:12.115Z",
+    "association": {
+      "name": "Veteran Ishockey Players (V.I.P)",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [
+        "Trollbäcken"
+      ],
+      "homepage_url": "https://www.sportnik.com/group/35945",
+      "detail_url": "https://tyreso.rbok.se/#/Foreningsregister?association=Veteran%20Ishockey%20Players%20(V.I.P)",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "robert_nyqvist@hotmail.com",
+      "phone": "+46708120455",
+      "description": {
+        "free_text": "Veteranishockeyspel utan övre åldersbegränsningar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ishockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mer vuxna (65+)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Trollbäcken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert nyqvist",
+        "contact_person_role": null,
+        "contact_person_email": "robert_nyqvist@hotmail.com",
+        "contact_person_phone": "+46708120455"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mer vuxna (65+)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Robert Nyqvist",
+        "0708120455",
+        "robert_nyqvist@hotmail.com",
+        "https://www.sportnik.com/group/35945",
+        "Stäng"
+      ]
+    }
+  }
+]

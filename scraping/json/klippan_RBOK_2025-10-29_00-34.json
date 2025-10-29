@@ -1,0 +1,6917 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "ABF Nordvästskåne",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.abf.se/nordvastskane/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=ABF%20Nordv%C3%A4stsk%C3%A5ne",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info.nordvastskane@abf.se",
+      "phone": "+464259040",
+      "description": {
+        "free_text": "Studieförbund med verksamhet i 9 nordvästskånska kommuner däribland Klippan",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sara eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "info.nordvastskane@abf.se",
+        "contact_person_phone": "+464259040"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sara Eriksson",
+        "042-59040",
+        "info.nordvastskane@abf.se",
+        "https://www.abf.se/nordvastskane/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "BK Bowlinggänget",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=BK%20Bowlingg%C3%A4nget",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "danielssonbirgitta6@gmail.com",
+      "phone": "+46767815184",
+      "description": {
+        "free_text": "Parabowling",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta danielsson",
+        "contact_person_role": null,
+        "contact_person_email": "danielssonbirgitta6@gmail.com",
+        "contact_person_phone": "+46767815184"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Birgitta Danielsson",
+        "0767815184",
+        "danielssonbirgitta6@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "BK Klippan Strikers",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": "http://strikers.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=BK%20Klippan%20Strikers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "thomas@gobyus.se",
+      "phone": "+46737787208",
+      "description": {
+        "free_text": "Ungdomsbowling.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bowling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas johansson",
+        "contact_person_role": null,
+        "contact_person_email": "thomas@gobyus.se",
+        "contact_person_phone": "+46737787208"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)"
+      ],
+      "contact_lines": [
+        "Thomas Johansson",
+        "073-7787208",
+        "thomas@gobyus.se",
+        "http://strikers.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "BK Lejonet",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": "http://bklejonet.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=BK%20Lejonet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kerstin.christer@telia.com",
+      "phone": "+46733154406",
+      "description": {
+        "free_text": "Bowlingklubb för alla åldrar med verksamhet i Klippans Bowlinghall.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bowling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer pettersson",
+        "contact_person_role": null,
+        "contact_person_email": "kerstin.christer@telia.com",
+        "contact_person_phone": "+46733154406"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Christer Pettersson",
+        "073-3154406",
+        "kerstin.christer@telia.com",
+        "http://bklejonet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Boule Klippan",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Boule%20Klippan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "syntis@bahnhof.se",
+      "phone": "+46707871812",
+      "description": {
+        "free_text": "Tränar och serie spel sommar som vinter",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Boule"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "syntis@bahnhof.se",
+        "contact_person_phone": "+46707871812"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "syntisjojje@bahnhof.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)"
+      ],
+      "contact_lines": [
+        "syntis@bahnhof.se",
+        "0707871812",
+        "syntisjojje@bahnhof.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "BRIS",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [
+        "Social verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.bris.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=BRIS",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bris.syd@bris.se",
+      "phone": null,
+      "description": {
+        "free_text": "Bris syfte är att stärka barnets rättigheter genom att stödja barn utifrån barnets behov, mobilisera samhället och påverka beslutsfattare genom att göra barns röster hörda. På så sätt skapas ett bättre samhälle för alla. All verksamhet i Bris utgår från FN:s konvention om barnets rättigheter och barnsynen i denna. Bris är en av Sveriges ledande barnrättsorganisationer som varje dag kämpar för ett bättre samhälle för barn där varje barn känner till sina rättigheter och där barnets rättigheter tillgodoses. Bris ska vara tillgängligt för varje barn som uttrycker ett behov av hjälp och särskilt bistå barn och unga i utsatta situationer. Bris ska fungera som en länk mellan barn, vuxna och samhället. Bris ska stödja barn individuellt under former som präglas av hög tillgänglighet. Stödet är alltid kvalificerat och utgår från det enskilda barnets behov. Kunskapen om barnets livssituation kommer från Bris egna kontakter med barn, genom barns delaktighet, från barn som berättar för andra vuxna där Bris får del av kunskapen genom omvärldsbevakning, forskning och samarbeten med andra organisationer. Bris förmedlar kunskap och verkar för att olika samhällsinstanser efterlever FN:s konvention om barnets rättigheter och påverkar beslutsfattare genom att göra barns röster hörda och förmedla kunskap om barns behov, livssituation och upplevelser till omvärlden. För mer information se bifogat ansökningsbrev.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Social verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "bris.syd@bris.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)"
+      ],
+      "contact_lines": [
+        "bris.syd@bris.se",
+        "https://www.bris.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Brottsofferjouren Ängelholm",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.engelholm.boj.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Brottsofferjouren%20%C3%84ngelholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@engelholm.boj.se",
+      "phone": "+46702971304",
+      "description": {
+        "free_text": "Ideell stödverksamhet till brottsoffer, vittne och anhöriga",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ella granberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@engelholm.boj.se",
+        "contact_person_phone": "+46702971304"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ella Granberg",
+        "0702971304",
+        "info@engelholm.boj.se",
+        "http://www.engelholm.boj.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Dansföreningen Saltito",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "http://www.saltito.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Dansf%C3%B6reningen%20Saltito",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "katarina@saltito.se",
+      "phone": "+46702466288",
+      "description": {
+        "free_text": "Danskurser i olika sorters dans, såsom jazz, show, modern, kids mm från 3 år och uppåt",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina molin",
+        "contact_person_role": null,
+        "contact_person_email": "katarina@saltito.se",
+        "contact_person_phone": "+46702466288"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Katarina Molin",
+        "0702-466288",
+        "katarina@saltito.se",
+        "http://www.saltito.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Epilepsiföreningen Norra Skåne",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [
+        "Social verksamhet",
+        "Ungdomsverksamhet/personer med funktionsvariationt",
+        "Övrig"
+      ],
+      "categories": [
+        "Klippan",
+        "Ljungbyhed/Färingtofta",
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": "https://www.epnsk.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Epilepsif%C3%B6reningen%20Norra%20Sk%C3%A5ne",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@epnsk.se",
+      "phone": "+46707489566",
+      "description": {
+        "free_text": "Epilepsiföreningen Norra Skåne erbjuder stöd och hjälp till personer med epilepsi och deras anhöriga.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Social verksamhet",
+                "Ungdomsverksamhet/personer med funktionsvariationt",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan",
+                "Ljungbyhed/Färingtofta",
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thonia roth",
+        "contact_person_role": null,
+        "contact_person_email": "info@epnsk.se",
+        "contact_person_phone": "+46707489566"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Thonia Roth",
+        "0707489566",
+        "info@epnsk.se",
+        "https://www.epnsk.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "FBC Viljan",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=FBC%20Viljan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stefansvedrin@hotmail.com",
+      "phone": "+46709527196",
+      "description": {
+        "free_text": "Genomförande av barn- och ungdomsidrott med innebandy träning och matchspel i Ljungbyhed.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan svedrin",
+        "contact_person_role": null,
+        "contact_person_email": "stefansvedrin@hotmail.com",
+        "contact_person_phone": "+46709527196"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stefan Svedrin",
+        "0709527196",
+        "stefansvedrin@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "FC Kopparmöllan",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": "http://www.laget.se/fckopparmollan",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=FC%20Kopparm%C3%B6llan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "fckopparmollan@outlook.com",
+      "phone": "+46703789026",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik thulinsson",
+        "contact_person_role": null,
+        "contact_person_email": "fckopparmollan@outlook.com",
+        "contact_person_phone": "+46703789026"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Thulinsson",
+        "0703789026",
+        "fckopparmollan@outlook.com",
+        "http://www.laget.se/fckopparmollan",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "FUB Klippan/Åstorp",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://www.fub.se/lokal/fub-klippan-astorp/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=FUB%20Klippan%2F%C3%85storp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lenalandin@hotmail.se",
+      "phone": "+46702722701",
+      "description": {
+        "free_text": "FUB Klippan/Åstorp arbetar för att personer med Intellektuell funktionsnedsättning (IF) ska leva ett gott liv.\nVi gör aktiviteter och arbetar intressepolitiskt.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena landin",
+        "contact_person_role": null,
+        "contact_person_email": "lenalandin@hotmail.se",
+        "contact_person_phone": "+46702722701"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lena Landin",
+        "0702722701",
+        "lenalandin@hotmail.se",
+        "https://www.fub.se/lokal/fub-klippan-astorp/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Färingtofta Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bygdegardarna.se/tornsborgs-tivoli/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=F%C3%A4ringtofta%20Idrottsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "fik@faringtofta.se",
+      "phone": "+46736897879",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders svensson",
+        "contact_person_role": null,
+        "contact_person_email": "fik@faringtofta.se",
+        "contact_person_phone": "+46736897879"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders Svensson",
+        "0736897879",
+        "fik@faringtofta.se",
+        "https://bygdegardarna.se/tornsborgs-tivoli/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Föreningen Hyllstofta Ryggåsstuga",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/hyllstofta",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=F%C3%B6reningen%20Hyllstofta%20Rygg%C3%A5sstuga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hyllstofta.ryggasstuga@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Förening för bevarande av Hyllstofta Ryggåsstuga",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger ragnarsson",
+        "contact_person_role": null,
+        "contact_person_email": "hyllstofta.ryggasstuga@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Roger Ragnarsson",
+        "hyllstofta.ryggasstuga@gmail.com",
+        "https://www.hembygd.se/hyllstofta",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Föreningen Veteranjärnvägen",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=F%C3%B6reningen%20Veteranj%C3%A4rnv%C3%A4gen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "veteranjarnvagen@veteranjarnvagen.se",
+      "phone": "+46435441773",
+      "description": {
+        "free_text": "Veteranjärnvägen med veteranfordon och dressinuthyrning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats waldemarsson",
+        "contact_person_role": null,
+        "contact_person_email": "veteranjarnvagen@veteranjarnvagen.se",
+        "contact_person_phone": "+46435441773"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mats Waldemarsson",
+        "043-5441773",
+        "veteranjarnvagen@veteranjarnvagen.se",
+        "www.veteranjarnvagen.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Gråmanstorps Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Evenemang",
+        "Social verksamhet"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://bygdegardarna.se/gramanstorp",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Gr%C3%A5manstorps%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bygdegårdens verksamhet består av att anordna diverse evenemang såsom konstutställningar, medlemsaktiviteter, offentliga evenemang samt uthyrning av lokaler åt privatpersoner för diverse tillställningar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Evenemang",
+                "Social verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "https://bygdegardarna.se/gramanstorp",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Hej främling!",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Hej%20fr%C3%A4mling!",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stella@hejframling.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stella",
+        "contact_person_role": null,
+        "contact_person_email": "stella@hejframling.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stella",
+        "stella@hejframling.se",
+        "www.hejframling.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Hjälpas Åt RSMH-Klippan",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Hj%C3%A4lpas%20%C3%85t%20RSMH-Klippan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "En förening att gå till för att må bättre psykiskt.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Hyllstofta Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Hyllstofta%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "persson.hyllstofta@telia.com",
+      "phone": "+46722403201",
+      "description": {
+        "free_text": "Gevärsskytteförening för alla åldrar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Carina persson",
+        "contact_person_role": null,
+        "contact_person_email": "persson.hyllstofta@telia.com",
+        "contact_person_phone": "+46722403201"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Carina Persson",
+        "0722403201",
+        "persson.hyllstofta@telia.com",
+        "www.hyllstoftaskf.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Jalla Tillsammans",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://jallatillsammans.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Jalla%20Tillsammans",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jallatillsammans@gmail.com",
+      "phone": "+46793474909",
+      "description": {
+        "free_text": "Jalla Tillsammans är en social och kulturell förening som är inrättad med syftet att sprida och främja en god integrationskultur i det svenska samhället. Genom att etablera olika aktiviteter vill vi hjälpa individer att engagera sig i samhället på ett positivt sätt och få människor att komma närmare varandra. Syftet är att vi alla ska bli bättre på att förstå och respektera varandra i ett demokratiskt, multikulturellt, multireligiöst och multietniskt samhälle.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mohammad soliman",
+        "contact_person_role": null,
+        "contact_person_email": "jallatillsammans@gmail.com",
+        "contact_person_phone": "+46793474909"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mohammad Soliman",
+        "0793474909",
+        "jallatillsammans@gmail.com",
+        "https://jallatillsammans.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Kartingsällskapet Klippan",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Karting"
+      ],
+      "categories": [
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": "https://www.svenskalag.se/ksklippan",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Kartings%C3%A4llskapet%20Klippan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordf@ksklippan.se",
+      "phone": "+46708767265",
+      "description": {
+        "free_text": "Klubben bedriver träning och tävlingskörning i Karting på banan Kart ring Klippan belägen i Bolestad vid Östra Ljunby .\nKarting kan man utöva från det år man fyller 6 år tills man inte orkar längre.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Karting"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar holtzberg",
+        "contact_person_role": null,
+        "contact_person_email": "ordf@ksklippan.se",
+        "contact_person_phone": "+46708767265"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gunnar Holtzberg",
+        "0708767265",
+        "ordf@ksklippan.se",
+        "https://www.svenskalag.se/ksklippan",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippan Amatörernas Folkdanslag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Klippan",
+        "Ljungbyhed/Färingtofta",
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": "https://folkdansringen.se/klippan/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippan%20Amat%C3%B6rernas%20Folkdanslag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "per-eskil.persson@telia.com",
+      "phone": "+46703310977",
+      "description": {
+        "free_text": "Klippan Amatörernas Folkdanslag har enligt stadgarna som syfte och mål \"att sprida kännedom om, levandegöra samt föra vidare svensk folklig kultur. Verksamheten omfattar huvudsakligen områdena dans, lek, sång, musik, klädskick, hantverk, matkultur, folktro samt seder och bruk.\" Föreningen är politiskt och religiöst obunden och är öppen för alla åldrar och för alla som är intresserade. Stadgarna säger att \"verksamheten ska bedrivas under kamratliga och sunda former så att kontakterna mellan olika åldrar främjas och förståelse skapas för olika folk och dess kultur\".\nFöreningens kärnverksamhet är folkdans, folklig dans och folkmusik, men även dräktkultur, slöjd och olika typer av hantverk m.m. är en viktig del. Under senare år har det vuxit fram ett allt tätare samarbete med andra folkdansföreningar. Vi har regelbundna utbyten med Kullagillet i Höganäs, Brogårdagillet i Bjuv, Trehäradsbygdens Folkdansgille i Dösjebro, Örkelljunga-bygdens folkdanslag m.fl. lag från norra och västra Skåne. Våra utbyten har fördjupat vänskapen mellan våra lag och bidrar till att utveckla vår verksamhet. Vi har också regelbundna dans- och musikutbyten med folkdansföreningar från andra länder i Europa. Vi har sedan länge haft goda och givande kontakter med Sakskøbings Folkedansere i Danmark, samt Augsburger Volkstanzkreis och Trachtengruppe Löffingen i Tyskland.\nI Gråmanstorps bygdegårds stora sal har vi nästan varje onsdagkväll, utom i juli-augusti, träning, dansutlärning och gemytlig samvaro. Varje år blir det c:a 38 sådana kvällar, med i genomsnitt 20 deltagare som kommer dit per gång. Folkdanslaget har för närvarande totalt 32 medlemmar, men vi besöks också flitigt av andra folkdansföreningar, och vi besöker dem. Varje verksamhetsår har vi haft c:a 12 sådana samdanstillfällen. Två gånger årligen har vi också anordnat en större danstillställning, där folkdanslag från hela Skånedistriktet inbjuds.\nTräningen leder till att vi kan göra uppvisningar i och utanför Klippans kommun. I juni månad medverkar vi normalt vid nationaldagsfirandet i Elfdalen, oftast med någon uppvisning. Under några år har vi deltagit aktivt i midsommarfirandet vid Tingsgården i Stidsvig, och i samband med midsommar har vi uppvisningar vid olika äldreboenden i kommunen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan",
+                "Ljungbyhed/Färingtofta",
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per-eskil persson",
+        "contact_person_role": null,
+        "contact_person_email": "per-eskil.persson@telia.com",
+        "contact_person_phone": "+46703310977"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Per-Eskil Persson",
+        "0703310977",
+        "per-eskil.persson@telia.com",
+        "https://folkdansringen.se/klippan/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippan RC klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "http://www.klippan-rc.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippan%20RC%20klubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@klippan-rc.se",
+      "phone": "+46727152100",
+      "description": {
+        "free_text": "Radiostyrd bilsport inomhus.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Janne olsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@klippan-rc.se",
+        "contact_person_phone": "+46727152100"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Janne Olsson",
+        "0727152100",
+        "info@klippan-rc.se",
+        "http://www.klippan-rc.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippan Taekwondo förening Yongsa",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippan%20Taekwondo%20f%C3%B6rening%20Yongsa",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "linus.djurberg@gmail.com",
+      "phone": "+46707654901",
+      "description": {
+        "free_text": "Vi bedriver den koreanska kampsporten Taekwondo. Vi har träningar tisdagar och torsdagar mellan kl 18-19.30.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linus djurberg",
+        "contact_person_role": null,
+        "contact_person_email": "linus.djurberg@gmail.com",
+        "contact_person_phone": "+46707654901"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Linus djurberg",
+        "0707654901",
+        "linus.djurberg@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippanbygdens Natur",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://klippan.naturskyddsforeningen.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippanbygdens%20Natur",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippanbygdensnatur@gmail.com",
+      "phone": "+46709465330",
+      "description": {
+        "free_text": "Föreningen erbjuder program med naturorienterade aktiviteter under hela året för allmänheten. KBN äger också ett naturreservat, föreningen sköter dessutom en slåtteräng.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva långberg",
+        "contact_person_role": null,
+        "contact_person_email": "klippanbygdensnatur@gmail.com",
+        "contact_person_phone": "+46709465330"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Eva Långberg",
+        "0709465330",
+        "klippanbygdensnatur@gmail.com",
+        "https://klippan.naturskyddsforeningen.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Badmintonklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46703151416",
+      "description": {
+        "free_text": "Badmintonspel. Träning och tävlingsverksamhet. Både tävlingsinriktning och motionsspel.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per sandström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46703151416"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per Sandström",
+        "0703151416",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans begravningsplats för smådjur",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.klippansdjurbegravningsplats.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20begravningsplats%20f%C3%B6r%20sm%C3%A5djur",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "patrik.tullsson@icloud.com",
+      "phone": "+46734055140",
+      "description": {
+        "free_text": "Begravningsplats för smådjur",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Patrik tullsson",
+        "contact_person_role": null,
+        "contact_person_email": "patrik.tullsson@icloud.com",
+        "contact_person_phone": "+46734055140"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Patrik Tullsson",
+        "0734 055140",
+        "patrik.tullsson@icloud.com",
+        "https://www.klippansdjurbegravningsplats.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Bordtennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Bridgeklubb",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://www.svenskbridge.se/klippans-bk",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Bridgeklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "runeg@gmx.com",
+      "phone": "+46793478384",
+      "description": {
+        "free_text": "Välkommen till Klippans BK nya hemsida.\nVi spelar bridge varje torsdag i vår spellokal i föreningshuset Sågen som ligger på Ängelholmsvägen 11 i Klippan.\nOBS! Från och med oktober 2024 startar vi spelet redan 18.00.\nSpelarna bör vara på plats 15 minuter före spelstart.\nAnmäl dig senast på torsdagen samma dag.\nAnmälan görs här på hemsidan.\nAnmälan är öppen även för spelare från andra klubbar.\nVälkomna.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rune gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "runeg@gmx.com",
+        "contact_person_phone": "+46793478384"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Rune Gustafsson",
+        "0793478384",
+        "runeg@gmx.com",
+        "https://www.svenskbridge.se/klippans-bk",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Brottarklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.klippansbk.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Brottarklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippansbk@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "klippansbk@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "klippansbk@gmail.com",
+        "https://www.klippansbk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Civilförsvarsförening",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://civil.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Civilf%C3%B6rsvarsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippan@civil2.se",
+      "phone": "+46763111435",
+      "description": {
+        "free_text": "en civil del av Sveriges krisberedskap\nKlippans Civilförsvarsförsvarsförening är en del av Civilförsvarsförbundet och dar med en frivillig försvarsorganisation som arbetar med frågor som rör trygghet, säkerhet, skydd och överlevnad. Vi har sedan starten 1937 varit en del av det civila försvaret. En av våra viktigaste uppgifter är att lära människor att klara sig i utsatta lägen",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agnar helgason.",
+        "contact_person_role": null,
+        "contact_person_email": "klippan@civil2.se",
+        "contact_person_phone": "+46763111435"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Agnar Helgason.",
+        "0763111435",
+        "klippan@civil2.se",
+        "https://civil.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Dragkampsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dragkamp"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://klippansdk.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Dragkampsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@klippansdk.se",
+      "phone": "+46435748220",
+      "description": {
+        "free_text": "Dragkamp för alla oavsett ålder eller förutsättningar. För motionärer, elit och knattar. Målgrupper är således hela åldersspannet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dragkamp"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jessica granqvist",
+        "contact_person_role": null,
+        "contact_person_email": "info@klippansdk.se",
+        "contact_person_phone": "+46435748220"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Jessica Granqvist",
+        "0435748220",
+        "Info@klippansdk.se",
+        "https://klippansdk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Filatilistklubb",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Filatilistklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lellle@live.se",
+      "phone": "+46763254395",
+      "description": {
+        "free_text": "En frimärks klubb som träffas var tredje tisdag",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart jönsson",
+        "contact_person_role": null,
+        "contact_person_email": "lellle@live.se",
+        "contact_person_phone": "+46763254395"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lennart Jönsson",
+        "0763254395",
+        "lellle@live.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Friidrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://klippanfriidrott.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Friidrottsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippanfriidrott@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "klippanfriidrott@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "klippanfriidrott@gmail.com",
+        "https://klippanfriidrott.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Förenade Fotbollsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.klippansff.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20F%C3%B6renade%20Fotbollsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kff@klippansff.se",
+      "phone": null,
+      "description": {
+        "free_text": "Idrottsförening - FOTBOLL",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kff@klippansff.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "kff@klippansff.se",
+        "https://www.klippansff.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Gymnastikkrets",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://www.klippansgymnastikkrets.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Gymnastikkrets",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@klippansgk.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@klippansgk.se",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@klippansgk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@klippansgk.se",
+        "info@klippansgk.se",
+        "https://www.klippansgymnastikkrets.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.klippanshembygd.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@klippanshembygd.se",
+      "phone": "+46705711356",
+      "description": {
+        "free_text": "Hembygdsförening. Tar hand om äldre föremål och byggnader, samlingsplats för gamla och unga.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann-christin ivarsson",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@klippanshembygd.se",
+        "contact_person_phone": "+46705711356"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ann-Christin Ivarsson",
+        "070 571 1356",
+        "ordforande@klippanshembygd.se",
+        "https://www.klippanshembygd.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Kampsportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Kampsportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippanskampsportklubb@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen bedriver idrotten jujutsu",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel ohlsson",
+        "contact_person_role": null,
+        "contact_person_email": "klippanskampsportklubb@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Daniel Ohlsson",
+        "klippanskampsportklubb@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://www.klippanskarateklubb.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Karateklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippanskarateklubb@gmail.com",
+      "phone": "+46702203595",
+      "description": {
+        "free_text": "Karateträning och tävling",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nils-anders nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "klippanskarateklubb@gmail.com",
+        "contact_person_phone": "+46702203595"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Nils-Anders nilsson",
+        "0702203595",
+        "klippanskarateklubb@gmail.com",
+        "https://www.klippanskarateklubb.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://klippan.konstforeningar.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@klippanskonstforening.se",
+      "phone": "+46768587893",
+      "description": {
+        "free_text": "Utställningsverksamhet i Klippans konsthall. Föredrag, bildvisningar, kurser för barn och vuxna mm.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika persson ordförande",
+        "contact_person_role": null,
+        "contact_person_email": "info@klippanskonstforening.se",
+        "contact_person_phone": "+46768587893"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Annika Persson ordförande",
+        "0768587893",
+        "info@klippanskonstforening.se",
+        "https://klippan.konstforeningar.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans kraftsportsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20kraftsportsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jens.leandersson@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Tyngdlyftning och styrketräning",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jens leandersson",
+        "contact_person_role": null,
+        "contact_person_email": "jens.leandersson@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jens Leandersson",
+        "jens.leandersson@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans MHF",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20MHF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippan@skane.mhf.se",
+      "phone": "+46707492745",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders magnusson",
+        "contact_person_role": null,
+        "contact_person_email": "klippan@skane.mhf.se",
+        "contact_person_phone": "+46707492745"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders Magnusson",
+        "0707492745",
+        "Klippan@skane.mhf.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Musikkår",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://klippansmusikkar.weebly.com/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Musikk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "christer.ohlin@telia.com",
+      "phone": "+46702666426",
+      "description": {
+        "free_text": "Klippans musikkår är en ideell förening som vill värna om den svenska blås-musiktraditionen. Musikanter, som kan traktera ett blåsinstrument eller slagverk, är välkomna som medlemmar. Ett antal konserter genomförs varje år, både inom som utom Klippans kommun.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer ohlin",
+        "contact_person_role": null,
+        "contact_person_email": "christer.ohlin@telia.com",
+        "contact_person_phone": "+46702666426"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christer Ohlin",
+        "0702666426",
+        "christer.ohlin@telia.com",
+        "http://klippansmusikkar.weebly.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Pensionärsbowlingklubb",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Pension%C3%A4rsbowlingklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bowling för pensionärer. Träning varje vecka och seriespel inom Alliansen Ringen. Medlemsskap kan ansökas om, fr.o.m det år man fyller 60.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Pistolklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://www.klippanspistolklubb.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Pistolklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippanspistolklubb@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": "Pistolskytteförening. Klubben är ansluten till Nationella förbundet (Svenska Pistolskytteförbundet) samt till Svenska Skyttesportförbundet (som i sin tur är anslutet till Riksidrottsförbundet)\nVi tränar pistolskytte med både luftpistol (Sågen) och krutvapen (skjutbanan i Mammarp)\nFlertalet skyttar i klubben tävlar både på lokal-, distrikts- och riksnivå och en mindre del tävlar också på internationell nivå",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lasse amnestål",
+        "contact_person_role": null,
+        "contact_person_email": "klippanspistolklubb@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Lasse Amnestål",
+        "klippanspistolklubb@outlook.com",
+        "https://www.klippanspistolklubb.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hästsport",
+        "Ridning"
+      ],
+      "categories": [
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": "https://klippansridklubb.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Ridklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hästsport",
+                "Ridning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "https://klippansridklubb.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Riksteaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippan.riksteaterforening@gmail.com",
+      "phone": "+46729426520",
+      "description": {
+        "free_text": "Riksteatern är en av Sveriges nationalscener. Den lokala föreningens syfte är att erbjuda bred scenkonst till Klippans invånare.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie berlin",
+        "contact_person_role": null,
+        "contact_person_email": "klippan.riksteaterforening@gmail.com",
+        "contact_person_phone": "+46729426520"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Marie Berlin",
+        "072 9426520",
+        "klippan.riksteaterforening@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Rödakorskrets",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.rodakorset.se/klippan",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20R%C3%B6dakorskrets",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "siwnilsson45@gmail.com",
+      "phone": "+46705856355",
+      "description": {
+        "free_text": "Stödjer och hjälper äldre och handikappade",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Siw nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "siwnilsson45@gmail.com",
+        "contact_person_phone": "+46705856355"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Siw Nilsson",
+        "0705856355",
+        "siwnilsson45@gmail.com",
+        "https://www.rodakorset.se/klippan",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Scoutkår",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [
+        "Friluftsliv"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info.klippanscout@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "friluftsliv med innehåll. Uteaktiviteter , naturkunskap, scoutkunskap förberedande för läger och övernattningar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friluftsliv"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info.klippanscout@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "info.klippanscout@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.klippanssimsallskap.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Sims%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@klippanssimsallskap.se",
+      "phone": "+46760074570",
+      "description": {
+        "free_text": "simskola och simträning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik fritz",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@klippanssimsallskap.se",
+        "contact_person_phone": "+46760074570"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Erik Fritz",
+        "0760074570",
+        "kansli@klippanssimsallskap.se",
+        "http://www.klippanssimsallskap.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans SK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20SK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "magnusljunggrens@gmail.com",
+      "phone": "+46734272229",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus ljunggren",
+        "contact_person_role": null,
+        "contact_person_email": "magnusljunggrens@gmail.com",
+        "contact_person_phone": "+46734272229"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Magnus Ljunggren",
+        "0734272229",
+        "magnusljunggrens@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans sport & fiskevårdsförening",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [
+        "Friluftsliv"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "http://ksff.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20sport%20%26%20fiskev%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Förening för fiskeintresserade och vattenvård i våra vatten i kommunen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friluftsliv"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "http://ksff.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Unga Muslimer",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Unga%20Muslimer",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ungdomsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Klippans Ungdomsorkester",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Klippans%20Ungdomsorkester",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Krika hästsportförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrig"
+      ],
+      "categories": [
+        "Klippan",
+        "Ljungbyhed/Färingtofta"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Krika%20h%C3%A4stsportf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ulla@hernersel.se8",
+      "phone": "+46703972151",
+      "description": {
+        "free_text": "Träning och tävling i Sportkörning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan",
+                "Ljungbyhed/Färingtofta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulla herner",
+        "contact_person_role": null,
+        "contact_person_email": "ulla@hernersel.se8",
+        "contact_person_phone": "+46703972151"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Ulla Herner",
+        "0703972151",
+        "ulla@hernersel.se8",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyhedframtids byalag",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.ljungbyhedsframtid.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyhedframtids%20byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Byalaget som verkar för att Ljungbyhed med omnejd ska hållas levande, en förening för alla 0-100år som vill att det ska hända positiva aktiviteter i området.",
+        "sections": []
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.ljungbyhedsframtid.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyheds Aeronautiska Sällskap",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Evenemang",
+        "Fritidsgård",
+        "Hembygd",
+        "Kultur",
+        "Museiverksamhet",
+        "Studieverksamhet",
+        "Ungdomsverksamhet/personer med funktionsvariationt"
+      ],
+      "categories": [
+        "Ljungbyhed/Färingtofta"
+      ],
+      "homepage_url": "https://www.flynride.se/las",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyheds%20Aeronautiska%20S%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "las.ljungbyhed@gmail.com",
+      "phone": "+46709327438",
+      "description": {
+        "free_text": "Ideell förening som bedriver flygklubbsverksamhet med historiska flygplan samt bevarar F5 och Ljungbyheds flygtraditioner.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Evenemang",
+                "Fritidsgård",
+                "Hembygd",
+                "Kultur",
+                "Museiverksamhet",
+                "Studieverksamhet",
+                "Ungdomsverksamhet/personer med funktionsvariationt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljungbyhed/Färingtofta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jimmy mc corkindale",
+        "contact_person_role": null,
+        "contact_person_email": "las.ljungbyhed@gmail.com",
+        "contact_person_phone": "+46709327438"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Jimmy Mc Corkindale",
+        "070-932 74 38",
+        "las.ljungbyhed@gmail.com",
+        "https://www.flynride.se/las",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyheds Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyheds%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ljungbyheds Golfklubb är en förening för personer i alla åldrar. Golfbanan är en vacker 18 håls bana med hed och parkkaraktär. Vi erbjuder utbildning, träning, spel i olika grupper, tävlingar mm. för medlemmar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyheds IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.ljungbyhedsif.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyheds%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ljungbyheds IF är en fotbollsförening som engagerar människor i alla åldrar. Föreningen har en fotbollsanläggning i utkanten av Ljungbyhed - Ljungavallen med två gräsplaner och en klubbstuga.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.ljungbyhedsif.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyheds JK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyheds%20JK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ljungbyheds judoklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyheds Militärhistoriska Museum",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://lmhm.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyheds%20Milit%C3%A4rhistoriska%20Museum",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lmhm.lju@gmail.com",
+      "phone": "+467601145886",
+      "description": {
+        "free_text": "Museum där vi visar och berättar om Husarenas tid från 1658-1952, och Krigsflygs-skolan F5 från 1910-1998",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger ragnarsson",
+        "contact_person_role": null,
+        "contact_person_email": "lmhm.lju@gmail.com",
+        "contact_person_phone": "+467601145886"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Roger Ragnarsson",
+        "07601145886",
+        "lmhm.lju@gmail.com",
+        "http://lmhm.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyheds Pistolklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyheds%20Pistolklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ljpk.se",
+      "phone": null,
+      "description": {
+        "free_text": "Sportskytte pistol",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Conny nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@ljpk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Conny Nilsson",
+        "info@ljpk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyheds Scoutkår",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://ljungbyhed.scout.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyheds%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ljungbyhed.scout@gmail.com",
+      "phone": "+46734407790",
+      "description": {
+        "free_text": "Vår verksamhet vänder sig till barn och ungdomar från 3 år - 19 år. Scouterna ger barn och ungdomar från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer. Vårt mål är att skapa goda världsmedborgare genom ett rikt friluftsliv. Gemenskap och äventyr.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter wilhelmsson",
+        "contact_person_role": null,
+        "contact_person_email": "ljungbyhed.scout@gmail.com",
+        "contact_person_phone": "+46734407790"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Peter Wilhelmsson",
+        "0734407790",
+        "ljungbyhed.scout@gmail.com",
+        "https://ljungbyhed.scout.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyheds Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Ljungbyhed/Färingtofta"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyheds%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lejfpeterson@gmail.com",
+      "phone": "+46701555281",
+      "description": {
+        "free_text": "Tennisträning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljungbyhed/Färingtofta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "lejfpeterson@gmail.com",
+        "contact_person_phone": "+46701555281"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "lejfpeterson@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)"
+      ],
+      "contact_lines": [
+        "lejfpeterson@gmail.com",
+        "0701555281",
+        "lejfpeterson@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ljungbyhedsgymnasterna",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Ljungbyhedsgymnasterna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lennartsaflund@gmail.com",
+      "phone": "+46704490548",
+      "description": {
+        "free_text": "Gymnastik",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart säflund",
+        "contact_person_role": null,
+        "contact_person_email": "lennartsaflund@gmail.com",
+        "contact_person_phone": "+46704490548"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lennart Säflund",
+        "0704490548",
+        "lennartsaflund@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Låt Oss Kubb Klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "http://www.latosskubbklubb.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=L%C3%A5t%20Oss%20Kubb%20Klubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@latosskubbklubb.se",
+      "phone": null,
+      "description": {
+        "free_text": "Låt Oss Kubb Klubb (LOKK) är en ideell förening som syftar till att erbjuda en inkluderande och social mötesplats för individer i alla åldrar som är intresserade av att utöva kubb, dart och frisbeegolf i organiserad form. Föreningen främjar både motionsspel och tävlingsdeltagande, med särskilt fokus på att ge tillgång till regelriktig utrustning och möjlighet att delta i turneringar såsom Kubb-VM.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@latosskubbklubb.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@latosskubbklubb.se",
+        "http://www.latosskubbklubb.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "MIC (Musik i centrum)",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Konsert",
+        "Kultur",
+        "Musik"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=MIC%20(Musik%20i%20centrum)",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konsert",
+                "Kultur",
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Minstingarna",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ljungbyhed/Färingtofta"
+      ],
+      "homepage_url": "https://minstingarna.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Minstingarna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hej@minstingarna.se",
+      "phone": null,
+      "description": {
+        "free_text": "Syftet med föreningen är att främja aktiviteter för barn och att utveckla intresset för en barnkultur där inkludering, rörelseglädje, skapande och gemenskap är i fokus. Med ett tydligt barnperspektiv strävar föreningen efter att främja en trygg och kreativ miljö där barn, främst i åldrarna 1-5 år, kan utforska och stärka sin självkänsla.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljungbyhed/Färingtofta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fenix raihle dufva",
+        "contact_person_role": null,
+        "contact_person_email": "hej@minstingarna.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)"
+      ],
+      "contact_lines": [
+        "Fenix Raihle Dufva",
+        "hej@minstingarna.se",
+        "https://minstingarna.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Modell Ljungbyhed",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Modell%20Ljungbyhed",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningens ändamål är att bedriva en fritidsgård för barn och ungdomar där de kan träffas och umgås drogfritt tillsammans, För att kunna uppfylla detta ska det finnas ett rimligt antal vuxna personer tillhands i fritidsgården under öppettiderna. Styrelsen kan besluta om detta antal vilket styrs av vilken form av verksamhet som bedrivs.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Munkakören",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Körsång"
+      ],
+      "categories": [
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": "https://munkakoren.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Munkak%C3%B6ren",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@munkakoren.se",
+      "phone": null,
+      "description": {
+        "free_text": "Munkakören är en manskör. Kören bildades 1944\nVår körledare är Stine Skaarup.\nÖvningsplats för tillfället är Östra-Ljungby församlingshem, måndagar mellan 18.30-20.30\nVi sjunger både sakralt och profant.\nMunkakören brukar framträda på Valborsmässoafton i Toma Klippan, Nationaldagen Tingsgården i Stidsvig och Källna kyrka på annandag jul.\nVi har även andra framträdande som brukar vara mycket uppskattat.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Körsång"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@munkakoren.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "info@munkakoren.se",
+        "https://munkakoren.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Mötesplats Heden",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [
+        "Övrig"
+      ],
+      "categories": [
+        "Ljungbyhed/Färingtofta"
+      ],
+      "homepage_url": "https://motheden.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=M%C3%B6tesplats%20Heden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@motheden.se",
+      "phone": null,
+      "description": {
+        "free_text": "Mötesplats Heden är en paraplyorganisation för föreningar runt Ljungbyhed med syftet att skapa en mötesplats för både föreningar och privatpersoner.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljungbyhed/Färingtofta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@motheden.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "info@motheden.se",
+        "https://motheden.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Nattöga Ljungbyhed",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Ljungbyhed/Färingtofta"
+      ],
+      "homepage_url": "https://nattoga-ljungbyhed.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Natt%C3%B6ga%20Ljungbyhed",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nattoga-ljungbyhed.se",
+      "phone": "+46435441011",
+      "description": {
+        "free_text": "Nattöga Ljungbyhed är både social och Brottsförebyggande verksamhet.\nsom i genom sitt agremang jobbar både för att göra Ljungbyhed med omnejd säkrare, samt socialt stöttande för boende i samhället.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljungbyhed/Färingtofta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agnar helgason.",
+        "contact_person_role": null,
+        "contact_person_email": "info@nattoga-ljungbyhed.se",
+        "contact_person_phone": "+46435441011"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Agnar Helgason.",
+        "0435441011",
+        "info@nattoga-ljungbyhed.se",
+        "https://nattoga-ljungbyhed.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "NBV Syd",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=NBV%20Syd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "syd@nbv.se",
+      "phone": "+46733838385",
+      "description": {
+        "free_text": "Studieförbund som arbetar med folkbildning. Vi skapar studiecirklar, kulturprogram och annan folkbildning. Främst med fokus på nykterhet.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna e. hjalmarsson",
+        "contact_person_role": null,
+        "contact_person_email": "syd@nbv.se",
+        "contact_person_phone": "+46733838385"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anna E. Hjalmarsson",
+        "0733838385",
+        "syd@nbv.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Neuro Åsbobygden",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Neuro%20%C3%85sbobygden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Norra Åsbo Biodlarförening",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://norraasbo.biodlarna.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Norra%20%C3%85sbo%20Biodlarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "norraasbobiodlar@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maja littorin",
+        "contact_person_role": null,
+        "contact_person_email": "norraasbobiodlar@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Maja Littorin",
+        "norraasbobiodlar@gmail.com",
+        "https://norraasbo.biodlarna.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "OK Kompassen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=OK%20Kompassen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kompassen.org",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kompassen.org",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Personskadeförbundet RTP Nordvästra Skåne",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Personskadef%C3%B6rbundet%20RTP%20Nordv%C3%A4stra%20Sk%C3%A5ne",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "PRO Klippan",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [
+        "Klippan",
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": "https://pro.se/klippan",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=PRO%20Klippan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippan@pro.se",
+      "phone": "+46725612860",
+      "description": {
+        "free_text": "Föreningen har ca 750 medlemmar och är därmed den största pensionärsorganisationen inom Klippans kommun.\nFöreningens uppgift är att ha en bred verksamhet, som befrämjar gemenskap och är till nytta för medlemmarna. Det sker i form av möten, studier, kulturella aktiviteter, motionsaktiviteter, resor och utflykter.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Pensionärsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan",
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stig ålund",
+        "contact_person_role": null,
+        "contact_person_email": "klippan@pro.se",
+        "contact_person_phone": "+46725612860"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)"
+      ],
+      "contact_lines": [
+        "Stig Ålund",
+        "072-561 28 60",
+        "klippan@pro.se",
+        "https://pro.se/klippan",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "PRO Ljungbyhed",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=PRO%20Ljungbyhed",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Riksförbundet HjärtLung Klippan",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Klippan",
+        "Ljungbyhed/Färingtofta",
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Riksf%C3%B6rbundet%20Hj%C3%A4rtLung%20Klippan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@klippan.hjart-lung.se",
+      "phone": "+46763225303",
+      "description": {
+        "free_text": "Genom alla de aktiviteter såsom sitt o golvgympa, stavgång, sociala sammankomster, bussresor, läsecirkel, stress o sömncirklar, m.m.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan",
+                "Ljungbyhed/Färingtofta",
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnel lindsjö",
+        "contact_person_role": null,
+        "contact_person_email": "info@klippan.hjart-lung.se",
+        "contact_person_phone": "+46763225303"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)"
+      ],
+      "contact_lines": [
+        "Gunnel Lindsjö",
+        "076-322 53 03",
+        "info@klippan.hjart-lung.se",
+        "www.hjart-lung.se/klippan",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Riseberga Färingtofta Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Ljungbyhed/Färingtofta"
+      ],
+      "homepage_url": "https://www.hembygd.se/riseberga-faringtofta",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Riseberga%20F%C3%A4ringtofta%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@rfhem.se",
+      "phone": "+46703221162",
+      "description": {
+        "free_text": "Varmt välkommen som medlem i Riseberga Färingtofta Hembygdsförening!\nRiseberga-Färingtofta hembygdsförening bildades 1926, samma år som det bestämdes att Flygskolekåren skulle förläggas till Ljungbyhed. Initiativtagare var riksdagsman Per Nilsson i Bonnarp.\nVid ett sammanträde i Dragonlägret den 26 augusti 1926 beslöts att en hembygdsförening skulle bildas. Den kallades då Fornminnesföreningen. 150 personer antecknade sig omedelbart som medlemmar.\nSnart började man söka efter en för bygden typisk ryggåsstuga och 1939 hittade man den i Rya. 1942 flyttades den till Skräddarheden i Ljungbyhed och efter 2 år var den uppbyggd och kunde invigas på midsommarafton 1944.\nLoglängan kommer från gården Kröglan i Färingtofta och är av båle och 150–200 år gammal. Den erhölls som gåva av Greve Hamilton på Barsebäck och flyttades och byggdes upp år 1960.\nHembygdsföreningen äger idag fyra fastigheter: Hembygdsstugan i Ljungbyhed, Ruveröds kvarn, Transformatorstationen i Bonnarp. Vi hyr Edvins Torp av Nationalparken Söderåsen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljungbyhed/Färingtofta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ola andréasson",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@rfhem.se",
+        "contact_person_phone": "+46703221162"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Ola Andréasson",
+        "0703221162",
+        "ordforande@rfhem.se",
+        "https://www.hembygd.se/riseberga-faringtofta",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Rädda Barnen",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=R%C3%A4dda%20Barnen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "florellhelena@gmail.com",
+      "phone": "+46703134826",
+      "description": {
+        "free_text": "Insamlingsarbete till förmån för barn och unga i vår kommun och i världen.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Helena florell",
+        "contact_person_role": null,
+        "contact_person_email": "florellhelena@gmail.com",
+        "contact_person_phone": "+46703134826"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Helena Florell",
+        "070 313 48 26",
+        "florellhelena@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Rönne Hundungdom",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=R%C3%B6nne%20Hundungdom",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ronnehu@hotmail.com",
+      "phone": "+46702993580",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria beck",
+        "contact_person_role": null,
+        "contact_person_email": "ronnehu@hotmail.com",
+        "contact_person_phone": "+46702993580"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Maria Beck",
+        "0702993580",
+        "ronnehu@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Rönneådalen Skånes Nordvästpassage",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://skanes-nordvastpassage.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=R%C3%B6nne%C3%A5dalen%20Sk%C3%A5nes%20Nordv%C3%A4stpassage",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@skanes-nordvastpassage.se",
+      "phone": "+46702035915",
+      "description": {
+        "free_text": "Natur och kultur förening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt hertzman",
+        "contact_person_role": null,
+        "contact_person_email": "info@skanes-nordvastpassage.se",
+        "contact_person_phone": "+46702035915"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Bengt Hertzman",
+        "0702035915",
+        "info@skanes-nordvastpassage.se",
+        "https://skanes-nordvastpassage.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Scania Jacks",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Scania%20Jacks",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "robbinsteen87@gmail.com",
+      "phone": "+46793008298",
+      "description": {
+        "free_text": "Medeltida fighting",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robbin steen",
+        "contact_person_role": null,
+        "contact_person_email": "robbinsteen87@gmail.com",
+        "contact_person_phone": "+46793008298"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Robbin Steen",
+        "0793008298",
+        "robbinsteen87@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Scouterna Östra Ljungby",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [
+        "Scoutverksamhet"
+      ],
+      "categories": [
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Scouterna%20%C3%96stra%20Ljungby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ningelstrom@gmail.com",
+      "phone": "+46703463350",
+      "description": {
+        "free_text": "Scoutverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scoutverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nils-inge ingelström",
+        "contact_person_role": null,
+        "contact_person_email": "ningelstrom@gmail.com",
+        "contact_person_phone": "+46703463350"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)"
+      ],
+      "contact_lines": [
+        "Nils-Inge Ingelström",
+        "0703463350",
+        "ningelstrom@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Scoutkåren Spejaren Klippan",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Scoutk%C3%A5ren%20Spejaren%20Klippan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lotta.ahlbeck@live.se",
+      "phone": "+46722801542",
+      "description": {
+        "free_text": "Scoutverksamhet med drogfri profil",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lotta ahlbeck",
+        "contact_person_role": null,
+        "contact_person_email": "lotta.ahlbeck@live.se",
+        "contact_person_phone": "+46722801542"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lotta Ahlbeck",
+        "0722801542",
+        "lotta.ahlbeck@live.se",
+        "Facebook Scoutkåren Spejaren Klippan",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Sensus Skåne-Blekinge",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.sensus.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Sensus%20Sk%C3%A5ne-Blekinge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "barbro.borglin@sensus.se",
+      "phone": "+46763267368",
+      "description": {
+        "free_text": "Sensus jobbar med relationer, livsfrågor, rättighets- och hållbarhetsfrågor. Tillsammans med våra 32 medlemsorganisationer och många samarbetsparter skapar vi demokratiska mötesplatser för kultur och bildning i hela landet. Allt vi gör är folkbildning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Barbro borglin",
+        "contact_person_role": null,
+        "contact_person_email": "barbro.borglin@sensus.se",
+        "contact_person_phone": "+46763267368"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Barbro Borglin",
+        "0763267368",
+        "barbro.borglin@sensus.se",
+        "https://www.sensus.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Skyddsjouren i Ängelholm",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Skyddsjouren%20i%20%C3%84ngelholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+4643110296",
+      "description": {
+        "free_text": "Samtalsmottagning, skyddat boende samt utåtriktad verksamhet med målgrupperna utsatta för våld i nära relation, hedersrelaterat våld, prostitution eller människohandel med sexuell exploatering.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4643110296"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "unizonjourer.se/skyddsjouren",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Skånes Kattklubb",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Sk%C3%A5nes%20Kattklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "zalva@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Ideell förening för kattägare. vi verkar för att höja kattens status och arrangerar internationella kattutställningar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gudrun vestman",
+        "contact_person_role": null,
+        "contact_person_email": "zalva@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gudrun Vestman",
+        "Gudrun Vestman",
+        "zalva@gmail.com",
+        "skkk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Sorrödssjöarnas Fiskevårdsområdesförening",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Sorr%C3%B6dssj%C3%B6arnas%20Fiskev%C3%A5rdsomr%C3%A5desf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Att tillhandahålle möjligheter för fiske och vandring kring Sorrödssjöarna.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "SPF Färingtofta",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Pensionärsverksamhet"
+      ],
+      "categories": [
+        "Ljungbyhed/Färingtofta"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=SPF%20F%C3%A4ringtofta",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ullapersson909@g.mail.com",
+      "phone": "+46705970173",
+      "description": {
+        "free_text": "Medlemsmöte, grillningar, utflykter, resor, studiebesök teaterbesök, kortspel, gymnastik, kyrkkaffe m.m.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Pensionärsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljungbyhed/Färingtofta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt eskilsson",
+        "contact_person_role": null,
+        "contact_person_email": "ullapersson909@g.mail.com",
+        "contact_person_phone": "+46705970173"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 91,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)"
+      ],
+      "contact_lines": [
+        "Bengt Eskilsson",
+        "070-5970173",
+        "ullapersson909@g.mail.com",
+        "Ronny Bengtsson",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "SPF Seniorerna Åby Klippan",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "http://spf.se/aby",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=SPF%20Seniorerna%20%C3%85by%20Klippan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "abyklippan@spfseniorerna.se",
+      "phone": "+46707975153",
+      "description": {
+        "free_text": "Obunden politisk och religiös pensionärsförening, öppen för alla över 65 år.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart knutsson",
+        "contact_person_role": null,
+        "contact_person_email": "abyklippan@spfseniorerna.se",
+        "contact_person_phone": "+46707975153"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 92,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lennart Knutsson",
+        "0707975153",
+        "abyklippan@spfseniorerna.se",
+        "http://spf.se/aby",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "SPF Tycho Brahe, Ljungbyhed",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.spfseniorerna.se/tychobraheljungbyhed/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=SPF%20Tycho%20Brahe%2C%20Ljungbyhed",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "andrea.kalk15@gmail.com",
+      "phone": "+46739328310",
+      "description": {
+        "free_text": "Lokal seniorförening ingående i riksförbundet SPF Seniorerna",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andrea kalk",
+        "contact_person_role": null,
+        "contact_person_email": "andrea.kalk15@gmail.com",
+        "contact_person_phone": "+46739328310"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 93,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Andrea Kalk",
+        "0739328310",
+        "andrea.kalk15@gmail.com",
+        "https://www.spfseniorerna.se/tychobraheljungbyhed/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Split Vision Badminton Ljungbyhed",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Split%20Vision%20Badminton%20Ljungbyhed",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pane@panemusik.se",
+      "phone": "+46736470274",
+      "description": {
+        "free_text": "Motionsbadminton för alla åldrar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter andersson",
+        "contact_person_role": null,
+        "contact_person_email": "pane@panemusik.se",
+        "contact_person_phone": "+46736470274"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 94,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Peter Andersson",
+        "0736-470274",
+        "pane@panemusik.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Studiefrämjandet Syd",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Evenemang",
+        "Konsert",
+        "Kultur",
+        "Musik",
+        "Studieverksamhet",
+        "Övrig"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://www.studieframjandet.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Studiefr%C3%A4mjandet%20Syd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klippan@studieframjandet.se",
+      "phone": "+46708177301",
+      "description": {
+        "free_text": "Studieförbund",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Evenemang",
+                "Konsert",
+                "Kultur",
+                "Musik",
+                "Studieverksamhet",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "klippan@studieframjandet.se",
+        "contact_person_phone": "+46708177301"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 95,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders Nilsson",
+        "0708177301",
+        "klippan@studieframjandet.se",
+        "https://www.studieframjandet.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Studieförbundet Bilda Sydväst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.bilda.nu/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20Bilda%20Sydv%C3%A4st",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sydvast@bilda.nu",
+      "phone": "+46317303510",
+      "description": {
+        "free_text": "Studieförbund som är verksamt i hela Skåne",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus franzén",
+        "contact_person_role": null,
+        "contact_person_email": "sydvast@bilda.nu",
+        "contact_person_phone": "+46317303510"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 96,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Magnus Franzén",
+        "031-730 35 10",
+        "sydvast@bilda.nu",
+        "https://www.bilda.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan Skåneland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.sv.se/skaneland",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20Vuxenskolan%20Sk%C3%A5neland",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "snezana.alagic@sv.se",
+      "phone": "+46704345402",
+      "description": {
+        "free_text": "Folkbildning, Studiecirklar, Kulturarrangemang",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Snezana alagic",
+        "contact_person_role": null,
+        "contact_person_email": "snezana.alagic@sv.se",
+        "contact_person_phone": "+46704345402"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 97,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Snezana Alagic",
+        "0704345402",
+        "snezana.alagic@sv.se",
+        "https://www.sv.se/skaneland",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Söderåsens Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://soderasensbk.com/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=S%C3%B6der%C3%A5sens%20Brukshundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sbk.ljungbyhed@gmail.com",
+      "phone": "+46435441445",
+      "description": {
+        "free_text": "Hund träning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Olle nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "sbk.ljungbyhed@gmail.com",
+        "contact_person_phone": "+46435441445"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 98,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Olle Nilsson",
+        "0435-441445",
+        "sbk.ljungbyhed@gmail.com",
+        "https://soderasensbk.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Teater Amabile",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans",
+        "Evenemang",
+        "Körsång",
+        "Teater"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Teater%20Amabile",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "helene@bruksspelet.se",
+      "phone": "+46732021380",
+      "description": {
+        "free_text": "Teater Amabile är en ideell förening i Klippan, grundad 1992, vars syfte är att bedriva kursverksamhet inom teater, sång och dans.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Evenemang",
+                "Körsång",
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Heléne lindquist",
+        "contact_person_role": null,
+        "contact_person_email": "helene@bruksspelet.se",
+        "contact_person_phone": "+46732021380"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 99,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Heléne Lindquist",
+        "0732021380",
+        "helene@bruksspelet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Unga Örnar Klippan",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [
+        "Friluftsliv",
+        "Övrig"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Unga%20%C3%96rnar%20Klippan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "annika.persson@ungaornar.se",
+      "phone": "+46708365271",
+      "description": {
+        "free_text": "Unga Örnar Klippan har för närvarande ingen verksamhet i Klippan men vi deltar i Unga Örnar Skånes omfattande lägerverksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friluftsliv",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika persson",
+        "contact_person_role": null,
+        "contact_person_email": "annika.persson@ungaornar.se",
+        "contact_person_phone": "+46708365271"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)"
+      ],
+      "contact_lines": [
+        "Annika Persson",
+        "0708365271",
+        "annika.persson@ungaornar.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Vedby Rönne IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/vedbyronneif",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=Vedby%20R%C3%B6nne%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46736552311",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per-olof hermansson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46736552311"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Per-Olof Hermansson",
+        "073-6552311",
+        "https://www.laget.se/vedbyronneif",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Västra Sönnarslövs Bygdeförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Hembygd"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "http://www.bygdegardarna.se/vastrasonnarlov",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=V%C3%A4stra%20S%C3%B6nnarsl%C3%B6vs%20Bygdef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "katarina.molin@hotmail.com",
+      "phone": "+46702466288",
+      "description": {
+        "free_text": "Bygdeförening som har en fest och möteslokal i Klöva Hallar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hembygd"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina molin",
+        "contact_person_role": null,
+        "contact_person_email": "katarina.molin@hotmail.com",
+        "contact_person_phone": "+46702466288"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Katarina Molin",
+        "0702-466288",
+        "katarina.molin@hotmail.com",
+        "http://www.bygdegardarna.se/vastrasonnarlov",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Åby IBK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=%C3%85by%20IBK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "robert_pitula@hotmail.com",
+      "phone": "+46725545891",
+      "description": {
+        "free_text": "Innebandy",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert pitula",
+        "contact_person_role": null,
+        "contact_person_email": "robert_pitula@hotmail.com",
+        "contact_person_phone": "+46725545891"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Robert Pitula",
+        "0725545891",
+        "robert_pitula@hotmail.com",
+        "www.abyibk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "ÅBY Radioklubb",
+      "org_number": null,
+      "types": [
+        "Fritidsförening"
+      ],
+      "activities": [
+        "Amatörradio"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "http://www.sk7ol.com/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=%C3%85BY%20Radioklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sm7koj@telia.com",
+      "phone": "+46707174238",
+      "description": {
+        "free_text": "Förening för radio- elektronik- och datorintresserade personer",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Amatörradio"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan emanuelsson",
+        "contact_person_role": null,
+        "contact_person_email": "sm7koj@telia.com",
+        "contact_person_phone": "+46707174238"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Jan Emanuelsson",
+        "0707174238",
+        "sm7koj@telia.com",
+        "http://www.sk7ol.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Åsbo Ponnyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hästsport"
+      ],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "http://www.asboponnyklubb.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=%C3%85sbo%20Ponnyklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ridklubb med träning och tävlingsverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hästsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "http://www.asboponnyklubb.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Åsbo Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hästsport"
+      ],
+      "categories": [
+        "Ljungbyhed/Färingtofta"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=%C3%85sbo%20Ryttarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "maja.kryhl@hotmail.com",
+      "phone": "+46724066071",
+      "description": {
+        "free_text": "Ryttar och körförening med träningar och tävlingar på egen anläggning. Hubertusjakt och Tomteritt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hästsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljungbyhed/Färingtofta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maja kryhl",
+        "contact_person_role": null,
+        "contact_person_email": "maja.kryhl@hotmail.com",
+        "contact_person_phone": "+46724066071"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Maja Kryhl",
+        "072-4066071",
+        "maja.kryhl@hotmail.com",
+        "asborf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Åsbo Släkt- och Folklivsforskare",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Klippan"
+      ],
+      "homepage_url": "https://aasbo-gen.com/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=%C3%85sbo%20Sl%C3%A4kt-%20och%20Folklivsforskare",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordf@aasbo-gen.com",
+      "phone": "+46703442112",
+      "description": {
+        "free_text": "Föreningen bedriver släktforskning för alla oavsett om de är medlemmar eller inte",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Klippan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie munke",
+        "contact_person_role": null,
+        "contact_person_email": "ordf@aasbo-gen.com",
+        "contact_person_phone": "+46703442112"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marie Munke",
+        "070 344 2112",
+        "ordf@aasbo-gen.com",
+        "https://aasbo-gen.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Ängelholms IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=%C3%84ngelholms%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "angelholmsif@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Ängelholms Idrottsförening. Bedriver friidrottsträning i Ängelholm",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "angelholmsif@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Robert Nilsson",
+        "angelholmsif@gmail.com",
+        "angelholmsif.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Östra Ljungby Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Evenemang",
+        "Film",
+        "Integrationsverksamhet",
+        "Konsert",
+        "Konst",
+        "Kultur",
+        "Körsång",
+        "Musik",
+        "Pensionärsverksamhet",
+        "Social verksamhet",
+        "Studieverksamhet",
+        "Teater",
+        "Övrig"
+      ],
+      "categories": [
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": "https://ostraljungbybygdegard.se/",
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=%C3%96stra%20Ljungby%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gina_widen@hotmail.com",
+      "phone": "+46701751283",
+      "description": {
+        "free_text": "Bygdegården, den naturliga mötesplatsen och en allmän samlingslokal öppen för alla och förvaltad av en ideell styrelse. Bygdegården välkomnar alla med demokratisk värdegrund. Här görs olika arrangemang och aktiviteter både i egen regi, genom olika samarbetspartners och genom uthyrning.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Evenemang",
+                "Film",
+                "Integrationsverksamhet",
+                "Konsert",
+                "Konst",
+                "Kultur",
+                "Körsång",
+                "Musik",
+                "Pensionärsverksamhet",
+                "Social verksamhet",
+                "Studieverksamhet",
+                "Teater",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-18 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "gina_widen@hotmail.com",
+        "contact_person_phone": "+46701751283"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "ostraljungbybygdegard@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-18 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "gina_widen@hotmail.com",
+        "070-175 12 83",
+        "ostraljungbybygdegard@gmail.com",
+        "https://ostraljungbybygdegard.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Klippan",
+    "scrape_run_id": "7812dd0d-aea6-4947-a17f-57b1a598c1da",
+    "scraped_at": "2025-10-28T23:34:42.667Z",
+    "association": {
+      "name": "Östra Ljungby och Källna socknars Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Östra Ljungby/Stidsvig"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://klippan.rbok.se/foreningsregister?association=%C3%96stra%20Ljungby%20och%20K%C3%A4llna%20socknars%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "3567nilsson@gmail.com",
+      "phone": "+467309600473567",
+      "description": {
+        "free_text": "Hembygdsförening med museer, visningar, lokal att hyra för utomstående, nationaldagsfirande, midsommarfirande, grillkvällar på sommaren, höstmarknad, föredrag och underhållning mm",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östra Ljungby/Stidsvig"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christina nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "3567nilsson@gmail.com",
+        "contact_person_phone": "+467309600473567"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19-64 år)"
+      ],
+      "contact_lines": [
+        "Christina Nilsson",
+        "0730960047",
+        "3567nilsson@gmail.com",
+        "Stäng"
+      ]
+    }
+  }
+]

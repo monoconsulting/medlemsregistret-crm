@@ -1,0 +1,3261 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Bjerreds Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.bjerredsgf.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Bjerreds%20Gymnastikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@bjerredsgf.se",
+      "phone": null,
+      "description": {
+        "free_text": "Truppgymnastik, Parkour, Barngymnastik, Liten/Stor gympa, Seniorgympa Motionspass",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@bjerredsgf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "kansliet@bjerredsgf.se",
+        "http://www.bjerredsgf.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Bjärreds Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [
+        "Bjärred",
+        "Lomma"
+      ],
+      "homepage_url": "https://www.bjarredsbadminton.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Bj%C3%A4rreds%20Badmintonklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bjarredsbmk@gmail.com",
+      "phone": "+46723504131",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred",
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ludwig sikström",
+        "contact_person_role": null,
+        "contact_person_email": "bjarredsbmk@gmail.com",
+        "contact_person_phone": "+46723504131"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Ludwig Sikström",
+        "0723504131",
+        "bjarredsbmk@gmail.com",
+        "https://www.bjarredsbadminton.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Bjärreds Bridgeklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Bridge"
+      ],
+      "categories": [
+        "Bjärred"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Bj%C3%A4rreds%20Bridgeklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46725626066",
+      "description": {
+        "free_text": "Bridge",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bridge"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran stigsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46725626066"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Göran Stigsson",
+        "0725626066",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Bjärreds BTK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.bjarredsbtk.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Bj%C3%A4rreds%20BTK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@bjarredsbtk.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@bjarredsbtk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "info@bjarredsbtk.se",
+        "https://www.bjarredsbtk.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Bjärreds Gammeldansgäng",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Bjärred"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Bj%C3%A4rreds%20Gammeldansg%C3%A4ng",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tony.sjostrand@gmail.com",
+      "phone": "+46706718826",
+      "description": {
+        "free_text": "Föreningen har till ändamål att verka för bevarande av gammeldans och sällskapsdans samt att praktiskt utöva dessa danser.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tony sjöstrand",
+        "contact_person_role": null,
+        "contact_person_email": "tony.sjostrand@gmail.com",
+        "contact_person_phone": "+46706718826"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Tony Sjöstrand",
+        "0706718826",
+        "tony.sjostrand@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Bjärreds IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Bjärred"
+      ],
+      "homepage_url": "http://www.bjarredsif.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Bj%C3%A4rreds%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@bjarredsif.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@bjarredsif.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "info@bjarredsif.se",
+        "http://www.bjarredsif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Bjärreds Optimistjolleklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Segling"
+      ],
+      "categories": [
+        "Bjärred"
+      ],
+      "homepage_url": "http://www.bojk.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Bj%C3%A4rreds%20Optimistjolleklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@bojk.se",
+      "phone": null,
+      "description": {
+        "free_text": "Klubbens ändamål är att befrämja båtsport, utveckla medlemmarnas sjömanskap, samt verka för god kamrat- och idrottsanda.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Segling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@bojk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "info@bojk.se",
+        "http://www.bojk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Bjärreds Scoutkår",
+      "org_number": null,
+      "types": [
+        "Friluftsförening"
+      ],
+      "activities": [
+        "Friluftsverksamhet",
+        "Scouting",
+        "Scoutverksamhet"
+      ],
+      "categories": [
+        "Bjärred"
+      ],
+      "homepage_url": "https://bjarredsscoutkar.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Bj%C3%A4rreds%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@bjarredsscoutkar.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friluftsverksamhet",
+                "Scouting",
+                "Scoutverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@bjarredsscoutkar.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "ordforande@bjarredsscoutkar.se",
+        "https://bjarredsscoutkar.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Borgeby Fotbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Bjärred"
+      ],
+      "homepage_url": "http://www.borgebyfk.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Borgeby%20Fotbollsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@borgebyfk.se",
+      "phone": "+46703515038",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jörgen lindell",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@borgebyfk.se",
+        "contact_person_phone": "+46703515038"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Jörgen Lindell",
+        "070 - 351 50 38",
+        "kansli@borgebyfk.se",
+        "http://www.borgebyfk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Borgen VK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Volleyboll"
+      ],
+      "categories": [
+        "Bjärred",
+        "Lomma"
+      ],
+      "homepage_url": "http://www.borgenvk.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Borgen%20VK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen Borgen VK har som ändamål att bedriva idrottslig verksamhet i enlighet med ”Idrottsrörelsens verksamhetsidé, vision och värdegrund” (1 kap RF:s stadgar), med särskild inriktning att:\n-    Primärt bedriva ungdomsidrott för barn- och ungdomar över 12 år (juniorer) i Lomma och Kävlinge kommun.\n-    Sekundärt även engagera och erbjuda spel för seniorer i samma region.\nFöreningen ska bedriva följande idrotter:\n-    Volleyboll och Beach-Volleyboll\nFöreningen ska motverka all form av diskriminering samt aktivt verka för en dopingfri idrott.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Volleyboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred",
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Torbjörn friede",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Torbjörn Friede",
+        "http://www.borgenvk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Civilförsvarsförening Lomma-Bjärred",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Folkbildning"
+      ],
+      "categories": [
+        "Bjärred",
+        "Lomma"
+      ],
+      "homepage_url": "https://civil.se/malmohus/lomma/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Civilf%C3%B6rsvarsf%C3%B6rening%20Lomma-Bj%C3%A4rred",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bengtwiden1@gmail.com",
+      "phone": "+46739413765",
+      "description": {
+        "free_text": "Civilförsvarsförbundet är en frivillig försvarsorganisation\nmed siktet inställt på säkerhet både till vardags och vid kriser i samhället.",
+        "sections": [
+          {
+            "title": "Verksamheten vilar på vår värdegrund om bland annat ansvarstagande",
+            "data": {
+              "activities": [
+                "och respekt för varandra.",
+                "Alla kan vara med oavsett könsidentitet",
+                "ålder",
+                "sexuell läggning",
+                "etnisk och religiös bakgrund med mera."
+              ]
+            }
+          },
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Folkbildning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred",
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt widén",
+        "contact_person_role": null,
+        "contact_person_email": "bengtwiden1@gmail.com",
+        "contact_person_phone": "+46739413765"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Bengt Widén",
+        "0739-413 765",
+        "bengtwiden1@gmail.com",
+        "https://civil.se/malmohus/lomma/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Filmstudion Bibliografen i Lomma",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Filmstudion%20Bibliografen%20i%20Lomma",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "filmstudion.bibliografen@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": "Filmstudion Bibliografen är en ideell förening med syfte att främja intresset för film i konstnärligt och allmänkulturellt avseende.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "filmstudion.bibliografen@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "filmstudion.bibliografen@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Fotoklubben Objektivet i Lomma",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.objektivet.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Fotoklubben%20Objektivet%20i%20Lomma",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "medlem@objektivet.se",
+      "phone": null,
+      "description": {
+        "free_text": "Fotoaktiviteter i Lomma kommun med omnejd.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.objektivet.se",
+        "contact_person_role": null,
+        "contact_person_email": "medlem@objektivet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "www.objektivet.se",
+        "medlem@objektivet.se",
+        "http://www.objektivet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Friluftsfrämjandet Bjerred-Lomma",
+      "org_number": null,
+      "types": [
+        "Friluftsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Friluftsfr%C3%A4mjandet%20Bjerred-Lomma",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bjerred-lomma@friluftsframjandet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "bjerred-lomma@friluftsframjandet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "bjerred-lomma@friluftsframjandet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "GIF Nike",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.gifnike.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=GIF%20Nike",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@gifnike.se",
+      "phone": "+4640411020",
+      "description": {
+        "free_text": "Fotbollsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christian granlund",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@gifnike.se",
+        "contact_person_phone": "+4640411020"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christian Granlund",
+        "040-411020",
+        "kansliet@gifnike.se",
+        "http://www.gifnike.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Hembygdsföreningen I Lomma kommun",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/lomma",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Hembygdsf%C3%B6reningen%20I%20Lomma%20kommun",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hembygdsforeningen.lommakommun@gmail.com",
+      "phone": "+46708293307",
+      "description": {
+        "free_text": "Förvaltar Bjersund tegelbruksmuseum och försöker sprida information om bygdens historia.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "hembygdsforeningen.lommakommun@gmail.com",
+        "contact_person_phone": "+46708293307"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Birgitta Nilsson",
+        "0708293307",
+        "Hembygdsforeningen.lommakommun@gmail.com",
+        "http://www.Hembygd.se/lomma",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Hembygdsgillet Burlöv Lomma",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Hembygdsgillet%20Burl%C3%B6v%20Lomma",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "burlov@folkdansringen.se",
+      "phone": "+46705400498",
+      "description": {
+        "free_text": "Folkdansförening som har verkat i Lomma och Burlövs kommun sen 1968",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingvar svensson",
+        "contact_person_role": null,
+        "contact_person_email": "burlov@folkdansringen.se",
+        "contact_person_phone": "+46705400498"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ingvar Svensson",
+        "0705400498",
+        "burlov@folkdansringen.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "HK Ankaret",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [
+        "Bjärred",
+        "Lomma"
+      ],
+      "homepage_url": "http://www.hkankaret.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=HK%20Ankaret",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@hkankaret.se",
+      "phone": "+46722401007",
+      "description": {
+        "free_text": "Handboll",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred",
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sebastian klintberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@hkankaret.se",
+        "contact_person_phone": "+46722401007"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Sebastian Klintberg",
+        "0722401007",
+        "info@hkankaret.se",
+        "http://www.hkankaret.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "IF Friskis&Svettis Lomma",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.friskissvettis.se/lomma",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=IF%20Friskis%26Svettis%20Lomma",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@friskislomma.se",
+      "phone": "+4640416886",
+      "description": {
+        "free_text": "Motionsidrott för alla!",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mariana fleischer",
+        "contact_person_role": null,
+        "contact_person_email": "info@friskislomma.se",
+        "contact_person_phone": "+4640416886"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mariana Fleischer",
+        "040-416886",
+        "info@friskislomma.se",
+        "https://www.friskissvettis.se/lomma",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lobas",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lobas",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tavling@lobas.com",
+      "phone": "+46734002345",
+      "description": {
+        "free_text": "Basketträning och matcher och arrangemang för alla åldrar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jörgen freiburghaus",
+        "contact_person_role": null,
+        "contact_person_email": "tavling@lobas.com",
+        "contact_person_phone": "+46734002345"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jörgen Freiburghaus",
+        "0734 002345",
+        "tavling@lobas.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Bjärred Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.riksteatern.se/forening/lomma-bjarred-riksteaterforening/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Bj%C3%A4rred%20Riksteaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lommabjarredriksteaterforening@gmail.com",
+      "phone": "+46703475460",
+      "description": {
+        "free_text": "Arrangerar scenkonst.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anita scherstén",
+        "contact_person_role": null,
+        "contact_person_email": "lommabjarredriksteaterforening@gmail.com",
+        "contact_person_phone": "+46703475460"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anita Scherstén",
+        "0703475460",
+        "lommabjarredriksteaterforening@gmail.com",
+        "https://www.riksteatern.se/forening/lomma-bjarred-riksteaterforening/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Bjärred Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.lbtk.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Bj%C3%A4rred%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lbtk.se",
+      "phone": null,
+      "description": {
+        "free_text": "Bedriver tennisskola, tennisträning och uthyrning av tennisbanor på åtta banor innomhus och sju grusbanor utomhus.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@lbtk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Info@lbtk.se",
+        "Http://Www.lbtk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Burlöv Släkt- och folklivsforskare",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://lbsf.sgfm.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Burl%C3%B6v%20Sl%C3%A4kt-%20och%20folklivsforskare",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jan_cornskiold@yahoo.se",
+      "phone": "+46709928484",
+      "description": {
+        "free_text": "Släkt- och folklivsforskning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan cornskiöld",
+        "contact_person_role": null,
+        "contact_person_email": "jan_cornskiold@yahoo.se",
+        "contact_person_phone": "+46709928484"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan Cornskiöld",
+        "0709928484",
+        "jan_cornskiold@yahoo.se",
+        "http://lbsf.sgfm.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Combat Jujutsu IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Combat%20Jujutsu%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lommacjj.se",
+      "phone": null,
+      "description": {
+        "free_text": "Kampsportsförening på Järngatan 12 i Lomma.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik wendel",
+        "contact_person_role": null,
+        "contact_person_email": "info@lommacjj.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Wendel",
+        "info@lommacjj.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma FBC",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Lomma"
+      ],
+      "homepage_url": "http://www.lommafbc.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20FBC",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lommafbc.se",
+      "phone": "+46762219545",
+      "description": {
+        "free_text": "Innebandy för pojkar och flickor från 6 år upp till senior för både dam och herr",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annica ericsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@lommafbc.se",
+        "contact_person_phone": "+46762219545"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Annica Ericsson",
+        "0762219545",
+        "info@lommafbc.se",
+        "http://www.lommafbc.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Folketshusförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik",
+        "Teater"
+      ],
+      "categories": [
+        "Bjärred",
+        "Lomma"
+      ],
+      "homepage_url": "http://www.lommafolketshus.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Folketshusf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lommafolketshus.se",
+      "phone": "+4640412525",
+      "description": {
+        "free_text": "Lomma Folketshusförening är en oberoende kulturförening som erbjuder ett mångsidigt utbud av kulturaktiviteter i Lomma kommun. Vårt främsta mål är att omvandla Folketsparkområdet till en livlig och pulserande mötesplats för nöje och kultur.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Musik",
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred",
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Filip åkerberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@lommafolketshus.se",
+        "contact_person_phone": "+4640412525"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Filip Åkerberg",
+        "040-412525",
+        "info@lommafolketshus.se",
+        "http://www.lommafolketshus.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Friidrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [
+        "Bjärred",
+        "Lomma"
+      ],
+      "homepage_url": "http://www.lommafik.com/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Friidrottsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lommafik.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är friidrottsklubben som finns i Lomma och Bjärred. Våra främsta mål är att skapa intresse för friidrott hos barn och ungdom och att ge alla medlemmar chans till allsidig träning och tävling på sin nivå och på detta sätt lägga grund för fortsatt fysisk aktiv livsstil.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred",
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@lommafik.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "info@lommafik.com",
+        "http://www.lommafik.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Fritidsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [
+        "Lomma"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Fritidsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lommafritidsforening@gmail.com",
+      "phone": "+46738725721",
+      "description": {
+        "free_text": "Lomma Fritidsförening är en ideell förening.\nFöreningen har som ändamål att arrangera fritidsaktiviteter inom kultur- och friluftsliv för barn och ungdomar i Lomma kommun. Föreningen ska aktivt arbeta för att motverka all form av diskriminering.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robin sandell",
+        "contact_person_role": null,
+        "contact_person_email": "lommafritidsforening@gmail.com",
+        "contact_person_phone": "+46738725721"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Robin Sandell",
+        "0738725721",
+        "lommafritidsforening@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Hopprepsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Hopprepsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lommahopprep@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "lommahopprep@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "lommahopprep@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.lommakonstforening.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lommakonstforening.se",
+      "phone": "+46706910364",
+      "description": {
+        "free_text": "Föreningens syfte är att inom Lomma kommun väcka, underhålla och utbreda intresset\nför konst, särskilt genom att\n- arrangera utställningar\n- anordna föredrag, studieverksamhet och övriga aktiviteter i ämnen rörande konst\n- göra inköp av konst för utlottning i årliga medlemslotteriet\n- skapa tillfällen för att samtala om konst",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per-olof nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@lommakonstforening.se",
+        "contact_person_phone": "+46706910364"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per-Olof Nilsson",
+        "0706910364",
+        "info@lommakonstforening.se",
+        "https://www.lommakonstforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Lions Club",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://lomma.lions.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Lions%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lomma.lions.se",
+      "phone": "+46708663300",
+      "description": {
+        "free_text": "Hjälporganisation",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jimmy wiedewilt",
+        "contact_person_role": null,
+        "contact_person_email": "info@lomma.lions.se",
+        "contact_person_phone": "+46708663300"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jimmy Wiedewilt",
+        "0708-66 33 00",
+        "info@lomma.lions.se",
+        "https://lomma.lions.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Museiförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://lommamuseiforening.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Museif%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://lommamuseiforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Scoutkår",
+      "org_number": null,
+      "types": [
+        "Friluftsförening"
+      ],
+      "activities": [
+        "Friluftsverksamhet"
+      ],
+      "categories": [
+        "Lomma"
+      ],
+      "homepage_url": "https://lommascoutkar.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@lommascoutkar.se",
+      "phone": "+46763643656",
+      "description": {
+        "free_text": "Scouterna är en internationell rörelse för ungdomar som fokuserar på att utveckla deras ledarskap, samarbetsförmåga och ansvarstagande genom friluftsaktiviteter, äventyr och socialt engagemang. Målet är att stärka individens självkänsla och gemenskapen i samhället genom lärande och upplevelser utomhus. Scouterna bygger på värderingar som respekt, ansvar och att hjälpa andra.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friluftsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linnea kruuse",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@lommascoutkar.se",
+        "contact_person_phone": "+46763643656"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Linnea Kruuse",
+        "0763643656",
+        "ordforande@lommascoutkar.se",
+        "https://lommascoutkar.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma Taekwondoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.lommatkd.com/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20Taekwondoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lommatkd.com",
+      "phone": "+46707109700",
+      "description": {
+        "free_text": "Vi är en taekwondoförening som är för alla åldersgrupper. Vi har även familjeträning där barn tränar med sina föräldrar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kent andersson",
+        "contact_person_role": null,
+        "contact_person_email": "info@lommatkd.com",
+        "contact_person_phone": "+46707109700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kent Andersson",
+        "0707109700",
+        "info@lommatkd.com",
+        "http://www.lommatkd.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma vindsurfingklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://lommavindsurfing.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma%20vindsurfingklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lommavindsurfing.se",
+      "phone": null,
+      "description": {
+        "free_text": "Främja vindsurfingen i Lomma med omnejd.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Knut kjaerran",
+        "contact_person_role": null,
+        "contact_person_email": "info@lommavindsurfing.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Knut Kjaerran",
+        "info@lommavindsurfing.se",
+        "https://lommavindsurfing.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lomma-Bjärreds dragspelsklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://lommadragspelsklubb.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lomma-Bj%C3%A4rreds%20dragspelsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hans.esbjorn@gmail.com",
+      "phone": "+46705292542",
+      "description": {
+        "free_text": "Dragspelsklubb som funnits sedan 1985. Vi träffas och spelar en gång i veckan och har konsert 1-2 gånger/år. Medverkar också på kommunens kulturdagar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans persson",
+        "contact_person_role": null,
+        "contact_person_email": "hans.esbjorn@gmail.com",
+        "contact_person_phone": "+46705292542"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hans Persson",
+        "070-5292542",
+        "hans.esbjorn@gmail.com",
+        "https://lommadragspelsklubb.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lommabuktens Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [
+        "Bjärred",
+        "Lomma"
+      ],
+      "homepage_url": "https://www.facebook.com/lommabuktensryttarforening/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lommabuktens%20Ryttarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lommabuktensrf@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Lommabuktens ryttarförening är en förening för ridsportsintresserade. Vi ordnar aktiviteter inom flera ridsportsgrenar för ryttare i alla åldrar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred",
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "lommabuktensrf@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "lommabuktensrf@gmail.com",
+        "https://www.facebook.com/lommabuktensryttarforening/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Lommabuktens Seglarklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.lbs.nu/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Lommabuktens%20Seglarklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lbs@lbs.nu",
+      "phone": "+46707411310",
+      "description": {
+        "free_text": "Klubben är en allmännyttig ideell förening och har som ändamål att befrämja båtsport, att utveckla medlemmarnas sjömanskap, att tillvarataga deras intressen gentemot kommunala organ och myndigheter samt att verka för god kamrat- och idrottsanda.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "lbs@lbs.nu",
+        "contact_person_phone": "+46707411310"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "070-7411310",
+        "lbs@lbs.nu",
+        "https://www.lbs.nu/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "LUGI Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Lomma"
+      ],
+      "homepage_url": "https://www.lugigymnastik.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=LUGI%20Gymnastikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lugigymnastik.se",
+      "phone": "+46760363511",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@lugigymnastik.se",
+        "contact_person_phone": "+46760363511"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "076-036 35 11",
+        "info@lugigymnastik.se",
+        "https://www.lugigymnastik.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Musiker i Lomma Kommun",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://musikerilommakommun.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Musiker%20i%20Lomma%20Kommun",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@musikerilommakommun.se",
+      "phone": null,
+      "description": {
+        "free_text": "MILK är en ideell förening för musikutövare, vare sig musikutövandet sker på heltid, deltid eller som hobby. MILK ska verka för att personer i Lomma kommun, oavsett ålder eller musikinriktning, ska ges en god möjlighet utveckla sitt intresse för musik och utövande av musik.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@musikerilommakommun.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@musikerilommakommun.se",
+        "https://musikerilommakommun.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Pocket Divers",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://skanskdykservice.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Pocket%20Divers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pocket_divers@outlook.com",
+      "phone": "+46709492624",
+      "description": {
+        "free_text": "Sportdykning och dykutbildning samt fridykning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jessica pettersson",
+        "contact_person_role": null,
+        "contact_person_email": "pocket_divers@outlook.com",
+        "contact_person_phone": "+46709492624"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jessica Pettersson",
+        "0709492624",
+        "Pocket_divers@outlook.com",
+        "https://skanskdykservice.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Seaside singers",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturverksamhet",
+        "Körsång",
+        "Musik"
+      ],
+      "categories": [
+        "Bjärred",
+        "Lomma"
+      ],
+      "homepage_url": "https://www.seasidesingers.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Seaside%20singers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "liveilomma@gmail.com",
+      "phone": "+46707979404",
+      "description": {
+        "free_text": "kulturverksamhet för barn/ungdom och pensionärer. Vi arrangerar evenemang och körmusik",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturverksamhet",
+                "Körsång",
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred",
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy wallström",
+        "contact_person_role": null,
+        "contact_person_email": "liveilomma@gmail.com",
+        "contact_person_phone": "+46707979404"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Tommy Wallström",
+        "0707979404",
+        "liveilomma@gmail.com",
+        "https://www.seasidesingers.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Simklubben Hajen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://hajen.org/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Simklubben%20Hajen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@hajen.org",
+      "phone": "+46703971800",
+      "description": {
+        "free_text": "Simklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@hajen.org",
+        "contact_person_phone": "+46703971800"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0703-971800",
+        "kansliet@hajen.org",
+        "https://hajen.org",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Skånska Trädgårdsföreningen",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.sktradgard.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Sk%C3%A5nska%20Tr%C3%A4dg%C3%A5rdsf%C3%B6reningen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sktradgard.se",
+      "phone": "+46731432962",
+      "description": {
+        "free_text": "Förening för fritidsodling ansluten till Riksförbundet Svensk Trädgård",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@sktradgard.se",
+        "contact_person_phone": "+46731432962"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@sktradgard.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@sktradgard.se",
+        "0731432962",
+        "info@sktradgard.se",
+        "https://www.sktradgard.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "SPF Seniorerna Gamla Bjered",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Gamla%20Bjered",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "spf.bjarred@gmail.com",
+      "phone": "+46708223720",
+      "description": {
+        "free_text": "SPF Seniorerna är en ideell, partipolitiskt och religiöst obunden organisation. Syftet är att ta tillvara äldres sociala och ekonomiska intressen samt bedriva lokalt, regionalt och nationellt påverkansarbete. Inom ramen för detta ändamål ska SPF Seniorerna arbeta med frågor om äldres hälsa och omsorg, boende, ekonomi samt rätt att arbeta.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annette jörgensen",
+        "contact_person_role": null,
+        "contact_person_email": "spf.bjarred@gmail.com",
+        "contact_person_phone": "+46708223720"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Annette Jörgensen",
+        "0708223720",
+        "spf.bjarred@gmail.com",
+        "http:// www.spfseniorerna.se/gamla bjered",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "SPF Seniorerna Lomma Södra 594",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Lomma"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/distrikt/skanedistriktet/foreningslista/spf-seniorerna-lomma-sodra/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Lomma%20S%C3%B6dra%20594",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "spflommasodra594@telia.com",
+      "phone": "+46727412122",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "spflommasodra594@telia.com",
+        "contact_person_phone": "+46727412122"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "0727412122",
+        "spflommasodra594@telia.com",
+        "https://www.spfseniorerna.se/distrikt/skanedistriktet/foreningslista/spf-seniorerna-lomma-sodra/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan Lundabygden",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://sv.se/lundabygden",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20Vuxenskolan%20Lundabygden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lundabygden@sv.se",
+      "phone": "+46462117080",
+      "description": {
+        "free_text": "Studieförbund med upptagningsområde och verksamhet i Lomma, Kävlinge, Burlöv, Staffanstorp och Lund.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nils-ola nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "lundabygden@sv.se",
+        "contact_person_phone": "+46462117080"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Nils-Ola Nilsson",
+        "046-2117080",
+        "lundabygden@sv.se",
+        "https://sv.se/lundabygden",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Sup For Life",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Lomma"
+      ],
+      "homepage_url": "https://supforlife.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=Sup%20For%20Life",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "supforlifelomma@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Sup For Life är en ideell förening i Lomma kommun som är till för alla åldrar. Vår förening grundades 2020. Vi anordnar träningar, tävlingar och utbildningar. Hos oss är alla välkomna. Vi håller till vid Höje Å vid slutet av bryggan nära Skate parken.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åsa larsson",
+        "contact_person_role": null,
+        "contact_person_email": "supforlifelomma@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Åsa Larsson",
+        "supforlifelomma@gmail.com",
+        "https://supforlife.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "The Evil Gang Linedancers",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Lomma"
+      ],
+      "homepage_url": "https://evilgang.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=The%20Evil%20Gang%20Linedancers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@evilgang.se",
+      "phone": null,
+      "description": {
+        "free_text": "Linedance är bland de mest allsidiga dans former som finns, med\ndanssteg inlånade från de flesta dans stilar som: klassisk, rock & roll, latinamerikansk, hip-hop, step, funk, pop, disco mm.\nMan dansar utan partner men i snygga linjer.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@evilgang.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "info@evilgang.se",
+        "https://evilgang.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Örestad Baekdusan Taekwondo",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.baekdusantkd.se/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=%C3%96restad%20Baekdusan%20Taekwondo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "baekdusantaekwondo@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Taekwondo träning för alla nivåer.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Charlotta bülow",
+        "contact_person_role": null,
+        "contact_person_email": "baekdusantaekwondo@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Charlotta Bülow",
+        "baekdusantaekwondo@gmail.com",
+        "https://www.baekdusantkd.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Örestads Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "golf"
+      ],
+      "categories": [
+        "Bjärred",
+        "Lomma"
+      ],
+      "homepage_url": "https://www.orestadsgk.com/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=%C3%96restads%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@orestadsgk.com",
+      "phone": "+4640411990",
+      "description": {
+        "free_text": "Ideell förening\nÖrestads Golfklubb i Lomma kommun",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "golf"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bjärred",
+                "Lomma"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansliet",
+        "contact_person_role": null,
+        "contact_person_email": "info@orestadsgk.com",
+        "contact_person_phone": "+4640411990"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Kansliet",
+        "040411990",
+        "info@orestadsgk.com",
+        "https://www.orestadsgk.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Lomma",
+    "scrape_run_id": "9fcd8444-1718-4aaa-9ca5-19c874b2f7ce",
+    "scraped_at": "2025-10-28T23:56:07.628Z",
+    "association": {
+      "name": "Öresunds Dansförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://odf.nu/",
+      "detail_url": "https://lomma.rbok.se/foreningsregister?association=%C3%96resunds%20Dansf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Välkommen till Öresunds Dansförening. Den ideella dansföreningen i Malmö vars syfte är att sprida dansen som en rolig motions- och social umgängesform. Vi har massor av kurser och trevliga sociala mötesplatser i form av dans, fika och kamratskap.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://odf.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

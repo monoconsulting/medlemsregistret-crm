@@ -90,6 +90,21 @@ services:
         condition: service_healthy
     command: sh -c "npx prisma migrate deploy && node server.js"
 
+  backend:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    restart: always
+    env_file:
+      - ../backend/.env.production.backend
+    ports:
+      - "${BACKEND_PORT_PROD}:4040"
+    networks:
+      - crm-network
+    depends_on:
+      mysql:
+        condition: service_healthy
+
 volumes:
   mysql_data:
   redis_data:

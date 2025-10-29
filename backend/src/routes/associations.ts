@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { z } from 'zod';
 
-import { db } from '../../crm-app/lib/db';
+import { db } from '../../../crm-app/lib/db';
 import { requireAuth } from '../middleware/requireAuth';
 
 const noteSchema = z.object({
@@ -62,4 +62,3 @@ associationsRouter.post(
     }
   },
 );
-

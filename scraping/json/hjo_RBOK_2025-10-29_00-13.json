@@ -1,0 +1,3233 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "ABF Skaraborg",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=ABF%20Skaraborg",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Ateljéföreningen ockra",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Atelj%C3%A9f%C3%B6reningen%20ockra",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Konstförening inriktad på kulturverksamhet i Hjo",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Betania Norra Fågelås",
+      "org_number": null,
+      "types": [
+        "Samfund"
+      ],
+      "activities": [
+        "Kyrklig verksamhet"
+      ],
+      "categories": [
+        "Gate/Fågelås"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Betania%20Norra%20F%C3%A5gel%C3%A5s",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kyrklig verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gate/Fågelås"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Betaniafagelas.se",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "betaniafagelas.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Blikstorps AIK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.laget.se/BlikstorpsAIK",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Blikstorps%20AIK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "blikstorps.aik@live.se",
+      "phone": "+46734428435",
+      "description": {
+        "free_text": "Vi bedriver idrottslig verksamhet med huvudsaklig inriktning bordtennis. Vi bedriver även gympa för vuxna och barn",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy thorsén",
+        "contact_person_role": null,
+        "contact_person_email": "blikstorps.aik@live.se",
+        "contact_person_phone": "+46734428435"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Tommy Thorsén",
+        "073-442 84 35",
+        "blikstorps.aik@live.se",
+        "http://www.laget.se/BlikstorpsAIK",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "British Motor Meet Hjo",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=British%20Motor%20Meet%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Datorföreningen Dad's",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.dadsarmy.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Datorf%C3%B6reningen%20Dad%27s",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lordmaju@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningens syfte är att arrangera LAN, samt främja online- och datorspelande inom datorspelsklanen Dad’s Army.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marko juvonen",
+        "contact_person_role": null,
+        "contact_person_email": "lordmaju@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marko Juvonen",
+        "lordmaju@hotmail.com",
+        "https://www.dadsarmy.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Equmenia Hjo",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://equmeniakyrkan.se/hjo/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Equmenia%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hjo@equmeniakyrkan.nu",
+      "phone": "+46702792094",
+      "description": {
+        "free_text": "Barn och ungdomsverksamhet med främst scoutinriktning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders jesperson",
+        "contact_person_role": null,
+        "contact_person_email": "hjo@equmeniakyrkan.nu",
+        "contact_person_phone": "+46702792094"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders Jesperson",
+        "0702792094",
+        "hjo@equmeniakyrkan.nu",
+        "https://equmeniakyrkan.se/hjo/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Equmeniakyrkan",
+      "org_number": null,
+      "types": [
+        "Samfund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://equmeniakyrkan.se/hjo/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Equmeniakyrkan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hjo@equmeniakyrkan.nu",
+      "phone": "+46738009415",
+      "description": {
+        "free_text": "Kristen församlingsverksamhet med social inriktning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven lindberg",
+        "contact_person_role": null,
+        "contact_person_email": "hjo@equmeniakyrkan.nu",
+        "contact_person_phone": "+46738009415"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sven Lindberg",
+        "073 800 94 15",
+        "hjo@equmeniakyrkan.nu",
+        "https://equmeniakyrkan.se/hjo/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Friluftsfrämjandet Hjo",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.friluftsframjandet.se/regioner/vast/lokalavdelningar/hjo/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Friluftsfr%C3%A4mjandet%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hjo@friluftsframjandet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "hjo@friluftsframjandet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "hjo@friluftsframjandet.se",
+        "https://www.friluftsframjandet.se/regioner/vast/lokalavdelningar/hjo/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "FUB Hjo Tibro Karlsborg",
+      "org_number": null,
+      "types": [
+        "Hjälporganisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=FUB%20Hjo%20Tibro%20Karlsborg",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Förening för barn, unga och vuxna med funktionsvariation",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hanna hagkvist",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hanna Hagkvist",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Fågelås Julmarknadsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=F%C3%A5gel%C3%A5s%20Julmarknadsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@northsouth-fairtrade.se",
+      "phone": "+4650320001",
+      "description": {
+        "free_text": "Anordnar Fågelås julmarknad för att stödja lokala hantverkare och producenter",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nicolas berglund",
+        "contact_person_role": null,
+        "contact_person_email": "info@northsouth-fairtrade.se",
+        "contact_person_phone": "+4650320001"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Nicolas Berglund",
+        "050320001",
+        "info@northsouth-fairtrade.se",
+        "Ingen",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Föreningen Hjo Nyföretagarcentrum",
+      "org_number": null,
+      "types": [
+        "Politiskt parti eller förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=F%C3%B6reningen%20Hjo%20Nyf%C3%B6retagarcentrum",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hjo@nyforetagarcentrum.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Britt-marie sjöberg",
+        "contact_person_role": null,
+        "contact_person_email": "hjo@nyforetagarcentrum.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Britt-Marie Sjöberg",
+        "hjo@nyforetagarcentrum.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Föreningen HjoDisc",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=F%C3%B6reningen%20HjoDisc",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Gate AIS",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Gate%20AIS",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Grevbäcks Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/bygdegårdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://grevback.wordpress.com/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Grevb%C3%A4cks%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@grevback.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@grevback.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@grevback.com",
+        "https://grevback.wordpress.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Guldkroken Fotbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Guldkroken%20Fotbollsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Fotbollsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Gymmix Hjo",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Gymmix%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Gympa för vuxna och barn. Även Bamsegympa för barn.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hammarnskolans Föräldraförening HAFF",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hammarnskolans%20F%C3%B6r%C3%A4ldraf%C3%B6rening%20HAFF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "haff.hjo@gmail.com",
+      "phone": "+46709145056",
+      "description": {
+        "free_text": "Föräldraförening för Hammarnskolan I Hjo",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nathalie viotto",
+        "contact_person_role": null,
+        "contact_person_email": "haff.hjo@gmail.com",
+        "contact_person_phone": "+46709145056"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Nathalie Viotto",
+        "0709145056",
+        "haff.hjo@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo 365",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20365",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Hjo 365 arrangerar kulturevenemang av olika slag",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Badmintonklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46736720949",
+      "description": {
+        "free_text": "Badmintonträning för barn, ungdom och motionärer",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders arnoldsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46736720949"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders Arnoldsson",
+        "0736720949",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Biografförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://park-bio.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Biograff%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://park-bio.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Bowlingklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/HjoBK",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Bowlingklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hjobowlingklubb@gmail.com",
+      "phone": "+46705255949",
+      "description": {
+        "free_text": "Bowling, träning och tävling för alla åldrar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas johansson",
+        "contact_person_role": null,
+        "contact_person_email": "hjobowlingklubb@gmail.com",
+        "contact_person_phone": "+46705255949"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Thomas Johansson",
+        "070-5255949",
+        "hjobowlingklubb@gmail.com",
+        "https://www.laget.se/HjoBK",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Bridgesällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Bridges%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Brukshundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo dansklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Blikstorp/Fridene",
+        "Gate/Fågelås",
+        "Grevbäck",
+        "I Hjo centralort",
+        "Korsberga"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20dansklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johanna@friskvardsspecialisten.se",
+      "phone": "+46703579537",
+      "description": {
+        "free_text": "Dansförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Blikstorp/Fridene",
+                "Gate/Fågelås",
+                "Grevbäck",
+                "I Hjo centralort",
+                "Korsberga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johanna andersson",
+        "contact_person_role": null,
+        "contact_person_email": "johanna@friskvardsspecialisten.se",
+        "contact_person_phone": "+46703579537"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Johanna Andersson",
+        "0703579537",
+        "johanna@friskvardsspecialisten.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Filmstudio",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Filmstudio",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo folkhögskola",
+      "org_number": null,
+      "types": [
+        "Folkhögskola"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://folkhogskolan.com/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20folkh%C3%B6gskola",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info.hjo@hjofolkhogskola.se",
+      "phone": "+4650332300",
+      "description": {
+        "free_text": "Kurser och utbildningar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info.hjo@hjofolkhogskola.se",
+        "contact_person_phone": "+4650332300"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "050332300",
+        "info.hjo@hjofolkhogskola.se",
+        "https://folkhogskolan.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/bygdegårdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Hästsportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://hjohastsportklubb.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20H%C3%A4stsportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ekonomi@hjohastsportklubb.se",
+      "phone": "+46703512743",
+      "description": {
+        "free_text": "Ideell förening inom hästasport",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Alexsandra hullberg",
+        "contact_person_role": null,
+        "contact_person_email": "ekonomi@hjohastsportklubb.se",
+        "contact_person_phone": "+46703512743"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Alexsandra Hullberg",
+        "0703512743",
+        "ekonomi@hjohastsportklubb.se",
+        "https://hjohastsportklubb.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://artworks.se/hjokonstforening",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hjokonstforening@gmail.com",
+      "phone": "+46705858398",
+      "description": {
+        "free_text": "På ett spännande och utvecklande sätt skapa intresse för konst genom att ordna föreläsningar, konstresor, studiebesök, konstvandringar, konstcaféer, lotterier m.m.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per-åke johansson",
+        "contact_person_role": null,
+        "contact_person_email": "hjokonstforening@gmail.com",
+        "contact_person_phone": "+46705858398"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per-Åke Johansson",
+        "070-5858398",
+        "hjokonstforening@gmail.com",
+        "https://artworks.se/hjokonstforening",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Kultur- och Teaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.riksteatern.se/hjo",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Kultur-%20och%20Teaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.riksteatern.se/hjo",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Motorklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Gate/Fågelås",
+        "I Hjo centralort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Motorklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hjomotorklubb@gmail.com",
+      "phone": "+46708812080",
+      "description": {
+        "free_text": "Vi är en motorklubb som bedriver Enduroverksamhet i Binneberg Gate vi anordnar även en tävling Kräftracet varje år vid Munkebo Korsberga.\nVi har även en barnbana vid vår klubbstuga vid Källebo Cross/enduro.\nVi driver en crossbana i hop med Carlsborgs mk Garpabanan som ligger utanför Mölltorp.\nVi bedriver Slotracing i vår klubbstuga vid Källebo.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gate/Fågelås",
+                "I Hjo centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas lindblad",
+        "contact_person_role": null,
+        "contact_person_email": "hjomotorklubb@gmail.com",
+        "contact_person_phone": "+46708812080"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Thomas Lindblad",
+        "0708-812080",
+        "hjomotorklubb@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Pingstförsamling",
+      "org_number": null,
+      "types": [
+        "Samfund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Pingstf%C3%B6rsamling",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "veronica.asebrant@pingst.se",
+      "phone": "+4650331440",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Veronica åsebrant",
+        "contact_person_role": null,
+        "contact_person_email": "veronica.asebrant@pingst.se",
+        "contact_person_phone": "+4650331440"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Veronica Åsebrant",
+        "050331440",
+        "veronica.asebrant@pingst.se",
+        "hjopingst.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "HJO PRO förening",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=HJO%20PRO%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo segelsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20segels%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Sportfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Sportfiskeklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johan.fagerhag@gmail.com",
+      "phone": "+46708962914",
+      "description": {
+        "free_text": "Sportfiske i fyra olika vatten i närheten av Hjo.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan fägerhag",
+        "contact_person_role": null,
+        "contact_person_email": "johan.fagerhag@gmail.com",
+        "contact_person_phone": "+46708962914"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johan Fägerhag",
+        "0708962914",
+        "johan.fagerhag@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hjotennisklubb.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hjotennisklubb@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Idrottsverksamhet med träningskurser och lokala aktiviteter kopplat till tennis.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan englund",
+        "contact_person_role": null,
+        "contact_person_email": "hjotennisklubb@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan Englund",
+        "hjotennisklubb@gmail.com",
+        "https://www.hjotennisklubb.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Trädgårdsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Friluftsliv"
+      ],
+      "categories": [
+        "I Hjo centralort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Tr%C3%A4dg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lamanetteostling@gmail.co",
+      "phone": "+46702555080",
+      "description": {
+        "free_text": "Hjo Trädgårdsföreningär en ideell förening för dig som är intresserad av odling i din trädgård, på din kolonilott, på din balkong, i ditt fönster eller varhelst helst du odlar.\nHär är alla välkomna - nybörjare såväl som vana odlare elller bara nyfikna.\nFöreningen vill skapa gemenskap och kontaktytor mellan alla som är intresserade av odling. Här ska vi alla kunna byta erfarenheter med varandra, lära av varandra, få svar på frågor, dela växter och fröer och lära oss mer om hållbar odling vilket ska leda till biologisk mångfald.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friluftsliv"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "I Hjo centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anette östling",
+        "contact_person_role": null,
+        "contact_person_email": "lamanetteostling@gmail.co",
+        "contact_person_phone": "+46702555080"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Anette Östling",
+        "0702555080",
+        "lamanetteostling@gmail.co",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo Velocipedklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Cykling",
+        "Gruppträning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/HjoVK",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo%20Velocipedklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hjovk101@gmail.com",
+      "phone": "+46739803138",
+      "description": {
+        "free_text": "Cykelklubb med organiserade träningar för barn och vuxna inom Lansdvägs och Mountainbike cykling.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Cykling",
+                "Gruppträning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulf rudberg",
+        "contact_person_role": null,
+        "contact_person_email": "hjovk101@gmail.com",
+        "contact_person_phone": "+46739803138"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Ulf Rudberg",
+        "0739803138",
+        "hjovk101@gmail.com",
+        "https://www.laget.se/HjoVK",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjobygdens Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjobygdens%20Orienteringsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Orienteringsverksamhet för alla åldrar. Huvudsaken ungdomar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hjo-Tibro Släktforskarförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://hjotibrosf.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Hjo-Tibro%20Sl%C3%A4ktforskarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://hjotibrosf.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "HK Guldkroken Hjo",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/HKGuldkrokenHjo",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=HK%20Guldkroken%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hkguldkroken@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "hkguldkroken@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "hkguldkroken@outlook.com",
+        "https://www.laget.se/HKGuldkrokenHjo",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hälsoveckan i Hjo ideell förening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.halsoveckanihjo.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=H%C3%A4lsoveckan%20i%20Hjo%20ideell%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@halsoveckanihjo.se",
+      "phone": "+46731809827",
+      "description": {
+        "free_text": "En hälso- och träningsvecka med aktiviteter av lokala hälsoföretag samlade under ons-sön v.30 varje år i Hjo.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andea sannö",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@halsoveckanihjo.se",
+        "contact_person_phone": "+46731809827"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Andea Sannö",
+        "0731809827",
+        "ordforande@halsoveckanihjo.se",
+        "https://www.halsoveckanihjo.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Hökensås GK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hokensasgk.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=H%C3%B6kens%C3%A5s%20GK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stellan@nilsbyninvest.se",
+      "phone": "+46709900625",
+      "description": {
+        "free_text": "Golfklubb med 27 håls golfbana som drivs enligt KRAV. Även boende samt restaurang.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stellan rylander",
+        "contact_person_role": null,
+        "contact_person_email": "stellan@nilsbyninvest.se",
+        "contact_person_phone": "+46709900625"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stellan Rylander",
+        "0709900625",
+        "stellan@nilsbyninvest.se",
+        "https://www.hokensasgk.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "IFK Hjo",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://ifkhjo.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=IFK%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ifkhjo@ifkhjo.se",
+      "phone": null,
+      "description": {
+        "free_text": "Fotboll, innebandy och vilande friidrott",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ifkhjo@ifkhjo.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ifkhjo@ifkhjo.se",
+        "http://Ifkhjo.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Korsberga Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Korsberga"
+      ],
+      "homepage_url": "https://www.korsbergaif.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Korsberga%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "korsbergaif@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Idrottsförening i Korsberga med fokus på fotboll",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Korsberga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jesper carlén",
+        "contact_person_role": null,
+        "contact_person_email": "korsbergaif@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jesper Carlén",
+        "korsbergaif@gmail.com",
+        "https://www.korsbergaif.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Korsbergaortens bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening/bygdegårdsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Korsberga"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Korsbergaortens%20bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46768585252",
+      "description": {
+        "free_text": "Uthyrning av bygdegård. Evenemang och caféer",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Korsberga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jenny evaldsson högberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46768585252"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Jenny Evaldsson Högberg",
+        "0768585252",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Ladies Circle 155 Hjo-Guldkroken",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Ladies%20Circle%20155%20Hjo-Guldkroken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Laketown cruisers",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Laketown%20cruisers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "laketowncruisershjo@gmail.com",
+      "phone": "+462304158",
+      "description": {
+        "free_text": "en idell bilförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Frida jönhammar",
+        "contact_person_role": null,
+        "contact_person_email": "laketowncruisershjo@gmail.com",
+        "contact_person_phone": "+462304158"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Frida Jönhammar",
+        "+46702304158",
+        "laketowncruisershjo@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Livingroom Hjo IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "I Hjo centralort"
+      ],
+      "homepage_url": "http://www.livingroomhjo.com/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Livingroom%20Hjo%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "livingroom.hjo@gmail.com",
+      "phone": "+46702223280",
+      "description": {
+        "free_text": "Idrott utifrån allmänhetens intresse, judo och jujutsu för ungdomar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "I Hjo centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie westher lamberg",
+        "contact_person_role": null,
+        "contact_person_email": "livingroom.hjo@gmail.com",
+        "contact_person_phone": "+46702223280"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Marie Westher Lamberg",
+        "0702223280",
+        "livingroom.hjo@gmail.com",
+        "http://www.livingroomhjo.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Norra Fågelås IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik"
+      ],
+      "categories": [
+        "Gate/Fågelås",
+        "I Hjo centralort"
+      ],
+      "homepage_url": "https://www.laget.se/NorraFagelasIF",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Norra%20F%C3%A5gel%C3%A5s%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "rolf.050316153@gmail.com",
+      "phone": "+46703372431",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gate/Fågelås",
+                "I Hjo centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rolf eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "rolf.050316153@gmail.com",
+        "contact_person_phone": "+46703372431"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Rolf Eriksson",
+        "0703372431",
+        "rolf.050316153@gmail.com",
+        "https://www.laget.se/NorraFagelasIF",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Pilgrimsled Hjo-Kungslena ideell förening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Vandring"
+      ],
+      "categories": [
+        "Gate/Fågelås"
+      ],
+      "homepage_url": "https://www.pilgrimsledhjokungslena.se/",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Pilgrimsled%20Hjo-Kungslena%20ideell%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@pilgrimsledhjokungslena.se",
+      "phone": null,
+      "description": {
+        "free_text": "Skötsel och underhåll av Pilgrimsled Hjo-Kungslena",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vandring"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gate/Fågelås"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anita tilander",
+        "contact_person_role": null,
+        "contact_person_email": "info@pilgrimsledhjokungslena.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Anita Tilander",
+        "info@pilgrimsledhjokungslena.se",
+        "https://www.pilgrimsledhjokungslena.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "RBU Skaraborg",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=RBU%20Skaraborg",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "skaraborg@rbu.se",
+      "phone": "+46704233599",
+      "description": {
+        "free_text": "Förening för rörelsehindrade barn och ungdomar. Stöttar även deras familj.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annette lusterberg",
+        "contact_person_role": null,
+        "contact_person_email": "skaraborg@rbu.se",
+        "contact_person_phone": "+46704233599"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Annette Lusterberg",
+        "0704233599",
+        "skaraborg@rbu.se",
+        "skaraborg.rbu.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Rock mot Cancer i Hjo",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Rock%20mot%20Cancer%20i%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "rmchjo@gmail.com",
+      "phone": "+46735323100",
+      "description": {
+        "free_text": "Arrangera festival för att samla in pengar till Barncancerfonden Västra",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "John jarstål",
+        "contact_person_role": null,
+        "contact_person_email": "rmchjo@gmail.com",
+        "contact_person_phone": "+46735323100"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "John Jarstål",
+        "0735-323100",
+        "rmchjo@gmail.com",
+        "www.rmchjo.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "SeniHjorkören",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=SeniHjork%C3%B6ren",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "SPF Seniorerna Hjo",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "boman.owren@gmail.com",
+      "phone": "+46707967852",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika boman owren",
+        "contact_person_role": null,
+        "contact_person_email": "boman.owren@gmail.com",
+        "contact_person_phone": "+46707967852"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Annika Boman Owren",
+        "0707967852",
+        "boman.owren@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Studiefrämjandet Väst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Studiefr%C3%A4mjandet%20V%C3%A4st",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "isse.johansson@studieframjandet.se",
+      "phone": "+46723662713",
+      "description": {
+        "free_text": "Studieförbund",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Isse johansson",
+        "contact_person_role": null,
+        "contact_person_email": "isse.johansson@studieframjandet.se",
+        "contact_person_phone": "+46723662713"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Isse Johansson",
+        "072 366 27 13",
+        "isse.johansson@studieframjandet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Svenska Jugendsällskapet",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Svenska%20Jugends%C3%A4llskapet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "svenskajugendsallskapet@gmail.com",
+      "phone": "+46722026531",
+      "description": {
+        "free_text": "Att bidra till ökad kunskap om det sena 1800talet och tidigt 1900tal i klädsel, information och evenemang.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Madeleine eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "svenskajugendsallskapet@gmail.com",
+        "contact_person_phone": "+46722026531"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Madeleine Eriksson",
+        "0722026531",
+        "Svenskajugendsallskapet@gmail.com",
+        "www.svenska-jugendsallskapet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Sällskapet Boule Hjo",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [
+        "I Hjo centralort"
+      ],
+      "homepage_url": "https://www.laget.se/SallskapetBouleHjo",
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=S%C3%A4llskapet%20Boule%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sj.hjo5@gmail.com",
+      "phone": "+46706676880",
+      "description": {
+        "free_text": "Boule",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Boule"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "I Hjo centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sonja johansson",
+        "contact_person_role": null,
+        "contact_person_email": "sj.hjo5@gmail.com",
+        "contact_person_phone": "+46706676880"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Sonja Johansson",
+        "0706676880",
+        "sj.hjo5@gmail.com",
+        "https://www.laget.se/SallskapetBouleHjo",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Visvännerna i Hjo",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=Visv%C3%A4nnerna%20i%20Hjo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Hjo",
+    "scrape_run_id": "918246c1-a1e9-4cf3-806e-a558091c02d4",
+    "scraped_at": "2025-10-28T23:13:46.117Z",
+    "association": {
+      "name": "Vätterflickornas Bk",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Futsal"
+      ],
+      "categories": [
+        "I Hjo centralort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hjo.rbok.se/foreningsregister?association=V%C3%A4tterflickornas%20Bk",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mammamalinb@hotmail.com",
+      "phone": "+46735252892",
+      "description": {
+        "free_text": "Ett Oldladies lag som spelar fotboll. Fast alla åldrar är välkomna!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Futsal"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "I Hjo centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin bergåker",
+        "contact_person_role": null,
+        "contact_person_email": "mammamalinb@hotmail.com",
+        "contact_person_phone": "+46735252892"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Malin Bergåker",
+        "0735252892",
+        "mammamalinb@hotmail.com",
+        "Stäng"
+      ]
+    }
+  }
+]

@@ -1,0 +1,2816 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Botkyrka-Salem hemslöjdsförening",
+      "org_number": null,
+      "types": [
+        "Hobby och intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.botkyrka-salem-hemslojd.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Botkyrka-Salem%20hemsl%C3%B6jdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@botkyrka-salem-hemslojd.se",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen verkar för hemslöjdens främjande, främst inom Botkyrka och Salems kommuner genom att bevara, levandegöra och förnya slöjden samt skapa möjligheter för medlemmarna att exponera sin slöjd.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena wallenius",
+        "contact_person_role": null,
+        "contact_person_email": "info@botkyrka-salem-hemslojd.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lena Wallenius",
+        "info@botkyrka-salem-hemslojd.se",
+        "https://www.botkyrka-salem-hemslojd.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Botkyrka-Salems Hörselskadades Förening",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://hrf.se/botkyrka-salem/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Botkyrka-Salems%20H%C3%B6rselskadades%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "botkyrka@hrf.se",
+      "phone": "+46761398483",
+      "description": {
+        "free_text": "Tillvarataga hörselskadades intressen. Främst genom intressepolitiskt arbete, information och sociala aktiviteter",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Yvonne jangebrink",
+        "contact_person_role": null,
+        "contact_person_email": "botkyrka@hrf.se",
+        "contact_person_phone": "+46761398483"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Yvonne Jangebrink",
+        "076-1398483",
+        "botkyrka@hrf.se",
+        "https://hrf.se/botkyrka-salem/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Centerpartiet i Salem",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "http://www.centerpartiet.se/salem",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Centerpartiet%20i%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "salem@centerpartiet.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vill du påverka politiken i Salem? Bli medlem i Centerpartiet. Med jordnära visioner skapar Centerpartiet en grön och trygg vardag där vi ger kraft åt varje människa.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Raili nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "salem@centerpartiet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Raili Nilsson",
+        "salem@centerpartiet.se",
+        "http://www.centerpartiet.se/salem",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Dansa för livet",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans",
+        "Motion"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://danceforlife.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Dansa%20f%C3%B6r%20livet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "cecilia.bjorkman@crefort.com",
+      "phone": "+46702818912",
+      "description": {
+        "free_text": "Motionsdans, Zumba, tiodans och all typ av träning som främjar vår utveckling, fysiskt, mentalt och musikaliskt, för alla åldrar 16+",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Motion"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Cecilia björkman",
+        "contact_person_role": null,
+        "contact_person_email": "cecilia.bjorkman@crefort.com",
+        "contact_person_phone": "+46702818912"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Cecilia Björkman",
+        "070-2818912",
+        "cecilia.bjorkman@crefort.com",
+        "https://danceforlife.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Equmenia Rönninge",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.equmeniaronninge.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Equmenia%20R%C3%B6nninge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Scoutverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år"
+      ],
+      "contact_lines": [
+        "https://www.equmeniaronninge.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Ersboda 4H-gård",
+      "org_number": null,
+      "types": [
+        "Barn och ungdomsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.4h.se/ersboda/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Ersboda%204H-g%C3%A5rd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ann-mari.turkia@4h.se",
+      "phone": "+46760338809",
+      "description": {
+        "free_text": "Barn- och ungdomsverksamhet med fokus på djur.\nVi är en organisation av unga för unga. Genom att barn och unga påverkar sin egen fritid utvecklas de till sin fulla potential utefter sina egna förutsättningar.\n4H erbjuder en trygg miljö där barn och unga utvecklas genom att ta ansvar. I 4H ska barn och unga kunna delta i och lära sig om demokratiska processer.\nVåra ledare ska vara goda förebilder och organisationen ska genomsyras av en inkluderande och stark gemenskap och tillit.\nGenom vår verksamhet och våra medlemmars engagemang bidrar 4H till en bättre värld.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann-mari turkia",
+        "contact_person_role": null,
+        "contact_person_email": "ann-mari.turkia@4h.se",
+        "contact_person_phone": "+46760338809"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år"
+      ],
+      "contact_lines": [
+        "Ann-Mari Turkia",
+        "0760338809",
+        "ann-mari.turkia@4h.se",
+        "https://www.4h.se/ersboda/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Eternellen",
+      "org_number": null,
+      "types": [
+        "Hobby och intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Eternellen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Träffpunkt för pensionärer och",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy roos",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Tommy Roos",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Friluftsfrämjandet i Salem",
+      "org_number": null,
+      "types": [
+        "Hobby och intresseförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Friluftsfr%C3%A4mjandet%20i%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "salem@friluftsframjandet.se",
+      "phone": "+46736298776",
+      "description": {
+        "free_text": "Främjat friluftslivet och värnat om allemansrätten genom gruppaktiviteter för både barn och vuxna. Friluftsfrämjandet syfte är att bidra till ökad folkhälsa, livsglädje och respekt för naturen, genom friluftsliv.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin holm",
+        "contact_person_role": null,
+        "contact_person_email": "salem@friluftsframjandet.se",
+        "contact_person_phone": "+46736298776"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år"
+      ],
+      "contact_lines": [
+        "Martin Holm",
+        "0736298776",
+        "salem@friluftsframjandet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "IF Friskis&Svettis Rönninge Salem",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik",
+        "Motion"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "http://www.friskissvettis.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=IF%20Friskis%26Svettis%20R%C3%B6nninge%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Friskis&Svettis Rönninge Salem har ett ursprung ur Rönninge Gymmix och dessförinnan Konsums Husmodersgymnastikförening som har funnits i kommunen i 70 år, sedan år 1952. Hösten 2022 öppnar vi upp för en fullskalig Friskis&Svettisförening med ett rikt varierat utbud av olika träningsformer. Vi i Friskis&Svettis erbjuder lustfylld och lättillgänglig träning av hög kvalité!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik",
+                "Motion"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-4 år",
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias bernemyr",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-4 år",
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Mattias Bernemyr",
+        "http://www.friskissvettis.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "IFK Salem",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.laget.se/IFKSalem",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=IFK%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ifksalem.se",
+      "phone": "+46720277992",
+      "description": {
+        "free_text": "Förutom våra barn- och ungdomslag har vi en omfattande verksamhet med såväl skridskoskola för de allra minsta, Hockeyskola för de något äldre och en Hockeyskola enbart för flickor. Därutöver finns vårt Herr A-lag, Veteranlag samt rekreationslag för vuxna. Varmt välkommen till IFK Salem och Salems Ishall!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ishockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@ifksalem.se",
+        "contact_person_phone": "+46720277992"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "072-027 79 92",
+        "info@ifksalem.se",
+        "https://www.laget.se/IFKSalem",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Kamrat- och idrottsföreningen Toredal",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Triathlon"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.laget.se/KIFToredalTriathlon",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Kamrat-%20och%20idrottsf%C3%B6reningen%20Toredal",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kiftoredal@gmail.com",
+      "phone": "+46703145573",
+      "description": {
+        "free_text": "Allmänt om föreningen:\nVi vill på alla nivåer bedriva vår idrott så att den utvecklar människor positivt såväl fysiskt\noch psykiskt som socialt och kulturellt.\nI barnidrotten leker vi och ger barnen tillfälle att pröva på olika idrotter. Att ge barnen\nmöjlighet till allsidig idrottsutveckling är normgivande för verksamheten. Tävling är en del av\nleken och ska alltid ske på barnens villkor. I ungdomsidrotten och vuxenidrotten skiljer vi på\nbreddidrott och elitinriktad idrott.\nBarn- och ungdomsidrotten ska följa FN:s konvention om barnets rättigheter\n(Barnkonventionen).\nKIF TOREDAL:s verksamhetsidé:\nVi tar fasta på RF:s beskrivning av hur barnidrott bör bedrivas och har detta som ledmärke:\n”I barnidrotten leker vi och ger barnen tillfälle att pröva på olika idrotter. Att ge barnen\nmöjlighet till allsidig idrottsutveckling är normgivande för verksamheten. Tävling är en del av\nleken och ska alltid ske på barnens villkor.”\nKIF TOREDAL vill också:\n● Verka för att alla medlemmar, utifrån givna ramar, ska få idrotta på sina egna villkor\nutan krav på prestation och tävlande.\n● Verka för att barn, ungdomar och vuxna rör på sig tillsammans.\n● Verka för att att alla barn känner sig sedda och inkluderade vid föreningens\nträningstillfällen.\n● Verka för att skapa långsiktig rörelseglädje.\nFöreningen ska bedriva följande idrotter:\nInriktningen ligger på cykel, löpning, simning, swimrun.\nFöreningen har för avsikt att endast bedriva motionsidrott.\nFöreningen ska motverka all form av diskriminering samt aktivt verka för en dopingfri idrott.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Triathlon"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Joakim nyberg",
+        "contact_person_role": null,
+        "contact_person_email": "kiftoredal@gmail.com",
+        "contact_person_phone": "+46703145573"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år"
+      ],
+      "contact_lines": [
+        "Joakim Nyberg",
+        "0703145573",
+        "kiftoredal@gmail.com",
+        "https://www.laget.se/KIFToredalTriathlon",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Klustret i Salem",
+      "org_number": null,
+      "types": [
+        "Hobby och intresseförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Klustret%20i%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mazinikonsult@gmail.com",
+      "phone": "+46707231700",
+      "description": {
+        "free_text": "En prova på förening. Föreningens syfte är att ge människor en chans att prova på olika aktiviteter tillsammans med andra människor i kommunen. Vi kan tillsammans och gemensamt upptäcka nya saker och få nya intressen",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria zitting nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "mazinikonsult@gmail.com",
+        "contact_person_phone": "+46707231700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Maria Zitting Nilsson",
+        "070 7231700",
+        "mazinikonsult@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Konståkningsklubben i Salem",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Konståkning"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "http://kkis.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Konst%C3%A5kningsklubben%20i%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Konståkning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konståkning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ida olsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Ida Olsson",
+        "http://kkis.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Kristdemokraterna i Salem",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Kristdemokraterna%20i%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pernilla.schubert@salem.se",
+      "phone": null,
+      "description": {
+        "free_text": "Partiavdelning för KD i Salem",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pernilla schubert",
+        "contact_person_role": null,
+        "contact_person_email": "pernilla.schubert@salem.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Pernilla Schubert",
+        "pernilla.schubert@salem.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "kulturförening Icthus-Salem",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.icthus.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=kulturf%C3%B6rening%20Icthus-Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johan.nilsson@cag.se",
+      "phone": "+46709825450",
+      "description": {
+        "free_text": "Fotboll , träff med latinamerikansvuxna,",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "johan.nilsson@cag.se",
+        "contact_person_phone": "+46709825450"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Johan Nilsson",
+        "0709825450",
+        "johan.nilsson@cag.se",
+        "https://www.icthus.se/ facebook Icthus futbol Salem",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Liberalerna i Salem",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Liberalerna%20i%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "salem@liberalerna.se",
+      "phone": "+46702605546",
+      "description": {
+        "free_text": "Politisk Förening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åsa dahl",
+        "contact_person_role": null,
+        "contact_person_email": "salem@liberalerna.se",
+        "contact_person_phone": "+46702605546"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Åsa Dahl",
+        "070 2605546",
+        "salem@liberalerna.se",
+        "liberalerna.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Naturskyddsföreningen i Botkyrka - Salem",
+      "org_number": null,
+      "types": [
+        "Övrig förening och sammanslutning"
+      ],
+      "activities": [],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Naturskyddsf%C3%B6reningen%20i%20Botkyrka%20-%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@gaerdsmygen.se",
+      "phone": "+46705652464",
+      "description": {
+        "free_text": "Vi är en krets (av 270 st) av Svenska Naturskyddsföreningen.\nVi är en demokratisk, medlemsbaserad organisation som driver viktiga natur-och miljöfrågor lokalt, regionalt, nationellt och globalt.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Harald w thorburn",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@gaerdsmygen.se",
+        "contact_person_phone": "+46705652464"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Harald W Thorburn",
+        "0705652464",
+        "styrelsen@gaerdsmygen.se",
+        "www.gaerdsmygen.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Neuro St Botvid",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://neuro.se/stbotvid",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Neuro%20St%20Botvid",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "st-botvid@neuro.se",
+      "phone": "+46707493207",
+      "description": {
+        "free_text": "Intresseförening för personer med neurologisk diagnos i Salems kommun men även i kommunerna Botkyrka och Huddinge. Vi arbetar intressepolitiskt i föreningens olika kommuner, stödjer och hjälper medlemmar till ett aktivare och bättre fungerande vardagsliv, ger information och rekreation genom möten och aktiviteter, samarbetar med andra föreningar och organisationer för större utbud av aktiviteter och sprider kunskap till allmänhet om neurologiska sjukdomar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christina brännström",
+        "contact_person_role": null,
+        "contact_person_email": "st-botvid@neuro.se",
+        "contact_person_phone": "+46707493207"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christina Brännström",
+        "0707493207",
+        "st-botvid@neuro.se",
+        "https://neuro.se/stbotvid",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "PRO Salem-Rönninge Pensionärsförening",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "https://pro.se/salem-ronninge",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=PRO%20Salem-R%C3%B6nninge%20Pension%C3%A4rsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "salem-ronninge@pro.se",
+      "phone": "+46733875160",
+      "description": {
+        "free_text": "Månadsmöten, resor/utflykter, studiecirklar, vandringar mm",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars melchersson",
+        "contact_person_role": null,
+        "contact_person_email": "salem-ronninge@pro.se",
+        "contact_person_phone": "+46733875160"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Lars Melchersson",
+        "0733-875160",
+        "salem-ronninge@pro.se",
+        "https://pro.se/salem-ronninge",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Röda Korset Salem/Rönninge",
+      "org_number": null,
+      "types": [
+        "Övrig förening och sammanslutning"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.rodakorset.se/ort/stockholm/salems-kommun/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=R%C3%B6da%20Korset%20Salem%2FR%C3%B6nninge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sara.hommen@redcross.se",
+      "phone": "+46705609317",
+      "description": {
+        "free_text": "Humanitär verksamhet och krisberedskap",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sara hommen",
+        "contact_person_role": null,
+        "contact_person_email": "sara.hommen@redcross.se",
+        "contact_person_phone": "+46705609317"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Sara Hommen",
+        "0705609317",
+        "Sara.hommen@redcross.se",
+        "https://www.rodakorset.se/ort/stockholm/salems-kommun/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Rönninge Bastuförening",
+      "org_number": null,
+      "types": [
+        "Hobby och intresseförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=R%C3%B6nninge%20Bastuf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "christer.landegren@telia.com",
+      "phone": "+46706202908",
+      "description": {
+        "free_text": "Bastuföreningen startade på 1930-talet och är öppet för alla boende i kommunen.\nSeparata öppettider för damer resp herrar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer landegren",
+        "contact_person_role": null,
+        "contact_person_email": "christer.landegren@telia.com",
+        "contact_person_phone": "+46706202908"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Christer Landegren",
+        "070-6202908",
+        "christer.landegren@telia.com",
+        "Saknas",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Rönninge Salem Fotboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.rsf.nu/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=R%C3%B6nninge%20Salem%20Fotboll",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@rsf.nu",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är fotbollsklubb där alla är välkomna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@rsf.nu",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "kansli@rsf.nu",
+        "https://www.rsf.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Rönninge Salems kampsportsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=R%C3%B6nninge%20Salems%20kampsportsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marcus.thaiboxning@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Kampsportsträning för barn, ungdomar och vuxna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.rskampsport.se",
+        "contact_person_role": null,
+        "contact_person_email": "marcus.thaiboxning@gmail.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "marcus.thaiboxning@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "marcus.thaiboxning@gmail.com",
+        "marcus.thaiboxning@gmail.com",
+        "www.rskampsport.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Rönninge Show Chorus",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Körsång"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://ronningeshow.com/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=R%C3%B6nninge%20Show%20Chorus",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ronningeshow.com",
+      "phone": "+46733507321",
+      "description": {
+        "free_text": "Rönninge Show Chorus är en av världens bästa barbershopkörer. Repertoaren är bred och full av variation. Rönninge Show Chorus grundades 1983 och har vunnit stora framgångar såväl regionalt som i internationella mästerskap inom sångstilen barbershop, med bland annat tre VM-guld, 2013, 2016 och 2019. Kören strävar efter att vara unik och revolutionerande.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Körsång"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva losman ragnå",
+        "contact_person_role": null,
+        "contact_person_email": "info@ronningeshow.com",
+        "contact_person_phone": "+46733507321"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Eva Losman Ragnå",
+        "0733-507 321",
+        "info@ronningeshow.com",
+        "https://ronningeshow.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Rönninge Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "http://ronningetk.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=R%C3%B6nninge%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tennisskolan@ronningetk.se",
+      "phone": "+46707819677",
+      "description": {
+        "free_text": "Tennisundervisning för vuxna och barn.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas ågren",
+        "contact_person_role": null,
+        "contact_person_email": "tennisskolan@ronningetk.se",
+        "contact_person_phone": "+46707819677"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Jonas Ågren",
+        "0707819677",
+        "tennisskolan@ronningetk.se",
+        "http://ronningetk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Rönningepartiet",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=R%C3%B6nningepartiet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Politiskt parti",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ronningepartiet.se",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "ronningepartiet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Salem shukokai karate",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://salemshukokai.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Salem%20shukokai%20karate",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "salemshukokai@gmail.com",
+      "phone": "+46707695575",
+      "description": {
+        "free_text": "Karate träning för barn, ungdomar och vuxna",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Karate"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rune smeij",
+        "contact_person_role": null,
+        "contact_person_email": "salemshukokai@gmail.com",
+        "contact_person_phone": "+46707695575"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Rune Smeij",
+        "070 7695575",
+        "salemshukokai@gmail.com",
+        "https://salemshukokai.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Salemgymnasterna",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Salemgymnasterna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "salemgymnasterna@live.se",
+      "phone": null,
+      "description": {
+        "free_text": "https://www.salemgymnasterna.se/OmSalemgymnasterna/OmSalemgymnasterna/\nSalemgymasterna är en gymnastikförening som erbjuder träning i barngymnastik och truppgymnastik och skapar förutsättningar för tävling på olika nivåer. Föreningen drivs ideellt med hjälp av engagerade föräldrar och tränare som ofta själva är gymnster i föreningen.\nFöreningen bildades 1976.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.salemgymnasterna.se",
+        "contact_person_role": null,
+        "contact_person_email": "salemgymnasterna@live.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år"
+      ],
+      "contact_lines": [
+        "salemgymnasterna@live.se",
+        "www.salemgymnasterna.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Salems Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.salemhembygd.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Salems%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+462433306",
+      "description": {
+        "free_text": "En levande hembygd öppen för alla. Vi värnar om och vårdar hembygdens miljö och dess kulturarv och för detta vidare till kommande generationer",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marianne birke englid",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+462433306"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "https://www.salemhembygd.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Salems IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "http://www.salemsif.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Salems%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@salemsif.se",
+      "phone": "+46760047242",
+      "description": {
+        "free_text": "Innebandy",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 5-20 år",
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per asp",
+        "contact_person_role": null,
+        "contact_person_email": "info@salemsif.se",
+        "contact_person_phone": "+46760047242"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 5-20 år",
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Per Asp",
+        "076-0047242",
+        "info@salemsif.se",
+        "http://www.salemsif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Salems Konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Salems%20Konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Arrangerar konstutställningar, föreläsningar, besöker konstnärer samt gallerier",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Salemskonstforening.se",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "salemskonstforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Salems Pistolklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.salemspk.org/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Salems%20Pistolklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Salems Pistolklubb bildades år 1970 och är ansluten till Svenska Pistolskytteförbundet, Svenska Skyttesportförbundet och IPSC Sverige.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.salemspk.org/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Salems Teater och Musikförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Salems%20Teater%20och%20Musikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Teater och musik",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "SeniorNet Salem",
+      "org_number": null,
+      "types": [
+        "Övrig förening och sammanslutning"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://salem.seniornet.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=SeniorNet%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "seniornetsalem@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Lokal förening inom SeniorNet Sweden",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rolf carlén",
+        "contact_person_role": null,
+        "contact_person_email": "seniornetsalem@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Rolf Carlén",
+        "seniornetsalem@gmail.com",
+        "https://salem.seniornet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "SPF Seniorerna Botkyrka Salem",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/botkyrka",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Botkyrka%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "botkyrka@spfseniorerna.se",
+      "phone": "+46702556548",
+      "description": {
+        "free_text": "Vi är en partipolitiskt och religiöst obunden organisation för alla som har rätt till pension, oavsett ålder. SPF Seniorerna Botkyrka Salem har cirka 900 medlemmar och 300 av dess bor i Salem.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Olle glimvik",
+        "contact_person_role": null,
+        "contact_person_email": "botkyrka@spfseniorerna.se",
+        "contact_person_phone": "+46702556548"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Olle Glimvik",
+        "0702556548",
+        "botkyrka@spfseniorerna.se",
+        "https://www.spfseniorerna.se/botkyrka",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Synskadades Riksförbund Botkyrka Salem",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Synskadades%20Riksf%C3%B6rbund%20Botkyrka%20Salem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@srfstockholmgotland.se",
+      "phone": "+4684624500",
+      "description": {
+        "free_text": "En intressepolitisk verksamhet för personer med synnedsättning samt socialt stödja varandra.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Srf kansli",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@srfstockholmgotland.se",
+        "contact_person_phone": "+4684624500"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "SRF kansli",
+        "08-4624500",
+        "kansli@srfstockholmgotland.se",
+        "www.srfstockholmgotland.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Södertälje Strokeförening",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "https://strokeforbundet.se/sodertalje",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=S%C3%B6dert%C3%A4lje%20Strokef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "andersson.lillbritt@gmail.com",
+      "phone": "+46736690974",
+      "description": {
+        "free_text": "Vi arbetar för strokedrabbade och deras anhöriga. Har möten, och olika utflykter, cirklar yoga och bad, mm",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21+ år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lill-britt andersson",
+        "contact_person_role": null,
+        "contact_person_email": "andersson.lillbritt@gmail.com",
+        "contact_person_phone": "+46736690974"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21+ år"
+      ],
+      "contact_lines": [
+        "Lill-Britt Andersson",
+        "0736690974",
+        "andersson.lillbritt@gmail.com",
+        "https://strokeforbundet.se/sodertalje",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Salem",
+    "scrape_run_id": "0f9b3dd8-cc34-4e7d-9f6f-18716398acc8",
+    "scraped_at": "2025-10-29T00:55:36.281Z",
+    "association": {
+      "name": "Träningsgrupp Rönninge",
+      "org_number": null,
+      "types": [
+        "Hobby och intresseförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Salems kommun"
+      ],
+      "homepage_url": "http://www.traningsgruppronninge.bruksraser.se/",
+      "detail_url": "https://salem.rbok.se/foreningsregister?association=Tr%C3%A4ningsgrupp%20R%C3%B6nninge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "exanos@yahoo.com",
+      "phone": "+46703411159",
+      "description": {
+        "free_text": "Hundkurser",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Salems kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rose-marie p. eisfeldt",
+        "contact_person_role": null,
+        "contact_person_email": "exanos@yahoo.com",
+        "contact_person_phone": "+46703411159"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Rose-Marie P. Eisfeldt",
+        "070-3411159",
+        "exanos@yahoo.com",
+        "http://www.traningsgruppronninge.bruksraser.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

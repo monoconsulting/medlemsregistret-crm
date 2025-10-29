@@ -1,0 +1,6267 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Astma och Allergiföreningen Stockholm Sydost",
+      "org_number": null,
+      "types": [
+        "Funktionsrättsförening"
+      ],
+      "activities": [
+        "Föreningsverksamhet",
+        "Gymnastik",
+        "Konferens",
+        "Möte",
+        "Workshops för funktionsvarierade"
+      ],
+      "categories": [
+        "Boo",
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön",
+        "Älta"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Astma%20och%20Allergif%C3%B6reningen%20Stockholm%20Sydost",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ideell förening för personer med Astma och Allergi",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsverksamhet",
+                "Gymnastik",
+                "Konferens",
+                "Möte",
+                "Workshops för funktionsvarierade"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Personer med funktionsnedsättning (alla åldrar)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön",
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Personer med funktionsnedsättning (alla åldrar)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Attention Nacka-Värmdö",
+      "org_number": null,
+      "types": [
+        "Funktionsrättsförening"
+      ],
+      "activities": [
+        "Föreläsning",
+        "Föreningsverksamhet",
+        "Konferens",
+        "Möte",
+        "Workshops för funktionsvarierade"
+      ],
+      "categories": [
+        "Boo",
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön",
+        "Älta"
+      ],
+      "homepage_url": "https://www.nackavarmdo.attention.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Attention%20Nacka-V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46730740965",
+      "description": {
+        "free_text": "Våra medlemmar är vuxna som har neuropsykiatriska funktionsnedsättningar såsom adhd/add, autismspektrum/Asperger syndrom, Tourettes syndrom och andra närliggande funktionsnedsättningar, anhöriga till personer med dessa funktionsnedsättningar samt andra som vill stödja vårt arbete, till exempel yrkesverksamma inom området. Vårt primära syfte är att verka för bättre levnadsvillkor för våra medlemmar, och det gör vi genom att sprida information, ordna medlemsaktiviteter och arbeta intressepolitiskt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreläsning",
+                "Föreningsverksamhet",
+                "Konferens",
+                "Möte",
+                "Workshops för funktionsvarierade"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)",
+                "Yngre barn (0-3 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön",
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta nordfors johansson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46730740965"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)",
+        "Yngre barn (0-3 år)"
+      ],
+      "contact_lines": [
+        "https://www.nackavarmdo.attention.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Bara Vanlig Hälsa",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://baravanlig.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Bara%20Vanlig%20H%C3%A4lsa",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@baravanlig.se",
+      "phone": null,
+      "description": {
+        "free_text": "Bara Vanlig är föreningen som arbetar för personer med funktionsnedsättningar och deras anhörigas rätt att leva ett meningsfullt liv, präglat av fysisk och mental god hälsa.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Personer med funktionsnedsättning (alla åldrar)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Niclas wennerlund",
+        "contact_person_role": null,
+        "contact_person_email": "info@baravanlig.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Personer med funktionsnedsättning (alla åldrar)"
+      ],
+      "contact_lines": [
+        "Niclas Wennerlund",
+        "info@baravanlig.se",
+        "https://baravanlig.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "BK Lindarna",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=BK%20Lindarna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "janne.hartwig@gmail.com",
+      "phone": "+467057510",
+      "description": {
+        "free_text": "Bowlingverksamhet för unga och vuxna med funktionsvariationer inskrivna inom LSS",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan hartwig",
+        "contact_person_role": null,
+        "contact_person_email": "janne.hartwig@gmail.com",
+        "contact_person_phone": "+467057510"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan Hartwig",
+        "07057510",
+        "janne.hartwig@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Bonsai BJJ IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bonsaibjj.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Bonsai%20BJJ%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@bonsaibjj.se",
+      "phone": null,
+      "description": {
+        "free_text": "Brasiliansk Jiu Jitsu för barn 8-12 år",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel lundin",
+        "contact_person_role": null,
+        "contact_person_email": "info@bonsaibjj.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Daniel Lundin",
+        "info@bonsaibjj.se",
+        "https://bonsaibjj.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Boo Folkets Hus Förening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Bild",
+        "Café",
+        "Dans",
+        "Event",
+        "Fest",
+        "Film",
+        "Föreningsverksamhet",
+        "Kulturskola",
+        "Kulturskola inom musik",
+        "Musik",
+        "Möte",
+        "Orkester",
+        "Teater",
+        "Yoga"
+      ],
+      "categories": [
+        "Boo",
+        "Sicklaön",
+        "Älta"
+      ],
+      "homepage_url": "https://www.boofolketshus.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Boo%20Folkets%20Hus%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@boofolketshus.se",
+      "phone": "+4687477200",
+      "description": {
+        "free_text": "En Folkets Hus-förening med Fritidsgård, Kulturskola och seniorverksamhet samt samlingslokaler och café",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Bild",
+                "Café",
+                "Dans",
+                "Event",
+                "Fest",
+                "Film",
+                "Föreningsverksamhet",
+                "Kulturskola",
+                "Kulturskola inom musik",
+                "Musik",
+                "Möte",
+                "Orkester",
+                "Teater",
+                "Yoga"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Sicklaön",
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Albin waerndt",
+        "contact_person_role": null,
+        "contact_person_email": "info@boofolketshus.se",
+        "contact_person_phone": "+4687477200"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Albin Waerndt",
+        "08-7477200",
+        "info@boofolketshus.se",
+        "https://www.boofolketshus.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Boo Fotbollsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.booff.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Boo%20Fotbollsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@booff.se",
+      "phone": "+46855614840",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jörgen alevad",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@booff.se",
+        "contact_person_phone": "+46855614840"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jörgen Alevad",
+        "08-55614840",
+        "kansli@booff.se",
+        "https://www.booff.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Boo Gårds Skolidrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Boo"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Boo%20G%C3%A5rds%20Skolidrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Skolidrottsförening samarbetar med Boo Gårds skola och erbjuder medlemmarna aktiviteter i direkt samband till skolan.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Boo Hockey Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/BooHockey/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Boo%20Hockey%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "p.bergstrom@hotmail.com",
+      "phone": "+46703774911",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pierre bergström",
+        "contact_person_role": null,
+        "contact_person_email": "p.bergstrom@hotmail.com",
+        "contact_person_phone": "+46703774911"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Pierre Bergström",
+        "0703774911",
+        "p.bergstrom@hotmail.com",
+        "https://www.laget.se/BooHockey/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Boo Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [
+        "Boo"
+      ],
+      "homepage_url": "https://boofriidrott.se/start/?ID=386077",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Boo%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "boofriidrott@outlook.com",
+      "phone": "+46708657557",
+      "description": {
+        "free_text": "Föreningen bedriver friidrottsträning för barn och ungdomar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulf odda",
+        "contact_person_role": null,
+        "contact_person_email": "boofriidrott@outlook.com",
+        "contact_person_phone": "+46708657557"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Ulf Odda",
+        "070 865 75 57",
+        "boofriidrott@outlook.com",
+        "https://boofriidrott.se/start/?ID=386077",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Boo Kanot och Skidklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kajak"
+      ],
+      "categories": [
+        "Boo"
+      ],
+      "homepage_url": "https://www.bkos.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Boo%20Kanot%20och%20Skidklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@bkos.se",
+      "phone": null,
+      "description": {
+        "free_text": "Våra medlemmar är både paddlare och skidåkare. Vi har enmanskajaker, dubbelkajaker och SUP:ar (Stand Up Paddle board) för utlåning till medlemmarna. Vintertid underhåller vi skidspåren i Velamsund. Under sommaren gör vi flera kajakturer både långa och korta samt årligen en skidresa till fjällen med klubben.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kajak"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@bkos.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "ordforande@bkos.se",
+        "https://www.bkos.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Boo Kapells Vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bookapell.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Boo%20Kapells%20V%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bookapellsvanner@gmail.com",
+      "phone": "+46725400704",
+      "description": {
+        "free_text": "Föreningens syfte är att ideellt och ekonomiskt stödja vård och under håll av Boo kapell, samt kulturell verksamhet som bedrivs i anslutning till kapellet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina ribbing lindgren",
+        "contact_person_role": null,
+        "contact_person_email": "bookapellsvanner@gmail.com",
+        "contact_person_phone": "+46725400704"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Katarina Ribbing Lindgren",
+        "0725400704",
+        "bookapellsvanner@gmail.com",
+        "https://bookapell.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Boo Segelsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Boo"
+      ],
+      "homepage_url": "https://booss.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Boo%20Segels%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "segling@booss.se",
+      "phone": "+46702670954",
+      "description": {
+        "free_text": "Segelklubb",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Dyrell bertil",
+        "contact_person_role": null,
+        "contact_person_email": "segling@booss.se",
+        "contact_person_phone": "+46702670954"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Dyrell Bertil",
+        "0702670954",
+        "segling@booss.se",
+        "https://booss.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Boo Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Karate",
+        "Konståkning"
+      ],
+      "categories": [
+        "Boo",
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön",
+        "Älta"
+      ],
+      "homepage_url": "https://boo-sk.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Boo%20Sportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johan.oldhoff@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": "Anrik förening från 1950-talet med sektioner inom Fotboll, Konståkning, Boule och Kampsport",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Karate",
+                "Konståkning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Yngre barn (0-3 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön",
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan oldhoff",
+        "contact_person_role": null,
+        "contact_person_email": "johan.oldhoff@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Yngre barn (0-3 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Johan Oldhoff",
+        "johan.oldhoff@outlook.com",
+        "https://boo-sk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Bufff Stockholm",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bufff.se/stockholm/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Bufff%20Stockholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stockholm@bufff.se",
+      "phone": "+46735100343",
+      "description": {
+        "free_text": "Bufff Stockholm är en barnrättsorganisation som stöttar barn och ungdomar med en frihetsberövad anhörig – exempelvis en förälder, ett syskon eller annan närstående. Stödet anpassas efter varje individs behov, och vi erbjuder även gruppaktiviteter utformade för att minska känslor av skuld och skam, stärka det psykosociala välbefinnandet och främja social delaktighet.\nBarn och unga i denna situation löper ökad risk för psykisk ohälsa, social isolering, skolsvårigheter och rekrytering till kriminalitet. Syskon till unga frihetsberövade är särskilt utsatta, då de ofta delar samma socioekonomiska miljö, vänskapskretsar och risk- och skyddsfaktorer. Syftet med Bufff Stockholms verksamhet är att stärka barn och ungdomar med en frihetsberövad anhörig genom att erbjuda stöd som minskar känslor av skuld, skam och isolering. Vi vill främja deras psykiska hälsa, sociala delaktighet och rätt till en trygg uppväxt. Genom att arbeta nära både barn, omsorgspersoner och samhällets aktörer bidrar vi till att barns rättigheter uppmärksammas och tillgodoses.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Päivi leivo",
+        "contact_person_role": null,
+        "contact_person_email": "stockholm@bufff.se",
+        "contact_person_phone": "+46735100343"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Päivi Leivo",
+        "0735100343",
+        "stockholm@bufff.se",
+        "https://bufff.se/stockholm/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "CC Academy Club Nacka",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Padel"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=CC%20Academy%20Club%20Nacka",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jesper@ccacademy.se",
+      "phone": "+46708440414",
+      "description": {
+        "free_text": "CC Academy Club Nacka är en padelförening som ska bedriva en kvalitetsfylld tränings- och tävlingsverksamhet där glädje, trivsel och utveckling står i fokus.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Padel"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jesper almqvist",
+        "contact_person_role": null,
+        "contact_person_email": "jesper@ccacademy.se",
+        "contact_person_phone": "+46708440414"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Jesper Almqvist",
+        "0708440414",
+        "jesper@ccacademy.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Dansklubben Nackswinget",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.nackswinget.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Dansklubben%20Nackswinget",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nackswinget.se",
+      "phone": null,
+      "description": {
+        "free_text": "Dansklubben Nackswinget bildades 1990 och är en ideell idrottsförening som erbjuder buggkurser, tävlingsträning och socialdans.\nVi håller danskurser från nybörjarnivå till avancerad nivå, och för dig som vill tävla finns även tävlingsträning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Cecilia zimmerman",
+        "contact_person_role": null,
+        "contact_person_email": "info@nackswinget.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Cecilia Zimmerman",
+        "info@nackswinget.se",
+        "https://www.nackswinget.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Farda Kulturklubben",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.farda.org,/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Farda%20Kulturklubben",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@farda.org",
+      "phone": "+46705670775",
+      "description": {
+        "free_text": "Farda Kulturklubben är en oberoende litterär och konstnärlig sammanslutning som inledde sin\nkulturella verksamhet 1997. Våra mål inkluderar:\n• Att stödja och främja de allmänt accepterade värderingarna inom litteraturen och kulturen.\n• anordning av Film Festival med dokumentärer och konstnärliga filmer skapade av afghanska\noch internationella filmproducenter.\n• Att arbeta för att bevara afghansk, persisk litteratur och kultur samt presentera svensk\nlitteratur för persisktalande.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fatah mohammad",
+        "contact_person_role": null,
+        "contact_person_email": "info@farda.org",
+        "contact_person_phone": "+46705670775"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fatah Mohammad",
+        "0705670775",
+        "info@farda.org",
+        "https://www.farda.org, https://www.samaiff.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Fisksätra Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket",
+        "Boxning",
+        "Fotboll",
+        "Föreläsning",
+        "Gymnastik",
+        "Möte",
+        "Simning",
+        "Workshop"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden"
+      ],
+      "homepage_url": "https://www.fisksatraif.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Fisks%C3%A4tra%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@fisksatraif.se",
+      "phone": "+46720261309",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket",
+                "Boxning",
+                "Fotboll",
+                "Föreläsning",
+                "Gymnastik",
+                "Möte",
+                "Simning",
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Yngre barn (0-3 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas cherkani",
+        "contact_person_role": null,
+        "contact_person_email": "info@fisksatraif.se",
+        "contact_person_phone": "+46720261309"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Yngre barn (0-3 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Jonas Cherkani",
+        "0720261309",
+        "info@fisksatraif.se",
+        "https://www.fisksatraif.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "FUB Nacka Värmdö",
+      "org_number": null,
+      "types": [
+        "Funktionsrättsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.fub.se/lokal/fub-nacka-varmdo/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=FUB%20Nacka%20V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "fubnackavarmdo@gmail.com",
+      "phone": "+46705157989",
+      "description": {
+        "free_text": "Möten, konferenser, workshops, föreläsningar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lillemor johansson",
+        "contact_person_role": null,
+        "contact_person_email": "fubnackavarmdo@gmail.com",
+        "contact_person_phone": "+46705157989"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lillemor Johansson",
+        "0705157989",
+        "fubnackavarmdo@gmail.com",
+        "https://www.fub.se/lokal/fub-nacka-varmdo/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Fysiksektionen",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://f.kth.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Fysiksektionen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styret@f.kth.se",
+      "phone": null,
+      "description": {
+        "free_text": "Fysiksektionen är del av Tekniska Högskolans Studentkår (THS) och samlar alla studenter som studerar på Civilingenjörsprogrammen Teknisk Fysik och Teknisk Matematik, masterprogrammen i Teknisk Fysik, Kärnenergiteknik, Datorsimuleringar inom teknik och naturvetenskap, Tillämpad matematik och beräkningsmatematik, samt Matematik.\nSektionens syfte är att tillvarata studenternas intressen genom att aktivt verka för en bättre studietid. Detta innebär bland annat genom att vi bevakar studie och arbetsmiljöfrågor, ordnar fester, spex, idrottsaktiviteter och företagspresentationen.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "styret@f.kth.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "styret@f.kth.se",
+        "https://f.kth.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Föreningen Choy Lee Fut Kung Fu Stockholm",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.choyleefut.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=F%C3%B6reningen%20Choy%20Lee%20Fut%20Kung%20Fu%20Stockholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "elias_palma@hotmail.com",
+      "phone": "+46731503771",
+      "description": {
+        "free_text": "Förening som förvaltar Kinesisk Kulturarv medelst träning i kampkonst, meditation, Qi-gong mm",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "elias_palma@hotmail.com",
+        "contact_person_phone": "+46731503771"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "0731503771",
+        "elias_palma@hotmail.com",
+        "https://www.choyleefut.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Föreningen Darra Musik och Dans",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden"
+      ],
+      "homepage_url": "https://www.wearedarra.com/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=F%C3%B6reningen%20Darra%20Musik%20och%20Dans",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "darramusik@gmail.com",
+      "phone": "+46704371376",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Personer med funktionsnedsättning (alla åldrar)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "darramusik@gmail.com",
+        "contact_person_phone": "+46704371376"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "darramusik@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Personer med funktionsnedsättning (alla åldrar)"
+      ],
+      "contact_lines": [
+        "darramusik@gmail.com",
+        "0704371376",
+        "darramusik@gmail.com",
+        "https://www.wearedarra.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Föreningen Fisksätra museum",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Film",
+        "Föreställning",
+        "Konst",
+        "Konstkurs",
+        "Utställning",
+        "Workshop",
+        "Öppen verksamhet"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden"
+      ],
+      "homepage_url": "https://www.fisksatramuseum.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=F%C3%B6reningen%20Fisks%C3%A4tra%20museum",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@fisksatramuseum.se",
+      "phone": null,
+      "description": {
+        "free_text": "Fisksätra museums självformulerade uppdrag är att undersöka hur ett museum kan ta plats som ett i vid mening kulturpolitiskt laboratorium. Vi vill knuffa på gränserna för vad ett museum kan vara i ett samhälle som präglas av migration. Med förankring i många former av samarbeten med fisksätrabor, grupper, nätverk och enskilda i lokalsamhället, utvecklar vi parallellt museet som scen för kulturarv och olika konstarter.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Film",
+                "Föreställning",
+                "Konst",
+                "Konstkurs",
+                "Utställning",
+                "Workshop",
+                "Öppen verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Cristina schippa",
+        "contact_person_role": null,
+        "contact_person_email": "info@fisksatramuseum.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Cristina Schippa",
+        "info@fisksatramuseum.se",
+        "https://www.fisksatramuseum.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Föreningen Saltsjöbadsbaletten",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden"
+      ],
+      "homepage_url": "https://www.saltsjobadsbaletten.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=F%C3%B6reningen%20Saltsj%C3%B6badsbaletten",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@saltsjobadsbaletten.se",
+      "phone": null,
+      "description": {
+        "free_text": "Dansundervisning för barn och ungdomar: barndans, jazzdans, hiphop, balett, tåspets, modern dans, showjazz och femininevibe.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulrika leijonhufvud holmberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@saltsjobadsbaletten.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Ulrika Leijonhufvud Holmberg",
+        "info@saltsjobadsbaletten.se",
+        "https://www.saltsjobadsbaletten.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Gustavsbergs Musik och Balettstudio",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://gustavsbergbaletten.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Gustavsbergs%20Musik%20och%20Balettstudio",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anna@gustavsbergbaletten.se",
+      "phone": "+46734222269",
+      "description": {
+        "free_text": "Kulturskola. Dansundervisning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna skarin",
+        "contact_person_role": null,
+        "contact_person_email": "anna@gustavsbergbaletten.se",
+        "contact_person_phone": "+46734222269"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anna Skarin",
+        "073-4222269",
+        "anna@gustavsbergbaletten.se",
+        "https://gustavsbergbaletten.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Gymnastik- och dansklubb Stockholm Star",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans",
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "https://stockholmstaracademy.com/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Gymnastik-%20och%20dansklubb%20Stockholm%20Star",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@stockholmstaracademy.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@stockholmstaracademy.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "kansli@stockholmstaracademy.com",
+        "https://stockholmstaracademy.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Hellas Friidrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hellasfriidrott.se/sida/?ID=311719",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Hellas%20Friidrottsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "malin.bellander@praktiska.se",
+      "phone": "+46704947666",
+      "description": {
+        "free_text": "Friidrottsförening med verksamhet för barn, ungdomar och elit.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin bellander",
+        "contact_person_role": null,
+        "contact_person_email": "malin.bellander@praktiska.se",
+        "contact_person_phone": "+46704947666"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Malin Bellander",
+        "0704947666",
+        "malin.bellander@praktiska.se",
+        "https://www.hellasfriidrott.se/sida/?ID=311719",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Hästhagen IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik",
+        "Innebandy",
+        "Volleyboll"
+      ],
+      "categories": [
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.svenskalag.se/hasthagenif",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=H%C3%A4sthagen%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen bedriver verksamhet inom innebandy, volleyboll och gymnastik.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik",
+                "Innebandy",
+                "Volleyboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Yngre barn (0-3 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Yngre barn (0-3 år)"
+      ],
+      "contact_lines": [
+        "https://www.svenskalag.se/hasthagenif",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Hörselskadades förening Nacka Värmdö",
+      "org_number": null,
+      "types": [
+        "Funktionsrättsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://hrf.se/nacka-varmdo/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=H%C3%B6rselskadades%20f%C3%B6rening%20Nacka%20V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nacka.varmdo@forening.hrf.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monika larsson (föreningens ordförande)",
+        "contact_person_role": null,
+        "contact_person_email": "nacka.varmdo@forening.hrf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Monika Larsson (föreningens ordförande)",
+        "nacka.varmdo@forening.hrf.se",
+        "https://hrf.se/nacka-varmdo/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "IF Nacka Kyokushin Karate Kai",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://nackakyokushin.com/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=IF%20Nacka%20Kyokushin%20Karate%20Kai",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marcelo.hidalgo@keolis.se",
+      "phone": "+46737882174",
+      "description": {
+        "free_text": "Karate Förening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marcelo hidalgo",
+        "contact_person_role": null,
+        "contact_person_email": "marcelo.hidalgo@keolis.se",
+        "contact_person_phone": "+46737882174"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marcelo Hidalgo",
+        "0737882174",
+        "marcelo.hidalgo@keolis.se",
+        "https://nackakyokushin.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Jarlabergs Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.jbtk.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Jarlabergs%20Bordtennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jarlabergsbtk@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi bedriver nivåanpassad bordtennis i alla åldrar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias carlsson",
+        "contact_person_role": null,
+        "contact_person_email": "jarlabergsbtk@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Mattias Carlsson",
+        "jarlabergsbtk@gmail.com",
+        "https://www.jbtk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "JENSEN grundskola Sickla skolidrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=JENSEN%20grundskola%20Sickla%20skolidrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "skolif@dif.se",
+      "phone": null,
+      "description": {
+        "free_text": "Skolidrottsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "skolif@dif.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "skolif@dif.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Järla Idrottsförening Fotbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.jarlaif.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=J%C3%A4rla%20Idrottsf%C3%B6rening%20Fotbollsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@jarlaif.se",
+      "phone": "+46768506561",
+      "description": {
+        "free_text": "Fotbolls verksamhet för barn, ungdomar, seniorer samt para.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@jarlaif.se",
+        "contact_person_phone": "+46768506561"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0768506561",
+        "kansli@jarlaif.se",
+        "https://www.jarlaif.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Järla IFS Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.jarla.com/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=J%C3%A4rla%20IFS%20Orienteringsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@jarla.com",
+      "phone": null,
+      "description": {
+        "free_text": "Järla Orientering är en idrottsförening i Nacka som fokuserar på orientering, där medlemmar lär sig att navigera i skog och mark med karta och kompass. Verksamheten inkluderar träningar, tävlingar, och nybörjarkurser för alla åldrar och nivåer, från barn och ungdomar till vuxna och elitidrottare. Klubben arrangerar också egna orienteringstävlingar och läger, samt deltar i olika nationella och internationella tävlingar. Järla Orientering lägger stor vikt vid gemenskap, naturupplevelser och att främja ett aktivt friluftsliv.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Michael ahlquist",
+        "contact_person_role": null,
+        "contact_person_email": "info@jarla.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Michael Ahlquist",
+        "info@jarla.com",
+        "https://www.jarla.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Kajsa och Olle Nymans vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.ollenyman.se/vaennerna",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Kajsa%20och%20Olle%20Nymans%20v%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "foreningen@ollenyman.se",
+      "phone": "+46739641287",
+      "description": {
+        "free_text": "Stötta och levandegöra Olle Nymans ateljéer och konstnärshem och främja verksamheten, ateljéerna, platsen och samlingarna. Verka för den befintliga kulturmiljöns fortlevnad och utveckling av densamma",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)",
+                "Yngre barn (0-3 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva ståhl lundborg",
+        "contact_person_role": null,
+        "contact_person_email": "foreningen@ollenyman.se",
+        "contact_person_phone": "+46739641287"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)",
+        "Yngre barn (0-3 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Eva Ståhl Lundborg",
+        "0046739641287",
+        "foreningen@ollenyman.se",
+        "https://www.ollenyman.se/vaennerna",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Kulturföreningen Dotterbolaget",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Scenkonst"
+      ],
+      "categories": [],
+      "homepage_url": "https://dotterbolaget.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Kulturf%C3%B6reningen%20Dotterbolaget",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@dotterbolaget.se",
+      "phone": "+46763369503",
+      "description": {
+        "free_text": "Vi producerar clownföreställningar för barn och vuxna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scenkonst"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@dotterbolaget.se",
+        "contact_person_phone": "+46763369503"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@dotterbolaget.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "info@dotterbolaget.se",
+        "0763369503",
+        "info@dotterbolaget.se",
+        "https://dotterbolaget.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Kungliga Svenska Segelsällskapet",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://ksss.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Kungliga%20Svenska%20Segels%C3%A4llskapet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ksss@ksss.se",
+      "phone": "+46855616680",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ksss@ksss.se",
+        "contact_person_phone": "+46855616680"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "08-55616680",
+        "ksss@ksss.se",
+        "https://ksss.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Kårspexet",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Scenkonst"
+      ],
+      "categories": [],
+      "homepage_url": "https://karspexet.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=K%C3%A5rspexet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ekoc.karspexet@gmail.com",
+      "phone": "+46760516630",
+      "description": {
+        "free_text": "Vi är en ideell förening som i huvudsak drivs av studenter vid Kungliga tekniska högskolan. Verksamhetens mål är att producera och visa upp så kallade spex (interaktiv teater). En uppsättning brukar påbörjas under hösten i form av arbete med manus, skådespel, rekvisita och kostymskapande. Sedan brukar det hållas föreställningar under två helger på våren och en helg på hösten.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scenkonst"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Wilma kedhammar",
+        "contact_person_role": null,
+        "contact_person_email": "ekoc.karspexet@gmail.com",
+        "contact_person_phone": "+46760516630"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Wilma Kedhammar",
+        "0760516630",
+        "ekoc.karspexet@gmail.com",
+        "https://karspexet.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Muslimernas Förening i Nacka",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [
+        "Föreningsverksamhet"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden"
+      ],
+      "homepage_url": "https://www.fisksatramosque.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Muslimernas%20F%C3%B6rening%20i%20Nacka",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@fisksatramosque.se",
+      "phone": "+46700476662",
+      "description": {
+        "free_text": "Muslimernas Förening i Nacka spelar en central roll i att främja interreligiös dialog, socialt stöd och integration i Fisksätra. Genom samarbeten och gemensamma projekt bidrar föreningen till att bygga broar mellan olika samhällsgrupper och skapa en inkluderande miljö för alla invånare",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Javed ahmed",
+        "contact_person_role": null,
+        "contact_person_email": "info@fisksatramosque.se",
+        "contact_person_phone": "+46700476662"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Javed Ahmed",
+        "0700476662",
+        "info@fisksatramosque.se",
+        "https://www.fisksatramosque.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Barnförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Barnf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bamsegympa, Gymnastik, Läger",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Dojo IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://nackadojo.com/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Dojo%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nackadojo.com",
+      "phone": "+46707169197",
+      "description": {
+        "free_text": "Nacka Dojo startade under namnet Ju-Jutsu Klubb 1982 av Ingemar Sköld. Det första året hade vi vår verksamhet i Fisksätra för att sedan flytta träningen till Budosalen i Nacka sportcenter. Nu finns vi på Skuru Skolväg 2b i ett hus på 1200 kvm och bedriver verksamhet 7 dagar i veckan i tre olika kampsporter (Jiu-Jitsu, Sport JJ & Thaiboxning) samt fysträning i form av boxpass, fyspass och yoga. Vi är en aktiv arrangör av tävlingar och läger och är en av Sveriges största kampsportsföreningar med ca 1000 aktiva medlemmar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ricard carneborn",
+        "contact_person_role": null,
+        "contact_person_email": "info@nackadojo.com",
+        "contact_person_phone": "+46707169197"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ricard Carneborn",
+        "0707169197",
+        "info@nackadojo.com",
+        "https://nackadojo.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Football Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.nackafc.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Football%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nackafc.se",
+      "phone": "+46761166334",
+      "description": {
+        "free_text": "Fotbollsförening med bredd och spets.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Håkan richter",
+        "contact_person_role": null,
+        "contact_person_email": "info@nackafc.se",
+        "contact_person_phone": "+46761166334"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Håkan Richter",
+        "0761166334",
+        "info@nackafc.se",
+        "https://www.nackafc.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "https://nackagf.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Gymnastikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@nackagf.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jannicke carle",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@nackagf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Jannicke Carle",
+        "kansli@nackagf.se",
+        "https://nackagf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Hembygdsgille",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://nackahembygdsgille.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Hembygdsgille",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nackahembygdsgille.se",
+      "phone": "+46708276447",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åsa thulin",
+        "contact_person_role": null,
+        "contact_person_email": "info@nackahembygdsgille.se",
+        "contact_person_phone": "+46708276447"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Åsa Thulin",
+        "070-827 64 47",
+        "info@nackahembygdsgille.se",
+        "http://Nackahembygdsgille.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Hockeyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.nackahockey.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Hockeyklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@nackahockey.se",
+      "phone": "+46705562041",
+      "description": {
+        "free_text": "Utbildning av hockeyspelare.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ishockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Susann willemo",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@nackahockey.se",
+        "contact_person_phone": "+46705562041"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Susann Willemo",
+        "0705562041",
+        "kansli@nackahockey.se",
+        "https://www.nackahockey.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Judo"
+      ],
+      "categories": [
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.nackajudo.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Judoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nackajudo.se",
+      "phone": null,
+      "description": {
+        "free_text": "Ideell idrottsförening som bedriver judoträning för barn, ungdomar och vuxna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Judo"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kai chiang",
+        "contact_person_role": null,
+        "contact_person_email": "info@nackajudo.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Kai Chiang",
+        "info@nackajudo.se",
+        "https://www.nackajudo.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Kammarorkester",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Kammarorkester",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "chaos@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": "Repetition och framförande av kammarmusik på hög musikalisk nivå med repertoar som sträcker sig från 1600-talet till nutiden. Vi bemödar oss om att inkludera nu levande och tidigare Nackatonsättare i vår repertoar. Vi\npresenterar musiken i dess kulturella och sociala sammanhang.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Alf westelius",
+        "contact_person_role": null,
+        "contact_person_email": "chaos@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Alf Westelius",
+        "chaos@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Föreningsverksamhet",
+        "Motionssim",
+        "Simning"
+      ],
+      "categories": [
+        "Boo",
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön",
+        "Älta"
+      ],
+      "homepage_url": "https://www.nackasim.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Sims%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nackasim.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi arbetar för att öka simkunnigheten bland barn, ungdomar och vuxna, samt långsiktigt verka för folkhälsa och integration, delaktighet och gemenskap i hela Nacka kommun.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsverksamhet",
+                "Motionssim",
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön",
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malia tasmim",
+        "contact_person_role": null,
+        "contact_person_email": "info@nackasim.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Malia Tasmim",
+        "info@nackasim.se",
+        "https://www.nackasim.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Taekwondo Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Taekwondo",
+        "Undervisning"
+      ],
+      "categories": [
+        "Boo",
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.nackataekwondo.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Taekwondo%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nackataekwondo.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en taekwondoförening som startade 2021 och bedriver träning för barn, ungdomar och vuxna. Vi är cirka 200 aktiva och 10 ledare. Glädje, utveckling och gemenskap är våra värdeord som vi försöker uppnå genom rolig träning och kontinuerlig utbildning av både våra ledare och aktiva. Ett av Nacka Taekwondos mål är att vara en förening som står för lärande och kunskap, och därför har vi en uggla i vår logga (som representerar just klokhet, kunskap och lärande). Hos oss tränar både de som siktar mot världstoppen, och de som tränar för hälsan och för att det är roligt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Taekwondo",
+                "Undervisning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Emelie seiden",
+        "contact_person_role": null,
+        "contact_person_email": "info@nackataekwondo.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Emelie Seiden",
+        "info@nackataekwondo.se",
+        "https://www.nackataekwondo.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka Teamåkningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Konståkning"
+      ],
+      "categories": [
+        "Boo"
+      ],
+      "homepage_url": "https://www.nackatk.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka%20Team%C3%A5kningsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nackatk.se",
+      "phone": "+46706602540",
+      "description": {
+        "free_text": "Med Nacka Teamåkningsklubb åker man synkroniserad konståkning, isdans och solodans. Vi har en stor skridskoskola för nybörjare och fortsättningsåkare. Vi sätter barnen i centrum – huvudsaken är att de har roligt och upplever glädjen i att åka skridskor, utifrån egna förutsättningar och vilja.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konståkning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Yngre barn (0-3 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin skarstedt",
+        "contact_person_role": null,
+        "contact_person_email": "info@nackatk.se",
+        "contact_person_phone": "+46706602540"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Yngre barn (0-3 år)"
+      ],
+      "contact_lines": [
+        "Karin Skarstedt",
+        "070 660 25 40",
+        "info@nackatk.se",
+        "https://www.nackatk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka- Värmdö Schackklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Schack"
+      ],
+      "categories": [
+        "Boo",
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön",
+        "Älta"
+      ],
+      "homepage_url": "https://www.nackaschack.com/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka-%20V%C3%A4rmd%C3%B6%20Schackklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mikaelsandberg600@gmail.com",
+      "phone": "+46709933703",
+      "description": {
+        "free_text": "Nacka- Värmdö schackklubb bildades år 2015. Vid årsskiftet 2024 var vi 53 medlemmar, varav 33 juniorer och 20 seniorer.\nSchackklubbens fasta spelplats är Jensen Grundskola i Sickla. Skolledningen visar oss stor generositet genom att upplåta lokaler och bibliotek till spel på helgfria onsdagskvällar.\nFokus i verksamheten är juniorträningen, från de allra yngsta till äldre juniorer. Tränare är de duktiga juniorerna Simon Sandberg och Elias Bäcklund. Satsningen på juniorträning är central för klubben.\nEn stor del av verksamheten består av tävlingar i egen och andras regi. Vi arrangerar varje vår och höst ett klubbmästerskap. Vi deltar med ett lag i Allsvenskan och i Lag-DM.\nKlubben har en egen hemsida www.nackaschack.com och finns även på Facebook med en egen grupp Facebook/NackaSchack.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Schack"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön",
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael sandberg",
+        "contact_person_role": null,
+        "contact_person_email": "mikaelsandberg600@gmail.com",
+        "contact_person_phone": "+46709933703"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Mikael Sandberg",
+        "0709933703",
+        "mikaelsandberg600@gmail.com",
+        "https://www.nackaschack.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Nacka-Saltsjöbadens Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.nackaskytte.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Nacka-Saltsj%C3%B6badens%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Skytteförening, verksamheten riktar sig mest till barn och ungdomar.\nDe flesta av de, även våra vuxna medlemmar har NPF-diagnoser",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "https://www.nackaskytte.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "OK Ravinen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.ravinen.org/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=OK%20Ravinen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "e-kansli@ravinen.org",
+      "phone": null,
+      "description": {
+        "free_text": "OK Ravinen är en orienteringsklubb i Nacka. Vi tränar, tävlar, utvecklas och engagerar oss tillsammans i vår ideella idrottsförening. Vem som helst är välkommen att bli medlem och ta del av vår verksamhet.\nSom medlem i OK Ravinen får du tillgång till ett brett utbud av träningar: styrka, orienteringsteknik, intervaller, långpass osv. Vi har duktiga tränare och ledare för alla nivåer från nybörjare till världselit och en god social gemenskap med centrum i vår klubbstuga vid Hellasgården. Det är också en miljö där medlemmar har möjlighet att utvecklas inom många olika typer av ledarskap, samt även teknik och digitalteknik.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias palm",
+        "contact_person_role": null,
+        "contact_person_email": "e-kansli@ravinen.org",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mattias Palm",
+        "e-kansli@ravinen.org",
+        "https://www.ravinen.org",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Olympique Nacka FC C/O Emil Bibezic",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön",
+        "Älta"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Olympique%20Nacka%20FC%20C%2FO%20Emil%20Bibezic",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mujib.hashemi@nacka.se",
+      "phone": "+46761896941",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön",
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "mujib.hashemi@nacka.se",
+        "contact_person_phone": "+46761896941"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "mujib.hashemi@nacka.se",
+        "0761896941",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Orkestern Filialen",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://orkesternfilialen.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Orkestern%20Filialen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@orkesterfilialen.se",
+      "phone": "+46734118477",
+      "description": {
+        "free_text": "Vi är en symfoniorkester som verkar för att skapa tillfällen då våra medlemmar kan få repetera och medverka vid konserter.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per elmfors",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@orkesterfilialen.se",
+        "contact_person_phone": "+46734118477"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per Elmfors",
+        "0734118477",
+        "ordforande@orkesterfilialen.se",
+        "https://orkesternfilialen.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "PRO Boo",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Föreningsverksamhet"
+      ],
+      "categories": [
+        "Boo"
+      ],
+      "homepage_url": "https://pro.se/boo",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=PRO%20Boo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "boo@pro.se",
+      "phone": "+46760223506",
+      "description": {
+        "free_text": "PRO Boo är en förening för pensionärer som bevakar samhällsfrågor, pensionärers intressen och arbetar för att ge alla pensionärer ett bra liv genom vårt engagemang och aktiviteter.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin norman",
+        "contact_person_role": null,
+        "contact_person_email": "boo@pro.se",
+        "contact_person_phone": "+46760223506"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Karin Norman",
+        "0760223506",
+        "boo@pro.se",
+        "https://pro.se/boo",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "PRO Fisksätra-Saltsjöbaden",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Föreningsverksamhet"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden"
+      ],
+      "homepage_url": "https://pro.se/distrikt/stockholm/kommun/nacka/pro-fisksatra/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=PRO%20Fisks%C3%A4tra-Saltsj%C3%B6baden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bhu@telia.com",
+      "phone": "+46706067733",
+      "description": {
+        "free_text": "För att minska ofrivillig ensamheten arbetar vi för att aktivera pensionärer både i Fisksätra och Saltsjöbaden. Vi ordnar aktiviteter och träffar i våra lokaler på Karpgatan 15 i Fisksätra och Träffpunkten Saltsjöbaden på Sturevägen 12 i Neglinge. Bara det att äldre träffas, dricker kaffe eller på annat sätt umgås är bra för kropp och själ. Utöver detta erbjuder vi även samhällsinformation som äldre kan ha nytta av, gemensamma resor och kulturella upplevelser - kort sagt en välbehövlig stimulans i tillvaron.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bo hultqvist",
+        "contact_person_role": null,
+        "contact_person_email": "bhu@telia.com",
+        "contact_person_phone": "+46706067733"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Bo Hultqvist",
+        "0706-067733",
+        "bhu@telia.com",
+        "https://pro.se/distrikt/stockholm/kommun/nacka/pro-fisksatra/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "PRO Nacka",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Föreningsverksamhet"
+      ],
+      "categories": [
+        "Sicklaön"
+      ],
+      "homepage_url": "https://pro.se/nacka",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=PRO%20Nacka",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nacka@pro.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pia wallin",
+        "contact_person_role": null,
+        "contact_person_email": "nacka@pro.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Pia Wallin",
+        "+46 70-667 07 49",
+        "Nacka@pro.se",
+        "https://pro.se/nacka",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "PRO samorganisation Nacka",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=PRO%20samorganisation%20Nacka",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Nacka PROkultur samorganisation samlar de lokala PRO-föreningarna i Nacka, genomför kulturarrangmenag och representerar föreningarna i avgränsade frågor.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kenneth sjökvist",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kenneth Sjökvist",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Renqvists Verkstad",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Event",
+        "Konsert",
+        "Konstkurs",
+        "Undervisning",
+        "Utställning",
+        "Workshop"
+      ],
+      "categories": [
+        "Boo"
+      ],
+      "homepage_url": "https://renqvistsverkstad.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Renqvists%20Verkstad",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46738262254",
+      "description": {
+        "free_text": "Föreningen driver ett arbetslivsmuseum som visar skulptörens hantverk, material och tekniker och visar högkvalitativa konstutställningar. Vi har kurser, workshops en boklåda och visar filmer om konst. Verksamheten innehåller musikkonserter, konstsamtal, föreläsningar och olika event och projekt. Vi har en skulpturstig för barn och riktar oss till barn genom workshops, kurser, äventyrslekar och visningar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Event",
+                "Konsert",
+                "Konstkurs",
+                "Undervisning",
+                "Utställning",
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika heed",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46738262254"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "https://renqvistsverkstad.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Riksförbundet HjärtLung Nacka-Värmdö",
+      "org_number": null,
+      "types": [
+        "Funktionsrättsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Riksf%C3%B6rbundet%20Hj%C3%A4rtLung%20Nacka-V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "agn.li@hotmail.com",
+      "phone": "+46734446021",
+      "description": {
+        "free_text": "Patientförening inom hjärt-lung.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agneta lindberg",
+        "contact_person_role": null,
+        "contact_person_email": "agn.li@hotmail.com",
+        "contact_person_phone": "+46734446021"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Agneta Lindberg",
+        "0734446021",
+        "agn.li@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Saltsjöbaden Cykelklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Boo",
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön",
+        "Älta"
+      ],
+      "homepage_url": "https://www.saltsjobadenck.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Saltsj%C3%B6baden%20Cykelklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@saltsjobadenck.se",
+      "phone": "+46701437370",
+      "description": {
+        "free_text": "Saltsjöbadens cykelklubb är en ideell förening som satsar på barn och ungdomar i Nacka. Vi anordnar junior/ungdomsträning för barn mellan 5 och 17 år med roliga aktiviteter som främjar barnets teknik och flyttar fram gränsen för vad som är möjligt på en cykel.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön",
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats rydsbo",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@saltsjobadenck.se",
+        "contact_person_phone": "+46701437370"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Mats Rydsbo",
+        "0701437370",
+        "kansliet@saltsjobadenck.se",
+        "https://www.saltsjobadenck.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Saltsjöbaden Triathlonsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://saltsjobadentriathlon.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Saltsj%C3%B6baden%20Triathlons%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pettersson10@icloud.com",
+      "phone": "+46722044345",
+      "description": {
+        "free_text": "Vi är en liten inkluderande triathlonklubb som tränar och tävlar tillsammans med individuella mål.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan pettersson",
+        "contact_person_role": null,
+        "contact_person_email": "pettersson10@icloud.com",
+        "contact_person_phone": "+46722044345"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stefan Pettersson",
+        "0722044345",
+        "pettersson10@icloud.com",
+        "https://saltsjobadentriathlon.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Saltsjöbadens Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket",
+        "Fotboll",
+        "Friidrott",
+        "Gymnastik",
+        "Innebandy",
+        "Ishockey",
+        "Simning"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden"
+      ],
+      "homepage_url": "https://www.saltsjobadensif.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Saltsj%C3%B6badens%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@saltsjobadensif.se",
+      "phone": "+4687176006",
+      "description": {
+        "free_text": "Flersektionsförening med idrotter för ungdomar och vuxna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket",
+                "Fotboll",
+                "Friidrott",
+                "Gymnastik",
+                "Innebandy",
+                "Ishockey",
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Yngre barn (0-3 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@saltsjobadensif.se",
+        "contact_person_phone": "+4687176006"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Yngre barn (0-3 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "08-7176006",
+        "kansli@saltsjobadensif.se",
+        "https://www.saltsjobadensif.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Saltsjöbadens Lawntennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.sltk.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Saltsj%C3%B6badens%20Lawntennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "benjamin.lecomte.seger@sltk.se",
+      "phone": "+46760400729",
+      "description": {
+        "free_text": "Vi är en tennisklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Benjamin lecomte seger",
+        "contact_person_role": null,
+        "contact_person_email": "benjamin.lecomte.seger@sltk.se",
+        "contact_person_phone": "+46760400729"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Benjamin Lecomte Seger",
+        "0760400729",
+        "benjamin.lecomte.seger@sltk.se",
+        "https://www.sltk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Saltsjö-Boo IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Saltsj%C3%B6-Boo%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Saltsjö-Boo IF idrottsförening med primär inriktning på fotboll startad 2013",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Saltsjö-Boo Scoutkår",
+      "org_number": null,
+      "types": [
+        "Scoutförening"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [
+        "Boo"
+      ],
+      "homepage_url": "https://saltsjoboo.scout.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Saltsj%C3%B6-Boo%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "medlem@saltsjobooscoutkar.se",
+      "phone": "+46704182423",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scouting"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert flyg",
+        "contact_person_role": null,
+        "contact_person_email": "medlem@saltsjobooscoutkar.se",
+        "contact_person_phone": "+46704182423"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Robert Flyg",
+        "0704182423",
+        "medlem@saltsjobooscoutkar.se",
+        "https://saltsjoboo.scout.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Segelklubben Måsungen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Boo",
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön",
+        "Älta"
+      ],
+      "homepage_url": "https://www.skm.nu/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Segelklubben%20M%C3%A5sungen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@skm.nu",
+      "phone": "+46735150582",
+      "description": {
+        "free_text": "Bedriver seglarlägerverksamhet för barn och ungdom",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön",
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie tegelberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@skm.nu",
+        "contact_person_phone": "+46735150582"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Marie Tegelberg",
+        "073-515 05 82",
+        "info@skm.nu",
+        "https://www.skm.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "SeniorNet Nacka",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://seniornetnacka.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=SeniorNet%20Nacka",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ingwar.eklund@seniornetnacka.se",
+      "phone": "+46702550077",
+      "description": {
+        "free_text": "Seniorer lär Seniorer använda Digital Teknik/IT",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingwar eklund",
+        "contact_person_role": null,
+        "contact_person_email": "ingwar.eklund@seniornetnacka.se",
+        "contact_person_phone": "+46702550077"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ingwar Eklund",
+        "0702550077",
+        "ingwar.eklund@seniornetnacka.se",
+        "https://seniornetnacka.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Sickla IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.sicklaif.se/start/?ID=421932",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Sickla%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "fotboll@sicklaif.se",
+      "phone": "+46738006644",
+      "description": {
+        "free_text": "Fotboll och futsal",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christof borgström",
+        "contact_person_role": null,
+        "contact_person_email": "fotboll@sicklaif.se",
+        "contact_person_phone": "+46738006644"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christof Borgström",
+        "0738006644",
+        "fotboll@sicklaif.se",
+        "https://www.sicklaif.se/start/?ID=421932",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Skota Hem",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Fisksätra/Saltsjöbaden"
+      ],
+      "homepage_url": "https://www.skotahem.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Skota%20Hem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@skotahem.se",
+      "phone": "+4687173959",
+      "description": {
+        "free_text": "Skota Hem möjliggör segling för personer med alla typer av funktionsnedsättningar.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Personer med funktionsnedsättning (alla åldrar)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Emma hallén",
+        "contact_person_role": null,
+        "contact_person_email": "info@skotahem.se",
+        "contact_person_phone": "+4687173959"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Personer med funktionsnedsättning (alla åldrar)"
+      ],
+      "contact_lines": [
+        "Emma Hallén",
+        "08-7173959",
+        "info@skotahem.se",
+        "https://www.skotahem.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Skuru Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket",
+        "Handboll",
+        "Simning"
+      ],
+      "categories": [
+        "Boo",
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön"
+      ],
+      "homepage_url": "https://skuruik.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Skuru%20Idrottsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@skuruik.se",
+      "phone": "+46708702670",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket",
+                "Handboll",
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elisabet östlund",
+        "contact_person_role": null,
+        "contact_person_email": "info@skuruik.se",
+        "contact_person_phone": "+46708702670"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Elisabet Östlund",
+        "0708-70 26 70",
+        "info@skuruik.se",
+        "https://skuruik.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "SOS Barnbyar",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://sos-barnbyar.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=SOS%20Barnbyar",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sos-barnbyar.se",
+      "phone": "+46854583200",
+      "description": {
+        "free_text": "SOS Barnbyar arbetar för barn, unga och deras familjer före, under och efter placering i samhällsvård. En central del av vår verksamhet är att stärka delaktighet och egenmakt hos barn och unga. Vi skapar effekt genom våra verksamheter inom tre övergripande områden. 1. Vi stärker barn och unga, familjer och lokalsamhällen för att minska risken att barn förlorar sina föräldrars omsorg och familjer splittras. 2. Vi stärker barn och unga i och efter placering för deras rätt till skydd och en trygg uppväxt. 3. Vi stärker placerade barn och unga att göra sin röst hörd bildar opinion och påverkar för att barn och unga skall få sina rättigheter tillgodosedda.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linnéa de leon",
+        "contact_person_role": null,
+        "contact_person_email": "info@sos-barnbyar.se",
+        "contact_person_phone": "+46854583200"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Linnéa De Leon",
+        "08-545 832 00",
+        "info@sos-barnbyar.se",
+        "https://sos-barnbyar.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "SPF Seniorerna Boo",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Föreningsverksamhet"
+      ],
+      "categories": [
+        "Boo"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/distrikt/stockholmsdistriktet/foreningslista/spf-seniorerna-boo/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Boo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "boo@spfseniorerna.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi ger dig\n- en obunden organisation i tiden\n- bra och trevlig social verksamhet\n- kontakt med politiken\n- arbete med intressefrågor\n- bra och viktiga försäkringar\n- tidningen Senioren\nSPF Seniorerna Boo ger dig som medlem\n• gemenskap med andra i föreningens olika aktiviterer\n• möjlighet att påverka beslut som politikerna fattar i äldrefrågor\n• möjlighet att teckna förmånliga försäkringar som gruppolycksfalls- och grupplivförsäkring",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "boo@spfseniorerna.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Lennart Eriksson",
+        "boo@spfseniorerna.se",
+        "https://www.spfseniorerna.se/distrikt/stockholmsdistriktet/foreningslista/spf-seniorerna-boo/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "SPF Seniorerna Nacka",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Föreningsverksamhet"
+      ],
+      "categories": [
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/nacka",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Nacka",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nacka@spfseniorerna.se",
+      "phone": null,
+      "description": {
+        "free_text": "SPF Seniorerna är en politiskt och religiöst obunden medlemsorganisation för alla pensionärer. Vi bedriver påverkansarbete i äldrefrågor och arrangerar aktiviteter för social samvaro och utveckling.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mona boström",
+        "contact_person_role": null,
+        "contact_person_email": "nacka@spfseniorerna.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Mona Boström",
+        "nacka@spfseniorerna.se",
+        "https://www.spfseniorerna.se/nacka",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "SPF Seniorerna Saltsjöbaden",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Saltsj%C3%B6baden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Verkar för seniorer",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Äldre (från 65 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "SPF Seniorerna Svanen Älta",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Svanen%20%C3%84lta",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "svanenalta@spfseniorerna.se",
+      "phone": "+46709475682",
+      "description": {
+        "free_text": "SPF Seniorerna Svanen Älta är en lokal förening i SPF Seniorerna. Viktiga ledord i vår verksamhet är inflytande, valfrihet och livskvalitet. Vi arbetar i förbundets anda. Vår huvuduppgift är att främja social samvaro och hälsa genom att anordna intressanta aktiviteter av olika slag för våra medlemmar.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Äldre (från 65 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anette ahston",
+        "contact_person_role": null,
+        "contact_person_email": "svanenalta@spfseniorerna.se",
+        "contact_person_phone": "+46709475682"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Anette Ahston",
+        "070 947 56 82",
+        "svanenalta@spfseniorerna.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "St Eriks orkesterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": "https://steork.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=St%20Eriks%20orkesterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "steriks.ork@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Symfoniorkester. Den konstnärliga idén är att nyttja professionell kompetens, engagemang och spelglädje hos föreningens medlemmar till att erbjuda symfonisk musik till en bred publik.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Musik"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maud hammerud",
+        "contact_person_role": null,
+        "contact_person_email": "steriks.ork@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Maud Hammerud",
+        "steriks.ork@gmail.com",
+        "https://steork.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Stockholms Läns Blåsarsymfoniker",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://blasarsymfonikerna.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Stockholms%20L%C3%A4ns%20Bl%C3%A5sarsymfoniker",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@blasarsymfonikerna.se",
+      "phone": "+46854570300",
+      "description": {
+        "free_text": "Blåsarsymfonikerna, professionell orkester som verkar i region Stockholm",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik marmén, vd",
+        "contact_person_role": null,
+        "contact_person_email": "info@blasarsymfonikerna.se",
+        "contact_person_phone": "+46854570300"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Marmén, Vd",
+        "08-545 703 00",
+        "info@blasarsymfonikerna.se",
+        "https://blasarsymfonikerna.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Svenska med baby",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Öppen verksamhet"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden"
+      ],
+      "homepage_url": "https://svenskamedbaby.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Svenska%20med%20baby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mail@svenskamedbaby.se",
+      "phone": "+46709799092",
+      "description": {
+        "free_text": "Sedan Svenska med baby startades 2012 har vi arbetat med samma mål och syfte. Vi gör det i huvudsak genom träffar där småbarnsfamiljer, både de som är nya i Sverige och de som bott här under lång tid eller hela livet, samlas för att prata, leka och lära av varandra. Träffarna ger förstås så mycket mer än det: de ger exempelvis också föräldrastöd, språkträning, utökat nätverk, gemensamma minnen med sitt barn, gemenskap och ökad hälsa. Allt medan vi har roligt!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Öppen verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Yngre barn (0-3 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Emelia frennmark",
+        "contact_person_role": null,
+        "contact_person_email": "mail@svenskamedbaby.se",
+        "contact_person_phone": "+46709799092"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Yngre barn (0-3 år)"
+      ],
+      "contact_lines": [
+        "Emelia Frennmark",
+        "0709799092",
+        "mail@svenskamedbaby.se",
+        "https://svenskamedbaby.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Twisters Cheer Elite Nacka Cheerleadingförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Cheerleading"
+      ],
+      "categories": [
+        "Boo",
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.twisters.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Twisters%20Cheer%20Elite%20Nacka%20Cheerleadingf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@twisters.se",
+      "phone": "+46736424171",
+      "description": {
+        "free_text": "Cheerleadingförening i Nacka",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Cheerleading"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta eklund",
+        "contact_person_role": null,
+        "contact_person_email": "info@twisters.se",
+        "contact_person_phone": "+46736424171"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Birgitta Eklund",
+        "0736424171",
+        "info@twisters.se",
+        "https://www.twisters.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "United Sportcenter IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.unitedsportcenter.com/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=United%20Sportcenter%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "unitedsportcenter@hotmail.com",
+      "phone": "+46760271190",
+      "description": {
+        "free_text": "Idrottsförening som bedriver träning av karate, kampsport, kickboxning, tyngdlyftningssektion.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Karate"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jimmy haag",
+        "contact_person_role": null,
+        "contact_person_email": "unitedsportcenter@hotmail.com",
+        "contact_person_phone": "+46760271190"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Jimmy Haag",
+        "0760271190",
+        "unitedsportcenter@hotmail.com",
+        "https://www.unitedsportcenter.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Wuzuquan Nacka Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport",
+        "Kungfu"
+      ],
+      "categories": [
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön"
+      ],
+      "homepage_url": "https://www.wuzuquan.eu/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=Wuzuquan%20Nacka%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@wuzuquan.eu",
+      "phone": "+46733312854",
+      "description": {
+        "free_text": "Bedriver kinesisk kampsport och Brasiliansk jiujitsu för alla åldrar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport",
+                "Kungfu"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Michael sjölin",
+        "contact_person_role": null,
+        "contact_person_email": "info@wuzuquan.eu",
+        "contact_person_phone": "+46733312854"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Michael Sjölin",
+        "0733312854",
+        "info@wuzuquan.eu",
+        "https://www.wuzuquan.eu/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Värmdö Ridklubb",
+      "org_number": null,
+      "types": [
+        "Funktionsrättsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.varmdoridklubb.nu/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Ridklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@varmdoridklubb.nu",
+      "phone": "+46857168534",
+      "description": {
+        "free_text": "Ridklubb med ridskola, funkisridning och inackorderingsstall.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Millan trädgårdh",
+        "contact_person_role": null,
+        "contact_person_email": "info@varmdoridklubb.nu",
+        "contact_person_phone": "+46857168534"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Millan Trädgårdh",
+        "08-57168534",
+        "info@varmdoridklubb.nu",
+        "https://www.varmdoridklubb.nu/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Vävföreningen Inslaget",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Textil",
+        "Vävning"
+      ],
+      "categories": [
+        "Boo",
+        "Fisksätra/Saltsjöbaden",
+        "Sicklaön"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=V%C3%A4vf%C3%B6reningen%20Inslaget",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ingbrittdarlin@gmail.com",
+      "phone": "+46738931138",
+      "description": {
+        "free_text": "Vävföreningen Inslaget är till för nybörjare och erfarna vävare. Föreningen jobbar för att förmedla, lära ut, gamla och nya tekniker. Det finns 22 st olika avancerade vävstolar. Vår avsikt är att inte vara fler medlemmar än vad vi har redskap. Det finns alltid en aktiv kölista, för närvarande 10 st i olika åldrar.\nVävning är en bra social aktivitet, som ger fysisk träning som bl a finmotorik i händerna, muskelstyrka i armar och ben. Intellektuella utmaningar och många matematiska uträkningar som främjar både färg-, form- och mönsterval. Gemenskap bland medlemmar som ger inspirerande innehåll och förebygger även ensamhet. Föreningen har varit verksam i ca 22 år.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Textil",
+                "Vävning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Boo",
+                "Fisksätra/Saltsjöbaden",
+                "Sicklaön"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ordförande ingbritt darlin",
+        "contact_person_role": null,
+        "contact_person_email": "ingbrittdarlin@gmail.com",
+        "contact_person_phone": "+46738931138"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Ordförande Ingbritt Darlin",
+        "073-893 1138",
+        "ingbrittdarlin@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Äldrekontakt",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.aldrekontakt.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=%C3%84ldrekontakt",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@aldrekontakt.se",
+      "phone": "+46760526800",
+      "description": {
+        "free_text": "Äldrekontakt är en ideell förening som sedan 2008 arbetar med att förebygga och bryta ofrivillig ensamhet och social isolering hos samhällets allra äldsta. Vi gör det genom att skapa nya sociala sammanhang för dem som inte längre har några, genom att anordna månadsvisa träffar tillsammans med våra volontärer, året om. Vi har bedrivit verksamhet i Nacka sedan 2010 och gör det möjligt för upp till 24 ensamma äldre att träffas varje månad.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@aldrekontakt.se",
+        "contact_person_phone": "+46760526800"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@aldrekontakt.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@aldrekontakt.se",
+        "076-052 68 00",
+        "info@aldrekontakt.se",
+        "http://www.aldrekontakt.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Älta centrum företagarförening",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Event",
+        "Föreningsverksamhet",
+        "Öppen verksamhet"
+      ],
+      "categories": [
+        "Älta"
+      ],
+      "homepage_url": "https://viaralta.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=%C3%84lta%20centrum%20f%C3%B6retagarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "viaralta@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Skapar event m.m i samarbete med föreningar och näringsidkare i och runt Älta centrum",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Event",
+                "Föreningsverksamhet",
+                "Öppen verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)",
+                "Yngre barn (0-3 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna olheim",
+        "contact_person_role": null,
+        "contact_person_email": "viaralta@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)",
+        "Yngre barn (0-3 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Anna Olheim",
+        "viaralta@gmail.com",
+        "https://viaralta.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Älta Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket",
+        "Fotboll",
+        "Gymnastik",
+        "Handboll",
+        "Innebandy",
+        "Ishockey",
+        "Konståkning"
+      ],
+      "categories": [
+        "Älta"
+      ],
+      "homepage_url": "https://www.svenskalag.se/altaif",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=%C3%84lta%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@altaif.se",
+      "phone": "+4687730602",
+      "description": {
+        "free_text": "Älta IF grundades 1941 och är en anrik förening för alla:\n- 8 idrottssektioner\n- 2 700 medlemmar\n- 2 200 aktiva utövare\n- 500 ledare för 100 aktiva lag/grupper\nÄlta IF står för glädje, gemenskap och trygghet\nÄlta IF står för ett långsiktigt idrottande\nVårt mål är att bidra till en positiv utveckling för\nmedlemmarna – fysiskt och psykiskt, socialt och kulturellt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket",
+                "Fotboll",
+                "Gymnastik",
+                "Handboll",
+                "Innebandy",
+                "Ishockey",
+                "Konståkning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Vuxna (21-64 år)",
+                "Yngre barn (0-3 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansliet älta if",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@altaif.se",
+        "contact_person_phone": "+4687730602"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Vuxna (21-64 år)",
+        "Yngre barn (0-3 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Kansliet Älta IF",
+        "08-773 06 02",
+        "kansliet@altaif.se",
+        "https://www.svenskalag.se/altaif",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Älta scoutkår",
+      "org_number": null,
+      "types": [
+        "Scoutförening"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [
+        "Älta"
+      ],
+      "homepage_url": "https://alta.scout.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=%C3%84lta%20scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "altascout@gmail.com",
+      "phone": "+46738790093",
+      "description": {
+        "free_text": "Vi bedriver scoutverksamhet till barn från 6 år till 25 år till Älta och övriga Nacka. Vi håller till i vår scoutstuga och har verksamhet där och utomhus måndagar, tisdagar, torsdagar, lördagar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scouting"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henning envall",
+        "contact_person_role": null,
+        "contact_person_email": "altascout@gmail.com",
+        "contact_person_phone": "+46738790093"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)"
+      ],
+      "contact_lines": [
+        "Henning Envall",
+        "0738790093",
+        "altascout@gmail.com",
+        "https://alta.scout.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nacka",
+    "scrape_run_id": "c8c65506-2f36-455b-b0ff-066b7766791c",
+    "scraped_at": "2025-10-29T00:37:08.328Z",
+    "association": {
+      "name": "Älta Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Älta"
+      ],
+      "homepage_url": "https://www.altatennisklubb.se/",
+      "detail_url": "https://nacka.rbok.se/foreningsregister?association=%C3%84lta%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@altatennisklubb.se",
+      "phone": "+4687734658",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och unga (4-20 år)",
+                "Personer med funktionsnedsättning (alla åldrar)",
+                "Vuxna (21-64 år)",
+                "Äldre (från 65 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Älta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel wetterhall",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@altatennisklubb.se",
+        "contact_person_phone": "+4687734658"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och unga (4-20 år)",
+        "Personer med funktionsnedsättning (alla åldrar)",
+        "Vuxna (21-64 år)",
+        "Äldre (från 65 år)"
+      ],
+      "contact_lines": [
+        "Daniel Wetterhall",
+        "08-7734658",
+        "kansliet@altatennisklubb.se",
+        "https://www.altatennisklubb.se",
+        "Stäng"
+      ]
+    }
+  }
+]

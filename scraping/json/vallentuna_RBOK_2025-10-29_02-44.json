@@ -1,0 +1,2871 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Brottby SK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Friidrott"
+      ],
+      "categories": [
+        "Brottby/Karby/Össeby-Garn"
+      ],
+      "homepage_url": "https://www.svenskalag.se/brottbysk",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Brottby%20SK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "brottbysk@brottbysk.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Friidrott"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Brottby/Karby/Össeby-Garn"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn bergqvist",
+        "contact_person_role": null,
+        "contact_person_email": "brottbysk@brottbysk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Björn Bergqvist",
+        "brottbysk@brottbysk.se",
+        "https://www.svenskalag.se/brottbysk",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Bällsta FF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Brottby/Karby/Össeby-Garn",
+        "Bällsta",
+        "Centrala Vallentuna/Ekeby/Ormsta",
+        "Frösunda/Markim/Orkesta",
+        "Gustavs udde",
+        "Kårsta",
+        "Lindholmen"
+      ],
+      "homepage_url": "https://www.ballstaff.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=B%C3%A4llsta%20FF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ballstaff.se",
+      "phone": null,
+      "description": {
+        "free_text": "Fotbollsförening för flickor och pojkar med breddinrikting i södra Vallentuna med 700+ medlemmar som startade 1983. Vi har verksamhet för barn och ungdomar samt ett herr och veteranlag.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Brottby/Karby/Össeby-Garn",
+                "Bällsta",
+                "Centrala Vallentuna/Ekeby/Ormsta",
+                "Frösunda/Markim/Orkesta",
+                "Gustavs udde",
+                "Kårsta",
+                "Lindholmen"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina almesten",
+        "contact_person_role": null,
+        "contact_person_email": "info@ballstaff.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Katarina Almesten",
+        "info@ballstaff.se",
+        "https://www.ballstaff.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Frösunda hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Cafédukning",
+        "Cirkelverksamhet",
+        "Evenemang",
+        "Föredrag",
+        "Gymnastik",
+        "Kreativt skapande",
+        "Möten",
+        "Seminarier",
+        "Underhåll"
+      ],
+      "categories": [
+        "Frösunda/Markim/Orkesta"
+      ],
+      "homepage_url": "https://www.hembygd.se/frosunda",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Fr%C3%B6sunda%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforanden@frosundahembygd.se",
+      "phone": "+46703656026",
+      "description": {
+        "free_text": "Frösunda hembygdsförening har just nu 302 medlemmar och verkar för Frösundas bästa i forntid och framtid. Vårt stora projekt är att återställa Frösunda stationshus till 1885 års utseende då det byggdes. Stationen är navet i bygden. Föreningen räddade den från rivning 1976, samma år som föreningen bildades. Vi ordnar bland annat vandringar i bygden, ordnar aktiviteter för daglediga, har julmarknad och loppmarknad. Vårmarknad arrangeras med andra föreningar i Frösunda.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Cafédukning",
+                "Cirkelverksamhet",
+                "Evenemang",
+                "Föredrag",
+                "Gymnastik",
+                "Kreativt skapande",
+                "Möten",
+                "Seminarier",
+                "Underhåll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Frösunda/Markim/Orkesta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Margareta hellsten",
+        "contact_person_role": null,
+        "contact_person_email": "ordforanden@frosundahembygd.se",
+        "contact_person_phone": "+46703656026"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Margareta Hellsten",
+        "0703656026",
+        "ordforanden@frosundahembygd.se",
+        "https://www.hembygd.se/frosunda",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Frösunda Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Centrala Vallentuna/Ekeby/Ormsta",
+        "Frösunda/Markim/Orkesta"
+      ],
+      "homepage_url": "https://www2.idrottonline.se/FrosundaSkF-Skyttesport",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Fr%C3%B6sunda%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "goranjansson6@gmail.com",
+      "phone": "+46768446747",
+      "description": {
+        "free_text": "Skytte för alla åldrar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Centrala Vallentuna/Ekeby/Ormsta",
+                "Frösunda/Markim/Orkesta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran jansson",
+        "contact_person_role": null,
+        "contact_person_email": "goranjansson6@gmail.com",
+        "contact_person_phone": "+46768446747"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Göran Jansson",
+        "0768446747",
+        "goranjansson6@gmail.com",
+        "https://www2.idrottonline.se/FrosundaSkF-Skyttesport",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Frösunda Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Skytte"
+      ],
+      "categories": [
+        "Frösunda/Markim/Orkesta"
+      ],
+      "homepage_url": "http://www.laget.se/frosundask",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Fr%C3%B6sunda%20Sportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "frosundask@gmail.com",
+      "phone": "+46706651538",
+      "description": {
+        "free_text": "FSK är en förening som bildades 1935. Verksamheten är fotboll (herr, dam, pojk/flickor) och skidor\nVi har en egen anläggning, Björkvallen. Allt arbete som sker på Björkvallen och inom föreningen är ideellt.\nVår förhoppning är att alla, aktiva spelare, dess ledare och föreningens övriga medlemmar ska trivas vid Björkvallen och i Frösunda Sportklubb.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Frösunda/Markim/Orkesta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik wåhlin",
+        "contact_person_role": null,
+        "contact_person_email": "frosundask@gmail.com",
+        "contact_person_phone": "+46706651538"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Fredrik Wåhlin",
+        "0706651538",
+        "frosundask@gmail.com",
+        "http://www.laget.se/frosundask",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "FUB i Södra Roslagen",
+      "org_number": null,
+      "types": [
+        "Intresseförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.fub.se/lokal/fub-sodra-roslagen/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=FUB%20i%20S%C3%B6dra%20Roslagen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ui.ohgren@gmail.com",
+      "phone": "+46709162284",
+      "description": {
+        "free_text": "Intresseförening för personer med intellektuell funktionsnedsättning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Irene öhgren",
+        "contact_person_role": null,
+        "contact_person_email": "ui.ohgren@gmail.com",
+        "contact_person_phone": "+46709162284"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Irene Öhgren",
+        "070-9162284",
+        "ui.ohgren@gmail.com",
+        "https://www.fub.se/lokal/fub-sodra-roslagen/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "GoIF KÅRE",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Cirkelverksamhet",
+        "Evenemang",
+        "Fotboll",
+        "Futsal",
+        "Gymnastik",
+        "Innebandy",
+        "Isvård",
+        "Match",
+        "Skridskor",
+        "Tennis",
+        "Yoga",
+        "Zumba"
+      ],
+      "categories": [
+        "Kårsta"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=GoIF%20K%C3%85RE",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hassius61@gmail.com",
+      "phone": "+46738089200",
+      "description": {
+        "free_text": "En ideell förening som skapar friskvård för alla åldrar med respekt för allas lika värde. Bandy, fotboll, skridsko, MTB (Mountainbike) motionslöpning, barngymnastik/Hopp&Lek, Zumba, tennis, dans, cirkelträning, innebandy, kulturevenemang...",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Cirkelverksamhet",
+                "Evenemang",
+                "Fotboll",
+                "Futsal",
+                "Gymnastik",
+                "Innebandy",
+                "Isvård",
+                "Match",
+                "Skridskor",
+                "Tennis",
+                "Yoga",
+                "Zumba"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kårsta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Staffan hassius",
+        "contact_person_role": null,
+        "contact_person_email": "hassius61@gmail.com",
+        "contact_person_phone": "+46738089200"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Staffan Hassius",
+        "073-8089200",
+        "hassius61@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Huvudstadens Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Brottby/Karby/Össeby-Garn",
+        "Bällsta",
+        "Centrala Vallentuna/Ekeby/Ormsta",
+        "Frösunda/Markim/Orkesta",
+        "Gustavs udde",
+        "Kårsta",
+        "Lindholmen"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Huvudstadens%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@huvudstadensgolfklubb.se",
+      "phone": null,
+      "description": {
+        "free_text": "Huvudstadens Golfklubb vill vara ett attraktivt klubbval för stockholmsdistriktets golfare med starkt fokus på kvalitativ klubbverksamhet som attraherar alla kategorier från junior till senior. Under parollen ”Klubben för dig som vill bli en bättre golfare” skall medlemmen utifrån sin egen nivå erbjudas träning och aktiviteter som främjar detta syfte.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Golf"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Brottby/Karby/Össeby-Garn",
+                "Bällsta",
+                "Centrala Vallentuna/Ekeby/Ormsta",
+                "Frösunda/Markim/Orkesta",
+                "Gustavs udde",
+                "Kårsta",
+                "Lindholmen"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jane svensk",
+        "contact_person_role": null,
+        "contact_person_email": "info@huvudstadensgolfklubb.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Jane Svensk",
+        "info@huvudstadensgolfklubb.se",
+        "www.huvudstadensgolfklubb.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Jarlabanke Square Dance Club",
+      "org_number": null,
+      "types": [
+        "Dansförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Centrala Vallentuna/Ekeby/Ormsta"
+      ],
+      "homepage_url": "http://jarlabanke.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Jarlabanke%20Square%20Dance%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@jarlabanke.se",
+      "phone": "+46706549421",
+      "description": {
+        "free_text": "Vi dansar samt håller kurser i Modern Amerikansk Square Dance på olika dansnivåer.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Centrala Vallentuna/Ekeby/Ormsta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunilla svendenius",
+        "contact_person_role": null,
+        "contact_person_email": "info@jarlabanke.se",
+        "contact_person_phone": "+46706549421"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Gunilla Svendenius",
+        "070-654 94 21",
+        "info@jarlabanke.se",
+        "http://jarlabanke.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "KLOCKARBORGS VÄNNER",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=KLOCKARBORGS%20V%C3%84NNER",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anette.hemberg@gmail.com",
+      "phone": "+46706823701",
+      "description": {
+        "free_text": "Föreningen bildades och förvärvade Klockarborg (Lilla Garn 1:6) 1996 med ändamål att äga, förvalta och bevara Klockarborg till glädje för bygden.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anette hemberg",
+        "contact_person_role": null,
+        "contact_person_email": "anette.hemberg@gmail.com",
+        "contact_person_phone": "+46706823701"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anette Hemberg",
+        "0706823701",
+        "anette.hemberg@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Kårsta-Ekskogens Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Evenemang",
+        "Fest",
+        "Konserter",
+        "Möten",
+        "Studiecirkel",
+        "Teater",
+        "Torghandel"
+      ],
+      "categories": [
+        "Kårsta"
+      ],
+      "homepage_url": "https://bygdegarden.nu/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=K%C3%A5rsta-Ekskogens%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bokning@xn--bygdegrden-65a.nu",
+      "phone": "+46705162560",
+      "description": {
+        "free_text": "Föreningen ska sträva efter att engagera människor i Kårstabygden med omgivning i bygdens positiva utveckling för en levande kultur- och naturmiljö och en god gemenskap mellan människor.\nFöreningen förvaltar Ekskogens bygdegård så den är tillgänglig för dess medlemmar, bygdens föreningar och andra intresserade.\nFöreningen ska driva Saga Bio med en tonvikt på kulturell inriktning.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Evenemang",
+                "Fest",
+                "Konserter",
+                "Möten",
+                "Studiecirkel",
+                "Teater",
+                "Torghandel"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kårsta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Michael löfroth",
+        "contact_person_role": null,
+        "contact_person_email": "bokning@xn--bygdegrden-65a.nu",
+        "contact_person_phone": "+46705162560"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Michael Löfroth",
+        "070-516 25 60",
+        "bokning@xn--bygdegrden-65a.nu",
+        "https://bygdegarden.nu/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Kören Cantaton",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://cantaton.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=K%C3%B6ren%20Cantaton",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "cantaton@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Körsång, sångteknik, friskvård och hälsa, repetitioner och konserter.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "cantaton@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "cantaton@gmail.com",
+        "https://cantaton.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "SPF Seniorerna Vallentuna",
+      "org_number": null,
+      "types": [
+        "Humanitär förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.spfvallentuna.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Vallentuna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vallentuna@spfseniorerna.se",
+      "phone": "+46705119065",
+      "description": {
+        "free_text": "Pensionärsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gerd hansson",
+        "contact_person_role": null,
+        "contact_person_email": "vallentuna@spfseniorerna.se",
+        "contact_person_phone": "+46705119065"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gerd Hansson",
+        "0705119065",
+        "vallentuna@spfseniorerna.se",
+        "http://www.spfvallentuna.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Tuna Gille",
+      "org_number": null,
+      "types": [
+        "Dansförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.tunagille.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Tuna%20Gille",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "margotrigner@gmail.com",
+      "phone": "+46704261669",
+      "description": {
+        "free_text": "Dansförening",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Senior (65+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Margot rignér",
+        "contact_person_role": null,
+        "contact_person_email": "margotrigner@gmail.com",
+        "contact_person_phone": "+46704261669"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Senior (65+ år)"
+      ],
+      "contact_lines": [
+        "Margot Rignér",
+        "0704261669",
+        "margotrigner@gmail.com",
+        "https://www.tunagille.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Täby Gymnastikförening - Vallentuna",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "https://www.tabygf.com/start/?ID=1790",
+        "Stäng"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.tabygf.com/start/?ID=1790",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=T%C3%A4by%20Gymnastikf%C3%B6rening%20-%20Vallentuna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "En ideell gymnastikförening med verksamhet i Vallentuna, Österåker och Täby.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "verksamhetsansvarig@tabygf.com",
+            "data": {
+              "activities": [
+                "https://www.tabygf.com/start/?ID=1790",
+                "Stäng"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johanna andersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Johanna Andersson"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Täby Sim",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.tabysim.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=T%C3%A4by%20Sim",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@tabysim.se",
+      "phone": "+4687681544",
+      "description": {
+        "free_text": "Simförening som erbjuder simkunnighet, träning och tävling för barn, ungdomar och vuxna",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per edelholm",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@tabysim.se",
+        "contact_person_phone": "+4687681544"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Per Edelholm",
+        "087681544",
+        "kansli@tabysim.se",
+        "https://www.tabysim.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.vallentunabadminton.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Badmintonklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "varlunda1@hotmail.com",
+      "phone": "+46704582315",
+      "description": {
+        "free_text": "Badmintonklubb för alla. Organiserad juniorträning och även seniorspel. Seniorspel i huvudsak i form av dubbelspel. Juniorer som har gått långt i 08-turneringar kan skaffa licens och tävla.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "varlunda1@hotmail.com",
+        "contact_person_phone": "+46704582315"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Daniel Eriksson",
+        "0704582315",
+        "varlunda1@hotmail.com",
+        "https://www.vallentunabadminton.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Basket",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.vallentunabasket.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Basket",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@vallentunabasket.se",
+      "phone": "+46730310147",
+      "description": {
+        "free_text": "Basketverksamhet för spelare 6 år och äldre i Vallentuna kommun",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik lundgren",
+        "contact_person_role": null,
+        "contact_person_email": "info@vallentunabasket.se",
+        "contact_person_phone": "+46730310147"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Henrik Lundgren",
+        "0730310147",
+        "info@vallentunabasket.se",
+        "http://www.vallentunabasket.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Biblioteks Vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Biblioteks%20V%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gillis.weingarth@spray.se",
+      "phone": "+46851172566",
+      "description": {
+        "free_text": "Stöd till Vallentuna bibliotek",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gillis weingarth",
+        "contact_person_role": null,
+        "contact_person_email": "gillis.weingarth@spray.se",
+        "contact_person_phone": "+46851172566"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gillis Weingarth",
+        "0851172566",
+        "gillis.weingarth@spray.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [
+        "Bällsta"
+      ],
+      "homepage_url": "https://www.svenskalag.se/vallentunabtk",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Bordtennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sara.valentin.eklow@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Träning/ seriematcher/ S:terikscup",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bällsta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "sara.valentin.eklow@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "sara.valentin.eklow@gmail.com",
+        "https://www.svenskalag.se/vallentunabtk",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Civilförsvarsförening",
+      "org_number": null,
+      "types": [
+        "Humanitär förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Civilf%C3%B6rsvarsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vallentunafrg@gmail.com",
+      "phone": "+46707225317",
+      "description": {
+        "free_text": "En medlemsdriven organisation för säkerhet till vardags och vid\nkris.\nHar Vallentuna kommuns uppdrag att rekrytera, utbilda och\növa kommunens FRG.\nVår uppgift är att utbilda, informera och hjälpa.\nMålet är att allmänheten ska bli tillräckligt informerad och\nrustad för att själv kunna förebygga och hantera egna och\nsamhällets nödsituationer.\nAlla över",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven-olof ekström",
+        "contact_person_role": null,
+        "contact_person_email": "vallentunafrg@gmail.com",
+        "contact_person_phone": "+46707225317"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sven-Olof Ekström",
+        "070 722 53 17",
+        "vallentunafrg@gmail.com",
+        "www.frgnorr.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Cykelklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Cykelklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vallentunack@hotmail.com",
+      "phone": "+46723785938",
+      "description": {
+        "free_text": "Cykel",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas strandberg",
+        "contact_person_role": null,
+        "contact_person_email": "vallentunack@hotmail.com",
+        "contact_person_phone": "+46723785938"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Thomas Strandberg",
+        "0723785938",
+        "vallentunack@hotmail.com",
+        "www.vck.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Dans",
+      "org_number": null,
+      "types": [
+        "Dansförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Bällsta",
+        "Centrala Vallentuna/Ekeby/Ormsta"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Dans",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marie@vallentunadans.se",
+      "phone": null,
+      "description": {
+        "free_text": "Danskurser, Danskvällar och socialt umgänge",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bällsta",
+                "Centrala Vallentuna/Ekeby/Ormsta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie eall",
+        "contact_person_role": null,
+        "contact_person_email": "marie@vallentunadans.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Marie Eall",
+        "Marie@vallentunadans.se",
+        "Vallentunadans.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Fotboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Futsal"
+      ],
+      "categories": [
+        "Brottby/Karby/Össeby-Garn",
+        "Bällsta",
+        "Centrala Vallentuna/Ekeby/Ormsta",
+        "Frösunda/Markim/Orkesta",
+        "Gustavs udde",
+        "Kårsta",
+        "Lindholmen"
+      ],
+      "homepage_url": "https://www.vallentunafotboll.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Fotboll",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@vallentunafotboll.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vallentuna Fotboll bedriver fotbolls- och futsalverksamhet från 4 års ålder upp till senior.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Futsal"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Brottby/Karby/Össeby-Garn",
+                "Bällsta",
+                "Centrala Vallentuna/Ekeby/Ormsta",
+                "Frösunda/Markim/Orkesta",
+                "Gustavs udde",
+                "Kårsta",
+                "Lindholmen"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansli",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@vallentunafotboll.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Kansli",
+        "kansli@vallentunafotboll.se",
+        "https://www.vallentunafotboll.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Friidrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.vallentunafriidrott.se/vallentunafk",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Friidrottsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@vallentunafriidrott.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi bedriver friidrottsverksamhet för alla åldrar från 7 år och uppåt. Vi är en aktiv förening som arrangerar ett flertal tävlingar årligen. Vi har åldersanpassade träningsgrupper och en löpargrupp för aktiva från 16 år och uppåt. De flesta aktiviteterna utgår från Vallentuna IP.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@vallentunafriidrott.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "kansliet@vallentunafriidrott.se",
+        "https://www.vallentunafriidrott.se/vallentunafk",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Fäktklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fäktning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.vallentunafk.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20F%C3%A4ktklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vallentuna.faktning@gmail.com",
+      "phone": "+46725570190",
+      "description": {
+        "free_text": "Fäktning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fäktning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter åkerberg",
+        "contact_person_role": null,
+        "contact_person_email": "vallentuna.faktning@gmail.com",
+        "contact_person_phone": "+46725570190"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Peter Åkerberg",
+        "0725570190",
+        "vallentuna.faktning@gmail.com",
+        "http://www.vallentunafk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Handbollklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.vhk.nu/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Handbollklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "malin.grandert@rexel.se",
+      "phone": "+46705541418",
+      "description": {
+        "free_text": "Handbollsträning och matcher för barn, ungdomar och vuxna",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin grandert",
+        "contact_person_role": null,
+        "contact_person_email": "malin.grandert@rexel.se",
+        "contact_person_phone": "+46705541418"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Malin Grandert",
+        "0705541418",
+        "malin.grandert@rexel.se",
+        "http://www.vhk.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Hockey",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.vallentunahockey.com/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Hockey",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@vallentunahockey.com",
+      "phone": "+4684754700",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ishockey"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@vallentunahockey.com",
+        "contact_person_phone": "+4684754700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "084754700",
+        "kansliet@vallentunahockey.com",
+        "https://www.vallentunahockey.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.vallentunaibk.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Innebandyklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@vallentunaibk.se",
+      "phone": null,
+      "description": {
+        "free_text": "Innebandyförening med senior-, junior, motions- och barn/ungdomslag samt även parasportverksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@vallentunaibk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "info@vallentunaibk.se",
+        "https://www.vallentunaibk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Judo"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.vallentunajudo.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Judoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@vallentunajudo.se",
+      "phone": "+46733303077",
+      "description": {
+        "free_text": "Judo. Kampsport.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Judo"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Claudia johansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@vallentunajudo.se",
+        "contact_person_phone": "+46733303077"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Claudia Johansson",
+        "0733303077",
+        "info@vallentunajudo.se",
+        "http://www.vallentunajudo.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://vallentunakonstforening.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "thore@ntlc.com",
+      "phone": null,
+      "description": {
+        "free_text": "Ideell konstförening i Vallentuna. Vallentuna konstförening ordnar föredrag, utställningar och filmer om konst här i kommunen samt arrangerar resor och utflykter till utställningar och konstnärer. Föreningen har också ett konstlotteri med goda vinstchanser. Arrangemangen presenteras på hemsidan samt i Nyhetsbrev och på webbplatsen Upplev Vallentuna.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thore flygel",
+        "contact_person_role": null,
+        "contact_person_email": "thore@ntlc.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Thore Flygel",
+        "thore@ntlc.com",
+        "https://vallentunakonstforening.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Konståkningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Konståkning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.vallentunakk.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Konst%C3%A5kningsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@vallentunakk.se",
+      "phone": "+468212216",
+      "description": {
+        "free_text": "\"Konståkning för alla\" är vårt motto — vårt mål är att ta till vara på åkarnas intresse och utveckling oavsett nivå och ambition. Vi har troget och konsekvent skapat en meningsfull fritid för många barn, unga och vuxna i Vallentuna sedan 1984.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konståkning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ed fontes",
+        "contact_person_role": null,
+        "contact_person_email": "info@vallentunakk.se",
+        "contact_person_phone": "+468212216"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Ed Fontes",
+        "08212216",
+        "info@vallentunakk.se",
+        "https://www.vallentunakk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Scoutkår",
+      "org_number": null,
+      "types": [
+        "Scoutförening"
+      ],
+      "activities": [
+        "Scouting",
+        "Öppet hus"
+      ],
+      "categories": [
+        "Bällsta",
+        "Centrala Vallentuna/Ekeby/Ormsta",
+        "Frösunda/Markim/Orkesta",
+        "Gustavs udde",
+        "Kårsta",
+        "Lindholmen"
+      ],
+      "homepage_url": "https://vallentunasck.scout.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@vallentunascoutkar.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vallentuna Scoutkår bedriver varje vecka verksamhet för cirka 150 barn och unga i Vallentuna. I Scouterna får du både lära känna dig själv och andra, utveckla ditt ledarskap och samtidigt få uppleva och lära dig om naturen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scouting",
+                "Öppet hus"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bällsta",
+                "Centrala Vallentuna/Ekeby/Ormsta",
+                "Frösunda/Markim/Orkesta",
+                "Gustavs udde",
+                "Kårsta",
+                "Lindholmen"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Madeleine asp",
+        "contact_person_role": null,
+        "contact_person_email": "info@vallentunascoutkar.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Madeleine Asp",
+        "info@vallentunascoutkar.se",
+        "https://vallentunasck.scout.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Scoutkår av NSF",
+      "org_number": null,
+      "types": [
+        "Scoutförening"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [
+        "Brottby/Karby/Össeby-Garn",
+        "Bällsta",
+        "Centrala Vallentuna/Ekeby/Ormsta",
+        "Frösunda/Markim/Orkesta",
+        "Gustavs udde",
+        "Kårsta",
+        "Lindholmen"
+      ],
+      "homepage_url": "http://www.vallentunascout.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Scoutk%C3%A5r%20av%20NSF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@vallentunascout.se",
+      "phone": null,
+      "description": {
+        "free_text": "Bedriver scoutverksamhet för barn och ungdomar i åldrarna 6-25 år.\nMåndagar till torsdagar ca 18.30 - 20.00. Tillhör Nykterhetsrörelsens Scoutförbund.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scouting"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Brottby/Karby/Össeby-Garn",
+                "Bällsta",
+                "Centrala Vallentuna/Ekeby/Ormsta",
+                "Frösunda/Markim/Orkesta",
+                "Gustavs udde",
+                "Kårsta",
+                "Lindholmen"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy glandin",
+        "contact_person_role": null,
+        "contact_person_email": "info@vallentunascout.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Tommy Glandin",
+        "info@vallentunascout.se",
+        "http://www.vallentunascout.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Centrala Vallentuna/Ekeby/Ormsta"
+      ],
+      "homepage_url": "https://www.vallentunatennis.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mail@vallentunatennis.se",
+      "phone": "+46851173737",
+      "description": {
+        "free_text": "Tennisklubb",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Centrala Vallentuna/Ekeby/Ormsta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tyra asplund",
+        "contact_person_role": null,
+        "contact_person_email": "mail@vallentunatennis.se",
+        "contact_person_phone": "+46851173737"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Tyra Asplund",
+        "08-511 737 37",
+        "mail@vallentunatennis.se",
+        "https://www.vallentunatennis.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Wadoryu Karate IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Bällsta"
+      ],
+      "homepage_url": "https://www.wadoryukarate.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Wadoryu%20Karate%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@wadoryukarate.se",
+      "phone": "+46732030398",
+      "description": {
+        "free_text": "Vi tränar stilen Wadoryu som är en av de ledande stilarna som tränas världen över. Wado är japanska och betyder ”Freden och harmonins väg” vilket speglar hela vårat sätt att utöva karate på.\nKarate är en sport för alla oavsett ålder eller träningsbakgrund. En del av oss lockas av att träna karate som en självförsvarsmetod, andra av att det är ett rikligt sätt att motionera på.\nMan tränar efter sin egen förmåga och förutsättningar för att utveckla sig själv. Här ges utrymme från motion till elit.\nHela familjen – tjejer och killar, barn och vuxna, ja alla är välkomna att träna karate med oss!\nKarateträning innebär att man lär sig självförsvar och utvecklar motorik, balans och rörlighet, samtidigt med naturligt ökad koncentrationsförmåga och självkänsla. Det finns ingen övre åldersgräns för när man kan börja träna karate och självförsvarstekniker.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Karate"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Senior (65+ år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bällsta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan ossa",
+        "contact_person_role": null,
+        "contact_person_email": "info@wadoryukarate.se",
+        "contact_person_phone": "+46732030398"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Senior (65+ år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Johan Ossa",
+        "0732030398",
+        "info@wadoryukarate.se",
+        "https://www.wadoryukarate.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Vallentuna Volleybollklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Volleyboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=Vallentuna%20Volleybollklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tobbeedlund01@gmail.com",
+      "phone": "+46706031130",
+      "description": {
+        "free_text": "Vallentuna volleybollklubb är en idrottsförening med endast flick och damlag. Hemmaarena är Tellushallen i Vallentuna gymnasium.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Volleyboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Torbjörn edlund",
+        "contact_person_role": null,
+        "contact_person_email": "tobbeedlund01@gmail.com",
+        "contact_person_phone": "+46706031130"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21+ år)"
+      ],
+      "contact_lines": [
+        "Torbjörn Edlund",
+        "0706031130",
+        "tobbeedlund01@gmail.com",
+        "vallentunavolley.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Väsby kvarnförening i Vallentuna",
+      "org_number": null,
+      "types": [
+        "Humanitär förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/Vasbykvarn",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=V%C3%A4sby%20kvarnf%C3%B6rening%20i%20Vallentuna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "eliryda@gmail.com",
+      "phone": "+46733869809",
+      "description": {
+        "free_text": "Väsby kvarnförening arbetar för att öppna upp kvarnen för besökare samt anordna kulturaktiviteter som t ex Kvarnens dag",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elisabeth rydström",
+        "contact_person_role": null,
+        "contact_person_email": "eliryda@gmail.com",
+        "contact_person_phone": "+46733869809"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Elisabeth Rydström",
+        "0733869809",
+        "eliryda@gmail.com",
+        "https://www.facebook.com/Vasbykvarn",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Össeby Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://ossebyhbf.se/",
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=%C3%96sseby%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ossebyhbf@telia.com",
+      "phone": "+46706105171",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Börje sjöman",
+        "contact_person_role": null,
+        "contact_person_email": "ossebyhbf@telia.com",
+        "contact_person_phone": "+46706105171"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Börje Sjöman",
+        "070-6105171",
+        "ossebyhbf@telia.com",
+        "https://ossebyhbf.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vallentuna",
+    "scrape_run_id": "1c64edd7-a0e3-43b7-b1f4-5d9bc8702f5c",
+    "scraped_at": "2025-10-29T01:44:53.040Z",
+    "association": {
+      "name": "Össeby-Garns Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Brottby/Karby/Össeby-Garn"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vallentuna.rbok.se/foreningsregister?association=%C3%96sseby-Garns%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "osseby.skytte@gmail.com",
+      "phone": "+46707664052",
+      "description": {
+        "free_text": "Tävlingskytte med gevär sedan 1901.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Brottby/Karby/Össeby-Garn"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan bornholm",
+        "contact_person_role": null,
+        "contact_person_email": "osseby.skytte@gmail.com",
+        "contact_person_phone": "+46707664052"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stefan Bornholm",
+        "0707664052",
+        "osseby.skytte@gmail.com",
+        "osseby-skytte.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

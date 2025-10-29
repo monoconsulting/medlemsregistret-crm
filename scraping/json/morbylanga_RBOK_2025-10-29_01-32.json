@@ -1,0 +1,6787 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "ABF Kalmar län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.abf.se/kalmar-lan/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=ABF%20Kalmar%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info.kalmarlan@abf.se",
+      "phone": "+46104054299",
+      "description": {
+        "free_text": "Arbetarnas bildningsförbund, ABF Kalmar län är ett av flera studieförbund. Vi bedriver studieverksamhet i er kommun, genom nära samarbeten med våra medlemsorganisationer och lokala föreningar erbjuder vi studiecirklar, utbildningar, kulturarrangemang och föreningsutveckling. Vi möter människor där de är och för folkbildningen tillgänglig, relevant och inkluderande. Tillsammans bygger vi ett starkare civilsamhälle och främjar delaktighet, bildning och demokratiskt engagemang.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas gerhardsson",
+        "contact_person_role": null,
+        "contact_person_email": "info.kalmarlan@abf.se",
+        "contact_person_phone": "+46104054299"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jonas Gerhardsson",
+        "010-405 42 99",
+        "info.kalmarlan@abf.se",
+        "https://www.abf.se/kalmar-lan/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Algutsrums Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Fest",
+        "Folkbildning",
+        "Föreläsning",
+        "Kulturarv",
+        "Kulturverksamhet",
+        "Mässa/marknad",
+        "Möte/sammanträde",
+        "Samhällsutveckling",
+        "Utställning"
+      ],
+      "categories": [
+        "Glömminge/Saxnäs/Algutsrum"
+      ],
+      "homepage_url": "https://hembygd.se/algutsrum",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Algutsrums%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "algutsrumshembygdsforening@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Hembygdsföreningen ska förvalta samlingar,byggnader och väderkvarnar samt att aktivt bidra till en levande landsbygd",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fest",
+                "Folkbildning",
+                "Föreläsning",
+                "Kulturarv",
+                "Kulturverksamhet",
+                "Mässa/marknad",
+                "Möte/sammanträde",
+                "Samhällsutveckling",
+                "Utställning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Glömminge/Saxnäs/Algutsrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans westerlund",
+        "contact_person_role": null,
+        "contact_person_email": "algutsrumshembygdsforening@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Hans Westerlund",
+        "algutsrumshembygdsforening@gmail.com",
+        "https://hembygd.se/algutsrum",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Algutsrums skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Luftgevär",
+        "Skytte"
+      ],
+      "categories": [
+        "Färjestaden",
+        "Glömminge/Saxnäs/Algutsrum"
+      ],
+      "homepage_url": "https://www.laget.se/Algutsrumskf/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Algutsrums%20skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "algutsrumskf@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Skytteförening som har ungdomsskytte, paraskytte och pensionärsskytte i luftgevär och korthåll",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Luftgevär",
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Paraverksamhet",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden",
+                "Glömminge/Saxnäs/Algutsrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Caroline rosell",
+        "contact_person_role": null,
+        "contact_person_email": "algutsrumskf@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Paraverksamhet",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Caroline Rosell",
+        "algutsrumskf@hotmail.com",
+        "https://www.laget.se/Algutsrumskf/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Alvart konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Konst"
+      ],
+      "categories": [
+        "Färjestaden"
+      ],
+      "homepage_url": "https://alvart.konstforeningar.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Alvart%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bo.hofvander@telia.com",
+      "phone": "+46705100932",
+      "description": {
+        "free_text": "Konstföreningen med hjärtat i konsten",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konst"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bo hofvander",
+        "contact_person_role": null,
+        "contact_person_email": "bo.hofvander@telia.com",
+        "contact_person_phone": "+46705100932"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Bo Hofvander",
+        "0705100932",
+        "bo.hofvander@telia.com",
+        "https://alvart.konstforeningar.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Björnhovda Padelförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Bj%C3%B6rnhovda%20Padelf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "BK Fåken",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [
+        "Färjestaden",
+        "Torslunda/Skogsby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=BK%20F%C3%A5ken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mikaeltornemo@hotmail.com",
+      "phone": "+46701760990",
+      "description": {
+        "free_text": "Badmintonförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden",
+                "Torslunda/Skogsby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael tornemo",
+        "contact_person_role": null,
+        "contact_person_email": "mikaeltornemo@hotmail.com",
+        "contact_person_phone": "+46701760990"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mikael Tornemo",
+        "070-1760990",
+        "mikaeltornemo@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Bostadsrättsföreningen Soluret",
+      "org_number": null,
+      "types": [
+        "Bostadsrättsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Bostadsr%C3%A4ttsf%C3%B6reningen%20Soluret",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Brf Färjestadens Hamn 2",
+      "org_number": null,
+      "types": [
+        "Bostadsrättsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Brf%20F%C3%A4rjestadens%20Hamn%202",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bostadsrättsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "BRF Längtan",
+      "org_number": null,
+      "types": [
+        "Bostadsrättsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=BRF%20L%C3%A4ngtan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kjell.petersson@yahoo.se",
+      "phone": "+46706635899",
+      "description": {
+        "free_text": "Upplåtande av bostadsrätter",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kjell petersson",
+        "contact_person_role": null,
+        "contact_person_email": "kjell.petersson@yahoo.se",
+        "contact_person_phone": "+46706635899"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kjell Petersson",
+        "070 663 58 99",
+        "kjell.petersson@yahoo.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Brickbandens Vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.brickband.museum/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Brickbandens%20V%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bv@brickbandmuseum.se",
+      "phone": "+46723300465",
+      "description": {
+        "free_text": "Brickbandens Vänner (f d Föreningen För Brickbandens Bevarande /FFBB) är liten men ambitiös, och jobbar via BrickbandMuseum för det textila kulturarvet, men Världsarvs- o andra visor prioriteras också!",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malene langborg",
+        "contact_person_role": null,
+        "contact_person_email": "bv@brickbandmuseum.se",
+        "contact_person_phone": "+46723300465"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Malene Langborg",
+        "0723300465",
+        "bv@brickbandmuseum.se",
+        "http://www.Brickband.Museum",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Burkinas vänner i Kalmar och Ölandstrakten",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Burkinas%20v%C3%A4nner%20i%20Kalmar%20och%20%C3%96landstrakten",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "evatraoredalberg@hotmail.com",
+      "phone": "+46763221885",
+      "description": {
+        "free_text": "Burkina Fasos vänner anordnar i huvudsak en Burkinadag per år.Dagen är till för att väcka intresse för Burkina Faso och Afrika med fokus på miljö, kultur och politik. Dagen är också till för att skapa nätverk mellan alla som är intresserade av utvecklingsfrågor såsom privatperson, biståndsarbetare, politiker eller företagare.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva traore dahlberg",
+        "contact_person_role": null,
+        "contact_person_email": "evatraoredalberg@hotmail.com",
+        "contact_person_phone": "+46763221885"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Eva Traore Dahlberg",
+        "076 322 1885",
+        "evatraoredalberg@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Bygdeföreningen Kastlösa skola",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Bygdef%C3%B6reningen%20Kastl%C3%B6sa%20skola",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bygdeförening med verksammheter i kastlösa skola",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Bygdegården i Stenåsa",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Bygdeg%C3%A5rden%20i%20Sten%C3%A5sa",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bygdegardenstenasa@gmail.com",
+      "phone": "+46761034256",
+      "description": {
+        "free_text": "Bygdegårdsverksamhet med uthyrning av lokal",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin engström",
+        "contact_person_role": null,
+        "contact_person_email": "bygdegardenstenasa@gmail.com",
+        "contact_person_phone": "+46761034256"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Martin Engström",
+        "076-10 34 256",
+        "bygdegardenstenasa@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Centerpartiet Mörbylånga",
+      "org_number": null,
+      "types": [
+        "Politisk organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.centerpartiet.se/lokal/kalmar-lan/morbylanga/startsida",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Centerpartiet%20M%C3%B6rbyl%C3%A5nga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tomorrowdesign.se",
+      "phone": "+46706038805",
+      "description": {
+        "free_text": "Centerpartiets kommunorganisation i Mörbylånga kommun",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per-olov johansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@tomorrowdesign.se",
+        "contact_person_phone": "+46706038805"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per-Olov Johansson",
+        "0706-038805",
+        "info@tomorrowdesign.se",
+        "https://www.centerpartiet.se/lokal/kalmar-lan/morbylanga/startsida",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Degerhamns Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Barngymnastik",
+        "Bordtennis",
+        "Fotboll",
+        "Futsal",
+        "Gymnastik",
+        "Innebandy",
+        "Löpning",
+        "Tennis"
+      ],
+      "categories": [
+        "Degerhamn/Södra Möckleby"
+      ],
+      "homepage_url": "https://www.laget.se/degerhamnsif",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Degerhamns%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "degerhamnsif@outlook.com",
+      "phone": "+46763250012",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barngymnastik",
+                "Bordtennis",
+                "Fotboll",
+                "Futsal",
+                "Gymnastik",
+                "Innebandy",
+                "Löpning",
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Degerhamn/Södra Möckleby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andreas lovrén",
+        "contact_person_role": null,
+        "contact_person_email": "degerhamnsif@outlook.com",
+        "contact_person_phone": "+46763250012"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Andreas Lovrén",
+        "0763250012",
+        "degerhamnsif@outlook.com",
+        "https://www.laget.se/degerhamnsif",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "FBC Kalmarsund Ungdom",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Färjestaden"
+      ],
+      "homepage_url": "https://www.fbckalmarsund.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=FBC%20Kalmarsund%20Ungdom",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "matilda.sjodin@fbckalmarsund.se",
+      "phone": "+46734344663",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Matilda sjödin",
+        "contact_person_role": null,
+        "contact_person_email": "matilda.sjodin@fbckalmarsund.se",
+        "contact_person_phone": "+46734344663"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Matilda Sjödin",
+        "0734344663",
+        "matilda.sjodin@fbckalmarsund.se",
+        "https://www.fbckalmarsund.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "FK Kalmarsund",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=FK%20Kalmarsund",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "arminh10@hotmail.com",
+      "phone": "+46700937998",
+      "description": {
+        "free_text": "Futsal förening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Armin huseinovic",
+        "contact_person_role": null,
+        "contact_person_email": "arminh10@hotmail.com",
+        "contact_person_phone": "+46700937998"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Armin Huseinovic",
+        "0700937998",
+        "Arminh10@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Folkuniversitetet",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.folkuniversitetet.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Folkuniversitetet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "samverkan.syd@folkuniversitetet.se",
+      "phone": "+46480432205",
+      "description": {
+        "free_text": "Det fristående och universitetsanknutna studieförbundet\nFolkuniversitetet är ett studieförbund som bedriver folkbildning och vuxenutbildning på ett 100-tal orter i Sverige och utomlands. Det är bildat av de fem stiftelserna Kursverksamheten vid Stockholms, Uppsala, Göteborgs, Lunds respektive Umeå universitet. Folkuniversitetet är en idéburen organisation, fristående från partipolitiska, religiösa, fackliga och kommersiella särintressen.\nFolkuniversitetet växte fram ur universitetsvärlden under 1930- och 1940-talen. Allt började med universitetsstudenter som höll kurser och föreläsningar inom språk, historia och litteratur för allmänheten. Än i dag har vi ett nära samarbete med universiteten.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan midsjö",
+        "contact_person_role": null,
+        "contact_person_email": "samverkan.syd@folkuniversitetet.se",
+        "contact_person_phone": "+46480432205"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan Midsjö",
+        "0480-43 22 05",
+        "Samverkan.syd@folkuniversitetet.se",
+        "https://www.folkuniversitetet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Friidrottsklubben Färjestaden",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [
+        "Färjestaden"
+      ],
+      "homepage_url": "https://www.laget.se/FikFarjestaden/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Friidrottsklubben%20F%C3%A4rjestaden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lars.petersson@maxm.se",
+      "phone": "+46708876011",
+      "description": {
+        "free_text": "Friidrottsverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars petersson",
+        "contact_person_role": null,
+        "contact_person_email": "lars.petersson@maxm.se",
+        "contact_person_phone": "+46708876011"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Lars Petersson",
+        "0708876011",
+        "lars.petersson@maxm.se",
+        "https://www.laget.se/FikFarjestaden/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Färjestadens Bågskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=F%C3%A4rjestadens%20B%C3%A5gskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bedriva bågskytte för barn, ungdomar och vuxna",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Färjestadens GoIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Färjestaden"
+      ],
+      "homepage_url": "https://farjestadensgoif.web.sportadmin.se/start/?ID=361093",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=F%C3%A4rjestadens%20GoIF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@fgoif.se",
+      "phone": "+46767208091",
+      "description": {
+        "free_text": "Färjestadens GoIF, Färjestadens Gymnastik och Idrottsförening, (FGoIF) är en fotbollsklubb från Färjestaden på Öland i Kalmar län grundad den 15 juli 1926. Föreningen hette från början Färjestadens BK men namnändrades 1933 till nuvarande namn. Verksamheten bedrivs idag på Tallhöjdens IP och Grövle. FGoIF är idag Ölands största fotbollsförening med herr-, dam- pojk- och flicklag i seriespel. Föreningen drivs till största del av ideella krafter och verksamheten formas och utvecklas av alla aktiva tillsammans.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Berndt adolfsson",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@fgoif.se",
+        "contact_person_phone": "+46767208091"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Berndt Adolfsson",
+        "0767208091",
+        "kansli@fgoif.se",
+        "https://farjestadensgoif.web.sportadmin.se/start/?ID=361093",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Färjestadens Motions IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Cykling",
+        "Friskvård",
+        "Löpning",
+        "Motion",
+        "Skidor",
+        "Triathlon"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=F%C3%A4rjestadens%20Motions%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Cykling",
+                "Friskvård",
+                "Löpning",
+                "Motion",
+                "Skidor",
+                "Triathlon"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Färjestadens NSF Scoutkår",
+      "org_number": null,
+      "types": [
+        "Scoutförening"
+      ],
+      "activities": [
+        "Scoutverksamhet"
+      ],
+      "categories": [
+        "Eriksöre/Vickleby/Stora Frö/Resmo",
+        "Färjestaden",
+        "Glömminge/Saxnäs/Algutsrum"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=F%C3%A4rjestadens%20NSF%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tomas@hesselmark.net",
+      "phone": "+46705939230",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scoutverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Eriksöre/Vickleby/Stora Frö/Resmo",
+                "Färjestaden",
+                "Glömminge/Saxnäs/Algutsrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tomas hesselmark",
+        "contact_person_role": null,
+        "contact_person_email": "tomas@hesselmark.net",
+        "contact_person_phone": "+46705939230"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Tomas Hesselmark",
+        "0705939230",
+        "tomas@hesselmark.net",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Färjestadens Pensionärers Bridgeklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=F%C3%A4rjestadens%20Pension%C3%A4rers%20Bridgeklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "helena@ervenius.nu",
+      "phone": "+46706406241",
+      "description": {
+        "free_text": "Tävlingsbridge",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Helena ervenius",
+        "contact_person_role": null,
+        "contact_person_email": "helena@ervenius.nu",
+        "contact_person_phone": "+46706406241"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Helena Ervenius",
+        "0706406241",
+        "helena@ervenius.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Färjestadens Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=F%C3%A4rjestadens%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mikael.johansson@kahrs.se",
+      "phone": "+46702372525",
+      "description": {
+        "free_text": "Tennisklubb som är verksam sedan 1977 i Färjestaden\nKlubben har ca 150 medlemmar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael johansson",
+        "contact_person_role": null,
+        "contact_person_email": "mikael.johansson@kahrs.se",
+        "contact_person_phone": "+46702372525"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mikael Johansson",
+        "0702372525",
+        "Mikael.johansson@kahrs.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Föreningen Folkets Hus i Degerhamn u.p.a.",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Degerhamn/Södra Möckleby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=F%C3%B6reningen%20Folkets%20Hus%20i%20Degerhamn%20u.p.a.",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Uthyrning av samlingslokaler",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Uthyrningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Degerhamn/Södra Möckleby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Föreningen Scenbrottet",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.scenbrottet.com/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=F%C3%B6reningen%20Scenbrottet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@scenbrottet.com",
+      "phone": "+46705276531",
+      "description": {
+        "free_text": "Föreningen bedriver inhuvudsak professionell konsertverksamhet och kulturevenemang under professionell ledning för barn/unga.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@scenbrottet.com",
+        "contact_person_phone": "+46705276531"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@scenbrottet.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@scenbrottet.com",
+        "0705276531",
+        "info@scenbrottet.com",
+        "https://www.scenbrottet.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Föreningen Ölands Vindfestival",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Festival",
+        "Folkbildning",
+        "Friluftsliv",
+        "Konst",
+        "Kulturverksamhet",
+        "Skapande verksamhet"
+      ],
+      "categories": [
+        "Degerhamn/Södra Möckleby",
+        "Eriksöre/Vickleby/Stora Frö/Resmo",
+        "Hulterstad/Segerstad",
+        "Mörbylånga"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=F%C3%B6reningen%20%C3%96lands%20Vindfestival",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gronlundpetra@gmail.com",
+      "phone": "+46707607234",
+      "description": {
+        "free_text": "Anordnande av drakfestivaler. Drakflygning, workshops i drakbygge och utveckling av drakflygandet i Sverige.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Festival",
+                "Folkbildning",
+                "Friluftsliv",
+                "Konst",
+                "Kulturverksamhet",
+                "Skapande verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Degerhamn/Södra Möckleby",
+                "Eriksöre/Vickleby/Stora Frö/Resmo",
+                "Hulterstad/Segerstad",
+                "Mörbylånga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Petra grönlund",
+        "contact_person_role": null,
+        "contact_person_email": "gronlundpetra@gmail.com",
+        "contact_person_phone": "+46707607234"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Petra Grönlund",
+        "0707607234",
+        "gronlundpetra@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Gf Alvaret",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Färjestaden"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Gf%20Alvaret",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gfalvaret@gmail.com",
+      "phone": "+46738212194",
+      "description": {
+        "free_text": "Alvarets gymnastförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Paraverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Michaela kuster",
+        "contact_person_role": null,
+        "contact_person_email": "gfalvaret@gmail.com",
+        "contact_person_phone": "+46738212194"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Paraverksamhet"
+      ],
+      "contact_lines": [
+        "Michaela Kuster",
+        "073-8212194",
+        "gfalvaret@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Glömminge Föreningshus",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [
+        "Barnkalas",
+        "Dans",
+        "Fest",
+        "Film",
+        "Folkbildning",
+        "Föreläsning",
+        "Information/torgmöte",
+        "Konsert",
+        "Konst",
+        "Kulturverksamhet",
+        "Musikal",
+        "Mässa/marknad",
+        "Möte/sammanträde",
+        "Politik",
+        "Samhällsutveckling",
+        "Studieverksamhet",
+        "Teater",
+        "Uthyrningsverksamhet",
+        "Utställning"
+      ],
+      "categories": [
+        "Glömminge/Saxnäs/Algutsrum"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Gl%C3%B6mminge%20F%C3%B6reningshus",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bitteborjesson@hotmail.com",
+      "phone": "+46702363943",
+      "description": {
+        "free_text": "Glömminge Föreningshus ägs av 3 föreningar som hjälps åt att driva och sköta det. Det är Glömminge Hembyggdsförening, Glömminge Damsektion och Glömminge-Algutsrums IF. Vi har lla möjliga aktiviteter och det är tillgängligt för alla att hyra om man vill. I år fyller vi 100 år.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barnkalas",
+                "Dans",
+                "Fest",
+                "Film",
+                "Folkbildning",
+                "Föreläsning",
+                "Information/torgmöte",
+                "Konsert",
+                "Konst",
+                "Kulturverksamhet",
+                "Musikal",
+                "Mässa/marknad",
+                "Möte/sammanträde",
+                "Politik",
+                "Samhällsutveckling",
+                "Studieverksamhet",
+                "Teater",
+                "Uthyrningsverksamhet",
+                "Utställning"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Glömminge/Saxnäs/Algutsrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monika nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "bitteborjesson@hotmail.com",
+        "contact_person_phone": "+46702363943"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Monika NIlsson",
+        "070-2363943",
+        "bitteborjesson@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Glömminge Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [
+        "Glömminge/Saxnäs/Algutsrum"
+      ],
+      "homepage_url": "https://www.hembygd.se/glomminge",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Gl%C3%B6mminge%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "glomminge.hbf@gmail.com",
+      "phone": "+46725485858",
+      "description": {
+        "free_text": "Föreningen ombesörjer underhållet av de 8 kvarnarna som föreningen äger. Gamla Skolan är idag ett museum som bl.a. visar flera fotoutställningar. Den norra skolsalen har ursprungliga inventarier som t.ex. skolbänkar, griffeltavla, kamin, m.m. Lokalerna används även till möten och annan verksamhet. F.n. pågår förbättringsåtgärder som innebär att vatten och avlopp dras in, vilket innebär att lokalen får en handikappanpassad toalett och en trinett.\nÅr 1990 införskaffade Hembygdsföreningen en ryggåsstuga Signes stuga som flyttades från Röhällavägen till Kvarnslätten i Ryd dit även en av hembygdsföreningarnas kvarnar flyttades 1988.\nI Glömminge socken finns 473 registrerade fornlämningar. Av dessa är ca 214 gravar, ca 256 husgrunder eller stensträngar, 2 platåer och en fornborg. I Röhälla finns den s.k. Brännvinseken. De ålderdomliga stenladorna och Glömminge kyrka är väl värda ett besök liksom även Gretastenen utmed Ytterrörsvägen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Senior (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Glömminge/Saxnäs/Algutsrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven stenson, ordförande",
+        "contact_person_role": null,
+        "contact_person_email": "glomminge.hbf@gmail.com",
+        "contact_person_phone": "+46725485858"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Senior (65+ år)"
+      ],
+      "contact_lines": [
+        "Sven Stenson, ordförande",
+        "0725485858",
+        "glomminge.hbf@gmail.com",
+        "https://www.hembygd.se/glomminge",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Glömminge-Algutsrums IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Glömminge/Saxnäs/Algutsrum"
+      ],
+      "homepage_url": "https://www.laget.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Gl%C3%B6mminge-Algutsrums%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bitteborjesson@hotmail.com",
+      "phone": "+46704949647",
+      "description": {
+        "free_text": "Vi bedriver fotbollsverksamhet för ungdomar och seniorer. Vi har Hopp o Studs för de yngsta och måndagsgruppen för de som är +65.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Glömminge/Saxnäs/Algutsrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bitte börjesson",
+        "contact_person_role": null,
+        "contact_person_email": "bitteborjesson@hotmail.com",
+        "contact_person_phone": "+46704949647"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Bitte Börjesson",
+        "0704949647",
+        "bitteborjesson@hotmail.com",
+        "https://www.laget.se GAIF Öland",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Gräsgårds Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [
+        "Bio",
+        "Dans",
+        "Föreläsning",
+        "Kulturverksamhet",
+        "Skapande verksamhet",
+        "Studieverksamhet",
+        "Teater",
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Degerhamn/Södra Möckleby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Gr%C3%A4sg%C3%A5rds%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bygdegårdsförening. Vi driver bl.a. Torngårds Bio",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bio",
+                "Dans",
+                "Föreläsning",
+                "Kulturverksamhet",
+                "Skapande verksamhet",
+                "Studieverksamhet",
+                "Teater",
+                "Uthyrningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Degerhamn/Södra Möckleby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Gymnastikföreningen Gymmix",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Färjestaden"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Gymnastikf%C3%B6reningen%20Gymmix",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "per.fryxell@telia.com",
+      "phone": "+46709507336",
+      "description": {
+        "free_text": "Gruppgymnastik",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per fryxell",
+        "contact_person_role": null,
+        "contact_person_email": "per.fryxell@telia.com",
+        "contact_person_phone": "+46709507336"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Per Fryxell",
+        "0709507336",
+        "per.fryxell@telia.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Hulterstads AIK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton",
+        "Barngymnastik",
+        "Barnkalas",
+        "Bordtennis",
+        "Boule",
+        "Bowls",
+        "Crossfit",
+        "Dans",
+        "Fest",
+        "Fotboll",
+        "Friskvård",
+        "Gym",
+        "Innebandy",
+        "Konferens",
+        "Kör",
+        "Luftgevär",
+        "Motion",
+        "Möte/sammanträde",
+        "Pickleball",
+        "Spinning",
+        "Tennis",
+        "Uthyrningsverksamhet",
+        "Volleyboll"
+      ],
+      "categories": [
+        "Hulterstad/Segerstad"
+      ],
+      "homepage_url": "https://albylen.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Hulterstads%20AIK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nyhetsbrev@albylen.se",
+      "phone": "+46701829161",
+      "description": {
+        "free_text": "Idrottsklubb med olika aktiviteter och friskvårdscenter med gym. Vår version är \"En förening för alla\"\nVälkomna!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton",
+                "Barngymnastik",
+                "Barnkalas",
+                "Bordtennis",
+                "Boule",
+                "Bowls",
+                "Crossfit",
+                "Dans",
+                "Fest",
+                "Fotboll",
+                "Friskvård",
+                "Gym",
+                "Innebandy",
+                "Konferens",
+                "Kör",
+                "Luftgevär",
+                "Motion",
+                "Möte/sammanträde",
+                "Pickleball",
+                "Spinning",
+                "Tennis",
+                "Uthyrningsverksamhet",
+                "Volleyboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hulterstad/Segerstad"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena svensson",
+        "contact_person_role": null,
+        "contact_person_email": "nyhetsbrev@albylen.se",
+        "contact_person_phone": "+46701829161"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Lena Svensson",
+        "0701829161",
+        "nyhetsbrev@albylen.se",
+        "https://albylen.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Hulterstads bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Hulterstads%20bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@hulterstad.se",
+      "phone": "+46702137350",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven johansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@hulterstad.se",
+        "contact_person_phone": "+46702137350"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sven Johansson",
+        "0702137350",
+        "info@hulterstad.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Islandshästföreningen Oddur",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.oddur.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Islandsh%C3%A4stf%C3%B6reningen%20Oddur",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "oddurinfo@gmail.com",
+      "phone": "+46702527071",
+      "description": {
+        "free_text": "Anordnar aktiviteter med och om islandshästar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin alvkäll",
+        "contact_person_role": null,
+        "contact_person_email": "oddurinfo@gmail.com",
+        "contact_person_phone": "+46702527071"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Malin Alvkäll",
+        "0702527071",
+        "oddurinfo@gmail.com",
+        "https://www.oddur.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Jazzakademi Södra Öland",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://jazzakademisodraoland.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Jazzakademi%20S%C3%B6dra%20%C3%96land",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jazzsodraoland@gmail.com",
+      "phone": "+46703831004",
+      "description": {
+        "free_text": "Kultur med inriktning jazz.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lisa lundqvist",
+        "contact_person_role": null,
+        "contact_person_email": "jazzsodraoland@gmail.com",
+        "contact_person_phone": "+46703831004"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Lisa Lundqvist",
+        "070 3831004",
+        "jazzsodraoland@gmail.com",
+        "http://jazzakademisodraoland.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Kalmar Parkinsonförening",
+      "org_number": null,
+      "types": [
+        "Föreningar för funktionsnedsatta"
+      ],
+      "activities": [
+        "Föreläsning"
+      ],
+      "categories": [
+        "Färjestaden"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Kalmar%20Parkinsonf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jnjonilsson@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "En förening för personer med Parkinsons sjukdom och anhöriga. Har ca 110 medlemmar i Kalmarområdet och på Öland. Arbetarmed att förbättra vården för de drabbade och ordnar med olika typer av aktiviteter för medlemmarna",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreläsning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Senior (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "jnjonilsson@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Senior (65+ år)"
+      ],
+      "contact_lines": [
+        "jnjonilsson@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Kalmar-Ölands Fordonshistoriker",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://kalmar-olandsfordonshistoriker.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Kalmar-%C3%96lands%20Fordonshistoriker",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lasseotina.ytteror@telia.com",
+      "phone": "+46705350712",
+      "description": {
+        "free_text": "fordonsbevarande och förevisning av fordon inom transport och jordbruk ( typ Hamnträffarna Färjestaden)",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars gustavsson",
+        "contact_person_role": null,
+        "contact_person_email": "lasseotina.ytteror@telia.com",
+        "contact_person_phone": "+46705350712"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lars Gustavsson",
+        "0705350712",
+        "lasseotina.ytteror@telia.com",
+        "http://kalmar-olandsfordonshistoriker.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Kastlösa Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kulturarv",
+        "Kulturverksamhet"
+      ],
+      "categories": [
+        "Kastlösa"
+      ],
+      "homepage_url": "https://www.hembygd.se/kastlosa",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Kastl%C3%B6sa%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarv",
+                "Kulturverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kastlösa"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "https://www.hembygd.se/kastlosa",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Kulturföreningen Karneval",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Kulturf%C3%B6reningen%20Karneval",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "justus.bennet@gmail.com",
+      "phone": "+46705137573",
+      "description": {
+        "free_text": "Kulturförening som genomför olika aktiviteter inom främst områdena konst, litteratur och musik.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Justus bennet",
+        "contact_person_role": null,
+        "contact_person_email": "justus.bennet@gmail.com",
+        "contact_person_phone": "+46705137573"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Justus Bennet",
+        "0705 137573",
+        "justus.bennet@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Kulturhuset Sockenstugan Segerstad",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Kulturhuset%20Sockenstugan%20Segerstad",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen är en ideell förening vars ändamål är att verka för en bred verksamhet med inriktning mot kultur i sockenstugan samt att hålla lokalerna tillgängliga för ideellt och allmännyttigt bruk.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Lokala Hyresgästföreningen Sydöland 800361",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Fest",
+        "Föreläsning",
+        "Information/torgmöte",
+        "Möte/sammanträde"
+      ],
+      "categories": [
+        "Degerhamn/Södra Möckleby",
+        "Färjestaden",
+        "Glömminge/Saxnäs/Algutsrum",
+        "Grönhögen",
+        "Mörbylånga",
+        "Torslunda/Skogsby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Lokala%20Hyresg%C3%A4stf%C3%B6reningen%20Syd%C3%B6land%20800361",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hederstameva@gmail.com",
+      "phone": "+46708146941",
+      "description": {
+        "free_text": "Lokal hyresgästförening är en del i Hyresgästernas riksförbund och omfattar kommunens allmännyttiga bostäder.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fest",
+                "Föreläsning",
+                "Information/torgmöte",
+                "Möte/sammanträde"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Degerhamn/Södra Möckleby",
+                "Färjestaden",
+                "Glömminge/Saxnäs/Algutsrum",
+                "Grönhögen",
+                "Mörbylånga",
+                "Torslunda/Skogsby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva hederstam",
+        "contact_person_role": null,
+        "contact_person_email": "hederstameva@gmail.com",
+        "contact_person_phone": "+46708146941"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Eva Hederstam",
+        "0708146941",
+        "hederstameva@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Margit Fribergsällskapet",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Litteratur"
+      ],
+      "categories": [],
+      "homepage_url": "http://margitfribergsallskapet.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Margit%20Fribergs%C3%A4llskapet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "margaretalilja-s@live.se",
+      "phone": "+46705641477",
+      "description": {
+        "free_text": "Arbetar för att bevara minnet av författaren Margit Friberg.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Litteratur"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Margareta lilja svensson",
+        "contact_person_role": null,
+        "contact_person_email": "margaretalilja-s@live.se",
+        "contact_person_phone": "+46705641477"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Margareta Lilja Svensson",
+        "0705641477",
+        "margaretalilja-s@live.se",
+        "http://margitfribergsallskapet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Medborgarskolan Region öst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Dans",
+        "Film",
+        "Folkbildning",
+        "Föreläsning",
+        "Konsert",
+        "Kulturarv",
+        "Kulturverksamhet",
+        "Kör",
+        "Litteratur",
+        "Musikutövande",
+        "Revy",
+        "Samhällsutveckling",
+        "Skapande verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.medborgarskolan.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Medborgarskolan%20Region%20%C3%B6st",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sara.cullin-rinaldo@medborgarskolan.se",
+      "phone": "+46101575111",
+      "description": {
+        "free_text": "Vi är ett humanistiskt studieförbund som är en liten förening med viktig verksamhet.\nVåra fyra kärnvärden är:\nIndividen i centrum\nUtveckling i samverkan\nÖmsesidig respekt\nKunskapens egenvärde\nVi vill satsa på verksamhet för äldre och för personer med funktionsnedsättning.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Film",
+                "Folkbildning",
+                "Föreläsning",
+                "Konsert",
+                "Kulturarv",
+                "Kulturverksamhet",
+                "Kör",
+                "Litteratur",
+                "Musikutövande",
+                "Revy",
+                "Samhällsutveckling",
+                "Skapande verksamhet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sara cullin rinaldo",
+        "contact_person_role": null,
+        "contact_person_email": "sara.cullin-rinaldo@medborgarskolan.se",
+        "contact_person_phone": "+46101575111"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sara Cullin Rinaldo",
+        "0101575111",
+        "sara.cullin-rinaldo@medborgarskolan.se",
+        "https://www.medborgarskolan.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Moderaterna Mörbylånga kommun",
+      "org_number": null,
+      "types": [
+        "Politisk organisation"
+      ],
+      "activities": [
+        "Politik"
+      ],
+      "categories": [
+        "Degerhamn/Södra Möckleby",
+        "Färjestaden",
+        "Mörbylånga"
+      ],
+      "homepage_url": "https://moderaternaimorbylanga.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Moderaterna%20M%C3%B6rbyl%C3%A5nga%20kommun",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "helendinpt@gmail.com",
+      "phone": "+46706060933",
+      "description": {
+        "free_text": "Politik. Moderaterna i Mörbylånga kommun",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Politik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Degerhamn/Södra Möckleby",
+                "Färjestaden",
+                "Mörbylånga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Helen odenäng",
+        "contact_person_role": null,
+        "contact_person_email": "helendinpt@gmail.com",
+        "contact_person_phone": "+46706060933"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Helen Odenäng",
+        "0706060933",
+        "helendinpt@gmail.com",
+        "https://moderaternaimorbylanga.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylånga bastuförening",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.morbylangabastu.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5nga%20bastuf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bastuverksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jerker nilsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jerker Nilsson",
+        "+46732448056",
+        "Http://www.morbylangabastu.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylånga Biografförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Film"
+      ],
+      "categories": [
+        "Mörbylånga"
+      ],
+      "homepage_url": "https://www.bioaulan.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5nga%20Biograff%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@bioaulan.se",
+      "phone": null,
+      "description": {
+        "free_text": "Biografverksamhet i Aulan, Skansenskolan, Mörbylånga (ingång från Ölandsgatan)",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Film"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mörbylånga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@bioaulan.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "info@bioaulan.se",
+        "https://www.bioaulan.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylånga Blomstrar och Ler",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5nga%20Blomstrar%20och%20Ler",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "calle.nyquist@gmail.com",
+      "phone": "+46708422174",
+      "description": {
+        "free_text": "Paraplyorganisation för föreningar i Mörbylånga",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Calle nyquist",
+        "contact_person_role": null,
+        "contact_person_email": "calle.nyquist@gmail.com",
+        "contact_person_phone": "+46708422174"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Calle Nyquist",
+        "070-8422174",
+        "calle.nyquist@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylånga boulklubb",
+      "org_number": null,
+      "types": [
+        "Seniorförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5nga%20boulklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "rosita.nilsson@gmail.com",
+      "phone": "+46702072361",
+      "description": {
+        "free_text": "Pensionärer som spelar boule.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rosita nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "rosita.nilsson@gmail.com",
+        "contact_person_phone": "+46702072361"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Rosita Nilsson",
+        "0702072361",
+        "rosita.nilsson@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylånga båtklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Segling"
+      ],
+      "categories": [
+        "Mörbylånga"
+      ],
+      "homepage_url": "https://morbylangabatklubb.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5nga%20b%C3%A5tklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "martin.strandstugan@gmail.com",
+      "phone": "+46733655083",
+      "description": {
+        "free_text": "Uthyrning av båtplatser södra hamnen, uthyrning av vinterförvaring av båtar i Segelladan, seglarskola, evenemang i Segelladan och gästhamnsverksamhet i norra hamnen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Segling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mörbylånga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin svensson",
+        "contact_person_role": null,
+        "contact_person_email": "martin.strandstugan@gmail.com",
+        "contact_person_phone": "+46733655083"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Martin Svensson",
+        "073-3655083",
+        "martin.strandstugan@gmail.com",
+        "https://morbylangabatklubb.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylånga GoIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.morbylangagoif.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5nga%20GoIF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "morbylangagoif@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "morbylangagoif@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "morbylangagoif@gmail.com",
+        "http://www.morbylangagoif.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylånga hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kulturarv"
+      ],
+      "categories": [
+        "Mörbylånga"
+      ],
+      "homepage_url": "http://hembygd.se/morbylanga",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5nga%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarv"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mörbylånga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "http://hembygd.se/morbylanga",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylånga koloniodlarförening, kvarteret solrosen",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5nga%20koloniodlarf%C3%B6rening%2C%20kvarteret%20solrosen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sus.schmidt@hotmail.com",
+      "phone": "+46738018911",
+      "description": {
+        "free_text": "Vi arrenderar mark av Mörbylånga kommun, och arrenderar ut odlingslotter till privatpersoner som hyr lägenhet i Mörbylånga. Syftet är att alla ska ha möjlighet att kunna odla, både frukt, bär, blommor och grönsaker för husbehov, ej för kommersiell odling. Vi ser föreningens verksamhet som viktigt ur flera perspektiv; som möjlighet till beredskapsodling, socialt utbyte, och som integrerande verksamhet. Tanken är att arrendekostnaden ska vara överkomlig, och det ska inte vara någon lyxhobby att odla. Med omvärldsperspektiv och övrig krisberedskap har vi en plats att fylla.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Susanne schmidt",
+        "contact_person_role": null,
+        "contact_person_email": "sus.schmidt@hotmail.com",
+        "contact_person_phone": "+46738018911"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Susanne Schmidt",
+        "0738018911",
+        "sus.schmidt@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylånga Tennisförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton",
+        "Bordtennis",
+        "Pickleball",
+        "Tennis"
+      ],
+      "categories": [
+        "Mörbylånga"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5nga%20Tennisf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "morbylangatennis@gmail.com",
+      "phone": "+46704913969",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton",
+                "Bordtennis",
+                "Pickleball",
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mörbylånga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hiromi ballantyne",
+        "contact_person_role": null,
+        "contact_person_email": "morbylangatennis@gmail.com",
+        "contact_person_phone": "+46704913969"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Hiromi Ballantyne",
+        "0704913969",
+        "morbylangatennis@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Mörbylångadalens Ridsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.morbylangadalensridsallskap.com/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=M%C3%B6rbyl%C3%A5ngadalens%20Rids%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ridklubb",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridsport"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.morbylangadalensridsallskap.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "NBV Sydost",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.nbv.se/sydost",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=NBV%20Sydost",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sydost@nbv.se",
+      "phone": "+4648056440",
+      "description": {
+        "free_text": "Folkbildande verksamhet, studiecirklar, annan folkbildning, kulturarrangemang",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "sydost@nbv.se",
+        "contact_person_phone": "+4648056440"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "048056440",
+        "sydost@nbv.se",
+        "http://www.nbv.se/sydost",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Neuroförbundet Kalmar",
+      "org_number": null,
+      "types": [
+        "Föreningar för funktionsnedsatta"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://neuro.se/kalmar",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Neurof%C3%B6rbundet%20Kalmar",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kalmar@neuro.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en ideell och fristående partipolitiskt oberoende förening. Vi arbetar för att förbättra situationen för personer med neurologiska sjukdomar och skador samt för deras anhöriga.\nViktiga delar i vårt arbete är att medverka till att bryta isolering och skapa gemenskap. Vi ger medlemmar och deras anhöriga möjlighet att träffas. Våra medlemmar har genom våra aktiviteter möjlighet till resor, utflykter och annan rekreation.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kalmar@neuro.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "kalmar@neuro.se",
+        "https://neuro.se/kalmar",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Norra Möckleby Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [
+        "Norra Möckleby/Gårdby/Stenåsa/Sandby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Norra%20M%C3%B6ckleby%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Samlingslokal",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Uthyrningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Paraverksamhet",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Norra Möckleby/Gårdby/Stenåsa/Sandby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Paraverksamhet",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Nätverket för barnkultur på Öland",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://barnkulturfestival.com/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=N%C3%A4tverket%20f%C3%B6r%20barnkultur%20p%C3%A5%20%C3%96land",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "barnkulturfestival@gmail.com",
+      "phone": "+46707163554",
+      "description": {
+        "free_text": "Ideell förening som varje höst arrangerar barnkulturfestival på HImmelsberga",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva forssell",
+        "contact_person_role": null,
+        "contact_person_email": "barnkulturfestival@gmail.com",
+        "contact_person_phone": "+46707163554"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Eva Forssell",
+        "0707163554",
+        "barnkulturfestival@gmail.com",
+        "https://barnkulturfestival.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "PRO Färjestaden",
+      "org_number": null,
+      "types": [
+        "Seniorförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://pro.se/distrikt/kalmar/kommun/morbylanga/pro-farjestaden",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=PRO%20F%C3%A4rjestaden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://pro.se/distrikt/kalmar/kommun/morbylanga/pro-farjestaden",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "PRO sydöland",
+      "org_number": null,
+      "types": [
+        "Seniorförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=PRO%20syd%C3%B6land",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Resmo Ungdomsgårdsförvaltning",
+      "org_number": null,
+      "types": [
+        "Hobby- och ungdomsförening"
+      ],
+      "activities": [
+        "Bordtennis",
+        "Fritidsgård"
+      ],
+      "categories": [
+        "Eriksöre/Vickleby/Stora Frö/Resmo"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Resmo%20Ungdomsg%C3%A5rdsf%C3%B6rvaltning",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Förvaltning av fastighet till förmån för närområdets föreningar och privatpersoner mm.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis",
+                "Fritidsgård"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Eriksöre/Vickleby/Stora Frö/Resmo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Runsten Möckleby IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Pickleball"
+      ],
+      "categories": [
+        "Norra Möckleby/Gårdby/Stenåsa/Sandby"
+      ],
+      "homepage_url": "https://www.laget.se/RMIF",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Runsten%20M%C3%B6ckleby%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anders.arvefalk@sweco.se",
+      "phone": "+46722169104",
+      "description": {
+        "free_text": "Idrottsföreningen bedriver fotbollsverksamhet i tävlingsform både på ungdoms- och seniorsidan. Och det är både för flickor, pojkar, damer och herrar.\nSedan bedrivs innebandy, pickleball, badminton mm i motionsform efter önskemål.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Pickleball"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Norra Möckleby/Gårdby/Stenåsa/Sandby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders arvefalk",
+        "contact_person_role": null,
+        "contact_person_email": "anders.arvefalk@sweco.se",
+        "contact_person_phone": "+46722169104"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Anders Arvefalk",
+        "0722169104",
+        "anders.arvefalk@sweco.se",
+        "https://www.laget.se/RMIF",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Sandby Gårdby Byggnadsförening UPA",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [
+        "Bordtennis",
+        "Dans",
+        "Kulturverksamhet",
+        "Skytte",
+        "Uthyrningsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Sandby%20G%C3%A5rdby%20Byggnadsf%C3%B6rening%20UPA",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tomorrowdesign.se",
+      "phone": "+46706038805",
+      "description": {
+        "free_text": "§ 1. Firma och ändamål\nFöreningen, vars firma är Sandby-Gårdby Byggnadsförening u. p. a., har till lindamål att för sina medlemmars räkning även som andra syften, varom föreningsstyrelsen beslutar, förvärva och förvalta fastighet för tillhandahållande av samlingslokal, park eller festplats för möten, föredrag, fester, allmänna förevisningar m .m.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis",
+                "Dans",
+                "Kulturverksamhet",
+                "Skytte",
+                "Uthyrningsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per-olov johansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@tomorrowdesign.se",
+        "contact_person_phone": "+46706038805"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Per-Olov Johansson",
+        "0706-038805",
+        "info@tomorrowdesign.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Sandby Gårdby hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/sandby-gardby",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Sandby%20G%C3%A5rdby%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sandbygardby.hbf@gmail.com",
+      "phone": "+46705370340",
+      "description": {
+        "free_text": "Hembygdsförening som genom möten och aktiviteter arbetar för att dokumentera, bevadra och utveckla vår hembygd samt väcka och stärka intresse för våra socknar och dess historia",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kent johansson",
+        "contact_person_role": null,
+        "contact_person_email": "sandbygardby.hbf@gmail.com",
+        "contact_person_phone": "+46705370340"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kent Johansson",
+        "0705370340",
+        "sandbygardby.hbf@gmail.com",
+        "http://www.hembygd.se/sandby-gardby",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Sandby-Gårdby Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Sandby-G%C3%A5rdby%20Gymnastikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Sandby-Gårdby Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Sandby-G%C3%A5rdby%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Skytteförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Saxnäs Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Färjestaden",
+        "Glömminge/Saxnäs/Algutsrum"
+      ],
+      "homepage_url": "https://www.saxnasgolf.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Saxn%C3%A4s%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@saxnasgolf.se",
+      "phone": "+4648535035",
+      "description": {
+        "free_text": "Golfklubb",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Golf"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden",
+                "Glömminge/Saxnäs/Algutsrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@saxnasgolf.se",
+        "contact_person_phone": "+4648535035"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "0485-35035",
+        "info@saxnasgolf.se",
+        "https://www.saxnasgolf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Segerstads Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Segerstads%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Hembygdsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy pettersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Tommy Pettersson",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Sensus Östra Götaland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Botanik",
+        "Folkbildning",
+        "Friskvård",
+        "Fågelskådning",
+        "Föreläsning",
+        "Kulturverksamhet",
+        "Litteratur",
+        "Musikutövande",
+        "Studieverksamhet"
+      ],
+      "categories": [
+        "Färjestaden",
+        "Mörbylånga"
+      ],
+      "homepage_url": "https://www.sensus.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Sensus%20%C3%96stra%20G%C3%B6taland",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ostragotaland@sensus.se",
+      "phone": "+4613246700",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Botanik",
+                "Folkbildning",
+                "Friskvård",
+                "Fågelskådning",
+                "Föreläsning",
+                "Kulturverksamhet",
+                "Litteratur",
+                "Musikutövande",
+                "Studieverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden",
+                "Mörbylånga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tessan nordeman",
+        "contact_person_role": null,
+        "contact_person_email": "ostragotaland@sensus.se",
+        "contact_person_phone": "+4613246700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Tessan Nordeman",
+        "013-246700",
+        "ostragotaland@sensus.se",
+        "https://www.sensus.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Sjöfararkusten Småland-Öland",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.sjofararkusten.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Sj%C3%B6fararkusten%20Sm%C3%A5land-%C3%96land",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sjofararkusten.se",
+      "phone": "+46708892443",
+      "description": {
+        "free_text": "Samverkansorganisation för regionens alla föreningar med sjöfartssamlingar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders berg",
+        "contact_person_role": null,
+        "contact_person_email": "info@sjofararkusten.se",
+        "contact_person_phone": "+46708892443"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders Berg",
+        "0708892443",
+        "info@sjofararkusten.se",
+        "http://www.sjofararkusten.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Skärlövs hamnförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Hulterstad/Segerstad"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Sk%C3%A4rl%C3%B6vs%20hamnf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Fastigheten Skärlöv 47:1 ägs av Mörbylånga kommun och arrenderas av medlemmar i Skärlövs hamnförening. Föreningens främsta ändamål är att tillvarata medlemmarnas i Skärlöv hamnförening intressen, verka för trivsel i hamnen och i samråd med Mörbylånga kommun verka för tillsyn och utveckling av området. Området ska vara öppet och tillgängligt för det rörliga friluftslivet enligt de bestämmelser som gäller för området. Föreningen har som ambition att motverka all form av diskriminering och särbehandling inom föreningen och inom området.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hulterstad/Segerstad"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Smedby Hembygdsförening Sockenstuga",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.oland-smedby.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Smedby%20Hembygdsf%C3%B6rening%20Sockenstuga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@treanslantbruk.se",
+      "phone": "+46708713725",
+      "description": {
+        "free_text": "Hembygdsförening inklusive Smedby Sockenstuga. Verksamhet är egna möten och aktiviteter.\nUthyrning till privatpersoner samt andra föreningar och organisationer",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bosse johansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@treanslantbruk.se",
+        "contact_person_phone": "+46708713725"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Bosse Johansson",
+        "0708-713725",
+        "info@treanslantbruk.se",
+        "http://www.oland-smedby.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Socialdemokraterna Södra Öland",
+      "org_number": null,
+      "types": [
+        "Politisk organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Socialdemokraterna%20S%C3%B6dra%20%C3%96land",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars stjernfelt",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lars Stjernfelt",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "SPF Seniorena Sydöland",
+      "org_number": null,
+      "types": [
+        "Seniorförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=SPF%20Seniorena%20Syd%C3%B6land",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "spfsydolandstyrelsen@gmail.com",
+      "phone": "+46705741195",
+      "description": {
+        "free_text": "Vi är en pensionärsförening med ca 300 medlemmar som aktivt arbetar för att pensionärerna skall känna sig trygga och har mötesverksamhet varje månad där vi arbetar för upplysande programinslag av god kvalité, så att vi kan intressera och aktivera såväl äldre som yngre medlemmar. Vi har olika aktiviteter som dans, Yoga, bridge och föreläsningar i Folket hus samt aktiviteter som stavgång, bowling, bouls, bowls och golf. Vi ordnar även utflykter och resor.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Samma som ovan",
+        "contact_person_role": null,
+        "contact_person_email": "spfsydolandstyrelsen@gmail.com",
+        "contact_person_phone": "+46705741195"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "samma som ovan",
+        "0705741195",
+        "spfsydolandstyrelsen@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "SPF Seniorerna Solvändan",
+      "org_number": null,
+      "types": [
+        "Seniorförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Solv%C3%A4ndan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "SSG IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Innebandy"
+      ],
+      "categories": [
+        "Norra Möckleby/Gårdby/Stenåsa/Sandby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=SSG%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Norra Möckleby/Gårdby/Stenåsa/Sandby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Stenåsa Hulterstad Ungdomsskytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Luftgevär",
+        "Skytte"
+      ],
+      "categories": [
+        "Degerhamn/Södra Möckleby",
+        "Gräsgård/Ås",
+        "Grönhögen",
+        "Hulterstad/Segerstad",
+        "Kastlösa",
+        "Mörbylånga",
+        "Norra Möckleby/Gårdby/Stenåsa/Sandby"
+      ],
+      "homepage_url": "https://www.facebook.com/p/Sten%C3%A5sa-Hulterstads-Ungdomsskyttef%C3%B6rening-100057466071930/?locale=sv_SE",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Sten%C3%A5sa%20Hulterstad%20Ungdomsskyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pettersson_ingemar@hotmail.com",
+      "phone": "+46705816033",
+      "description": {
+        "free_text": "Luftgevärsskytte för alla åldrar på östra sidan.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Luftgevär",
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Degerhamn/Södra Möckleby",
+                "Gräsgård/Ås",
+                "Grönhögen",
+                "Hulterstad/Segerstad",
+                "Kastlösa",
+                "Mörbylånga",
+                "Norra Möckleby/Gårdby/Stenåsa/Sandby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingemar pettersson",
+        "contact_person_role": null,
+        "contact_person_email": "pettersson_ingemar@hotmail.com",
+        "contact_person_phone": "+46705816033"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Ingemar Pettersson",
+        "070-5816033",
+        "pettersson_ingemar@hotmail.com",
+        "https://www.facebook.com/p/Sten%C3%A5sa-Hulterstads-Ungdomsskyttef%C3%B6rening-100057466071930/?locale=sv_SE",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Stiftelsen Capellagården",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.capellagarden.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Stiftelsen%20Capellag%C3%A5rden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@capellagarden.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@capellagarden.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@capellagarden.se",
+        "https://www.capellagarden.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Stora Frö Byförening",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Stora%20Fr%C3%B6%20Byf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Studiefrämjandet Öst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Studieverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.studieframjandet.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Studiefr%C3%A4mjandet%20%C3%96st",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mire.stevkov@studieframjandet.se",
+      "phone": null,
+      "description": {
+        "free_text": "Studiefrämjande anordnar folkbildningsverksamhet inom profilområdena natur, djur, miljö och kultur",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Studieverksamhet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "mire.stevkov@studieframjandet.se",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "mire.stevkov@studieframjandet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "mire.stevkov@studieframjandet.se",
+        "mire.stevkov@studieframjandet.se",
+        "https://www.studieframjandet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Studieförbundet Bilda Sydöst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.bilda.nu/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20Bilda%20Syd%C3%B6st",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.bilda.nu/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan Kalmar län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.sv.se/kalmar",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20Vuxenskolan%20Kalmar%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mirsada.bajraktarevic@sv.se",
+      "phone": "+46704552521",
+      "description": {
+        "free_text": "Bedriver folkbildning i form av studiecirklar, annan folkbildningsverksamhet och kulturarrangemang i egen regi samt i samverkan med föreningar och samverkansparter.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mirsada bajraktarevic",
+        "contact_person_role": null,
+        "contact_person_email": "mirsada.bajraktarevic@sv.se",
+        "contact_person_phone": "+46704552521"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mirsada Bajraktarevic",
+        "0704552521",
+        "mirsada.bajraktarevic@sv.se",
+        "https://www.sv.se/kalmar",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Sverigedemokraterna Mörbylånga",
+      "org_number": null,
+      "types": [
+        "Politisk organisation"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Sverigedemokraterna%20M%C3%B6rbyl%C3%A5nga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anders.neigart@sd.se",
+      "phone": "+46704069936",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "anders.neigart@sd.se",
+        "contact_person_phone": "+46704069936"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "anders.neigart@sd.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders.neigart@sd.se",
+        "070-406 99 36",
+        "Anders.neigart@sd.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Södra Möckleby Sockenförening",
+      "org_number": null,
+      "types": [
+        "Social förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=S%C3%B6dra%20M%C3%B6ckleby%20Sockenf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "myran3@gmail.com",
+      "phone": "+46705135219",
+      "description": {
+        "free_text": "Samhällsförening som bedriver verksamhet och projekt i olika social sammanhang, kulturella insatser, hälsofrämjande och sociala aktiviteter, samhällsutvecklingsfrågor för bygden. Vi finns på facebook.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "myran3@gmail.com",
+        "contact_person_phone": "+46705135219"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "myran3@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "myran3@gmail.com",
+        "0705135219",
+        "myran3@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Södra Ölands Konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Utställning"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=S%C3%B6dra%20%C3%96lands%20Konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "l.hultgren53@gmail.com",
+      "phone": "+46702358290",
+      "description": {
+        "free_text": "Arrangerar olika konstutställningar , medlemsresor , konstlotteri för medlemmar , mm.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Utställning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena hultgren",
+        "contact_person_role": null,
+        "contact_person_email": "l.hultgren53@gmail.com",
+        "contact_person_phone": "+46702358290"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Lena Hultgren",
+        "070-2358290",
+        "l.hultgren53@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Södra Ölands Musikteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans",
+        "Kör",
+        "Musikal",
+        "Teater"
+      ],
+      "categories": [
+        "Färjestaden",
+        "Mörbylånga"
+      ],
+      "homepage_url": "http://www.sodraolandsmusikteater.nu/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=S%C3%B6dra%20%C3%96lands%20Musikteaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sodraolandsmusikteater.nu",
+      "phone": "+46707219447",
+      "description": {
+        "free_text": "Södra Ölands Musikteater bildades 1993 då vår första musikal, Sound of Music uppfördes. Föreningen har till syfte att bedriva amatörteaterverksamhet genom uppsättningar av musikaler och kursverksamhet inom musikteater för barn och unga och och skall genom sina aktiviteter verka för att amatörteatern och musikdramatiken förankras i samhället, verka för konstnärlig yttrandefrihet och kulturell mångfald.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Kör",
+                "Musikal",
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Färjestaden",
+                "Mörbylånga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lif henell",
+        "contact_person_role": null,
+        "contact_person_email": "info@sodraolandsmusikteater.nu",
+        "contact_person_phone": "+46707219447"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Lif Henell",
+        "0707219447",
+        "info@sodraolandsmusikteater.nu",
+        "http://www.sodraolandsmusikteater.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Södra Ölands RF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=S%C3%B6dra%20%C3%96lands%20RF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sodraolandsrf.se",
+      "phone": null,
+      "description": {
+        "free_text": "Ridskoleverksamhet i samarbete med Hälsogårdens Ridcenter",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Emelie salleke",
+        "contact_person_role": null,
+        "contact_person_email": "info@sodraolandsrf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Emelie Salleke",
+        "info@sodraolandsrf.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Södra Ölands Trädgårdsvänner",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://svensktradgard.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=S%C3%B6dra%20%C3%96lands%20Tr%C3%A4dg%C3%A5rdsv%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "linnea.danielsson@telia.com",
+      "phone": "+46709734440",
+      "description": {
+        "free_text": "Södra Ölands Trädgårdsvänner, Mörbylånga kommun\nTrädgårdsvännerna är en ideell förening vars syfte är \"Att under trivsamma former öka vårt kunnande om trädgård\". I denna anda ska trädgårdsintresset fördjupas genom föredrag, gemensamma aktiviteter, kurser och utflykter.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linnéa danielsson",
+        "contact_person_role": null,
+        "contact_person_email": "linnea.danielsson@telia.com",
+        "contact_person_phone": "+46709734440"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Linnéa Danielsson",
+        "070-9734440",
+        "linnea.danielsson@telia.com",
+        "https://svensktradgard.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Team East TKD Klubb Öland",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/teameasttkdklubboland",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Team%20East%20TKD%20Klubb%20%C3%96land",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "thomas@teameast.se",
+      "phone": "+46763068739",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas johansson",
+        "contact_person_role": null,
+        "contact_person_email": "thomas@teameast.se",
+        "contact_person_phone": "+46763068739"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 91,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Thomas Johansson",
+        "076-306 87 39",
+        "thomas@teameast.se",
+        "https://www.svenskalag.se/teameasttkdklubboland",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Torslunda hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/torslunda",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Torslunda%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "k-085@hotmail.com",
+      "phone": "+46706182439",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karl-oskar erlandsson",
+        "contact_person_role": null,
+        "contact_person_email": "k-085@hotmail.com",
+        "contact_person_phone": "+46706182439"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 92,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Karl-Oskar Erlandsson",
+        "070-6182439",
+        "k-085@hotmail.com",
+        "https://www.hembygd.se/torslunda",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ventlinge hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Folkets hus- och bygdegårdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Ventlinge%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "morbylilla@gmail.com",
+      "phone": "+46485661103",
+      "description": {
+        "free_text": "Hembygdsföreing",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans åstrand",
+        "contact_person_role": null,
+        "contact_person_email": "morbylilla@gmail.com",
+        "contact_person_phone": "+46485661103"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 93,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hans Åstrand",
+        "0485 661103",
+        "morbylilla@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Vickleby Byförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Vickleby%20Byf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Byförening i Vickleby.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 94,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Vickleby Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kulturverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/vickleby-hembygdsforening",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=Vickleby%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marianne@bjerleus.se",
+      "phone": "+46705136560",
+      "description": {
+        "free_text": "Hembygdsverksamhet i Vickleby socken",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marianne bjerleus",
+        "contact_person_role": null,
+        "contact_person_email": "marianne@bjerleus.se",
+        "contact_person_phone": "+46705136560"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 95,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Marianne Bjerleus",
+        "0705136560",
+        "marianne@bjerleus.se",
+        "https://www.hembygd.se/vickleby-hembygdsforening",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Vänskapen",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans",
+        "Fest",
+        "Festival",
+        "Folkbildning",
+        "Friidrott",
+        "Friskvård",
+        "Föreläsning",
+        "Kulturverksamhet",
+        "Mässa/marknad",
+        "Möte/sammanträde",
+        "Samhällsutveckling",
+        "Simning"
+      ],
+      "categories": [
+        "Degerhamn/Södra Möckleby",
+        "Eriksöre/Vickleby/Stora Frö/Resmo",
+        "Färjestaden",
+        "Glömminge/Saxnäs/Algutsrum",
+        "Gräsgård/Ås",
+        "Grönhögen",
+        "Hulterstad/Segerstad",
+        "Kastlösa",
+        "Mörbylånga",
+        "Norra Möckleby/Gårdby/Stenåsa/Sandby",
+        "Torslunda/Skogsby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=V%C3%A4nskapen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Syftet med kvinnoföreningen är att öka sysselsättning och gemenskap bland våra flickor och kvinnor i Kalmar.\n(Vi vill också utöka vår verksamhet l Ölandsregionen. Eftersom många av våra föreningsmedlemmar bor på Öland och vill göra aktiviteter inom Ölands området, för att det är lättare tillgången till aktivitetsplatser. Därför tänkte vi att ansöka om medlemskap på Öland.)\nAtt vi ska kunna ge kunskap och motivation för att dessa kvinnor ska ta steget mot utbildning och arbetslivet. Tillsammans arbetar vi för kvinnors rättigheter, förbättra kvinnors integration och ett jämställt samhälle.\nGenom mångkulturella träffar vi Förenade kvinnor skapa en bättre förståelse och respekt för varandra och bidra till stark gemenskap i samhället.\nVi ska arbeta mot rasism och alla former av diskriminering.\nVi som bor i Kalmar får göra det vi kan för att vi ska känna oss trygga, det kan inte bara ligga på statens axlar, alla kan hjälps åt för trygg stad. Vi alla vinner på det här i längden.\nVåra kvinnoföreningen har en öppen medlemstaganing, öppen för alla kvinnor som delar föreningens målsättning och följer föreningens stadgar.\nVåra medlemmar ska vara kvinnor och flickor från Sverige och många länder runtom i världen som har ett gemensamt mål: Att hjälpa varandra hitta en plats i det svenska samhället där vi kan utnyttja vår fulla potential.\nVåra kvinnoföreningen har allmännyttigt ändamål och har olika aktiviteter: idrott, simskolan, danskurs, Internationell matlagning, bakning, föreläsningar, filmvisning, enkel bokläsning för att träna svenska, sykurs, måla, hemspråksundervisning, sportaktiviteter, ordnar sociala aktiviteter för kvinnor, med mera.\nFöreningen är en ideell förening som innebär fri från politiskt och religiös extremism",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Fest",
+                "Festival",
+                "Folkbildning",
+                "Friidrott",
+                "Friskvård",
+                "Föreläsning",
+                "Kulturverksamhet",
+                "Mässa/marknad",
+                "Möte/sammanträde",
+                "Samhällsutveckling",
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Senior (65+ år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Degerhamn/Södra Möckleby",
+                "Eriksöre/Vickleby/Stora Frö/Resmo",
+                "Färjestaden",
+                "Glömminge/Saxnäs/Algutsrum",
+                "Gräsgård/Ås",
+                "Grönhögen",
+                "Hulterstad/Segerstad",
+                "Kastlösa",
+                "Mörbylånga",
+                "Norra Möckleby/Gårdby/Stenåsa/Sandby",
+                "Torslunda/Skogsby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 96,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Senior (65+ år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ås hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/s-hembygdsf-rening",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=%C3%85s%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ashembygdsforening@gmail.com",
+      "phone": "+46721777675",
+      "description": {
+        "free_text": "Hembygdsförening med ansvar för hembygdsstuga med möblemang och kvarn. Anordnande av olika sociala aktiviteter för att öka gemenskap.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena johansson",
+        "contact_person_role": null,
+        "contact_person_email": "ashembygdsforening@gmail.com",
+        "contact_person_phone": "+46721777675"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 97,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lena Johansson",
+        "0721 777675",
+        "ashembygdsforening@gmail.com",
+        "https://www.hembygd.se/s-hembygdsf-rening",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ölands Dramatiska Teater",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.olandsdramatiska.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=%C3%96lands%20Dramatiska%20Teater",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@olandsdramatiska.se",
+      "phone": "+46709230215",
+      "description": {
+        "free_text": "Ölands Dramatiska Tester är en fri professionell teater som producerar och spelar teater både på turné och i egen lokal i Mörbylånga. Ölands Dramatiska Teater spelar i första hand för barn och unga men då och då även för vuxna.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna hammarstedt",
+        "contact_person_role": null,
+        "contact_person_email": "info@olandsdramatiska.se",
+        "contact_person_phone": "+46709230215"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 98,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anna Hammarstedt",
+        "0709230215",
+        "info@olandsdramatiska.se",
+        "http://www.olandsdramatiska.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ölands Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Fotografering",
+        "Studieverksamhet",
+        "Utställning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.olandsfotoklubb.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=%C3%96lands%20Fotoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@olandsfotoklubb.se",
+      "phone": null,
+      "description": {
+        "free_text": "Ölands Fotoklubb (ÖFK) bildades 1980 av ett gäng entusiaster. Klubbens målsättning är att vara ett forum för fotografer. Att lära av varandra och utveckla ett fotografiskt kunnande. Den sociala delen är viktig då vi träffas under trevliga former och lär känna olika medlemmars intressen. Klubben har återkommande fotoutflykter och medlemsmöten där vi bl.a. tittar på och diskuterar bilder. Vi håller även utbildningar i fotografering och digitalbearbetning av bilder.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotografering",
+                "Studieverksamhet",
+                "Utställning"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@olandsfotoklubb.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 99,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@olandsfotoklubb.se",
+        "https://www.olandsfotoklubb.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ölands Idrottskrets",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://olandsidrottskrets.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=%C3%96lands%20Idrottskrets",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@olandsidrottskrets.se",
+      "phone": null,
+      "description": {
+        "free_text": "Paraplyorganisation för idrottsföreningar på Öland",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@olandsidrottskrets.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "kansli@olandsidrottskrets.se",
+        "https://olandsidrottskrets.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ölands Litterära förening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://olitt.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=%C3%96lands%20Litter%C3%A4ra%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hej@olitt.se",
+      "phone": null,
+      "description": {
+        "free_text": "Ordnar litterära evenemang på Öland, bl a ÖLitt, Ölands litteraturfestival.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "hej@olitt.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "hej@olitt.se",
+        "https://olitt.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ölands Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.riksteatern.se/oland",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=%C3%96lands%20Riksteaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ölands Riksteaterförening har varit verksam på Öland sen 2007 som arrangör av scenkonst på landsbygden med hjälp av kommunalt bidrag.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "http://www.riksteatern.se/oland",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ölands Schacksällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Schack"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.olandsschack.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=%C3%96lands%20Schacks%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@olandsschack.se",
+      "phone": "+46730741360",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Schack"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johanna lundström",
+        "contact_person_role": null,
+        "contact_person_email": "info@olandsschack.se",
+        "contact_person_phone": "+46730741360"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johanna Lundström",
+        "073-0741360",
+        "info@olandsschack.se",
+        "https://www.olandsschack.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ölands Vattenråd",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://olands.vattenrad.se/",
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=%C3%96lands%20Vattenr%C3%A5d",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@olands.vattenrad.se",
+      "phone": "+46767637337",
+      "description": {
+        "free_text": "Samverkan för ett bra vatten på Öland.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva engström",
+        "contact_person_role": null,
+        "contact_person_email": "info@olands.vattenrad.se",
+        "contact_person_phone": "+46767637337"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Eva Engström",
+        "0767637337",
+        "info@olands.vattenrad.se",
+        "https://olands.vattenrad.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mörbylånga",
+    "scrape_run_id": "7892b0a3-2f2d-4334-979c-f679c35d2a42",
+    "scraped_at": "2025-10-29T00:32:41.440Z",
+    "association": {
+      "name": "Ölands Windsurfingklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://morbylanga.rbok.se/foreningsregister?association=%C3%96lands%20Windsurfingklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Windsurfing på Haga Park",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

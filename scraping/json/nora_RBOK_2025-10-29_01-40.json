@@ -1,0 +1,5457 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Afasiföreningen i Örebro län",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Afasif%C3%B6reningen%20i%20%C3%96rebro%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "afasi.orebrolan@gmail.com",
+      "phone": "+46196732146",
+      "description": {
+        "free_text": "Funktionshinderförening för personer med afasi och deras anhöriga.\nSocial verksamhet och opinionsbildning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunhild wallin",
+        "contact_person_role": null,
+        "contact_person_email": "afasi.orebrolan@gmail.com",
+        "contact_person_phone": "+46196732146"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gunhild Wallin",
+        "0196732146",
+        "afasi.orebrolan@gmail.com",
+        "afasi.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Aktiva Seniorer",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://nora.aktivaseniorer.com/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Aktiva%20Seniorer",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nora.aktivaseniorer@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen skall främja seniorers kulturella och andra gemensamma intressen",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hasse sandberg",
+        "contact_person_role": null,
+        "contact_person_email": "nora.aktivaseniorer@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hasse Sandberg",
+        "+46727235752",
+        "nora.aktivaseniorer@gmail.com",
+        "https://nora.aktivaseniorer.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Astma och Allergiföreningen Bergslagen",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Astma%20och%20Allergif%C3%B6reningen%20Bergslagen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Attention Lindesberg med grannkommunerna",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [
+        "Gruppaktivitet",
+        "Information",
+        "Möte",
+        "Övrigt"
+      ],
+      "categories": [
+        "Gyttorp",
+        "Järnboås",
+        "Nora Centrum",
+        "Ås"
+      ],
+      "homepage_url": "https://lindesberg.attention.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Attention%20Lindesberg%20med%20grannkommunerna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@lindesberg.attention.se",
+      "phone": "+46761453248",
+      "description": {
+        "free_text": "Attention är ett förbund som sprider kunskap om neuropsykiatriska funktionsnedsättningar (NPF), påverkar beslutsfattare och erbjuder gemenskap.\nVi har i Nora anhörigstödsträffar och vill erbjuda mötesbiträde till vårdnadshavare vid möten med skolan.\nAnhörigstödsträffar under våren 2025: 9 februari, 9 mars, 6 april och 11 maj.\nVi deltar i rådet för funktionsnedsatta.\nLokal kontakt nås via dinkontakt@lindesberg.attention.se\nLokalförbundets hemsida är https://lindesberg.attention.se/\nRiksförbundets hemsida är https://attention.se/\nRiksförbundets Youtubekanal Attentionplay https://www.youtube.com/user/AttentionPlay\nBli medlem! https://attention.se/bli-medlem/medlemsansokan/",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gruppaktivitet",
+                "Information",
+                "Möte",
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gyttorp",
+                "Järnboås",
+                "Nora Centrum",
+                "Ås"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Adina langseth",
+        "contact_person_role": null,
+        "contact_person_email": "info@lindesberg.attention.se",
+        "contact_person_phone": "+46761453248"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Adina Langseth",
+        "076-1453248",
+        "info@lindesberg.attention.se",
+        "https://lindesberg.attention.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Badpojkarna i Nora",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Badpojkarna%20i%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Gymnastikförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Bergslagens Biodlarförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bergslagens.biodlarna.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Bergslagens%20Biodlarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bergslagensbiodlarforening@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Förening för Biodling i Bergslagen",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Styrelsen. kontaktuppgifter finns på hemsidan",
+        "contact_person_role": null,
+        "contact_person_email": "bergslagensbiodlarforening@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Styrelsen. Kontaktuppgifter finns på hemsidan",
+        "bergslagensbiodlarforening@gmail.com",
+        "https://bergslagens.biodlarna.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Bergslagens frivilliga samhällsarbetare",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Bergslagens%20frivilliga%20samh%C3%A4llsarbetare",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Bris - Barnens rätt i samhället",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Bris%20-%20Barnens%20r%C3%A4tt%20i%20samh%C3%A4llet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bris.mitt@bris.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "bris.mitt@bris.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "bris.mitt@bris.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Brottsofferjouren Örebro län",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://orebrolan.boj.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Brottsofferjouren%20%C3%96rebro%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ingela.wistedt@orebrolan.boj.se",
+      "phone": "+46725500756",
+      "description": {
+        "free_text": "Brottsofferjouren i Örebro län finns för dig som bor i Örebro län och har blivit utsatt för brott eller är vittne till ett brott. Vi finns också för dig som är anhörig till någon brottsdrabbad, till ett vittne eller är anhörig till en gärningsperson.\nVi kan hjälpa dig med medmänskligt samtalsstöd, praktisk hjälp och vägledning genom rättsprocessen.\nLäs mer om vilket stöd vi kan ge på vår hemsida",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingela wistedt",
+        "contact_person_role": null,
+        "contact_person_email": "ingela.wistedt@orebrolan.boj.se",
+        "contact_person_phone": "+46725500756"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ingela Wistedt",
+        "0725500756",
+        "ingela.wistedt@orebrolan.boj.se",
+        "https://orebrolan.boj.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Byggnadsvård Nerike",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Byggnadsv%C3%A5rd%20Nerike",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "CK KulTur",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=CK%20KulTur",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ckkultur@gmail.com",
+      "phone": "+46762135830",
+      "description": {
+        "free_text": "Cykelklubb sedan 2017. En gång i veckan körs barn och ungdomsträning på MTB i skogarna runt Nora.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik andersson",
+        "contact_person_role": null,
+        "contact_person_email": "ckkultur@gmail.com",
+        "contact_person_phone": "+46762135830"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fredrik Andersson",
+        "0762135830",
+        "ckkultur@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Dalkarlsberg Folkparksförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Dalkarlsberg%20Folkparksf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen sköter om folkparken för att bevara den så att den kan användas av både privata och föreningar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Den Ideella Föreningen Ljusstråk",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Den%20Ideella%20F%C3%B6reningen%20Ljusstr%C3%A5k",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ljusstrak.se",
+      "phone": "+46736000180",
+      "description": {
+        "free_text": "Kulturnätverk och evenemanget Ljusstråk i Nora Bergslag",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Brita sylvan",
+        "contact_person_role": null,
+        "contact_person_email": "info@ljusstrak.se",
+        "contact_person_phone": "+46736000180"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Brita Sylvan",
+        "0736000180",
+        "info@ljusstrak.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "DHR Noraavdelningen",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=DHR%20Noraavdelningen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen bedriver bassängträning i varmvatten. Studiecirklar, träffar och reser för medlemmarna. Viktigt att träffa andra med rörelsehinder.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Digerbergs Alliansen (DIGA)",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Digerbergs%20Alliansen%20(DIGA)",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Förvaltning av Digerbergsanläggningen på uppdrag av Orienteringsklubben Milan och Norabygdens skidklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Föreningen Folkets Hus i Nora upa",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=F%C3%B6reningen%20Folkets%20Hus%20i%20Nora%20upa",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "norafolketspark@gmail.com",
+      "phone": "+46706408613",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders israelsson",
+        "contact_person_role": null,
+        "contact_person_email": "norafolketspark@gmail.com",
+        "contact_person_phone": "+46706408613"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders Israelsson",
+        "0706408613",
+        "norafolketspark@gmail.com",
+        "norafolketspark.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Företagarna i Nora",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=F%C3%B6retagarna%20i%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Förening för Företagarna i Nora",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fayezeh björk",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fayezeh Björk",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Gymnastikföreningen Örebro - Nora",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik",
+        "Parkour"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.gforebro.se/start/?ID=245837",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Gymnastikf%C3%B6reningen%20%C3%96rebro%20-%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@gforebro.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik",
+                "Parkour"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marcus lagerberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@gforebro.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)"
+      ],
+      "contact_lines": [
+        "Marcus Lagerberg",
+        "info@gforebro.se",
+        "https://www.gforebro.se/start/?ID=245837",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Gyttorps ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://gyttorpsridklubb.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Gyttorps%20ridklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gyttorpsridskola@gmail.com",
+      "phone": "+46705694644",
+      "description": {
+        "free_text": "Vår verksamhet består av ridning, samvaro med hästar, kaniner, katter. Kurser, läger med hästinriktning. Lovaktiviteter.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mia vedlund",
+        "contact_person_role": null,
+        "contact_person_email": "gyttorpsridskola@gmail.com",
+        "contact_person_phone": "+46705694644"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Mia Vedlund",
+        "070-5694644",
+        "gyttorpsridskola@gmail.com",
+        "https://gyttorpsridklubb.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Gyttorps Sportskytteklubb GSSK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Gyttorps%20Sportskytteklubb%20GSSK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jan.kallenback@telia.com",
+      "phone": "+46705720900",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan kallenbäck",
+        "contact_person_role": null,
+        "contact_person_email": "jan.kallenback@telia.com",
+        "contact_person_phone": "+46705720900"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan Kallenbäck",
+        "0705720900",
+        "jan.kallenback@telia.com",
+        "gyttorpsssk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "H.P.L Nora IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=H.P.L%20Nora%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Nystartad idrottsförening för barn och vuxna",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Hammarby bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bygdegardarna.se/hammarby/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Hammarby%20bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kristina.foreningsmail@gmail.com",
+      "phone": "+46703792082",
+      "description": {
+        "free_text": "Föreningen, som är en ideell förening, politiskt och religiöst obunden, har till uppgift att driva en allmän samlingslokal, erbjuda mötesplatser och värna mötesfriheten. Lokalen skall opartiskt och på skäliga villkor uthyras till föreningens medlemmar, kommunala myndigheter och inrättningar samt till organisationer och enskilda, som önskar använda lokalen och som har en demokratisk värderingsgrund.\nDessutom skall föreningen verka för bygdens kulturella utveckling, bl.a. genom egna kulturprogram och genom förmedling av program till dem som hyr lokalen.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kristina haglund",
+        "contact_person_role": null,
+        "contact_person_email": "kristina.foreningsmail@gmail.com",
+        "contact_person_phone": "+46703792082"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kristina Haglund",
+        "070-3792082",
+        "kristina.foreningsmail@gmail.com",
+        "https://bygdegardarna.se/hammarby/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Hela Människan i Nora",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Hela%20M%C3%A4nniskan%20i%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pia-maria.johansson@nora.se",
+      "phone": "+46768230876",
+      "description": {
+        "free_text": "Diakonal - social verksamhet huvudsakligen bland äldre och invandrare.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pia-maria johansson",
+        "contact_person_role": null,
+        "contact_person_email": "pia-maria.johansson@nora.se",
+        "contact_person_phone": "+46768230876"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Pia-Maria Johansson",
+        "0768230876",
+        "pia-maria.johansson@nora.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Hembygdsföreningen Noraskog",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Hembygdsf%C3%B6reningen%20Noraskog",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "eva.jarliden@gmail.com",
+      "phone": "+46735022791",
+      "description": {
+        "free_text": "medlemsförening för Norabygdens kulturhistoria",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hembygd.se/hembygdsforeningen-noraskog/",
+        "contact_person_role": null,
+        "contact_person_email": "eva.jarliden@gmail.com",
+        "contact_person_phone": "+46735022791"
+      },
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "hbf.noraskog@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "eva.jarliden@gmail.com",
+        "0735022791",
+        "hbf.noraskog@gmail.com",
+        "hembygd.se/hembygdsforeningen-noraskog/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Hitorp Gubbinnebandy",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Hitorp%20Gubbinnebandy",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Hitorp-Ravinvägens samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Hitorp-Ravinv%C3%A4gens%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en villasamfällighet som har ansvar för gemensamhetsanläggning på Klövervägen och Nävervägen på Hitorp.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Hobbysnickarna och hobbyvävarna i Gyttorp",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Hobbysnickarna%20och%20hobbyv%C3%A4varna%20i%20Gyttorp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "heikki.nykanen4811@gmail.com",
+      "phone": "+46706570700",
+      "description": {
+        "free_text": "Hobbyföring med inriktning på snickeri och vävning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Heikki nykänen",
+        "contact_person_role": null,
+        "contact_person_email": "heikki.nykanen4811@gmail.com",
+        "contact_person_phone": "+46706570700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Heikki Nykänen",
+        "0706570700",
+        "heikki.nykanen4811@gmail.com",
+        "Hobbysnickarna.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Ideella kulturföreningen Cirkustältet",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Teater/musikal/scenkonst"
+      ],
+      "categories": [
+        "Gyttorp",
+        "Nora Centrum"
+      ],
+      "homepage_url": "https://www.stadrateater.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Ideella%20kulturf%C3%B6reningen%20Cirkust%C3%A4ltet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@stadrateater.se",
+      "phone": "+46705381995",
+      "description": {
+        "free_text": "IKC är juridiskt namn på Stadra Teater. Våra scener ligger vid Stadra och på Storgatan i Nora. Vår uppgift är att spela teater och ge kulturupplevelser för boende i Nora kommun i synnerhet men även för besökare från andra delar. Vi tar ett socialt ansvar och riktar oss exempelvis mot barn och ungdom.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur",
+                "Teater/musikal/scenkonst"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gyttorp",
+                "Nora Centrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus wetterholm",
+        "contact_person_role": null,
+        "contact_person_email": "info@stadrateater.se",
+        "contact_person_phone": "+46705381995"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Magnus Wetterholm",
+        "0705381995",
+        "info@stadrateater.se",
+        "https://www.stadrateater.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "IFK Nora",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott",
+        "Handboll",
+        "Löpning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.ifknora.com/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=IFK%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "dannefriidrott@hotmail.com",
+      "phone": "+46730244436",
+      "description": {
+        "free_text": "IFK Nora består av två sektioner, Friidrott (inkl långlöpning) samt Handboll.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friidrott",
+                "Handboll",
+                "Löpning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel magnusson",
+        "contact_person_role": null,
+        "contact_person_email": "dannefriidrott@hotmail.com",
+        "contact_person_phone": "+46730244436"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Daniel Magnusson",
+        "0730244436",
+        "dannefriidrott@hotmail.com",
+        "http://www.ifknora.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Jerle Stadsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Jerle%20Stadsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "janne@bondbyn.se",
+      "phone": null,
+      "description": {
+        "free_text": "Intresseförening som värnar den kulturhistoriska miljön vid Järle kvarn och kvarndamm",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan olsson",
+        "contact_person_role": null,
+        "contact_person_email": "janne@bondbyn.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan Olsson",
+        "janne@bondbyn.se",
+        "www.jerle.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Järnboås Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsföreningar/bygdegårdar/byalag"
+      ],
+      "activities": [
+        "Boule",
+        "Gruppaktivitet",
+        "Hobbyverksamhet",
+        "Kultur",
+        "Möte",
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "https://jarnboas.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=J%C3%A4rnbo%C3%A5s%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@jarnboas.se",
+      "phone": null,
+      "description": {
+        "free_text": "Ordnar arrangemang på bygdegården på Finnsjöstrand i Järnboås, t ex Valborg, midsommarfirande och Larsmäss andra helgen i augusti mm. Tillhandahåller och administrerar uthyrning av lokal till festligheter såsom bröllop, födelsedagar och liknande.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Boule",
+                "Gruppaktivitet",
+                "Hobbyverksamhet",
+                "Kultur",
+                "Möte",
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@jarnboas.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "info@jarnboas.se",
+        "https://jarnboas.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Järnboås IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=J%C3%A4rnbo%C3%A5s%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jarnboasif@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Idrottsförening som bedriver fotbollsverksamhet, olika barnaktiviteter, yoga och olika gruppträningar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "jarnboasif@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "jarnboasif@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Korpen Nora",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Korpen%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "korpen.nora@gmail.com",
+      "phone": "+46706393581",
+      "description": {
+        "free_text": "Motionsverksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika carlsson",
+        "contact_person_role": null,
+        "contact_person_email": "korpen.nora@gmail.com",
+        "contact_person_phone": "+46706393581"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Annika Carlsson",
+        "0706393581",
+        "korpen.nora@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Kristdemokraterna Nora",
+      "org_number": null,
+      "types": [
+        "Politiska föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Kristdemokraterna%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ola.nilsson98@gmail.com",
+      "phone": "+46707920755",
+      "description": {
+        "free_text": "Politisk förening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ola nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "ola.nilsson98@gmail.com",
+        "contact_person_phone": "+46707920755"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ola Nilsson",
+        "070-7920755",
+        "ola.nilsson98@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Kulturarbetare i Nora, KAN",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Nora Centrum"
+      ],
+      "homepage_url": "https://kulturarbetareinora.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Kulturarbetare%20i%20Nora%2C%20KAN",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kan@kulturarbetareinora.se",
+      "phone": "+46705663560",
+      "description": {
+        "free_text": "Kulturarbetare i Nora, KAN välkomnar nya medlemmar, aktiva utövare inom kulturområdet, yrkesmässigt verksamma och bosatta inom Nora kommun.\nKAN bildades år 2007. Alla medlemmar har förankring inom kultursektorn. Exempelvis; konstnärer, musiker, arkitekter, författare, fotografer, keramiker, illustratörer, skådespelare med flera.\nKANs ändamål är att\nvara ett nätverk för aktiva, eller professionella utövare inom den kreativa sektorn: inom arkitektur, design, film och foto, konst, litteratur, media, mode, musik, måltid, scenkonst samt upplevelsebaserat lärande.\nverka för ett aktivt kulturliv i Nora kommun\nstärka kulturens roll i Nora kommun\nverka för medlemmarnas samarbete med företagare och myndigheter\nvara remissinstans.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nora Centrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Moa rudebert",
+        "contact_person_role": null,
+        "contact_person_email": "kan@kulturarbetareinora.se",
+        "contact_person_phone": "+46705663560"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Moa Rudebert",
+        "0705663560",
+        "kan@kulturarbetareinora.se",
+        "https://kulturarbetareinora.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Kulturföreningen Noras Ljusning",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Kulturf%C3%B6reningen%20Noras%20Ljusning",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "saddam.sayre@gmail.com",
+      "phone": "+46765856563",
+      "description": {
+        "free_text": "Kultur förening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sadam sayer",
+        "contact_person_role": null,
+        "contact_person_email": "saddam.sayre@gmail.com",
+        "contact_person_phone": "+46765856563"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sadam Sayer",
+        "0765856563",
+        "saddam.sayre@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Kvarteret Bryggeriets ideella förening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://kvarteretbryggeriet.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Kvarteret%20Bryggeriets%20ideella%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@kvarteretbryggeriet.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Josefine valfridsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@kvarteretbryggeriet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Josefine Valfridsson",
+        "info@kvarteretbryggeriet.se",
+        "https://kvarteretbryggeriet.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Liberalerna",
+      "org_number": null,
+      "types": [
+        "Politiska föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://nora.liberalerna.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Liberalerna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "borg.skrekarhyttan.b@gmail.com",
+      "phone": "+46703720068",
+      "description": {
+        "free_text": "Politiks förenings",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta borg",
+        "contact_person_role": null,
+        "contact_person_email": "borg.skrekarhyttan.b@gmail.com",
+        "contact_person_phone": "+46703720068"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Birgitta Borg",
+        "0703720068",
+        "borg.skrekarhyttan.b@gmail.com",
+        "https://nora.liberalerna.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Multisportläger Nora",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Multisportl%C3%A4ger%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "multisportlagerinfo@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agnes vaahto",
+        "contact_person_role": null,
+        "contact_person_email": "multisportlagerinfo@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Agnes Vaahto",
+        "multisportlagerinfo@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Naturskyddsföreningen i Nora",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://nora.naturskyddsforeningen.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Naturskyddsf%C3%B6reningen%20i%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "henrikperrin@hotmail.com",
+      "phone": "+46709460420",
+      "description": {
+        "free_text": "Naturskyddsföreningen arbetar för en hållbar framtid. Lär dig mer om natur och miljö tillsammans oss. Tillsammans har vi kraft att förändra!",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik perrin, ordf.",
+        "contact_person_role": null,
+        "contact_person_email": "henrikperrin@hotmail.com",
+        "contact_person_phone": "+46709460420"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Perrin, ordf.",
+        "0709-460 420",
+        "henrikperrin@hotmail.com",
+        "https://nora.naturskyddsforeningen.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "NBV Mitt",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=NBV%20Mitt",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mitt@nbv.se",
+      "phone": "+46196708300",
+      "description": {
+        "free_text": "Nykterhetsrörelsens bildningsverksamhet, NBV, är landets äldsta studieförbund med 120 års erfarenhet av folkbildning. På NBV arbetar vi med frågor som handlar om alkohol och andra droger, folkhälsa och integration. NBV finns över hela landet och vi erbjuder studiecirklar, kurser, föreläsningar och kulturarrangemang.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.nbv.se/mitt",
+        "contact_person_role": null,
+        "contact_person_email": "mitt@nbv.se",
+        "contact_person_phone": "+46196708300"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "019-670 83 00",
+        "mitt@nbv.se",
+        "www.nbv.se/mitt",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "NGF/ Nora Gyttorp fiskeförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=NGF%2F%20Nora%20Gyttorp%20fiskef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Arbetarekommun",
+      "org_number": null,
+      "types": [
+        "Politiska föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Arbetarekommun",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46706569280",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46706569280"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0706569280",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Art",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Art",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "janne@bondbyn.se",
+      "phone": null,
+      "description": {
+        "free_text": "Konstförening som främjar nutida konst framförallt i norra länsdelen. Anordnar varje år en uppmärksammad samlingsutställning i Bryggeriet.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan olsson",
+        "contact_person_role": null,
+        "contact_person_email": "janne@bondbyn.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan Olsson",
+        "janne@bondbyn.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora atletklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20atletklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jonast65@gmail.com",
+      "phone": "+46703453730",
+      "description": {
+        "free_text": "Gym och tävlingsverksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas telégin",
+        "contact_person_role": null,
+        "contact_person_email": "jonast65@gmail.com",
+        "contact_person_phone": "+46703453730"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jonas Telégin",
+        "0703453730",
+        "jonast65@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Bergslags smidesförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/groups/270661083397311",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Bergslags%20smidesf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vannerslund@telia.com",
+      "phone": "+46705352238",
+      "description": {
+        "free_text": "Smidesverksamhet för bevarande av smideskunskap kopplat till Bergslagens historia med järnbruk. Kamratsmide där vi lär oss av varandra.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christofer kärrdahl",
+        "contact_person_role": null,
+        "contact_person_email": "vannerslund@telia.com",
+        "contact_person_phone": "+46705352238"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christofer Kärrdahl",
+        "0705352238",
+        "vannerslund@telia.com",
+        "https://www.facebook.com/groups/270661083397311",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Biologiska förening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.norabf.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Biologiska%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.norabf.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora BK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.norabk.com/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20BK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info.npbk@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Michael schweidenbach",
+        "contact_person_role": null,
+        "contact_person_email": "info.npbk@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Michael Schweidenbach",
+        "info.npbk@gmail.com",
+        "https://www.norabk.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Bridgeklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.svenskbridge.se/nora-bk",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Bridgeklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "norabridgen@gmail.com",
+      "phone": "+46707985468",
+      "description": {
+        "free_text": "Bridgespel. 1 -2 dagar per vecka.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kjell abrahamsson",
+        "contact_person_role": null,
+        "contact_person_email": "norabridgen@gmail.com",
+        "contact_person_phone": "+46707985468"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kjell Abrahamsson",
+        "0707985468",
+        "norabridgen@gmail.com",
+        "https://www.svenskbridge.se/nora-bk",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Buggförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://norabuggarna.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Buggf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ulla.maria.karlsson@hotmail.com",
+      "phone": "+46738253753",
+      "description": {
+        "free_text": "Dansträning, kursverksamhet och sammankomster.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulla-maj lysén",
+        "contact_person_role": null,
+        "contact_person_email": "ulla.maria.karlsson@hotmail.com",
+        "contact_person_phone": "+46738253753"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ulla-Maj Lysén",
+        "0738253753",
+        "ulla.maria.karlsson@hotmail.com",
+        "http://norabuggarna.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Bågskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Nora Centrum"
+      ],
+      "homepage_url": "https://www.norabagskytte.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20B%C3%A5gskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "robbangustafsson123@gmail.com",
+      "phone": "+46765033153",
+      "description": {
+        "free_text": "Bågskytte för alla",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nora Centrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert gustavsson",
+        "contact_person_role": null,
+        "contact_person_email": "robbangustafsson123@gmail.com",
+        "contact_person_phone": "+46765033153"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Robert Gustavsson",
+        "076-5033153",
+        "robbangustafsson123@gmail.com",
+        "https://www.norabagskytte.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora dansgille",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20dansgille",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "noradansgille@outlook.com",
+      "phone": "+46706253865",
+      "description": {
+        "free_text": "Folk och kultisdans",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Örjan jansson",
+        "contact_person_role": null,
+        "contact_person_email": "noradansgille@outlook.com",
+        "contact_person_phone": "+46706253865"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Örjan Jansson",
+        "070-6253865",
+        "noradansgille@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Dragspelsklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Dragspelsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "h.waldenrydh@telia.com",
+      "phone": "+46706372538",
+      "description": {
+        "free_text": "Nora Dragspelsklubb, för musikintresserade, öppen för alla.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Leif andersson",
+        "contact_person_role": null,
+        "contact_person_email": "h.waldenrydh@telia.com",
+        "contact_person_phone": "+46706372538"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Leif Andersson",
+        "070-6372538",
+        "h.waldenrydh@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Fight Center",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gruppaktivitet",
+        "Kampsport"
+      ],
+      "categories": [
+        "Nora Centrum"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Fight%20Center",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "norafightcenter@hotmail.com",
+      "phone": "+46735270317",
+      "description": {
+        "free_text": "En nystartad boxningsklubb.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gruppaktivitet",
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nora Centrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Efthymios thanasoulelis",
+        "contact_person_role": null,
+        "contact_person_email": "norafightcenter@hotmail.com",
+        "contact_person_phone": "+46735270317"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Efthymios Thanasoulelis",
+        "0735270317",
+        "NoraFightCenter@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.noragolfklubb.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@noragolfklubb.com",
+      "phone": "+4658712000",
+      "description": {
+        "free_text": "Golf",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars oskarsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@noragolfklubb.com",
+        "contact_person_phone": "+4658712000"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Lars Oskarsson",
+        "0587 120 00",
+        "info@noragolfklubb.com",
+        "https://www.noragolfklubb.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "NORA HC",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hockey"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/NoraHockey",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=NORA%20HC",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "norahockey@hotmail.com",
+      "phone": "+46706050409",
+      "description": {
+        "free_text": "Ishockey för \"alla\" med tyngdpunkt på barn och ungdom",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hockey"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan-erik hallor",
+        "contact_person_role": null,
+        "contact_person_email": "norahockey@hotmail.com",
+        "contact_person_phone": "+46706050409"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan-Erik Hallor",
+        "0706050409",
+        "norahockey@hotmail.com",
+        "https://www.laget.se/NoraHockey",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora IBK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/NoraIBK",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20IBK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nora_ibk@yahoo.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vår vision är att alla barn och ungdomar i Nora Kommun, som vill spela innebandy också skall få göra det, dessutom under trygga och ordnade former.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "nora_ibk@yahoo.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "nora_ibk@yahoo.se",
+        "https://www.laget.se/NoraIBK",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Kammarkör",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Kammark%C3%B6r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Kör med blandad repertoar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Kyrkokör",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/nora.kyrkokor/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Kyrkok%C3%B6r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "s-g.backlund@telia.com",
+      "phone": "+46706835100",
+      "description": {
+        "free_text": "Föreningen är en kyrkokör knuten till Nora Bergslagsförsamling och består av damer och herrar i blandade åldrar. Deltar i kyrkans gudstjänster och genomför konserter.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sara backlund",
+        "contact_person_role": null,
+        "contact_person_email": "s-g.backlund@telia.com",
+        "contact_person_phone": "+46706835100"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sara Backlund",
+        "0706835100",
+        "s-g.backlund@telia.com",
+        "https://www.facebook.com/nora.kyrkokor/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora köpmannaförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20k%C3%B6pmannaf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.handlainora.se",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "www.handlainora.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Lawn Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://nltk.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Lawn%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Nora Lawntennisklubb (NLTK) bildades 1902 och är en av Noras äldsta föreningar. Föreningen äger själv anläggningen och den drivs utan kommunala bidrag och sköts med ideella insatser från medlemmarna.\nNLTK välkomnar alla som vill spela tennis, padel och bordtennis. Idag har vi cirka 500 medlemmar där en stor del är aktiva regelbundet.\nVi erbjuder i möjligaste mån instruktion för barn, ungdomar och vuxna. Nybörjargrupper startas regelbundet.\nVi har organiserade gruppspel och seriespel för vuxna.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://nltk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Motionsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton",
+        "Innebandy"
+      ],
+      "categories": [
+        "Nora Centrum"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Motionsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "leokar1969@gmail.com",
+      "phone": "+46708837153",
+      "description": {
+        "free_text": "Träning för motion",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton",
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nora Centrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Leo karttunen",
+        "contact_person_role": null,
+        "contact_person_email": "leokar1969@gmail.com",
+        "contact_person_phone": "+46708837153"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Leo Karttunen",
+        "0708837153",
+        "leokar1969@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora MX",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20MX",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nora-mx@outlook.com",
+      "phone": "+46720584561",
+      "description": {
+        "free_text": "Ideell motorcrossförening där alla är välkomna.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan ämström",
+        "contact_person_role": null,
+        "contact_person_email": "nora-mx@outlook.com",
+        "contact_person_phone": "+46720584561"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johan Ämström",
+        "0720584561",
+        "Nora-mx@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Pensionärsbowling",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://norapensionarsbowling.n.nu/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Pension%C3%A4rsbowling",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ardeby@telia.com",
+      "phone": "+46705705297",
+      "description": {
+        "free_text": "Bowling för pensionärer.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år) och funktionsnedsatta"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter ardeby",
+        "contact_person_role": null,
+        "contact_person_email": "ardeby@telia.com",
+        "contact_person_phone": "+46705705297"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år) och funktionsnedsatta"
+      ],
+      "contact_lines": [
+        "Peter Ardeby",
+        "0705705297",
+        "ardeby@telia.com",
+        "http://norapensionarsbowling.n.nu/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Racerbåtklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Racerb%C3%A5tklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tommy@outlook.com",
+      "phone": "+46766983887",
+      "description": {
+        "free_text": "Arrangerar tävling för racerbåtar. Träning och och testning och rekrytering av nya aktiva.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy wahlsten",
+        "contact_person_role": null,
+        "contact_person_email": "tommy@outlook.com",
+        "contact_person_phone": "+46766983887"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Tommy Wahlsten",
+        "0766983887",
+        "tommy@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora rödakorskrets",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.rodakorset.se/ort/orebro/nora-kommun/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20r%C3%B6dakorskrets",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nora@redcross.se",
+      "phone": "+46706436892",
+      "description": {
+        "free_text": "Välgörenhet och stöd till behövande samt krisberedskap",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Margareta öjebo",
+        "contact_person_role": null,
+        "contact_person_email": "nora@redcross.se",
+        "contact_person_phone": "+46706436892"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Margareta Öjebo",
+        "070-6436892",
+        "nora@redcross.se",
+        "https://www.rodakorset.se/ort/orebro/nora-kommun/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Scoutkår",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Scouting"
+      ],
+      "categories": [],
+      "homepage_url": "https://nora.scout.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "norascoutkar@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scouting"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jennyh lindén",
+        "contact_person_role": null,
+        "contact_person_email": "norascoutkar@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)"
+      ],
+      "contact_lines": [
+        "Jennyh Lindén",
+        "norascoutkar@gmail.com",
+        "https://nora.scout.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Seniorbridge",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.svenskbridge.se/nora-bk/nora-seniorbridge",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Seniorbridge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Klubben har som ändamål att bereda sina medlemmar tillfälle till sällskaps- och tävlingsbridge.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.svenskbridge.se/nora-bk/nora-seniorbridge",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.norasimsallskap.se/start/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20sims%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "norasimsallskap@gmail.com",
+      "phone": "+46708837153",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Leo karttunen",
+        "contact_person_role": null,
+        "contact_person_email": "norasimsallskap@gmail.com",
+        "contact_person_phone": "+46708837153"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Leo Karttunen",
+        "0708837153",
+        "norasimsallskap@gmail.com",
+        "https://www.norasimsallskap.se/start/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Skateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skejt"
+      ],
+      "categories": [
+        "Nora Centrum"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Skateklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Förening skapad för att möjliggöra skateboardåkning i Nora, locka fler personer till sporten och finnas till för framförallt barn och ungdomar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skejt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nora Centrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Friederike kirn",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Friederike Kirn",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora släktforskare",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://noraforskare.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20sl%C3%A4ktforskare",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@noraforskare.se",
+      "phone": "+46702181189",
+      "description": {
+        "free_text": "Släktforskarförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linnea hedkvist",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@noraforskare.se",
+        "contact_person_phone": "+46702181189"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Linnea Hedkvist",
+        "0702181189",
+        "ordforande@noraforskare.se",
+        "https://noraforskare.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Teaterförening - en del av Riksteatern",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Teaterf%C3%B6rening%20-%20en%20del%20av%20Riksteatern",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "norateaterforening@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Arrangör av teaterföreställningar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Riksteatern.se/nora",
+        "contact_person_role": null,
+        "contact_person_email": "norateaterforening@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "norateaterforening@gmail.com",
+        "riksteatern.se/nora",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Trädgårdsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Hobbyverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://noratradgard.blogspot.com/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Tr%C3%A4dg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "noratradgardsforening@gmail.com",
+      "phone": "+46702199009",
+      "description": {
+        "free_text": "Vi välkomnar alla i Nora med omnejd som är intresserade av odling, ätbart och för prydnad. Föreningen ordnar exempelvis trädgårdsvisningar, bjuder in föredragshållare och lär om odling av varandra.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hobbyverksamhet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roland widlund",
+        "contact_person_role": null,
+        "contact_person_email": "noratradgardsforening@gmail.com",
+        "contact_person_phone": "+46702199009"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Roland Widlund",
+        "070-2199009",
+        "noratradgardsforening@gmail.com",
+        "https://noratradgard.blogspot.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora Vattenskidklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/NoraVSK/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%20Vattenskidklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vattenskidåkning på Åsbosjön",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.laget.se/NoraVSK/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nora/Bergslagens kammarmusikförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.norakammarmusikfestival.nu/nora-bergslagens-kammarmusikforening/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nora%2FBergslagens%20kammarmusikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi arrangerar • Nora kammarmusikfestival i juni varje år sedan 2013 -\nen hel vecka med musik - konserter på olika platser i Nora kommun och kurser: Orkesterkurs för unga 12–20 år och Kammarmusikkurs för vuxna och studenter. • Dessutom bjuder vi in till en konsertserie höst och vår om fem konserter. • Välkommen som medlem!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elizabeth franzén",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "https://www.norakammarmusikfestival.nu/nora-bergslagens-kammarmusikforening/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Norabygdens konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://norabygdens.konstforeningar.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Norabygdens%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "wagman@hotmail.com",
+      "phone": "+46763636682",
+      "description": {
+        "free_text": "Konstfrämjande verksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agneta wågman",
+        "contact_person_role": null,
+        "contact_person_email": "wagman@hotmail.com",
+        "contact_person_phone": "+46763636682"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Agneta Wågman",
+        "0763636682",
+        "wagman@hotmail.com",
+        "http://norabygdens.konstforeningar.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Norabygdens Skidklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Norabygdens%20Skidklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "runebodemyr@hotmail.com",
+      "phone": "+46707710097",
+      "description": {
+        "free_text": "Längdskidåkning (både längdskidor på snö och rullskidor på barmark)",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rune bodemyr",
+        "contact_person_role": null,
+        "contact_person_email": "runebodemyr@hotmail.com",
+        "contact_person_phone": "+46707710097"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Rune Bodemyr",
+        "0707710097",
+        "runebodemyr@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nordic Gravel Series",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bergslagencycling.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nordic%20Gravel%20Series",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Cykeltävling",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://bergslagencycling.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nyhyttans fiskvårdsområdesförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://xn--jrnbos-buam.se/upplev/fiske/nyhyttans-aventyrsfiske/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nyhyttans%20fiskv%C3%A5rdsomr%C3%A5desf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "janne.moen@telia.com",
+      "phone": "+46702553115",
+      "description": {
+        "free_text": "Fiskvårdsförening som driver Put-and-Take sjön Dammsjön för sportfiskare",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan moen",
+        "contact_person_role": null,
+        "contact_person_email": "janne.moen@telia.com",
+        "contact_person_phone": "+46702553115"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan Moen",
+        "070-2553115",
+        "janne.moen@telia.com",
+        "https://xn--jrnbos-buam.se/upplev/fiske/nyhyttans-aventyrsfiske/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Nyhyttans Sjundedagsadventistförsamling",
+      "org_number": null,
+      "types": [
+        "Församling/trossamfund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Nyhyttans%20Sjundedagsadventistf%C3%B6rsamling",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lauriesmars@yahoo.se",
+      "phone": "+46706205197",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Laurie smårs, kassör",
+        "contact_person_role": null,
+        "contact_person_email": "lauriesmars@yahoo.se",
+        "contact_person_phone": "+46706205197"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Laurie Smårs, kassör",
+        "0706205197",
+        "lauriesmars@yahoo.se",
+        "nyhyttan.adventkyrka.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "OK Milan",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Gyttorp",
+        "Nora Centrum",
+        "Ås"
+      ],
+      "homepage_url": "https://www.okmilan.org/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=OK%20Milan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info.okmilan1@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Bedriver orienteringsverksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gyttorp",
+                "Nora Centrum",
+                "Ås"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info.okmilan1@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "info.okmilan1@gmail.com",
+        "https://www.okmilan.org",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Pershyttans byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Pershyttans%20byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pershyttansbyalag@gmail.com",
+      "phone": "+46723157237",
+      "description": {
+        "free_text": "Att med gemensamma aktiviteter främja och utveckla Pershyttan till en attraktiv och livaktig by. Vara byns talesman gentemot kommun, myndigheter mm på uppdrag från medlemmar och engagera sig i byns förekommande frågor.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monica emanuelsson",
+        "contact_person_role": null,
+        "contact_person_email": "pershyttansbyalag@gmail.com",
+        "contact_person_phone": "+46723157237"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Monica Emanuelsson",
+        "0723157237",
+        "pershyttansbyalag@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "PRO Nora",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Möte"
+      ],
+      "categories": [
+        "Nora Centrum"
+      ],
+      "homepage_url": "http://pro.se/nora",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=PRO%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nora@pro.se",
+      "phone": "+46706446346",
+      "description": {
+        "free_text": "Lokal opolitisk och religiöst obunden Pensionärsförening med cirka 650 medlemmar. Föreningen finns även på distrikts och riksnivå. Vi verkar för att ordna meningsfulla aktiviteter, för social och hälsofrämjande stimulans. Vi strävar också efter att hålla medlemmarna informerade om samhällsfrågor och aktuella äldrefrågor inom kommun och region. Vi vill vara medlemmarnas röst inom kommunpolitik och regionpolitik.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Möte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år) och funktionsnedsatta"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nora Centrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gun hasselgren",
+        "contact_person_role": null,
+        "contact_person_email": "nora@pro.se",
+        "contact_person_phone": "+46706446346"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år) och funktionsnedsatta"
+      ],
+      "contact_lines": [
+        "Gun Hasselgren",
+        "0706446346",
+        "nora@pro.se",
+        "http://PRO.se/nora",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Q Nora",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Nora Centrum"
+      ],
+      "homepage_url": "https://qnora.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Q%20Nora",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46701757125",
+      "description": {
+        "free_text": "Q Nora är ett kvinnligt nätverk som ska verka och främja kvinnligt företagande i Nora kommun och dess närhet. Ett nätverk för företagsamma kvinnor med syfte att lära känna och ta vara på medlemmarnas kompetenser, inspirera, stödja och utveckla varandra.\nNärverket är öppet för alla kvinnliga företagare och andra företagsamma kvinnor i Nora kommun och dess närhet.\nVi stöttar varandra\nVi samarbetar med varandra\nVi genomför olika projekt\nQ Nora är också en ideell förening förening som enbart är till för att administrera projekt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nora Centrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena bjärmark",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46701757125"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "https://qnora.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Reumatikerföreningen Bergslagen",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Reumatikerf%C3%B6reningen%20Bergslagen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "annikaruisaho@gmail.com",
+      "phone": "+46730312487",
+      "description": {
+        "free_text": "Föreningen vänder sig till personer med reumatiska sjukdomar. Vi har bl.a. bassäng-och paraffinbad för händer. Träffar och utflykter. Information m.m.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ordförande annika ruisaho",
+        "contact_person_role": null,
+        "contact_person_email": "annikaruisaho@gmail.com",
+        "contact_person_phone": "+46730312487"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ordförande Annika Ruisaho",
+        "073 031 24 87",
+        "annikaruisaho@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Sensus studieförbund",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Sensus%20studief%C3%B6rbund",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Sensus är ett studieförbund som jobbar med relationer, livsfrågor, rättighetsfrågor och hållbarhetsfrågor. Tillsammans med våra medlemsorganisationer och samarbetsparter skapar vi mötesplatser för kultur och bildning i hela landet.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.sensus.se",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "www.sensus.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "SPF Seniorerna.Club Skoga",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=SPF%20Seniorerna.Club%20Skoga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "theodorssonstig@gmail.com",
+      "phone": "+46768566574",
+      "description": {
+        "free_text": "Pensionärsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stig theodorsson",
+        "contact_person_role": null,
+        "contact_person_email": "theodorssonstig@gmail.com",
+        "contact_person_phone": "+46768566574"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stig Theodorsson",
+        "076-856 65 74",
+        "theodorssonstig@gmail.com",
+        "www.spfseniorerna.se/föreningar",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Studiefrämjandet Mitt \"Veronica Karlsson\"",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.studieframjandet.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Studiefr%C3%A4mjandet%20Mitt%20%22Veronica%20Karlsson%22",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Studieförbund",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.studieframjandet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Studieförbundet Bilda Svealand",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20Bilda%20Svealand",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bilda är ett studieförbund för möten mellan människor. Med kultur och bildning i olika former vill vi bidra till att möten uppstår och nya perspektiv skapas.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.bilda.nu",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "www.bilda.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "SV Örebro län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Kultur",
+        "Möte",
+        "Studiecirkel",
+        "Övrigt"
+      ],
+      "categories": [
+        "Järnboås",
+        "Nora Centrum",
+        "Ås"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=SV%20%C3%96rebro%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "orebrolan@sv.se",
+      "phone": "+46196119480",
+      "description": {
+        "free_text": "Folkbildningsverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur",
+                "Möte",
+                "Studiecirkel",
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Järnboås",
+                "Nora Centrum",
+                "Ås"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik wallin",
+        "contact_person_role": null,
+        "contact_person_email": "orebrolan@sv.se",
+        "contact_person_phone": "+46196119480"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Fredrik Wallin",
+        "0196119480",
+        "orebrolan@sv.se",
+        "www.wv.se/orebro",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Synskadades Riksförbund Bergslagen",
+      "org_number": null,
+      "types": [
+        "Sociala föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Synskadades%20Riksf%C3%B6rbund%20Bergslagen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "charlotte.akerlind@srf.nu",
+      "phone": "+46760056758",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Charlotte åkerlind",
+        "contact_person_role": null,
+        "contact_person_email": "charlotte.akerlind@srf.nu",
+        "contact_person_phone": "+46760056758"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Charlotte Åkerlind",
+        "0760056758",
+        "charlotte.akerlind@srf.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Timanshytte Byalag",
+      "org_number": null,
+      "types": [
+        "Hembygdsföreningar/bygdegårdar/byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.timanshyttan.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Timanshytte%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bygemensamma frågor",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 91,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.timanshyttan.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Unga Nora TeaterSällskap (UNTS)",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans",
+        "Kultur",
+        "Teater/musikal/scenkonst"
+      ],
+      "categories": [
+        "Nora Centrum"
+      ],
+      "homepage_url": "https://unganorats.se/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Unga%20Nora%20TeaterS%C3%A4llskap%20(UNTS)",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "malena.froojd@unganorats.se",
+      "phone": "+46702127571",
+      "description": {
+        "free_text": "Unga Nora Teatersällskap\nFöreningens ändamål är att bedriva ideell verksamhet för barn och unga i Nora kommun inom teater och musikal samt med särskild målsättning att sätta upp föreställningar i Nora och stötta ungdomars egna idéer. Målgruppen för verksamheten är främst barn och ungdom från 10 till 26 år samt övriga som engagerar sig för att möjliggöra teater och musikalverksamhet för målgruppen. Medlemsantagningen är öppen för alla oavsett ålder.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Kultur",
+                "Teater/musikal/scenkonst"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och Ungdom (0-21 år)",
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nora Centrum"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malena frööjd",
+        "contact_person_role": null,
+        "contact_person_email": "malena.froojd@unganorats.se",
+        "contact_person_phone": "+46702127571"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 92,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och Ungdom (0-21 år)",
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Malena Frööjd",
+        "0702127571",
+        "malena.froojd@unganorats.se",
+        "https://unganorats.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "UppNerUpp",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gruppaktivitet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=UppNerUpp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nillasvensson@hotmail.com",
+      "phone": "+46704087398",
+      "description": {
+        "free_text": "Träning för kvinnor från andra länder.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gruppaktivitet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (22-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunilla svensson",
+        "contact_person_role": null,
+        "contact_person_email": "nillasvensson@hotmail.com",
+        "contact_person_phone": "+46704087398"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 93,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Gunilla Svensson",
+        "0704087398",
+        "nillasvensson@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Vélo Performance Racing Team",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=V%C3%A9lo%20Performance%20Racing%20Team",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 94,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Vikers hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsföreningar/bygdegårdar/byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/viker/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Vikers%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "borg.skrekarhyttan.b@gmail.com",
+      "phone": "+46703720068",
+      "description": {
+        "free_text": "Verka för att bygden hålls levande på ett med kulturhistorien och naturen samspelt sätt, stödja och medverka i för bygden enande och utvecklande aktiviteter. Vårda folk- och fornminnen av kulturhistoriskt värde. Föreningen finns i Skrikarhyttans hyttruin och Smedjan Dalkarsberg.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta borg",
+        "contact_person_role": null,
+        "contact_person_email": "borg.skrekarhyttan.b@gmail.com",
+        "contact_person_phone": "+46703720068"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 95,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Birgitta Borg",
+        "0703720068",
+        "borg.skrekarhyttan.b@gmail.com",
+        "https://www.hembygd.se/viker/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Villaägarna Bergslagen",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.villaagarna.se/lokalt/region-mitt/lokalforeningar2/villaagarna-bergslagen/om-oss2/",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=Villa%C3%A4garna%20Bergslagen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "m.j.p.bjork@gmail.com",
+      "phone": "+46706478649",
+      "description": {
+        "free_text": "Villaägarna i Bersglagen är en ideell förening som värnar om villaägare. Föreningen är aktiv i Noras, Lindesbergs samt Ljusnarbergs kommun.\n\"Vi arbetar för att ge en bättre närhet och service till våra medlemmar i Lindesbergs, Nora och Ljusnarsbergs kommuner.\"",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år) och funktionsnedsatta",
+                "Vuxna (22-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus björk",
+        "contact_person_role": null,
+        "contact_person_email": "m.j.p.bjork@gmail.com",
+        "contact_person_phone": "+46706478649"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 96,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år) och funktionsnedsatta",
+        "Vuxna (22-64 år)"
+      ],
+      "contact_lines": [
+        "Magnus Björk",
+        "0706478649",
+        "m.j.p.bjork@gmail.com",
+        "https://www.villaagarna.se/lokalt/region-mitt/lokalforeningar2/villaagarna-bergslagen/om-oss2/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Ås-Gyttorps byalag",
+      "org_number": null,
+      "types": [
+        "Hembygdsföreningar/bygdegårdar/byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=%C3%85s-Gyttorps%20byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "byalagets@gmail.com",
+      "phone": "+46760235582",
+      "description": {
+        "free_text": "Vi är ett byalag som tillvaratar innevånarna i Ås och Gyttorps intressen. Vi ordnar också olika aktiviteter. Vi hyr också ut 50-talslägenheter och en skyttepaviljong .",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sven-åke hagberg",
+        "contact_person_role": null,
+        "contact_person_email": "byalagets@gmail.com",
+        "contact_person_phone": "+46760235582"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 97,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sven-Åke Hagberg",
+        "076-0235582",
+        "byalagets@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Nora",
+    "scrape_run_id": "a53541d1-b4b8-4b6f-b928-f4ef6b773558",
+    "scraped_at": "2025-10-29T00:40:04.450Z",
+    "association": {
+      "name": "Örebro Läns bridgeförbund",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Bridge"
+      ],
+      "categories": [],
+      "homepage_url": "https://svenskbridge.se/%C3%B6rebro-l%C3%A4ns-bf/edit",
+      "detail_url": "https://nora.rbok.se/foreningsregister?association=%C3%96rebro%20L%C3%A4ns%20bridgef%C3%B6rbund",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "irene.haberger@gmail.com",
+      "phone": "+46704375577",
+      "description": {
+        "free_text": "Bridgeförbund för länet. Arrangör av DM- och silvertävlingar som spelas på olika orter i länet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bridge"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Irene håberger",
+        "contact_person_role": null,
+        "contact_person_email": "irene.haberger@gmail.com",
+        "contact_person_phone": "+46704375577"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 98,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Irene Håberger",
+        "0704375577",
+        "irene.haberger@gmail.com",
+        "https://svenskbridge.se/örebro-läns-bf/edit",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

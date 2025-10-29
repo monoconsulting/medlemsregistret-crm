@@ -1,10 +1,10 @@
 import type { Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
 import { z } from 'zod';
-import type { UserRole } from '@prisma/client';
+import { UserRole } from '@prisma/client';
 
 import { config } from '../env';
-import { db } from '../../crm-app/lib/db';
+import { db } from '../../../crm-app/lib/db';
 
 const tokenPayloadSchema = z.object({
   sub: z.string(),
@@ -116,4 +116,3 @@ export async function getSessionFromRequest(req: Request): Promise<Session | nul
     },
   };
 }
-

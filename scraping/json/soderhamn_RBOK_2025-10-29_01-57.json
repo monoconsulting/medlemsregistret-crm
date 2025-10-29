@@ -1,0 +1,6293 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "ABF Hälsingekusten",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [
+        "Söderhamn"
+      ],
+      "homepage_url": "https://www.abf.se/distrikt--avdelningar/abf-gavleborg/abf-halsingekusten",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=ABF%20H%C3%A4lsingekusten",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "abf.halsingekusten@abf.se",
+      "phone": "+46270429230",
+      "description": {
+        "free_text": "ABF är ett studieförbund som bedriver cirklar, kurser och kulturarrangemang",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Söderhamn"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans svedberg",
+        "contact_person_role": null,
+        "contact_person_email": "abf.halsingekusten@abf.se",
+        "contact_person_phone": "+46270429230"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hans Svedberg",
+        "0270-429230",
+        "abf.halsingekusten@abf.se",
+        "https://www.abf.se/distrikt--avdelningar/abf-gavleborg/abf-halsingekusten",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Ala IF Handboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [
+        "Ljusne"
+      ],
+      "homepage_url": "https://www.svenskalag.se/alaif",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Ala%20IF%20Handboll",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@alaif.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6 år",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljusne"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@alaif.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6 år",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "kansli@alaif.se",
+        "https://www.svenskalag.se/alaif",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Attention Söderhamn",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://attention.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Attention%20S%C3%B6derhamn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderhamn@forening.attention.se",
+      "phone": null,
+      "description": {
+        "free_text": "Attention sprider kunskap om neuropsykiatriska funktionsvariationer\n(NPF) såsom ADHD, ADD, Autism, Tourette, OCD m.fl.\nAttention arbetar bl.a. för att personer med NPF ska bli bemötta med respekt och få det stöd de behöver i skolan, på arbetsmarknaden och på fritiden.\nAttention arbetar också för att anhöriga ska få ökat inflytande och avlastning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agneta högberg",
+        "contact_person_role": null,
+        "contact_person_email": "soderhamn@forening.attention.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Agneta Högberg",
+        "soderhamn@forening.attention.se",
+        "https://attention.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Bergviks Allting",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Bergvik"
+      ],
+      "homepage_url": "http://hembygd.se/bergvik",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Bergviks%20Allting",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bergvik"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "http://hembygd.se/bergvik",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "BK Fajt",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Söderhamn"
+      ],
+      "homepage_url": "https://www.bkfajt.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=BK%20Fajt",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@bkfajt.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi bedriver basketverksamhet av olika slag.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 7-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Söderhamn"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@bkfajt.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 7-20 år"
+      ],
+      "contact_lines": [
+        "info@bkfajt.se",
+        "https://www.bkfajt.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Bollnäs Evenemang",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.instagram.com/bollnas_evenemang/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Bolln%C3%A4s%20Evenemang",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "abdiqani-2002@hotmail.com",
+      "phone": "+46720174245",
+      "description": {
+        "free_text": "Bollnäs evenemang och har i huvudsak sin verksamhet inom Gävleborgs län och föreningen har sitt säte i Bollnäs. Syftet är att verka för integrationen, bedriva social verksamhet, att arbeta mot segregation, anordna ungdomsaktiviteter och event för ungdomar upp till 25 år. Bollnäs Evenemang är en förening skapad av unga människor i Gävleborg som ser att det behövs mer. Vi gör allt från sport till kultur. Det är mer än bara evenemang,",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Abbe ali",
+        "contact_person_role": null,
+        "contact_person_email": "abdiqani-2002@hotmail.com",
+        "contact_person_phone": "+46720174245"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Abbe Ali",
+        "0720174245",
+        "abdiqani-2002@hotmail.com",
+        "https://www.instagram.com/bollnas_evenemang/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Broberg/Söderhamn Bandy IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Broberg%2FS%C3%B6derhamn%20Bandy%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@brobergsoderhamn.se",
+      "phone": "+4627015709",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@brobergsoderhamn.se",
+        "contact_person_phone": "+4627015709"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0270-15709",
+        "kansli@brobergsoderhamn.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Bumpyfeet",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bumpyfeet.sportadmin.se/start/?ID=234275",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Bumpyfeet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bumpyfeetsoderhamn@gmail.com",
+      "phone": "+46705450239",
+      "description": {
+        "free_text": "Dansklubben Bumpyfeet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kristina hedlund",
+        "contact_person_role": null,
+        "contact_person_email": "bumpyfeetsoderhamn@gmail.com",
+        "contact_person_phone": "+46705450239"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kristina Hedlund",
+        "0705450239",
+        "bumpyfeetsoderhamn@gmail.com",
+        "https://bumpyfeet.sportadmin.se/start/?ID=234275",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Equmenia Mohed",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Equmenia%20Mohed",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderqvistola@gmail.com",
+      "phone": "+46706280535",
+      "description": {
+        "free_text": "Barn och ungdomsverksamhet, idrott, scout, läger",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ola söderqvist",
+        "contact_person_role": null,
+        "contact_person_email": "soderqvistola@gmail.com",
+        "contact_person_phone": "+46706280535"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ola Söderqvist",
+        "0706280535",
+        "soderqvistola@gmail.com",
+        "www.equmeniakyrkan.se/mohed",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Filmklubben Karin Swanströms vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Filmklubben%20Karin%20Swanstr%C3%B6ms%20v%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi driver Trönö Bio och anordnar filmrelaterade arrangemang i Trönö.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Föreningen Helsingeslöjd",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=F%C3%B6reningen%20Helsingesl%C3%B6jd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "foreningenhelsingeslojd@gmail.com",
+      "phone": "+46705774195",
+      "description": {
+        "free_text": "föreningen bedriver slöjd och hantverk i olika former. Genom slöjdkvällar där vi får prova på nya och gamla tekniker. Allt för att utveckla medlemmarnas färdigheter inom slöjd. Vi förvaltar även föreningens samlingar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21-64 år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bibbi brändström ordförande",
+        "contact_person_role": null,
+        "contact_person_email": "foreningenhelsingeslojd@gmail.com",
+        "contact_person_phone": "+46705774195"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Bibbi Brändström ordförande",
+        "070-5774195",
+        "Foreningenhelsingeslojd@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Föreningen Skrivare i Hälsingland",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://helsingeskrivarna.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=F%C3%B6reningen%20Skrivare%20i%20H%C3%A4lsingland",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "leifstrandberg.ab@telia.com",
+      "phone": "+46705502193",
+      "description": {
+        "free_text": "Föreningens syfte är att främja skrivandet och läsandet i Hälsingland genom att ge ut ett medlemsblad, ha en aktuell hemsida, ordna kursverksamhet och författarbesök samt att ge ut antologier,",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Leif strandberg, ordförande",
+        "contact_person_role": null,
+        "contact_person_email": "leifstrandberg.ab@telia.com",
+        "contact_person_phone": "+46705502193"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Leif Strandberg, ordförande",
+        "0705502193",
+        "leifstrandberg.ab@telia.com",
+        "https://helsingeskrivarna.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Föreningen Söderhamns babysim",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.svenskalag.se/soderhamnsbabysim",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=F%C3%B6reningen%20S%C3%B6derhamns%20babysim",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderhamnsbabysim@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": "Baby och minisim\nSimundervisning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6 år",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "soderhamnsbabysim@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6 år",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "soderhamnsbabysim@outlook.com",
+        "http://www.svenskalag.se/soderhamnsbabysim",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Föreningen Söderhamns Museum",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.foreningensm.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=F%C3%B6reningen%20S%C3%B6derhamns%20Museum",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "arbidmadline@gmail.com",
+      "phone": "+46738316720",
+      "description": {
+        "free_text": "Föreningen Söderhamns Museum har under åren varit den ansvarige för verksamheten och för vården av den omfattande samlingen av gamla föremål. Från och med år 2000 är en uppdelning av verksamheten genomförd på så sätt att kommunen ansvarar för del av verksamheten samt drift och underhåll av byggnaden och museiföreningen ansvarar för vård av föremålen. Verksamheten har under senare år ökat med nära samverkan med skolorna. Ca tre utställningar per år genomförs. Vidare har föremålen fått förrådslokaler och datadokumentation av samlingarna pågår.\nFöreningen arrangerar bland annat utställningar, guidningar på muséet, stadsguidningar, föreläsningar, visningar för skolklasser m.m.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Madline arbid",
+        "contact_person_role": null,
+        "contact_person_email": "arbidmadline@gmail.com",
+        "contact_person_phone": "+46738316720"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Madline Arbid",
+        "0738316720",
+        "arbidmadline@gmail.com",
+        "https://www.foreningensm.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Gluggens IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/GluggensIF",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Gluggens%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46761182992",
+      "description": {
+        "free_text": "Innebandyförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars pettersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46761182992"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lars Pettersson",
+        "076-1182992",
+        "https://www.svenskalag.se/GluggensIF",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Gävleborgs Innebandyförbund",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=G%C3%A4vleborgs%20Innebandyf%C3%B6rbund",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Holmsvedenbygdens Intresseförening",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Holmsvedenbygdens%20Intressef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Arbetar med allt som gagnar Holmsvedenbygden.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Holmsvedens Fiskevårdsförening",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Holmsveden"
+      ],
+      "homepage_url": "https://www.holmsveden.nu/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Holmsvedens%20Fiskev%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "holmsvedens.fvf@gmail.com",
+      "phone": "+46702111778",
+      "description": {
+        "free_text": "Välkomna till natursköna Holmsvedenbygden och Holmsvedens Fiskevårdsförening.\nHos oss kan du fiska efter gädda och abborre i ett dussintal sjöar och tjärnar.\nVår populäraste sjön är Härnebosjön som ligger nära centrala Holmsveden.\nDär ligger det en naturramp där det är lätt att sjösätta båtar och det är gott om parkeringsplatser.\nPå den närliggande kommunala badplatsen finns grillplats och toaletter.\nVindskydd och grillplats finns även ute på Stationsholmen.\nHar man inte tillgång till båt så har vi placerat ut två fiskebryggor som man kan fiska från.\nVill man åka med kollektivtrafiken till oss så stannar X-Tåget och Buss 64 vid Holmsvedens Järnvägsstation, och därifrån så är det kort promenad ner till Härnebosjön.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Holmsveden"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy sundström",
+        "contact_person_role": null,
+        "contact_person_email": "holmsvedens.fvf@gmail.com",
+        "contact_person_phone": "+46702111778"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Tommy Sundström",
+        "0702111778",
+        "holmsvedens.fvf@gmail.com",
+        "https://www.holmsveden.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Hälsingeoperan",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.halsingeoperan.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=H%C3%A4lsingeoperan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "halsingeoperan@hotmail.com",
+      "phone": "+46725426692",
+      "description": {
+        "free_text": "Vi är en kulturförening som sätter upp operaföreställningar och konserter.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kristina elfversson",
+        "contact_person_role": null,
+        "contact_person_email": "halsingeoperan@hotmail.com",
+        "contact_person_phone": "+46725426692"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kristina Elfversson",
+        "0725426692",
+        "halsingeoperan@hotmail.com",
+        "http://www.halsingeoperan.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Hälsinglands Fotbollförbund",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Futsal"
+      ],
+      "categories": [],
+      "homepage_url": "https://halsingland.svenskfotboll.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=H%C3%A4lsinglands%20Fotbollf%C3%B6rbund",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "halsinglandsff@svenskfotboll.se",
+      "phone": "+4627019098",
+      "description": {
+        "free_text": "Hälsinglands FF bedriver och administrera fotbollsverksamhet i Hälsingland med säte i Söderhamn",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Futsal"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andreas göransson",
+        "contact_person_role": null,
+        "contact_person_email": "halsinglandsff@svenskfotboll.se",
+        "contact_person_phone": "+4627019098"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Andreas Göransson",
+        "027019098",
+        "halsinglandsff@svenskfotboll.se",
+        "https://halsingland.svenskfotboll.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "IFK Bergvik",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.ifkbergvik.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=IFK%20Bergvik",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.ifkbergvik.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "IK Hälsingbocken",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=IK%20H%C3%A4lsingbocken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "IOGT-NTO 152 Söderhamn",
+      "org_number": null,
+      "types": [
+        "Nykterhetsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=IOGT-NTO%20152%20S%C3%B6derhamn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "IOGT-NTO 204 Ledstjärnan",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=IOGT-NTO%20204%20Ledstj%C3%A4rnan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "iogtntobergvik1@gmail.com",
+      "phone": "+46722424514",
+      "description": {
+        "free_text": "Ideell förening inom nykterhetsrörelsen\nSamlingslokal/fritidsgård öppet för alla, olika arrangemang, bowling, gym och kultur/cirklar i Bergvik",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Britt-marie johansson",
+        "contact_person_role": null,
+        "contact_person_email": "iogtntobergvik1@gmail.com",
+        "contact_person_phone": "+46722424514"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Britt-Marie Johansson",
+        "0722424514",
+        "iogtntobergvik1@gmail.com",
+        "Fb: IOGT-NTO-rörelsen Bergvik",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "IOGT-NTO 304 Thorön-Enighet",
+      "org_number": null,
+      "types": [
+        "Nykterhetsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Trönö"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=IOGT-NTO%20304%20Thor%C3%B6n-Enighet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Trönö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Junis Kraft och vilja",
+      "org_number": null,
+      "types": [
+        "Nykterhetsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Junis%20Kraft%20och%20vilja",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "JUNIS Stjärnan Bergvik",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=JUNIS%20Stj%C3%A4rnan%20Bergvik",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46722424514",
+      "description": {
+        "free_text": "Ideell juniorförening inom nykterhetsrörelsen. bowling, innebandy och pysselkvällar. Lägerdagar. Disko.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46722424514"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0722424514",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Kommunalförbundet Hälsingland Räddningstjänsten",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Kommunalf%C3%B6rbundet%20H%C3%A4lsingland%20R%C3%A4ddningstj%C3%A4nsten",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Kustgardet",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Kustgardet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@kustgardet.se",
+      "phone": "+46769423372",
+      "description": {
+        "free_text": "Supporterföreningen för Broberg Söderhamn Bandy",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders jansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@kustgardet.se",
+        "contact_person_phone": "+46769423372"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders Jansson",
+        "0769423372",
+        "info@kustgardet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Ljusne AIK FF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Ljusne"
+      ],
+      "homepage_url": "https://www.svenskalag.se/ljusneaikff",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Ljusne%20AIK%20FF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hakan@hwgkonsult.se",
+      "phone": "+46702116571",
+      "description": {
+        "free_text": "Fotbollsförening med damlag, herrlag och flera juniorlag. Ca 300 medlemmar. Fotbollsskola på sommaren.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "A-lag",
+                "Barn 0-6 år",
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljusne"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Håkan gard",
+        "contact_person_role": null,
+        "contact_person_email": "hakan@hwgkonsult.se",
+        "contact_person_phone": "+46702116571"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "A-lag",
+        "Barn 0-6 år",
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Håkan Gard",
+        "0702116571",
+        "hakan@hwgkonsult.se",
+        "https://www.svenskalag.se/ljusneaikff",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Ljusne Ala OK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [
+        "Ljusne"
+      ],
+      "homepage_url": "https://www.ljusnealaok.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Ljusne%20Ala%20OK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ljusneala.ok@hotmail.com",
+      "phone": "+46731404088",
+      "description": {
+        "free_text": "Ljusne Ala OK, orienteringsklubb med säte i Ljusne.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Orientering"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljusne"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stig lundström",
+        "contact_person_role": null,
+        "contact_person_email": "ljusneala.ok@hotmail.com",
+        "contact_person_phone": "+46731404088"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Stig Lundström",
+        "0731404088",
+        "ljusneala.ok@hotmail.com",
+        "https://www.ljusnealaok.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Ljusne badförening",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/ljusneinomhusbad",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Ljusne%20badf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "asa.kastman58@hotmail.com",
+      "phone": "+46706048163",
+      "description": {
+        "free_text": "Inomhusbad med babysim, vattengymnastik. Går även att hyra av privatpersoner",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan forsberg",
+        "contact_person_role": null,
+        "contact_person_email": "asa.kastman58@hotmail.com",
+        "contact_person_phone": "+46706048163"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jan Forsberg",
+        "0706048163",
+        "asa.kastman58@hotmail.com",
+        "https://www.facebook.com/ljusneinomhusbad",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Ljusne sportfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www,ljusnesportfiskeklubb.com/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Ljusne%20sportfiskeklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ljusnesportfiskeklubb.com",
+      "phone": "+46722211698",
+      "description": {
+        "free_text": "Sportfiske",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas thyr",
+        "contact_person_role": null,
+        "contact_person_email": "info@ljusnesportfiskeklubb.com",
+        "contact_person_phone": "+46722211698"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Thomas Thyr",
+        "0722211698",
+        "Info@ljusnesportfiskeklubb.com",
+        "http://www,ljusnesportfiskeklubb.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Ljusne-Ala Motorbåtsklubb",
+      "org_number": null,
+      "types": [
+        "Båtklubb"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Ljusne-Ala%20Motorb%C3%A5tsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stabobjorn@gmail.com",
+      "phone": "+46702236732",
+      "description": {
+        "free_text": "Båtklubb med två hamnar, en i Ljusne och en i Ala.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn stabo",
+        "contact_person_role": null,
+        "contact_person_email": "stabobjorn@gmail.com",
+        "contact_person_phone": "+46702236732"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Björn Stabo",
+        "0702236732",
+        "stabobjorn@gmail.com",
+        "www.lamk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Ljusneortens Museiförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Ljusne"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Ljusneortens%20Museif%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lassepersson54@gmail.com",
+      "phone": "+46761309214",
+      "description": {
+        "free_text": "Äger och förvaltar Ljusne Bruksmuseum",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljusne"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars persson",
+        "contact_person_role": null,
+        "contact_person_email": "lassepersson54@gmail.com",
+        "contact_person_phone": "+46761309214"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Lars Persson",
+        "0761309214",
+        "lassepersson54@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Marma IF",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [
+        "Bordtennis",
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/marmaif",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Marma%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Fotbollsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis",
+                "Fotboll"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.svenskalag.se/marmaif",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Mfk Albatross",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.mfkalbatross.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Mfk%20Albatross",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mfkalbatross@gmail.com",
+      "phone": "+46768429767",
+      "description": {
+        "free_text": "Mfk Albatross, vi flyger radiostyrda flygplan, helikoptrar, drönare, segelflyg.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars henriksson",
+        "contact_person_role": null,
+        "contact_person_email": "mfkalbatross@gmail.com",
+        "contact_person_phone": "+46768429767"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lars Henriksson",
+        "0768429767",
+        "mfkalbatross@gmail.com",
+        "http://www.mfkalbatross.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Mo Aktivitetsförening",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Mo%20Aktivitetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Mo Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.mobygdegard.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Mo%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@mobygdegard.se",
+      "phone": "+46705926922",
+      "description": {
+        "free_text": "Bygdegård. Uthyrning Arrangemang",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karina nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@mobygdegard.se",
+        "contact_person_phone": "+46705926922"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Karina Nilsson",
+        "0705926922",
+        "info@mobygdegard.se",
+        "http://www.mobygdegard.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Mo Fiskevårdsområdesförening",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Mo%20Fiskev%C3%A5rdsomr%C3%A5desf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "martin@tybling.se",
+      "phone": "+46705378710",
+      "description": {
+        "free_text": "Fiskevårdsområdesförening i Mo Socken - Söderhamn",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars stål",
+        "contact_person_role": null,
+        "contact_person_email": "martin@tybling.se",
+        "contact_person_phone": "+46705378710"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lars Stål",
+        "0705378710",
+        "martin@tybling.se",
+        "www.mofiske.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Mo Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Mo"
+      ],
+      "homepage_url": "https://www.hembygd.se/mo",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Mo%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lugnolantbruk@gmail.com",
+      "phone": "+46705287272",
+      "description": {
+        "free_text": "Mo hembygdsförening samlar och sprider kunskap om bygdens historia och driver numer också hembygdsrelaterade frågor kring omställning till en mer hållbar framtid enligt agenda 2030.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar olsson",
+        "contact_person_role": null,
+        "contact_person_email": "lugnolantbruk@gmail.com",
+        "contact_person_phone": "+46705287272"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gunnar Olsson",
+        "070-5287272",
+        "lugnolantbruk@gmail.com",
+        "https://www.hembygd.se/mo",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Moheds SK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Moheds%20SK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Moheds Vattenskidklubb",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mohed"
+      ],
+      "homepage_url": "https://www.facebook.com/Mohedsvsk",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Moheds%20Vattenskidklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mohedsvattenskidklubb@gmail.com",
+      "phone": "+46768130344",
+      "description": {
+        "free_text": "Vattenskidklubb",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Elit",
+                "Ungdomar 7-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mohed"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans-eric söder",
+        "contact_person_role": null,
+        "contact_person_email": "mohedsvattenskidklubb@gmail.com",
+        "contact_person_phone": "+46768130344"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Elit",
+        "Ungdomar 7-20 år"
+      ],
+      "contact_lines": [
+        "Hans-Eric Söder",
+        "0768130344",
+        "mohedsvattenskidklubb@gmail.com",
+        "https://www.facebook.com/Mohedsvsk",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Musica Viva",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Söderhamn"
+      ],
+      "homepage_url": "http://info@musicaviva.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Musica%20Viva",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@musicaviva.se",
+      "phone": "+46768396649",
+      "description": {
+        "free_text": "www.musicaviva.se",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6 år",
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Söderhamn"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Catharina ericsson ordförande",
+        "contact_person_role": null,
+        "contact_person_email": "info@musicaviva.se",
+        "contact_person_phone": "+46768396649"
+      },
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "http://info@musicaviva.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6 år",
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år"
+      ],
+      "contact_lines": [
+        "Catharina Ericsson ordförande",
+        "0768396649",
+        "info@musicaviva.se",
+        "http://info@musicaviva.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Norrala Bygdegårdsförening Altorp",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://bygdegardarna.se/altorp",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Norrala%20Bygdeg%C3%A5rdsf%C3%B6rening%20Altorp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "altorpbgf@gmail.com",
+      "phone": "+46706455404",
+      "description": {
+        "free_text": "Ideell förening som bedriver bland annat barnverksamhet och olika kulturella evenemang. Vi hyr ut lokal för möten/fest.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "altorpbgf@gmail.com",
+        "contact_person_phone": "+46706455404"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0706455404",
+        "altorpbgf@gmail.com",
+        "https://bygdegardarna.se/altorp",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Norrala fiskevårdsförening",
+      "org_number": null,
+      "types": [
+        "Fiskevårdsförening"
+      ],
+      "activities": [
+        "Bygge/förberedelser",
+        "Sportfiske"
+      ],
+      "categories": [
+        "Norrala"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Norrala%20fiskev%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "magnus.flink@soderhamn.se",
+      "phone": "+46706701723",
+      "description": {
+        "free_text": "Vi bedriver fiske, fiskevård och utveckling av sjöar och vattendrag i Söderhamns kommun.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bygge/förberedelser",
+                "Sportfiske"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6 år",
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Norrala"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus flink",
+        "contact_person_role": null,
+        "contact_person_email": "magnus.flink@soderhamn.se",
+        "contact_person_phone": "+46706701723"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6 år",
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Magnus Flink",
+        "0706701723",
+        "magnus.flink@soderhamn.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Norrala Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/norrala",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Norrala%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "norralahembygd@mail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "norralahembygd@mail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "norralahembygd@mail.com",
+        "https://www.hembygd.se/norrala",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Norrala IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/norralaif",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Norrala%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@norralaif.se",
+      "phone": "+46705815072",
+      "description": {
+        "free_text": "Fotbollsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6 år",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik thyr",
+        "contact_person_role": null,
+        "contact_person_email": "info@norralaif.se",
+        "contact_person_phone": "+46705815072"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6 år",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Erik Thyr",
+        "0705-815072",
+        "info@norralaif.se",
+        "https://www.svenskalag.se/norralaif",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Norrtull youth",
+      "org_number": null,
+      "types": [
+        "Religiös förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Norrtull%20youth",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "fabiusbal@yahoo.se",
+      "phone": "+46703490573",
+      "description": {
+        "free_text": "Vi har olika idrott varje tillfälle",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fabius ndot",
+        "contact_person_role": null,
+        "contact_person_email": "fabiusbal@yahoo.se",
+        "contact_person_phone": "+46703490573"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fabius Ndot",
+        "0703490573",
+        "fabiusbal@yahoo.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Norrtullskolans IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Norrtullskolans%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Parasportföreningen Söderhamn",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://idrottonline.se/SoderhamnsHIK-Handikappidrott",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Parasportf%C3%B6reningen%20S%C3%B6derhamn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderhamnshik@gmail.com",
+      "phone": "+46706822234",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik söderkvist",
+        "contact_person_role": null,
+        "contact_person_email": "soderhamnshik@gmail.com",
+        "contact_person_phone": "+46706822234"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Söderkvist",
+        "0706822234",
+        "soderhamnshik@gmail.com",
+        "https://idrottonline.se/SoderhamnsHIK-Handikappidrott",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Riddare Templet Valkyrian",
+      "org_number": null,
+      "types": [
+        "Nykterhetsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Riddare%20Templet%20Valkyrian",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Riksförbundet HjärtLung Söderhamn",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [
+        "Fysträning",
+        "Kulturarrangemang",
+        "Sammankomst"
+      ],
+      "categories": [
+        "Söderhamn"
+      ],
+      "homepage_url": "https://www.hjartlung.se/soderhamn",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Riksf%C3%B6rbundet%20Hj%C3%A4rtLung%20S%C3%B6derhamn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@soderhamn.hjart-lung.se",
+      "phone": "+46706749391",
+      "description": {
+        "free_text": "Olika verksamheter för hjärt- och lungsjuka, se hemsida.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fysträning",
+                "Kulturarrangemang",
+                "Sammankomst"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Söderhamn"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt thyrsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@soderhamn.hjart-lung.se",
+        "contact_person_phone": "+46706749391"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Bengt Thyrsson",
+        "0706749391",
+        "info@soderhamn.hjart-lung.se",
+        "https://www.hjartlung.se/soderhamn",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Ringnäs Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Söderala"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Ringn%C3%A4s%20Ryttarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@ringnasrf.se",
+      "phone": null,
+      "description": {
+        "free_text": "Ryttarförening med tävlingsryttare och vi har mycket aktiviteter för alla våra medlemmar",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6 år",
+                "Ungdomar 7-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Söderala"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Paul larsson",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@ringnasrf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6 år",
+        "Ungdomar 7-20 år"
+      ],
+      "contact_lines": [
+        "Paul Larsson",
+        "styrelsen@ringnasrf.se",
+        "www.ringnasrf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Rädda Barnen Söderhamn",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.raddabarnen.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=R%C3%A4dda%20Barnen%20S%C3%B6derhamn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lf.soderhamn@medlem.rb.se",
+      "phone": "+46702096713",
+      "description": {
+        "free_text": "Rädda Barnen Söderhamn arbetar främst för barn i Söderhamn i utsatta situationer. Vi har alltid Barnkonventionen som grund. Vi arbetar direkt med barn och deras familjer, med kunskapsspridning och med påverkansarbete",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Brittmarie windemo (ordförande)",
+        "contact_person_role": null,
+        "contact_person_email": "lf.soderhamn@medlem.rb.se",
+        "contact_person_phone": "+46702096713"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "BrittMarie Windemo (ordförande)",
+        "0702096713",
+        "Lf.soderhamn@medlem.rb.se",
+        "https://www.raddabarnen.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Rönningens Bygdeförening",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=R%C3%B6nningens%20Bygdef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Aktiviteter bl.a musikunderhållning, bingo, föreläsningar, uthyrning av lokal, kurser",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "S Pigga Motionärer IF",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/groups/936504677410441",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%20Pigga%20Motion%C3%A4rer%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lotta@leivig.com",
+      "phone": "+464677410441",
+      "description": {
+        "free_text": "En förening för att få seniorer i rörelse med glada skratt och umgänge",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Charlotta leivig",
+        "contact_person_role": null,
+        "contact_person_email": "lotta@leivig.com",
+        "contact_person_phone": "+464677410441"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+"
+      ],
+      "contact_lines": [
+        "Charlotta Leivig",
+        "+46736751947",
+        "lotta@leivig.com",
+        "https://www.facebook.com/groups/936504677410441",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Sandarne SIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Sandarne%20SIF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nicklas.johansson@soderhamn.se",
+      "phone": "+46706188646",
+      "description": {
+        "free_text": "Idrottsförening med fotboll- och korpverksamhet.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nicklas johansson",
+        "contact_person_role": null,
+        "contact_person_email": "nicklas.johansson@soderhamn.se",
+        "contact_person_phone": "+46706188646"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Nicklas Johansson",
+        "0706188646",
+        "nicklas.johansson@soderhamn.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "SISAM-KULT",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://sisam-kult.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=SISAM-KULT",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nils.rundkvist@outlook.com",
+      "phone": "+46702936693",
+      "description": {
+        "free_text": "Förening för kultur och historia rörande Sandarne",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nils rundkvist",
+        "contact_person_role": null,
+        "contact_person_email": "nils.rundkvist@outlook.com",
+        "contact_person_phone": "+46702936693"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Nils Rundkvist",
+        "070 2936693",
+        "nils.rundkvist@outlook.com",
+        "https://sisam-kult.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Skog Hembygds- & intresseförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Holmsveden",
+        "Stråtjära"
+      ],
+      "homepage_url": "http://skoghembygd/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Skog%20Hembygds-%20%26%20intressef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bernt.fresk@gmail.com",
+      "phone": "+46730625051",
+      "description": {
+        "free_text": "Vår förening tog över Intresseföreningens verksamheter när denna lades ner. Vi har justerat vårt namn till Skog Hembygd- & Intresseförening. Se vår Verksamhetsberättelse och Verksamhetsplan. Bedriver SkogSand med Ställplats, Musikaftnar. Har helrestaurerat vår Sockenstuga, äger o vårdar Torparbacken med ett 10-tal byggnader. Hembygdsdagen firas där varje år. Ger ut en tidning Stråtjära Allehanda. Varje höst en Skördemarknad där närodlat och närproducerat säljs. Pilgrims- och övriga vandringsleder är också en del av vårt arbete, främst då rensning av sly. Vi bedriver med varierande framgång Landsbygdsutveckling. Deltog i granskning av ÖP. Författade LUP (Stråtjära) och LEA tillsammans med Holmsveden. Vi jobbar på att återta vårt forna namn Skog i st f Stråtjära som ju är en by i socknen (eftersom det finns ett Skog i Ångermanland så fick lov att använda Stråtjära som postnummer i stället. Nytt för i år NY VERKSAMHET i socknen, till viss del även kommunen. Vi restaurerar en Bagarstuga, byggd i slutet av 1700-talet belägen strax nedom Skogs Kyrka. Nu på skollovet tränar vi de skolbarn som är intresserade att baka tunnbröd /i en tillfällig lokal/. Några av våra medlemmar har varit i Östersund på vidareutbildning på tunnbrödsbakning och provat på att baka med kulturspannmål som även allergiska skall kunna äta.\nBagarstugan kommer att invigas den 6 sep 2025, samtidigt har budkaveln kommit till oss - Landsbygdsdag - firas samma dag och även vår Höstmarknad går av stapeln då. Har nyss nämnt Bagarstugan, denna har totalrenoverats, har tagit nästan tre år. Massor av ideella timmar har gått åt både vad gäller praktiskt och administrativt. Möjligen kommer vi att ge ut ett litet häfte om hur det hela gått till, från början till slut.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Div 1",
+                "Pensionärer 65+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Holmsveden",
+                "Stråtjära"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bernt fresk/ordförande",
+        "contact_person_role": null,
+        "contact_person_email": "bernt.fresk@gmail.com",
+        "contact_person_phone": "+46730625051"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Div 1",
+        "Pensionärer 65+"
+      ],
+      "contact_lines": [
+        "Bernt Fresk/ordförande",
+        "073-062 50 51",
+        "bernt.fresk@gmail.com",
+        "http://skoghembygd",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Skogs Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Skogs%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Uthyrning av lokaler till föreningar och privatpersoner. Egna arrangemang såsom filmkvällar, kultur och musik.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Somaliska föreningen för integration och folkbildning",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Somaliska%20f%C3%B6reningen%20f%C3%B6r%20integration%20och%20folkbildning",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "•    Föreningen har som syfte att främja somaliers integration i Sverige samt öka medlemmarnas möjligheter till arbete och utbildning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Stråtjära Pistolskyttegille",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.skogssocken.se/foreningsliv/stratjara-pistolskyttegille/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Str%C3%A5tj%C3%A4ra%20Pistolskyttegille",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "andersson@gmail.com",
+      "phone": "+46702302801",
+      "description": {
+        "free_text": "Vi är en förening som utövar pistolskytte i Stråtjära. Vi tränar regelbundet och välkomnar nya medlemmar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans andersson",
+        "contact_person_role": null,
+        "contact_person_email": "andersson@gmail.com",
+        "contact_person_phone": "+46702302801"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hans Andersson",
+        "0702302801",
+        "andersson@gmail.com",
+        "http://www.skogssocken.se/foreningsliv/stratjara-pistolskyttegille/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Studiefrämjandet Mitt",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Studiefr%C3%A4mjandet%20Mitt",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gavleborg@studieframjandet.se",
+      "phone": "+4627017960",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robin larsson",
+        "contact_person_role": null,
+        "contact_person_email": "gavleborg@studieframjandet.se",
+        "contact_person_phone": "+4627017960"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Robin Larsson",
+        "0270-17960",
+        "gavleborg@studieframjandet.se",
+        "www.studieframjandet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Studieförbundet BILDA Mitt",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.bilda.nu/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20BILDA%20Mitt",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mitt@bilda.nu",
+      "phone": "+4627062800",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas jonsson",
+        "contact_person_role": null,
+        "contact_person_email": "mitt@bilda.nu",
+        "contact_person_phone": "+4627062800"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jonas Jonsson",
+        "027062800",
+        "mitt@bilda.nu",
+        "http://www.bilda.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Stugsunds IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/stugsund",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Stugsunds%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stugsundsik@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": "Fotbollsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "stugsundsik@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "stugsundsik@outlook.com",
+        "https://www.svenskalag.se/stugsund",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "SV Gävleborg",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.sv.se/gavleborg",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=SV%20G%C3%A4vleborg",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gavleborg@sv.se",
+      "phone": "+46270428820",
+      "description": {
+        "free_text": "Studiecirklar, kulturevenemang och föreningsutveckling",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marianne hane",
+        "contact_person_role": null,
+        "contact_person_email": "gavleborg@sv.se",
+        "contact_person_phone": "+46270428820"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marianne Hane",
+        "0270-428820",
+        "gavleborg@sv.se",
+        "https://www.sv.se/gavleborg",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderala AIK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derala%20AIK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mbanneberg@gmail.com",
+      "phone": "+46702451177",
+      "description": {
+        "free_text": "Idrottsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "mbanneberg@gmail.com",
+        "contact_person_phone": "+46702451177"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "saiksoderala@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "mbanneberg@gmail.com",
+        "0702451177",
+        "saiksoderala@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderala Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Söderala"
+      ],
+      "homepage_url": "http://www.bygdegardarna.se/soderala",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derala%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sbygdegard@gmail.com",
+      "phone": "+46731005432",
+      "description": {
+        "free_text": "En ideell förening som hyr ut bygdegården till privatpersoner och föreningar för möten och fester. Vi ordnar egna evenemang som tex filmkvällar, julgransplundring, loppis, gåbingo och \"Söderaladagen\".\nVi ger ut en egen tidning fyra nummer per år. Vi hyr även ut ställplatser.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6 år",
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Söderala"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Håkan enbom",
+        "contact_person_role": null,
+        "contact_person_email": "sbygdegard@gmail.com",
+        "contact_person_phone": "+46731005432"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6 år",
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Håkan Enbom",
+        "0731005432",
+        "sbygdegard@gmail.com",
+        "http://www.bygdegardarna.se/soderala",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderala Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": "https://idrottonline.se/SoderalaSkF-Skyttesport/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derala%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bengt@redskaparna.se",
+      "phone": "+46705163833",
+      "description": {
+        "free_text": "Söderala Skytteförening bedriver banskytte och fältskytte vid vår skjutbana i Söderala. Vi samarbetar med Söderala AIK gällande luftgevärsskytte och korthåll. Vi tillhör RF och Svenska Skyttesportförbundet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt jansson",
+        "contact_person_role": null,
+        "contact_person_email": "bengt@redskaparna.se",
+        "contact_person_phone": "+46705163833"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Bengt Jansson",
+        "0705163833",
+        "bengt@redskaparna.se",
+        "https://idrottonline.se/SoderalaSkF-Skyttesport/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamn Jaktskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Söderala"
+      ],
+      "homepage_url": "https://www.svenskalag.se/soderhamnmossnejsk",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamn%20Jaktskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderhamnsjaktskytteklubb@gmail.com",
+      "phone": "+46737768600",
+      "description": {
+        "free_text": "Föreningen bildades 1865 under namnet Södra Hälsinglands Jaktskytteklubb, 1970 ändrades namnet till Söderhamns Jaktskytteklubb.\nVid årsskiftet 2022 valde föreningen att lägga till Mossne som ett tilltalsnamn.\nFöreningen skall bedriva Gevärsskytte, Lerduveskytte, Viltmålsskytte, utbildning och uppskjutning för jägarexamen.\nFöreningens uppgift är att verka för skyttet som folksport och idrott med samhällsansvar där alla kan delta på lika villkor.\nSedan 2023 är föreningen ansluten till Svenska Jägareförbundet.\nFör att nyttja skjutbanan krävs ett medlemskap i föreningen.\nFöreningen satsar särskilt på att vara en mötesplats för alla medlemmar med en kamratlig anda och en trevlig atmosfär.\nAtt öppna upp skyttesporten för nya medlemmar och stötta befintliga i sin utveckling.\nFöreningen skall i sin verksamhet aktivt verka för en dopingfri idrott.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Elit",
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Söderala"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan mårtensson",
+        "contact_person_role": null,
+        "contact_person_email": "soderhamnsjaktskytteklubb@gmail.com",
+        "contact_person_phone": "+46737768600"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Elit",
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Johan Mårtensson",
+        "0737768600",
+        "soderhamnsjaktskytteklubb@gmail.com",
+        "https://www.svenskalag.se/soderhamnmossnejsk",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamn/Ljusne Hockey Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Ljusne"
+      ],
+      "homepage_url": "http://www.slhc.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamn%2FLjusne%20Hockey%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@slhc.se",
+      "phone": "+46702229026",
+      "description": {
+        "free_text": "Ishockeyförening i Ljusne som bedriver verksamhet från skridskoskola till seniorverksamhet. Vi äger och driver Ljusne Ishall.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "A-lag",
+                "Barn 0-6 år",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljusne"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael krantz",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@slhc.se",
+        "contact_person_phone": "+46702229026"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "A-lag",
+        "Barn 0-6 år",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Mikael Krantz",
+        "070-222 90 26",
+        "kansli@slhc.se",
+        "http://www.slhc.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Brottarklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Brottning"
+      ],
+      "categories": [
+        "Söderhamn"
+      ],
+      "homepage_url": "https://www.svenskalag.se/soderhamnsbk",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Brottarklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderhamnsbrottarklubb@live.se",
+      "phone": "+46702580610",
+      "description": {
+        "free_text": "Brottarklubb",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Brottning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6 år",
+                "Ungdomar 7-20 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Söderhamn"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kristin bentzer 070-258 06 10",
+        "contact_person_role": null,
+        "contact_person_email": "soderhamnsbrottarklubb@live.se",
+        "contact_person_phone": "+46702580610"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6 år",
+        "Ungdomar 7-20 år"
+      ],
+      "contact_lines": [
+        "Kristin Bentzer 070-258 06 10",
+        "soderhamnsbrottarklubb@live.se",
+        "https://www.svenskalag.se/soderhamnsbk",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Brukshundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.soderhamnsbrukshundklubb.se",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "www.soderhamnsbrukshundklubb.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Bågskyttesällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bågskytte"
+      ],
+      "categories": [
+        "Bergvik",
+        "Ljusne",
+        "Söderhamn"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20B%C3%A5gskyttes%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderhamns_bagskyttar@hotmail.com",
+      "phone": "+46702082917",
+      "description": {
+        "free_text": "Bågskytteförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bågskytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bergvik",
+                "Ljusne",
+                "Söderhamn"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Helena pettersson",
+        "contact_person_role": null,
+        "contact_person_email": "soderhamns_bagskyttar@hotmail.com",
+        "contact_person_phone": "+46702082917"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Helena Pettersson",
+        "0702082917",
+        "soderhamns_bagskyttar@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns FF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.soderhamnsff.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20FF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "1986sff@gmail.com",
+      "phone": "+467305378801986",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars olsson",
+        "contact_person_role": null,
+        "contact_person_email": "1986sff@gmail.com",
+        "contact_person_phone": "+467305378801986"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lars Olsson",
+        "073-0537880",
+        "1986sff@gmail.com",
+        "https://www.soderhamnsff.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Golfklubb",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@soderhamnsgk.com",
+      "phone": "+46270281300",
+      "description": {
+        "free_text": "Golfspel för medlemmar och gäster på vår golfbana",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tobias grundin",
+        "contact_person_role": null,
+        "contact_person_email": "info@soderhamnsgk.com",
+        "contact_person_phone": "+46270281300"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Tobias Grundin",
+        "0270-281300",
+        "info@soderhamnsgk.com",
+        "www.soderhamnsgk.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.soderhamnsgympan.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Gymnastikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@soderhamnsgympan.se",
+      "phone": "+46702499607",
+      "description": {
+        "free_text": "Truppgymnastik, Parkour, Barngympa, Gymmix",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikaela halvarsson",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@soderhamnsgympan.se",
+        "contact_person_phone": "+46702499607"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mikaela Halvarsson",
+        "0702499607",
+        "kansli@soderhamnsgympan.se",
+        "https://www.soderhamnsgympan.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Hung Gar Kung Fu Klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [],
+      "homepage_url": "https://laufamily.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Hung%20Gar%20Kung%20Fu%20Klubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "roger@laufamily.se",
+      "phone": "+46702944543",
+      "description": {
+        "free_text": "Traditionell kampsportsträning av typen Kinesisk Kung Fu. Stilen som utövas heter Hung Gar Kuen från Lau familjens gren. Vi tränar även Tai Chi Chuan och Qigong.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger engmalm (ordförande)",
+        "contact_person_role": null,
+        "contact_person_email": "roger@laufamily.se",
+        "contact_person_phone": "+46702944543"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Roger Engmalm (Ordförande)",
+        "070-294 45 43",
+        "roger@laufamily.se",
+        "https://laufamily.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/soderhamnsif",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "friidrott@soderhamnsif.se",
+      "phone": "+46705413690",
+      "description": {
+        "free_text": "Friidrottsförening. Bedriver träning och tävlingar inom friidrott.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friidrott"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Leif-göran mosell",
+        "contact_person_role": null,
+        "contact_person_email": "friidrott@soderhamnsif.se",
+        "contact_person_phone": "+46705413690"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Leif-Göran Mosell",
+        "0705413690",
+        "friidrott@soderhamnsif.se",
+        "https://www.svenskalag.se/soderhamnsif",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Innebandy",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/sibf",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Innebandy",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderhamnsibf@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 7-20 år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "soderhamnsibf@gmail.com",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "soderhamnsibf@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 7-20 år"
+      ],
+      "contact_lines": [
+        "soderhamnsibf@gmail.com",
+        "soderhamnsibf@gmail.com",
+        "https://www.svenskalag.se/sibf",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Ishockeyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.soderhamnsik.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Ishockeyklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hockey@soderhamnsik.se",
+      "phone": "+46738281616",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "hockey@soderhamnsik.se",
+        "contact_person_phone": "+46738281616"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "hockey@soderhamnsik.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "hockey@soderhamnsik.se",
+        "073-828 16 16",
+        "hockey@soderhamnsik.se",
+        "https://www.soderhamnsik.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.soderhamnsjudo.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Judoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "judo.soderhamn@gmail.com",
+      "phone": "+46702236732",
+      "description": {
+        "free_text": "Judoträning för barn och vuxna",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn stabo",
+        "contact_person_role": null,
+        "contact_person_email": "judo.soderhamn@gmail.com",
+        "contact_person_phone": "+46702236732"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Björn Stabo",
+        "0702236732",
+        "judo.soderhamn@gmail.com",
+        "https://www.soderhamnsjudo.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Kameraklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Bergvik",
+        "Holmsveden",
+        "Ljusne",
+        "Mo",
+        "Mohed",
+        "Norrala",
+        "Sandarne",
+        "Stråtjära",
+        "Stugsund",
+        "Söderala",
+        "Söderhamn",
+        "Trönö",
+        "Vallvik",
+        "Vågbro"
+      ],
+      "homepage_url": "http://www.soderhamnskameraklubb.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Kameraklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@soderhamnskameraklubb.se",
+      "phone": null,
+      "description": {
+        "free_text": "Kameraklubb i Söderhamn",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bergvik",
+                "Holmsveden",
+                "Ljusne",
+                "Mo",
+                "Mohed",
+                "Norrala",
+                "Sandarne",
+                "Stråtjära",
+                "Stugsund",
+                "Söderala",
+                "Söderhamn",
+                "Trönö",
+                "Vallvik",
+                "Vågbro"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Philip larsson",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@soderhamnskameraklubb.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Philip Larsson",
+        "styrelsen@soderhamnskameraklubb.se",
+        "http://www.soderhamnskameraklubb.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Kammarmusikförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Kammarmusikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "perblomqvist2005@gmail.com",
+      "phone": "+46730729257",
+      "description": {
+        "free_text": "Söderhamns kammarmusikförening arrangerar 6-7 konserter på ett år med musiker från Sverige men även från utlandet.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per blomqvist",
+        "contact_person_role": null,
+        "contact_person_email": "perblomqvist2005@gmail.com",
+        "contact_person_phone": "+46730729257"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per Blomqvist",
+        "0730729257",
+        "perblomqvist2005@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Karateklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "p.larsson6908@gmail.com",
+      "phone": "+46705580865",
+      "description": {
+        "free_text": "Karate",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pelle larsson",
+        "contact_person_role": null,
+        "contact_person_email": "p.larsson6908@gmail.com",
+        "contact_person_phone": "+46705580865"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Pelle Larsson",
+        "0705580865",
+        "p.larsson6908@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns kickboxningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20kickboxningsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi tränar kickboxning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Bergvik",
+        "Holmsveden",
+        "Ljusne",
+        "Mo",
+        "Mohed",
+        "Norrala",
+        "Sandarne",
+        "Stråtjära",
+        "Stugsund",
+        "Söderala",
+        "Söderhamn",
+        "Trönö",
+        "Vallvik",
+        "Vågbro"
+      ],
+      "homepage_url": "https://www.soderhamnskonstforening.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kanslist@soderhamnskonstforening.se",
+      "phone": "+46738410888",
+      "description": {
+        "free_text": "Konstföreningen arrangerar utställningar på Kvarnen samt resor, föredrag och utbildningar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bergvik",
+                "Holmsveden",
+                "Ljusne",
+                "Mo",
+                "Mohed",
+                "Norrala",
+                "Sandarne",
+                "Stråtjära",
+                "Stugsund",
+                "Söderala",
+                "Söderhamn",
+                "Trönö",
+                "Vallvik",
+                "Vågbro"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Barbro lundh",
+        "contact_person_role": null,
+        "contact_person_email": "kanslist@soderhamnskonstforening.se",
+        "contact_person_phone": "+46738410888"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Barbro Lundh",
+        "073-8410888",
+        "kanslist@soderhamnskonstforening.se",
+        "https://www.soderhamnskonstforening.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Linedancers",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Linedancers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Musikkår",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Musikk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Musikutövning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per saur",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per Saur",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns OK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fysträning",
+        "Längdskidor",
+        "Orientering"
+      ],
+      "categories": [],
+      "homepage_url": "https://soderhamnsok.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20OK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@soderhamnsok.se",
+      "phone": null,
+      "description": {
+        "free_text": "Söderhamns OK erbjuder träning och tävlingsverksamhet inom främst orientering men även andra områden som cykel, löpning, skidor och friluftsliv riktat till alla åldrar. Kompletterat med friskvårds och sociala-aktiviteter.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fysträning",
+                "Längdskidor",
+                "Orientering"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johannes tyve",
+        "contact_person_role": null,
+        "contact_person_email": "info@soderhamnsok.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Johannes Tyve",
+        "info@soderhamnsok.se",
+        "https://soderhamnsok.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Pistolskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [],
+      "homepage_url": "https://soderhamnspsk.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Pistolskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Pistolskytte enligt Svenska Pistolskytteförbundets reglemente",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 21-64 år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 91,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "https://soderhamnspsk.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.riksteatern.se/soderhamn",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Riksteaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderhamn.tf@riksteatern.se",
+      "phone": "+46706252638",
+      "description": {
+        "free_text": "Arrangerar scenkonst",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt samuelsson",
+        "contact_person_role": null,
+        "contact_person_email": "soderhamn.tf@riksteatern.se",
+        "contact_person_phone": "+46706252638"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 92,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Bengt Samuelsson",
+        "0706252638",
+        "soderhamn.tf@riksteatern.se",
+        "https://www.riksteatern.se/soderhamn",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Scoutkår",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://soderhamn.scout.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Scoutverksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 93,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://soderhamn.scout.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/soderhamnsss",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Sims%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@soderhamnssim.se",
+      "phone": "+46703272693",
+      "description": {
+        "free_text": "Tränings- och tävlingsverksamhet för barn och unga inom simidrotten; dessutom simskola för åldrar 4-15",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Simning"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna-carin sjöberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@soderhamnssim.se",
+        "contact_person_phone": "+46703272693"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 94,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anna-Carin Sjöberg",
+        "0703272693",
+        "info@soderhamnssim.se",
+        "https://www.svenskalag.se/soderhamnsss",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Skateboardförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Idrott",
+        "Sammankomst",
+        "Träningsläger"
+      ],
+      "categories": [
+        "Bergvik",
+        "Flygstaden",
+        "Holmsveden",
+        "Hällåsen",
+        "Ljusne",
+        "Mo",
+        "Mohed",
+        "Norrala",
+        "Sandarne",
+        "Stråtjära",
+        "Stugsund",
+        "Söderala",
+        "Söderhamn",
+        "Trönö",
+        "Vallvik",
+        "Vågbro"
+      ],
+      "homepage_url": "http://www.shamnskate.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Skateboardf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@shamnskate.se",
+      "phone": "+46705328867",
+      "description": {
+        "free_text": "Skateboard",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Idrott",
+                "Sammankomst",
+                "Träningsläger"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "A-lag",
+                "Barn 0-6 år",
+                "Div 1",
+                "Elit",
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bergvik",
+                "Flygstaden",
+                "Holmsveden",
+                "Hällåsen",
+                "Ljusne",
+                "Mo",
+                "Mohed",
+                "Norrala",
+                "Sandarne",
+                "Stråtjära",
+                "Stugsund",
+                "Söderala",
+                "Söderhamn",
+                "Trönö",
+                "Vallvik",
+                "Vågbro"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Conny björklund",
+        "contact_person_role": null,
+        "contact_person_email": "info@shamnskate.se",
+        "contact_person_phone": "+46705328867"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 95,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "A-lag",
+        "Barn 0-6 år",
+        "Div 1",
+        "Elit",
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Conny Björklund",
+        "0705328867",
+        "info@shamnskate.se",
+        "http://www.shamnskate.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Squaredans",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Squaredans",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "boomen06@gmail.com",
+      "phone": "+46709780769",
+      "description": {
+        "free_text": "Tränar å dansar squaredans",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anncatrin söderman",
+        "contact_person_role": null,
+        "contact_person_email": "boomen06@gmail.com",
+        "contact_person_phone": "+46709780769"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 96,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anncatrin Söderman",
+        "0709780769",
+        "boomen06@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns Tennissällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20Tenniss%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "soderhamntennis@hotmail.com",
+      "phone": "+4627012849",
+      "description": {
+        "free_text": "Tennis, Padel, badminton",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6 år",
+                "Pensionärer 65+",
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.soderhamntennis.com",
+        "contact_person_role": null,
+        "contact_person_email": "soderhamntennis@hotmail.com",
+        "contact_person_phone": "+4627012849"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 97,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6 år",
+        "Pensionärer 65+",
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "027012849",
+        "soderhamntennis@hotmail.com",
+        "Www.soderhamntennis.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamns UIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://suif.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamns%20UIF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@suif.se",
+      "phone": "+46705507232",
+      "description": {
+        "free_text": "Träning och tävlingsverksamhet i egen lokal med pingisskola för de yngsta till elitverksamhet för de äldre. Pingisgymnasium (NIU) tillsammans med kommunen, lägerverksamhet å boende i egna hallen för tillresta spelare!",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annica rengman bergh",
+        "contact_person_role": null,
+        "contact_person_email": "info@suif.se",
+        "contact_person_phone": "+46705507232"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 98,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Annica Rengman Bergh",
+        "0705507232",
+        "info@suif.se",
+        "http://suif.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Söderhamnsortens RF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://soderhamnsortensrf.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=S%C3%B6derhamnsortens%20RF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ridskolan@soderhamnsortensrf.se",
+      "phone": "+46703220923",
+      "description": {
+        "free_text": "Ridskola för barn, ungdomar och vuxna.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Diana olsson",
+        "contact_person_role": null,
+        "contact_person_email": "ridskolan@soderhamnsortensrf.se",
+        "contact_person_phone": "+46703220923"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 99,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Diana Olsson",
+        "0703220923",
+        "ridskolan@soderhamnsortensrf.se",
+        "https://soderhamnsortensrf.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Trygga Ungdomar i Söderhamn",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Söderhamn"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Trygga%20Ungdomar%20i%20S%C3%B6derhamn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi vill lira fotboll, och förebygga att ungdomar inte hamnar kriminalitet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar 7-20 år",
+                "Vuxna 21-64 år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Söderhamn"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar 7-20 år",
+        "Vuxna 21-64 år"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Trönö Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/trono-hembygdsforening",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Tr%C3%B6n%C3%B6%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tronohembygdsforening@gmail.com",
+      "phone": "+4627036000",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena åkerlind",
+        "contact_person_role": null,
+        "contact_person_email": "tronohembygdsforening@gmail.com",
+        "contact_person_phone": "+4627036000"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lena Åkerlind",
+        "0270-36000",
+        "tronohembygdsforening@gmail.com",
+        "http://www.hembygd.se/trono-hembygdsforening",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Trönö IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/tronoik",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Tr%C3%B6n%C3%B6%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@tronoik.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@tronoik.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "styrelsen@tronoik.se",
+        "https://www.svenskalag.se/tronoik",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Trönöbygden ekonomisk förening",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Trönö"
+      ],
+      "homepage_url": "https://www.tronobygden.se/",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Tr%C3%B6n%C3%B6bygden%20ekonomisk%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tronobygden.se",
+      "phone": "+46270427762",
+      "description": {
+        "free_text": "Ekonomisk förening. Bygdebolag, bygdeutveckling, intresseförening, Trönö brandvärn (ideellt), fastigheter (ICA-butiken m fl)",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Trönö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena åkerlind",
+        "contact_person_role": null,
+        "contact_person_email": "info@tronobygden.se",
+        "contact_person_phone": "+46270427762"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lena Åkerlind",
+        "0270-427762",
+        "info@tronobygden.se",
+        "https://www.tronobygden.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "UNF 152 Söderhamn",
+      "org_number": null,
+      "types": [
+        "Nykterhetsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=UNF%20152%20S%C3%B6derhamn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "Wallviks IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=Wallviks%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46706691392",
+      "description": {
+        "free_text": "Innebandyförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jörgen wasberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46706691392"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jörgen Wasberg",
+        "0706691392",
+        "www.wallviksinnebandy.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Söderhamn",
+    "scrape_run_id": "99dfc3e7-4aba-4e11-90b4-a2ac106a3c6f",
+    "scraped_at": "2025-10-29T00:57:10.595Z",
+    "association": {
+      "name": "X-RACE Sweden",
+      "org_number": null,
+      "types": [
+        "Ideell förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/xracesweden",
+      "detail_url": "https://soderhamn.rbok.se/foreningsregister?association=X-RACE%20Sweden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nilsnorberg@msn.com",
+      "phone": "+46733849249",
+      "description": {
+        "free_text": "Föreningens ändamål är att arrangera Hilldragrace med snöskoter och andra evenemang samt främja gemenskapen inom motorsport och vintersport. Vi önskar speciellt att fler unga tjejer från 18 års åldern skall uppmuntras att delta.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nils norberg",
+        "contact_person_role": null,
+        "contact_person_email": "nilsnorberg@msn.com",
+        "contact_person_phone": "+46733849249"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 2,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Nils Norberg",
+        "0733-849249",
+        "nilsnorberg@msn.com",
+        "https://www.facebook.com/xracesweden",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

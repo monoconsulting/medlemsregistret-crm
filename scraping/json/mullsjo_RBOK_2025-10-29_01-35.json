@@ -1,0 +1,2189 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Bjurbäcks Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": "https://www.bjurbackshbf.se/",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Bjurb%C3%A4cks%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@bjurbackshbf.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@bjurbackshbf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@bjurbackshbf.se",
+        "https://www.bjurbackshbf.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Bosebygds Motionärs Idrott",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Bosebygds%20Motion%C3%A4rs%20Idrott",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johan.gustafsson@ahlins.com",
+      "phone": "+46792272",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 19+"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "johan.gustafsson@ahlins.com",
+        "contact_person_phone": "+46792272"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 19+"
+      ],
+      "contact_lines": [
+        "Johan Gustafsson",
+        "+46730792272",
+        "johan.gustafsson@ahlins.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Brandmännens IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Brandm%C3%A4nnens%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hamrenpierre@gmail.com",
+      "phone": "+46760276636",
+      "description": {
+        "free_text": "Idrott på kvällstid",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 19+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pierre hamren",
+        "contact_person_role": null,
+        "contact_person_email": "hamrenpierre@gmail.com",
+        "contact_person_phone": "+46760276636"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 19+"
+      ],
+      "contact_lines": [
+        "Pierre Hamren",
+        "0760276636",
+        "hamrenpierre@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Budoklubben yoi",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Budoklubben%20yoi",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "glenn@och.nu",
+      "phone": "+46735161044",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Glenn bardh",
+        "contact_person_role": null,
+        "contact_person_email": "glenn@och.nu",
+        "contact_person_phone": "+46735161044"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år"
+      ],
+      "contact_lines": [
+        "Glenn Bardh",
+        "0735161044",
+        "glenn@och.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Café Bridge Mullsjö",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Caf%C3%A9%20Bridge%20Mullsj%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46738769380",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär 65+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bodil berg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46738769380"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär 65+"
+      ],
+      "contact_lines": [
+        "Bodil Berg",
+        "0738769380",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Equmenia Mullsjö",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Equmenia%20Mullsj%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Habo Mullsjö RPG förening",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Habo%20Mullsj%C3%B6%20RPG%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Pensionärssamlingar",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär 65+"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär 65+"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Handbollförbundet Väst",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Handbollf%C3%B6rbundet%20V%C3%A4st",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hugo.gustafsson@handbollvast.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hugo gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "hugo.gustafsson@handbollvast.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hugo Gustafsson",
+        "hugo.gustafsson@handbollvast.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "IFK Mullsjö Handboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=IFK%20Mullsj%C3%B6%20Handboll",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen.ifkmullsjo@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Styrelsen ifk mullsjö",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen.ifkmullsjo@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år"
+      ],
+      "contact_lines": [
+        "Styrelsen IFK Mullsjö",
+        "styrelsen.ifkmullsjo@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Klub Hungaria Ungerska föreningen i Jönköping",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Klub%20Hungaria%20Ungerska%20f%C3%B6reningen%20i%20J%C3%B6nk%C3%B6ping",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hubklubjkp@gmail.com",
+      "phone": "+46730586530",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eszter simonsen",
+        "contact_person_role": null,
+        "contact_person_email": "hubklubjkp@gmail.com",
+        "contact_person_phone": "+46730586530"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Eszter Simonsen",
+        "0730586530",
+        "hubklubjkp@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Korpföreningen Jönköping",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Korpf%C3%B6reningen%20J%C3%B6nk%C3%B6ping",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@korpenjonkoping.se",
+      "phone": "+4636120451",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christian cannerstad",
+        "contact_person_role": null,
+        "contact_person_email": "info@korpenjonkoping.se",
+        "contact_person_phone": "+4636120451"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christian Cannerstad",
+        "036120451",
+        "info@korpenjonkoping.se",
+        "www.korpenjonkoping.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "MAIS - Mullsjö AIS",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": "https://www.mullsjoais.se/",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=MAIS%20-%20Mullsj%C3%B6%20AIS",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pernilla.bernhardsson@mullsjoais.se",
+      "phone": "+46723176363",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pernilla bernhardsson",
+        "contact_person_role": null,
+        "contact_person_email": "pernilla.bernhardsson@mullsjoais.se",
+        "contact_person_phone": "+46723176363"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år"
+      ],
+      "contact_lines": [
+        "Pernilla Bernhardsson",
+        "072 317 63 63",
+        "pernilla.bernhardsson@mullsjoais.se",
+        "https://www.mullsjoais.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "MIF - Mullsjö Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket",
+        "Fotboll",
+        "Pingis"
+      ],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": "https://www.mullsjoif.se/",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=MIF%20-%20Mullsj%C3%B6%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mullsjoif@hotmail.com",
+      "phone": "+46767114085",
+      "description": {
+        "free_text": "Lokal fotbollsförening i Mullsjö med senior och barn- och ungdomsverksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket",
+                "Fotboll",
+                "Pingis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år",
+                "Vuxna 19+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Emil fritzell",
+        "contact_person_role": null,
+        "contact_person_email": "mullsjoif@hotmail.com",
+        "contact_person_phone": "+46767114085"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år",
+        "Vuxna 19+"
+      ],
+      "contact_lines": [
+        "Emil Fritzell",
+        "0767114085",
+        "mullsjoif@hotmail.com",
+        "https://www.mullsjoif.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Mullsjö Amatörteatersällskap",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Mullsj%C3%B6%20Amat%C3%B6rteaters%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "erik.sollander@telia.com",
+      "phone": "+46706645936",
+      "description": {
+        "free_text": "Amatörteaterföring som är öppen för alla som är intresserade av teater, men även för dig som vill testa på ljud och ljus eller varför inte manusskrivning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik sollander",
+        "contact_person_role": null,
+        "contact_person_email": "erik.sollander@telia.com",
+        "contact_person_phone": "+46706645936"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Erik Sollander",
+        "070 - 664 59 36",
+        "erik.sollander@telia.com",
+        "www.matsmullsjo.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Mullsjö Computer Association [MCA]",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Esport"
+      ],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Mullsj%C3%B6%20Computer%20Association%20%5BMCA%5D",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@mcanet.nu",
+      "phone": "+46739373469",
+      "description": {
+        "free_text": "Föreningen MCA är en ideell förening som bildades på 80-talet för att främja datorintresset hos elever på Trollehöjdskolan i Mullsjö. Föreningens syfte är att främja spelkultur genom olika aktiviteter där den främsta är att anordna \"LAN\" i Mullsjö.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Esport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Dejan nedic",
+        "contact_person_role": null,
+        "contact_person_email": "info@mcanet.nu",
+        "contact_person_phone": "+46739373469"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år"
+      ],
+      "contact_lines": [
+        "Dejan Nedic",
+        "073-937 34 69",
+        "info@mcanet.nu",
+        "www.mcanet.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Mullsjö Discgolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.mullsjodiscgolf.se/",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Mullsj%C3%B6%20Discgolfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@mullsjodiscgolf.se",
+      "phone": null,
+      "description": {
+        "free_text": "Förening som jobbar för discgolf, en sport för alla generationer.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6år",
+                "Pensionär 65+",
+                "Ungdom 7-18år",
+                "Vuxna 19+"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik bergbom",
+        "contact_person_role": null,
+        "contact_person_email": "info@mullsjodiscgolf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6år",
+        "Pensionär 65+",
+        "Ungdom 7-18år",
+        "Vuxna 19+"
+      ],
+      "contact_lines": [
+        "Erik Bergbom",
+        "info@mullsjodiscgolf.se",
+        "https://www.mullsjodiscgolf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Mullsjö Dykarklubb Gurami",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": "https://www.mdk-gurami.se/",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Mullsj%C3%B6%20Dykarklubb%20Gurami",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@mdk-gurami.se",
+      "phone": "+46727294450",
+      "description": {
+        "free_text": "sportdykning Fridykning, Paradykning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6år",
+                "Pensionär 65+",
+                "Ungdom 7-18år",
+                "Vuxna 19+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus roslund",
+        "contact_person_role": null,
+        "contact_person_email": "info@mdk-gurami.se",
+        "contact_person_phone": "+46727294450"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6år",
+        "Pensionär 65+",
+        "Ungdom 7-18år",
+        "Vuxna 19+"
+      ],
+      "contact_lines": [
+        "Magnus Roslund",
+        "0727294450",
+        "info@mdk-gurami.se",
+        "https://www.mdk-gurami.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Mullsjö MHF-Ungdomsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": "https://www.facebook.com/Mullsjominiracingklubb",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Mullsj%C3%B6%20MHF-Ungdomsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mullsjo@mhf-ungdom.se",
+      "phone": null,
+      "description": {
+        "free_text": "Mullsjö MHF Miniracingklubb handlar om Slotracing, att köra bilbana.\nMed en Eurosport 24-bil är banrekordet 3,9 sekunder på vår 41.5 meter långa bana som har åtta parallell spår.\nNi är välkomna på tisdagar mellan 17.00 till 19.00 på vår och hösttermin då vi kör med klubbilarna.\nMellan 19.00 till 20.00 så kör vi med våra egna bilar.\nVi har även öppet för medlemmar på torsdagar mellan 18.00 och 20.00",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar åmell",
+        "contact_person_role": null,
+        "contact_person_email": "mullsjo@mhf-ungdom.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år"
+      ],
+      "contact_lines": [
+        "Gunnar Åmell",
+        "mullsjo@mhf-ungdom.se",
+        "https://www.facebook.com/Mullsjominiracingklubb",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Mullsjö Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": "https://facebook.com/mullsjoskf",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Mullsj%C3%B6%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mullsjoskytteforening@gmail.com",
+      "phone": "+46736327546",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan rudberg",
+        "contact_person_role": null,
+        "contact_person_email": "mullsjoskytteforening@gmail.com",
+        "contact_person_phone": "+46736327546"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år"
+      ],
+      "contact_lines": [
+        "Johan Rudberg",
+        "0736327546",
+        "mullsjoskytteforening@gmail.com",
+        "https://facebook.com/mullsjoskf",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Mullsjö SOK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": "https://www.msok.se/",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Mullsj%C3%B6%20SOK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@msok.se",
+      "phone": null,
+      "description": {
+        "free_text": "Skidor, orientering, terränglöpning, orienteringsskytte",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna 19+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@msok.se",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@msok.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna 19+"
+      ],
+      "contact_lines": [
+        "info@msok.se",
+        "info@msok.se",
+        "https://www.msok.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Nattugglorna i Mullsjö",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Nattugglorna%20i%20Mullsj%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nattugglornaimullsjo@gmail.com",
+      "phone": "+46735119991",
+      "description": {
+        "free_text": "Vår verksamhet går ut på vuxenvandring i samhället med omnejd.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn wagenius",
+        "contact_person_role": null,
+        "contact_person_email": "nattugglornaimullsjo@gmail.com",
+        "contact_person_phone": "+46735119991"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Björn Wagenius",
+        "0735119991",
+        "nattugglornaimullsjo@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Pingst Mullsjö-Nyhem",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Pingst%20Mullsj%C3%B6-Nyhem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@mullsjopingst.se",
+      "phone": "+4639237650",
+      "description": {
+        "free_text": "En pingstförsamling med mycket barn och ungdomsverksamhet för alla åldrar.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin svensson",
+        "contact_person_role": null,
+        "contact_person_email": "info@mullsjopingst.se",
+        "contact_person_phone": "+4639237650"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Karin Svensson",
+        "039237650",
+        "info@mullsjopingst.se",
+        "www.mullsjopingst.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "PRO Mullsjö-Sandhem",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=PRO%20Mullsj%C3%B6-Sandhem",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mullsjo-sandhem@pro.se",
+      "phone": "+46704150120",
+      "description": {
+        "free_text": "Kassör: Leif Svensson tel. 0707 777067, leif.10245@live.se\nOrdförande: Kicki Svensson tel. 0704 150120, kicki.10245@live.se",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär 65+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kicki svensson",
+        "contact_person_role": null,
+        "contact_person_email": "mullsjo-sandhem@pro.se",
+        "contact_person_phone": "+46704150120"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär 65+"
+      ],
+      "contact_lines": [
+        "Kicki Svensson",
+        "0704150120",
+        "mullsjo-sandhem@pro.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Ryfors Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.ryforsgk.se/",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Ryfors%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ryforsgk.se",
+      "phone": "+4639212884",
+      "description": {
+        "free_text": "Golfklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart lindberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@ryforsgk.se",
+        "contact_person_phone": "+4639212884"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lennart Lindberg",
+        "039212884",
+        "info@ryforsgk.se",
+        "http://www.ryforsgk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Sandhems Framtidsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Mullsjö kommun",
+        "Sandhem - Sandhems skolområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Sandhems%20Framtidsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sandhemsff@gmail.com",
+      "phone": "+46703616364",
+      "description": {
+        "free_text": "Sandhems Framtidsförening är en ideell förening som arbetar för att forma Sandhems framtid. Vår målsättning är att skapa en levande och attraktiv bygd som kan erbjuda en hög livskvalitet för invånare och besökare. Genom att samarbeta med lokala företag, organisationer och invånare strävar vi efter att skapa en hållbar utveckling i Sandhem.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun",
+                "Sandhem - Sandhems skolområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karl-åke löwing",
+        "contact_person_role": null,
+        "contact_person_email": "sandhemsff@gmail.com",
+        "contact_person_phone": "+46703616364"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år"
+      ],
+      "contact_lines": [
+        "Karl-Åke Löwing",
+        "070-361 63 64",
+        "sandhemsff@gmail.com",
+        "www.sandhemsff.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "SIF - Sandhems IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans",
+        "Fotboll",
+        "Innebandy",
+        "Övrigt"
+      ],
+      "categories": [
+        "Mullsjö kommun",
+        "Sandhem - Sandhems skolområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=SIF%20-%20Sandhems%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sifstyrelse@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Fotboll",
+                "Innebandy",
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år",
+                "Vuxna 19+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun",
+                "Sandhem - Sandhems skolområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael lundquist",
+        "contact_person_role": null,
+        "contact_person_email": "sifstyrelse@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år",
+        "Vuxna 19+"
+      ],
+      "contact_lines": [
+        "Mikael Lundquist",
+        "sifstyrelse@outlook.com",
+        "sandhemsif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "SPF Seniorerna Mullsjö",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/distrikt/jonkopingdistriktet/foreningslista/mullsjo/",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Mullsj%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mullsjo@spfseniorerna.se",
+      "phone": "+46706981143",
+      "description": {
+        "free_text": "SPF-Pensionärsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär 65+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Arne tenvert",
+        "contact_person_role": null,
+        "contact_person_email": "mullsjo@spfseniorerna.se",
+        "contact_person_phone": "+46706981143"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär 65+"
+      ],
+      "contact_lines": [
+        "Arne Tenvert",
+        "0706-98 11 43",
+        "mullsjo@spfseniorerna.se",
+        "https://www.spfseniorerna.se/distrikt/jonkopingdistriktet/foreningslista/mullsjo/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Sägnernas Musik & Kulturförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Mullsjö kommun",
+        "Sandhem - Sandhems skolområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=S%C3%A4gnernas%20Musik%20%26%20Kulturf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sagnernashus.se",
+      "phone": "+46736990902",
+      "description": {
+        "free_text": "Folktromuseum, Danser, Marknader, Vandringsleder",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun",
+                "Sandhem - Sandhems skolområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Carina edlundh",
+        "contact_person_role": null,
+        "contact_person_email": "info@sagnernashus.se",
+        "contact_person_phone": "+46736990902"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Carina Edlundh",
+        "0736990902",
+        "info@sagnernashus.se",
+        "www sagnernashus.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Tunarps Fältrittklubb",
+      "org_number": null,
+      "types": [
+        "Ridsportförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Mullsjö kommun",
+        "Sandhem - Sandhems skolområde"
+      ],
+      "homepage_url": "http://tunarpsfaltrittklubb.se/",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Tunarps%20F%C3%A4ltrittklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tunarpsfaltrittklubb.se",
+      "phone": "+46735352236",
+      "description": {
+        "free_text": "Ridsportförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6år",
+                "Pensionär 65+",
+                "Ungdom 7-18år",
+                "Vuxna 19+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun",
+                "Sandhem - Sandhems skolområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas grahn",
+        "contact_person_role": null,
+        "contact_person_email": "info@tunarpsfaltrittklubb.se",
+        "contact_person_phone": "+46735352236"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6år",
+        "Pensionär 65+",
+        "Ungdom 7-18år",
+        "Vuxna 19+"
+      ],
+      "contact_lines": [
+        "Jonas Grahn",
+        "073-5352236",
+        "info@tunarpsfaltrittklubb.se",
+        "http://tunarpsfaltrittklubb.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Utvängstorps hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Mullsjö kommun"
+      ],
+      "homepage_url": "https://www.hembygd.se/utv-ngstorp-hembygdsf-rening",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=Utv%C3%A4ngstorps%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen har till syfte att\n-samla och utveckla kunskap om bygdens kultur och natur\n-aktivt medverka till vård och bevarande av bygdens kultur och natur\n-dokumentera personer, bebyggelse, vägar, föremål, händelser, historiska minnen och natur\n-stimulera initiativ som gagnar bygden och dess utveckling\n-verka för sammanhållning och social gemenskap i bygden\n-organisera och genomföra aktiviteter inom här nämnda intresseområden",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn 0-6år",
+                "Pensionär 65+",
+                "Ungdom 7-18år",
+                "Vuxna 19+"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Mullsjö kommun"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn 0-6år",
+        "Pensionär 65+",
+        "Ungdom 7-18år",
+        "Vuxna 19+"
+      ],
+      "contact_lines": [
+        "https://www.hembygd.se/utv-ngstorp-hembygdsf-rening",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Mullsjö",
+    "scrape_run_id": "b687ae12-33db-4cd6-bf69-06a9a0908817",
+    "scraped_at": "2025-10-29T00:35:43.758Z",
+    "association": {
+      "name": "Västergötlands Innebandyförbund",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.innebandy.se/vastergotland",
+      "detail_url": "https://mullsjo.rbok.se/foreningsregister?association=V%C3%A4sterg%C3%B6tlands%20Innebandyf%C3%B6rbund",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vastergotland@innebandy.se",
+      "phone": "+46739135985",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdom 7-18år"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "vastergotland@innebandy.se",
+        "contact_person_phone": "+46739135985"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdom 7-18år"
+      ],
+      "contact_lines": [
+        "0739135985",
+        "vastergotland@innebandy.se",
+        "https://www.innebandy.se/vastergotland",
+        "Stäng"
+      ]
+    }
+  }
+]

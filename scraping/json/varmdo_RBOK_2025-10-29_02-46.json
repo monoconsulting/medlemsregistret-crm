@@ -1,0 +1,6545 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "ABF Stockholm",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.abfstockholm.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=ABF%20Stockholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+4684534100",
+      "description": {
+        "free_text": "Studiecirklar, kurser och föreläsningar och föreningsstöd.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4684534100"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "084534100",
+        "http://www.abfstockholm.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "AFC Hemmesta",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.laget.se/AFCHemmesta",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=AFC%20Hemmesta",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ek_andreas@yahoo.se",
+      "phone": null,
+      "description": {
+        "free_text": "Fotbollsförening i Hemmesta",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andreas ek",
+        "contact_person_role": null,
+        "contact_person_email": "ek_andreas@yahoo.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)"
+      ],
+      "contact_lines": [
+        "Andreas Ek",
+        "ek_andreas@yahoo.se",
+        "https://www.laget.se/AFCHemmesta",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Astma och allergiföreningen Stockholm Sydost",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [
+        "Friskvård och motion",
+        "Möte",
+        "Sociala aktiviteter"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Värmdölandet"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Astma%20och%20allergif%C3%B6reningen%20Stockholm%20Sydost",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Opinionsbildande kring Astma och Allergifrågor.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friskvård och motion",
+                "Möte",
+                "Sociala aktiviteter"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Funktionsnedsatta (alla åldrar)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Funktionsnedsatta (alla åldrar)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Attention Nacka Värmdö",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Möte",
+        "Sociala aktiviteter"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": "https://www.nackavarmdo.attention.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Attention%20Nacka%20V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Våra medlemmar är vuxna som har neuropsykiatriska funktionsnedsättningar såsom\nadhd/add, autismspektrum/Asperger syndrom, Tourettes syndrom och andra närliggande\nfunktionsnedsättningar, anhöriga till personer med dessa funktionsnedsättningar samt andra som\nvill stödja vårt arbete, till exempel yrkesverksamma inom området. Vårt primära syfte är att verka\nför bättre levnadsvillkor för våra medlemmar, och det gör vi genom att sprida information, ordna\nmedlemsaktiviteter och arbeta intressepolitiskt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Möte",
+                "Sociala aktiviteter"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta nordfors johansson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "https://www.nackavarmdo.attention.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "BK Bleket",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=BK%20Bleket",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Bostadsrättsförening Östra Ekedal",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Möte"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Bostadsr%C3%A4ttsf%C3%B6rening%20%C3%96stra%20Ekedal",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "brfostraekedel@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Gezelius väg 12-18",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Möte"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "brfostraekedel@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "brfostraekedel@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Bågskytteklubben Fiskgjusen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": "https://bkfiskgjusen.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=B%C3%A5gskytteklubben%20Fiskgjusen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "webb@bkfiskgjusen.se",
+      "phone": null,
+      "description": {
+        "free_text": "BK Fiskgjusen är en bågskytteklubb på Värmdö som startades 1995. Idag skjuter våra medlemmar alla bågtyper aktivt. BK Fiskgjusen håller inomhus till i Gustavsberg Sporthall, medan vi utomhus håller till vid Björnkärret i närheten av Skeviksgrottan. Klubben har genom åren tagit över 60 SM-Guld.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "webb@bkfiskgjusen.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "webb@bkfiskgjusen.se",
+        "https://bkfiskgjusen.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Cineklubb See by Sea",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Cineklubb%20See%20by%20Sea",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "annehelene@sommarstrom.se",
+      "phone": "+46708230440",
+      "description": {
+        "free_text": "Föreningens huvudsakliga mål är att bedriva barn- och ungdomsverksamhet inom kulturområdet främst gällande film men även inom filmnära ämnen såsom exempelvis musik samt berättande och interaktiv media.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anne-helene sommarström",
+        "contact_person_role": null,
+        "contact_person_email": "annehelene@sommarstrom.se",
+        "contact_person_phone": "+46708230440"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anne-Helene Sommarström",
+        "0708230440",
+        "annehelene@sommarstrom.se",
+        "planerd",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Dalhuggets samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.dalhugget.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Dalhuggets%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Samfällighetsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "http://www.dalhugget.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Djurö Byalag",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Kulturarrangemang",
+        "Möte",
+        "Sociala aktiviteter"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Skärgården"
+      ],
+      "homepage_url": "https://www.djurobyalag.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Djur%C3%B6%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@djurobyalag.se",
+      "phone": "+46704921180",
+      "description": {
+        "free_text": "Föreningen Djurö Byalag, nedan kallad Byalaget, är en allmännyttig, ideell förening som är parti-politiskt och religiöst obunden. Byalaget organiserar människor och verksamheter med intressen som sammanfaller med vad som anges nedan gällande Grundsyn och Ändamål.\nByalagets geografiska verksamhetsområde är: Djurö, Vindö, Skarpö, Skepparön samt kringliggande småöar.\nByalaget skall verka för god närmiljö för alla som bor i området i samarbete med enskilda, lokala föreningar, församling, företag och myndigheter.",
+        "sections": [
+          {
+            "title": "Verksamhetsområdet är både socialt och fysiskt. Det innefattar också bevakning av Östersjöfrågor.",
+            "data": {
+              "activities": [
+                "Grundsyn:",
+                "Byalaget skall ha ett humanistiskt och demokratiskt synsätt och vill vara en aktör som skapar broar mellan olika intressegrupper i verksamhetsområdet. Byalaget är öppet för alla",
+                "oavsett bakgrund. Byalaget vill med sitt arbete bidra till utveckling",
+                "gemenskap",
+                "trygghet och identitet.",
+                "Byalagets yttrande i olika frågor skall anses representera den allmänna uppfattningen eller åsikten hos bygdens invånare. Frågor som drivs förankras via möten och träffar",
+                "mailutskick",
+                "hemsida och Facebooksida.",
+                "Ändamål:",
+                "Byalagets inriktning är",
+                "a)    Att slå vakt om och bevara områdets prägel av småskalig skärgårdsbebyggelse med sitt maritima kulturarv. Det innebär inte att motverka all ny bebyggelse",
+                "men exploatering bör bedrivas i lugn takt",
+                "estetiskt",
+                "hänsynsfullt och utan att bryta mot den befintliga skärgårdsmiljön. Utbyggnad ska inte hota färskvattentillgång",
+                "bad",
+                "båtplatser",
+                "näringsliv eller invanda strövområden och för allmänheten tillgängliga stränder.",
+                "b)    Att ordna traditionsenliga firanden i samarbete med andra lokala aktörer.",
+                "c)    Att vara remissinstans och språkrör mot kommun",
+                "myndigheter och andra instanser i planfrågor som gäller generella övergripande frågor av gemensam karaktär.",
+                "Byalagets årliga verksamhet preciseras i en allmänt tillgänglig verksamhetsplan. Denna kan behandla kommunikationer",
+                "vatten",
+                "båt- och badplatstillgång",
+                "lekmiljö",
+                "trafiksäkerhet",
+                "bebyggelse",
+                "samlingslokaler och frågor om utemiljöns estetiska gestaltning."
+              ]
+            }
+          },
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Kulturarrangemang",
+                "Möte",
+                "Sociala aktiviteter"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Skärgården"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin österman",
+        "contact_person_role": null,
+        "contact_person_email": "info@djurobyalag.se",
+        "contact_person_phone": "+46704921180"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Karin Österman",
+        "0704921180",
+        "info@djurobyalag.se",
+        "https://www.djurobyalag.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Djurö Stavsnäs Konst&Kultur",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "http://www.djurokultur.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Djur%C3%B6%20Stavsn%C3%A4s%20Konst%26Kultur",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@djurokultur.se",
+      "phone": "+46733995132",
+      "description": {
+        "free_text": "Byskolan i Stavsnäs är Konst&Kultur´s arena för, teater, musikevenemang, föredrag, konstutställningar, barnteater. På sommaren har vi även utomhus evenemang, med musik och kåserier och sommar & julmarknad. 2023 Presenterade vi tre (3) teaterföreställningar, fyra (4) musikevenemang, åtta (8) Föredrag, en medlemsfest. vi har även upplåtit Byskolan till andra lokala arrangörer och föreningar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.djurokultur.se",
+        "contact_person_role": null,
+        "contact_person_email": "info@djurokultur.se",
+        "contact_person_phone": "+46733995132"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "www.djurokultur.se",
+        "0733995132",
+        "info@djurokultur.se",
+        "http://www.djurokultur.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Djurökulturhus",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Djurö/Stavsnäs"
+      ],
+      "homepage_url": "https://djurokulturhus.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Djur%C3%B6kulturhus",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@djurokulturhus.se",
+      "phone": null,
+      "description": {
+        "free_text": "Paraplyorganisation utan egen verksamhet",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@djurokulturhus.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "styrelsen@djurokulturhus.se",
+        "https://djurokulturhus.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Djurö-Vindö IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.dvif.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Djur%C3%B6-Vind%C3%B6%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@dvif.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@dvif.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "kansli@dvif.se",
+        "https://www.dvif.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Eastside Fightcenter IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://eastsidefightcenter.tranakampsport.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Eastside%20Fightcenter%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi bedriver kampsportsverksamhet där vi lär ut thaiboxning, kickboxning, brasiliansk jiu-jitsu, boxning och MMA.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "http://eastsidefightcenter.tranakampsport.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Ekens Hockey Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": "http://ekenshockey.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Ekens%20Hockey%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ekenshockey.se",
+      "phone": null,
+      "description": {
+        "free_text": "Hos Ekens Hockey står vi för värderingar som sträcker sig bortom isrinken. Vi är en klubb belägen i Gustavsberg, Värmdö, med starka rötter i samhället. Vi vänder oss till pojkar födda mellan 2004 och 2007 och tjejer födda efter 2008, med en passion för ishockey. Alla med rätt inställning och skicklighet är välkomna i vår ishockeyfamilj. Våra Kärnvärden:\n1.    Inkludering: Vi tror på att alla som har viljan och färdigheterna att spela hockey ska ha möjligheten att göra det. Vi strävar efter att skapa en miljö där varje spelare känner sig värderad och respekterad.\n2.    Utveckling: Vi är engagerade i att utveckla starka individer och skickliga hockeyspelare. Vi tror på att stödja varje spelares tillväxt både på och utanför isen.\n3.    Balans: Vi tror på balansen mellan sport, skola och fritid. Våra spelare uppmuntras att sträva efter framgång i alla aspekter av deras liv.\n4.    Gemenskap: Vi värderar det starka band som skapas genom sport. Glädje, vänskap och samarbete står i centrum för vårt lagarbete.\nVåra Mål:\n•    Att ge alla spelare en möjlighet att växa och utvecklas genom sporten.\n•    Att skapa en miljö som främjar god sportmannaanda, respekt och lagarbete.\n•    Att ständigt sträva efter att förbättra oss som klubb och lag, både på och utanför isen.\n•    Att främja en känsla av gemenskap och tillhörighet bland alla medlemmar i Ekens Hockey.\nVåra lag stöds av en stabil organisation bestående av huvudtränare, assisterande tränare, målvaktstränare, fys tränare och lagledare. Alla arbetar hårt för att stödja varje spelares utveckling och framgång.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ishockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "William maruschak",
+        "contact_person_role": null,
+        "contact_person_email": "info@ekenshockey.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)"
+      ],
+      "contact_lines": [
+        "William Maruschak",
+        "info@ekenshockey.se",
+        "http://ekenshockey.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Folkuniversitetet Kursverksamheten vid Stockholms universitert",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.folkuniversitetet.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Folkuniversitetet%20Kursverksamheten%20vid%20Stockholms%20universitert",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "eva.arnek@folkuniversitetet.se",
+      "phone": "+4687894234",
+      "description": {
+        "free_text": "Folkbildning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva arnek",
+        "contact_person_role": null,
+        "contact_person_email": "eva.arnek@folkuniversitetet.se",
+        "contact_person_phone": "+4687894234"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Eva Arnek",
+        "08-7894234",
+        "eva.arnek@folkuniversitetet.se",
+        "https://www.folkuniversitetet.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Friluftsfrämjandet Värmdö",
+      "org_number": null,
+      "types": [
+        "Friluftsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.friluftsframjandet.se/regioner/malardalen/lokalavdelningar/varmdo/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Friluftsfr%C3%A4mjandet%20V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "varmdo@friluftsframjandet.se",
+      "phone": null,
+      "description": {
+        "free_text": "Främja Friluftslivet med olika aktiviteter, barngrupper, skridskor",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael målar",
+        "contact_person_role": null,
+        "contact_person_email": "varmdo@friluftsframjandet.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Mikael Målar",
+        "varmdo@friluftsframjandet.se",
+        "https://www.friluftsframjandet.se/regioner/malardalen/lokalavdelningar/varmdo/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Föreningen Funkisarr",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [
+        "Rörelse"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=F%C3%B6reningen%20Funkisarr",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "foreningenfunkisarr@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en ideell förening som har som ändamål att främja god hälsa, aktiv fritid, delaktighet i samhället, stimulera utbildning och digitalisering för personer med intellektuell funktionsnedsättning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Rörelse"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Funktionsnedsatta (alla åldrar)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "foreningenfunkisarr@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Funktionsnedsatta (alla åldrar)"
+      ],
+      "contact_lines": [
+        "foreningenfunkisarr@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Föreningen Fyrhuset",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Möte",
+        "Öppen verksamhet"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs"
+      ],
+      "homepage_url": "https://foreningenfyrhuset.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=F%C3%B6reningen%20Fyrhuset",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@foreningenfyrhuset.se",
+      "phone": "+46868407040",
+      "description": {
+        "free_text": "Föreningen Fyrhuset är en idéburen, ungdomsstyrd och ideell förening med åldersöverskridande verksamheter som sträcker sig från projekt, resor och evenemang till kultur, nöjen och idrott. När det finns individer som vill engagera sig och har tid att investera i en idé är Föreningen Fyrhuset den självklara samarbetspartnern, både lokalt, nationellt och internationellt. Utifrån detta närmar sig föreningen sin vision; ett samhälle där alla ska kunna ha känsla av egenmakt - empowerment.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Möte",
+                "Öppen verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@foreningenfyrhuset.se",
+        "contact_person_phone": "+46868407040"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "0868407040",
+        "info@foreningenfyrhuset.se",
+        "https://foreningenfyrhuset.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Föreningen sandhamns vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Kulturarrangemang",
+        "Musik",
+        "Simskola",
+        "Sociala aktiviteter",
+        "Utbildning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.sandhamnsvanner.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=F%C3%B6reningen%20sandhamns%20v%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sandhamnsvanner.se",
+      "phone": null,
+      "description": {
+        "free_text": "FSV är en socialsamhällsnyttig förening med aktiviteter för alla åldrar samt engagemang i att bygga och upprätthålla en samhällsstruktur för skärgårdssamhället. FSV arbetar också för att bevara och stärka kultur, miljö och traditioner kopplade till skärgården. Medlemsavgift finns, är mellan 175 för enskild pensionär, 265 för enskild vuxen och 475 för familj.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Kulturarrangemang",
+                "Musik",
+                "Simskola",
+                "Sociala aktiviteter",
+                "Utbildning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@sandhamnsvanner.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "info@sandhamnsvanner.se",
+        "https://www.sandhamnsvanner.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Föreningen Skärgårdsmuseet",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.skargardsmuseet.org/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=F%C3%B6reningen%20Sk%C3%A4rg%C3%A5rdsmuseet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@skargardsmuseet.org",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen Skärgårdsmuseet driver tre museer i Värmdö kommun, Skärgårdsmuseet i Stavsnäs (2025 öppet bl a tisd-sönd 12-16 28 juni- 24 aug), Skärgårdsmuseet-Nämdöfilialen i Sand på Nämdö (2025 öppet 28 juni-10 aug.) samt Skärgårdsmuseet-Runmaröfilialen på Runmarö. Förutom basutställningar om skärgårdskultur ställer vi ut egenproducerade specialutställningar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@skargardsmuseet.org",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@skargardsmuseet.org",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "info@skargardsmuseet.org",
+        "-",
+        "info@skargardsmuseet.org",
+        "http://www.skargardsmuseet.org",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "GF Wermdö",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik",
+        "Parkour"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.gfw.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=GF%20Wermd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@gfwermdo.se",
+      "phone": "+46840014330",
+      "description": {
+        "free_text": "Värmdös äldsta och största gymnastikförening med något för alla åldrar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik",
+                "Parkour"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Föreningskansliet",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@gfwermdo.se",
+        "contact_person_phone": "+46840014330"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Föreningskansliet",
+        "0840014330",
+        "kansli@gfwermdo.se",
+        "https://www.gfw.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Granens Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Specialverksamhet"
+      ],
+      "categories": [
+        "Ingarö"
+      ],
+      "homepage_url": "http://ingaro.com/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Granens%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "granen@ingaro.com",
+      "phone": null,
+      "description": {
+        "free_text": "Förvalta gemensamt vattenverk samt lek- och parkmark för 121 fastighets belägna vid Slingerstigen på Klacknästet, Ingarö inom Värmdö Kommun",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Specialverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ingarö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Britt- inger fredriksson",
+        "contact_person_role": null,
+        "contact_person_email": "granen@ingaro.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Britt- Inger Fredriksson",
+        "granen@ingaro.com",
+        "Http://ingaro.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs Blåsorkester",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.gustavsbergsblasorkester.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20Bl%C3%A5sorkester",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordf@gustavsbergsblasorkester.se",
+      "phone": "+46705514106",
+      "description": {
+        "free_text": "Vi spelar tillsammans",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Musik"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Cilla kåverud",
+        "contact_person_role": null,
+        "contact_person_email": "ordf@gustavsbergsblasorkester.se",
+        "contact_person_phone": "+46705514106"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Cilla Kåverud",
+        "0705514106",
+        "ordf@gustavsbergsblasorkester.se",
+        "http://www.gustavsbergsblasorkester.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs IF  Bandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bandy",
+        "Friskvård och motion",
+        "Skridskor"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.gustavsbergsbandy.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20IF%20%20Bandyklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@gustavsbergsbandy.se",
+      "phone": null,
+      "description": {
+        "free_text": "Gustavsbergs IF Bandyklubb",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bandy",
+                "Friskvård och motion",
+                "Skridskor"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@gustavsbergsbandy.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "kansli@gustavsbergsbandy.se",
+        "https://www.gustavsbergsbandy.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs IF Fotbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.gustavsbergsfotboll.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20IF%20Fotbollsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@giffk.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@giffk.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "kansliet@giffk.com",
+        "https://www.gustavsbergsfotboll.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "http://www.gkonst.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@gkonst.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi verkar för \"Konst för alla mitt i livet\" och vill presentera en mångfald av konstinriktningar och göra dem tillgängliga för våra medlemmar. Våra intentioner är också att sprida intresset för konst i samhället. Vi vill vara en garant för konstnärlig mångfald, historiebevarande men också utveckling genom att delta på utställningar, gallerier. museer. konsthallar m m. Alla medlemmar är med i ett årligt medlemslotteri och vartannat år får alla en medlemsgåva i form av ett konstverk.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Margaretha fernqvist",
+        "contact_person_role": null,
+        "contact_person_email": "info@gkonst.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Margaretha Fernqvist",
+        "info@gkonst.se",
+        "http://www.gkonst.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs Musik och Balettstudio",
+      "org_number": null,
+      "types": [
+        "Föreningsdriven kulturskola"
+      ],
+      "activities": [
+        "Dans",
+        "Musik"
+      ],
+      "categories": [
+        "Gustavsberg",
+        "Ingarö"
+      ],
+      "homepage_url": "https://www.gustavsbergbaletten.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20Musik%20och%20Balettstudio",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anna@gustavsbergbaletten.se",
+      "phone": "+46734222269",
+      "description": {
+        "free_text": "Undervisning i barndans, balett, karaktärsdans, Contemporary/modern dans och piano.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg",
+                "Ingarö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna skarin",
+        "contact_person_role": null,
+        "contact_person_email": "anna@gustavsbergbaletten.se",
+        "contact_person_phone": "+46734222269"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Anna Skarin",
+        "073-4222269",
+        "anna@gustavsbergbaletten.se",
+        "https://www.gustavsbergbaletten.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering"
+      ],
+      "categories": [
+        "Värmdölandet"
+      ],
+      "homepage_url": "http://gustavsbergsok.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20Orienteringsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@gustavsbergsok.se",
+      "phone": null,
+      "description": {
+        "free_text": "Orienteringsklubb på Värmdö med bred verksamhet för alla åldrar. Bedriver träning och tävlingsverksamhet och arrangerar tävlingar. Framställer kartor och skolkartor i Värmdö kommun.\nStyrelsen består av: Gunnar Lindberg (ordförande), Hillevi Fornander, Cecilia Nilsson, Anders Jenner (sekreterare) och Thomas Wester (kassör)",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Orientering"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hillevi fornander",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@gustavsbergsok.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Hillevi Fornander",
+        "ordforande@gustavsbergsok.se",
+        "http://gustavsbergsok.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs Porslinsmuseums vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Värmdölandet"
+      ],
+      "homepage_url": "http://www.porslinsmuseumsvanner.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20Porslinsmuseums%20v%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@porslinsmuseetsvanner.se",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningens syfte är att vi tillsammans ska arbeta för en positiv utveckling för Gustavsbergs Porslinsmuseum.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@porslinsmuseetsvanner.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@porslinsmuseetsvanner.se",
+        "http://www.porslinsmuseumsvanner.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs Ryttarsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": "http://www.gustavsbergsrs.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20Ryttars%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@gustavsbergsrs.se",
+      "phone": null,
+      "description": {
+        "free_text": "Gustavsbergs Ryttarsällskap (GuRS) är en ideell förening som arbetar med utbildning, barn- och ungdomsverksamhet och tävlingsverksamhet inom häst- och ridsport. Föreningens verksamhet bedrivs på ridanläggningen och i samverkan med ridskolan som ägs av Gustavsbergs Hästcenter.\nGuRS startades 1981 och verkar för att skapa sammanhållning och engagemang bland elever som befinner sig på ridanläggningen och i ridskolan. Klubben anordnar också löpande klubbtävlingar, s.k blåbärshoppningar och evenemang för att skapa sammanhållning.\nFöreningen driver också cafeteriaverksamheten på anläggningen och genomför en rad aktiviteter för medlemmarna. Särskilt fokus läggs vid barn- och ungdomsverksamhet och klubben har som ambition att skapa en aktiv och meningsfull fritid för sina medlemmar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna bertling",
+        "contact_person_role": null,
+        "contact_person_email": "info@gustavsbergsrs.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Anna Bertling",
+        "info@gustavsbergsrs.se",
+        "http://www.gustavsbergsrs.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs Scenstudio",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20Scenstudio",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gustavsbergsscenstudio@gmail.com",
+      "phone": "+46703514332",
+      "description": {
+        "free_text": "Gustavsbergs Scenstudio är en amatörteaterförening med en lång historia av teaterproduktioner.\nFöreningen grundades 1945 och har sedan dess satt upp olika former av scenproduktioner. Teaterpjäser (både för barn och vuxna), revyer, dramatiserade musikprogram, några musikaler och en operett. Revyerna har alltid lokal anknytning. I dagsläget har föreningen medlemmar i åldrarna 15 – 80 år.\nGustavsbergs Scenstudio välkomnar alla som vill bidra till vår verksamhet. Förutom de som vill agera på scenen, med eller utan sång, så behövs personer som vill snickra, måla, sy kläder och/eller vara scenarbetare.\nGustavsbergs Scenstudio har ambitionen att sätta upp minst en produktion per år.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elisabet palm",
+        "contact_person_role": null,
+        "contact_person_email": "gustavsbergsscenstudio@gmail.com",
+        "contact_person_phone": "+46703514332"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Elisabet Palm",
+        "0703514332",
+        "gustavsbergsscenstudio@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs Simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.gssweb.se/start/?ID=89190",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20Sims%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@gssweb.se",
+      "phone": null,
+      "description": {
+        "free_text": "Gustavsbergs Simsällskap bildades år 2001. Klubben är en ideell förening och drivs utan vinstgivande intresse. Simklubben bedriver sin verksamhet i Gustavsbergsbadet, Ösby badväg 3, 134 38 Gustavsberg.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@gssweb.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)"
+      ],
+      "contact_lines": [
+        "kansli@gssweb.se",
+        "https://www.gssweb.se/start/?ID=89190",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergs Vänner",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": "http://www.gustavsbergaren.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergs%20V%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gustavsbergsvenner@gmail.com",
+      "phone": "+46707289995",
+      "description": {
+        "free_text": "Gustavsbergs Vänner är en hembygdsförening för Gustavsbergs socken. Till skillnad från andra hembygdsföreningar saknar vi en publik lokal men har ett omfattande digitalt arkiv varav en del finns publicerat på vår hemsida i form av inskannade tidningar och skrifter, digitaliserade filmer och bilder samt ett bildarkiv som vi förvarar i vår lokal ett f.d. mangelrum på 16 kvm i Munkmora. Vi arrangerar Valborg i Strandviksparken sedan 1996, två båtresor ut i skärgården med ca 200 deltagare och medverkar till att ge ut historiska böcker och skrifter om Gustavsberg.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bo hertz",
+        "contact_person_role": null,
+        "contact_person_email": "gustavsbergsvenner@gmail.com",
+        "contact_person_phone": "+46707289995"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Bo Hertz",
+        "070-728 99 95",
+        "gustavsbergsvenner@gmail.com",
+        "http://www.gustavsbergaren.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Gustavsbergskören",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang",
+        "Musik",
+        "Sång"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://gustavsbergskoren.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Gustavsbergsk%C3%B6ren",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lenamalm@hotmail.com",
+      "phone": "+46737811042",
+      "description": {
+        "free_text": "Körsång med repetitioner varje vecka samt 2 - 4 offentliga konserter i kommunen varje år",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang",
+                "Musik",
+                "Sång"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena malm",
+        "contact_person_role": null,
+        "contact_person_email": "lenamalm@hotmail.com",
+        "contact_person_phone": "+46737811042"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Lena Malm",
+        "073-7811042",
+        "lenamalm@hotmail.com",
+        "https://gustavsbergskoren.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Ingarö Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Ingarö"
+      ],
+      "homepage_url": "https://ingarohembygdsforening.com/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Ingar%C3%B6%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ulla.skansen@gmail.com",
+      "phone": "+46761644261",
+      "description": {
+        "free_text": "Hembygdsgård",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ingarö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulla skansén",
+        "contact_person_role": null,
+        "contact_person_email": "ulla.skansen@gmail.com",
+        "contact_person_phone": "+46761644261"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Ulla Skansén",
+        "0761644261",
+        "ulla.skansen@gmail.com",
+        "https://ingarohembygdsforening.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Ingarö IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis",
+        "Fotboll",
+        "Fotbollsmatcher StFF",
+        "Friidrott",
+        "Friskvård och motion",
+        "Futsal",
+        "Innebandy"
+      ],
+      "categories": [
+        "Gustavsberg",
+        "Ingarö"
+      ],
+      "homepage_url": "https://www.ingaroif.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Ingar%C3%B6%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ingaroif.se",
+      "phone": "+46739875500",
+      "description": {
+        "free_text": "Flersektionsförening verksam på Ingarö.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis",
+                "Fotboll",
+                "Fotbollsmatcher StFF",
+                "Friidrott",
+                "Friskvård och motion",
+                "Futsal",
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg",
+                "Ingarö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter hartzell",
+        "contact_person_role": null,
+        "contact_person_email": "info@ingaroif.se",
+        "contact_person_phone": "+46739875500"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Peter Hartzell",
+        "0739875500",
+        "info@ingaroif.se",
+        "https://www.ingaroif.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Ingarö kulturförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Gustavsberg",
+        "Ingarö",
+        "Värmdölandet"
+      ],
+      "homepage_url": "http://ingarokultur.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Ingar%C3%B6%20kulturf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "paulssonmusic@gmail.com",
+      "phone": "+46768684949",
+      "description": {
+        "free_text": "Konserter i Anders Paulssons trädgård med artister av hög klass.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg",
+                "Ingarö",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders paulsson",
+        "contact_person_role": null,
+        "contact_person_email": "paulssonmusic@gmail.com",
+        "contact_person_phone": "+46768684949"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Anders Paulsson",
+        "0768684949",
+        "paulssonmusic@gmail.com",
+        "http://ingarokultur.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Ingarö Sjöscoutkår",
+      "org_number": null,
+      "types": [
+        "Friluftsförening"
+      ],
+      "activities": [
+        "Scoutverksamhet"
+      ],
+      "categories": [
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "http://ingaro.scout.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Ingar%C3%B6%20Sj%C3%B6scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@ingarosjoscout.se",
+      "phone": null,
+      "description": {
+        "free_text": "Sjöscouter för alla 8-99 år",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scoutverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ordförande susanne ahlgren",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@ingarosjoscout.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Ordförande Susanne Ahlgren",
+        "ordforande@ingarosjoscout.se",
+        "http://ingaro.scout.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Ingaröstrands Samfällighet",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Möte"
+      ],
+      "categories": [],
+      "homepage_url": "https://ingarostrand.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Ingar%C3%B6strands%20Samf%C3%A4llighet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Möte"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://ingarostrand.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Kulturarv Djurhamn",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Kulturarrangemang",
+        "Möte",
+        "Sociala aktiviteter",
+        "Studiecirklar",
+        "Utbildning",
+        "Öppen verksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.djurhamn.eu/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Kulturarv%20Djurhamn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@djurhamn.eu",
+      "phone": "+46703896889",
+      "description": {
+        "free_text": "Föreningen Kulturarv Djurhamn, nedan kallad Föreningen, är en allmännyttig, ideell före¬ning som är partipolitiskt och religiöst obunden. Föreningen organiserar människor och verksamheter med intressen som sammanfaller med vad som anges i § 3 (Föreningens grundsyn) och § 4 (Föreningens ändamål) i dessa stadgar.\nMed Djurhamn avses i dessa stadgar det forna Djurhamn: Barnvik, Djurö, Skarpö, Skepparön, Stavsnäs och Vindö med kringliggande småöar.\nFöreningen har ett humanistiskt och demokratiskt synsätt och vill skapa broar mellan det förgångna, nutiden och framtiden. Föreningen är öppen för alla, oavsett bakgrund. Den respekterar kulturarvets skiftande former i tid och rum. Genom föreningens arbete vill vi bidra till gemenskap, trygghet och identitet. Intresset för kulturarvet är drivkraften i engagemanget för bygden. Här möts alla generationer.\nFöreningens ändamål är:\n1 att arrangera olika slags evenemang.\n2 att bevara, använda och utveckla kunskapen om Djurhamns tidiga maritima historia genom att göra detta kulturarv levande i nutid och föra kunskapen vidare till kommande generationer.\n3 att stärka samverkan mellan bofasta, fritidsboende, föreningar, företag, församling och andra aktörer i syfte att använda det maritima kulturarvet för utvecklad besöksnäring.\n4 att medverka till att öka kunskapen om behovet av insatser för ett renare Östersjön.\n5 att samverka med aktörer med intresse för stormaktstidens Sverige med fokus på Ålands och Estlands skärgårdar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Kulturarrangemang",
+                "Möte",
+                "Sociala aktiviteter",
+                "Studiecirklar",
+                "Utbildning",
+                "Öppen verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (20+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders mannesten",
+        "contact_person_role": null,
+        "contact_person_email": "info@djurhamn.eu",
+        "contact_person_phone": "+46703896889"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Anders Mannesten",
+        "0703896889",
+        "info@djurhamn.eu",
+        "http://www.djurhamn.eu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Kulturföreningen i Gustavsberg",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Kulturf%C3%B6reningen%20i%20Gustavsberg",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "arioso.productions@icloud.com",
+      "phone": "+46706571045",
+      "description": {
+        "free_text": "Föreningens ändamål är att främja och utveckla kulturlivet i Värmdö genom att\n- arbeta för ett öppet och tillgängligt kulturhus för alla i Gustavsberg\n- öka kunskapen om kulturfrågor, informera om dem och bilda opinion\n- verka för att modernisera Gustavsbergs teater\n- samverka med andra sammanslutningar och enskilda i kulturfrågor\n- arrangera och driva kulturevenemang och festivaler.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan ove hafstad",
+        "contact_person_role": null,
+        "contact_person_email": "arioso.productions@icloud.com",
+        "contact_person_phone": "+46706571045"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Jan Ove Hafstad",
+        "070-6571045",
+        "arioso.productions@icloud.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Möja kulturella ungdomsrörelse",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Bild och Form",
+        "Dans",
+        "Film",
+        "Musik"
+      ],
+      "categories": [
+        "Skärgården"
+      ],
+      "homepage_url": "http://www.mojadansbana.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=M%C3%B6ja%20kulturella%20ungdomsr%C3%B6relse",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@mojadansbana.se",
+      "phone": "+46707283489",
+      "description": {
+        "free_text": "Möja Kulturella Ungdomsrörelse (MKU), med Möja Dansbana, Möja Bio och Bygdegård, utgör ett kulturellt nav i Stockholms mellanskärgård. Under snart 80 år har MKU bedrivit en omfattande programverksamhet med konserter, filmvisningar, festivaler, allsångskvällar, dans till livemusik, livesänd opera, teater, film- och samtalsserier, sommarkollon, konstutställningar, marknader och mycket annat. Dessa evenemang lockar varje år tusentals besökare från Möja, omkringliggande öar, Värmdö kommun och Stockholm. På en landsbygd som Möja blir det allt färre offentliga mötesplatser då restauranger och andra verksamheter stänger ner under en stor del av året. Då är MKU:s verksamhet särskilt betydelsefull. Vår vision är att bidra till ett mer levande lokalsamhälle genom att skapa kulturella mötesplatser där människor kan umgås och ta del av musik, film och samtal. Hos oss finns det något för alla, oavsett bakgrund och ålder.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Bild och Form",
+                "Dans",
+                "Film",
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skärgården"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katja uneborg",
+        "contact_person_role": null,
+        "contact_person_email": "info@mojadansbana.se",
+        "contact_person_phone": "+46707283489"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Katja Uneborg",
+        "0707283489",
+        "info@mojadansbana.se",
+        "http://www.mojadansbana.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Mörtnäskören",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Sång"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://mortnaskor.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=M%C3%B6rtn%C3%A4sk%C3%B6ren",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mortnaskoren@live.se",
+      "phone": null,
+      "description": {
+        "free_text": "Körsång, repetitioner och konserter",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Sång"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "mortnaskoren@live.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "mortnaskoren@live.se",
+        "https://mortnaskor.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "NBV Öst",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=NBV%20%C3%96st",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ost@nbv.se",
+      "phone": "+46733730197",
+      "description": {
+        "free_text": "Vi jobbar med folkbildning i form av studiecirklar, annan folkbildning och kulturprogram",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.nbv.se/ost",
+        "contact_person_role": null,
+        "contact_person_email": "ost@nbv.se",
+        "contact_person_phone": "+46733730197"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0733-73 01 97",
+        "ost@nbv.se",
+        "www.nbv.se/ost",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Nämdö Green Archipelago",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Skärgården"
+      ],
+      "homepage_url": "http://www.greenarchipelago.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=N%C3%A4md%C3%B6%20Green%20Archipelago",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@greenarchipelago.se",
+      "phone": "+46709541939",
+      "description": {
+        "free_text": "Vi jobbar för att bli ett Biosfärområde som bygger på lokal förankring och blir vad människorna i området gör det till, i ett biosfärområde måste det bo människor! NGA ser ett biosfärområde som ett medel för att nå målet: Ett livskraftigt skärgårdssamhälle, där människor kan leva hela sina liv och försörja sig samtidigt som naturen mår bra.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skärgården"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann aldeheim",
+        "contact_person_role": null,
+        "contact_person_email": "info@greenarchipelago.se",
+        "contact_person_phone": "+46709541939"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Ann Aldeheim",
+        "0709541939",
+        "info@greenarchipelago.se",
+        "http://www.greenarchipelago.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "PRO Värmdö",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.pro.se/varmdo",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=PRO%20V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "varmdo@pro.se",
+      "phone": "+46703764935",
+      "description": {
+        "free_text": "PRO Värmdö är en förening för alla seniorer i Värmdö kommun.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer hedberg",
+        "contact_person_role": null,
+        "contact_person_email": "varmdo@pro.se",
+        "contact_person_phone": "+46703764935"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer (65+ år)"
+      ],
+      "contact_lines": [
+        "Christer Hedberg",
+        "0703764935",
+        "varmdo@pro.se",
+        "https://www.pro.se/varmdo",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Rosenlunds Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Rosenlunds%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Samfällighetsförening för området Rosenmalm på Ingarö",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Runmarö Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Bio",
+        "Fotboll",
+        "Gymnastik",
+        "Kulturarrangemang",
+        "Musik",
+        "Möte",
+        "Sociala aktiviteter"
+      ],
+      "categories": [
+        "Skärgården"
+      ],
+      "homepage_url": "https://www.xn--runmarhembygdsfrening-mecj.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Runmar%C3%B6%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@runmaro.org",
+      "phone": "+467683919413",
+      "description": {
+        "free_text": "Värna Runmarös unika historia, kultur och natur och bidraga till gemenskap för alla personer med anknytning till ön. Värna hembygdsgården som en mötesplats för alla på Runmarö.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Bio",
+                "Fotboll",
+                "Gymnastik",
+                "Kulturarrangemang",
+                "Musik",
+                "Möte",
+                "Sociala aktiviteter"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skärgården"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena bengtsson, kassör",
+        "contact_person_role": null,
+        "contact_person_email": "info@runmaro.org",
+        "contact_person_phone": "+467683919413"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Lena Bengtsson, kassör",
+        "0768 3919413",
+        "info@runmaro.org",
+        "https://www.runmaröhembygdsförening.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Runmarö musik och litteraturdagar",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Kulturarrangemang",
+        "Musik"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Runmar%C3%B6%20musik%20och%20litteraturdagar",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "monika.m.skog@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen arrangerar en helg varje sommar musik och litteratur för medlemmar och besökare på Runmarö. Innehållet har bredd och sträcker sig från den klassiska repertoaren och framåt samt djupdyker i någon författares gärning genom författarsamtal, vilken följs upp med bokcirkel på senhösten. Senaste två åren har vi även anordnat en medlemsbonus med hitintills litterära samtal på våren vilket blivit ett bra tillfälle att värva nya medlemmar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Kulturarrangemang",
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monika mannerström skog",
+        "contact_person_role": null,
+        "contact_person_email": "monika.m.skog@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Monika Mannerström Skog",
+        "-",
+        "monika.m.skog@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Runmarö Yacht Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Segling"
+      ],
+      "categories": [
+        "Skärgården"
+      ],
+      "homepage_url": "https://www.ryc.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Runmar%C3%B6%20Yacht%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@ryc.se",
+      "phone": null,
+      "description": {
+        "free_text": "Runmarö Yacht Club startade sin verksamhet 1991 med målsättningen att främja segling och båtliv på Runmarö med omnejd.\nSeglarskola\nSeglarskola arrangeras under två sommarlovsveckor. Kurserna spänner från nybörjare till kappsegling. Endast medlemmar i RYC får delta i klubbens seglarskola på Runmarö, men det är lätt att bli medlem här på hemsidan. Anmäl i tid då intresset brukar vara mycket stort. Anmälan kan göras via seglarskolans hemsida. Anmälan brukar öppna redan kring nyår.\nSjöbus & Försegel\nFör barn i åldern 5-8 år brukar klubben arrangera Sjöbus under några timmar i fyra dagar vid ett eller två tillfällen under sommarlovet. Då leker vi båtrelaterade lekar och prövar på lite motor och segelbåt om vädret tillåter. Sedan 2022 prövar vi också en ny mellanform som vi kalla Försegel för de som vuxit ur Sjöbus men ännu inte är riktigt mogna för seglarskolan.\nKappsegling\nRYC arrangerar varje år många kappseglingar där de flesta är rena klubbseglingar för klubbens medlemmar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Segling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skärgården"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@ryc.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "styrelsen@ryc.se",
+        "https://www.ryc.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Saltsjö Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Judo"
+      ],
+      "categories": [],
+      "homepage_url": "http://saltsjo-judoklubb.webnode.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Saltsj%C3%B6%20Judoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Judo"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Josef macias",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Josef Macias",
+        "http://saltsjo-judoklubb.webnode.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Saltsjöbadens Träslöjdsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Specialverksamhet"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Saltsj%C3%B6badens%20Tr%C3%A4sl%C3%B6jdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46708420519",
+      "description": {
+        "free_text": "Träslöjd en kväll i veckan.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Specialverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders lambert",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46708420519"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Anders Lambert",
+        "070-8420519",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Scenkonstgrupp",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang",
+        "Repetition",
+        "Teater",
+        "Utbildning"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.scenkonstgruppen.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Scenkonstgrupp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@nadjafranke.se",
+      "phone": null,
+      "description": {
+        "free_text": "Scenkonstgruppen skapar scenkonst för en levande skärgård. Varje sommar turnerar vi med en ny uppsättning främst i Stockholms skärgård.\nVi erbjuder scenkonst som ger möjlighet till mänskliga möten på och utanför scenen.\nGruppen består av etablerade scenkonstnärer som jobbar med manus, regi, skådespeleri, film och scenografi.\nScenkonstgruppen har även en ungdomsgrupp, med ungdomar mellan 16 och 25, som får träning i scenframställning, mask, kostym, scenografi och viss träning i rollarbete.\nUnder 2023 och 2024 kommer ungdomsgruppen att ses ca. 2 gånger i månaden för att öva sceniskgestaltning på olika sätt. I månaderna maj, juni och juli, varje år, kommer arbetet intensifieras och vi kommer då att lägga stort arbete på den föreställning som sedan ska på turné i Stockholms skärgård.\nMed hjälp av de professionella medarbetarna, som knyts till föreställningarna, så kommer vi att erbjuda ungdomarna i Teaterverkstan stöd, erfarenhet och kunskap.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang",
+                "Repetition",
+                "Teater",
+                "Utbildning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nadja franke",
+        "contact_person_role": null,
+        "contact_person_email": "info@nadjafranke.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Nadja Franke",
+        "info@nadjafranke.se",
+        "https://www.scenkonstgruppen.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "SeniorNet Värmdö",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Studiecirklar",
+        "Utbildning"
+      ],
+      "categories": [
+        "Gustavsberg",
+        "Ingarö",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://seniornetvarmdo.n.nu/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=SeniorNet%20V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "SeniorNet Värmdö är en ideell föreningen som hjälper seniorer att förstå och använda digital teknik och digitala tjänster genom intressanta föreläsningar samt support.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Studiecirklar",
+                "Utbildning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg",
+                "Ingarö",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie kollberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer (65+ år)"
+      ],
+      "contact_lines": [
+        "Marie Kollberg",
+        "https://seniornetvarmdo.n.nu/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Sensus studieförbund Stockholm Gotland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Sensus%20studief%C3%B6rbund%20Stockholm%20Gotland",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stockholm@sensus.se",
+      "phone": "+4686155770",
+      "description": {
+        "free_text": "Folkbildningsverksamhet / verksamhetsformer:\ncirkel, kultur och annan folkbildning.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sensus.se",
+        "contact_person_role": null,
+        "contact_person_email": "stockholm@sensus.se",
+        "contact_person_phone": "+4686155770"
+      },
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "stockholm@sensus.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "stockholm@sensus.se",
+        "086155770",
+        "stockholm@sensus.se",
+        "sensus.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Shorinji Kempo Värmdö Shibu",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friskvård och motion",
+        "Shorinji Kempo"
+      ],
+      "categories": [
+        "Ingarö"
+      ],
+      "homepage_url": "https://www.svenskalag.se/skvarmdo",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Shorinji%20Kempo%20V%C3%A4rmd%C3%B6%20Shibu",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "varmdo@shorinjikempo.se",
+      "phone": null,
+      "description": {
+        "free_text": "Shorinji Kempo - Japansk budo. Självförsvar, fysisk träning och mental utveckling. Träningen innehåller slag och sparkar, kast och losstagningar, meditation och fysträning, läger och vänskap, respekt och ödmjukhet. Från 10 år.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friskvård och motion",
+                "Shorinji Kempo"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ingarö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lovisa johnson",
+        "contact_person_role": null,
+        "contact_person_email": "varmdo@shorinjikempo.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Lovisa Johnson",
+        "varmdo@shorinjikempo.se",
+        "https://www.svenskalag.se/skvarmdo",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Show´Em",
+      "org_number": null,
+      "types": [
+        "Föreningsdriven kulturskola"
+      ],
+      "activities": [
+        "Dans",
+        "Sång",
+        "Teater"
+      ],
+      "categories": [],
+      "homepage_url": "https://showstudio.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Show%C2%B4Em",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@showstudio.se",
+      "phone": "+4687171",
+      "description": {
+        "free_text": "Dans,sång och teaterlektioner för barn-och ungdomar på Värmdö.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Sång",
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Emma poromaa",
+        "contact_person_role": null,
+        "contact_person_email": "info@showstudio.se",
+        "contact_person_phone": "+4687171"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)"
+      ],
+      "contact_lines": [
+        "Emma Poromaa",
+        "072/5087171",
+        "info@showstudio.se",
+        "https://showstudio.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Siggesta Ryttare",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.siggestaryttare.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Siggesta%20Ryttare",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik norström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Norström",
+        "http://www.siggestaryttare.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Skeppsdalsströms samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Skeppsdalsstr%C3%B6ms%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@skeppsdalsstrom.se",
+      "phone": null,
+      "description": {
+        "free_text": "Samfällighet med 161 fastigheter. Gemensamt ansvar för vägar, hamn och grönområden",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@skeppsdalsstrom.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "styrelsen@skeppsdalsstrom.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Skärgårdsturnen ideella förening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarrangemang"
+      ],
+      "categories": [
+        "Värmdölandet"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Sk%C3%A4rg%C3%A5rdsturnen%20ideella%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tina@skargardsturnen.com",
+      "phone": "+46708535744",
+      "description": {
+        "free_text": "Konsert-verksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarrangemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.skargardsturnen.com",
+        "contact_person_role": null,
+        "contact_person_email": "tina@skargardsturnen.com",
+        "contact_person_phone": "+46708535744"
+      },
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "tina@skargardsturnen.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer (65+ år)"
+      ],
+      "contact_lines": [
+        "tina@skargardsturnen.com",
+        "070-8535744",
+        "tina@skargardsturnen.com",
+        "www.skargardsturnen.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "SPF Seniorerna Värmdö",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.spfseniorerna.se/varmdo",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=SPF%20Seniorerna%20V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "varmdo@spfseniorerna.se",
+      "phone": null,
+      "description": {
+        "free_text": "SPF seniorerna är en förening för alla seniorer bosatta i Värmdö kommun.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "varmdo@spfseniorerna.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "varmdo@spfseniorerna.se",
+        "https://www.spfseniorerna.se/varmdo",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan Stockholms län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.sv.se/stockholmslan",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20Vuxenskolan%20Stockholms%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "abc@sv.se",
+      "phone": "+46812055100",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kundtjänst sv stockholms län",
+        "contact_person_role": null,
+        "contact_person_email": "abc@sv.se",
+        "contact_person_phone": "+46812055100"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kundtjänst SV Stockholms län",
+        "08-12055100",
+        "abc@sv.se",
+        "https://www.sv.se/stockholmslan",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Svenska röda korset Värmdökretsen",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Sociala aktiviteter"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.rodakorset.se/ort/stockholm/varmdo-kommun/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Svenska%20r%C3%B6da%20korset%20V%C3%A4rmd%C3%B6kretsen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "varmdo@redcross.se",
+      "phone": "+46705583504",
+      "description": {
+        "free_text": "Föreningen tillhör Svenska Röda Korset som har som ändamål att, förhindra och lindra mänskligt lidande var och när det än förekommer, skydda liv och hälsa och säkerställa respekt för varje människas värde, särskilt under tider av väpnad konflikt och andra nödsituationer.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Sociala aktiviteter"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulla sundberg",
+        "contact_person_role": null,
+        "contact_person_email": "varmdo@redcross.se",
+        "contact_person_phone": "+46705583504"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ulla Sundberg",
+        "0705583504",
+        "varmdo@redcross.se",
+        "https://www.rodakorset.se/ort/stockholm/varmdo-kommun/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Sällskapet Roland Svenssons Vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.rolandsvenssonmuseet.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=S%C3%A4llskapet%20Roland%20Svenssons%20V%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "museet@rolandsvenssonsallskapet.se",
+      "phone": "+46705397323",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "museet@rolandsvenssonsallskapet.se",
+        "contact_person_phone": "+46705397323"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0705397323",
+        "museet@rolandsvenssonsallskapet.se",
+        "https://www.rolandsvenssonmuseet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Wermdö Golf & Country Club (juniorverksamhet)",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Värmdölandet"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Wermd%C3%B6%20Golf%20%26%20Country%20Club%20(juniorverksamhet)",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "junior@wermdogolf.se",
+      "phone": null,
+      "description": {
+        "free_text": "WGCC vill erbjuda klubbens juniorer möjlighet att träna och utveckla sin golf tillsammans med andra juniorer. Juniorverksamheten består av träning, tävling och andra gemensamma aktiviteter för att juniorerna ska få upptäcka golfens gemenskap här i vår fantastiska miljö. Juniorkommittén vill möjliggöra för medlemmar att kunna utöva golf med familj och vänner i alla åldrar, och att skapa en grund för klubbens framtid. Målet är att etablera ett golfintresse för livet.\nUtveckling, inkluderande gemenskap och glädje är våra grundläggande värderingar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Golf"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter lennebrant",
+        "contact_person_role": null,
+        "contact_person_email": "junior@wermdogolf.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)"
+      ],
+      "contact_lines": [
+        "Peter Lennebrant",
+        "junior@wermdogolf.se",
+        "wermdogolf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Wermdö Taekwondo Förening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Taekwondo"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": "https://wermdotkd.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Wermd%C3%B6%20Taekwondo%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@wermdotkd.se",
+      "phone": null,
+      "description": {
+        "free_text": "Teknik- och kampträning i Taekwondo för barn, ungdomar och vuxna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Taekwondo"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@wermdotkd.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "info@wermdotkd.se",
+        "https://wermdotkd.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Wilson Wackers",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=Wilson%20Wackers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "birgersson.jakob@gmail.com",
+      "phone": "+46736306552",
+      "description": {
+        "free_text": "Volleyboll som träningsform för alla som vill",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jakob birgersson",
+        "contact_person_role": null,
+        "contact_person_email": "birgersson.jakob@gmail.com",
+        "contact_person_phone": "+46736306552"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "jakob birgersson",
+        "0736306552",
+        "birgersson.jakob@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Välkommen till Värmdö",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Arrangemang",
+        "Sociala aktiviteter",
+        "Specialverksamhet",
+        "Utbildning",
+        "Öppen verksamhet"
+      ],
+      "categories": [
+        "Gustavsberg",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.valkommentillvarmdo.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4lkommen%20till%20V%C3%A4rmd%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelse.vtv@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "VtV arbetar med inkluderande integrationsarbete med främst nyanlända och fd nyanlända, alla åldrar, alla kön - alla är välkomna. VtV arbetar med att skapa ett sammanhang, en plattform och ett nätverk för Värmdös nyanlända och volontärer.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Arrangemang",
+                "Sociala aktiviteter",
+                "Specialverksamhet",
+                "Utbildning",
+                "Öppen verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "styrelse.vtv@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "styrelse.vtv@gmail.com",
+        "https://www.valkommentillvarmdo.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Allmänna Skridskoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Konståkning"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": "https://www.vask.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Allm%C3%A4nna%20Skridskoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info.vask@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Singelåkning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konståkning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info.vask@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "info.vask@gmail.com",
+        "https://www.vask.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö anhörigförening",
+      "org_number": null,
+      "types": [
+        "Förening för funktionsnedsatta"
+      ],
+      "activities": [
+        "Sociala aktiviteter",
+        "Specialverksamhet"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Värmdölandet"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20anh%C3%B6rigf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "annwahand@gmail.com",
+      "phone": "+46706511490",
+      "description": {
+        "free_text": "Värmdö Anhörigförening vänder sig till dem, som har en äldre nära anhörig med demens eller på annat sätt inte klarar sin vardag. Föreningen stöttar och hjälper medlemmarna. Vi har regelbundna träffar med föredrag, besök av olika funktioner inom vård-och omsorg, digitala föreläsningar och stödjande samtal. Vi har plats i pensionärsrådet, där vi driver frågor som gäller kommunens vård-och omsorg som riktar sig till äldre. Vi gör studiebesök på bl a kommunens äldreboenden. Vi arrangerar träffar med musikunderhållning mm.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Sociala aktiviteter",
+                "Specialverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anne-marie wahlberg andersson",
+        "contact_person_role": null,
+        "contact_person_email": "annwahand@gmail.com",
+        "contact_person_phone": "+46706511490"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer (65+ år)"
+      ],
+      "contact_lines": [
+        "Anne-Marie Wahlberg Andersson",
+        "0706511490",
+        "annwahand@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö dragspelsgille",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20dragspelsgille",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sturewikberger@hotmail.se",
+      "phone": "+46739658094",
+      "description": {
+        "free_text": "Musik till dans främst på Gustavsgården",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionärer (65+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sture wikberger",
+        "contact_person_role": null,
+        "contact_person_email": "sturewikberger@hotmail.se",
+        "contact_person_phone": "+46739658094"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionärer (65+ år)"
+      ],
+      "contact_lines": [
+        "Sture Wikberger",
+        "+460739658094",
+        "sturewikberger@hotmail.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Freestyle",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.varmdofreestyle.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Freestyle",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "varmdo.freestyle@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi tränar barn och ungdomar i puckelpiståkning. Vår vision är att de ska ha en utvecklingsmiljö i världsklass. Våra värdeord är Gemenska, glädje, säker och utveckling.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "varmdo.freestyle@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)"
+      ],
+      "contact_lines": [
+        "varmdo.freestyle@gmail.com",
+        "https://www.varmdofreestyle.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Gymnastikakademi GF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.varmdogymnastikakademi.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Gymnastikakademi%20GF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@varmdogymnastikakademi.se",
+      "phone": null,
+      "description": {
+        "free_text": "Hos Värmdö Gymnastikakademi är alltid gymnastikglädjen i fokus!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kansliet",
+        "contact_person_role": null,
+        "contact_person_email": "info@varmdogymnastikakademi.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Kansliet",
+        "info@varmdogymnastikakademi.se",
+        "https://www.varmdogymnastikakademi.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Hockey Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Isfritids",
+        "Ishockey"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": "http://www.varmdohockey.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Hockey%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@varmdohockey.se",
+      "phone": "+46700555865",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Isfritids",
+                "Ishockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan sundqvist",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@varmdohockey.se",
+        "contact_person_phone": "+46700555865"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Stefan Sundqvist",
+        "070-055 58 65",
+        "kansliet@varmdohockey.se",
+        "http://www.varmdohockey.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö hästvägsförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.varmdohast.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20h%C3%A4stv%C3%A4gsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@varmdohastvagar.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@varmdohastvagar.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "ordforande@varmdohastvagar.se",
+        "http://www.varmdohast.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Friidrott",
+        "Innebandy"
+      ],
+      "categories": [
+        "Värmdölandet"
+      ],
+      "homepage_url": "http://varmdoif.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@varmdoif.se",
+      "phone": "+46857022010",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Friidrott",
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Niklas mattsson",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@varmdoif.se",
+        "contact_person_phone": "+46857022010"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Niklas Mattsson",
+        "08-57022010",
+        "kansliet@varmdoif.se",
+        "http://varmdoif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Jolleseglare",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Segling"
+      ],
+      "categories": [
+        "Värmdölandet"
+      ],
+      "homepage_url": "http://www.jolleseglarna.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Jolleseglare",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@jolleseglarna.se",
+      "phone": "+4670602999",
+      "description": {
+        "free_text": "Värmdö Jolleseglare driver seglarskola för barn och ungdomar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Segling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Richard gradin",
+        "contact_person_role": null,
+        "contact_person_email": "info@jolleseglarna.se",
+        "contact_person_phone": "+4670602999"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)"
+      ],
+      "contact_lines": [
+        "Richard Gradin",
+        "070-602999",
+        "info@jolleseglarna.se",
+        "http://www.jolleseglarna.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö konstnärer",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Bild och Form"
+      ],
+      "categories": [
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.varmdokonstnarer.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20konstn%C3%A4rer",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@varmdokonstnarer.se",
+      "phone": "+46739695286",
+      "description": {
+        "free_text": "Förening för konstnärer bosatta och/eller verksamma i kommunen",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bild och Form"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik sjöström",
+        "contact_person_role": null,
+        "contact_person_email": "info@varmdokonstnarer.se",
+        "contact_person_phone": "+46739695286"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Sjöström",
+        "0739695286",
+        "info@varmdokonstnarer.se",
+        "https://www.varmdokonstnarer.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Norra skärgårds hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [
+        "Bild och Form",
+        "Bio",
+        "Kulturarrangemang",
+        "Musik",
+        "Rörelse",
+        "Segling",
+        "Simskola",
+        "Sociala aktiviteter"
+      ],
+      "categories": [
+        "Skärgården"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Norra%20sk%C3%A4rg%C3%A5rds%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anettesvartso@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bild och Form",
+                "Bio",
+                "Kulturarrangemang",
+                "Musik",
+                "Rörelse",
+                "Segling",
+                "Simskola",
+                "Sociala aktiviteter"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skärgården"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lina sjöquist",
+        "contact_person_role": null,
+        "contact_person_email": "anettesvartso@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Lina Sjöquist",
+        "anettesvartso@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Ridklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://www.varmdoridklubb.nu/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Ridklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@varmdoridklubb.nu",
+      "phone": "+46857168534",
+      "description": {
+        "free_text": "Värmdö Ridklubb bedriver verksamhet för barn, ungdomar, vuxna och funktionshindrade. Klubben har ridskoleverksamhet, kurser, hästaktiviteter och tävlingar och fungerar också som fritidsgård då många barn och ungdomar är dagligen i stallet och umgås med varandra och hästarna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Funktionsnedsatta (alla åldrar)",
+                "Pensionärer (65+ år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@varmdoridklubb.nu",
+        "contact_person_phone": "+46857168534"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@varmdoridklubb.nu",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Funktionsnedsatta (alla åldrar)",
+        "Pensionärer (65+ år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "info@varmdoridklubb.nu",
+        "08-57168534",
+        "info@varmdoridklubb.nu",
+        "https://www.varmdoridklubb.nu/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Scenskola",
+      "org_number": null,
+      "types": [
+        "Föreningsdriven kulturskola"
+      ],
+      "activities": [
+        "Dans",
+        "Musik",
+        "Teater"
+      ],
+      "categories": [
+        "Gustavsberg"
+      ],
+      "homepage_url": "https://www.varmdoscenskola.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Scenskola",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@varmdoscenskola.se",
+      "phone": "+46857027610",
+      "description": {
+        "free_text": "Värmdö Scenskola är en ideell föreningsdriven kulturskola för barn och unga. Vi erbjuder främst kurser för barn och unga men har även ett antal vuxenkurser. Våra lokaler är i Värmdö Kulturhus, Centrumhuset och Gustavsbergsteatern.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans",
+                "Musik",
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christoffer skoug",
+        "contact_person_role": null,
+        "contact_person_email": "info@varmdoscenskola.se",
+        "contact_person_phone": "+46857027610"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Christoffer Skoug",
+        "08-57027610",
+        "info@varmdoscenskola.se",
+        "https://www.varmdoscenskola.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Seniordansare",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Seniordansare",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kerstinoberg1@telia.com",
+      "phone": "+465933455",
+      "description": {
+        "free_text": "Föreningen har som ändamål att erbjuda dans som metod för deltagares friskvård, kulturella upplevelser och social gemenskap samt främja och bevara folkliga danser från när och fjärran.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstin öberg",
+        "contact_person_role": null,
+        "contact_person_email": "kerstinoberg1@telia.com",
+        "contact_person_phone": "+465933455"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kerstin Öberg",
+        "+46705933455",
+        "kerstinoberg1@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Shitoryu Kofukan",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Gustavsberg",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://varmdo.shitoryu-kofukan.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Shitoryu%20Kofukan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jane.schorling@gmail.com",
+      "phone": "+46707526812",
+      "description": {
+        "free_text": "Bedrivit karate/självförsvar i Värmdö sedan 1996.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Karate"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gustavsberg",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jane schörling",
+        "contact_person_role": null,
+        "contact_person_email": "jane.schorling@gmail.com",
+        "contact_person_phone": "+46707526812"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Jane Schörling",
+        "070-7526812",
+        "jane.schorling@gmail.com",
+        "https://varmdo.shitoryu-kofukan.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Sjöscoutkår",
+      "org_number": null,
+      "types": [
+        "Friluftsförening"
+      ],
+      "activities": [
+        "Scoutverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": "https://varmdo.scout.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Sj%C3%B6scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@varmdoscout.se",
+      "phone": null,
+      "description": {
+        "free_text": "Scoutverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scoutverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@varmdoscout.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)"
+      ],
+      "contact_lines": [
+        "styrelsen@varmdoscout.se",
+        "https://varmdo.scout.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö SK Basket",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [],
+      "homepage_url": "https://varmdobasket.se/",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20SK%20Basket",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "niclas.tjeder@gmail.com",
+      "phone": "+46707429491",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Niclas tjeder",
+        "contact_person_role": null,
+        "contact_person_email": "niclas.tjeder@gmail.com",
+        "contact_person_phone": "+46707429491"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Niclas Tjeder",
+        "0707429491",
+        "niclas.tjeder@gmail.com",
+        "https://varmdobasket.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Skeppslags fornminnesförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/varmdo-skeppslag",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Skeppslags%20fornminnesf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "v.skeppslag@gmail.com",
+      "phone": "+46733702616",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gabriele prenzlau-enander",
+        "contact_person_role": null,
+        "contact_person_email": "v.skeppslag@gmail.com",
+        "contact_person_phone": "+46733702616"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gabriele Prenzlau-Enander",
+        "0733702616",
+        "v.skeppslag@gmail.com",
+        "https://www.hembygd.se/varmdo-skeppslag",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Värmdö",
+    "scrape_run_id": "ad9a6671-9625-414b-8585-793728fb40a7",
+    "scraped_at": "2025-10-29T01:46:31.301Z",
+    "association": {
+      "name": "Värmdö Synchronized Skating Academy",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Konståkning",
+        "Skridskor"
+      ],
+      "categories": [
+        "Djurö/Stavsnäs",
+        "Gustavsberg",
+        "Ingarö",
+        "Skärgården",
+        "Värmdölandet"
+      ],
+      "homepage_url": "https://sites.google.com/view/varmdossa",
+      "detail_url": "https://varmdo.rbok.se/foreningsregister?association=V%C3%A4rmd%C3%B6%20Synchronized%20Skating%20Academy",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "varmdo.ssa@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "VSSA är en ideell konståkningsförening med fokus på synkroniserad konståkning samt isdans och solodans. Vi erbjuder också singelåkning och skridskoskola. Vi vill ge möjlighet att kunna träna och tävla i samtliga discipliner inom konståkning.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konståkning",
+                "Skridskor"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-19 år)",
+                "Vuxna (20+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Djurö/Stavsnäs",
+                "Gustavsberg",
+                "Ingarö",
+                "Skärgården",
+                "Värmdölandet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Catharina bexander",
+        "contact_person_role": null,
+        "contact_person_email": "varmdo.ssa@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-19 år)",
+        "Vuxna (20+ år)"
+      ],
+      "contact_lines": [
+        "Catharina Bexander",
+        "varmdo.ssa@gmail.com",
+        "https://sites.google.com/view/varmdossa",
+        "Stäng"
+      ]
+    }
+  }
+]

@@ -60,12 +60,14 @@ echo  Tjänster ombyggda och startade!
 echo ========================================
 echo.
 echo - Next.js App: http://localhost:3020
+echo - Backend API: http://localhost:4040
 echo - MySQL:       localhost:3316 (user: crm_user, pass: crm_password_change_me)
 echo - phpMyAdmin:  http://localhost:8170
 echo - Redis:       localhost:6279
 echo.
 echo Kommandon:
 echo   Visa app logs:  docker compose -f docker-compose.dev.yml logs -f app
+echo   Visa API logs:  docker compose -f docker-compose.dev.yml logs -f backend
 echo   Stoppa:         docker compose -f docker-compose.dev.yml down
 echo   Starta om:      docker compose -f docker-compose.dev.yml restart
 echo.

@@ -1,0 +1,6023 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Aktiv Ungdom Vellinge",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.aktivungdom.se/forening/vellinge",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Aktiv%20Ungdom%20Vellinge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vellinge@aktivungdom.se",
+      "phone": "+46707681086",
+      "description": {
+        "free_text": "Barn och ungdomsverksamhet, t.ex gymnastik, parkour, badminton, piano, gitarr",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nina olofsson",
+        "contact_person_role": null,
+        "contact_person_email": "vellinge@aktivungdom.se",
+        "contact_person_phone": "+46707681086"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Nina Olofsson",
+        "0707681086",
+        "vellinge@aktivungdom.se",
+        "https://www.aktivungdom.se/forening/vellinge",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Arrie vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Arrie%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hagman.stefan@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats bååth (ordf) / stefan hagman (kassör)",
+        "contact_person_role": null,
+        "contact_person_email": "hagman.stefan@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mats Bååth (ordf) / Stefan Hagman (kassör)",
+        "hagman.stefan@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Bibliotekets vänner Höllviken",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Bibliotekets%20v%C3%A4nner%20H%C3%B6llviken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anianordgren47@gmail.com",
+      "phone": "+46704220263",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ania nordgren",
+        "contact_person_role": null,
+        "contact_person_email": "anianordgren47@gmail.com",
+        "contact_person_phone": "+46704220263"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ania Nordgren",
+        "070-4220263",
+        "anianordgren47@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Billings vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Billings%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "billingsvag@gmail.com",
+      "phone": "+46725199884",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger kristiansson",
+        "contact_person_role": null,
+        "contact_person_email": "billingsvag@gmail.com",
+        "contact_person_phone": "+46725199884"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Roger Kristiansson",
+        "0725-199884",
+        "billingsvag@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "BK Höllviken",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=BK%20H%C3%B6llviken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@bkhollviken.se",
+      "phone": "+4640451152",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.bkhollviken.se",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@bkhollviken.se",
+        "contact_person_phone": "+4640451152"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "040-451152",
+        "kansli@bkhollviken.se",
+        "www.bkhollviken.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "BRF Plåtslagaren i Vellinge",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Årsmöte"
+      ],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=BRF%20Pl%C3%A5tslagaren%20i%20Vellinge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Årsmöte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19- år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Bruksparkens samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Hököpinge"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Bruksparkens%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ewa.skrollan@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hököpinge"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva-kristine hansson",
+        "contact_person_role": null,
+        "contact_person_email": "ewa.skrollan@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Eva-Kristine Hansson",
+        "ewa.skrollan@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Chroons Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Chroons%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bjuvang@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Niclas bjuväng",
+        "contact_person_role": null,
+        "contact_person_email": "bjuvang@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Niclas Bjuväng",
+        "bjuvang@gmail.com",
+        "www.chroons.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Ekonomiska föreningen Skanörsgården",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Ekonomiska%20f%C3%B6reningen%20Skan%C3%B6rsg%C3%A5rden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Eternellstigen och Krukmakarestigens samfällighet",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Eternellstigen%20och%20Krukmakarestigens%20samf%C3%A4llighet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "felix.brakl@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "George felix brakl",
+        "contact_person_role": null,
+        "contact_person_email": "felix.brakl@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "George Felix Brakl",
+        "felix.brakl@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Falsterbo Basketklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Falsterbo"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Falsterbo%20Basketklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lovehornstedt33@gmail.com",
+      "phone": "+46707122916",
+      "description": {
+        "free_text": "Ungdomsbasket, Ideel",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (6-18 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Falsterbo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Love hörnstedt",
+        "contact_person_role": null,
+        "contact_person_email": "lovehornstedt33@gmail.com",
+        "contact_person_phone": "+46707122916"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (6-18 år)"
+      ],
+      "contact_lines": [
+        "Love Hörnstedt",
+        "0707122916",
+        "lovehornstedt33@gmail.com",
+        "0",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Falsterbo Kraftrum",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Falsterbo%20Kraftrum",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@falsterbokraftrum.se",
+      "phone": "+46733965018",
+      "description": {
+        "free_text": "Gym för alla åldrar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin malmgren",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@falsterbokraftrum.se",
+        "contact_person_phone": "+46733965018"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Martin Malmgren",
+        "0733-96 5018",
+        "ordforande@falsterbokraftrum.se",
+        "www.falsterbokraftrum.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Falsterbo vägförening, Ga16",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Falsterbo%20v%C3%A4gf%C3%B6rening%2C%20Ga16",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "fvf@falsterbovf.se",
+      "phone": "+46705788439",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rickard hallberg",
+        "contact_person_role": null,
+        "contact_person_email": "fvf@falsterbovf.se",
+        "contact_person_phone": "+46705788439"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Rickard Hallberg",
+        "0705-788439",
+        "fvf@falsterbovf.se",
+        "www.falsterbovf.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Flommens GK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Flommens%20GK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "henrik.lindahl@maersk.com",
+      "phone": "+46725351212",
+      "description": {
+        "free_text": "Golf",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik lindahl",
+        "contact_person_role": null,
+        "contact_person_email": "henrik.lindahl@maersk.com",
+        "contact_person_phone": "+46725351212"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Lindahl",
+        "0725-351212",
+        "henrik.lindahl@maersk.com",
+        "flommensgk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Gamla Haga vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Skanör"
+      ],
+      "homepage_url": "http://www.ghv.nu/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Gamla%20Haga%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "daniel@turekronan.se",
+      "phone": "+46708321316",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skanör"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel måhl",
+        "contact_person_role": null,
+        "contact_person_email": "daniel@turekronan.se",
+        "contact_person_phone": "+46708321316"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Daniel Måhl",
+        "0708-321316",
+        "daniel@turekronan.se",
+        "http://www.ghv.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Gessie Villastads samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Gessie"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Gessie%20Villastads%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46708380514",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Gessie"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Matthias niebel",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46708380514"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Matthias Niebel",
+        "0708-380514",
+        "www.gessievillastad.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "GF Näset",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=GF%20N%C3%A4set",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sandra@gfnaset.se",
+      "phone": "+46733254491",
+      "description": {
+        "free_text": "Gymnastikförening\nGymnastik för hela familjen. Främst barn och ungdomsgymnastik i Skanör Falsterbo",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-5 år)",
+                "Barn och ungdom (6-18 år)",
+                "Vuxna (19- år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sandra lehmann",
+        "contact_person_role": null,
+        "contact_person_email": "sandra@gfnaset.se",
+        "contact_person_phone": "+46733254491"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-5 år)",
+        "Barn och ungdom (6-18 år)",
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Sandra Lehmann",
+        "0733254491",
+        "sandra@gfnaset.se",
+        "www.gfnaset.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Gya vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": "https://xn--gyavgfrening-jcb8w.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Gya%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@gyavagforening.se",
+      "phone": "+46732683168",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pär edholm",
+        "contact_person_role": null,
+        "contact_person_email": "info@gyavagforening.se",
+        "contact_person_phone": "+46732683168"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Pär Edholm",
+        "0732-68 31 68",
+        "info@gyavagforening.se",
+        "https://gyavägförening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Gyaskogens villasamfällighet",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Gyaskogens%20villasamf%C3%A4llighet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Gångvägens vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=G%C3%A5ngv%C3%A4gens%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Gårdarike Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.gardarike.com/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=G%C3%A5rdarike%20Innebandyklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gustafgusjonsson@hotmail.com",
+      "phone": "+46702705916",
+      "description": {
+        "free_text": "Innebandyklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gustaf j tonnvik",
+        "contact_person_role": null,
+        "contact_person_email": "gustafgusjonsson@hotmail.com",
+        "contact_person_phone": "+46702705916"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gustaf J Tonnvik",
+        "0702-705916",
+        "gustafgusjonsson@hotmail.com",
+        "http://www.gardarike.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Gårdarike samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=G%C3%A5rdarike%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pierre.gullander@symetri.com",
+      "phone": "+46706034833",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Piere gullander",
+        "contact_person_role": null,
+        "contact_person_email": "pierre.gullander@symetri.com",
+        "contact_person_phone": "+46706034833"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Piere Gullander",
+        "0706-034833",
+        "pierre.gullander@symetri.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Gässie 10 samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=G%C3%A4ssie%2010%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bengt.jeppsson@telia.com",
+      "phone": "+46705552025",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt jeppsson",
+        "contact_person_role": null,
+        "contact_person_email": "bengt.jeppsson@telia.com",
+        "contact_person_phone": "+46705552025"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Bengt Jeppsson",
+        "0705-552025",
+        "bengt.jeppsson@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Hejdans vägförening inkl. Fackelrosv",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Falsterbo"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Hejdans%20v%C3%A4gf%C3%B6rening%20inkl.%20Fackelrosv",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nylen@telia.com",
+      "phone": "+46705470527",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19- år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Falsterbo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt nylen",
+        "contact_person_role": null,
+        "contact_person_email": "nylen@telia.com",
+        "contact_person_phone": "+46705470527"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Bengt Nylen",
+        "0705-470527",
+        "nylen@telia.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Hököpinge 55 samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Hököpinge"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6k%C3%B6pinge%2055%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lars.il.andersson@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hököpinge"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "lars.il.andersson@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "lars.il.andersson@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Hököpinge bys vägförening Lilleväg",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6k%C3%B6pinge%20bys%20v%C3%A4gf%C3%B6rening%20Lillev%C3%A4g",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hokopingebyssamfallighet@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ronny berggren",
+        "contact_person_role": null,
+        "contact_person_email": "hokopingebyssamfallighet@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ronny Berggren",
+        "hokopingebyssamfallighet@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Höllviken Innebandyförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": "https://www.hibf.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6llviken%20Innebandyf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@hibf.se",
+      "phone": "+46705281771",
+      "description": {
+        "free_text": "Innebandyförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (6-18 år)",
+                "Vuxna (19- år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@hibf.se",
+        "contact_person_phone": "+46705281771"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (6-18 år)",
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Stefan Nilsson",
+        "0705-281771",
+        "kansli@hibf.se",
+        "https://www.hibf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Höllviken Nr 3 Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6llviken%20Nr%203%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hollviken3@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders essner",
+        "contact_person_role": null,
+        "contact_person_email": "hollviken3@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anders Essner",
+        "hollviken3@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Höllviken Nr 5 Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6llviken%20Nr%205%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "per.henerius@gmail.com",
+      "phone": "+46721579741",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per henerius",
+        "contact_person_role": null,
+        "contact_person_email": "per.henerius@gmail.com",
+        "contact_person_phone": "+46721579741"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per Henerius",
+        "0721-579741",
+        "per.henerius@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Höllvikens badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6llvikens%20badmintonklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lisa.pratt@live.se",
+      "phone": "+46761665810",
+      "description": {
+        "free_text": "Badminton",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lisbeth pratt",
+        "contact_person_role": null,
+        "contact_person_email": "lisa.pratt@live.se",
+        "contact_person_phone": "+46761665810"
+      },
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "hbmk@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lisbeth Pratt",
+        "0761665810",
+        "lisa.pratt@live.se",
+        "hbmk@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Höllvikens Taekwondo och Självförsvarsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6llvikens%20Taekwondo%20och%20Sj%C3%A4lvf%C3%B6rsvarsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@hollvikentaekwondo.com",
+      "phone": "+46734024488",
+      "description": {
+        "free_text": "idrott, motion, taekwondo och självförsvar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marcus ribbing",
+        "contact_person_role": null,
+        "contact_person_email": "info@hollvikentaekwondo.com",
+        "contact_person_phone": "+46734024488"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marcus Ribbing",
+        "0734024488",
+        "info@hollvikentaekwondo.com",
+        "www.hollvikentaekwondo.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Höllvikens vägförening nr 1",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6llvikens%20v%C3%A4gf%C3%B6rening%20nr%201",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "roger@detec.se",
+      "phone": "+46705142399",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "roger@detec.se",
+        "contact_person_phone": "+46705142399"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Roger Nilsson",
+        "0705142399",
+        "roger@detec.se",
+        "www.hollviken1.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Höllvikens vägförening nr 2",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6llvikens%20v%C3%A4gf%C3%B6rening%20nr%202",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jstenber@gmail.com",
+      "phone": "+46768568476",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan stenberg",
+        "contact_person_role": null,
+        "contact_person_email": "jstenber@gmail.com",
+        "contact_person_phone": "+46768568476"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johan Stenberg",
+        "076-8568476",
+        "jstenber@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Höllvikens vägförening nr 4",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6llvikens%20v%C3%A4gf%C3%B6rening%20nr%204",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "martin.torstensson@gmail.com",
+      "phone": "+46705454292",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin torstensson",
+        "contact_person_role": null,
+        "contact_person_email": "martin.torstensson@gmail.com",
+        "contact_person_phone": "+46705454292"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Martin Torstensson",
+        "0705-454292",
+        "martin.torstensson@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Höllvikens vägförening nr 6",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=H%C3%B6llvikens%20v%C3%A4gf%C3%B6rening%20nr%206",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hollvikensvagforening6@gmail.com",
+      "phone": "+46730331953",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "hollvikensvagforening6@gmail.com",
+        "contact_person_phone": "+46730331953"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0730-331953",
+        "hollvikensvagforening6@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "IF Friskis&Svettis Vellinge",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "https://www.friskissvettis.se/vellinge",
+        "Stäng"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.friskissvettis.se/vellinge",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=IF%20Friskis%26Svettis%20Vellinge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+4640456773",
+      "description": {
+        "free_text": "Gym och gruppträning",
+        "sections": [
+          {
+            "title": "verksamhetsledare@vellinge.friskissvettis.se",
+            "data": {
+              "activities": [
+                "https://www.friskissvettis.se/vellinge",
+                "Stäng"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jeanette hellberg",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4640456773"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jeanette Hellberg",
+        "040-456773"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "IK Finish",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Evenemang"
+      ],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": "https://www.ikfinish.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=IK%20Finish",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@ikfinish.se",
+      "phone": "+46709151560",
+      "description": {
+        "free_text": "Friidrottsklubb",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Evenemang"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (6-18 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie kronvall",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@ikfinish.se",
+        "contact_person_phone": "+46709151560"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (6-18 år)"
+      ],
+      "contact_lines": [
+        "Marie Kronvall",
+        "0709-151560",
+        "kansliet@ikfinish.se",
+        "https://www.ikfinish.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Jordholmens vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Jordholmens%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Kamelens kulturcirkel",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Föreläsning / Föredrag"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Kamelens%20kulturcirkel",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "andersson.karen@gmail.com",
+      "phone": "+46735331643",
+      "description": {
+        "free_text": "Föreläsningar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreläsning / Föredrag"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19- år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karen andersson",
+        "contact_person_role": null,
+        "contact_person_email": "andersson.karen@gmail.com",
+        "contact_person_phone": "+46735331643"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Karen Andersson",
+        "073-5331643",
+        "andersson.karen@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Kiritsu Bujin Jujutsu",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Kiritsu%20Bujin%20Jujutsu",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@kiritsu.se",
+      "phone": "+46768914664",
+      "description": {
+        "free_text": "Vi tränar jujutsu, självförsvar anpassat till svensk nödvärnslag. Barn från 8 år, ungdomar och vuxna är alla välkomna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (6-18 år)",
+                "Vuxna (19- år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Carin hompe svedberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@kiritsu.se",
+        "contact_person_phone": "+46768914664"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (6-18 år)",
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Carin Hompe Svedberg",
+        "0768914664",
+        "info@kiritsu.se",
+        "www.kiritsu.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Klövergångens samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Kl%C3%B6verg%C3%A5ngens%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "roboinvest.bosse@gmail.com",
+      "phone": "+46709421178",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bo göran persson",
+        "contact_person_role": null,
+        "contact_person_email": "roboinvest.bosse@gmail.com",
+        "contact_person_phone": "+46709421178"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Bo Göran Persson",
+        "0709-421178",
+        "roboinvest.bosse@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Klövervägens Samfällighet",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Kl%C3%B6verv%C3%A4gens%20Samf%C3%A4llighet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klovervagenssf@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "klovervagenssf@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "klovervagenssf@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Korpen Vellinge Motionsidrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.korpenvellinge.com/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Korpen%20Vellinge%20Motionsidrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "En motiosidrottsförening med familjär känsla, där alla är välkomna!",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.korpenvellinge.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Kungshaga 4H i Höllviken",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Barnkalas",
+        "Evenemang",
+        "Föreläsning / Föredrag",
+        "Föräldramöte (för skola/förskola)",
+        "Kursverksamhet",
+        "Läger",
+        "Möte / sammanträde",
+        "Personalaktivitet",
+        "Årsmöte"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": "https://www.4h.se/kungshaga/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Kungshaga%204H%20i%20H%C3%B6llviken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anna.fransson@4h.se",
+      "phone": "+46793554929",
+      "description": {
+        "free_text": "Barn och ungdomsverksamhet samt för personer med speciella behov. Även seniorer är välkomna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barnkalas",
+                "Evenemang",
+                "Föreläsning / Föredrag",
+                "Föräldramöte (för skola/förskola)",
+                "Kursverksamhet",
+                "Läger",
+                "Möte / sammanträde",
+                "Personalaktivitet",
+                "Årsmöte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-5 år)",
+                "Barn och ungdom (6-18 år)",
+                "Vuxna (19- år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna fransson",
+        "contact_person_role": null,
+        "contact_person_email": "anna.fransson@4h.se",
+        "contact_person_phone": "+46793554929"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-5 år)",
+        "Barn och ungdom (6-18 år)",
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Anna Fransson",
+        "0793554929",
+        "anna.fransson@4h.se",
+        "https://www.4h.se/kungshaga/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Kämpinge GF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.kampinge.com/start/?ID=51179",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=K%C3%A4mpinge%20GF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@kampinge.com",
+      "phone": "+4640456596",
+      "description": {
+        "free_text": "Redskapsgymnastik, hopprep och motionsverksamhet för alla åldrar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@kampinge.com",
+        "contact_person_phone": "+4640456596"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "040-456596",
+        "info@kampinge.com",
+        "https://www.kampinge.com/start/?ID=51179",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Kämpinge vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=K%C3%A4mpinge%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "urban.noren@hotmail.se",
+      "phone": "+46733995394",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "urban.noren@hotmail.se",
+        "contact_person_phone": "+46733995394"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "07339-95394",
+        "urban.noren@hotmail.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Ljungens Sjöscoutkår",
+      "org_number": null,
+      "types": [
+        "Scoutkår"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://ljungenssjo.scout.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Ljungens%20Sj%C3%B6scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ljungensjo@gmail.com",
+      "phone": "+46762311395",
+      "description": {
+        "free_text": "Kåren har funnits sedan 1956 och har bedrivit sjöscouting sedan dess. Hos oss får du göra allt från att gå på hajk och lära dig elda, till att segla jolle och kölbåt. Besöksadress: Scoutgården på Östra Kanalvägen 5, Höllviken",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Angela stavne",
+        "contact_person_role": null,
+        "contact_person_email": "ljungensjo@gmail.com",
+        "contact_person_phone": "+46762311395"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Angela Stavne",
+        "0762-31 13 95",
+        "ljungensjo@gmail.com",
+        "https://ljungenssjo.scout.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Ljunghusens Bridgeklubb",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Konferens"
+      ],
+      "categories": [
+        "Ljunghusen"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Ljunghusens%20Bridgeklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ljunghusensbk@gmail.com",
+      "phone": "+4673633896",
+      "description": {
+        "free_text": "Klubben består av 70 pensionärer som brukar spela bridge på tisdagar på Ljunghusens Golfklubb. Tyvärr får vi inte vara där mer eftersom lokalen skall utnyttjas till annat.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konferens"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19- år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ljunghusen"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Torbjörn johansson",
+        "contact_person_role": null,
+        "contact_person_email": "ljunghusensbk@gmail.com",
+        "contact_person_phone": "+4673633896"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Torbjörn Johansson",
+        "073633896",
+        "ljunghusensbk@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Ljunghusens HK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Ljunghusens%20HK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lhk.nu",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "lhk.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Ljunghusens vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": "https://www.ljunghusensvf.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Ljunghusens%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ljunghusensvf.se",
+      "phone": "+46732741882",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik thorsell",
+        "contact_person_role": null,
+        "contact_person_email": "info@ljunghusensvf.se",
+        "contact_person_phone": "+46732741882"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Thorsell",
+        "0732741882",
+        "info@ljunghusensvf.se",
+        "https://www.ljunghusensvf.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Ljungskogens vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Ljungskogens%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ljungskogenvag.se",
+      "phone": "+46705155595",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tom kellheim",
+        "contact_person_role": null,
+        "contact_person_email": "info@ljungskogenvag.se",
+        "contact_person_phone": "+46705155595"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Tom Kellheim",
+        "070-515 55 95",
+        "info@ljungskogenvag.se",
+        "www.ljungskogenvag.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Lorenz Ängs samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": "https://www.lorenzang.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Lorenz%20%C3%84ngs%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@lorenzang.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan ekelund",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@lorenzang.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johan Ekelund",
+        "styrelsen@lorenzang.se",
+        "https://www.lorenzang.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Lyckans vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Lyckans%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46709565673",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingela petersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46709565673"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ingela Petersson",
+        "0709-565673",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Maestro musikvännerna på Näset",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Konsert"
+      ],
+      "categories": [
+        "Skanör"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Maestro%20musikv%C3%A4nnerna%20p%C3%A5%20N%C3%A4set",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46768032753",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konsert"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19- år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skanör"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt lövden",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46768032753"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Bengt Lövden",
+        "0768032753",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Moderaterna Skanör-Falsterbo",
+      "org_number": null,
+      "types": [
+        "Politisk förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Moderaterna%20Skan%C3%B6r-Falsterbo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Månstorps scoutkår",
+      "org_number": null,
+      "types": [
+        "Scoutkår"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=M%C3%A5nstorps%20scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@manstorp.net",
+      "phone": null,
+      "description": {
+        "free_text": "Månstorps scoutkår bedriver scoutverksamhet för barn och ungdomar från åtta års ålder.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan holmberg",
+        "contact_person_role": null,
+        "contact_person_email": "info@manstorp.net",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johan Holmberg",
+        "info@manstorp.net",
+        "www.manstorp.net",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Norra Håslövs Byavägs samfällighet",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Norra%20H%C3%A5sl%C3%B6vs%20Byav%C3%A4gs%20samf%C3%A4llighet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Norra Hötoftavägens vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Norra%20H%C3%B6toftav%C3%A4gens%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nilsson_elna@hotmail.com",
+      "phone": "+46739883816",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elna nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "nilsson_elna@hotmail.com",
+        "contact_person_phone": "+46739883816"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Elna Nilsson",
+        "0739-883816",
+        "nilsson_elna@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Norra Ljunghusens samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Norra%20Ljunghusens%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bertil.i.nilsson@telia.com",
+      "phone": "+46738453266",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bertil nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "bertil.i.nilsson@telia.com",
+        "contact_person_phone": "+46738453266"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Bertil Nilsson",
+        "0738-453266",
+        "bertil.i.nilsson@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Norra Torsgårdens samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Norra%20Torsg%C3%A5rdens%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hyden.louise@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "hyden.louise@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "hyden.louise@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Näsets Budoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=N%C3%A4sets%20Budoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Pastoratvägens vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Pastoratv%C3%A4gens%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bibi.gustafson@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "bibi.gustafson@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "bibi.gustafson@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Pimpinella",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Pimpinella",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "PRO Vellinge",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=PRO%20Vellinge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "agneta.marianne.berg@gmail.com",
+      "phone": "+46706501492",
+      "description": {
+        "free_text": "Önskar boka lokalen Vanningen, lilla motionsrummet, onsdagar kl 10-11",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marianne berg",
+        "contact_person_role": null,
+        "contact_person_email": "agneta.marianne.berg@gmail.com",
+        "contact_person_phone": "+46706501492"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marianne Berg",
+        "0706501492",
+        "agneta.marianne.berg@gmail.com",
+        "PRO.se/Vellinge",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Rabyvägens samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Rabyv%C3%A4gens%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46767212102",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas sjögren",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46767212102"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "jonas sjögren",
+        "0767-212102",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Ringbovägens vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Ringbov%C3%A4gens%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "patrik.t.wolf@gmail.com",
+      "phone": "+46730385553",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin bruce kontakt, patrik wolf kassör,",
+        "contact_person_role": null,
+        "contact_person_email": "patrik.t.wolf@gmail.com",
+        "contact_person_phone": "+46730385553"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Martin Bruce kontakt, Patrik Wolf kassör,",
+        "0730-385553",
+        "patrik.t.wolf@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Rädda Barnen Vellinge-Näset",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.raddabarnen.se/medlem-och-volontar/lokalforening/syd/skane-lan/vellinge-naset/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=R%C3%A4dda%20Barnen%20Vellinge-N%C3%A4set",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordf.lf.vellinge-naset@medlem.rb.se",
+      "phone": "+46709393943",
+      "description": {
+        "free_text": "Varje dag gör vi världen lite bättre för barn!\nRädda barnen finns i 118 länder och arbetar för alla barns självklara rätt att överleva, utvecklas och växa upp i trygghet. I lokalföreningen Vellinge-Näset ägnar vi en stor del av vår tid till arbete med flyktingbarn och integration. Vi ordnar bl.a. söndagsträffar, vi pratar och läser svenska, vi organiserar simundervisning m.m.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per gunnarsson",
+        "contact_person_role": null,
+        "contact_person_email": "ordf.lf.vellinge-naset@medlem.rb.se",
+        "contact_person_phone": "+46709393943"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per Gunnarsson",
+        "0709-393943",
+        "ordf.lf.vellinge-naset@medlem.rb.se",
+        "https://www.raddabarnen.se/medlem-och-volontar/lokalforening/syd/skane-lan/vellinge-naset/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Rängbågsbyns samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=R%C3%A4ngb%C3%A5gsbyns%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christian larsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christian Larsson",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Sandeplans vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Sandeplans%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@sandeplans-vagforening.se",
+      "phone": "+46708984619",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina personne",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@sandeplans-vagforening.se",
+        "contact_person_phone": "+46708984619"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Katarina Personne",
+        "070-8984619",
+        "styrelsen@sandeplans-vagforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Sangrok World Taekwondo Academy",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/profile.php?id=61560487375516",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Sangrok%20World%20Taekwondo%20Academy",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sami@yazi.se",
+      "phone": "+46703005951",
+      "description": {
+        "free_text": "En förening där barn kan lära sig och utvecklas genom taekwondo, en koreansk kampsport som kombinerar fysisk aktivitet med disciplin, respekt och självförtroende.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sami yazi",
+        "contact_person_role": null,
+        "contact_person_email": "sami@yazi.se",
+        "contact_person_phone": "+46703005951"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sami Yazi",
+        "0703005951",
+        "sami@yazi.se",
+        "https://www.facebook.com/profile.php?id=61560487375516",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Sankt Knuts Gille Skanör-Falsterbo",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Möte / sammanträde"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.knutsgilletskanorfalsterbo.com/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Sankt%20Knuts%20Gille%20Skan%C3%B6r-Falsterbo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Möte / sammanträde"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19- år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "http://www.knutsgilletskanorfalsterbo.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Skanör Falsterbo IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Skan%C3%B6r%20Falsterbo%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@sfif.se",
+      "phone": "+4640475529",
+      "description": {
+        "free_text": "Fotbollsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (6-18 år)",
+                "Vuxna (19- år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer hansson",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@sfif.se",
+        "contact_person_phone": "+4640475529"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (6-18 år)",
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Christer Hansson",
+        "040475529",
+        "kansli@sfif.se",
+        "http:// www.sfif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "SPF Ljungens Seniorer Höllviken",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=SPF%20Ljungens%20Seniorer%20H%C3%B6llviken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gunillawillsteen9@gmail.com",
+      "phone": "+46705261502",
+      "description": {
+        "free_text": "Pensionärsförening med varierande aktiviteter för pensionärer",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunilla willsteen",
+        "contact_person_role": null,
+        "contact_person_email": "gunillawillsteen9@gmail.com",
+        "contact_person_phone": "+46705261502"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gunilla Willsteen",
+        "0705261502",
+        "gunillawillsteen9@gmail.com",
+        "www.spfseniorerna.se/ljungensseniorer",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Strandbadens vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Falsterbo"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Strandbadens%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kassor@strandbadensvagforening.se",
+      "phone": "+46723530054",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Falsterbo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars-olof persson",
+        "contact_person_role": null,
+        "contact_person_email": "kassor@strandbadensvagforening.se",
+        "contact_person_phone": "+46723530054"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lars-Olof Persson",
+        "0723-530054",
+        "kassor@strandbadensvagforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Tallstigens samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Falsterbo"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Tallstigens%20samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Falsterbo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Tenchi Ju-jutsuklubb Vellinge",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Tenchi%20Ju-jutsuklubb%20Vellinge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tenchijujutsu.se",
+      "phone": null,
+      "description": {
+        "free_text": "Tenchi Ju-jutsu erbjuder självförsvarsträning enligt Svenska Ju-jutsuförbundet från 9 års ålder och uppåt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (6-18 år)",
+                "Vuxna (19- år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.tenchijujutsu.se",
+        "contact_person_role": null,
+        "contact_person_email": "info@tenchijujutsu.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (6-18 år)",
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "info@tenchijujutsu.se",
+        "www.tenchijujutsu.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Torsgårdens Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": "https://www.torsgardenvellinge.com/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Torsg%C3%A5rdens%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "torsgardenvellinge@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Linus göransson",
+        "contact_person_role": null,
+        "contact_person_email": "torsgardenvellinge@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Linus Göransson",
+        "torsgardenvellinge@outlook.com",
+        "https://www.torsgardenvellinge.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Torvängsvägens samfällighet.",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Torv%C3%A4ngsv%C3%A4gens%20samf%C3%A4llighet.",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Triangelns vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Falsterbo"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Triangelns%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Falsterbo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Håkan fjällström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Håkan Fjällström",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "UJU Taekwondo Klubb. Vellinge",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=UJU%20Taekwondo%20Klubb.%20Vellinge",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ujutaekwondo@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Taekwondoklubb\nÅldrar 6-99",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (6-18 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer ekdahl",
+        "contact_person_role": null,
+        "contact_person_email": "ujutaekwondo@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (6-18 år)"
+      ],
+      "contact_lines": [
+        "Christer Ekdahl",
+        "ujutaekwondo@gmail.com",
+        "www.ujutaekwondo.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vallbovägens vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Vallbov%C3%A4gens%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus åkerman",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Magnus Åkerman",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vellinge demensförening",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Vellinge%20demensf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vellinge Fotbollförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://vellingeff.web.sportadmin.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Vellinge%20Fotbollf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vellingeff@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Fotbollsklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik sjöström",
+        "contact_person_role": null,
+        "contact_person_email": "vellingeff@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fredrik Sjöström",
+        "vellingeff@hotmail.com",
+        "https://vellingeff.web.sportadmin.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vellinge Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://vellingefotoklubb.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Vellinge%20Fotoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lennart.hansson@ayus.se",
+      "phone": "+46705323366",
+      "description": {
+        "free_text": "Vellinge Fotoklubb bildades redan 1965. Det är det glädjen och intresset med att skapa bra, medvetna bilder som ligger i fokus hos våra medlemmar.\nVi välkomnar alla oavsett kunskapsnivå och utrustning.\nTillsammans utvecklar vi varandra i bl.a. bild-uppbyggnad, kamerateknik och digital bildhantering.\nVi har flertal fotogrupper med olika special-teman från fågel, natur till porträttfotografering eller komposition/tävlingar.\nVellinge Fotoklubb har även en aktiv tävlingsverksamhet, samt ett nära samarbete med flera andra fotoklubbar i Skåne och på riksnivå.\nVi samarbetar också med organisationer för att ge medlemmar och allmänheten kunskap om foto genom olika projekt, kultur- och studieverksamhet. Vellinge Kommun och Oxie Härads Hembygdsförening är några av dessa.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart hansson",
+        "contact_person_role": null,
+        "contact_person_email": "lennart.hansson@ayus.se",
+        "contact_person_phone": "+46705323366"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lennart Hansson",
+        "0705323366",
+        "lennart.hansson@ayus.se",
+        "https://vellingefotoklubb.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vellinge IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.vellingeif.com/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Vellinge%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@vellingeif.com",
+      "phone": "+46735367363",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-5 år)",
+                "Barn och ungdom (6-18 år)",
+                "Vuxna (19- år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats-åke nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@vellingeif.com",
+        "contact_person_phone": "+46735367363"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-5 år)",
+        "Barn och ungdom (6-18 år)",
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Mats-Åke Nilsson",
+        "0735367363",
+        "kansli@vellingeif.com",
+        "https://www.vellingeif.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vellinge Sharks Basket Klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Vellinge%20Sharks%20Basket%20Klubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lindahl21@hotmail.com",
+      "phone": "+46707383672",
+      "description": {
+        "free_text": "Vellinge Sharks basketförening är en nystartad förening som är etablerad i Vellinge. För tillfället har föreningen ett lag med fjorton utövare, samtliga är killar i åldern elva till tolv år. Jag, Anna och min man Johan samarbetade först med Aktiv Ungdom, tillsammans med dem startade vi upp basket som en aktivitet. Killarna visade snabbt att dom ville ha större utmaningar än vad Aktiv Ungdom kan erbjuda så därför startades föreningen Vellinge Sharks Basket Klubb. Efterfrågan är stor då det saknas en basketförening i kommunen. Idag har vi glädjande spelare från hela Vellinge kommun.\nSedan start har fokuset för föreningen varit att skapa ett lag där barnen har roligt, får utöva sporten de trivs med och gemensamt arbeta för att bygga upp varandra och ett starkt lag där alla kan få känna sig delaktiga och kan känna att de kan få vara sig själva. Vi vill särskilt värna om att man ska kunna känna sig trygg i vår grupp och att det finns en plats för alla.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna ståleker",
+        "contact_person_role": null,
+        "contact_person_email": "lindahl21@hotmail.com",
+        "contact_person_phone": "+46707383672"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anna Ståleker",
+        "0707383672",
+        "lindahl21@hotmail.com",
+        "under uppbyggnad, vi är väldigt färska.",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vellinge Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Vellinge%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Idrottsklubb, träningar och tävlingar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik åkesson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fredrik Åkesson",
+        "vellingetk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vikingen 40 Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [
+        "Höllviken"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Vikingen%2040%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vikingen40@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Höllviken"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "vikingen40@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 87,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "vikingen40@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Woodpeckers",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.woodpeckers.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=Woodpeckers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "urban.noren@hotmail.se",
+      "phone": "+46705758440",
+      "description": {
+        "free_text": "Föreningen sysslar med träslöjd och hobby snickerier. Har ca 55 medlemmar i ålder 65 år -",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19- år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gustav rylander",
+        "contact_person_role": null,
+        "contact_person_email": "urban.noren@hotmail.se",
+        "contact_person_phone": "+46705758440"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 88,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "Gustav Rylander",
+        "0705758440",
+        "urban.noren@hotmail.se",
+        "https:///www.woodpeckers.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vägförening Falsterbohus",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=V%C3%A4gf%C3%B6rening%20Falsterbohus",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pwelander@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "pwelander@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 89,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "pwelander@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "VÄSTRA INGELSTAD IS",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.viis.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=V%C3%84STRA%20INGELSTAD%20IS",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@viis.se",
+      "phone": "+46730788493",
+      "description": {
+        "free_text": "FOTBOLL & INNEBANDY",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jörgen offerlind",
+        "contact_person_role": null,
+        "contact_person_email": "info@viis.se",
+        "contact_person_phone": "+46730788493"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 90,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jörgen Offerlind",
+        "0730788493",
+        "info@viis.se",
+        "http://www.viis.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Västra Ingelstads vägförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=V%C3%A4stra%20Ingelstads%20v%C3%A4gf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin neptin",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 91,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Martin Neptin",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Vävstugan Skaftet",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Vellinge tätort"
+      ],
+      "homepage_url": "https://vavstugavellinge.blogg.se/",
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=V%C3%A4vstugan%20Skaftet",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46704830192",
+      "description": {
+        "free_text": "Konst o Hantverk.\nVävstugan Skaftet är en ideell förening med max åtta medlemmar. Vi väver på dagtid, måndagar och torsdagar i den egna lokalen på Vipgränden i Vellinge. Besök gärna vår blogg för mer information. https:vavstuganvellinge.blogg.se/",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (19- år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vellinge tätort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46704830192"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 92,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (19- år)"
+      ],
+      "contact_lines": [
+        "0704830192",
+        "https://vavstugavellinge.blogg.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Åkarps samfällighetsförening GA:4",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=%C3%85karps%20samf%C3%A4llighetsf%C3%B6rening%20GA%3A4",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vellingeakarpga@gmail.com",
+      "phone": "+46709220605",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Evelin nordin",
+        "contact_person_role": null,
+        "contact_person_email": "vellingeakarpga@gmail.com",
+        "contact_person_phone": "+46709220605"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 93,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Evelin Nordin",
+        "0709220605",
+        "vellingeakarpga@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Ängsbo Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=%C3%84ngsbo%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Södra Ängavägen, väg 33818",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lisa herslow clase",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 94,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lisa Herslow Clase",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vellinge",
+    "scrape_run_id": "5bcacbca-7a36-408e-a9cf-e0f2e5cf358a",
+    "scraped_at": "2025-10-29T01:59:53.916Z",
+    "association": {
+      "name": "Östra Grevie-Steglarp Samfällighetsförening",
+      "org_number": null,
+      "types": [
+        "Väg-/samfällighetsförening"
+      ],
+      "activities": [
+        "Vägförening/samfällighetsförening"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vellinge.rbok.se/foreningsregister?association=%C3%96stra%20Grevie-Steglarp%20Samf%C3%A4llighetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vägförening/samfällighetsförening"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 95,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

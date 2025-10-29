@@ -1,0 +1,3394 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Balder skol-IF",
+      "org_number": null,
+      "types": [
+        "Skolidrottsförening"
+      ],
+      "activities": [
+        "Skolidrott"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Balder%20skol-IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skolidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Bara Bönder",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Schack"
+      ],
+      "categories": [
+        "Staffanstorp"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Bara%20B%C3%B6nder",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "roland.thapper@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Schackverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Schack"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roland thapper",
+        "contact_person_role": null,
+        "contact_person_email": "roland.thapper@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Roland Thapper",
+        "roland.thapper@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Crazy Legs Linedancers",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.crazy-legs.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Crazy%20Legs%20Linedancers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Linedanceförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "https://www.crazy-legs.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Disco Dando",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Disco%20Dando",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "daniel@spegeln.se",
+      "phone": "+46735440203",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "daniel@spegeln.se",
+        "contact_person_phone": "+46735440203"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Daniel Nilsson",
+        "0735440203",
+        "daniel@spegeln.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "FC Staffanstorp",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.fcstaffanstorp.com/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=FC%20Staffanstorp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "andreas.ringo@fcstaffanstorp.se",
+      "phone": null,
+      "description": {
+        "free_text": "Fotbollsförening i Staffanstorp. Arena, Staffansvallen.\nBarn, Ungdom och Seniorverksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andreas ringö",
+        "contact_person_role": null,
+        "contact_person_email": "andreas.ringo@fcstaffanstorp.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Andreas Ringö",
+        "andreas.ringo@fcstaffanstorp.se",
+        "http://www.fcstaffanstorp.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Friluftsfrämjandets lokalavdelning i Staffanstorp",
+      "org_number": null,
+      "types": [
+        "Scoutkår"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Friluftsfr%C3%A4mjandets%20lokalavdelning%20i%20Staffanstorp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Hjärups basketklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Hj%C3%A4rups%20basketklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Basketklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Hjärups Byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.hjarup.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Hj%C3%A4rups%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Hjärups Byalag skall vara partipolitiskt och religiöst obundet och verka för att Hjärupsbornas intressen tillvaratas genom att skapa:\n-Samhörighet mellan de boende\n-God boendemiljö\n-Kulturell identitet\n-Möjlighet att vara remissinstans för frågor som berör Hjärup\n-Närdemokrati med korta beslutsvägar\n-Delaktighet i samhällsutvecklingen inom kommunen\n-Informationskanaler för Hjärupsborna",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "http://www.Hjarup.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Hjärups skol-IF",
+      "org_number": null,
+      "types": [
+        "Skolidrottsförening"
+      ],
+      "activities": [
+        "Skolidrott"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Hj%C3%A4rups%20skol-IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skolidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "IK Stanstad",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Hjärup",
+        "Staffanstorp"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=IK%20Stanstad",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen bedriver innebandy från bollekis upp till motionsinnebandy.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hjärup",
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Www.stanstad.com",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "www.stanstad.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "KFUM Taekwondo Staffanstorp Klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Taekwondo"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.kfumtkdstp.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=KFUM%20Taekwondo%20Staffanstorp%20Klubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ideell förening för Taekwondo",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Taekwondo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mike jebril",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mike Jebril",
+        "https://www.kfumtkdstp.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Klädbytarföreningen",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://xn--kldbytarfreningen-rqb36a.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Kl%C3%A4dbytarf%C3%B6reningen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kladbytarforeningen@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Klädbytarföreningen i Staffanstorp ordnar årligen två klädloppisdagar med inriktning mot barn och två klädloppisdagar med inriktning mot vuxna och ungdomar. Föreningen drivs av ca 40 aktiva medlemmar och allt arbete sker ideellt.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna plato",
+        "contact_person_role": null,
+        "contact_person_email": "kladbytarforeningen@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anna Plato",
+        "kladbytarforeningen@hotmail.com",
+        "https://xn--kldbytarfreningen-rqb36a.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Konsthallens Vänner i Staffanstorp",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://artworks.se/kvs",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Konsthallens%20V%C3%A4nner%20i%20Staffanstorp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "johannes.eriksson23@gmail.com",
+      "phone": "+46706634044",
+      "description": {
+        "free_text": "Konsthallens Vänner i Staffanstorp är en fristående förening som stöder konsthallens verksamhet och verkar för kunskap om och engagemang för konst.\nFöreningens medlemmar kan delta i särskilda visningar vid utställningar i konsthallen, följa med på utflykter till konstnärer, museer och gallerier mm.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johannes eriksson",
+        "contact_person_role": null,
+        "contact_person_email": "johannes.eriksson23@gmail.com",
+        "contact_person_phone": "+46706634044"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johannes Eriksson",
+        "0706634044",
+        "johannes.eriksson23@gmail.com",
+        "https://artworks.se/kvs",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Korpen Staffanstorp",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Korpen%20Staffanstorp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Motion och friskvård",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Lions Club Staffanstorp/Vikingen",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/LionsClubVikingenStaffanstorp",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Lions%20Club%20Staffanstorp%2FVikingen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lions.club.vikingen@telia.cim",
+      "phone": "+46733119155",
+      "description": {
+        "free_text": "Hjälpverksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gerd almgren",
+        "contact_person_role": null,
+        "contact_person_email": "lions.club.vikingen@telia.cim",
+        "contact_person_phone": "+46733119155"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gerd Almgren",
+        "0733119155",
+        "lions.club.vikingen@telia.cim",
+        "https://www.laget.se/LionsClubVikingenStaffanstorp",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Manskören Staffan",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kör",
+        "Musik"
+      ],
+      "categories": [
+        "Staffanstorp"
+      ],
+      "homepage_url": "https://www.manskorenstaffan.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Mansk%C3%B6ren%20Staffan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bengt.s.persson@gmail.com",
+      "phone": "+46706758661",
+      "description": {
+        "free_text": "Manskör bildad 1995. Vi sjunger kvartettsång, dvs i 4 stämmor, Vi är f.n 24 sångare och vill gärna bli fler, så du är välkommen till våra sångövningar på Trivselpunkten tisdagar kl 18.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kör",
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt persson",
+        "contact_person_role": null,
+        "contact_person_email": "bengt.s.persson@gmail.com",
+        "contact_person_phone": "+46706758661"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Bengt Persson",
+        "0706758661",
+        "bengt.s.persson@gmail.com",
+        "https://www.manskorenstaffan.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Mellanvång skol-IF",
+      "org_number": null,
+      "types": [
+        "Skolidrottsförening"
+      ],
+      "activities": [
+        "Skolidrott"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Mellanv%C3%A5ng%20skol-IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skolidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Nevis GF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "https://nevisgf.web.sportadmin.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Nevis%20GF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "rosemarie.brunner80@gmail.com",
+      "phone": "+46706575606",
+      "description": {
+        "free_text": "Nevis GF är en gymnastikförening i Staffanstorp och Hjärup som erbjuder gympa och träning från 2 år och uppåt.\nVi gympar för att det är KUL!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rosemarie brunner",
+        "contact_person_role": null,
+        "contact_person_email": "rosemarie.brunner80@gmail.com",
+        "contact_person_phone": "+46706575606"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Rosemarie Brunner",
+        "0706575606",
+        "rosemarie.brunner80@gmail.com",
+        "https://nevisgf.web.sportadmin.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Nevis RGK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Staffanstorp"
+      ],
+      "homepage_url": "https://www.nevisrg.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Nevis%20RGK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nevis.rgk@gmail.com",
+      "phone": "+46733124623",
+      "description": {
+        "free_text": "Rytmisk Gymnastik dvs med handredskap som boll, käglor. band etc",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva rodriguez-magdalena",
+        "contact_person_role": null,
+        "contact_person_email": "nevis.rgk@gmail.com",
+        "contact_person_phone": "+46733124623"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Eva Rodriguez-Magdalena",
+        "0733124623",
+        "nevis.rgk@gmail.com",
+        "https://www.nevisrg.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Perform Aerobic Gymnastics Club",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Aerobic",
+        "Dans",
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.perform-aerobic.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Perform%20Aerobic%20Gymnastics%20Club",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "maria@perform-aerobic.se",
+      "phone": "+46708679555",
+      "description": {
+        "free_text": "Vår förening tävlar i Aerobic gymnastics, som passar dig som gillar aerobic, dans och gymnastik. Vi blandar aerobicensgrundsteg med olika hopp, piruetter och mycket mer.\nFör våra yngre deltagare (2-6 år) erbjuder vi Bamsegympa och för dig mellan 6-14 år Mixed Ninja Kidz.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Aerobic",
+                "Dans",
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "maria@perform-aerobic.se",
+        "contact_person_phone": "+46708679555"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "maria@perform-aerobic.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "maria@perform-aerobic.se",
+        "0708679555",
+        "maria@perform-aerobic.se",
+        "https://www.perform-aerobic.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "S:t Staffan Saviours AFC",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Staffanstorp"
+      ],
+      "homepage_url": "https://www.facebook.com/profile.php?id=100063462762006",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=S%3At%20Staffan%20Saviours%20AFC",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stp.saviours@gmail.com",
+      "phone": "+063462762006",
+      "description": {
+        "free_text": "Föreningen utövar flaggfotboll. En variant av Amerikansk fotboll utan fysiskt kontakt. https://sv.wikipedia.org/wiki/Flaggfotboll",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Alexander bokander",
+        "contact_person_role": null,
+        "contact_person_email": "stp.saviours@gmail.com",
+        "contact_person_phone": "+063462762006"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Alexander Bokander",
+        "stp.saviours@gmail.com",
+        "https://www.facebook.com/profile.php?id=100063462762006",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Simklubben Triton",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.sktriton.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Simklubben%20Triton",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@sktriton.se",
+      "phone": null,
+      "description": {
+        "free_text": "Simförening bildad 1962. Simverksamhet från babysim, simskola, teknikverksamhet ungdom-vuxna, tävlingssimning ungdom till masterssimning, arragerar tävlingar på lokal - distriktsnivå.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@sktriton.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "kansliet@sktriton.se",
+        "http://www.sktriton.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorp Södra FF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorp%20S%C3%B6dra%20FF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "erik.salmi@hotmail.com",
+      "phone": "+46763087162",
+      "description": {
+        "free_text": "Fotbollsförening som till våren ska delta i seriespel i div 6",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Erik salmi",
+        "contact_person_role": null,
+        "contact_person_email": "erik.salmi@hotmail.com",
+        "contact_person_phone": "+46763087162"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Erik Salmi",
+        "0763087162",
+        "erik.salmi@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorp United FC",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.staffanstorpunited.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorp%20United%20FC",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@staffanstorpunited.se",
+      "phone": "+46768777757",
+      "description": {
+        "free_text": "Fotbollsförening i Staffanstorp. Arena, Staffansvallen.\nBarn, Ungdom och Seniorverksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@staffanstorpunited.se",
+        "contact_person_phone": "+46768777757"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0768-777757",
+        "kansliet@staffanstorpunited.se",
+        "https://www.staffanstorpunited.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Badmintonklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jonny50@hotmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonny persson",
+        "contact_person_role": null,
+        "contact_person_email": "jonny50@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jonny Persson",
+        "jonny50@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Bangolfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bangolf"
+      ],
+      "categories": [
+        "Staffanstorp"
+      ],
+      "homepage_url": "https://sbgk.net/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Bangolfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bangolfklubb med egna banor vid Skåningen",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bangolf"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "https://sbgk.net",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://sbtkpingis.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Bordtennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sbtkpingis.se",
+      "phone": null,
+      "description": {
+        "free_text": "Bordtennis",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@sbtkpingis.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@sbtkpingis.se",
+        "https://sbtkpingis.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Boxningssällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.staffanstorpsboxning.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Boxningss%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "staffanstorpsboxningssallskap@gmail.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "staffanstorpsboxningssallskap@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "staffanstorpsboxningssallskap@gmail.com",
+        "https://www.staffanstorpsboxning.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Gymnastikklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.staffanstorpsgk.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Gymnastikklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans konstenius",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hans Konstenius",
+        "http://www.staffanstorpsgk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Hembygd",
+        "Konst",
+        "Kultur"
+      ],
+      "categories": [
+        "Hjärup",
+        "Kyrkhedinge",
+        "Staffanstorp",
+        "Tottarp"
+      ],
+      "homepage_url": "https://www.staffanstorpshembygdsforening.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sekreterare.stp.hbf@outlook.com",
+      "phone": "+46707442381",
+      "description": {
+        "free_text": "Staffanstorps Hembygdsförenings verksamhet bidrar till att stödja och utveckla ett rikt och mångsidigt kulturliv i Staffanstorps Kommun. Föreningens äger Smedjan i Nevishög och nyttjar Åstradsgården i Staffanstorp och är kommunens enda motsvarighet till lokalhistoriskt museum. Här vårdas och visas Staffanstorps historia i dokumentation och samlingar samt förmedlar genom guidade visningar, filmer och bokproduktion. Likaså anordnas många arrangemang för att levandegöra historien och för att få Staffanstorpsborna att knyta an till sitt kulturarv.\nSedan 2021 återfinns Skolmuseet på Åstradsgården i Hembygdsföreningens verksamhet. Skolmuseet har öppet tio söndagar om året och även efter önskemål på andra tider. Föreningen erbjuder gratis visningar för skolorna. Vilket även gäller för Åstradsgården och smedjan.\nSmedjedagen anordnas som årligt arrangemang i samband med Riksantikvarieämbetets kulturarvsdag i september. Kulturarvsdagen sammanfaller med Qulturrundan, ett samarrangemang med andra Hembygdsföreningar i vår närhet. Föreningen har även de senaste åren haft Smedjan öppen någon dag under påsken och Allhelgonahelgen. Vid advent arrangeras Julstämning på Åstradsgården som är en återkommande och familjevänlig tradition.\nÅr 2025 firar Föreningen 60-års jubileum i oktober.\nNationaldagen har i många år firats på Åstradsgården i ett samarbete mellan\nHembygdsföreningen och Staffanstorps kommun. Föreningen fortsätter utveckla detta firande för att bli mer lockande för familjer.\nFöreningen har de senaste två åren deltagit i Kommunens Skördefest med en välbesökt och populär utställning om Sockerbruket och dess historia och betydelse för Staffanstorp.\nFöreningen kämpar som många föreningar mot ett sviktande medlemsantal. Kostnaderna är höga eftersom verksamheten sköter Åstradsgården och smedjan i Nevishög. Något som lockat medlemmar under de senaste åren är tex en bok om Staffanstorps historia som ingår i medlemsavgiften. Vi strävar efter att i allt högre grad göra våra dokument och bilder tillgängliga digitalt för allmänheten vilket kan öka kännedomen om våra museum och vår verksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hembygd",
+                "Konst",
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hjärup",
+                "Kyrkhedinge",
+                "Staffanstorp",
+                "Tottarp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingela löfberg",
+        "contact_person_role": null,
+        "contact_person_email": "sekreterare.stp.hbf@outlook.com",
+        "contact_person_phone": "+46707442381"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Ingela Löfberg",
+        "0707442381",
+        "sekreterare.stp.hbf@outlook.com",
+        "https://www.staffanstorpshembygdsforening.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps HK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.staffanstorpshk.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20HK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@staffanstorpshk.se",
+      "phone": "+46708359959",
+      "description": {
+        "free_text": "Handbolls verksamhet för barn, ungdomar och vuxna",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Michael fogelström",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@staffanstorpshk.se",
+        "contact_person_phone": "+46708359959"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Michael Fogelström",
+        "0708-359959",
+        "ordforande@staffanstorpshk.se",
+        "https://www.staffanstorpshk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Hundklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.staffanstorpshundklubb.one/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Hundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@staffanstorpshundklubb.se",
+      "phone": null,
+      "description": {
+        "free_text": "Hundklubb, agility, nosework. Allt inom hundaktiviteter",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Malin larsson",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@staffanstorpshundklubb.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Malin Larsson",
+        "070",
+        "styrelsen@staffanstorpshundklubb.se",
+        "https://www.staffanstorpshundklubb.one/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Judoklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Judo"
+      ],
+      "categories": [
+        "Hjärup",
+        "Kyrkhedinge",
+        "Staffanstorp",
+        "Tottarp"
+      ],
+      "homepage_url": "https://www.staffanstorpsjudo.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Judoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@staffanstorpsjudo.se",
+      "phone": null,
+      "description": {
+        "free_text": "Staffanstorps Judoklubb bildades 1977 och har idag ca 300 aktiva tränande medlemmar i alla åldrar. Klubben har en omfattande barn- och ungdomsverksamhet, med allt från judolekis, anpassad judo till breddidrotts- och tävlingsgrupper. Vi har även motionsverksamhet för vuxna och träning i fallteknik speciellt riktad mot seniorer. Klubben är mycket framgångsrik och är en av de främsta bland de svenska klubbarna och har en egen träningslokal vid Staffanshallen/Hagalid. Vi är med i Riksidrottsförbundet via Svenska Judoförbundet och vår lokala organisation Judosyd.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Judo"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hjärup",
+                "Kyrkhedinge",
+                "Staffanstorp",
+                "Tottarp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@staffanstorpsjudo.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "info@staffanstorpsjudo.se",
+        "https://www.staffanstorpsjudo.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Kampsportsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kampsport"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Kampsportsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@klubben.org",
+      "phone": null,
+      "description": {
+        "free_text": "Kampartsförening med inriktning JKD och FMA",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kampsport"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias jönsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@klubben.org",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mattias Jönsson",
+        "info@klubben.org",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Karateklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Karateklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karl@kzlarm.se",
+      "phone": "+46708460224",
+      "description": {
+        "free_text": "Karate träning för alla enligt stilen Shotokan.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karl zulawinski",
+        "contact_person_role": null,
+        "contact_person_email": "karl@kzlarm.se",
+        "contact_person_phone": "+46708460224"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Karl Zulawinski",
+        "0708460224",
+        "karl@kzlarm.se",
+        "www.stpkarate.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps musikkår",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Blåsorkester",
+        "Kultur",
+        "Musik"
+      ],
+      "categories": [
+        "Staffanstorp"
+      ],
+      "homepage_url": "https://www.svenskalag.se/staffanstorpsmusikkar/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20musikk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "staffanstorpsmusikkar@gmail.com",
+      "phone": "+46733451302",
+      "description": {
+        "free_text": "Staffanstorps Musikkår är en amatörblåsorkester med bas i Staffanstorp. Musikkåren framträder vid ett flertal tillfällen varje år vid olika tillställningar i kommunen och på andra orter.\nMusikkåren välkomnar alla som spelar ett blåsinstrument eller slagverk att ta kontakt med oss. Vi vill gärna bli fler som spelar tillsammans.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Blåsorkester",
+                "Kultur",
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Claes af klinteberg",
+        "contact_person_role": null,
+        "contact_person_email": "staffanstorpsmusikkar@gmail.com",
+        "contact_person_phone": "+46733451302"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Claes af Klinteberg",
+        "0733-451302",
+        "staffanstorpsmusikkar@gmail.com",
+        "https://www.svenskalag.se/staffanstorpsmusikkar/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Ridsportförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Ridsportf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ridskolan@staffanstorpsridsportforening.se",
+      "phone": "+46707333317",
+      "description": {
+        "free_text": "Staffanstorps Ridsportförening är en ideell förening som är ansluten till Svenska Ridsportförbundet (SvRF), och därigenom ansluten till Sveriges Riksidrottsförbund (RF).\nFöreningen är en sammanslutning av för ridsporten intresserade med ändamål att bl a främja ridningen på sätt som anges i SvRFs stadgar.\nFöreningen bedriver ridskola, tränings- och tävlingsverksamhet på sin anläggning och fungerar som fritidsgård för hästintresserade barn, unga och vuxna i vårt närområde.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Pernilla thornström",
+        "contact_person_role": null,
+        "contact_person_email": "ridskolan@staffanstorpsridsportforening.se",
+        "contact_person_phone": "+46707333317"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Pernilla Thornström",
+        "0707333317",
+        "ridskolan@staffanstorpsridsportforening.se",
+        "www.staffanstorpsridsportforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps scoutkår i Djurslöv",
+      "org_number": null,
+      "types": [
+        "Scoutkår"
+      ],
+      "activities": [
+        "Scoutverksamhet"
+      ],
+      "categories": [
+        "Staffanstorp",
+        "Tottarp"
+      ],
+      "homepage_url": "https://staffanstorp.scout.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20scoutk%C3%A5r%20i%20Djursl%C3%B6v",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kerstin.andersson@staffanstorpsscoutkar.se",
+      "phone": null,
+      "description": {
+        "free_text": "Scoutverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scoutverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp",
+                "Tottarp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kerstin.andersson@staffanstorpsscoutkar.se",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@staffanstorpsscoutkar.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "kerstin.andersson@staffanstorpsscoutkar.se",
+        "styrelsen@staffanstorpsscoutkar.se",
+        "https://staffanstorp.scout.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Scoutkår Torparna",
+      "org_number": null,
+      "types": [
+        "Scoutkår"
+      ],
+      "activities": [
+        "Scoutverksamhet"
+      ],
+      "categories": [
+        "Staffanstorp"
+      ],
+      "homepage_url": "https://scoutistaffanstorp.se/lagerinfo/aktuella-l-ger/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Scoutk%C3%A5r%20Torparna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@scoutistaffanstorp.se",
+      "phone": null,
+      "description": {
+        "free_text": "Annerovägen 26 Staffanstorp\nvid Roos Damm och Piratlekan",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scoutverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@scoutistaffanstorp.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "info@scoutistaffanstorp.se",
+        "https://scoutistaffanstorp.se/lagerinfo/aktuella-l-ger/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Skyttegille",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Skyttegille",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sskg@outlook.com",
+      "phone": "+46702323203",
+      "description": {
+        "free_text": "Luftgevärsskytte",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrick nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "sskg@outlook.com",
+        "contact_person_phone": "+46702323203"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fredrick nilsson",
+        "0702323203",
+        "sskg@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Släktforskarförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Hjärup",
+        "Kyrkhedinge",
+        "Staffanstorp",
+        "Tottarp"
+      ],
+      "homepage_url": "http://staffanstorp/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Sl%C3%A4ktforskarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tommy@ssff.nu",
+      "phone": "+46705435944",
+      "description": {
+        "free_text": "Föreningen utbildar och informerar personer som vill släktforska. Föreningen arrangerar föredrag och möten för att fördjupa sig i sina historiska källor och bakgrund. Genom föreningens arbete lyfts även Staffanstorps historia och dess invånare.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hjärup",
+                "Kyrkhedinge",
+                "Staffanstorp",
+                "Tottarp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy fäldt",
+        "contact_person_role": null,
+        "contact_person_email": "tommy@ssff.nu",
+        "contact_person_phone": "+46705435944"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Tommy Fäldt",
+        "0705-435944",
+        "tommy@ssff.nu",
+        "http://staffanstorp släktforskarförening",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Sportdrills IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.staffanstorpssportdrill.com/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Sportdrills%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelse@staffanstorpssportdrill.com",
+      "phone": null,
+      "description": {
+        "free_text": "Tävlingsdrill",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Caroline johnson",
+        "contact_person_role": null,
+        "contact_person_email": "styrelse@staffanstorpssportdrill.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Caroline Johnson",
+        "styrelse@staffanstorpssportdrill.com",
+        "http://www.staffanstorpssportdrill.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Taekwondo Förening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Taekwondo"
+      ],
+      "categories": [
+        "Staffanstorp"
+      ],
+      "homepage_url": "https://www.stptkd.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Taekwondo%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mfagerlund@stptkd.se",
+      "phone": "+46708255941",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Taekwondo"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Magnus fagerlund",
+        "contact_person_role": null,
+        "contact_person_email": "mfagerlund@stptkd.se",
+        "contact_person_phone": "+46708255941"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Magnus Fagerlund",
+        "0708255941",
+        "mfagerlund@stptkd.se",
+        "https://www.stptkd.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Teaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [
+        "Staffanstorp"
+      ],
+      "homepage_url": "https://www.riksteatern.se/staffanstorp",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Teaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "staffanstorp@riksteatern.se",
+      "phone": "+46708407811",
+      "description": {
+        "free_text": "Arrangerar: Teater. musik, dans, cirkus för barn och vuxna inom Staffanstorps Kommun",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Staffanstorp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gerty lindén",
+        "contact_person_role": null,
+        "contact_person_email": "staffanstorp@riksteatern.se",
+        "contact_person_phone": "+46708407811"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Gerty Lindén",
+        "0708407811",
+        "staffanstorp@riksteatern.se",
+        "https://www.riksteatern.se/staffanstorp",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Staffanstorps Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://staffanstorpstennisklubb.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Staffanstorps%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tonitrtanj@gmail.com",
+      "phone": "+46737141490",
+      "description": {
+        "free_text": "Tennisverksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Toni trtanj",
+        "contact_person_role": null,
+        "contact_person_email": "tonitrtanj@gmail.com",
+        "contact_person_phone": "+46737141490"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Toni Trtanj",
+        "0737141490",
+        "tonitrtanj@gmail.com",
+        "http://staffanstorpstennisklubb.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Trädgårdslundens IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Tr%C3%A4dg%C3%A5rdslundens%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "medfluga.se@hotmail.com",
+      "phone": "+46709651968",
+      "description": {
+        "free_text": "Innebandy",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert kolarik",
+        "contact_person_role": null,
+        "contact_person_email": "medfluga.se@hotmail.com",
+        "contact_person_phone": "+46709651968"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Robert Kolarik",
+        "0709651968",
+        "medfluga.se@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Ultimate Kickboxning Klubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Ultimate%20Kickboxning%20Klubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "brunner.martinsson@gmail.com",
+      "phone": "+46709100248",
+      "description": {
+        "free_text": "Kickboxning/Thaiboxning/Självförsvar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christina brunner",
+        "contact_person_role": null,
+        "contact_person_email": "brunner.martinsson@gmail.com",
+        "contact_person_phone": "+46709100248"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christina Brunner",
+        "0709100248",
+        "brunner.martinsson@gmail.com",
+        "Facebook",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Uppåkra Idrottsförening Gymnastik",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.uifgymnastik.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Upp%C3%A5kra%20Idrottsf%C3%B6rening%20Gymnastik",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gymnastik@uifgymnastik.se",
+      "phone": "+46733361155",
+      "description": {
+        "free_text": "Barn- och truppgymnastik samt Alla Kan Gympa för åldrar 3år och uppåt. Vi tränar i Hjärup i Uppåkrahallen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna kristensson",
+        "contact_person_role": null,
+        "contact_person_email": "gymnastik@uifgymnastik.se",
+        "contact_person_phone": "+46733361155"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Anna Kristensson",
+        "0733361155",
+        "gymnastik@uifgymnastik.se",
+        "https://www.uifgymnastik.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Uppåkra IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Hjärup"
+      ],
+      "homepage_url": "https://www.uif.nu/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Upp%C3%A5kra%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansliet@uif.nu",
+      "phone": "+46736394607",
+      "description": {
+        "free_text": "Fotboll",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hjärup"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger sjöholm",
+        "contact_person_role": null,
+        "contact_person_email": "kansliet@uif.nu",
+        "contact_person_phone": "+46736394607"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Roger Sjöholm",
+        "0736-394607",
+        "kansliet@uif.nu",
+        "https://www.uif.nu",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Uppåkra Scoutkår KFUM",
+      "org_number": null,
+      "types": [
+        "Scoutkår"
+      ],
+      "activities": [
+        "Scoutverksamhet"
+      ],
+      "categories": [
+        "Hjärup"
+      ],
+      "homepage_url": "https://www.uppakrascoutkar.se/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Upp%C3%A5kra%20Scoutk%C3%A5r%20KFUM",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@uppakrascoutkar.se",
+      "phone": null,
+      "description": {
+        "free_text": "Scoutverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Scoutverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hjärup"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@uppakrascoutkar.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "info@uppakrascoutkar.se",
+        "https://www.uppakrascoutkar.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Uppåkra skol-IF",
+      "org_number": null,
+      "types": [
+        "Skolidrottsförening"
+      ],
+      "activities": [
+        "Skolidrott"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Upp%C3%A5kra%20skol-IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skolidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Uppåkras vänförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.uppakra.se/om-stiftelsen/stod-oss/vanforeningen/",
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Upp%C3%A5kras%20v%C3%A4nf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "goran.berggren@telia.com",
+      "phone": "+46727033493",
+      "description": {
+        "free_text": "Uppåkras vänförening stödjer utvecklingen av Uppåkra Arkeologiska Center som besöksmål, genom att främja arkeologisk, kulturhistorisk, museal och kulturell verksamhet i anslutning till fornlämningarna i Uppåkra.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran berggren",
+        "contact_person_role": null,
+        "contact_person_email": "goran.berggren@telia.com",
+        "contact_person_phone": "+46727033493"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Göran Berggren",
+        "0727033493",
+        "goran.berggren@telia.com",
+        "https://www.uppakra.se/om-stiftelsen/stod-oss/vanforeningen/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Staffanstorp",
+    "scrape_run_id": "31eed11a-f0e7-4e02-8231-0a1f11b98ee9",
+    "scraped_at": "2025-10-29T01:00:13.494Z",
+    "association": {
+      "name": "Ur Staffanstorp & Konsten",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Konst",
+        "Kultur"
+      ],
+      "categories": [
+        "Hjärup",
+        "Kyrkhedinge",
+        "Staffanstorp",
+        "Tottarp"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://staffanstorp.rbok.se/foreningsregister?association=Ur%20Staffanstorp%20%26%20Konsten",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordf.usok@outlook.com",
+      "phone": "+46732014001",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamhet som bidrar till att stödja och utveckla ett rikt och mångsidigt kulturliv i Staffanstorps kommun",
+            "data": {
+              "activities": [
+                "Denna förenings målsättning är att i obunden religiös",
+                "politisk och etisk anda verka för:",
+                "att på olika sätt levandegöra detta lokala kulturarv för nuvarande och kommande generationer",
+                "att skapa intresse för de erkända konstnärer som har verkat/verkar i ovanstående anda",
+                "att stödja och stimulera andra föreningar",
+                "sällskap",
+                "institutioner och privatpersoner som vill lyfta fram ovanstående konstnärer.",
+                "Föreningen vänder sig till människor i alla åldrar",
+                "oavsett bakgrund. Föreningen ska aktivt arbeta för att motverka all form av diskriminering."
+              ]
+            }
+          },
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konst",
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (26+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hjärup",
+                "Kyrkhedinge",
+                "Staffanstorp",
+                "Tottarp"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael löfberg",
+        "contact_person_role": null,
+        "contact_person_email": "ordf.usok@outlook.com",
+        "contact_person_phone": "+46732014001"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (26+ år)"
+      ],
+      "contact_lines": [
+        "Mikael Löfberg",
+        "0732014001",
+        "ordf.usok@outlook.com",
+        "Stäng"
+      ]
+    }
+  }
+]

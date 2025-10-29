@@ -1,0 +1,3751 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "ABF",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://abf.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=ABF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mariana.emanuelsson@abf.se",
+      "phone": "+4636306180",
+      "description": {
+        "free_text": "Folkbildning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mariana emanuelsson",
+        "contact_person_role": null,
+        "contact_person_email": "mariana.emanuelsson@abf.se",
+        "contact_person_phone": "+4636306180"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mariana Emanuelsson",
+        "036-306180",
+        "mariana.emanuelsson@abf.se",
+        "https://abf.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Betel Gospel",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Betel%20Gospel",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Betel Ungdom Vaggeryd",
+      "org_number": null,
+      "types": [
+        "Trossamfund"
+      ],
+      "activities": [
+        "Natur och friluftsliv"
+      ],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": "https://www.betelvaggeryd.se/barn-och-ungdom/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Betel%20Ungdom%20Vaggeryd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Barn och ungdomsarbete i Betelkyrkan i Vaggeryd. Såsom UV-Scout, tonår, söndagsskola.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Natur och friluftsliv"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.betelvaggeryd.se/barn-och-ungdom/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Betels Musikkår - Vaggeryd Brass",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Betels%20Musikk%C3%A5r%20-%20Vaggeryd%20Brass",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Bjarg islandshästförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.bjarg.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Bjarg%20islandsh%C3%A4stf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mail@bjarg.se",
+      "phone": "+467190700",
+      "description": {
+        "free_text": "Bjarg är en islandshästförening med ca 125 medlemmar, Tävlingar, kurser och långritter mm.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina henriksson",
+        "contact_person_role": null,
+        "contact_person_email": "mail@bjarg.se",
+        "contact_person_phone": "+467190700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Katarina Henriksson",
+        "+46707190700",
+        "mail@bjarg.se",
+        "http://www.bjarg.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Bondstorps Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Bondstorps delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Bondstorps%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lisbeth.x.davidsson@gmail.com",
+      "phone": "+46734220850",
+      "description": {
+        "free_text": "Förvalta Hembygdsgården Braskabo en autentisk torparmiljö ,föra den lokala historien vidare till kommande generationer",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bondstorps delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lisbeth davidsson",
+        "contact_person_role": null,
+        "contact_person_email": "lisbeth.x.davidsson@gmail.com",
+        "contact_person_phone": "+46734220850"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lisbeth Davidsson",
+        "073-4220850",
+        "lisbeth.x.davidsson@gmail.com",
+        "www.hembygd.se/bondstorp",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Bondstorps Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Bondstorps delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Bondstorps%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lena.bondstorp@telia.com",
+      "phone": "+46703641714",
+      "description": {
+        "free_text": "Äger föreningshuset Ekbacken och förvaltar samt hyr ut detta inkl två vandrarrum till föreningar, organisationer, myndigheter, privatpersoner. Boulesektion, dartsektion och syjuntasektion finns.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bondstorps delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "lena.bondstorp@telia.com",
+        "contact_person_phone": "+46703641714"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Lena Gustafsson",
+        "0703641714",
+        "lena.bondstorp@telia.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Bondstorps jaktskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Bondstorps delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Bondstorps%20jaktskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bondstorps delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Bratteborgs Ryttarsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Kalas"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Bratteborgs%20Ryttars%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsen@bratteborgsrs.se",
+      "phone": "+4639313130",
+      "description": {
+        "free_text": "Föreningen bedriver ridskola från knatte 4 år till vuxengrupper.. Tävlingar på lokal nivå just nu i dressyr. Privatlektioner på alla nivåer, läger, ridkalas och ponnyridningar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kalas"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna brunnegård",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsen@bratteborgsrs.se",
+        "contact_person_phone": "+4639313130"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Anna Brunnegård",
+        "0393-13130, 0738411969",
+        "styrelsen@bratteborgsrs.se",
+        "www.bratteborgsrs.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Byarums Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarv"
+      ],
+      "categories": [
+        "Byarums delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Byarums%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen bedriver en hembygdsgård som är öppen under sommaren för alla och genomför olika aktiviteter kulturella, valborgsmässofirande, midsommarfirande och andra event. Föreningens ekonomi består av medlemsavgifter förs. av hembygdsbok samt lokalhyra.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarv"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Byarums delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Equmenia Vaggeryd",
+      "org_number": null,
+      "types": [
+        "Trossamfund"
+      ],
+      "activities": [
+        "Natur och friluftsliv"
+      ],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Equmenia%20Vaggeryd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "eq-kassor@equmeniakyrkanvaggeryd.se",
+      "phone": null,
+      "description": {
+        "free_text": "Barn och ungdomsverksamhet\nScouting, tonår",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Natur och friluftsliv"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas lundqvist",
+        "contact_person_role": null,
+        "contact_person_email": "eq-kassor@equmeniakyrkanvaggeryd.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom"
+      ],
+      "contact_lines": [
+        "Thomas Lundqvist",
+        "eq-kassor@equmeniakyrkanvaggeryd.se",
+        "www.equmeniakyrkanvaggeryd.se/equmenia",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Föreningen Munkaleden Nydala Byarum",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.munkaleden.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=F%C3%B6reningen%20Munkaleden%20Nydala%20Byarum",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hadinge@outlook.com",
+      "phone": "+46732298423",
+      "description": {
+        "free_text": "Underhåller Munkaleden i Vaggeryds och Värnamo kommuner. Ordnar öppna vandringar och aktivitetsdagar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran svensson",
+        "contact_person_role": null,
+        "contact_person_email": "hadinge@outlook.com",
+        "contact_person_phone": "+46732298423"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Göran Svensson",
+        "0732298423",
+        "hadinge@outlook.com",
+        "https://www.munkaleden.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Gota Stream Big Band",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Gota%20Stream%20Big%20Band",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46701669809",
+      "description": {
+        "free_text": "Konserter och framträdanden. Instudering och repetition av musikarrangemang för storband. Fortlöpande samarbete med Kulturskolan för gemensamma konserter, workshops, instrumentövningar, improvisationsövningar samt nyrekrytering och inskolning av nya medlemmar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Musik"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats ogell",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46701669809"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mats Ogell",
+        "0701669809",
+        "Facebook.com/GotaStreamBB",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Götaströms Fordonshistoriskaklubb",
+      "org_number": null,
+      "types": [
+        "Ideellförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.gotastrom.nu/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=G%C3%B6tastr%C3%B6ms%20Fordonshistoriskaklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mats.mc.carlsson@gmail.com",
+      "phone": "+46739968604",
+      "description": {
+        "free_text": "Fordonsklubb som vill bevara fordonskulturen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats carlsson",
+        "contact_person_role": null,
+        "contact_person_email": "mats.mc.carlsson@gmail.com",
+        "contact_person_phone": "+46739968604"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Mats Carlsson",
+        "073 996 86 04",
+        "mats.mc.carlsson@gmail.com",
+        "https://www.gotastrom.nu/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Götaströms Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": "http://www.gotastromsgk.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=G%C3%B6tastr%C3%B6ms%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@gotastromsgk.se",
+      "phone": "+4637076490",
+      "description": {
+        "free_text": "Golfanläggning med 18 hål, driving range, korthål mm",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Golf"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy gunnarsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@gotastromsgk.se",
+        "contact_person_phone": "+4637076490"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Tommy Gunnarsson",
+        "037076490",
+        "info@gotastromsgk.se",
+        "http://www.gotastromsgk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Hagafors tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Svenarums delområde"
+      ],
+      "homepage_url": "https://www.svenskalag.se/hagaforstk",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Hagafors%20tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "cgbertil@gmail.com",
+      "phone": "+46707349408",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Svenarums delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Claes-göran bertilsson",
+        "contact_person_role": null,
+        "contact_person_email": "cgbertil@gmail.com",
+        "contact_person_phone": "+46707349408"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Claes-Göran Bertilsson",
+        "0707349408",
+        "cgbertil@gmail.com",
+        "https://www.svenskalag.se/hagaforstk",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Hagshults missionsförsamling",
+      "org_number": null,
+      "types": [
+        "Trossamfund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Hagshults%20missionsf%C3%B6rsamling",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pastor@hagshult.com",
+      "phone": null,
+      "description": {
+        "free_text": "Frikyrka med barn- och ungdomsverksamhet.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "pastor@hagshult.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "pastor@hagshult.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Handbollklubben Vaggeryd",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Handbollklubben%20Vaggeryd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mousa-rasta@hotmail.com",
+      "phone": "+46736649544",
+      "description": {
+        "free_text": "Träning och tävling för barn o ungdom 9-15 år samt Boll och idrottsskolor för barn 4-9 år",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mousa mousa",
+        "contact_person_role": null,
+        "contact_person_email": "mousa-rasta@hotmail.com",
+        "contact_person_phone": "+46736649544"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom"
+      ],
+      "contact_lines": [
+        "Mousa Mousa",
+        "0736649544",
+        "mousa-rasta@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Hookortens jaktvårdsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Jaktskytte"
+      ],
+      "categories": [
+        "Hoks delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Hookortens%20jaktv%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordfhjvf@gmail.com",
+      "phone": "+46702937929",
+      "description": {
+        "free_text": "Skytteförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Jaktskytte"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hoks delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan gustavsson",
+        "contact_person_role": null,
+        "contact_person_email": "ordfhjvf@gmail.com",
+        "contact_person_phone": "+46702937929"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johan Gustavsson",
+        "0702937929",
+        "Ordfhjvf@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Hooks Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Hooks%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@hooksgk.se",
+      "phone": null,
+      "description": {
+        "free_text": "Golf för åldrarna 6-105 år",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Golf"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Niklas blom",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@hooksgk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Niklas Blom",
+        "kansli@hooksgk.se",
+        "www.hooksgk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Hooks Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik"
+      ],
+      "categories": [
+        "Hoks delområde"
+      ],
+      "homepage_url": "https://www.laget.se/HooksIF",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Hooks%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@hooksif.se",
+      "phone": null,
+      "description": {
+        "free_text": "Bedriver fotbolls verksamhet och övrig verksamhet inom motion och fritid.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Hoks delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@hooksif.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "info@hooksif.se",
+        "https://www.laget.se/HooksIF",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Horseback Archery Sydskyttarna",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://sydskyttarna.cdn.nu/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Horseback%20Archery%20Sydskyttarna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sydskyttarna@gmail.com",
+      "phone": "+46735547419",
+      "description": {
+        "free_text": "Beridet bågskytte",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jennie ottosson",
+        "contact_person_role": null,
+        "contact_person_email": "sydskyttarna@gmail.com",
+        "contact_person_phone": "+46735547419"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jennie Ottosson",
+        "0735547419",
+        "sydskyttarna@gmail.com",
+        "https://sydskyttarna.cdn.nu/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "IOGT-NTO Vaggeryd",
+      "org_number": null,
+      "types": [
+        "Ideellförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=IOGT-NTO%20Vaggeryd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+4639312233",
+      "description": {
+        "free_text": "Nykterhetsorganisation",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roland emanuelsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+4639312233"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Roland Emanuelsson",
+        "0393-12233",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Klevshults Pingstförsamling",
+      "org_number": null,
+      "types": [
+        "Trossamfund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://.klevshultpingst.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Klevshults%20Pingstf%C3%B6rsamling",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pingstkyrkan@klevshultpingst.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "pingstkyrkan@klevshultpingst.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "pingstkyrkan@klevshultpingst.se",
+        "http://.klevshultpingst.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Naturskyddsföreningen i Vaggeryd",
+      "org_number": null,
+      "types": [
+        "Ideellförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://vaggeryd.xn--naturskyddsfreningen-fbc.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Naturskyddsf%C3%B6reningen%20i%20Vaggeryd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marianne.frick@naturskyddsforeningen.se",
+      "phone": "+46725659190",
+      "description": {
+        "free_text": "Naturskydd, miljövård.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marianne frick",
+        "contact_person_role": null,
+        "contact_person_email": "marianne.frick@naturskyddsforeningen.se",
+        "contact_person_phone": "+46725659190"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marianne Frick",
+        "0725659190",
+        "marianne.frick@naturskyddsforeningen.se",
+        "http://vaggeryd.naturskyddsföreningen.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Pingstförsamlingen Vaggeryd",
+      "org_number": null,
+      "types": [
+        "Trossamfund"
+      ],
+      "activities": [
+        "Trossamfund"
+      ],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": "https://www.pingstvaggeryd.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Pingstf%C3%B6rsamlingen%20Vaggeryd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@pingstvaggeryd.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Trossamfund"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@pingstvaggeryd.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "info@pingstvaggeryd.se",
+        "https://www.pingstvaggeryd.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Pingstkyrkan Skillingaryd",
+      "org_number": null,
+      "types": [
+        "Trossamfund"
+      ],
+      "activities": [],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": "https://www.pingstskillingaryd.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Pingstkyrkan%20Skillingaryd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kyrkan@pingstskillingaryd.se",
+      "phone": null,
+      "description": {
+        "free_text": "Kristen församling",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kyrkan@pingstskillingaryd.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "kyrkan@pingstskillingaryd.se",
+        "https://www.pingstskillingaryd.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "PRO Vaggeryd",
+      "org_number": null,
+      "types": [
+        "Ideellförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [],
+      "homepage_url": "http://pro.se/Vaggeryd",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=PRO%20Vaggeryd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46706839586",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Senior (65+)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ronnie karlsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46706839586"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Senior (65+)"
+      ],
+      "contact_lines": [
+        "Ronnie Karlsson",
+        "0706839586",
+        "HTTP://Pro.se/Vaggeryd",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Radioflygklubben Skilling",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": "http://www.rfkskilling.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Radioflygklubben%20Skilling",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@rfkskilling.se",
+      "phone": "+46703182557",
+      "description": {
+        "free_text": "Modellflygning på vårt modellflygfält \"slätten\" i utkanten på samhället i Skillingaryd.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias andersson",
+        "contact_person_role": null,
+        "contact_person_email": "info@rfkskilling.se",
+        "contact_person_phone": "+46703182557"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Mattias Andersson",
+        "0703182557",
+        "info@rfkskilling.se",
+        "http://www.rfkskilling.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Sensus Östra Götaland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Digitala kurser",
+        "Folkbildning",
+        "Föreläsning",
+        "Kultur",
+        "Musik",
+        "Teater"
+      ],
+      "categories": [
+        "Bondstorps delområde",
+        "Byarums delområde",
+        "Hoks delområde",
+        "Skillingaryds delområde",
+        "Svenarums delområde",
+        "Tofteryds delområde",
+        "Vaggeryds delområde",
+        "Åkers delområde"
+      ],
+      "homepage_url": "https://www.sensus.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Sensus%20%C3%96stra%20G%C3%B6taland",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ostragotaland@sensus.se",
+      "phone": "+4613246700",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Digitala kurser",
+                "Folkbildning",
+                "Föreläsning",
+                "Kultur",
+                "Musik",
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bondstorps delområde",
+                "Byarums delområde",
+                "Hoks delområde",
+                "Skillingaryds delområde",
+                "Svenarums delområde",
+                "Tofteryds delområde",
+                "Vaggeryds delområde",
+                "Åkers delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lotta bernberg",
+        "contact_person_role": null,
+        "contact_person_email": "ostragotaland@sensus.se",
+        "contact_person_phone": "+4613246700"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Lotta Bernberg",
+        "013246700",
+        "ostragotaland@sensus.se",
+        "https://www.sensus.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds Badmintonklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton"
+      ],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20Badmintonklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Badminton",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Petra ryman",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Petra Ryman",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20Fotoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kjell462@gmail.com",
+      "phone": "+46703176278",
+      "description": {
+        "free_text": "Verka för fotografins utveckling och vara en knutpunkt för personer med fotointresse.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kjell karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "kjell462@gmail.com",
+        "contact_person_phone": "+46703176278"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Kjell Karlsson",
+        "0703176278",
+        "kjell462@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds Frisksportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://skillingarydsfk.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20Frisksportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@skillingarydsfk.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran svensson",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@skillingarydsfk.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Göran Svensson",
+        "kansli@skillingarydsfk.se",
+        "http://skillingarydsfk.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://skillingarydsgymnastik.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20Gymnastikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@skillingarydsgymnastik.se",
+      "phone": null,
+      "description": {
+        "free_text": "Skillingaryds Gymnastikförenings verksamhetsidé är att ge barn, ungdomar och vuxna möjlighet till olika former av gymnastik och gott kamratskap.\nVi vill inspirera till rörelse hela livet! Detta gör vi genom att erbjuda olika barn- och ungdomsgrupper samt varierande motionspass för ungdomar och vuxna i alla åldrar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johanna malmklint",
+        "contact_person_role": null,
+        "contact_person_email": "info@skillingarydsgymnastik.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johanna Malmklint",
+        "info@skillingarydsgymnastik.se",
+        "https://skillingarydsgymnastik.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds Innebandyklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Bondstorps delområde",
+        "Byarums delområde",
+        "Hoks delområde",
+        "Klevhults delområde",
+        "Skillingaryds delområde",
+        "Svenarums delområde",
+        "Tofteryds delområde",
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": "https://www.skillingarydsik.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20Innebandyklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@skillingarydsik.se",
+      "phone": null,
+      "description": {
+        "free_text": "Skillingaryds Innebandyklubb bildades 27/3 1991. Vår förening brinner för innebandyn och vi har idag cirka 200 aktiva spelare från Innebandyskolan och uppåt. Välkommen att börja spela innebandy i SIK!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Bondstorps delområde",
+                "Byarums delområde",
+                "Hoks delområde",
+                "Klevhults delområde",
+                "Skillingaryds delområde",
+                "Svenarums delområde",
+                "Tofteryds delområde",
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sandra gustafsson, ordförande",
+        "contact_person_role": null,
+        "contact_person_email": "info@skillingarydsik.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Sandra Gustafsson, ordförande",
+        "info@skillingarydsik.se",
+        "https://www.skillingarydsik.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds IS",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling",
+        "Fotboll",
+        "Ishockey"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.sis.nu/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20IS",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@sis.nu",
+      "phone": "+46760280385",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bowling",
+                "Fotboll",
+                "Ishockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@sis.nu",
+        "contact_person_phone": "+46760280385"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "0760280385",
+        "kansli@sis.nu",
+        "http://www.sis.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds manskör",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": "http://www.skillingarydsmanskor.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20mansk%C3%B6r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46704165337",
+      "description": {
+        "free_text": "Traditionell manskör med framträdanden kring Valborg, Advent men också andra tillfällen under året.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andreas ljung",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46704165337"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Andreas Ljung",
+        "0704165337",
+        "http://www.skillingarydsmanskor.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds missionsförsamling",
+      "org_number": null,
+      "types": [
+        "Trossamfund"
+      ],
+      "activities": [],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20missionsf%C3%B6rsamling",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nicklas@mkyrkan.com",
+      "phone": "+46720887500",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Nicklas gideskog",
+        "contact_person_role": null,
+        "contact_person_email": "nicklas@mkyrkan.com",
+        "contact_person_phone": "+46720887500"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Nicklas Gideskog",
+        "0720887500",
+        "nicklas@mkyrkan.com",
+        "www.mkyrkan.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds PRO",
+      "org_number": null,
+      "types": [
+        "Ideellförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20PRO",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "skillingaryd@pro.se",
+      "phone": "+46736914140",
+      "description": {
+        "free_text": "Pensionnärsföreing",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Senior (65+)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sonja kling",
+        "contact_person_role": null,
+        "contact_person_email": "skillingaryd@pro.se",
+        "contact_person_phone": "+46736914140"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Senior (65+)"
+      ],
+      "contact_lines": [
+        "Sonja Kling",
+        "073-6914140",
+        "Skillingaryd@pro.se",
+        "www.pro.se/skillingaryd",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Skillingaryds Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Skillingaryds%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "SPF Seniorerna Avd 696 Skillingayd",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=SPF%20Seniorerna%20Avd%20696%20Skillingayd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "SPF seniorerna i Vaggeryd",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.spfseniorerna.se/vaggeryd",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=SPF%20seniorerna%20i%20Vaggeryd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jörgen bergström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jörgen Bergström",
+        "https://www.spfseniorerna.se/vaggeryd",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Studiefrämjandet Småland Öland",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [
+        "Folkbildning"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.studieframjandet.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Studiefr%C3%A4mjandet%20Sm%C3%A5land%20%C3%96land",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jennie.krafft@studieframjandet.se",
+      "phone": "+46364401210",
+      "description": {
+        "free_text": "Studiecirklar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Folkbildning"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jennie krafft",
+        "contact_person_role": null,
+        "contact_person_email": "jennie.krafft@studieframjandet.se",
+        "contact_person_phone": "+46364401210"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jennie Krafft",
+        "036-4401210",
+        "jennie.krafft@studieframjandet.se",
+        "https://www.studieframjandet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Svenarums hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Svenarums delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Svenarums%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "rogerbonnetorarp@gmail.com",
+      "phone": "+46706920658",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Svenarums delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Roger andersson",
+        "contact_person_role": null,
+        "contact_person_email": "rogerbonnetorarp@gmail.com",
+        "contact_person_phone": "+46706920658"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Roger Andersson",
+        "0706920658",
+        "rogerbonnetorarp@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Svenarums SAU",
+      "org_number": null,
+      "types": [
+        "Trossamfund"
+      ],
+      "activities": [
+        "Trossamfund"
+      ],
+      "categories": [
+        "Svenarums delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Svenarums%20SAU",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46709544130",
+      "description": {
+        "free_text": "Barn- och ungdomsförening med UV-scout och söndagsskola i Svenarumsbygden",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Trossamfund"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Svenarums delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "David nordquist",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46709544130"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "David Nordquist",
+        "0709544130",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Tofteryd Hagshult Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kulturarv"
+      ],
+      "categories": [
+        "Tofteryds delområde"
+      ],
+      "homepage_url": "https://www.hembygd.se/tofteryd-hagshults-hembygdsf-rening",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Tofteryd%20Hagshult%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tofterydhagshult@gmail.com",
+      "phone": "+46705127137",
+      "description": {
+        "free_text": "Hembygdsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kulturarv"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tofteryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ken frick",
+        "contact_person_role": null,
+        "contact_person_email": "tofterydhagshult@gmail.com",
+        "contact_person_phone": "+46705127137"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ken Frick",
+        "0705127137",
+        "tofterydhagshult@gmail.com",
+        "https://www.hembygd.se/tofteryd-hagshults-hembygdsf-rening",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Vaggeryd United BK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Vaggeryd%20United%20BK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vaggeryd.united@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningens huvudverksamhet är fotboll. Föreningen ägnar sig även åt futsal.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "vaggeryd.united@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Vaggeryd.united@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Vaggeryds Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Pingis"
+      ],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Vaggeryds%20Bordtennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vaggerydsbtk@gmail.com",
+      "phone": "+46768635745",
+      "description": {
+        "free_text": "Bordtennisverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Pingis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jakob sandström",
+        "contact_person_role": null,
+        "contact_person_email": "vaggerydsbtk@gmail.com",
+        "contact_person_phone": "+46768635745"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Jakob Sandström",
+        "0768635745",
+        "vaggerydsbtk@gmail.com",
+        "www.vaggerydsbtk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Waggeryds IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bandy",
+        "Fotboll"
+      ],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Waggeryds%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "waggeryds.ik@telia.com",
+      "phone": "+4639310500",
+      "description": {
+        "free_text": "Fotboll/Bandy",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bandy",
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marica vidovic",
+        "contact_person_role": null,
+        "contact_person_email": "waggeryds.ik@telia.com",
+        "contact_person_phone": "+4639310500"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Marica Vidovic",
+        "039310500",
+        "waggeryds.ik@telia.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Vaggeryds konstförening",
+      "org_number": null,
+      "types": [
+        "Ideellförening"
+      ],
+      "activities": [
+        "Konst"
+      ],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": "https://vaggerydskonstforening.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Vaggeryds%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vaggerydskonstforening@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningens syfte är att anordna konstutställningar, föreläsningar om konst, utlottning av konstverk samt främja intresset för bildande konst.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konst"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom",
+                "Senior (65+)",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "vaggerydskonstforening@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom",
+        "Senior (65+)",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "vaggerydskonstforening@gmail.com",
+        "https://vaggerydskonstforening.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Vaggeryds Schackklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Vaggeryds%20Schackklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "schackklubb",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Andreas råvik",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Andreas Råvik",
+        "www.vaggerydssk.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Vaggeryds tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Vaggeryds%20tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Tennisverksamhet",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Vaggeryds Thai & Boxningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Vaggeryds delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Vaggeryds%20Thai%20%26%20Boxningsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "oliverflodin@hotmail.com",
+      "phone": "+46702763575",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Vaggeryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sören andersson",
+        "contact_person_role": null,
+        "contact_person_email": "oliverflodin@hotmail.com",
+        "contact_person_phone": "+46702763575"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sören Andersson",
+        "0702763575",
+        "oliverflodin@hotmail.com",
+        "vmtb.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Waggerydsatletklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.waggerydsatletklubb.se/",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=Waggerydsatletklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@waggerydsatletklubb.se",
+      "phone": null,
+      "description": {
+        "free_text": "GymMotionsanläggning",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Michel magnusson",
+        "contact_person_role": null,
+        "contact_person_email": "info@waggerydsatletklubb.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Michel Magnusson",
+        "info@waggerydsatletklubb.se",
+        "https://www.waggerydsatletklubb.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Åkerbygdens Alliansförsamling",
+      "org_number": null,
+      "types": [
+        "Trossamfund"
+      ],
+      "activities": [],
+      "categories": [
+        "Åkers delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=%C3%85kerbygdens%20Alliansf%C3%B6rsamling",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pastorn@akerafs.se",
+      "phone": "+46725375616",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Åkers delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas wendefors",
+        "contact_person_role": null,
+        "contact_person_email": "pastorn@akerafs.se",
+        "contact_person_phone": "+46725375616"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jonas Wendefors",
+        "0725375616",
+        "pastorn@akerafs.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Åkers hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Åkers delområde"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=%C3%85kers%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Hembygdsförening",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Åkers delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Vaggeryd",
+    "scrape_run_id": "0f15b632-33a9-45e0-98fb-4927c0af62e8",
+    "scraped_at": "2025-10-29T01:42:48.691Z",
+    "association": {
+      "name": "Östbo Historiska Sällskap",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Skillingaryds delområde"
+      ],
+      "homepage_url": "http://www.hembygd.se/ostbo",
+      "detail_url": "https://vaggeryd.rbok.se/foreningsregister?association=%C3%96stbo%20Historiska%20S%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ostbohistoriska@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningens mål är att fördjupa, bevara och sprida Skillingarydbygdens historia vidare",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Skillingaryds delområde"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jenny larsen",
+        "contact_person_role": null,
+        "contact_person_email": "ostbohistoriska@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jenny Larsen",
+        "ostbohistoriska@gmail.com",
+        "http://www.hembygd.se/ostbo",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

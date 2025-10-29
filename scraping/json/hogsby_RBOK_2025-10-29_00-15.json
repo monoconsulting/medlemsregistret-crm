@@ -1,0 +1,3667 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Allgunnens Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://allgunnenby.com/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Allgunnens%20Samh%C3%A4llsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stefan@sjconsulting.se",
+      "phone": "+46705886673",
+      "description": {
+        "free_text": "Föreningen driver ett flertal aktiviteter i vår föreningslokal. Dessutom sköter vi badplats, grönområden och boulebana i byn. Föreningens lokal, Allgården, är en naturlig samlingsplats.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan jonsson",
+        "contact_person_role": null,
+        "contact_person_email": "stefan@sjconsulting.se",
+        "contact_person_phone": "+46705886673"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stefan Jonsson",
+        "0705886673",
+        "stefan@sjconsulting.se",
+        "https://allgunnenby.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Berga GoIF",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Berga"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Berga%20GoIF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lager.mellby@gmail.com",
+      "phone": "+46705530478",
+      "description": {
+        "free_text": "Fotbollsförening, Driver fotbollsverksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Berga"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Michael lager",
+        "contact_person_role": null,
+        "contact_person_email": "lager.mellby@gmail.com",
+        "contact_person_phone": "+46705530478"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Michael Lager",
+        "070-5530478",
+        "lager.mellby@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Berga Missionsförsamling",
+      "org_number": null,
+      "types": [
+        "Religiösa föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://bergamissionskyrka.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Berga%20Missionsf%C3%B6rsamling",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "http://bergamissionskyrka.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Berga Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://bergastation.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Berga%20Samh%C3%A4llsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bengt-åke lundin",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Bengt-Åke Lundin",
+        "Http://Bergastation.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Berga Skid- och Orienteringsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Berga%20Skid-%20och%20Orienteringsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bedriver Skid- och Orienteringsverksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Berga Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Berga%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ohlsson@hogsby.net",
+      "phone": "+4670375451",
+      "description": {
+        "free_text": "Tennisbana vid Gösjön, Berga. Bokas genom appen Playtomic. Årlig tennisskola för alla mellan 7-15 år.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans gustavsson",
+        "contact_person_role": null,
+        "contact_person_email": "ohlsson@hogsby.net",
+        "contact_person_phone": "+4670375451"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Hans Gustavsson",
+        "070375451",
+        "ohlsson@hogsby.net",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Björkshults byalag",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Bj%C3%B6rkshults%20byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Samhällsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "DHR:s Högsby avdelning",
+      "org_number": null,
+      "types": [
+        "Intresseorganisationer"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=DHR%3As%20H%C3%B6gsby%20avdelning",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jonsson.ewy@gmail.com",
+      "phone": "+46702123006",
+      "description": {
+        "free_text": "Vi är en Ideell förening med inriktning av funktionsvariationer. Förbundsstyrelsen finns i Stockholm och vi har även en regionstyrelse. Vi har månadsmöten varannan månad. Har även olika aktiviteter efter vad medlemmarna orkar med och vill.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ewy jonsson",
+        "contact_person_role": null,
+        "contact_person_email": "jonsson.ewy@gmail.com",
+        "contact_person_phone": "+46702123006"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ewy Jonsson",
+        "0702123006",
+        "jonsson.ewy@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Emådalens filmstudio",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.bergastation.se/emadalens-filmstudio/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Em%C3%A5dalens%20filmstudio",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marina125@hotmail.com",
+      "phone": "+46705773359",
+      "description": {
+        "free_text": "Emådalens filmstudio är en kulturförening som visar 14 kvalitetsfilmer varje år för sina medlemmar på Berga Bio. Föreningen har ca 100 medlemmar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marina hedman johansson, ordförande",
+        "contact_person_role": null,
+        "contact_person_email": "marina125@hotmail.com",
+        "contact_person_phone": "+46705773359"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marina Hedman Johansson, ordförande",
+        "070-5773359",
+        "marina125@hotmail.com",
+        "https://www.bergastation.se/emadalens-filmstudio/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Emådalens Segelsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Em%C3%A5dalens%20Segels%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@rlmaskinservice.se",
+      "phone": "+46735284973",
+      "description": {
+        "free_text": "Segelklubb för barn och ungdomar. Segelskola, segelverksamhet med tävlingar samt segelläger.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Richard linusson",
+        "contact_person_role": null,
+        "contact_person_email": "info@rlmaskinservice.se",
+        "contact_person_phone": "+46735284973"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Richard Linusson",
+        "073-5284973",
+        "Info@rlmaskinservice.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fagerhults AIK",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll",
+        "Gymnastik"
+      ],
+      "categories": [
+        "Fagerhult"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Fagerhults%20AIK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ideell idrottsförening, inrikting fotboll och ungdomsverksamhet genom ungdomsgård",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerhult"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fagerhults Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Fagerhult"
+      ],
+      "homepage_url": "http://hembygd.se/fagerhults-hembygdsforening",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Fagerhults%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ann-marie.hagelin@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerhult"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann-marie hagelin",
+        "contact_person_role": null,
+        "contact_person_email": "ann-marie.hagelin@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ann-Marie Hagelin",
+        "ann-marie.hagelin@telia.com",
+        "http://hembygd.se/fagerhults-hembygdsforening",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fagerhultskolans Föräldraförening",
+      "org_number": null,
+      "types": [
+        "Föräldraföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Fagerhultskolans%20F%C3%B6r%C3%A4ldraf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bast2911@gmail.com",
+      "phone": "+46760352360",
+      "description": {
+        "free_text": "Fagerhultskolans Föräldraförening finns till för att skapa trygghet, trivsel och utveckling för våra barn i Fagerhult och kringliggande byar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sebastian veith",
+        "contact_person_role": null,
+        "contact_person_email": "bast2911@gmail.com",
+        "contact_person_phone": "+46760352360"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sebastian Veith",
+        "0760352360",
+        "bast2911@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Farshults Byalag",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Farshults%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "farshults.byalag@outlook.com",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johanna lindgren",
+        "contact_person_role": null,
+        "contact_person_email": "farshults.byalag@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Johanna Lindgren",
+        "farshults.byalag@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Filadelfiaförsamlingen Högsby",
+      "org_number": null,
+      "types": [
+        "Religiösa föreningar"
+      ],
+      "activities": [
+        "Barn- och ungdomsverksamhet",
+        "Caféverksamhet",
+        "Föreningsmöte",
+        "Möte",
+        "Seniorverksamhet"
+      ],
+      "categories": [
+        "Berga",
+        "Fågelfors",
+        "Högsby centralort",
+        "Ruda"
+      ],
+      "homepage_url": "https://www.filadelfiahogsby.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Filadelfiaf%C3%B6rsamlingen%20H%C3%B6gsby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barn- och ungdomsverksamhet",
+                "Caféverksamhet",
+                "Föreningsmöte",
+                "Möte",
+                "Seniorverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Berga",
+                "Fågelfors",
+                "Högsby centralort",
+                "Ruda"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "https://www.filadelfiahogsby.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fågelfors Fiskeklubb",
+      "org_number": null,
+      "types": [
+        "Fiskeföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=F%C3%A5gelfors%20Fiskeklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mats.persson540807@gmail.com",
+      "phone": "+46702598616",
+      "description": {
+        "free_text": "Sportfiske",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats persson",
+        "contact_person_role": null,
+        "contact_person_email": "mats.persson540807@gmail.com",
+        "contact_person_phone": "+46702598616"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mats Persson",
+        "0702598616",
+        "mats.persson540807@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fågelfors folkets hus och park upa",
+      "org_number": null,
+      "types": [
+        "Folkets Hus-föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=F%C3%A5gelfors%20folkets%20hus%20och%20park%20upa",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "En folkparksförening som arragerar danskväll, pubkväll och uppträdande. Föreningen anordnar även andra evenemang som till exempel mopedrally.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lisa karlsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lisa Karlsson",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fågelfors Föräldraförening",
+      "org_number": null,
+      "types": [
+        "Föräldraföreningar"
+      ],
+      "activities": [
+        "Barn- och ungdomsverksamhet"
+      ],
+      "categories": [
+        "Fågelfors"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=F%C3%A5gelfors%20F%C3%B6r%C3%A4ldraf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föräldraförening som anordnar roliga aktiviteter för barnen i Fågelfors.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barn- och ungdomsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fågelfors"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Clara ingvarsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Clara Ingvarsson",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fågelfors Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Fågelfors",
+        "Högsby centralort"
+      ],
+      "homepage_url": "http://www.laget.se/fagelforsif",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=F%C3%A5gelfors%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tkkingen59@gmail.com",
+      "phone": "+46734409709",
+      "description": {
+        "free_text": "Fotboll Herr",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fågelfors",
+                "Högsby centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tommy karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "tkkingen59@gmail.com",
+        "contact_person_phone": "+46734409709"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Tommy Karlsson",
+        "073-4409709",
+        "tkkingen59@gmail.com",
+        "http://www.laget.se/fagelforsif",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fågelfors PRO",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=F%C3%A5gelfors%20PRO",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "profagelfors@hogsby.net",
+      "phone": "+46722177603",
+      "description": {
+        "free_text": "Medlemmarna är åldersspannet 60+ till 100+ . Föreningen erbjuder meningsfulla och roliga aktiviteter. Föreningen arbetar också med frågor som rör förbättringar av äldres levnadsvillkor, och bedriver cirkelverksamhet tillsammans med ABF. Föreningen distribuerar medlemsblad 2-3 gånger per år.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingbritt loberg",
+        "contact_person_role": null,
+        "contact_person_email": "profagelfors@hogsby.net",
+        "contact_person_phone": "+46722177603"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ingbritt Loberg",
+        "0722177603",
+        "profagelfors@hogsby.net",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fågelfors Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=F%C3%A5gelfors%20Samh%C3%A4llsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "fforssamhallsforening987@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Försöker att hålla samhället levande.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mari hansson",
+        "contact_person_role": null,
+        "contact_person_email": "fforssamhallsforening987@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mari Hansson",
+        "Fforssamhallsforening987@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fågelfors Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Fågelfors"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=F%C3%A5gelfors%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Skytteförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fågelfors"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Fågelfors Sockens Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsföreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Fågelfors"
+      ],
+      "homepage_url": "https://www.hembygd.se/fagelfors",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=F%C3%A5gelfors%20Sockens%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "borjekfagelfors@gmail.com",
+      "phone": "+46706006742",
+      "description": {
+        "free_text": "Befrämja och värna om kulturhistoriska minnen och miljöer så de tas tillvara och görs tillgängliga för alla.\nSamla in, dokumentera och sprida bygdens historia",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fågelfors"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Börje karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "borjekfagelfors@gmail.com",
+        "contact_person_phone": "+46706006742"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Börje Karlsson",
+        "070-6006742",
+        "borjekfagelfors@gmail.com",
+        "https://www.hembygd.se/fagelfors",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Garbosällskapet i Högsby",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.garbosallskapet.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Garbos%C3%A4llskapet%20i%20H%C3%B6gsby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "garbosallskapet@gmail.com",
+      "phone": "+4649120422",
+      "description": {
+        "free_text": "Sällskapet har som ändamål:\n- fungera som en samlingspunkt för Garbo-intresserade\n- samla och ge ut information om Greta Garbo\n- vidga intresset för filmen som kulturuttryck\n- utgöra en generationsövergripande gemenskap",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Henrik scheutz",
+        "contact_person_role": null,
+        "contact_person_email": "garbosallskapet@gmail.com",
+        "contact_person_phone": "+4649120422"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Henrik Scheutz",
+        "0491-204 22",
+        "garbosallskapet@gmail.com",
+        "https://www.garbosallskapet.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Grönskåra Nya Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [],
+      "categories": [
+        "Fagerhult"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Gr%C3%B6nsk%C3%A5ra%20Nya%20Samh%C3%A4llsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gronskara@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Underhåll och utveckling av Grönskåra samhälle. Anordning av olika aktiviteter för en trevlig sammanhållning i bygden.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerhult"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Elin nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "gronskara@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Elin Nilsson",
+        "gronskara@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Hanåsa Aktivitetsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "På området finns även en kommunal lekplats",
+        "grillplats",
+        "pumptrack-bana samt en padelbana som kan bokas via MATCHi. Under vintertid ansvarar föreningen för is-spolning på arenan som då kan nyttjas till skridskoåkning och ishockeyspel. Föreningen ansvarar också för discgolfbanan som är belägen i friskvårdsparken i Lanhagen samt samlingar och aktiviteter för barn- och ungdomar med olika funktionsvariationer genom Team Orkide."
+      ],
+      "categories": [
+        "Högsby centralort"
+      ],
+      "homepage_url": "http://www.hanasaaf.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Han%C3%A5sa%20Aktivitetsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "patrik.axelsson24@hotmail.com",
+      "phone": "+46705487968",
+      "description": {
+        "free_text": "Hanåsa Aktivitetsförening är en ideell förening som verkar för att utveckla aktivitetsutbudet för barn- och ungdomar i Högsby med omnejd.",
+        "sections": [
+          {
+            "title": "Verksamheten bedrivs i huvudsak på näridrottsplatsen i Hanåsa. Arenan är öppen för alla och är byggd för att främja intresset för spontanidrott.",
+            "data": {
+              "activities": [
+                "På området finns även en kommunal lekplats",
+                "grillplats",
+                "pumptrack-bana samt en padelbana som kan bokas via MATCHi. Under vintertid ansvarar föreningen för is-spolning på arenan som då kan nyttjas till skridskoåkning och ishockeyspel. Föreningen ansvarar också för discgolfbanan som är belägen i friskvårdsparken i Lanhagen samt samlingar och aktiviteter för barn- och ungdomar med olika funktionsvariationer genom Team Orkide."
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Högsby centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Patrik axelsson",
+        "contact_person_role": null,
+        "contact_person_email": "patrik.axelsson24@hotmail.com",
+        "contact_person_phone": "+46705487968"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Patrik Axelsson",
+        "0705487968",
+        "patrik.axelsson24@hotmail.com",
+        "http://www.hanasaaf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Hornsö Byalag",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://hornso-byalag.bokamera.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Horns%C3%B6%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hornsobyalag@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen är ideell. Vi anordnar aktiviteter som historiska cykelturer, trädgårdsvandringar och valborg vid vattnet - allt utifrån medlemmarnas önskemål.\nByalaget sköter om fotbollsplanen och en av kommunens vackraste badplatser med besökare året om. Vi har enklare bord och stolar för större fester samt en portabel bastu för uthyrning till medlemmar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "hornsobyalag@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "hornsobyalag@gmail.com",
+        "https://hornso-byalag.bokamera.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Intresseorganisationer"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://hogsbybk.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20Brukshundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marlenenorden@hotmail.com",
+      "phone": "+46701429649",
+      "description": {
+        "free_text": "Högsby Brukshundsklubb erbjuder kursverksamhet för människor och hundar och alla åldrar.\nSå som Valpkurs, Agility, Rally, sök och Specialsök.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marlene karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "marlenenorden@hotmail.com",
+        "contact_person_phone": "+46701429649"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marlene Karlsson",
+        "0701429649",
+        "Marlenenorden@hotmail.com",
+        "https://hogsbybk.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby Btk",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [
+        "Berga",
+        "Fågelfors"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20Btk",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hogsbybtk@outlook.com",
+      "phone": "+46703990021",
+      "description": {
+        "free_text": "Bordtennis träning av ungdomar,seniorer,serie och tävlingsverksamhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Berga",
+                "Fågelfors"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Patrik jonsson",
+        "contact_person_role": null,
+        "contact_person_email": "hogsbybtk@outlook.com",
+        "contact_person_phone": "+46703990021"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Patrik Jonsson",
+        "0703990021",
+        "hogsbybtk@outlook.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby hästsportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.xn--hgsbyhstsportklubb-qtb86a.online/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20h%C3%A4stsportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "idodai@icloud.com",
+      "phone": "+46702126206",
+      "description": {
+        "free_text": "Anläggning för träning och tävling inom ridsport. Vi välkomnar alla häst intresserade inom alla grenar. Vi arrangerar träningar i dressyr varannan vecka samt flertalet träningstävlingar i både dressyr och hoppning. Vi samarbetar med Lenhovda häst sportklubb och hjälper dom med deras tävlingar 1 gång /år.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ida mörstam",
+        "contact_person_role": null,
+        "contact_person_email": "idodai@icloud.com",
+        "contact_person_phone": "+46702126206"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ida Mörstam",
+        "0702126206",
+        "idodai@icloud.com",
+        "https://www.högsbyhästsportklubb.online",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby Idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hogsbyik.com/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20Idrottsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "cia.garpenstedt@telia.com",
+      "phone": "+46702020110",
+      "description": {
+        "free_text": "Fotboll",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn garpenstedt",
+        "contact_person_role": null,
+        "contact_person_email": "cia.garpenstedt@telia.com",
+        "contact_person_phone": "+46702020110"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Björn Garpenstedt",
+        "0702020110",
+        "cia.garpenstedt@telia.com",
+        "https://www.hogsbyik.com/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby Jaktskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Berga",
+        "Fagerhult",
+        "Fågelfors",
+        "Högsby centralort",
+        "Långemåla",
+        "Ruda"
+      ],
+      "homepage_url": "https://www.hogsbyjsk.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20Jaktskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@hogsbyjsk.se",
+      "phone": "+46703460837",
+      "description": {
+        "free_text": "Förening bedriver utbildning, träning och tävlingsverksamhet inom jaktskytte på föreningens skytteanläggning i Ryckhult",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Berga",
+                "Fagerhult",
+                "Fågelfors",
+                "Högsby centralort",
+                "Långemåla",
+                "Ruda"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Morgan pettersson",
+        "contact_person_role": null,
+        "contact_person_email": "info@hogsbyjsk.se",
+        "contact_person_phone": "+46703460837"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Morgan Pettersson",
+        "070-346 08 37",
+        "info@hogsbyjsk.se",
+        "https://www.hogsbyjsk.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Föreningsmöte",
+        "Övrigt"
+      ],
+      "categories": [
+        "Berga",
+        "Fagerhult",
+        "Fågelfors",
+        "Högsby centralort",
+        "Långemåla",
+        "Ruda"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "callagren@telia.com",
+      "phone": "+46736835518",
+      "description": {
+        "free_text": "Föreningens uppgift är att inom Högsby kommun och angränsade orter\narbeta för att väcka och vidmakthålla intresse för god konst",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsmöte",
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Berga",
+                "Fagerhult",
+                "Fågelfors",
+                "Högsby centralort",
+                "Långemåla",
+                "Ruda"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ann-louise lindgren",
+        "contact_person_role": null,
+        "contact_person_email": "callagren@telia.com",
+        "contact_person_phone": "+46736835518"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Ann-Louise Lindgren",
+        "073-6835518",
+        "callagren@telia.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby Pistolklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20Pistolklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mattias.gustavsson@telia.com",
+      "phone": "+46705739964",
+      "description": {
+        "free_text": "Pistolskytteklubb med tillgång till egen skjutbana. Skjutbanan är belägen mittemot Hanåsa Sågverk på vägen mellan Högsby - Berga. Klubben bedriver nybörjarskytte på onsdagar kl 1800 under perioden april-september.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias gustavsson",
+        "contact_person_role": null,
+        "contact_person_email": "mattias.gustavsson@telia.com",
+        "contact_person_phone": "+46705739964"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mattias Gustavsson",
+        "0705739964",
+        "mattias.gustavsson@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby pro",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20pro",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "prohogsby@gmail.com",
+      "phone": "+46761977281",
+      "description": {
+        "free_text": "Äldreorganisation för 65+ månadsmöten boule bingo pyssel gymnasti",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Solveig ekh",
+        "contact_person_role": null,
+        "contact_person_email": "prohogsby@gmail.com",
+        "contact_person_phone": "+46761977281"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Solveig Ekh",
+        "0761977281",
+        "prohogsby@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby Rödakorskrets",
+      "org_number": null,
+      "types": [
+        "Hjälporganisationer"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20R%C3%B6dakorskrets",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marianneekstaby@hotmail.com",
+      "phone": "+46705811578",
+      "description": {
+        "free_text": "Rödakorsförening som bedriver försäljning via Kupan, börsinsamling m m",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marianne ek",
+        "contact_person_role": null,
+        "contact_person_email": "marianneekstaby@hotmail.com",
+        "contact_person_phone": "+46705811578"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marianne Ek",
+        "0705811578",
+        "marianneekstaby@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mattias.gustavsson@telia.com",
+      "phone": "+46705739964",
+      "description": {
+        "free_text": "Skytteförening med inriktning på luftgevärsskytte. Föreningens skyttehall ligger på Husebyvägen 42. Skyttehallen är öppen på måndagar kl 0900-1100 under perioden okt-april. Ungdomsverksamhet pågår för tillfället inte.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias gustavsson",
+        "contact_person_role": null,
+        "contact_person_email": "mattias.gustavsson@telia.com",
+        "contact_person_phone": "+46705739964"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mattias Gustavsson",
+        "0705739964",
+        "mattias.gustavsson@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsby sockens hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsföreningar"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.hogsby.net/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsby%20sockens%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hembygd@hoxby.net",
+      "phone": "+46706608930",
+      "description": {
+        "free_text": "En ideell förening grundad 1949. Vi arbetar med att förvalta och bevara vår hembygds historia. Vi har hembygdsparken i Lanhagen samt vår hembygdsgård Hornsberg vid Storgatan i Högsby.\nEn stor del av våra samlingar finns utställda på Hornsberg och i Lanhagens byggnader. På Hornsberg förvaras ett digert arkivmaterial lämpligt för släkt- eller hembygdsforskning.\nPå onsdagar kl. 9-12 är hembygdsgården öppen för besök. Adress: Storgatan 64, Högsby. Välkommen !",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ola strömbom",
+        "contact_person_role": null,
+        "contact_person_email": "hembygd@hoxby.net",
+        "contact_person_phone": "+46706608930"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Ola Strömbom",
+        "070-660 89 30",
+        "hembygd@hoxby.net",
+        "http://www.hembygd.hogsby.net/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsbydagarna",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsbydagarna",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ett hemvändar evenemang i Högsby med allt ifrån, tivoli, marknadsknallar, matvagnar massa olika aktiviteter till ett öltält med underhållning under kvällen.\nÄven underhållning under lördagen, tävlingar mm.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Högsbyortens Jägargille",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=H%C3%B6gsbyortens%20J%C3%A4gargille",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Förening för Jaktskytte",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Isabogårdens hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/isabogarden",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Isabog%C3%A5rdens%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gronskara@hotmail.com",
+      "phone": "+46763286502",
+      "description": {
+        "free_text": "Hembygdsförening med olika Traditionella firande och evenemang",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jenny jakobsson",
+        "contact_person_role": null,
+        "contact_person_email": "gronskara@hotmail.com",
+        "contact_person_phone": "+46763286502"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jenny Jakobsson",
+        "0763286502",
+        "Gronskara@hotmail.com",
+        "https://www.hembygd.se/isabogarden",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Långemåla Bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/groups/120911098357145/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=L%C3%A5ngem%C3%A5la%20Bordtennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "stickanholm@hotmail.com",
+      "phone": "+46736909585",
+      "description": {
+        "free_text": "Bordtennis",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stig-olof holm",
+        "contact_person_role": null,
+        "contact_person_email": "stickanholm@hotmail.com",
+        "contact_person_phone": "+46736909585"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stig-Olof Holm",
+        "0736909585",
+        "stickanholm@hotmail.com",
+        "https://www.facebook.com/groups/120911098357145/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Långemåla Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembygdsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/langemala",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=L%C3%A5ngem%C3%A5la%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "langemala.hembygd@live.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "langemala.hembygd@live.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "langemala.hembygd@live.se",
+        "https://www.hembygd.se/langemala",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Långemåla idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Fotboll",
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/langemalaif",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=L%C3%A5ngem%C3%A5la%20idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "thunbergcatarina.60@gmail.com",
+      "phone": "+46709483805",
+      "description": {
+        "free_text": "Idrottsförening,\nSeniorfotboll, ungdomsfotboll, innebandy",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Catarina thunberg",
+        "contact_person_role": null,
+        "contact_person_email": "thunbergcatarina.60@gmail.com",
+        "contact_person_phone": "+46709483805"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Catarina Thunberg",
+        "0709483805",
+        "thunbergcatarina.60@gmail.com",
+        "https://www.laget.se/langemalaif",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Långemålabygdens Medborgarförening",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=L%C3%A5ngem%C3%A5labygdens%20Medborgarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jonnerbym@gmail.com",
+      "phone": "+46705130032",
+      "description": {
+        "free_text": "Föreningen har till ändamål att bedriva ideell verksamhet i Långemålabygden samt med särskilt målsättning att främja aktiviteter för sina medlemmar. Föreningen vänder sig till människor i alla åldrar, oavsett bakgrund. Föreningen ska aktivt arbeta för att motverka all form av diskriminering.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "jonnerbym@gmail.com",
+        "contact_person_phone": "+46705130032"
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "langemalamedborgarforening@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "jonnerbym@gmail.com",
+        "070-5130032",
+        "langemalamedborgarforening@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Malen Gym",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Styrketräning"
+      ],
+      "categories": [
+        "Högsby centralort"
+      ],
+      "homepage_url": "http://malengym.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Malen%20Gym",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "malengym@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Styrketräning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Högsby centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "malengym@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "malengym@gmail.com",
+        "http://malengym.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "MISK Kulturförening i Högsby",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=MISK%20Kulturf%C3%B6rening%20i%20H%C3%B6gsby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Mörlunda GIF",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=M%C3%B6rlunda%20GIF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "NBV Sydost",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.nbv.se/sydost",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=NBV%20Sydost",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.nbv.se/sydost",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Nostalgiaföreningen i Fågelfors",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Berga",
+        "Fagerhult",
+        "Fågelfors",
+        "Högsby centralort",
+        "Ruda"
+      ],
+      "homepage_url": "http://www.nostalgia.hogsby.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Nostalgiaf%C3%B6reningen%20i%20F%C3%A5gelfors",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nostalgiafagelfors@gmail.com",
+      "phone": "+46722177603",
+      "description": {
+        "free_text": "Föreningen driver ett besöksmål och arbetslivsmuseum för alla åldrar. Här finns en omfattande utställning om Sveriges äldsta trähusbyggartradition. Här erbjuds även utställningar om kulturpersonligheterna Ernst Rolf, Karl Gerhard och Albert Engström, alla tre med rötter i bygden. I Nostalgia finns också stora lekmöjligheter ute och inne. För öppettider se hemsidan https://www.nostalgia.hogsby.se/ . Föreningen tar även emot gruppbokningar, driver studiecirkelverksamhet och ordnar en rad publika arrangemang för alla åldrar som bildvisning och skivor till kaffet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Berga",
+                "Fagerhult",
+                "Fågelfors",
+                "Högsby centralort",
+                "Ruda"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingbritt loberg",
+        "contact_person_role": null,
+        "contact_person_email": "nostalgiafagelfors@gmail.com",
+        "contact_person_phone": "+46722177603"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Ingbritt Loberg",
+        "0722177603",
+        "nostalgiafagelfors@gmail.com",
+        "http://www.nostalgia.hogsby.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Ruda Badhusförening",
+      "org_number": null,
+      "types": [
+        "Badhusföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Ruda%20Badhusf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Erbjuder Bastubad med badtunna till allmänheten.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Ruda Bygdegård",
+      "org_number": null,
+      "types": [
+        "Folkets Hus-föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://bygdegardarna.se/ruda/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Ruda%20Bygdeg%C3%A5rd",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Ruda Bygdegård är en opolitisk förening som verkar för ett aktivt Ruda samhälle. Vi har exempelvis fika på onsdagar, fordonsträffar, söndagscaféer, julmarknader och andra marknader, uthyrning av lokaler osv.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "http://bygdegardarna.se/ruda/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Ruda Idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsföreningar"
+      ],
+      "activities": [
+        "Bordtennis",
+        "Fotboll",
+        "Friidrott"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.rudaif.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Ruda%20Idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tallasvallen@gmail.com",
+      "phone": "+46706052334",
+      "description": {
+        "free_text": "Fotboll Friidrott skidor",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis",
+                "Fotboll",
+                "Friidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)",
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Willy liljegren",
+        "contact_person_role": null,
+        "contact_person_email": "tallasvallen@gmail.com",
+        "contact_person_phone": "+46706052334"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)",
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Willy Liljegren",
+        "0706052334",
+        "tallasvallen@gmail.com",
+        "https://www.rudaif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Ruda PRO",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [
+        "Föreningsmöte",
+        "Seniorverksamhet"
+      ],
+      "categories": [
+        "Ruda"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Ruda%20PRO",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "slojd.data@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": "Tillvarata och driva pensionärers intressen, skapa trivsel, gemenskap och aktiviteter som främjar välmående och hälsa.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsmöte",
+                "Seniorverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ruda"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Dan mattisson",
+        "contact_person_role": null,
+        "contact_person_email": "slojd.data@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Dan Mattisson",
+        "slojd.data@outlook.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Ruda Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Ruda"
+      ],
+      "homepage_url": "https://www.ruda.se/",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Ruda%20Samh%C3%A4llsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ruda.samhalls@outlook.com",
+      "phone": "+46706867237",
+      "description": {
+        "free_text": "Ruda Samhällsförening är en förening för alla. Vi jobbar för att förbättra vårt samhälle och blåsa liv i det igen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Ruda"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ruda.samhalls@outlook.com",
+        "contact_person_phone": "+46706867237"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "070-686 72 37",
+        "ruda.samhalls@outlook.com",
+        "https://www.ruda.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Rädda Barnens lokalförening i Högsby",
+      "org_number": null,
+      "types": [
+        "Hjälporganisationer"
+      ],
+      "activities": [
+        "Barn- och ungdomsverksamhet"
+      ],
+      "categories": [
+        "Berga",
+        "Fagerhult",
+        "Fågelfors",
+        "Högsby centralort",
+        "Långemåla",
+        "Ruda"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=R%C3%A4dda%20Barnens%20lokalf%C3%B6rening%20i%20H%C3%B6gsby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46705773522",
+      "description": {
+        "free_text": "Vi har bland annat läxhjälp alla onsdagar. Vi har även halloweenkväll, jul avslutningar, sommaravslutningar och minst en träff under sommaren.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barn- och ungdomsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Berga",
+                "Fagerhult",
+                "Fågelfors",
+                "Högsby centralort",
+                "Långemåla",
+                "Ruda"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sabina bergeskans skogh",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46705773522"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Sabina Bergeskans Skogh",
+        "0705773522",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Sinnerbo Bygdeförening",
+      "org_number": null,
+      "types": [
+        "Samhällsföreningar och byalag"
+      ],
+      "activities": [
+        "Föreningsmöte",
+        "Möte",
+        "Övrigt"
+      ],
+      "categories": [
+        "Högsby centralort"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Sinnerbo%20Bygdef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sonjaberggren55@hotmail.com",
+      "phone": "+46761740638",
+      "description": {
+        "free_text": "Samlingslokal, mötesplats för unga och gamla, uthyrning av lokaler - lämplig till fester, årsmöten och olika kulturella aktivitäter, även hyra en lägenhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Föreningsmöte",
+                "Möte",
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Seniorer (65 +)",
+                "Vuxna (26-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Högsby centralort"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sonja berggren",
+        "contact_person_role": null,
+        "contact_person_email": "sonjaberggren55@hotmail.com",
+        "contact_person_phone": "+46761740638"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Seniorer (65 +)",
+        "Vuxna (26-64 år)"
+      ],
+      "contact_lines": [
+        "Sonja Berggren",
+        "0761740638",
+        "sonjaberggren55@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "SMU Berga",
+      "org_number": null,
+      "types": [
+        "Religiösa föreningar"
+      ],
+      "activities": [
+        "Barn- och ungdomsverksamhet"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=SMU%20Berga",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Scout",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barn- och ungdomsverksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-25 år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-25 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "SPF SENIORERNA HÖGSBY",
+      "org_number": null,
+      "types": [
+        "Pensionärsföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=SPF%20SENIORERNA%20H%C3%96GSBY",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Studieförbundet Vuxenskolan Kalmar län",
+      "org_number": null,
+      "types": [
+        "Studieförbund"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.sv.se/avdelningar/sv-kalmar-lan",
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=Studief%C3%B6rbundet%20Vuxenskolan%20Kalmar%20l%C3%A4n",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "my.larsson@sv.se",
+      "phone": "+46704552512",
+      "description": {
+        "free_text": "Folkbildningsverksamhet i form av studiecirklar, annan folkbildningsverksamhet och kulturarrangemang.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "My larsson",
+        "contact_person_role": null,
+        "contact_person_email": "my.larsson@sv.se",
+        "contact_person_phone": "+46704552512"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "My Larsson",
+        "070-4552512",
+        "my.larsson@sv.se",
+        "https://www.sv.se/avdelningar/sv-kalmar-lan",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Högsby",
+    "scrape_run_id": "b1f1134a-07cf-4beb-92c2-1f923962d555",
+    "scraped_at": "2025-10-28T23:15:55.821Z",
+    "association": {
+      "name": "Vävstugan i Fågelfors ideell förening",
+      "org_number": null,
+      "types": [
+        "Kulturföreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://hogsby.rbok.se/foreningsregister?association=V%C3%A4vstugan%20i%20F%C3%A5gelfors%20ideell%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen har som ändamål att bereda medlemmarna möjlighet att förkovra sig i textil kultur, främst genom att delta i olika vävprojekt.\nFöreningen vänder sig till människor i alla åldrar, oavsett bakgrund. Föreningen ska aktivt arbeta för att motverka all form av diskriminering.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]

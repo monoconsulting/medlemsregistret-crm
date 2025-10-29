@@ -1,79 +1,137 @@
-# CRM Full Extended Implementation Task Checklist
+# CRM Full Extended Implementation Task Checklist v.1.1.
 
-_Last updated: 2025-10-24 16:40 UTC_
 
-## Sprint 1 – Data Quality & Discovery
 
-### Phase 1.1 – Schema & Data Normalisation
-- [ ] Reconcile Prisma schema with blueprint (relations, enums, cascade rules) and regenerate migrations.
-  - [ ] Remove merge markers and duplicate model definitions.
-  - [ ] Verify referential integrity (onDelete/onUpdate) matches specification.
-- [ ] Implement automated migration check in CI (prisma migrate diff + lint).
-- [ ] Build data validation script to flag missing critical fields (email, phone) and duplicate associations.
+## SYSTEM PROMPT — TASK EXECUTION PLAN  
 
-### Phase 1.2 – Search Platform Integration
-- [ ] Provision Meilisearch or Typesense instance (Docker service + env config).
-- [ ] Create indexing job to push associations with facets (municipality, types, tags, CRM status, pipeline).
-- [ ] Update `getSearchClient` provider configuration and add health checks.
-- [ ] Wire association list query to optionally use search index (toggle + fallback).
+**Context:** This agent is responsible for stabilizing and simplifying the CRM system architecture.  
+**Objective:** Decouple backend from Next.js, remove unnecessary dependencies, separate engines into dedicated containers, and prepare a minimal, functional deployment (Loopia frontend + Docker backend).  
 
-### Phase 1.3 – Advanced Filtering UX
-- [ ] Complete advanced filter panel interactions (multi-select, activity window, date range, tag filter).
-- [ ] Implement table/card/map view toggle with real data sources.
-- [ ] Optimise pagination & infinite scroll when using search provider.
+---
 
-## Sprint 2 – Association Workspace Experience
+## 🔧 CORE RULES
+1. **Do not reintroduce** any connection between frontend (Next.js) and backend (Node/Express).  
+2. **No user authentication coupling** between Loopia frontend and backend.  
+3. **Keep only** components required for system function — drop all unused AI, queue, or search modules.  
+4. **Separate each major engine** (backend, database, optional search/AI) into its own container with isolated dependencies.  
+5. **Ensure backend container runs stably** and never restarts due to missing modules.  
+6. **Keep Prisma and DB schema intact** and connected to Loopia MariaDB.  
+7. **Focus on simplicity** — this system will be used by only two people.  
 
-### Phase 2.1 – Detail View Parity
-- [ ] Build full association overview tab with editable profile fields and extras viewer.
-- [ ] Implement contacts tab with inline add/edit/delete and primary contact badge.
-- [ ] Render notes tab as chronological guestbook with author avatars and timestamps.
-- [ ] Expand activity timeline with event icons, metadata, and filters.
+---
 
-### Phase 2.2 – Collaboration Features
-- [ ] Finalise contact CRUD UX (modal or inline) syncing with `contactRouter`.
-- [ ] Enable note editing/deletion with permission checks (owner or admin).
-- [ ] Implement task management UI (list, kanban, detail modal) integrated with `tasks` router.
-- [ ] Add group membership management UI (add/remove association from saved groups).
+## 🧩 TASK LIST — EXECUTION STEPS
 
-### Phase 2.3 – Dashboard Enhancements
-- [ ] Implement live activity feed widget with polling or websockets.
-- [ ] Add membership trend chart using Recharts with historical data.
-- [ ] Surface saved grouping widget and municipality leaderboard cards.
-- [ ] Ensure dashboard stats align with backend aggregations.
+### BLOCK 1 — Backend crash fix and decoupling
+- [ ] **Remove `"next"`** from `backend/package.json`.  
+- [ ] **Delete** `backend/package-lock.json` to allow clean dependency rebuild.  
+- [ ] **Update Dockerfile** in backend:  
+  
+  - Change command to `CMD ["node", "backend/dist/server.js"]`.  
+  - Use `npm ci --omit=dev` in final stage.  
+- [ ] **Create new file** `backend/src/trpc.ts` that initializes tRPC **without any NextAuth imports**.  
+- [ ] **Copy or port routers** needed for backend to `backend/src/routers`, OR  
+  - Create `crm-app/server/trpc-core.ts` (auth-free) and import only that.  
+- [ ] **Generate a local Prisma client** in backend (`prisma generate`).  
+- [ ] **Remove imports** from `crm-app/lib/db` — backend must use its own DB client.  
+- [ ] **Rebuild container:**  
+  ```bash
+  docker compose build --no-cache backend
+  docker compose up backend
 
-## Sprint 3 – Automation, AI & Outreach
+------
 
-### Phase 3.1 – AI Provider Layer
-- [ ] Implement provider abstraction supporting Ollama, OpenAI, Anthropic (env-based selection).
-- [ ] Add prompt builders for analysis, email drafting, suggestion flows per spec.
-- [ ] Create rate limiting and cost tracking for external AI providers.
+### BLOCK 2 — Minimal production environment
 
-### Phase 3.2 – AI-enabled Workflows
-- [ ] Integrate AI analysis modal on association list/detail pages with streaming responses.
-- [ ] Embed AI-generated email drafts into Send Email modal with manual override before send.
-- [ ] Provide AI suggestions for next steps and enrichment, storing outputs in activity log.
+-  **Simplify compose setup**:
 
-### Phase 3.3 – Communication & Export
-- [ ] Finalise export router for CSV/XLSX/JSON with filter + selection options.
-- [ ] Connect Send Email modal to transactional email service or queue.
-- [ ] Add bulk operations (assign owner, change status/pipeline, tag, export) with toast confirmations.
+  - Keep only the backend container.
+  - Remove MySQL, Redis, Meilisearch, phpMyAdmin.
 
-## Sprint 4 – Operations, Scaling & Reliability
+-  **Connect directly to Loopia MariaDB** via `DATABASE_URL`.
 
-### Phase 4.1 – Background Processing & Integrations
-- [ ] Deploy Redis + BullMQ worker for long-running jobs (import, AI batching, email send).
-- [ ] Implement job dashboard (status, retries, dead-letter queue).
-- [ ] Add webhook integrations (Slack/email) for job completion and task reminders.
+-  **Add environment variables:**
 
-### Phase 4.2 – Observability & Security
-- [ ] Integrate structured logging and error tracking (e.g., Pino + Sentry).
-- [ ] Implement auth hardening (password reset, 2FA optional, rate limiting).
-- [ ] Extend RBAC enforcement in tRPC procedures and frontend route guards.
-- [ ] Add audit logs for critical mutations (status changes, exports, AI usage).
+  ```
+  ALLOWED_ORIGINS=https://your-loopia-domain.se
+  ENABLE_AI=false
+  ENABLE_SEARCH_PROXY=false
+  ALLOW_SHELL_SCRIPTS=false
+  ```
 
-### Phase 4.3 – Delivery Pipeline & QA Automation
-- [ ] Configure CI/CD pipeline (build, lint, test, Playwright smoke, prisma migrate deploy).
-- [ ] Create infrastructure-as-code manifests (Docker Compose prod, Kubernetes optional) with secrets management.
-- [ ] Document operational runbooks (import troubleshooting, queue monitoring, AI provider rotation).
-- [ ] Establish release checklist and changelog process.
+-  **Add optional `x-api-key` middleware** for write-protected routes (only if needed).
+
+-  **Verify** backend health endpoint:
+   `GET /api/health` → must return `{ ok: true }`.
+
+------
+
+### BLOCK 3 — Frontend (Loopia static export)
+
+-  **Build and export** static frontend:
+
+  ```bash
+  cd crm-app
+  next build && next export
+  ```
+
+-  **Deploy `/out` folder** to Loopia web host via existing deployment script.
+
+-  **Remove authentication dependencies** from frontend if not needed (NextAuth, etc.).
+
+-  **Optional:** Add a local UI “lock” (e.g., admin mode via localStorage) — no backend dependency.
+
+------
+
+### BLOCK 4 — Cleanup and verification
+
+-  **Set environment flags:**
+
+  ```
+  ENABLE_AI=false
+  ENABLE_SEARCH_PROXY=false
+  ALLOW_SHELL_SCRIPTS=false
+  ```
+
+-  **Remove or hide** all UI elements and code referring to dropped features:
+
+  - AI panels
+  - Queue/jobs dashboards
+  - Search engine integrations
+
+-  **Confirm container isolation:**
+
+  - Backend runs alone
+  - DB is remote (Loopia)
+  - Frontend is static
+
+-  **Verify stability:** backend container must not restart or log missing module errors.
+
+------
+
+### BLOCK 5 — Optional hardening (future)
+
+-  Add a minimal `x-api-key` auth layer for protected API endpoints.
+-  Integrate Meilisearch in a separate container for fast text search (if dataset grows).
+-  Add basic cron job container for background scraping or imports.
+
+------
+
+## ✅ SUCCESS CRITERIA
+
+- Backend container runs without restart loops.
+- No `next` or `next-auth` dependencies remain in backend.
+- Frontend deploys statically and loads normally from Loopia.
+- Database connected and responding to queries.
+- Only required containers are active (`backend`).
+- Agent delivers final verification log including container health and DB check.
+
+------
+
+**Output format:**
+ Agent must deliver:
+
+1. Log of removed packages and cleaned imports.
+2. Confirmation of successful backend startup.
+3. Updated `compose.yml`, `Dockerfile`, and `backend/package.json`.
+4. Updated “Extended Implementation Plan” reflecting minimal setup.

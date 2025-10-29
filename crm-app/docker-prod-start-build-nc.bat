@@ -35,3 +35,20 @@ if errorlevel 1 (
     exit /b 1
 )
 
+echo.
+echo ========================================
+echo  Production containers startade!
+echo ========================================
+echo.
+echo - Next.js App: http://localhost:3010
+echo - Backend API: http://localhost:4040
+echo - MySQL:       localhost:3316 (user: crm_user, pass: crm_password_change_me)
+echo - phpMyAdmin:  http://localhost:8170
+echo - Redis:       localhost:6179
+echo.
+echo Kommandon:
+echo   Visa API logs:  docker compose logs -f backend
+echo   Visa app logs:  docker compose logs -f app
+echo   Stoppa:         docker compose down
+echo.
+pause

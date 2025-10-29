@@ -48,7 +48,8 @@
       "Bash(7z t:*)",
       "Bash(unzip:*)",
       "Bash(where:*)",
-      "Read(//c/Program Files/7-Zip/**)"
+      "Read(//c/Program Files/7-Zip/**)",
+      "Bash(docker logs:*)"
     ],
     "deny": [],
     "ask": []

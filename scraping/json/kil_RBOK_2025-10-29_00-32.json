@@ -1,0 +1,4562 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Astma och allergiföreningen i Södra Värmland",
+      "org_number": null,
+      "types": [
+        "Funktionsrättsförening"
+      ],
+      "activities": [
+        "Övrig"
+      ],
+      "categories": [
+        "Fagerås",
+        "Högboda",
+        "Kil",
+        "Nilsby",
+        "Tolita"
+      ],
+      "homepage_url": "https://sodravarmland.astmaoallergiforbundet.se/?_gl=1*ll1lap*_gcl_aw*R0NMLjE3NTY5NzgyMDQuRUFJYUlRb2JDaE1JaDVHNDV1Vy1qd01WUEJhaUF4MVNieGlERUFBWUFTQUFFZ0lCRGZEX0J3RQ..*_gcl_au*MTQyNzI5MzA3OS4xNzU2OTc4MTk0*_ga*Mzk1ODA3OTI3LjE3NTY5NzgxOTI.*_ga_DTBRBTEHGG*czE3NTY5NzgxOTEkbzEkZzEkdDE3NTY5NzgyMDMkajUxJGwwJGgw",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Astma%20och%20allergif%C3%B6reningen%20i%20S%C3%B6dra%20V%C3%A4rmland",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "karlstad@astmaoallergiforening.se",
+      "phone": "+46730923435",
+      "description": {
+        "free_text": "Lokalförening för Karlstad, Kil, Hammarö, Forshaga, Grums och Säffle.\nFör alla åldrar, medlemmar med astma, allergi och annan överkänslighet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås",
+                "Högboda",
+                "Kil",
+                "Nilsby",
+                "Tolita"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sofie wadelius",
+        "contact_person_role": null,
+        "contact_person_email": "karlstad@astmaoallergiforening.se",
+        "contact_person_phone": "+46730923435"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Sofie Wadelius",
+        "0730923435",
+        "karlstad@astmaoallergiforening.se",
+        "https://sodravarmland.astmaoallergiforbundet.se/?_gl=1*ll1lap*_gcl_aw*R0NMLjE3NTY5NzgyMDQuRUFJYUlRb2JDaE1JaDVHNDV1Vy1qd01WUEJhaUF4MVNieGlERUFBWUFTQUFFZ0lCRGZEX0J3RQ..*_gcl_au*MTQyNzI5MzA3OS4xNzU2OTc4MTk0*_ga*Mzk1ODA3OTI3LjE3NTY5NzgxOTI.*_ga_DTBRBTEHGG*czE3NTY5NzgxOTEkbzEkZzEkdDE3NTY5NzgyMDMkajUxJGwwJGgw",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "BKI Sunnanå",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=BKI%20Sunnan%C3%A5",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Boda hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembyggdsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Högboda"
+      ],
+      "homepage_url": "http://www.hembygd.se/boda",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Boda%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bodahembygd@gmail.com",
+      "phone": "+46706951011",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Högboda"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agneta holmqvist",
+        "contact_person_role": null,
+        "contact_person_email": "bodahembygd@gmail.com",
+        "contact_person_phone": "+46706951011"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Agneta Holmqvist",
+        "0706951011",
+        "bodahembygd@gmail.com",
+        "http://www.hembygd.se/boda",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Bågskyttarna Kil",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://bskil.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=B%C3%A5gskyttarna%20Kil",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "leif_malm@hotmail.com",
+      "phone": "+46702466334",
+      "description": {
+        "free_text": "Föreningen är en bågskytteförening, med den verksamhet som hör till detta.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Leif malm",
+        "contact_person_role": null,
+        "contact_person_email": "leif_malm@hotmail.com",
+        "contact_person_phone": "+46702466334"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Leif Malm",
+        "0702466334",
+        "leif_malm@hotmail.com",
+        "Https://bskil.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Embla - Kvinna i Kil",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Golf",
+        "Kultur",
+        "Möte",
+        "Övrig"
+      ],
+      "categories": [
+        "Fagerås",
+        "Högboda",
+        "Kil",
+        "Nilsby",
+        "Tolita"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Embla%20-%20Kvinna%20i%20Kil",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "monica.klar@gmail.com",
+      "phone": "+46705724453",
+      "description": {
+        "free_text": "Syftet med Embla - Kvinna i Kil är att utgöra ett socialt nätverk för kvinnor i Kil samt att idka välgörenhet.\nFöreningen syftar också till gemensamt lärande inom olika områden, att inspirera och stödja varandra och andra i form av olika välgörenhetsprojekt.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Golf",
+                "Kultur",
+                "Möte",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås",
+                "Högboda",
+                "Kil",
+                "Nilsby",
+                "Tolita"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monica klar",
+        "contact_person_role": null,
+        "contact_person_email": "monica.klar@gmail.com",
+        "contact_person_phone": "+46705724453"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Monica Klar",
+        "070-5724453",
+        "monica.klar@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Fagerås Bollklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Innebandy"
+      ],
+      "categories": [
+        "Fagerås",
+        "Högboda",
+        "Tolita"
+      ],
+      "homepage_url": "https://www.laget.se/fageras",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Fager%C3%A5s%20Bollklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "fagerasbollklubb@gmail.com",
+      "phone": "+46705497409",
+      "description": {
+        "free_text": "En idrottsförening som bedriver verksamhet inom både fotboll och innebandy för barn och unga. Vi har även motionsverksamhet för vuxna.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås",
+                "Högboda",
+                "Tolita"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Johan ekberg",
+        "contact_person_role": null,
+        "contact_person_email": "fagerasbollklubb@gmail.com",
+        "contact_person_phone": "+46705497409"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Johan Ekberg",
+        "0705497409",
+        "fagerasbollklubb@gmail.com",
+        "https://www.laget.se/fageras",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Freja Af Fryken",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Freja%20Af%20Fryken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi förvaltar en kulturskatt som är ett besöksmål i Fryksta. Det är föreningens ambition att bevara för framtiden.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Friluftsfrämjandet Kilsavdelning",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Friskvård"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://xn--friluftsfrmjandetkil-kzb/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Friluftsfr%C3%A4mjandet%20Kilsavdelning",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friskvård"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "https://FriluftsfrämjandetKil",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Friskvården i Värmland",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Friskvård"
+      ],
+      "categories": [
+        "Fagerås",
+        "Högboda",
+        "Kil",
+        "Nilsby",
+        "Tolita"
+      ],
+      "homepage_url": "https://friskvarden.org/friskvardscentral/kil/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Friskv%C3%A5rden%20i%20V%C3%A4rmland",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "friskvarden.kil@telia.com",
+      "phone": "+46104764765",
+      "description": {
+        "free_text": "Friskvården i Värmland arbetar med att stödja personer som vill förändra och förbättra sina mat- och motionsvanor. De erbjuder hälsoundersökningar, konditionstest, rådgivning och motionsverksamhet.\nDu kan själv ta kontakt med hälsokonsulenten eller få en kallelse när du ordinerats fysisk aktivitet (FaR). Du kan även anmäla dig till motionsgrupper.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friskvård"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås",
+                "Högboda",
+                "Kil",
+                "Nilsby",
+                "Tolita"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Agnes vigander",
+        "contact_person_role": null,
+        "contact_person_email": "friskvarden.kil@telia.com",
+        "contact_person_phone": "+46104764765"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Agnes Vigander",
+        "010-476 47 65",
+        "friskvarden.kil@telia.com",
+        "https://friskvarden.org/friskvardscentral/kil/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Frykeruds Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembyggdsförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Fagerås"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Frykeruds%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kbergstenhagen@hotmail.com",
+      "phone": "+46702248489",
+      "description": {
+        "free_text": "Hembygdsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kennet bergsten",
+        "contact_person_role": null,
+        "contact_person_email": "kbergstenhagen@hotmail.com",
+        "contact_person_phone": "+46702248489"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Kennet Bergsten",
+        "0702248489",
+        "kbergstenhagen@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Frykerudsalster",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Frykerudsalster",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ekbacken6307@hotmail.se",
+      "phone": "+46702297802",
+      "description": {
+        "free_text": "Hantverksförening för alla som har intresse för handarbete och hantverk inom textil, trä, måleri, keramik med mera.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anne-marie nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "ekbacken6307@hotmail.se",
+        "contact_person_phone": "+46702297802"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Anne-Marie Nilsson",
+        "070-229 78 02",
+        "ekbacken6307@hotmail.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Fåreningen FÅRfest i Kil",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Friskvård",
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://farfestikil.com/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=F%C3%A5reningen%20F%C3%85Rfest%20i%20Kil",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@farfestikil.com",
+      "phone": "+4627345",
+      "description": {
+        "free_text": "FÅReningens syfte är att:\n•    förbereda och genomföra Fårfesten i kil\n•    sprida inspiration och kunskap om får och produkter från får.\n•    driva verksamhet som utvecklar medlemmarnas sammanhållning och kunskaper om allt som hör till får och fårprodukter.\n•    Vara ett nav för samarbete mellan föreningar, kommun, näringsliv och enskilda människor, där olika intressesfärer med anknytning till får hanteras.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friskvård",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Karin granström",
+        "contact_person_role": null,
+        "contact_person_email": "info@farfestikil.com",
+        "contact_person_phone": "+4627345"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Karin Granström",
+        "+46 70 302 73 45",
+        "info@farfestikil.com",
+        "https://farfestikil.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Föreningen Frykeruds Framtid",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Fagerås"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=F%C3%B6reningen%20Frykeruds%20Framtid",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "georg.nolby@icloud.com",
+      "phone": "+46705701311",
+      "description": {
+        "free_text": "Marknadsföra Frykeruds socken",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Georg forsberg",
+        "contact_person_role": null,
+        "contact_person_email": "georg.nolby@icloud.com",
+        "contact_person_phone": "+46705701311"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Georg Forsberg",
+        "0705701311",
+        "georg.nolby@icloud.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Högboda Folkets Hus Skogshyddan",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Bio",
+        "Bridge",
+        "Dans",
+        "Event",
+        "Konst",
+        "Kultur",
+        "Teater"
+      ],
+      "categories": [
+        "Högboda"
+      ],
+      "homepage_url": "http://hogbodafolketshus.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=H%C3%B6gboda%20Folkets%20Hus%20Skogshyddan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@hogbodafolketshus.se",
+      "phone": "+46730254096",
+      "description": {
+        "free_text": "Allaktivitetshus. Bioverksamhet, uthyrning av lokaler och stugor.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bio",
+                "Bridge",
+                "Dans",
+                "Event",
+                "Konst",
+                "Kultur",
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Högboda"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åse-britt falch",
+        "contact_person_role": null,
+        "contact_person_email": "info@hogbodafolketshus.se",
+        "contact_person_phone": "+46730254096"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Åse-Britt Falch",
+        "0730254096",
+        "info@Hogbodafolketshus.se",
+        "http://hogbodafolketshus.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "IF Kil",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=IF%20Kil",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@ifkil.se",
+      "phone": null,
+      "description": {
+        "free_text": "Fotbollsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@ifkil.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "info@ifkil.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "IF Stången",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gym"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=IF%20St%C3%A5ngen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sanderhofmann03@gmail.com",
+      "phone": "+46702529846",
+      "description": {
+        "free_text": "Bedriver verksamhet inom styrketräning.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gym"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sander hofmann",
+        "contact_person_role": null,
+        "contact_person_email": "sanderhofmann03@gmail.com",
+        "contact_person_phone": "+46702529846"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sander Hofmann",
+        "0702529846",
+        "sanderhofmann03@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Islandshästföreningen Glaumur",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.glaumur.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Islandsh%C3%A4stf%C3%B6reningen%20Glaumur",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ordforande@glaumur.se",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en ideell förening med medlemmar från stora delar av Värmland med ett gemensamt intresse för islandshästar. Vår hemmabana finns på Kils hästcenter Hannäs.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Emilie kovacs",
+        "contact_person_role": null,
+        "contact_person_email": "ordforande@glaumur.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Emilie Kovacs",
+        "ordforande@glaumur.se",
+        "https://www.glaumur.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kamratföreningen RTJ Kil",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Högboda",
+        "Kil"
+      ],
+      "homepage_url": "https://www.raddningkarlstad.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kamratf%C3%B6reningen%20RTJ%20Kil",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kamratforeningenrtjkil@gmail.com",
+      "phone": "+46702793123",
+      "description": {
+        "free_text": "Kamratförening för personalen och vänner till räddningstjänsten Kil",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Högboda",
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Robert harjula",
+        "contact_person_role": null,
+        "contact_person_email": "kamratforeningenrtjkil@gmail.com",
+        "contact_person_phone": "+46702793123"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Robert Harjula",
+        "0702793123",
+        "kamratforeningenrtjkil@gmail.com",
+        "Https://www.raddningkarlstad.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "KilArenas vänner - en del av Riksteatern",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=KilArenas%20v%C3%A4nner%20-%20en%20del%20av%20Riksteatern",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nyakilarena@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Kulturarrangemang och möten",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Facebook.com/kulturhusetkilarena",
+        "contact_person_role": null,
+        "contact_person_email": "nyakilarena@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "nyakilarena@gmail.com",
+        "facebook.com/kulturhusetkilarena",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils AIK Fotbollsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Futsal"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.laget.se/kilsaikfk",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20AIK%20Fotbollsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@kaikfotboll.se",
+      "phone": "+46724500595",
+      "description": {
+        "free_text": "Kils AIK Fotboll är en ideell fotbollsförening med verksamhet inriktad på fotboll. Genom idrotten ska vi bidra till gemenskap och god hälsa. Alla medlemmar har gemensamt ansvar för föreningens bästa. Barn- och ungdomsfotbollen bedrivs i enlighet med fotbollens spela, lek och lär. Vi vill erbjuda en miljö där alla kan utvecklas både som fotbollsspelare och som människor. Vi är och vill vara en del av samhällsbygget, framförallt i Kils kommun, vilket ställer krav på vår verksamhet.\nFöreningen ställer inga krav på sportslig framgång men med ett långsiktigt arbete i barn- och ungdomsfotbollen vill vi få spelare att delta i verksamheten under många år och att de så småningom vill bli en del av seniorverksamheten.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Futsal"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders svensson",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@kaikfotboll.se",
+        "contact_person_phone": "+46724500595"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Anders Svensson",
+        "0724500595",
+        "kansli@kaikfotboll.se",
+        "https://www.laget.se/kilsaikfk",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils AIK Friidrott",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.svenskalag.se/kilsaikfik",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20AIK%20Friidrott",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@kilsfriidrott.se",
+      "phone": null,
+      "description": {
+        "free_text": "Klubben är helt fristående men ingår i en allians inom Kils AIK tillsammans med fotboll, ishockey och handboll.\nKils AIK är först och främst en ungdomsklubb, men vi jobbar även för att stötta föreningens elitaktiva och för att ge möjlighet till ungdomar som i framtiden vill satsa. Vår målsättning är att ge så många som möjligt chansen till att genom friidrotten få en mångsidig och rolig fritidsaktivitet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hanna westlund",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@kilsfriidrott.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Hanna Westlund",
+        "kansli@kilsfriidrott.se",
+        "https://www.svenskalag.se/kilsaikfik",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils AIK Handboll",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20AIK%20Handboll",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46738116006",
+      "description": {
+        "free_text": "Handboll",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin sjölander",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46738116006"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Martin Sjölander",
+        "0738116006",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils AIK IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hockey"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20AIK%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@kaikhockey.se",
+      "phone": null,
+      "description": {
+        "free_text": "Ishockeyklubb.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas olzon",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@kaikhockey.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Jonas Olzon",
+        "kansli@kaikhockey.se",
+        "kaikhockey.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Arkeologiska Sällskap",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Naturskyddsvård",
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Arkeologiska%20S%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi tar tillvara på och vårdar vårt kulturarv och förmedlar historik för kommande generationer.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur",
+                "Naturskyddsvård",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils bordtennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.svenskalag.se/kilsbtk",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20bordtennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kilsbtk@live.com",
+      "phone": "+46763912210",
+      "description": {
+        "free_text": "Bordtennis",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik thörngren",
+        "contact_person_role": null,
+        "contact_person_email": "kilsbtk@live.com",
+        "contact_person_phone": "+46763912210"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Fredrik Thörngren",
+        "0763912210",
+        "kilsbtk@live.com",
+        "https://www.svenskalag.se/kilsbtk",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.kilsbhk.com/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Brukshundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anneliejohannesson@hotmail.se",
+      "phone": null,
+      "description": {
+        "free_text": "Kils Brukshundklubb är en lokalklubb under Svenska Brukshundklubben. Till oss är alla hundar och hundägare välkomna oavsett om man vill gå kurs, träna och tävla eller bara umgås.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "anneliejohannesson@hotmail.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "anneliejohannesson@hotmail.se",
+        "https://www.kilsbhk.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Dragspelsklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.facebook.com/kils.dragspelsklubb/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Dragspelsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "annemi4@live.se",
+      "phone": "+46739157601",
+      "description": {
+        "free_text": "Aktivt musicerande, dragspel, gitarr, fiol och sång",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anne-marie karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "annemi4@live.se",
+        "contact_person_phone": "+46739157601"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Anne-Marie Karlsson",
+        "0739157601",
+        "annemi4@live.se",
+        "https://www.facebook.com/kils.dragspelsklubb/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Golf"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.kilsgk.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "pro@kilsgk.se",
+      "phone": "+4655440705",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Golf"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christian nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "pro@kilsgk.se",
+        "contact_person_phone": "+4655440705"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Christian Nilsson",
+        "0554-40705",
+        "pro@kilsgk.se",
+        "https://www.kilsgk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Hästcenter Hannäs",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning",
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.hastcenterhannas.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20H%C3%A4stcenter%20Hann%C3%A4s",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ameden66@gmail.com",
+      "phone": "+46705478509",
+      "description": {
+        "free_text": "Kils Hästcenter driver och underhåller en hästsportanläggning på Hannäsudden i Kil. Hästcentret är en plats för träning och tävling med häst.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridning",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna-maria edén",
+        "contact_person_role": null,
+        "contact_person_email": "ameden66@gmail.com",
+        "contact_person_phone": "+46705478509"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Anna-Maria Edén",
+        "070 547 85 09",
+        "ameden66@gmail.com",
+        "https://www.hastcenterhannas.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Hästskovarpaklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Hästsko"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20H%C3%A4stskovarpaklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Hästskokastning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Hästsko"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Jakt och Sportskytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skytte"
+      ],
+      "categories": [
+        "Fagerås",
+        "Högboda",
+        "Kil",
+        "Nilsby",
+        "Tolita"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Jakt%20och%20Sportskyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "berndtisaxebyn@gmail.com",
+      "phone": "+46703220699",
+      "description": {
+        "free_text": "Skytteförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skytte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås",
+                "Högboda",
+                "Kil",
+                "Nilsby",
+                "Tolita"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Berndt björkman",
+        "contact_person_role": null,
+        "contact_person_email": "berndtisaxebyn@gmail.com",
+        "contact_person_phone": "+46703220699"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Berndt Björkman",
+        "0703220699",
+        "berndtisaxebyn@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Karateförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Karate"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Karatef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kilskarateforening@gmail.com",
+      "phone": "+46730241292",
+      "description": {
+        "free_text": "Idrottsverksamhet inom kampsportsarten Karate",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Karate"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per ehlin",
+        "contact_person_role": null,
+        "contact_person_email": "kilskarateforening@gmail.com",
+        "contact_person_phone": "+46730241292"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Per Ehlin",
+        "0730241292",
+        "kilskarateforening@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Konståkningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Konståkning"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.laget.se/KILSKK/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Konst%C3%A5kningsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kilskk@hotmail.com",
+      "phone": "+46731535808",
+      "description": {
+        "free_text": "Kils Konståkning är en ideell klubb med stort hjärta och ambitioner att fortsätta utvecklas. Vi har en härlig gemenskap i föreningen med en glad styrelse och tränare som glöder för sporten.\nSvenska konståkningsförbundets värdegrund ”glädje, glöd och gemenskap” är också vår värdegrund.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konståkning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stefan lennemyr",
+        "contact_person_role": null,
+        "contact_person_email": "kilskk@hotmail.com",
+        "contact_person_phone": "+46731535808"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Stefan Lennemyr",
+        "0731535808",
+        "kilskk@hotmail.com",
+        "https://www.laget.se/KILSKK/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Modellklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Modellflyg",
+        "Modelltåg",
+        "Övrig"
+      ],
+      "categories": [
+        "Fagerås",
+        "Högboda",
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Modellklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anders.sandberg@osterbergs.nu",
+      "phone": "+46705118220",
+      "description": {
+        "free_text": "Modellflyg. RC bilar/ båtar. modellbygge/modelltåg\nModellflyg inomhus vintertid\nModellflyg utomhus sommartid\nByggverksamhet och Modelltåg Året runt",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Modellflyg",
+                "Modelltåg",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås",
+                "Högboda",
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anders sandberg",
+        "contact_person_role": null,
+        "contact_person_email": "anders.sandberg@osterbergs.nu",
+        "contact_person_phone": "+46705118220"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Anders Sandberg",
+        "0705118220",
+        "anders.sandberg@osterbergs.nu",
+        "www.kilsmodellklubb.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "KILS MOTORKLUBB MC",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Motorsport"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://kilsmkmc.nu/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=KILS%20MOTORKLUBB%20MC",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@kilsmkmc.nu",
+      "phone": "+46707544101",
+      "description": {
+        "free_text": "Hos KIL MK MC är du, liten som stor, välkommen att njuta av sköna crossbanor och endurobana. Det finns en stor bana för de lite större crossarna och en liten bana för knattecrossar. Endurobanan finns för de som vill brottas lite i skogen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Motorsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@kilsmkmc.nu",
+        "contact_person_phone": "+46707544101"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Martin Gustafsson",
+        "0707544101",
+        "info@kilsmkmc.nu",
+        "https://kilsmkmc.nu/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Motorveteraner",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Motorveteraner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "644larsson@gmail.com",
+      "phone": "+46701903355644",
+      "description": {
+        "free_text": "Förening för intresserade av veteranfordon - bil, MC, moped mm.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars larsson",
+        "contact_person_role": null,
+        "contact_person_email": "644larsson@gmail.com",
+        "contact_person_phone": "+46701903355644"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lars Larsson",
+        "0701903355",
+        "644larsson@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils OK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Orientering",
+        "Skidor"
+      ],
+      "categories": [],
+      "homepage_url": "https://kilsok.com/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20OK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klubben.kilsok@gmail.com",
+      "phone": "+46705106954",
+      "description": {
+        "free_text": "Orienteringsklubb, men även längdskidåkning och terränglöpning ingår i föreningen",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Orientering",
+                "Skidor"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer skoog",
+        "contact_person_role": null,
+        "contact_person_email": "klubben.kilsok@gmail.com",
+        "contact_person_phone": "+46705106954"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Christer Skoog",
+        "070-5106954",
+        "klubben.kilsok@gmail.com",
+        "https://kilsok.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Paradorkester",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Musik"
+      ],
+      "categories": [
+        "Fagerås",
+        "Högboda",
+        "Kil",
+        "Nilsby",
+        "Tolita"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Paradorkester",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi tar tillvara på ungdomars musikintresse och förvaltar det genom bland annat konserter och musikframträdanden. Vi stimulerar tillväxten hos ungdomar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Musik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås",
+                "Högboda",
+                "Kil",
+                "Nilsby",
+                "Tolita"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Parasport Förening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Parasport%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lena.kald.palmer@parasport.se",
+      "phone": "+46705614240",
+      "description": {
+        "free_text": "Vi bedriver idrott för personer med funktionsnedsättningar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena käld palmer",
+        "contact_person_role": null,
+        "contact_person_email": "lena.kald.palmer@parasport.se",
+        "contact_person_phone": "+46705614240"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lena Käld Palmer",
+        "0705614240",
+        "lena.kald.palmer@parasport.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Reumatikerförening",
+      "org_number": null,
+      "types": [
+        "Funktionsrättsförening"
+      ],
+      "activities": [
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "http://kil.reumatiker.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Reumatikerf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bilsmide.gunnar@telia.com",
+      "phone": "+46703798181",
+      "description": {
+        "free_text": "Ideell förening informera om reumatiska sjukdomar samt medlemsträffar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gunnar svensson",
+        "contact_person_role": null,
+        "contact_person_email": "bilsmide.gunnar@telia.com",
+        "contact_person_phone": "+46703798181"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Gunnar Svensson",
+        "0703798181",
+        "bilsmide.gunnar@telia.com",
+        "Http://kil.reumatiker.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Ryttarförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://kilsryttarforening.klubbenonline.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Ryttarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jenny@kilsrf.se",
+      "phone": "+46702138398",
+      "description": {
+        "free_text": "Ridskola",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Parasport",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jenny engström",
+        "contact_person_role": null,
+        "contact_person_email": "jenny@kilsrf.se",
+        "contact_person_phone": "+46702138398"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Parasport",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Jenny Engström",
+        "0702138398",
+        "jenny@kilsrf.se",
+        "https://kilsryttarforening.klubbenonline.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Slalomklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Skidor"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.kilsslk.com/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Slalomklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@kilsslk.com",
+      "phone": "+4655440820",
+      "description": {
+        "free_text": "Vi erbjuder alpin utförsåkning, genom skid/snowboardskola, träning, tävling, teknikpark och friåkning på alla nivåer för såväl stora som små.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Skidor"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@kilsslk.com",
+        "contact_person_phone": "+4655440820"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "055440820",
+        "info@kilsslk.com",
+        "https://www.kilsslk.com/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kils Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://kilstk.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kils%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kilstk@hotmail.com",
+      "phone": "+46702728414",
+      "description": {
+        "free_text": "Tennis",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik sundmar",
+        "contact_person_role": null,
+        "contact_person_email": "kilstk@hotmail.com",
+        "contact_person_phone": "+46702728414"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)"
+      ],
+      "contact_lines": [
+        "Fredrik Sundmar",
+        "0702728414",
+        "kilstk@hotmail.com",
+        "https://kilstk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kilsgymnaster",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Kil",
+        "Tolita"
+      ],
+      "homepage_url": "https://kilsgymnaster.web.sportadmin.se/start/?ID=544440",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kilsgymnaster",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kilsgymnaster.extramail@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Gymnastik för alla åldrar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil",
+                "Tolita"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "kilsgymnaster.extramail@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "kilsgymnaster.extramail@gmail.com",
+        "https://kilsgymnaster.web.sportadmin.se/start/?ID=544440",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kilskorpen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friskvård",
+        "Innebandy",
+        "Kommunal verksamhet"
+      ],
+      "categories": [
+        "Fagerås",
+        "Kil"
+      ],
+      "homepage_url": "http://www.kilskorpen.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Kilskorpen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jonas@kilskorpen.se",
+      "phone": "+46706969699",
+      "description": {
+        "free_text": "Kilskorpen spelar innebandy för oss utan License samt gör event och happenings inom Kils Kommun!",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friskvård",
+                "Innebandy",
+                "Kommunal verksamhet"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås",
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jonas snäll",
+        "contact_person_role": null,
+        "contact_person_email": "jonas@kilskorpen.se",
+        "contact_person_phone": "+46706969699"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Jonas Snäll",
+        "0706969699",
+        "Jonas@kilskorpen.se",
+        "http://www.kilskorpen.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Kören kören",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Körsång"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=K%C3%B6ren%20k%C3%B6ren",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tomas.karlsson_62@telia.com",
+      "phone": "+46703445711",
+      "description": {
+        "free_text": "Körverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur",
+                "Körsång"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tomas karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "tomas.karlsson_62@telia.com",
+        "contact_person_phone": "+46703445711"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Tomas Karlsson",
+        "070-344 57 11",
+        "tomas.karlsson_62@telia.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Nilsby hembygd och idrottsklubb",
+      "org_number": null,
+      "types": [
+        "Hembyggdsförening"
+      ],
+      "activities": [
+        "Friskvård",
+        "Övrig"
+      ],
+      "categories": [
+        "Nilsby"
+      ],
+      "homepage_url": "https://nilsbyhik.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Nilsby%20hembygd%20och%20idrottsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "nilsbysforening@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en förening som har som mål att främja gemenskap, idrott och historia i Nilsby med omnejd. Vi erbjuder olika aktiviteter och evenemang för alla åldrar och intressen. Föreningen har egen klubblokal Nikkebo som går att hyra. Där finns det kök, fiberuppkoppling, projektor och duk, whiteboardtavla och ljudanläggning. Det finns en asfalterad plan/rink. Planen spolas på vintern om vädret tillåter. Det finns tennisnät som kan lånas och sättas upp över planen. Det finns ett utegym. Vandringsled finns över Högberget med en storslagen utsikt. Det är en kuperad slinga med spångar och rep på sina ställen samt tre strategiskt utplacerade sittplatser med bänkar, bord och kikare. Leden startar och slutar vid klubblokalen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friskvård",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Nilsby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "nilsbysforening@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "nilsbysforening@gmail.com",
+        "https://nilsbyhik.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Nilsby IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Nilsby%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "janne@bulldozer.se",
+      "phone": "+46767852706",
+      "description": {
+        "free_text": "Innebandy",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Janne svensson",
+        "contact_person_role": null,
+        "contact_person_email": "janne@bulldozer.se",
+        "contact_person_phone": "+46767852706"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Janne Svensson",
+        "076 785 27 06",
+        "janne@bulldozer.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "PRO Frykerud",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Fagerås"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=PRO%20Frykerud",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "PRO Kil",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://pro.se/distrikt/distrikt-varmland/samorganisationer/samorganisation-kil/foreningar/kil.html",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=PRO%20Kil",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ritagun@hotmail.com",
+      "phone": "+46761461013",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rita gunnarsson",
+        "contact_person_role": null,
+        "contact_person_email": "ritagun@hotmail.com",
+        "contact_person_phone": "+46761461013"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)"
+      ],
+      "contact_lines": [
+        "Rita Gunnarsson",
+        "0761461013",
+        "ritagun@hotmail.com",
+        "https://pro.se/distrikt/distrikt-varmland/samorganisationer/samorganisation-kil/foreningar/kil.html",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Sannerudskyrkan",
+      "org_number": null,
+      "types": [
+        "Kyrklig förening"
+      ],
+      "activities": [
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://sannerudskyrkan.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Sannerudskyrkan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@sannerudskyrkan.se",
+      "phone": "+46702165376",
+      "description": {
+        "free_text": "Scout, Söndagsskola, Tonår",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Göran werme",
+        "contact_person_role": null,
+        "contact_person_email": "info@sannerudskyrkan.se",
+        "contact_person_phone": "+46702165376"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)"
+      ],
+      "contact_lines": [
+        "Göran Werme",
+        "070-2165376",
+        "info@sannerudskyrkan.se",
+        "https://sannerudskyrkan.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "SPF Kilsbygden",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [
+        "Friskvård",
+        "Musik",
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.spfseniorerna.se/distrikt/varmlandsdistriktet/foreningslista/spf-seniorerna-kilsbygden/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=SPF%20Kilsbygden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "olleoingbritt@gmail.com",
+      "phone": "+46706334501",
+      "description": {
+        "free_text": "Vi skapar meningsfull tillvaro samt stöttar och stödjer äldre. Vi företräder äldre i olika sammanhang och verkar för trivsam och god äldredom.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friskvård",
+                "Musik",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Pensionär (65+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ing-britt bergström",
+        "contact_person_role": null,
+        "contact_person_email": "olleoingbritt@gmail.com",
+        "contact_person_phone": "+46706334501"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Pensionär (65+ år)"
+      ],
+      "contact_lines": [
+        "Ing-Britt Bergström",
+        "0706334501",
+        "olleoingbritt@gmail.com",
+        "https://www.spfseniorerna.se/distrikt/varmlandsdistriktet/foreningslista/spf-seniorerna-kilsbygden/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Stora Kils Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Hembyggdsförening"
+      ],
+      "activities": [
+        "Kultur",
+        "Musik",
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Stora%20Kils%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi förvaltar vårt kulturarv och för det vidare till kommande generationer.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Kultur",
+                "Musik",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Wermlands Körsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning",
+        "Övrig"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://www.wermlandskorsallskap.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=Wermlands%20K%C3%B6rs%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "dianajohansson@live.com",
+      "phone": "+46736248140",
+      "description": {
+        "free_text": "Du hittar oss på Kils Hästcenter Hannäs på Hannäsudden strax norr om Kil. Vår huvudsakliga inriktning är sportkörning, men våra medlemmar är också verksamma inom olika ridgrenar. Vi är en förening främst för dig med egen häst.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridning",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Diana johansson",
+        "contact_person_role": null,
+        "contact_person_email": "dianajohansson@live.com",
+        "contact_person_phone": "+46736248140"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Diana Johansson",
+        "0736248140",
+        "dianajohansson@live.com",
+        "https://www.wermlandskorsallskap.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Värmlandsläns fjordhästförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridning"
+      ],
+      "categories": [
+        "Kil"
+      ],
+      "homepage_url": "https://vlfjordhastforening.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=V%C3%A4rmlandsl%C3%A4ns%20fjordh%C3%A4stf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelsevlff@hotmail.com",
+      "phone": "+46705107845",
+      "description": {
+        "free_text": "En idell ras/häst förening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Alla åldrar (0+ år)",
+                "Parasport"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annika klintberg",
+        "contact_person_role": null,
+        "contact_person_email": "styrelsevlff@hotmail.com",
+        "contact_person_phone": "+46705107845"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Alla åldrar (0+ år)",
+        "Parasport"
+      ],
+      "contact_lines": [
+        "Annika Klintberg",
+        "0705107845",
+        "styrelsevlff@hotmail.com",
+        "https://vlfjordhastforening.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Kil",
+    "scrape_run_id": "4574eed3-2a65-4e41-ad2a-9e52502b48d4",
+    "scraped_at": "2025-10-28T23:32:41.120Z",
+    "association": {
+      "name": "Värmlandståg",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Modelltåg",
+        "Övrig"
+      ],
+      "categories": [
+        "Fagerås",
+        "Kil"
+      ],
+      "homepage_url": "https://varmlandstag.se/",
+      "detail_url": "https://kil.rbok.se/foreningsregister?association=V%C3%A4rmlandst%C3%A5g",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@varmlandstag.se",
+      "phone": "+46706241533",
+      "description": {
+        "free_text": "Järnvägsförening som håller på med båda stora och små tåg, Arrangerar modelltågsträffar, s.k. modulträffar, några gånger per år.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Modelltåg",
+                "Övrig"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-20 år)",
+                "Pensionär (65+ år)",
+                "Vuxna (21-64 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Fagerås",
+                "Kil"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Dan carlsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@varmlandstag.se",
+        "contact_person_phone": "+46706241533"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-20 år)",
+        "Pensionär (65+ år)",
+        "Vuxna (21-64 år)"
+      ],
+      "contact_lines": [
+        "Dan Carlsson",
+        "0706-241533",
+        "info@varmlandstag.se",
+        "https://varmlandstag.se/",
+        "Stäng"
+      ]
+    }
+  }
+]

@@ -1,0 +1,3178 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Bjurvalla Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Östervåla"
+      ],
+      "homepage_url": "https://bygdegardarna.se/bjurvalla",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Bjurvalla%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46703489692",
+      "description": {
+        "free_text": "Bygdegårdsförening/kulturell verksamhet, uthyrning av lokal",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östervåla"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marita södergren",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46703489692"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna"
+      ],
+      "contact_lines": [
+        "Marita Södergren",
+        "070-3489692",
+        "https://bygdegardarna.se/bjurvalla",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Buzzards basketklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Heby",
+        "Östervåla"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Buzzards%20basketklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jarpemo@live.se",
+      "phone": null,
+      "description": {
+        "free_text": "Basketträning och matcher. Spelare från 4-14 år",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby",
+                "Östervåla"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Björn järpemo",
+        "contact_person_role": null,
+        "contact_person_email": "jarpemo@live.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)"
+      ],
+      "contact_lines": [
+        "Björn Järpemo",
+        "+46761881944",
+        "jarpemo@live.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "En Hjälpande Tass",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Heby",
+        "Morgongåva",
+        "Tärnsjö",
+        "Östervåla"
+      ],
+      "homepage_url": "https://www.enhjalpandetass.se/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=En%20Hj%C3%A4lpande%20Tass",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen har som ändamål att på olika sätt samla in pengar samt material till förmån för katthem i Sverige. Genom att sälja egenproducerade produkter samt söka sponsorer och medlemmar så ska allt överskott gå oavkortat till olika katthem i Sverige. Vi kommer att ha ett samarbete med ett katthem i taget för att på så vis kunna ge den individuella hjälp som just detta katthem behöver. Vi tar även själva emot katter i nöd i den mån vi har plats. Detta har visat sig vara ett stort behov i hela vår kommun.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby",
+                "Morgongåva",
+                "Tärnsjö",
+                "Östervåla"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "https://www.enhjalpandetass.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Enåkers Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=En%C3%A5kers%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "enaker@telia.com",
+      "phone": "+46737613110",
+      "description": {
+        "free_text": "Hembygdsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik johansson",
+        "contact_person_role": null,
+        "contact_person_email": "enaker@telia.com",
+        "contact_person_phone": "+46737613110"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fredrik Johansson",
+        "0737613110",
+        "enaker@telia.com",
+        "www.hembygd.se/en-kers-hembygdsf-rening",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Equmenia Harbo",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Equmenia%20Harbo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Kristen ungdomsförening som håller till i Harbo missionskyrka. Vår främsta verksamhet är scout, men vi har också aktiviteter för tonåringar.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jakob ihfongård",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jakob Ihfongård",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Equmenia Östervåla",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://equmeniakyrkan.se/ostervala/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Equmenia%20%C3%96sterv%C3%A5la",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ostervala@equmeniakyrkan.nu",
+      "phone": "+4629210035",
+      "description": {
+        "free_text": "Fredagar ordnar vi frilek i sporthallen för alla barn i låg och mellanstadiet.\nVi har även andra aktiviteter, tex Scout och Tonår.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ostervala@equmeniakyrkan.nu",
+        "contact_person_phone": "+4629210035"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "0292-100 35",
+        "ostervala@equmeniakyrkan.nu",
+        "https://equmeniakyrkan.se/ostervala/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Harbo IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Harbo%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46739459443",
+      "description": {
+        "free_text": "Ideell idrottsförening som är aktiva inom fotboll, gym, cykel och bordtennis.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mattias carlström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46739459443"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mattias Carlström",
+        "0739459443",
+        "www.harboidrottsforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Harbo schackklubb",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Östervåla"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Harbo%20schackklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "i.arvidsson@outlook.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en nystartad förening som schackklubb, inriktningen är framförallt barn/ungdomar men vi vill nå flera vuxna och äldre. Vi har haft träffar samt ordnat turneringar för barn och ungdomar både i Östervåla och Harbo.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östervåla"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ivonne arvidsson",
+        "contact_person_role": null,
+        "contact_person_email": "i.arvidsson@outlook.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna"
+      ],
+      "contact_lines": [
+        "Ivonne Arvidsson",
+        "+46767249396",
+        "i.arvidsson@outlook.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Harbo Sockenråd",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Heby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Harbo%20Sockenr%C3%A5d",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "harbosockenrad@gmail.com",
+      "phone": "+46703826726",
+      "description": {
+        "free_text": "Ideell förening. Tillsammans med bygdens föreningar, organisationer kyrkor och intressegrupper verka för gemenskap samverkan och utveckling i bygden. Verka för att öka invånarnas inflytande över planering och beslut om bygdens utveckling och därigenom stärka den lokala demokratin. Föreningen skall vara partipolitiskt obunden. Medlemmarna är alla folkbokförda och fastighetsägare med familjer inom Harbo församling.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstin karlsson",
+        "contact_person_role": null,
+        "contact_person_email": "harbosockenrad@gmail.com",
+        "contact_person_phone": "+46703826726"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Kerstin Karlsson",
+        "0703826726",
+        "Harbosockenrad@gmail.com",
+        "facebook: Harbo Sockenråd",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Harboortens Ryttarsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Spontanidrott"
+      ],
+      "categories": [],
+      "homepage_url": "https://harboortensrs.wordpress.com/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Harboortens%20Ryttars%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "harboortensrs@gmail.com",
+      "phone": "+46730892250",
+      "description": {
+        "free_text": "Förening för hästintresserade människor i Harbo samt dess närhet.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Spontanidrott"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Veronika elvingson",
+        "contact_person_role": null,
+        "contact_person_email": "harboortensrs@gmail.com",
+        "contact_person_phone": "+46730892250"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Veronika Elvingson",
+        "0730892250",
+        "harboortensrs@gmail.com",
+        "https://harboortensrs.wordpress.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Heby AIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis",
+        "Fotboll",
+        "Friidrott",
+        "Spontanidrott"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.hebyaif.nu/start/?ID=116432",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Heby%20AIF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kansli@hebyaif.nu",
+      "phone": "+46722132248",
+      "description": {
+        "free_text": "Vi är en Idrottsförening med 7 olika sektioner - Bordtennis, Fotboll, Padel, Orientering, Friidrott, Skidor, BMX",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis",
+                "Fotboll",
+                "Friidrott",
+                "Spontanidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Mix barn/ungdom/vuxna",
+                "Vuxna (18+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Emma green",
+        "contact_person_role": null,
+        "contact_person_email": "kansli@hebyaif.nu",
+        "contact_person_phone": "+46722132248"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Mix barn/ungdom/vuxna",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Emma Green",
+        "0722132248",
+        "kansli@hebyaif.nu",
+        "https://www.hebyaif.nu/start/?ID=116432",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Heby Brottarklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Brottning"
+      ],
+      "categories": [
+        "Heby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Heby%20Brottarklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "heby.bk@hotmail.com",
+      "phone": "+46739823840",
+      "description": {
+        "free_text": "Brottningsträning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Brottning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin svensson",
+        "contact_person_role": null,
+        "contact_person_email": "heby.bk@hotmail.com",
+        "contact_person_phone": "+46739823840"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Martin Svensson",
+        "073-9823840",
+        "heby.bk@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Heby Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Heby%20Gymnastikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "klockargarden@hotmail.com",
+      "phone": "+46709456703",
+      "description": {
+        "free_text": "Barngymnastik, Motionsgympa, Vattengymnastik",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Åsa johansson",
+        "contact_person_role": null,
+        "contact_person_email": "klockargarden@hotmail.com",
+        "contact_person_phone": "+46709456703"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Åsa Johansson",
+        "0709456703",
+        "klockargarden@hotmail.com",
+        "hebygfanmalan.site",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Heby Skytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Heby%20Skyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "träning och tävlingsverksamhet inom skytte",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Heby Square Dancers",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Heby%20Square%20Dancers",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "monika@moleann.se",
+      "phone": "+46707515795",
+      "description": {
+        "free_text": "En förening som håller kurser både för nybörjare och fortsättningskurser och som är en glad och liten förening som träffas regelbundet i Folkets Hus varje onsdag under terminstid och dansar squaredans.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monika morling",
+        "contact_person_role": null,
+        "contact_person_email": "monika@moleann.se",
+        "contact_person_phone": "+46707515795"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Monika Morling",
+        "0707515795",
+        "monika@moleann.se",
+        "saknas",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Hörselskadades lokalförening Tierp",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=H%C3%B6rselskadades%20lokalf%C3%B6rening%20Tierp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "annette1942@hotmail.se",
+      "phone": "+46706525791",
+      "description": {
+        "free_text": "tillvarata hörselskadades intressen, samla till månadsmöten med hörselinfo och underhållning, göra slingkontroller i offentliga lokaler, genomföra enkelt hörseltest på ett par bibliotek varje hörselvecka i oktober( 2023 Östervåla och Tierp).",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (18+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annette thorell",
+        "contact_person_role": null,
+        "contact_person_email": "annette1942@hotmail.se",
+        "contact_person_phone": "+46706525791"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Annette Thorell",
+        "070 652 57 91",
+        "annette1942@hotmail.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "IOGT-NTO HEBY",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Heby",
+        "Tärnsjö",
+        "Östervåla"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=IOGT-NTO%20HEBY",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jg.albinsson@gmail.com",
+      "phone": "+46706199983",
+      "description": {
+        "free_text": "Nykterhetsrörelse",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby",
+                "Tärnsjö",
+                "Östervåla"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan albinsson",
+        "contact_person_role": null,
+        "contact_person_email": "jg.albinsson@gmail.com",
+        "contact_person_phone": "+46706199983"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna"
+      ],
+      "contact_lines": [
+        "Jan Albinsson",
+        "0706199983",
+        "jg.albinsson@gmail.com",
+        "ingen",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "KFUM Heby",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Futsal",
+        "Spontanidrott"
+      ],
+      "categories": [
+        "Heby",
+        "Morgongåva"
+      ],
+      "homepage_url": "http://www.kfumheby.se/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=KFUM%20Heby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "matsmichael@hotmail.com",
+      "phone": "+46701719331",
+      "description": {
+        "free_text": "Ungdomsförening med helhetssyn på människan, enligt Body, Mind, Spirit. Vår verksamhet varierar efter medlemmarnas önskemål, med ledarutveckling som viktigt inslag. För närvarande (2023) har vi Fredagsfotboll, styrelseutbildning, ledarskap, internationellt utbyte, engelska, loppis m.m.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Futsal",
+                "Spontanidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna",
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby",
+                "Morgongåva"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats olsén",
+        "contact_person_role": null,
+        "contact_person_email": "matsmichael@hotmail.com",
+        "contact_person_phone": "+46701719331"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Mats Olsén",
+        "0701719331",
+        "matsmichael@hotmail.com",
+        "http://www.kfumheby.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Korpen Heby Motionsidrottsförbund",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.korpen.se/korpenheby",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Korpen%20Heby%20Motionsidrottsf%C3%B6rbund",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46705731422",
+      "description": {
+        "free_text": "Yoga zumba spinning seniorgympa vattengympa mm",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Solveig bergqvist",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46705731422"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna"
+      ],
+      "contact_lines": [
+        "Solveig Bergqvist",
+        "0705731422",
+        "https://www.korpen.se/korpenheby",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Laksjöbadet Idell Förening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Heby",
+        "Huddunge",
+        "Morgongåva",
+        "Tärnsjö",
+        "Östervåla"
+      ],
+      "homepage_url": "http://laksjobadet.se/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Laksj%C3%B6badet%20Idell%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@laksjobadet.se",
+      "phone": "+46708858520",
+      "description": {
+        "free_text": "Fullt utrustad och upprustad badplats som besöks av tusentals personer varje år. Nya bryggor, vindskydd, grillplats, flytbrygga, beachvolleyplan, bastu, TC, omklädningsrum, internet.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby",
+                "Huddunge",
+                "Morgongåva",
+                "Tärnsjö",
+                "Östervåla"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Hans-göran björk",
+        "contact_person_role": null,
+        "contact_person_email": "info@laksjobadet.se",
+        "contact_person_phone": "+46708858520"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna"
+      ],
+      "contact_lines": [
+        "Hans-Göran Björk",
+        "0708-858520",
+        "info@laksjobadet.se",
+        "http://laksjobadet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Liss-Fännsjöns Sportfiskeförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Liss-F%C3%A4nnsj%C3%B6ns%20Sportfiskef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hakan.tallroth@peab.se",
+      "phone": "+46733372035",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Håkan tallroth",
+        "contact_person_role": null,
+        "contact_person_email": "hakan.tallroth@peab.se",
+        "contact_person_phone": "+46733372035"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Håkan Tallroth",
+        "0733372035",
+        "hakan.tallroth@peab.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Morgongåva Boxningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boxning"
+      ],
+      "categories": [
+        "Heby",
+        "Morgongåva"
+      ],
+      "homepage_url": "https://m.facebook.com/groups/121913541201199/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Morgong%C3%A5va%20Boxningsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@morgongavabk.se",
+      "phone": "+46761377849",
+      "description": {
+        "free_text": "Det är aldrig för tidigt eller försent att börja boxas. Du är varmt välkommen till oss hos Morgongåva BK oavsett vilken ambitionsnivå du har med din träning. Gå med i Facebookgruppen \"Morgongåva BK\" för att följa oss, få nyheter och se vad vi har för oss. Hör av dig om du har några funderingar, vill du komma och träna med oss kontakta huvudtränare Mikael \"Kermith\" Fredriksson för mer information.\nDessa träningsgrupper har vi nuvarande under HT-2025:\n*Kidbox - Ålder 6-9 år. Fredagar 17:00-18:00\n*Diplomgruppen - Ålder 10-14 år. Måndag 18:00-19:15, Onsdag 18:00-19:15, Fredag 18:00-19:00 tillsammans med matchgruppen & Söndag 15:00-16:00 tillsammans med matchgruppen\n*Nybörjar/Utvecklingsgruppen - Ålder 14 år och äldre. Onsdag 19:15-20:30\n*Motionsgruppen - Från 10 år som vill motionsboxas. Tisdag 18:00-19:00 & Torsdag 18:00-19:00\n*Matchgrupp - Från 15 år och äldre. Måndag 19:00-20:30, Tisdag 19:00-20:30, Torsdag 19:00-20:30, Fredag 18:00-19:30 tillsammans med diplomgruppen & Söndag 15:00-16:00 tillsammans med diplomgruppen.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Boxning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby",
+                "Morgongåva"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael fredriksson",
+        "contact_person_role": null,
+        "contact_person_email": "info@morgongavabk.se",
+        "contact_person_phone": "+46761377849"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Mikael Fredriksson",
+        "0761377849",
+        "info@morgongavabk.se",
+        "https://m.facebook.com/groups/121913541201199/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Morgongåva Byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Morgongåva"
+      ],
+      "homepage_url": "https://www.morgongava.se/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Morgong%C3%A5va%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "byalaget@morgongava.se",
+      "phone": "+46736420895",
+      "description": {
+        "free_text": "Byalaget ska stödja och verka för allmännyttiga, kulturella och välgörande ändamål samt framföra krav och önskemål för bygdens allmänna nytta.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Mix barn/ungdom/vuxna",
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Morgongåva"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gerhard haider",
+        "contact_person_role": null,
+        "contact_person_email": "byalaget@morgongava.se",
+        "contact_person_phone": "+46736420895"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Mix barn/ungdom/vuxna",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Gerhard Haider",
+        "073-6420895",
+        "byalaget@morgongava.se",
+        "https://www.morgongava.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Morgongåva Heby trädgårdsförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.morgongavahebytradgardsforening.se/hem",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Morgong%C3%A5va%20Heby%20tr%C3%A4dg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gerdcarlsson@hotmail.com",
+      "phone": "+465838514",
+      "description": {
+        "free_text": "En trädgårdsförening för utbyte av kunskaper och för att ge inspiration om odling och trädgårdsarbete.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gerd carlsson",
+        "contact_person_role": null,
+        "contact_person_email": "gerdcarlsson@hotmail.com",
+        "contact_person_phone": "+465838514"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gerd Carlsson",
+        "+46705838514",
+        "gerdcarlsson@hotmail.com",
+        "https://www.morgongavahebytradgardsforening.se/hem",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Morgongåva Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.laget.se/MorgongavaSK",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Morgong%C3%A5va%20Sportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Lokal idrottsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.laget.se/MorgongavaSK",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Myrans Vänner",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://saknas/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Myrans%20V%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "monika@moleann.se",
+      "phone": "+46707515795",
+      "description": {
+        "free_text": "Intresseförening för badsjön Myran i Huddunge",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monika morling",
+        "contact_person_role": null,
+        "contact_person_email": "monika@moleann.se",
+        "contact_person_phone": "+46707515795"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Monika Morling",
+        "0707515795",
+        "monika@moleann.se",
+        "http://saknas",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Nora-Tärnsjö Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Tärnsjö"
+      ],
+      "homepage_url": "http://www.hembygd.se/nora-t%C3%A4rnsj%C3%B6",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Nora-T%C3%A4rnsj%C3%B6%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "leifg3601@gmail.com",
+      "phone": "+46727377637",
+      "description": {
+        "free_text": "Driva och underhålla Hembygdsgården och sköta Olof Krans- och Hemvärnsmuséet i Tärnsjö.\nAnordna midsommar- och nationaldagsfirande, hemvändardag , marknad m.m. samt medverka vid Ingbofestivalen.\nDriva, underhålla och utveckla Tåget som sevärdhet, träffpunkt med café och vandrarhem.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tärnsjö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Leif gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "leifg3601@gmail.com",
+        "contact_person_phone": "+46727377637"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna"
+      ],
+      "contact_lines": [
+        "Leif Gustafsson",
+        "0727377637",
+        "leifg3601@gmail.com",
+        "http://www.hembygd.se/nora-tärnsjö",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Norrby jakt och sportskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Norrby%20jakt%20och%20sportskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen bedriver jaktskytte samt sportskytte med inriktning på lerduveskytte. Förningen är medlem i riksidrottsförbundet, sportskytteförbundet samt jägarförbundet.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Mix barn/ungdom/vuxna",
+                "Vuxna (18+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per andreas pettersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Mix barn/ungdom/vuxna",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "www.norrbyjsk.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "PRO Heby",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Heby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=PRO%20Heby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gunlis.olson.hm@gmail.com",
+      "phone": "+46728586966",
+      "description": {
+        "free_text": "Ordna träffar och aktiviteter för pensionärer",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gun-lis olson",
+        "contact_person_role": null,
+        "contact_person_email": "gunlis.olson.hm@gmail.com",
+        "contact_person_phone": "+46728586966"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Gun-Lis Olson",
+        "0728586966",
+        "gunlis.olson.hm@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "PRO Tärnsjö",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Tärnsjö"
+      ],
+      "homepage_url": "http://pro.se/tarnsjo",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=PRO%20T%C3%A4rnsj%C3%B6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hogsbo.131@gmail.com",
+      "phone": "+46703623736",
+      "description": {
+        "free_text": "Aktiviteter för pensionärer",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tärnsjö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva lööf",
+        "contact_person_role": null,
+        "contact_person_email": "hogsbo.131@gmail.com",
+        "contact_person_phone": "+46703623736"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Eva Lööf",
+        "070-3623736",
+        "hogsbo.131@gmail.com",
+        "http://pro.se/tarnsjo",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "PRO Östervåla-Harbo",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Östervåla"
+      ],
+      "homepage_url": "https://pro.ostervala-harbo.se/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=PRO%20%C3%96sterv%C3%A5la-Harbo",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ostervala-harbo@pro.se",
+      "phone": null,
+      "description": {
+        "free_text": "sociala verksamheter för föreningens medlemmar, som tex boule, fiske, bingo, shuffleboard,\ncaféträffar,",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östervåla"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ostervala-harbo@pro.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "ostervala-harbo@pro.se",
+        "https://pro.ostervala-harbo.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Reumatikerföreningen Sala-Heby",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Vattengymnastik"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Reumatikerf%C3%B6reningen%20Sala-Heby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Vattengymnastik"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Runhällen BoIS",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Runh%C3%A4llen%20BoIS",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "runhallen_bois@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "idrottsförening Runhällen\nFotboll och Pingis",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Olle hedlund",
+        "contact_person_role": null,
+        "contact_person_email": "runhallen_bois@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Olle Hedlund",
+        "runhallen_bois@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Runhällens byalag",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Runh%C3%A4llens%20byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "wickis6@hotmail.com",
+      "phone": "+46736936520",
+      "description": {
+        "free_text": "Intresseförening som verkar för, och tar tillvara bygdens intressen och utveckling",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik wickström",
+        "contact_person_role": null,
+        "contact_person_email": "wickis6@hotmail.com",
+        "contact_person_phone": "+46736936520"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fredrik Wickström",
+        "0736936520",
+        "wickis6@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Röda Korset   Hebybygdens krets",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.rodakorset.se/ort/uppsala/heby-kommun/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=R%C3%B6da%20Korset%20%20%20Hebybygdens%20krets",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "margni48@hotmail.com",
+      "phone": "+46736508250",
+      "description": {
+        "free_text": "Röda Korset Hebybygdens krets\nHebybygdens Rödakorskrets\nHebybygdens Rödakorskrets arbetar förutom med insamlingsverksamhet till att möta kriser och katastrofer med två lokala praktiska arbetsgrupper.\nSociala arbetsgruppen i Heby där frivilliga en gång i veckan, samlar äldre till bingospel på mötesplatsen Torget 6 och en gång i månaden \"Kaffe med musik\". Vi deltar också i språkcaféet i församlingshemmet.\nVi anordnar också andra sociala aktiviteter som tårtkalas på Lövsta och utdelning av vårblommor.\nArbetsgruppen Vittinge/Morgongåva\nDriver mötesplats Kupan, vår second hand butik på Allévägen 10 i Morgongåva, som är öppen onsdagar och lördagar hela året utom i augusti då det har varit stängt i tre veckor. Här kan man träffas för en kopp kaffe och en pratstund.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Margareta isberg-nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "margni48@hotmail.com",
+        "contact_person_phone": "+46736508250"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Margareta Isberg-Nilsson",
+        "073-6508250",
+        "margni48@hotmail.com",
+        "https://www.rodakorset.se/ort/uppsala/heby-kommun/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Stiftelsen Kanikebogården",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Stiftelsen%20Kanikebog%C3%A5rden",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46739917076",
+      "description": {
+        "free_text": "Uthyrning utav lokal för privata tillställningar eller möten. Allmän mötesplats om erbjuder aktiviteter som äggletning, midsommarfirande, cykeljippo, luciafirande, barn och familjeyoga, kultur evenemang mm",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sofie jansson pettersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46739917076"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sofie Jansson Pettersson",
+        "0739917076",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Strokeföreningen Sala-Heby",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [
+        "Heby"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Strokef%C3%B6reningen%20Sala-Heby",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Försöker skapa aktiviteter, som kan bidra till ett värdigt liv efter en stroke.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Tegelbruksmuseets intresseförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Heby"
+      ],
+      "homepage_url": "https://tegelbruksmuseet.se/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Tegelbruksmuseets%20intressef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tegelbruksmuseet.se",
+      "phone": "+46764116129",
+      "description": {
+        "free_text": "Vi verkar för att det ska finnas ett museum för Hebys historia och särskilt den sekellånga tegelepoken.\nMuseet ska vara en kulturupplevelse och ett attraktivt besöksmål.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Leif nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@tegelbruksmuseet.se",
+        "contact_person_phone": "+46764116129"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna"
+      ],
+      "contact_lines": [
+        "Leif Nilsson",
+        "0764116129",
+        "info@tegelbruksmuseet.se",
+        "https://tegelbruksmuseet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Tärnsjö BTK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bordtennis"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=T%C3%A4rnsj%C3%B6%20BTK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Idrottsförening där vi tränar och spelar seriespel i Bordtennis i alla åldrar",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bordtennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Vuxna (18+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Tärnsjö Gymnastikförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gruppträning"
+      ],
+      "categories": [
+        "Tärnsjö"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=T%C3%A4rnsj%C3%B6%20Gymnastikf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lenaj85@hotmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Gymnastikpass i hallen",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gruppträning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tärnsjö"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena svahn",
+        "contact_person_role": null,
+        "contact_person_email": "lenaj85@hotmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Lena Svahn",
+        "lenaj85@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Tärnsjö idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=T%C3%A4rnsj%C3%B6%20idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mikaelbomander@tarnsjoidrottforening.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mikael bomander",
+        "contact_person_role": null,
+        "contact_person_email": "mikaelbomander@tarnsjoidrottforening.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Mikael Bomander",
+        "mikaelbomander@tarnsjoidrottforening.se",
+        "Tarnsjoidrottsforening.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Vansjö-ortens Bygdeförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [
+        "Barnkalas",
+        "Festbokning",
+        "Teater"
+      ],
+      "categories": [
+        "Heby",
+        "Morgongåva"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Vansj%C3%B6-ortens%20Bygdef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "lars.nyfjord@gmail.com",
+      "phone": "+46705364401",
+      "description": {
+        "free_text": "bygdegårdsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barnkalas",
+                "Festbokning",
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby",
+                "Morgongåva"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lars nyfjord",
+        "contact_person_role": null,
+        "contact_person_email": "lars.nyfjord@gmail.com",
+        "contact_person_phone": "+46705364401"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna"
+      ],
+      "contact_lines": [
+        "Lars Nyfjord",
+        "0705364401",
+        "lars.nyfjord@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Vittinge Byalag",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://vittingebyalag.se/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Vittinge%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@vittingebyalag.se",
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@vittingebyalag.se",
+        "contact_person_phone": null
+      },
+      {
+        "contact_person_name": null,
+        "contact_person_role": null,
+        "contact_person_email": "info@vittingebyalag.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "info@vittingebyalag.se",
+        "info@vittingebyalag.se",
+        "https://vittingebyalag.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Vittinge hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Övriga föreningar"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.vittingehembygdsforening.se/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Vittinge%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vittingehembygdsforening@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Hembygdsföreningen för Vittinge socken.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Katarina almkvist",
+        "contact_person_role": null,
+        "contact_person_email": "vittingehembygdsforening@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Katarina Almkvist",
+        "vittingehembygdsforening@gmail.com",
+        "https://www.vittingehembygdsforening.se/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Vittinge IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Badminton",
+        "Bordtennis",
+        "Fotboll",
+        "Innebandy"
+      ],
+      "categories": [
+        "Heby"
+      ],
+      "homepage_url": "http://www.vittingeik.com/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Vittinge%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "vittingeik@gmail.com",
+      "phone": "+46706299307",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Badminton",
+                "Bordtennis",
+                "Fotboll",
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Vuxna (18+ år)"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Heby"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Thomas falk",
+        "contact_person_role": null,
+        "contact_person_email": "vittingeik@gmail.com",
+        "contact_person_phone": "+46706299307"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Thomas Falk",
+        "0706299307",
+        "vittingeik@gmail.com",
+        "http://www.vittingeik.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Vittinge-Morgongåva PRO",
+      "org_number": null,
+      "types": [
+        "Pensionärsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=Vittinge-Morgong%C3%A5va%20PRO",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Wåhla IBK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [],
+      "homepage_url": "http://www.laget.se/wahlaibk",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=W%C3%A5hla%20IBK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "wahlaibk@hotmail.com",
+      "phone": "+46765959798",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Barn och ungdom (0-17 år)",
+                "Vuxna (18+ år)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sofia engblom gustafsson",
+        "contact_person_role": null,
+        "contact_person_email": "wahlaibk@hotmail.com",
+        "contact_person_phone": "+46765959798"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Barn och ungdom (0-17 år)",
+        "Vuxna (18+ år)"
+      ],
+      "contact_lines": [
+        "Sofia Engblom Gustafsson",
+        "0765959798",
+        "wahlaibk@hotmail.com",
+        "http://www.laget.se/wahlaibk",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Västerlövsta Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "http://www.hembygd.se/vasterlovsta",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=V%C3%A4sterl%C3%B6vsta%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mariewilen8@gmail.com",
+      "phone": "+46735013505",
+      "description": {
+        "free_text": "Västerlövsta Hembygdsförening bildades 1943 och huserar i Erik Ersgården, en byggnad som 1945 flyttades till dess nuvarande plats i västra Heby. Huset skänktes till föreningen av företaget Olsson & Rosenlunds AB.\nDet är många historiska föremål och möbler från bygden som tar plats i de gamla byggnaderna, alla ditflyttade från olika delar av Västerlövsta.\nIdag jobbar föreningen hårt för att hembygdsgården ska få leva vidare så att kommande generationer kan få samma fina minnen som vi själva har från platsen när vi var barn. Vår viktigaste uppgift är att bevara och göra det tillgängligt vilket vi lyckats med genom de olika aktiviteterna vi årligen arrangerar. Valborgsmässofirande, nationaldagsfirande, midsommarfirande och Café våfflan, tre första veckorna i augusti, är några av de aktiviteter som anordnas under året.\nFöreningen arrangerar besök för förskole- och skolbarn som får komma och besöka gården och testa på olika aktiviteter som skura mattor, plantera och tälja. En aktivitet vi hoppas kunna utveckla och satsa mer på framöver",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marie wilén",
+        "contact_person_role": null,
+        "contact_person_email": "mariewilen8@gmail.com",
+        "contact_person_phone": "+46735013505"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marie Wilén",
+        "073 5013505",
+        "mariewilen8@gmail.com",
+        "http://www.hembygd.se/vasterlovsta",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Östervåla hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/ostervala",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=%C3%96sterv%C3%A5la%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hembygdsforening.ostervala@hotmail.com",
+      "phone": "+46707616551",
+      "description": {
+        "free_text": "Hembygdsförening för Östervåla med omnejd. Hembygdsgård med bl a möbelmuseum och snickeri.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Torbjörn ivarsson",
+        "contact_person_role": null,
+        "contact_person_email": "hembygdsforening.ostervala@hotmail.com",
+        "contact_person_phone": "+46707616551"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Torbjörn Ivarsson",
+        "070 7616551",
+        "hembygdsforening.ostervala@hotmail.com",
+        "https://www.hembygd.se/ostervala",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Östervåla idrottsförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.svenskalag.se/ostervalaif",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=%C3%96sterv%C3%A5la%20idrottsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.svenskalag.se/ostervalaif",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Heby",
+    "scrape_run_id": "fdd6d065-6512-4bc9-a0b7-5cfea5365ee9",
+    "scraped_at": "2025-10-28T23:00:31.715Z",
+    "association": {
+      "name": "Östervåla Ryttarklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Östervåla"
+      ],
+      "homepage_url": "https://ostervalark.timotej.se/",
+      "detail_url": "https://heby.rbok.se/foreningsregister?association=%C3%96sterv%C3%A5la%20Ryttarklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ostervala.rk@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Vi är en ryttarklubb som anordnar aktiviteter för våra medlemmar. Bland annat tävlingar, ridaktiviteter men även avsuttna aktiviteter.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Mix barn/ungdom/vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Östervåla"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Frida westerlund",
+        "contact_person_role": null,
+        "contact_person_email": "ostervala.rk@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Mix barn/ungdom/vuxna"
+      ],
+      "contact_lines": [
+        "Frida Westerlund",
+        "ostervala.rk@gmail.com",
+        "https://ostervalark.timotej.se/",
+        "Stäng"
+      ]
+    }
+  }
+]

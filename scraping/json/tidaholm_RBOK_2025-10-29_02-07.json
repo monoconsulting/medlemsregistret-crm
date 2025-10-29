@@ -1,0 +1,5595 @@
+[
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Billingebygdens Kattklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Billingebygdens%20Kattklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kommissarie@kattklubbenbik.se",
+      "phone": "+46733990434",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Maria herngren",
+        "contact_person_role": null,
+        "contact_person_email": "kommissarie@kattklubbenbik.se",
+        "contact_person_phone": "+46733990434"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 0,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Maria Herngren",
+        "0733 99 04 34",
+        "kommissarie@kattklubbenbik.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "BK Forsen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=BK%20Forsen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "birgitta-persson@telia.com",
+      "phone": "+46703413721",
+      "description": {
+        "free_text": "Parabowlingverksamhet för funktionsnedsatta barn, ungdomar och vuxna.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta persson",
+        "contact_person_role": null,
+        "contact_person_email": "birgitta-persson@telia.com",
+        "contact_person_phone": "+46703413721"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 1,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Birgitta Persson",
+        "070-3413721",
+        "birgitta-persson@telia.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "BOWLINGKLUBBEN ROLLING STONES",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=BOWLINGKLUBBEN%20ROLLING%20STONES",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "rolling.stones@hotmail.se",
+      "phone": "+4650212567",
+      "description": {
+        "free_text": "Bowlingförening för ungdomar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bowling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Makis manthos",
+        "contact_person_role": null,
+        "contact_person_email": "rolling.stones@hotmail.se",
+        "contact_person_phone": "+4650212567"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 2,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar"
+      ],
+      "contact_lines": [
+        "Makis Manthos",
+        "050212567",
+        "rolling.stones@hotmail.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "BRAVI RAGAZZI - ITALIENSKA FÖRENING I SKARABORG",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Fest",
+        "Fotboll",
+        "Futsal",
+        "Föreläsning",
+        "Möte"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=BRAVI%20RAGAZZI%20-%20ITALIENSKA%20F%C3%96RENING%20I%20SKARABORG",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "kulturförening med ungdomsverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fest",
+                "Fotboll",
+                "Futsal",
+                "Föreläsning",
+                "Möte"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 3,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Bridgeklubben",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Bridgeklubben",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 4,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Cykelklubben U6",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Cykel",
+        "Friidrott",
+        "Övrigt"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.motionsloppet.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Cykelklubben%20U6",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@cku6.se",
+      "phone": null,
+      "description": {
+        "free_text": "Föreningen bedriver verksamhet inom idrotterna Cykel, Friidrott och Triathlon.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Cykel",
+                "Friidrott",
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@cku6.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 5,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "info@cku6.se",
+        "https://www.motionsloppet.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Daretorps bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Daretorps%20bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Vi arrangerar tipspromenader, familjedagar, musikunderhållning och kåserier/föreläsningar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 6,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Daretorpsbygdens Intresseförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Daretorpsbygdens%20Intressef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 7,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "De Ungas Hus i Daretorp",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=De%20Ungas%20Hus%20i%20Daretorp",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46768678957",
+      "description": {
+        "free_text": "Bygdegårdsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kenth cedin",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46768678957"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 8,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kenth Cedin",
+        "0768678957",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "DHB Västra",
+      "org_number": null,
+      "types": [
+        "Övrig förening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "https://www.dhb.se/vastra/startsidan/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=DHB%20V%C3%A4stra",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@dhbvastra.se",
+      "phone": "+46761636311",
+      "description": {
+        "free_text": "DHB Västra är en distriktorganisation för döva och hörselskadade barn samt barn med språkstörning i västra Sverige, samt barn med ytterligare funktionsnedsättningar. Inom målgruppen förekommer olika grader och varianter av funktionsnedsättningar så som autism, adhd, Downs syndrom, asperger rörelsehinder, inellektuell funktionsnedsättning m.fl. Det primära och det dominerande är dock kommunikationssvårigheter. Fungerande kommunikation är för vår förening en hjärtefråga, att familjer i samma - eller liknande situation ska kunna träffas. Många av våra barn har teckenspråket som sitt modersmål och detta får de genom föräldrarna som lär dem. Får inte barnen en fungerande kommunikation är det lätt att känna sig otrygg och det kan ge ett utanförskap och frustration samt att det påverkar deras uppväxt, utveckling och framtid. Barnens teckenspråksinlärning ligger inte på samhällets ansvar utan på föräldrarna och det är de som ska lära barnen deras modersmål, teckenspråket - ett språk som föräldrarna inte kan. Det är också viktigt att familjerna får träffa andra i liknande situation. Barnen får en möjlighet att känna att de inte är ensamma om sin funktionsnedsättning. De får träffa andra att identifiera sig med och skapa nya kontakter med andra barn där de kan umgås på lika villkor. Det är extra viktigt för 'våra barn' eftersom många vanligtvis går integrerade i vanliga kommunala skolor.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Grethe håkansson",
+        "contact_person_role": null,
+        "contact_person_email": "info@dhbvastra.se",
+        "contact_person_phone": "+46761636311"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 9,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar"
+      ],
+      "contact_lines": [
+        "Grethe Håkansson",
+        "0761636311",
+        "info@dhbvastra.se",
+        "https://www.dhb.se/vastra/startsidan/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Dimbo Byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Dimbo%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "storahoga@gmail.com",
+      "phone": "+46702834142",
+      "description": {
+        "free_text": "Bygdegårdsverksamhet, uthyrning av lokal",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gita norell",
+        "contact_person_role": null,
+        "contact_person_email": "storahoga@gmail.com",
+        "contact_person_phone": "+46702834142"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 10,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gita Norell",
+        "0702834142",
+        "storahoga@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Dimbo if",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Dimbo%20if",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46702368736",
+      "description": {
+        "free_text": "Unik bastu byggd 1949 av Dimbo if och \"varit igång\"varje fredag sen dess. Föreningen har även numer en boulesektion.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva andersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46702368736"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 11,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Eva Andersson",
+        "0702368736",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Dimbobygdens Fornminnes & Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Dimbobygdens%20Fornminnes%20%26%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Hembygds och fornminnes förening med förankring i Storegården i Suntak.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 12,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Dusty Road Blues",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Konsert"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "http://dustyroadblues.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Dusty%20Road%20Blues",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "jyekstedt@gmail.com",
+      "phone": "+46722198056",
+      "description": {
+        "free_text": "Blues förening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Konsert"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan-yngve ekstedt",
+        "contact_person_role": null,
+        "contact_person_email": "jyekstedt@gmail.com",
+        "contact_person_phone": "+46722198056"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 13,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Jan-Yngve Ekstedt",
+        "0722198056",
+        "jyekstedt@gmail.com",
+        "http://dustyroadblues.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Ekedalens Sportklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.ekedalenssk.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Ekedalens%20Sportklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Idrottsförening med fotboll som huvudidrott.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats löwing",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 14,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Mats Löwing",
+        "https://www.ekedalenssk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Equmenia Scout Tidaholm",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Equmenia%20Scout%20Tidaholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+467638050638",
+      "description": {
+        "free_text": "Scout verksamhet och lite Tonår",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christina falk",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+467638050638"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 15,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Christina Falk",
+        "07638050638",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Folkabo IK",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.folkaboik.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Folkabo%20IK",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "christer.nilsson53@spray.se",
+      "phone": "+46707994957",
+      "description": {
+        "free_text": "Fotboll",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "christer.nilsson53@spray.se",
+        "contact_person_phone": "+46707994957"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 16,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Christer Nilsson",
+        "0707994957",
+        "christer.nilsson53@spray.se",
+        "https://www.folkaboik.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Folkabo Samhällsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Folkabo%20Samh%C3%A4llsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tb.maskinservice@telia.com",
+      "phone": "+46708664050",
+      "description": {
+        "free_text": "Traditionell samhällsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lennart nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "tb.maskinservice@telia.com",
+        "contact_person_phone": "+46708664050"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 17,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lennart Nilsson",
+        "070-8664050",
+        "tb.maskinservice@telia.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Fridene Fröjered Korsberga Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.hembygd.se/fridene-frojered-korsberga",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Fridene%20Fr%C3%B6jered%20Korsberga%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Dokumentera bygdens historia, samla och vårda föremål från bygden samt ordna trivselaktiviteter",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 18,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://www.hembygd.se/fridene-frojered-korsberga",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Fröjereds IF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Futsal"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://frojeredsif.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Fr%C3%B6jereds%20IF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@frojeredsif.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Futsal"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Martin svensson",
+        "contact_person_role": null,
+        "contact_person_email": "info@frojeredsif.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 19,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Martin Svensson",
+        "info@frojeredsif.se",
+        "https://frojeredsif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Fröjereds Innebandy Förening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Innebandy"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.frojeredsif.se/start/?ID=25805",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Fr%C3%B6jereds%20Innebandy%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "innebandy@frojeredsif.se",
+      "phone": "+46706664432",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Innebandy"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik svahn",
+        "contact_person_role": null,
+        "contact_person_email": "innebandy@frojeredsif.se",
+        "contact_person_phone": "+46706664432"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 20,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Fredrik Svahn",
+        "0706664432",
+        "innebandy@frojeredsif.se",
+        "https://www.frojeredsif.se/start/?ID=25805",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Fröjereds samhällsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Fr%C3%B6jereds%20samh%C3%A4llsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ubrtid@gmail.com",
+      "phone": "+46708416883",
+      "description": {
+        "free_text": "Samhällsförening till byns evenemang och aktiviteter i Fröjered",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulla-britt thilén",
+        "contact_person_role": null,
+        "contact_person_email": "ubrtid@gmail.com",
+        "contact_person_phone": "+46708416883"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 21,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ulla-Britt Thilén",
+        "0708-416883",
+        "ubrtid@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Fröjereds SMU  - en del av Equmenia",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Fr%C3%B6jereds%20SMU%20%20-%20en%20del%20av%20Equmenia",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Fröjereds SMU - en del av Equmenia\nBarn- och ungdomsverksamhet",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 22,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Föreningen Folkets Park upa Tidaholm",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "G:a Köpstad",
+        "Tidaholm"
+      ],
+      "homepage_url": "https://tidaholmsparken.dinstudio.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=F%C3%B6reningen%20Folkets%20Park%20upa%20Tidaholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "christer.nilsson53@spray.se",
+      "phone": "+46707994957",
+      "description": {
+        "free_text": "kulturarrangemang, dans, barnprogram samt uthyrning av lokal o.s.v",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "G:a Köpstad",
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "christer.nilsson53@spray.se",
+        "contact_person_phone": "+46707994957"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 23,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Christer Nilsson",
+        "0707994957",
+        "christer.nilsson53@spray.se",
+        "https://tidaholmsparken.dinstudio.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Hellidens folkhögskola (Blåbandsrörelsens folkhögskoleförening)",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.helliden.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Hellidens%20folkh%C3%B6gskola%20(Bl%C3%A5bandsr%C3%B6relsens%20folkh%C3%B6gskolef%C3%B6rening)",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gabriella.idholt@helliden.se",
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gabriella idholt",
+        "contact_person_role": null,
+        "contact_person_email": "gabriella.idholt@helliden.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 24,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Gabriella Idholt",
+        "0502.17810",
+        "gabriella.idholt@helliden.se",
+        "https://www.helliden.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Hellidens Trädgårdar",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Hellidens%20Tr%C3%A4dg%C3%A5rdar",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46701515852",
+      "description": {
+        "free_text": "Trädgårdsskötsel",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Eva kellett",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46701515852"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 25,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Eva Kellett",
+        "0701515852",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "HolmaBaltak Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=HolmaBaltak%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46736648785",
+      "description": {
+        "free_text": "Hembygdsförening som ansvarar för vår bygdegård o anordnar evenemang som tex Loppis, Lucia , tipspromenader underhållning Pingiskvällar mm Vi hyrar också ut för fester, bröllop, barnkalas mm",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Annelie andersson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46736648785"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 26,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Annelie Andersson",
+        "0736648785",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Hångsdala samhällsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://bygdegardarna.se/hangsdalagarden/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=H%C3%A5ngsdala%20samh%C3%A4llsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "hangsdalagarden@gmail.com",
+      "phone": "+46739070264",
+      "description": {
+        "free_text": "Mötesplats i byn, loppisar och grillkvällar. Årliga valborgsfirande och samkväm.",
+        "sections": [
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jessika särnqvist",
+        "contact_person_role": null,
+        "contact_person_email": "hangsdalagarden@gmail.com",
+        "contact_person_phone": "+46739070264"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 27,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Jessika Särnqvist",
+        "0739070264",
+        "hangsdalagarden@gmail.com",
+        "https://bygdegardarna.se/hangsdalagarden/",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Härja hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Barnkalas",
+        "Boule",
+        "Fest",
+        "Föreläsning",
+        "Möte",
+        "Övrigt"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=H%C3%A4rja%20hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Hembygdsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Barnkalas",
+                "Boule",
+                "Fest",
+                "Föreläsning",
+                "Möte",
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Peter nilsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 28,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Peter Nilsson",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Hökensås Alliansen",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=H%C3%B6kens%C3%A5s%20Alliansen",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ulf.rudberg@gmail.com",
+      "phone": "+46739803138",
+      "description": {
+        "free_text": "Alliansen underhåller MTB och löparspår vid Hökensås Semesterby samt arrangerar MTB event på 19 km. slingan.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulf rudberg",
+        "contact_person_role": null,
+        "contact_person_email": "ulf.rudberg@gmail.com",
+        "contact_person_phone": "+46739803138"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 29,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ulf Rudberg",
+        "0739803138",
+        "ulf.rudberg@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Hökensås ungdomsring",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Friidrott"
+      ],
+      "categories": [
+        "G:a Köpstad",
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.laget.se/hur",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=H%C3%B6kens%C3%A5s%20ungdomsring",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ulricablomberg@gmail.com",
+      "phone": "+46739306294",
+      "description": {
+        "free_text": "Friidrott för ungdomar i åldern 6-16 år",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Friidrott"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "G:a Köpstad",
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ulrica blomberg",
+        "contact_person_role": null,
+        "contact_person_email": "ulricablomberg@gmail.com",
+        "contact_person_phone": "+46739306294"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 30,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar"
+      ],
+      "contact_lines": [
+        "Ulrica Blomberg",
+        "0739306294",
+        "ulricablomberg@gmail.com",
+        "https://www.laget.se/hur",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "IF HVT -81",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Handboll"
+      ],
+      "categories": [
+        "G:a Köpstad",
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.hvt-81.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=IF%20HVT%20-81",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ifhvt81@telia.com",
+      "phone": null,
+      "description": {
+        "free_text": "Bedriver handboll för flickor och pojkar i alla åldrar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Handboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "G:a Köpstad",
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "ifhvt81@telia.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 31,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "ifhvt81@telia.com",
+        "https://www.hvt-81.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "IFK TIDAHOLM",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll",
+        "Futsal"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.ifktidaholm.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=IFK%20TIDAHOLM",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "anton.jan@hotmail.se",
+      "phone": "+46763230072",
+      "description": {
+        "free_text": "Fotboll (Herr A, Dam A, Ungdomsavdelning)",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll",
+                "Futsal"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jan antonsson",
+        "contact_person_role": null,
+        "contact_person_email": "anton.jan@hotmail.se",
+        "contact_person_phone": "+46763230072"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 32,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Jan Antonsson",
+        "0763230072",
+        "anton.jan@hotmail.se",
+        "https://www.ifktidaholm.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "IOGT-NTO Logen Vulcan",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.iogt.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=IOGT-NTO%20Logen%20Vulcan",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sfrid@hotmail.com",
+      "phone": "+46736617417",
+      "description": {
+        "free_text": "IOGT-NTO verkar aktivt för fler drogfria platser och miljöer i samhället. Logen Vulcan i Tidaholm har också Sveriges näst äldsta föreningshus som vi försöker bevara.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sören frid",
+        "contact_person_role": null,
+        "contact_person_email": "sfrid@hotmail.com",
+        "contact_person_phone": "+46736617417"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 33,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Sören Frid",
+        "073-6617417",
+        "sfrid@hotmail.com",
+        "https://www.iogt.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Kaflås-Tidaholm Skarpskytteförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Kafl%C3%A5s-Tidaholm%20Skarpskyttef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "k.t.skarpskytteforening@gmail.com",
+      "phone": "+46703489929",
+      "description": {
+        "free_text": "Skytte med gevär, kpist och pistol.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Mats jansson",
+        "contact_person_role": null,
+        "contact_person_email": "k.t.skarpskytteforening@gmail.com",
+        "contact_person_phone": "+46703489929"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 34,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Mats Jansson",
+        "0703489929",
+        "k.t.skarpskytteforening@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Klämmesbo Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.facebook.com/profile.php?id=100067232331857",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Kl%C3%A4mmesbo%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46709328314",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Yngve larsson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46709328314"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 35,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Yngve Larsson",
+        "0709328314",
+        "https://www.facebook.com/profile.php?id=100067232331857",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Kymbo Byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Kymbo%20Byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 36,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Labbås Bowlingklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [
+        "G:a Köpstad",
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Labb%C3%A5s%20Bowlingklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bowling"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "G:a Köpstad",
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 37,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Labbåsrevyn",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Teater"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Labb%C3%A5srevyn",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Labbåsrevyn arbetar med att sätta en lokalrevy. Labbåsrevyn arbetar även för att stärka unga kommande revyartister genom ett årligt stipendieum",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Teater"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 38,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Lena Gille",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.kungslena.com/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Lena%20Gille",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "bertil@bertillindgren.com",
+      "phone": "+46705128002",
+      "description": {
+        "free_text": "Lena Gille är Kungslenas byförening som verkar för bygden och anordnar aktiviteter",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Bertil lindgren",
+        "contact_person_role": null,
+        "contact_person_email": "bertil@bertillindgren.com",
+        "contact_person_phone": "+46705128002"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 39,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Bertil Lindgren",
+        "0705-128002",
+        "bertil@bertillindgren.com",
+        "https://www.kungslena.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Litografins vänner",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Litografins%20v%C3%A4nner",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46708977976",
+      "description": {
+        "free_text": "Föreningen stödjer Litografiska Muséets i Tidaholm verksamhet samt sprider kunskap om litografisk konst.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Lena elmquist",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46708977976"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 40,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Lena Elmquist",
+        "0708977976",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Litografiska Akademin",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Litografiska%20Akademin",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 41,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Marbodal Bowlingsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Bowling"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Marbodal%20Bowlings%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "marbodalbs@gmail.com",
+      "phone": "+46709949294",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Bowling"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Tobias larsson",
+        "contact_person_role": null,
+        "contact_person_email": "marbodalbs@gmail.com",
+        "contact_person_phone": "+46709949294"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 42,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Tobias Larsson",
+        "0709949294",
+        "marbodalbs@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Mobackens Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Mobackens%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "birgitta.tidaholm@gmail.com",
+      "phone": "+462796698",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Birgitta andersson",
+        "contact_person_role": null,
+        "contact_person_email": "birgitta.tidaholm@gmail.com",
+        "contact_person_phone": "+462796698"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 43,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Birgitta Andersson",
+        "+46702796698",
+        "birgitta.tidaholm@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Musik i Tidaholm",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Musik%20i%20Tidaholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "gergana.andersson@svenskakyrkan.se",
+      "phone": null,
+      "description": {
+        "free_text": "Paraplyorganisation för föreningar och organisationer med musik- och teaterutbud.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gergana andersson",
+        "contact_person_role": null,
+        "contact_person_email": "gergana.andersson@svenskakyrkan.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 44,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gergana Andersson",
+        "gergana.andersson@svenskakyrkan.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Musikföreningen Rocken",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Musikf%C3%B6reningen%20Rocken",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "mfrocken@gmail.com",
+      "phone": "+46730577500",
+      "description": {
+        "free_text": "Föreningens syfte är att främja musikintresserades utveckling och utbildning i kommunen. Föreningen erbjuder lokaler med tillgång till musikinstrument och inspelningsmöjligheter för band och musikintresserade. Föreningen bedriver utbildning i samarbete med studieförbund och arbetar för att artister och band ska kunna uppträda och kunna nå ut med sin musik.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Fredrik bodin",
+        "contact_person_role": null,
+        "contact_person_email": "mfrocken@gmail.com",
+        "contact_person_phone": "+46730577500"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 45,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Fredrik Bodin",
+        "073-057 75 00",
+        "mfrocken@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Ottravads Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Ottravads%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "ewa.rudmarker@gmail.com",
+      "phone": "+46702924974",
+      "description": {
+        "free_text": "En förening som samlas i och kring det gemensamma Kommunalhuset i Ottravad. Vi håller samman bygdens invånare, såväl gammal som ung, med aktiviteter och sammankomster som passar alla! Traditionsenligt midsommarandakt hålls varje år kvällen före midsommarafton ute i gröngräset vid den vackra klockstapeln. Detta evenemang brukar locka även grannsocknar!",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ewa rudmarker",
+        "contact_person_role": null,
+        "contact_person_email": "ewa.rudmarker@gmail.com",
+        "contact_person_phone": "+46702924974"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 46,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ewa Rudmarker",
+        "070-2924974",
+        "ewa.rudmarker@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Pilgrimsled Hjo-Kungslena ideell förening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.pilgrimsledhjokungslena.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Pilgrimsled%20Hjo-Kungslena%20ideell%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@pilgrimsledhjokungslena.se",
+      "phone": null,
+      "description": {
+        "free_text": "Drifta och underhålla Pilgrimsled Hjo-Kungslena, ca 5,5 mil enligt VG-region/Västkuststiftelsens mall för kvalitetssäkrad och hållbar led samt hålla föreningens hemsida och Facebookgrupp uppdaterade.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anita tilander ordf",
+        "contact_person_role": null,
+        "contact_person_email": "info@pilgrimsledhjokungslena.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 47,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anita Tilander ordf",
+        "info@pilgrimsledhjokungslena.se",
+        "https://www.pilgrimsledhjokungslena.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Pingstkyrkan Tidaholm",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.tidaholmpingst.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Pingstkyrkan%20Tidaholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tidaholmpingst.se",
+      "phone": null,
+      "description": {
+        "free_text": "Söndagskola",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@tidaholmpingst.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 48,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar"
+      ],
+      "contact_lines": [
+        "info@tidaholmpingst.se",
+        "https://www.tidaholmpingst.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "RBU Skaraborg",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://skaraborg.rbu.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=RBU%20Skaraborg",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "skaraborg@rbu.se",
+      "phone": "+46704233599",
+      "description": {
+        "free_text": "För RBU är det självklart att alla barn har rätt till en bra barndom.\nAtt alla har rätt att utvecklas utifrån sina förutsättningar. Även barn med rörelsehinder.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "skaraborg@rbu.se",
+        "contact_person_phone": "+46704233599"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 49,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar"
+      ],
+      "contact_lines": [
+        "070-4233599",
+        "skaraborg@rbu.se",
+        "https://skaraborg.rbu.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Sportdansklubben Dansverkstan Tidaholm",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Dans"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.dansverkstan.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Sportdansklubben%20Dansverkstan%20Tidaholm",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Dansförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Dans"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Judith martinez åkesson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 50,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Judith Martinez Åkesson",
+        "https://www.dansverkstan.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Suntaks Sockenstugeförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Suntaks%20Sockenstugef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Bygdegårdsförening",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 51,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholm Brukshundklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "G:a Köpstad",
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.tidaholmsbk.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholm%20Brukshundklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "G:a Köpstad",
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 52,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "https://www.tidaholmsbk.se/",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholm Cykel Amatörer",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Cykel"
+      ],
+      "categories": [],
+      "homepage_url": "https://laget.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholm%20Cykel%20Amat%C3%B6rer",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tidaholmca@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Cykelträning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Cykel"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Dick ljungberg",
+        "contact_person_role": null,
+        "contact_person_email": "tidaholmca@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 53,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Dick Ljungberg",
+        "tidaholmca@gmail.com",
+        "https://laget.se/ TidaholmsCA",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholm Falcons Basketklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Basket"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholm%20Falcons%20Basketklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "falkbasket@hotmail.com",
+      "phone": "+467631193310763119331",
+      "description": {
+        "free_text": "Falk Basketklubb är en idrottsförening riktade framförallt till barn och ungdomar från 7-18, men även vuxna som vill engegera sig och bidra till basketutveckling i Tidaholm och Sverige.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Basket"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "falkbasket@hotmail.com",
+        "contact_person_phone": "+467631193310763119331"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 54,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "0763119331",
+        "0763119331",
+        "falkbasket@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Biodlarförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Biodlarf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tidaholmsbiodlarforening@gmail.com",
+      "phone": "+46730676307",
+      "description": {
+        "free_text": "Tidaholms Biodlarförening driver en föreningsbigård, tillika utbildningsbigård, där vi utbildar såväl nya biodlare som allmänheten. Allmänheten bjuds in några gånger per år för att vara med vid tex slungning av honung. Allmänheten är välkommen att titta på vår bikupor och våra bin för att lära sig mera och för att köpa honung.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marika landes",
+        "contact_person_role": null,
+        "contact_person_email": "tidaholmsbiodlarforening@gmail.com",
+        "contact_person_phone": "+46730676307"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 55,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Marika Landes",
+        "073-0676307",
+        "tidaholmsbiodlarforening@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Blåbandsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Bl%C3%A5bandsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Studiecirklar, Valborgsmässofirande, Föreläsningar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 56,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms bouleförening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boule"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20boulef%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "brittnilsson39@gmail.com",
+      "phone": "+467871470",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Boule"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Britt nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "brittnilsson39@gmail.com",
+        "contact_person_phone": "+467871470"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 57,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Britt Nilsson",
+        "+46707871470",
+        "brittnilsson39@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Boxningsklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Boxning"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Boxningsklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tidaholmsboxningsklubb@gmail.com",
+      "phone": "+46738248150",
+      "description": {
+        "free_text": "Vi lär ut boxning i både motionssyfte och tävlingssyfte.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Boxning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Patrik eliasson",
+        "contact_person_role": null,
+        "contact_person_email": "tidaholmsboxningsklubb@gmail.com",
+        "contact_person_phone": "+46738248150"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 58,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar"
+      ],
+      "contact_lines": [
+        "Patrik Eliasson",
+        "0738248150",
+        "tidaholmsboxningsklubb@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Discgolf",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Discgolf",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tidaholmsdiscgolf@gmail.com",
+      "phone": "+46768421212",
+      "description": {
+        "free_text": null,
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Oskar börjesson",
+        "contact_person_role": null,
+        "contact_person_email": "tidaholmsdiscgolf@gmail.com",
+        "contact_person_phone": "+46768421212"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 59,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Oskar Börjesson",
+        "0768421212",
+        "tidaholmsdiscgolf@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Flygklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Flygklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "rolf.johansson@leringenslantbruk.se",
+      "phone": "+46708330841",
+      "description": {
+        "free_text": "Flygsport",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Rolf johansson",
+        "contact_person_role": null,
+        "contact_person_email": "rolf.johansson@leringenslantbruk.se",
+        "contact_person_phone": "+46708330841"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 60,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Rolf Johansson",
+        "0708-330841",
+        "rolf.johansson@leringenslantbruk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Fotoklubb",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Fotoklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "km.tidaholmsfotoklubb@gmail.com",
+      "phone": "+46733696470",
+      "description": {
+        "free_text": "Fotografi.",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel lindström",
+        "contact_person_role": null,
+        "contact_person_email": "km.tidaholmsfotoklubb@gmail.com",
+        "contact_person_phone": "+46733696470"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 61,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Daniel Lindström",
+        "073-369 64 70",
+        "km.tidaholmsfotoklubb@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Genealogiska Förening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.tidaholmsgf.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Genealogiska%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "torst62@gmail.com",
+      "phone": "+46706320082",
+      "description": {
+        "free_text": "Släktforskning, öppet hus med släktforskarhjälp föredrag, utflykter, m.m.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Torbjörn ström",
+        "contact_person_role": null,
+        "contact_person_email": "torst62@gmail.com",
+        "contact_person_phone": "+46706320082"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 62,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Torbjörn Ström",
+        "0706320082",
+        "torst62@gmail.com",
+        "https://www.tidaholmsgf.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms GIF",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Fotboll"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.tidaholmsgif.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20GIF",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Fotbollsverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Fotboll"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 63,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "https://www.tidaholmsgif.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Golfklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Golfklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tidaholmsgk@gmail.com",
+      "phone": "+46707994957",
+      "description": {
+        "free_text": "Anläggning för golfövning Brämmeshed",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Christer nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "tidaholmsgk@gmail.com",
+        "contact_person_phone": "+46707994957"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 64,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Christer Nilsson",
+        "0707994957",
+        "tidaholmsgk@gmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Gymnastiksällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Gymnastik"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.tidaholmsgs.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Gymnastiks%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tidaholmsgs.se",
+      "phone": null,
+      "description": {
+        "free_text": "Bedriver gymnastik för barn- och vuxengrupper.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Gymnastik"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@tidaholmsgs.se",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 65,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "info@tidaholmsgs.se",
+        "https://www.tidaholmsgs.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46703508825",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per wahlström",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46703508825"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 66,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Per Wahlström",
+        "0703508825",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Hockey Förening",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ishockey"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.tidaholmhf.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Hockey%20F%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "styrelse@tidaholmhf.se",
+      "phone": "+46704920821",
+      "description": {
+        "free_text": "Ishockey för alla",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ishockey"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Daniel siljehult",
+        "contact_person_role": null,
+        "contact_person_email": "styrelse@tidaholmhf.se",
+        "contact_person_phone": "+46704920821"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 67,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Daniel Siljehult",
+        "0704920821",
+        "Styrelse@tidaholmhf.se",
+        "https://www.tidaholmhf.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms konstförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.tidaholmskonstforening.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20konstf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tidaholmskonstforening.se",
+      "phone": "+46739873667",
+      "description": {
+        "free_text": "Främja konst och kulturintresse bland Tidaholms invånare. Två utställningar per år, vår och höst, i Tidaholms konsthall. Visa upp utställningar för Skolungdom, Hellidens folkhögskola och andra efter önskemål. Konstföredrag, utflykter, workshops och konstpromenader m.m",
+        "sections": [
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ordförande erling nilsson",
+        "contact_person_role": null,
+        "contact_person_email": "info@tidaholmskonstforening.se",
+        "contact_person_phone": "+46739873667"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 68,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Ordförande Erling Nilsson",
+        "0739873667",
+        "info@tidaholmskonstforening.se",
+        "https://www.tidaholmskonstforening.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms modellflygklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20modellflygklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Modellflyg och byggnation av modellflygplan",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Benny kjellgren",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 69,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar"
+      ],
+      "contact_lines": [
+        "Benny Kjellgren",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Motorklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.svenskalag.se/tidaholmsmk",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Motorklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tidaholmsmk@gmail.com",
+      "phone": "+46705414598",
+      "description": {
+        "free_text": "Utövande och spridning av motorsport i alla former för barn, ungdomar och vuxna",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Owe berggren",
+        "contact_person_role": null,
+        "contact_person_email": "tidaholmsmk@gmail.com",
+        "contact_person_phone": "+46705414598"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 70,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Owe Berggren",
+        "0705414598",
+        "Tidaholmsmk@gmail.com",
+        "https://www.svenskalag.se/tidaholmsmk",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Naturskyddsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://tidaholm.naturskyddsforeningen.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Naturskyddsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Utflykter och vandringar i vår närmiljö, inventeringar och röjning / slåtter i bevarande syfte, i höst även planer för natursnokar, för de yngre naturintresserade.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 71,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "https://tidaholm.naturskyddsforeningen.se",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms närradioförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20n%C3%A4rradiof%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": {
+        "free_text": "Driver en närradioförening som möjliggör föreningar att sända radio med uppdrag att tillhandahålla teknik och frekvens samt utbildningar",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 72,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Pistolskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": "https://tpsk.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Pistolskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tidaholmspsk@gmail.com",
+      "phone": null,
+      "description": {
+        "free_text": "Pistolskytte, Träning , Tävling",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "tidaholmspsk@gmail.com",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 73,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "tidaholmspsk@gmail.com",
+        "https://tpsk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Riksteaterförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": "https://www.riksteatern.se/tidaholm",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Riksteaterf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "kerstin.ahlin@tidaholm.se",
+      "phone": "+46763153287",
+      "description": {
+        "free_text": "Kerstin Ahlin - ordför\nKerstin Johansson - kassör",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kerstin ahlin",
+        "contact_person_role": null,
+        "contact_person_email": "kerstin.ahlin@tidaholm.se",
+        "contact_person_phone": "+46763153287"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 74,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Kerstin Ahlin",
+        "0763-15 32 87",
+        "kerstin.ahlin@tidaholm.se",
+        "https://www.riksteatern.se/tidaholm",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms scoutkår",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20scoutk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tidaholmsscoutkar@gmail.com",
+      "phone": "+46734162740",
+      "description": {
+        "free_text": "Scoutverksamhet för barn från årskurs 2 och uppåt.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Gabriella vestin",
+        "contact_person_role": null,
+        "contact_person_email": "tidaholmsscoutkar@gmail.com",
+        "contact_person_phone": "+46734162740"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 75,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Gabriella Vestin",
+        "0734-162740",
+        "tidaholmsscoutkar@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Simsällskap",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Simning"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Sims%C3%A4llskap",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "monica.larsson@ekedalen.se",
+      "phone": "+46703348438",
+      "description": {
+        "free_text": "Tidaholms simsällskap bedriver tävlingssimning för barn och ungdomar i alla åldrar.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Simning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Monica larsson",
+        "contact_person_role": null,
+        "contact_person_email": "monica.larsson@ekedalen.se",
+        "contact_person_phone": "+46703348438"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 76,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar"
+      ],
+      "contact_lines": [
+        "Monica Larsson",
+        "0703348438",
+        "monica.larsson@ekedalen.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms SOK Sisu",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Längdåkning",
+        "Orientering",
+        "Terränglöpning"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://tidaholmssoksisu.nu/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20SOK%20Sisu",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tidaholmssoksisu.nu",
+      "phone": null,
+      "description": {
+        "free_text": "Orientering, Skidsport, Terränglöpning",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Längdåkning",
+                "Orientering",
+                "Terränglöpning"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": "info@tidaholmssoksisu.nu",
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 77,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "info@tidaholmssoksisu.nu",
+        "https://tidaholmssoksisu.nu",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Sportskytteklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://idrottonline.se/TidaholmsSpSk-Skyttesport",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Sportskytteklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46705405236",
+      "description": {
+        "free_text": "Bedriver sportskytte med egna skjutbanor för Compak Sporting, trap, skeet och viltmål 50 meter.",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Kjell johansson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46705405236"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 78,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Kjell Johansson",
+        "0705405236",
+        "https://idrottonline.se/TidaholmsSpSk-Skyttesport",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholms Tennisklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Tennis"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www.tidaholmtk.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholms%20Tennisklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tidatennisochpadel@gmail.com",
+      "phone": "+46703026619",
+      "description": {
+        "free_text": "Tennis och padelverksamhet",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Tennis"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Per svensson",
+        "contact_person_role": null,
+        "contact_person_email": "tidatennisochpadel@gmail.com",
+        "contact_person_phone": "+46703026619"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 79,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Per Svensson",
+        "070-302 66 19",
+        "tidatennisochpadel@gmail.com",
+        "https://www.tidaholmtk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tidaholmsbygdens Hästklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Ridsport"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://www./",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Tidaholmsbygdens%20H%C3%A4stklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "info@tbhk.net",
+      "phone": "+46792928695",
+      "description": {
+        "free_text": "Utbildning av ryttare o hästar inkl ridskola",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Ridsport"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Sofia petertson",
+        "contact_person_role": null,
+        "contact_person_email": "info@tbhk.net",
+        "contact_person_phone": "+46792928695"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 80,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Sofia Petertson",
+        "0792928695",
+        "Info@tbhk.net",
+        "https://www. tbhk.net",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Tärnan Tidaholms Sportfiskeklubb",
+      "org_number": null,
+      "types": [
+        "Idrottsförening"
+      ],
+      "activities": [
+        "Sportfiske"
+      ],
+      "categories": [
+        "Tidaholm"
+      ],
+      "homepage_url": "https://ttsfk.se/",
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=T%C3%A4rnan%20Tidaholms%20Sportfiskeklubb",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "tspfk@outlook.com",
+      "phone": "+46732103259",
+      "description": {
+        "free_text": "Fiske och fiskevård",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Sportfiske"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Ungdomar",
+                "Vuxna"
+              ]
+            }
+          },
+          {
+            "title": "Områden",
+            "data": {
+              "areas": [
+                "Tidaholm"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Jerry högbom",
+        "contact_person_role": null,
+        "contact_person_email": "tspfk@outlook.com",
+        "contact_person_phone": "+46732103259"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 81,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Ungdomar",
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Jerry Högbom",
+        "0732103259",
+        "tspfk@outlook.com",
+        "https://ttsfk.se",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Velinga Bygdegårdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [
+        "Övrigt"
+      ],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Velinga%20Bygdeg%C3%A5rdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "maritaekblom@hotmail.com",
+      "phone": "+46706778973",
+      "description": {
+        "free_text": "Bygdegårdsförening",
+        "sections": [
+          {
+            "title": "Verksamheter",
+            "data": {
+              "activities": [
+                "Övrigt"
+              ]
+            }
+          },
+          {
+            "title": "Målgrupper",
+            "data": {
+              "target_groups": [
+                "Vuxna"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Marita ekblom",
+        "contact_person_role": null,
+        "contact_person_email": "maritaekblom@hotmail.com",
+        "contact_person_phone": "+46706778973"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 82,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "target_groups": [
+        "Vuxna"
+      ],
+      "contact_lines": [
+        "Marita Ekblom",
+        "0706778973",
+        "maritaekblom@hotmail.com",
+        "Stäng"
+      ]
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Vulcans Musikkår",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=Vulcans%20Musikk%C3%A5r",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": null,
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Stäng",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": null
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 83,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Vättaks byalag",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=V%C3%A4ttaks%20byalag",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": null,
+      "phone": "+46761910954",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Ingemar henriksson",
+        "contact_person_role": null,
+        "contact_person_email": null,
+        "contact_person_phone": "+46761910954"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 84,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Ingemar Henriksson",
+        "0761910954",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Vättaksgårdens ek. förening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=V%C3%A4ttaksg%C3%A5rdens%20ek.%20f%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "joakim5938@hotmail.com",
+      "phone": "+46706980787",
+      "description": null
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Joakim johansson",
+        "contact_person_role": null,
+        "contact_person_email": "joakim5938@hotmail.com",
+        "contact_person_phone": "+46706980787"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 85,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Joakim Johansson",
+        "0706980787",
+        "joakim5938@hotmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  },
+  {
+    "source_system": "RBOK",
+    "municipality": "Tidaholm",
+    "scrape_run_id": "976cd6f6-8167-4698-8dc9-b9de3fccc298",
+    "scraped_at": "2025-10-29T01:07:10.199Z",
+    "association": {
+      "name": "Östra Gerums Hembygdsförening",
+      "org_number": null,
+      "types": [
+        "Kulturförening"
+      ],
+      "activities": [],
+      "categories": [],
+      "homepage_url": null,
+      "detail_url": "https://tidaholm.rbok.se/foreningsregister?association=%C3%96stra%20Gerums%20Hembygdsf%C3%B6rening",
+      "street_address": null,
+      "postal_code": null,
+      "city": null,
+      "email": "sanna.m.ringqvist@gmail.com",
+      "phone": "+46730607905",
+      "description": {
+        "free_text": "Östra Gerum Hbf sköter gräsytor, grillplats och vattenhjul m.m. vid utflyktsmålet Kvarndammen. Vi arrangerar aktiviteter så som Valborgsfirande, skördefest med live musik, adventsfika och ljusstöpning inför jul m.m. Föreningen har även ett hembygdsmuseum med historiska bruksföremål från orten samt en kopia av den berömda Gerumsmanteln.",
+        "sections": []
+      }
+    },
+    "contacts": [
+      {
+        "contact_person_name": "Anna bore fast",
+        "contact_person_role": null,
+        "contact_person_email": "sanna.m.ringqvist@gmail.com",
+        "contact_person_phone": "+46730607905"
+      }
+    ],
+    "source_navigation": {
+      "list_page_index": 1,
+      "position_on_page": 86,
+      "pagination_model": "rbok_controls",
+      "filter_state": null
+    },
+    "extras": {
+      "contact_lines": [
+        "Anna Bore Fast",
+        "0730607905",
+        "sanna.m.ringqvist@gmail.com",
+        "Stäng"
+      ],
+      "target_groups": []
+    }
+  }
+]
