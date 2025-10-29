@@ -1,13 +1,7 @@
-import path from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
 import type { PrismaClient } from '@prisma/client';
 
 async function loadDb(): Promise<PrismaClient> {
-  const currentDir = path.dirname(fileURLToPath(import.meta.url));
-  const repoRoot = path.resolve(currentDir, '../../..');
-  const moduleUrl = pathToFileURL(path.join(repoRoot, 'crm-app/lib/db.ts'));
-
-  const module = (await import(moduleUrl.href)) as { db: PrismaClient };
+  const module = (await import('../db.js')) as { db: PrismaClient };
   return module.db;
 }
 

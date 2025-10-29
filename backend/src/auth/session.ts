@@ -4,7 +4,7 @@ import { z } from 'zod';
 import { UserRole } from '@prisma/client';
 
 import { config } from '../env';
-import { db } from '../../../crm-app/lib/db';
+import { db } from '../db';
 
 const tokenPayloadSchema = z.object({
   sub: z.string(),
