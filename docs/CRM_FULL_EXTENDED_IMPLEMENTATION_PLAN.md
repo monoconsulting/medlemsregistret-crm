@@ -5,6 +5,13 @@
   - Backend i **en** container, kopplad direkt mot **Loopia MariaDB**.
   - **Inget** Next/NextAuth i backend, **inga** extra motorer (Redis/Meili/BullMQ).
 
+  ## Status update – 2025-10-29
+  - Backend har fått egna tRPC- och Prisma-grundfiler (`backend/src/trpc.ts`, `backend/src/db.ts`, `backend/prisma/schema.prisma`).
+  - Alla importer från `crm-app` är borttagna; Express-servern hydreras nu lokalt med sessioner, CSRF och tRPC-koppling.
+  - `backend/package.json`, `backend/package-lock.json` och `backend/Dockerfile` är uppdaterade för ett fristående bygge utan Next/NextAuth.
+  - Ny `compose.yml` kör enbart backend-containern mot Loopia-databasen med flaggorna `ENABLE_AI=false`, `ENABLE_SEARCH_PROXY=false`, `ALLOW_SHELL_SCRIPTS=false`.
+  - **Att göra:** kör `npm run prisma:generate` i `backend/` när npm-installationen mot NPM-registret fungerar (lokal CLI-installation blockeras just nu av 403-svar).
+
   ## Phase 1 – Backend decoupling & stability
   1. Remove Next from backend:
      - Delete `"next"` dep + `backend/package-lock.json`, rebuild node_modules.

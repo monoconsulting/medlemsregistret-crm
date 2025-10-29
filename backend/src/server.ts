@@ -22,6 +22,8 @@ import { importRouter } from './routes/import';
 import { associationsRouter } from './routes/associations';
 
 import { aiConfig, isAiEnabled } from './config/ai';
+import { cookieParserMiddleware, csrfMiddleware, attachCsrfToken } from './middleware/security';
+import { getSessionFromRequest } from './auth/session';
 
 const app = express();
 
@@ -48,9 +50,28 @@ app.use(
   }),
 );
 
-// ---- Body parsing ----
+// ---- Cookies & body parsing ----
+app.use(cookieParserMiddleware);
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
+
+// ---- Session hydrate ----
+app.use((req, _res, next) => {
+  getSessionFromRequest(req)
+    .then((session) => {
+      req.userSession = session;
+      next();
+    })
+    .catch((error) => {
+      console.error('[session] failed to resolve', error);
+      req.userSession = null;
+      next();
+    });
+});
+
+// ---- CSRF tokens ----
+app.use(csrfMiddleware);
+app.use(attachCsrfToken);
 
 // ---- Public endpoints ----
 app.use('/config.json', configRouter);
