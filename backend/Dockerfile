@@ -1,39 +1,39 @@
 # syntax=docker/dockerfile:1.6
 
-FROM node:20.17-alpine AS build
+# ---------- Build stage ----------
+FROM node:20-alpine AS build
 WORKDIR /app
 
-ENV BACKEND_ENV_FILE=/app/backend/.env.production.backend
+# Copy backend package manifests
+COPY backend/package.json backend/package-lock.json ./backend/
+WORKDIR /app/backend
 
-# Backend dependencies (include dev deps for the build step)
-COPY backend/package.json ./backend/
-RUN cd backend && npm install --include=dev
+# Install dependencies (with dev deps for build tooling)
+RUN npm ci
 
-# Copy backend source and configuration
-COPY backend/tsconfig.json ./backend/
-COPY backend/.env.production.backend ./backend/.env.production.backend
-COPY backend/src ./backend/src
+# Copy backend source
+COPY backend/ ./
 
-# Copy CRM app code needed for shared imports
-COPY crm-app/lib ./crm-app/lib
-COPY crm-app/server ./crm-app/server
-COPY crm-app/prisma ./crm-app/prisma
+# Build TypeScript -> dist/
+RUN npm run build
 
-# Build backend bundle
-RUN cd backend && npm run build
+# ---------- Runtime stage ----------
+FROM node:20-alpine AS runtime
+WORKDIR /app/backend
 
-FROM node:20.17-alpine
-WORKDIR /app
+ENV NODE_ENV=production
 
-ENV NODE_ENV=production \
-    BACKEND_ENV_FILE=/app/backend/.env.production.backend
+# Copy package manifest for prod install
+COPY --from=build /app/backend/package.json ./
+COPY --from=build /app/backend/package-lock.json ./
 
-COPY --from=build /app/backend/dist ./backend/dist
-COPY --from=build /app/backend/node_modules ./backend/node_modules
-COPY --from=build /app/backend/package.json ./backend/package.json
-COPY --from=build /app/backend/.env.production.backend ./backend/.env.production.backend
-COPY --from=build /app/crm-app ./crm-app
+# Install production dependencies only
+RUN npm ci --omit=dev
+
+# Copy compiled application
+COPY --from=build /app/backend/dist ./dist
+COPY --from=build /app/backend/prisma ./prisma
 
 EXPOSE 4040
 
-CMD ["node", "backend/dist/server.cjs"]
+CMD ["node", "dist/server.js"]

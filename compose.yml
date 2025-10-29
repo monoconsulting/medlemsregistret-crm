@@ -1,0 +1,16 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file:
+      - backend/.env.production.backend
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-https://example-loopia-frontend.se}
+      - ENABLE_AI=false
+      - ENABLE_SEARCH_PROXY=false
+      - ALLOW_SHELL_SCRIPTS=false
+    ports:
+      - "4040:4040"
+    restart: unless-stopped

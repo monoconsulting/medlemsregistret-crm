@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import pkg from '../../package.json' assert { type: 'json' };
 
-import { db } from '../../../crm-app/lib/db';
+import { db } from '../db';
 
 export const healthRouter = Router();
 
