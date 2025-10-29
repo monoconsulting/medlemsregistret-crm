@@ -1,39 +1,43 @@
 # syntax=docker/dockerfile:1.6
 
-FROM node:20.17-alpine AS build
-WORKDIR /app
+# ---------- Build stage ----------
+FROM node:20-alpine AS build
+WORKDIR /app/backend
 
-ENV BACKEND_ENV_FILE=/app/backend/.env.production.backend
+# Copy manifest files first to leverage Docker layer caching
+COPY backend/package.json ./
+COPY backend/package-lock.json ./
+COPY backend/.env.production.backend ./
 
-# Backend dependencies (include dev deps for the build step)
-COPY backend/package.json ./backend/
-RUN cd backend && npm install --include=dev
+# Install all dependencies (including dev deps for the build step)
+RUN npm ci
 
-# Copy backend source and configuration
-COPY backend/tsconfig.json ./backend/
-COPY backend/.env.production.backend ./backend/.env.production.backend
-COPY backend/src ./backend/src
+# Copy source code and Prisma schema
+COPY backend/tsconfig.json ./
+COPY backend/prisma ./prisma
+COPY backend/src ./src
 
-# Copy CRM app code needed for shared imports
-COPY crm-app/lib ./crm-app/lib
-COPY crm-app/server ./crm-app/server
-COPY crm-app/prisma ./crm-app/prisma
+# Build the production bundle (tsup -> dist/)
+RUN npm run build
 
-# Build backend bundle
-RUN cd backend && npm run build
-
-FROM node:20.17-alpine
-WORKDIR /app
-
+# ---------- Runtime stage ----------
+FROM node:20-alpine AS runtime
+WORKDIR /app/backend
 ENV NODE_ENV=production \
     BACKEND_ENV_FILE=/app/backend/.env.production.backend
 
-COPY --from=build /app/backend/dist ./backend/dist
-COPY --from=build /app/backend/node_modules ./backend/node_modules
-COPY --from=build /app/backend/package.json ./backend/package.json
-COPY --from=build /app/backend/.env.production.backend ./backend/.env.production.backend
-COPY --from=build /app/crm-app ./crm-app
+# Copy package manifests and install only production dependencies
+COPY backend/package.json ./
+COPY backend/package-lock.json ./
+COPY backend/.env.production.backend ./
+RUN npm ci --omit=dev
 
+# Copy compiled sources and Prisma schema
+COPY --from=build /app/backend/dist ./dist
+COPY --from=build /app/backend/prisma ./prisma
+
+# Expose backend port
 EXPOSE 4040
 
-CMD ["node", "backend/dist/server.cjs"]
+# Start the server
+CMD ["node", "dist/server.js"]

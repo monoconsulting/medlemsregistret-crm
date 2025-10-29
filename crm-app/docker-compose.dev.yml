@@ -1,115 +1,26 @@
-# =====================================================================================
-# WARNING: This docker-compose file is centrally managed. Do NOT modify it without explicit approval.
-# =====================================================================================
-# Docker-compose för DEVELOPMENT miljö
+# Development docker-compose stack for the standalone CRM backend
 
 name: ${COMPOSE_PROJECT_NAME_DEV}
-networks:
-  crm-network:
-    name: ${CRM_NETWORK_NAME}
-    driver: bridge
 
 services:
-  mysql:
-    image: ${MYSQL_IMAGE}
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD_DEV}
-      TZ: "${MYSQL_TIMEZONE}"
-    volumes:
-      # Dela samma datakatalog som produktionsstacken – se till att endast en stack körs åt gången.
-      - ./storage/mysql:/var/lib/mysql
-    ports:
-      - "${MYSQL_PORT_DEV}:3306"
-    networks:
-      - crm-network
-    healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
-  phpmyadmin:
-    image: phpmyadmin:latest
-    restart: always
-    environment:
-      PMA_HOST: mysql
-      PMA_PORT: 3306
-      PMA_USER: ${MYSQL_USER}
-      PMA_PASSWORD: ${MYSQL_PASSWORD_DEV}
-      UPLOAD_LIMIT: 100M
-      TZ: "${APP_TIMEZONE}"
-    ports:
-      - "${PHPMYADMIN_PORT_DEV}:80"
-    networks:
-      - crm-network
-    depends_on:
-      mysql:
-        condition: service_healthy
-
-  redis:
-    image: ${REDIS_IMAGE}
-    restart: always
-    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD_DEV}
-    volumes:
-      - ./storage/dev/redis:/data
-    ports:
-      - "${REDIS_PORT_DEV}:6379"
-    networks:
-      - crm-network
-    healthcheck:
-      test: ["CMD", "redis-cli", "--no-auth-warning", "-a", "${REDIS_PASSWORD_DEV}", "ping"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile.dev
-    restart: always
-    environment:
-      DATABASE_URL: "mysql://${MYSQL_USER}:${MYSQL_PASSWORD_DEV}@mysql:3306/${MYSQL_DATABASE}"
-      REDIS_URL: "redis://:${REDIS_PASSWORD_DEV}@redis:6379"
-      NODE_ENV: ${NODE_ENV_DEV}
-      NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL_DEV}
-      NEXTAUTH_URL: ${NEXTAUTH_URL_DEV}
-      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET_DEV}
-      TZ: "${APP_TIMEZONE}"
-    volumes:
-      - .:/app
-      - /app/node_modules
-      - /app/.next
-    ports:
-      - "${APP_PORT_DEV}:3000"
-    networks:
-      - crm-network
-    depends_on:
-      mysql:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    command: sh -c "npx prisma generate && npx prisma migrate deploy && npm run dev"
-
   backend:
     build:
       context: ..
       dockerfile: backend/Dockerfile
-    restart: always
+    restart: unless-stopped
     env_file:
       - ../backend/.env.production.backend
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost:3000}
+      ENABLE_AI: ${ENABLE_AI:-false}
+      ENABLE_SEARCH_PROXY: ${ENABLE_SEARCH_PROXY:-false}
+      ALLOW_SHELL_SCRIPTS: ${ALLOW_SHELL_SCRIPTS:-false}
     ports:
-      - "${BACKEND_PORT_DEV}:4040"
-    networks:
-      - crm-network
-    depends_on:
-      mysql:
-        condition: service_healthy
-
-  
-volumes:
-  mysql_data:
-  redis_data:
+      - "${BACKEND_PORT_DEV:-4040}:4040"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:4040/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s

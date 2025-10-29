@@ -2,14 +2,14 @@ import { Router } from 'express';
 import multer from 'multer';
 import { z } from 'zod';
 
-import { db } from '../../../crm-app/lib/db';
+import { db } from '../db';
 import {
   ImporterError,
   importAssociations,
   parseFixtureContent,
   type ImportFile,
   type ImportMode,
-} from '../../../crm-app/lib/importer';
+} from '../lib/importer';
 import { requireAuth } from '../middleware/requireAuth';
 
 const upload = multer({

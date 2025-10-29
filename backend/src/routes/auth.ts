@@ -2,7 +2,7 @@ import { Router } from 'express';
 import bcrypt from 'bcryptjs';
 import { z } from 'zod';
 
-import { db } from '../../../crm-app/lib/db';
+import { db } from '../db';
 import { clearSessionCookie, createSessionToken, setSessionCookie } from '../auth/session';
 import { clearCsrfCookies, setCsrfCookie } from '../middleware/security';
 
