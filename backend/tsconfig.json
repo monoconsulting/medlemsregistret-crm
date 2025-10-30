@@ -11,10 +11,7 @@
     "resolveJsonModule": true,
     "rootDir": "src",
     "outDir": "dist",
-    "allowSyntheticDefaultImports": true,
-    "paths": {
-      "@crm-app/*": ["../crm-app/*"]
-    }
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts"]
 }
