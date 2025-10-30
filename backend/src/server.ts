@@ -20,6 +20,7 @@ import { configRouter } from './routes/config';
 import { healthRouter } from './routes/health';
 import { importRouter } from './routes/import';
 import { associationsRouter } from './routes/associations';
+import { authRouter } from './routes/auth';
 
 import { aiConfig, isAiEnabled } from './config/ai';
 
@@ -55,6 +56,9 @@ app.use(express.urlencoded({ extended: true }));
 // ---- Public endpoints ----
 app.use('/config.json', configRouter);
 app.use('/api/health', healthRouter);
+
+// ---- Auth endpoints ----
+app.use('/api/auth', authRouter);
 
 // ---- Feature endpoints (no auth coupling) ----
 app.use('/api/import', importRouter);
