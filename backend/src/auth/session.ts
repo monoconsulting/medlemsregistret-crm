@@ -5,6 +5,7 @@ import { UserRole } from '@prisma/client';
 
 import { config } from '../env';
 import { db } from '../db';
+import { extractAuthFlowId, logAuthFlowEvent } from '../lib/auth-flow-logger';
 
 const tokenPayloadSchema = z.object({
   sub: z.string(),
@@ -79,8 +80,16 @@ function extractToken(req: Request): string | null {
 }
 
 export async function getSessionFromRequest(req: Request): Promise<Session | null> {
+  const flowId = extractAuthFlowId(req.headers);
   const token = extractToken(req);
   if (!token) {
+    void logAuthFlowEvent({
+      source: 'backend',
+      stage: 'backend.auth.session.no-token',
+      severity: 'debug',
+      flowId,
+      context: { ip: req.ip },
+    });
     return null;
   }
 
@@ -88,11 +97,24 @@ export async function getSessionFromRequest(req: Request): Promise<Session | nul
   try {
     decoded = jwt.verify(token, config.jwtSecret);
   } catch (error) {
+    void logAuthFlowEvent({
+      source: 'backend',
+      stage: 'backend.auth.session.token-invalid',
+      severity: 'warn',
+      flowId,
+      context: { error: error instanceof Error ? error.message : 'unknown' },
+    });
     return null;
   }
 
   const parsed = tokenPayloadSchema.safeParse(decoded);
   if (!parsed.success) {
+    void logAuthFlowEvent({
+      source: 'backend',
+      stage: 'backend.auth.session.token-parse-failed',
+      severity: 'warn',
+      flowId,
+    });
     return null;
   }
 
@@ -104,8 +126,22 @@ export async function getSessionFromRequest(req: Request): Promise<Session | nul
   });
 
   if (!user) {
+    void logAuthFlowEvent({
+      source: 'backend',
+      stage: 'backend.auth.session.user-not-found',
+      severity: 'warn',
+      flowId,
+      context: { userId: parsed.data.sub },
+    });
     return null;
   }
+
+  void logAuthFlowEvent({
+    source: 'backend',
+    stage: 'backend.auth.session.success',
+    flowId,
+    context: { userId: user.id, role: user.role },
+  });
 
   return {
     user: {

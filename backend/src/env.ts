@@ -72,6 +72,7 @@ const secureCsrfCookie = env.CSRF_COOKIE_SECURE
 const ttlMs = env.SESSION_TTL_DAYS * 24 * 60 * 60 * 1000;
 
 const normalizedPublicApiBaseUrl = env.PUBLIC_API_BASE_URL?.trim().replace(/\/$/, '') ?? '';
+const csrfSameSite = secureCsrfCookie ? ('none' as const) : ('lax' as const);
 
 export const config = {
   nodeEnv: env.NODE_ENV,
@@ -93,7 +94,7 @@ export const config = {
     name: env.CSRF_COOKIE_NAME,
     domain: csrfDomain,
     secure: secureCsrfCookie,
-    sameSite: 'none' as const,
+    sameSite: csrfSameSite,
     path: '/',
     maxAgeMs: ttlMs,
   },
@@ -101,7 +102,7 @@ export const config = {
     name: env.CSRF_SECRET_COOKIE_NAME,
     domain: csrfDomain,
     secure: secureCsrfCookie,
-    sameSite: 'none' as const,
+    sameSite: csrfSameSite,
     path: '/',
   },
   publicApiBaseUrl: normalizedPublicApiBaseUrl || null,

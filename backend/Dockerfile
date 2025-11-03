@@ -38,4 +38,4 @@ COPY --from=build /app/backend/.env.production.backend ./
 
 EXPOSE 4040
 
-CMD ["node", "dist/server.js"]
+CMD ["node", "dist/server.cjs"]

@@ -62,7 +62,10 @@
       "Bash(git add:*)",
       "Bash(git stash show:*)",
       "Bash(npm run prisma:generate:*)",
-      "Bash(timeout 5 npm run dev:*)"
+      "Bash(timeout 5 npm run dev:*)",
+      "Bash(git commit:*)",
+      "Bash(git merge:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

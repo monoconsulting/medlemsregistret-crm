@@ -23,6 +23,8 @@ import { associationsRouter } from './routes/associations';
 import { authRouter } from './routes/auth';
 
 import { aiConfig, isAiEnabled } from './config/ai';
+import { cookieParserMiddleware, csrfMiddleware, attachCsrfToken } from './middleware/security';
+import { getSessionFromRequest } from './auth/session';
 
 const app = express();
 
@@ -45,13 +47,24 @@ app.use(
       if (allowedOrigins.includes(origin)) return cb(null, true);
       return cb(new Error('Not allowed by CORS'));
     },
-    credentials: false, // no cross-site cookies in this simplified setup
+    credentials: true, // enable session + CSRF cookies for allowed origins
   }),
 );
 
 // ---- Body parsing ----
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParserMiddleware);
+app.use(async (req, _res, next) => {
+  try {
+    req.userSession = await getSessionFromRequest(req);
+    next();
+  } catch (error) {
+    next(error);
+  }
+});
+app.use(csrfMiddleware);
+app.use(attachCsrfToken);
 
 // ---- Public endpoints ----
 app.use('/config.json', configRouter);
