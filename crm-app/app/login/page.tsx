@@ -1,6 +1,6 @@
 'use client'
 
-import { Suspense, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
@@ -11,6 +11,7 @@ import { Button } from '@/components/ui/button'
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form'
 import { AlertCircle } from 'lucide-react'
 import { useAuth } from '@/lib/providers/auth-provider'
+import { logAuthClientEvent } from '@/lib/auth-flow/client'
 
 const loginSchema = z.object({
   email: z.string().email('Ogiltig e-postadress'),
@@ -34,6 +35,15 @@ function LoginForm() {
     },
   })
 
+  useEffect(() => {
+    logAuthClientEvent({
+      stage: 'client.page.login.mount',
+      context: {
+        prefilledEmail: params.get('email') ?? null,
+      },
+    })
+  }, [params])
+
   const onSubmit = async (values: LoginSchema) => {
     setError(null)
     setIsSubmitting(true)
@@ -43,10 +53,19 @@ function LoginForm() {
 
     if (!result.ok) {
       setError(result.error ?? 'Felaktig e-post eller lösenord')
+      logAuthClientEvent({
+        stage: 'client.page.login.error',
+        severity: 'warn',
+        context: { message: result.error ?? 'unknown' },
+      })
       return
     }
 
     router.push('/dashboard')
+    logAuthClientEvent({
+      stage: 'client.page.login.redirect',
+      context: { destination: '/dashboard' },
+    })
   }
 
   return (

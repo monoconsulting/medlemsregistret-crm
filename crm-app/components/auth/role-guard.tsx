@@ -1,9 +1,10 @@
 'use client'
 
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import { Loader2 } from 'lucide-react'
 import { UserRole } from '@prisma/client'
 import { useAuth } from '@/lib/providers/auth-provider'
+import { logAuthClientEvent } from '@/lib/auth-flow/client'
 
 export function RoleGuard({
   children,
@@ -20,6 +21,19 @@ export function RoleGuard({
     if (!session?.user) return false
     return allowedRoles.includes(session.user.role as UserRole)
   }, [session?.user, allowedRoles])
+
+  useEffect(() => {
+    logAuthClientEvent({
+      stage: 'client.auth.role-guard.evaluate',
+      context: {
+        status,
+        userId: session?.user?.id ?? null,
+        role: session?.user?.role ?? null,
+        allowed: isAllowed,
+        allowedRoles,
+      },
+    })
+  }, [status, session?.user?.id, session?.user?.role, isAllowed, allowedRoles])
 
   if (status === 'loading') {
     return (

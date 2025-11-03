@@ -2,11 +2,12 @@ import { initTRPC, TRPCError } from '@trpc/server'
 import { ZodError } from 'zod'
 import superjson from 'superjson'
 import { db } from '../lib/db'
-import { auth } from '../lib/auth'
+import { fetchBackendSession } from '@/server/session'
 
 // Context for tRPC
 export const createTRPCContext = async (opts: { headers: Headers; req: Request }) => {
-  const session = await auth()
+  const session = await fetchBackendSession(opts.req)
+
   return {
     db,
     session,
