@@ -5,7 +5,15 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-$projectRoot = Resolve-Path (Join-Path $PSScriptRoot '..')
+$loopiaDir = Get-Item $PSScriptRoot
+$parentCandidate = $loopiaDir.Parent
+$projectRoot = if ($parentCandidate -and (Test-Path (Join-Path $parentCandidate.FullName 'crm-app'))) {
+  $parentCandidate.FullName
+} elseif ($parentCandidate -and $parentCandidate.Parent -and (Test-Path (Join-Path $parentCandidate.Parent.FullName 'crm-app'))) {
+  $parentCandidate.Parent.FullName
+} else {
+  Resolve-Path (Join-Path $PSScriptRoot '..')
+}
 $crmAppPath = Join-Path $projectRoot 'crm-app'
 
 Write-Host "==> Static export för Loopia" -ForegroundColor Cyan

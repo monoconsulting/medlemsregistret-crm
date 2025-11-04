@@ -59,7 +59,7 @@ export default async function AssociationDetailPage({
           <span>Pipeline: {association.pipeline}</span>
         </div>
         <div className="flex flex-wrap gap-2">
-          {association.tags.map((tag) => (
+          {association.tags?.map((tag: { id: string; name: string | null }) => (
             <Badge key={tag.id} variant="secondary">
               {tag.name}
             </Badge>
@@ -109,7 +109,7 @@ export default async function AssociationDetailPage({
                   <p className="text-muted-foreground">Inga grupperingar än.</p>
                 ) : (
                   <ul className="space-y-1">
-                    {association.groupMemberships.map((membership) => (
+                    {association.groupMemberships?.map((membership: { id: string; addedAt: Date | null; group: { name: string | null } }) => (
                       <li key={membership.id} className="flex items-center justify-between">
                         <span>{membership.group.name}</span>
                         <Badge variant="outline">{formatDate(membership.addedAt)}</Badge>

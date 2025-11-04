@@ -88,12 +88,14 @@ export function logAuthClientEvent(options: LogAuthClientEventOptions): void {
       }
     }
 
+    const headers = new Headers({ 'Content-Type': 'application/json' })
+    if (flowId) {
+      headers.set(AUTH_FLOW_HEADER, flowId)
+    }
+
     void fetch('/api/debug/auth-flow-log', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        [AUTH_FLOW_HEADER]: flowId ?? undefined,
-      },
+      headers,
       body: json,
       keepalive: true,
     })

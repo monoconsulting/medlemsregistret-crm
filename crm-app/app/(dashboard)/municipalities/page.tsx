@@ -277,7 +277,17 @@ export default function MunicipalitiesPage() {
                           onCheckedChange={(checked) => handleSelect(municipality.id, checked as boolean)}
                         />
                       </TableCell>
-                      <TableCell className="font-medium">
+                      <TableCell className="space-y-1">
+                        <button
+                          type="button"
+                          className="block w-full text-left font-medium text-blue-600 underline-offset-2 hover:underline focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-1"
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            handleSelectMunicipality(municipality)
+                          }}
+                        >
+                          {municipality.name}
+                        </button>
                         <Link
                           href={{
                             pathname: "/associations",
@@ -286,10 +296,11 @@ export default function MunicipalitiesPage() {
                               municipality: municipality.name,
                             },
                           }}
-                          className="text-left text-blue-600 hover:underline"
+                          className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-primary"
                           onClick={(e) => e.stopPropagation()}
                         >
-                          {municipality.name}
+                          Visa föreningar
+                          <ExternalLink className="h-3 w-3" />
                         </Link>
                       </TableCell>
                       <TableCell>{municipality.code ?? "-"}</TableCell>

@@ -92,6 +92,7 @@ export function AddAssociationsToGroupModal({ open, onOpenChange, associationIds
         )
       )
 
+      await utils.groups.list.invalidate()
       await utils.groups.getById.invalidate({ id: targetGroupId })
       toast({ title: "Föreningar uppdaterade", description: "Valda föreningar har lagts till i gruppen." })
       handleClose(false)
