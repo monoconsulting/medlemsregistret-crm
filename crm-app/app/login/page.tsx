@@ -1,148 +1,77 @@
-'use client'
+"use client"
 
-import { Suspense, useEffect, useState, type BaseSyntheticEvent } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
-import { useForm } from 'react-hook-form'
-import { z } from 'zod'
-import { zodResolver } from '@hookform/resolvers/zod'
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import { Button } from '@/components/ui/button'
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form'
-import { AlertCircle } from 'lucide-react'
-import { useAuth } from '@/lib/providers/auth-provider'
-import { logAuthClientEvent } from '@/lib/auth-flow/client'
+import { FormEvent, useState } from "react"
+import { useRouter } from "next/navigation"
+import { api } from "@/lib/api"
 
-const loginSchema = z.object({
-  email: z.string().email('Ogiltig e-postadress'),
-  password: z.string().min(4, 'Lösenordet måste vara minst 4 tecken'),
-})
-
-type LoginSchema = z.infer<typeof loginSchema>
-
-function LoginForm() {
+export default function LoginPage() {
   const router = useRouter()
-  const params = useSearchParams()
-  const { login } = useAuth()
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
   const [error, setError] = useState<string | null>(null)
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [loading, setLoading] = useState(false)
 
-  const form = useForm<LoginSchema>({
-    resolver: zodResolver(loginSchema),
-    defaultValues: {
-      email: params.get('email') ?? '',
-      password: '',
-    },
-  })
-
-  useEffect(() => {
-    logAuthClientEvent({
-      stage: 'client.page.login.mount',
-      context: {
-        prefilledEmail: params.get('email') ?? null,
-      },
-    })
-  }, [params])
-
-  const onSubmit = async (values: LoginSchema, event?: BaseSyntheticEvent) => {
-    event?.preventDefault()
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
+    setLoading(true)
     setError(null)
-    setIsSubmitting(true)
-
-    const result = await login(values.email, values.password)
-    setIsSubmitting(false)
-
-    if (!result.ok) {
-      setError(result.error ?? 'Felaktig e-post eller lösenord')
-      logAuthClientEvent({
-        stage: 'client.page.login.error',
-        severity: 'warn',
-        context: { message: result.error ?? 'unknown' },
-      })
-      return
+    try {
+      await api.login(email, password)
+      router.push("/associations")
+    } catch (err) {
+      if (err instanceof Error) {
+        setError(err.message)
+      } else {
+        setError("Ett oväntat fel inträffade")
+      }
+    } finally {
+      setLoading(false)
     }
-
-    router.push('/dashboard')
-    logAuthClientEvent({
-      stage: 'client.page.login.redirect',
-      context: { destination: '/dashboard' },
-    })
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-slate-100 p-6">
-      <Card className="w-full max-w-md shadow-lg">
-        <CardHeader className="space-y-1 text-center">
-          <CardTitle className="text-2xl font-semibold">Logga in</CardTitle>
-          <p className="text-sm text-muted-foreground">
-            Använd dina administratörsuppgifter för att fortsätta
-          </p>
-        </CardHeader>
-        <CardContent>
-          <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
-              <FormField
-                control={form.control}
-                name="email"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>E-postadress</FormLabel>
-                    <FormControl>
-                      <Input type="email" placeholder="namn@forening.se" autoComplete="email" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="password"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Lösenord</FormLabel>
-                    <FormControl>
-                      <Input type="password" placeholder="••••••" autoComplete="current-password" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-
-              {error && (
-                <div className="flex items-center gap-2 rounded-md border border-destructive/30 bg-destructive/10 p-3 text-sm text-destructive">
-                  <AlertCircle className="h-4 w-4" />
-                  {error}
-                </div>
-              )}
-
-              <Button type="submit" className="w-full" disabled={isSubmitting}>
-                {isSubmitting ? 'Loggar in…' : 'Logga in'}
-              </Button>
-            </form>
-          </Form>
-        </CardContent>
-        <CardFooter className="flex flex-col space-y-2 text-center text-xs text-muted-foreground">
-          <span>Behöver du ett konto? Kontakta systemadministratören.</span>
-        </CardFooter>
-      </Card>
+    <div className="flex flex-1 items-center justify-center">
+      <form
+        onSubmit={handleSubmit}
+        className="w-full max-w-md space-y-4 rounded-lg bg-white p-8 shadow"
+      >
+        <h2 className="text-xl font-semibold">Logga in</h2>
+        <p className="text-sm text-slate-600">
+          Ange dina uppgifter för att komma åt medlemsregistret. Uppgifterna kontrolleras via PHP-API:t på samma origin.
+        </p>
+        {error ? (
+          <div className="rounded border border-red-300 bg-red-50 p-3 text-sm text-red-700">{error}</div>
+        ) : null}
+        <label className="block text-sm font-medium text-slate-700">
+          E-post
+          <input
+            className="mt-1 w-full rounded border border-slate-300 p-2"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+            autoComplete="email"
+          />
+        </label>
+        <label className="block text-sm font-medium text-slate-700">
+          Lösenord
+          <input
+            className="mt-1 w-full rounded border border-slate-300 p-2"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+            autoComplete="current-password"
+          />
+        </label>
+        <button
+          type="submit"
+          className="w-full rounded bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700"
+          disabled={loading}
+        >
+          {loading ? "Loggar in…" : "Logga in"}
+        </button>
+      </form>
     </div>
-  )
-}
-
-export default function LoginPage() {
-  return (
-    <Suspense
-      fallback={
-        <div className="flex min-h-screen items-center justify-center bg-slate-100 p-6">
-          <Card className="w-full max-w-md shadow-lg">
-            <CardHeader className="space-y-1 text-center">
-              <CardTitle className="text-2xl font-semibold">Logga in</CardTitle>
-            </CardHeader>
-          </Card>
-        </div>
-      }
-    >
-      <LoginForm />
-    </Suspense>
   )
 }
