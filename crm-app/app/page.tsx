@@ -1,14 +1,20 @@
-'use client'
+"use client"
 
 import { useEffect } from "react"
 import { useRouter } from "next/navigation"
+import { useAuth } from "@/lib/providers/auth-provider"
 
-export default function Home() {
+export default function IndexPage() {
   const router = useRouter()
+  const { status } = useAuth()
 
   useEffect(() => {
-    router.replace("/dashboard")
-  }, [router])
+    if (status === "authenticated") {
+      router.replace("/associations")
+    } else if (status === "unauthenticated") {
+      router.replace("/login")
+    }
+  }, [status, router])
 
-  return null
+  return <div className="flex min-h-screen items-center justify-center text-muted-foreground">Laddar…</div>
 }
