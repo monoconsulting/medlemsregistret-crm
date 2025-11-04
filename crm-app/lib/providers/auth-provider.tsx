@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import {
   createContext,
@@ -8,17 +8,22 @@ import {
   useMemo,
   useState,
   type ReactNode,
-} from 'react'
-import { SessionProvider, useSession, signIn, signOut } from 'next-auth/react'
-import {
-  fetchSession,
-  loginRequest,
-  logoutRequest,
-  type AuthSession,
-} from '@/lib/auth-client'
-import { getAuthFlowId, logAuthClientEvent } from '@/lib/auth-flow/client'
+} from "react"
+import { api } from "@/lib/api"
 
-export type AuthStatus = 'loading' | 'authenticated' | 'unauthenticated'
+export type AuthStatus = "loading" | "authenticated" | "unauthenticated"
+export type UserRole = "ADMIN" | "MANAGER" | "USER"
+
+export interface AuthSessionUser {
+  id: string
+  email: string | null
+  name: string | null
+  role: UserRole
+}
+
+export interface AuthSession {
+  user: AuthSessionUser
+}
 
 export interface LoginResult {
   ok: boolean
@@ -33,99 +38,102 @@ interface AuthContextValue {
   refresh: () => Promise<void>
 }
 
-const backendAuthEnabled = true
+const STORAGE_KEY = "crm-auth-user"
+
+function readStoredUser(): AuthSessionUser | null {
+  if (typeof window === "undefined") return null
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY)
+    if (!raw) return null
+    const parsed = JSON.parse(raw) as AuthSessionUser
+    if (!parsed || typeof parsed.id !== "string") return null
+    return parsed
+  } catch (error) {
+    console.warn("Failed to parse stored auth user", error)
+    return null
+  }
+}
+
+function writeStoredUser(user: AuthSessionUser | null) {
+  if (typeof window === "undefined") return
+  if (!user) {
+    window.localStorage.removeItem(STORAGE_KEY)
+    return
+  }
+  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(user))
+}
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined)
 
-function BackendAuthProvider({ children }: { children: ReactNode }) {
+export function AuthProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<AuthSession | null>(null)
-  const [status, setStatus] = useState<AuthStatus>('loading')
+  const [status, setStatus] = useState<AuthStatus>("loading")
 
   const refresh = useCallback(async () => {
-    setStatus('loading')
-    logAuthClientEvent({
-      stage: 'client.auth.refresh.start',
-      context: { flowId: getAuthFlowId() },
-    })
+    setStatus("loading")
     try {
-      const next = await fetchSession()
-      if (next) {
-        setSession(next)
-        setStatus('authenticated')
-        logAuthClientEvent({
-          stage: 'client.auth.refresh.authenticated',
-          context: {
-            userId: next.user.id,
-            role: next.user.role,
-          },
-        })
+      await api.getAssociations({ page: 1, pageSize: 1 })
+      const stored = readStoredUser()
+      if (stored) {
+        setSession({ user: stored })
       } else {
         setSession(null)
-        setStatus('unauthenticated')
-        logAuthClientEvent({
-          stage: 'client.auth.refresh.unauthenticated',
-        })
       }
+      setStatus("authenticated")
     } catch (error) {
-      console.error('Misslyckades att hämta session:', error)
-      setSession(null)
-      setStatus('unauthenticated')
-      logAuthClientEvent({
-        stage: 'client.auth.refresh.error',
-        severity: 'error',
-        error: error instanceof Error ? error : undefined,
-      })
+      const message = error instanceof Error ? error.message : ""
+      if (message.toLowerCase().includes("not authenticated") || message.toLowerCase().includes("unauth")) {
+        setSession(null)
+        writeStoredUser(null)
+        setStatus("unauthenticated")
+      } else {
+        console.error("Failed to refresh auth status", error)
+        setSession(null)
+        setStatus("unauthenticated")
+      }
     }
   }, [])
 
   useEffect(() => {
-    logAuthClientEvent({
-      stage: 'client.auth.provider.mounted',
-    })
+    const stored = readStoredUser()
+    if (stored) {
+      setSession({ user: stored })
+    }
     void refresh()
   }, [refresh])
 
-  const login = useCallback(
-    async (email: string, password: string): Promise<LoginResult> => {
-      logAuthClientEvent({
-        stage: 'client.auth.login.start',
-        context: { email },
-      })
-      const result = await loginRequest(email, password)
-      if (result.ok) {
-        await refresh()
-        logAuthClientEvent({
-          stage: 'client.auth.login.completed',
-          context: { email },
-        })
-        return { ok: true }
+  const login = useCallback(async (email: string, password: string): Promise<LoginResult> => {
+    try {
+      await api.login(email, password)
+      const user: AuthSessionUser = {
+        id: "user",
+        email,
+        name: email ? email.split("@")[0] ?? null : null,
+        role: "ADMIN",
       }
-
-      logAuthClientEvent({
-        stage: 'client.auth.login.failed-result',
-        severity: 'warn',
-        context: { email },
-        error: result.error ? { message: result.error } : undefined,
-      })
-
-      return {
-        ok: false,
-        error: result.error ?? 'Inloggningen misslyckades',
-      }
-    },
-    [refresh],
-  )
+      writeStoredUser(user)
+      setSession({ user })
+      setStatus("authenticated")
+      return { ok: true }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Inloggningen misslyckades"
+      setSession(null)
+      setStatus("unauthenticated")
+      return { ok: false, error: message }
+    }
+  }, [])
 
   const logout = useCallback(async () => {
-    logAuthClientEvent({
-      stage: 'client.auth.logout.start',
-    })
-    await logoutRequest()
-    await refresh()
-    logAuthClientEvent({
-      stage: 'client.auth.logout.done',
-    })
-  }, [refresh])
+    try {
+      await api.logout()
+    } catch (error) {
+      console.warn("Logout request failed", error)
+    } finally {
+      writeStoredUser(null)
+      setSession(null)
+      setStatus("unauthenticated")
+    }
+  }, [])
 
   const value = useMemo<AuthContextValue>(
     () => ({
@@ -141,84 +149,8 @@ function BackendAuthProvider({ children }: { children: ReactNode }) {
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
 
-function NextAuthContextProvider({ children }: { children: ReactNode }) {
-  const { data: session, status, update } = useSession()
-
-  const login = useCallback(
-    async (email: string, password: string): Promise<LoginResult> => {
-      const result = await signIn('credentials', {
-        redirect: false,
-        email,
-        password,
-      })
-
-      if (result?.error) {
-        return {
-          ok: false,
-          error: result.error ?? 'Inloggningen misslyckades',
-        }
-      }
-
-      await update()
-      return { ok: true }
-    },
-    [update],
-  )
-
-  const logout = useCallback(async () => {
-    await signOut({ redirect: false })
-    await update()
-  }, [update])
-
-  const refresh = useCallback(async () => {
-    await update()
-  }, [update])
-
-  const normalizedSession: AuthSession | null = useMemo(() => {
-    if (!session?.user) {
-      return null
-    }
-
-    return {
-      user: {
-        id: session.user.id,
-        email: session.user.email ?? null,
-        name: session.user.name ?? null,
-        role: session.user.role as AuthSession['user']['role'],
-      },
-    }
-  }, [session])
-
-  const value = useMemo<AuthContextValue>(
-    () => ({
-      session: normalizedSession,
-      status: status as AuthStatus,
-      login,
-      logout,
-      refresh,
-    }),
-    [normalizedSession, status, login, logout, refresh],
-  )
-
-  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
-}
-
-export function AuthProvider({ children }: { children: ReactNode }) {
-  if (backendAuthEnabled) {
-    return <BackendAuthProvider>{children}</BackendAuthProvider>
-  }
-
-  return (
-    <SessionProvider>
-      <NextAuthContextProvider>{children}</NextAuthContextProvider>
-    </SessionProvider>
-  )
-}
-
 export function useAuth(): AuthContextValue {
-  const context = useContext(AuthContext)
-  if (!context) {
-    throw new Error('useAuth måste användas inom AuthProvider')
-  }
-  return context
+  const ctx = useContext(AuthContext)
+  if (!ctx) throw new Error("useAuth måste användas inom AuthProvider")
+  return ctx
 }
