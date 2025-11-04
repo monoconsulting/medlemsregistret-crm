@@ -1,14 +1,15 @@
 'use client'
 
 import { useEffect, useMemo } from 'react'
+import { useRouter } from 'next/navigation'
 import { Loader2 } from 'lucide-react'
-import { UserRole } from '@prisma/client'
 import { useAuth } from '@/lib/providers/auth-provider'
-import { logAuthClientEvent } from '@/lib/auth-flow/client'
+
+export type UserRole = 'ADMIN' | 'MANAGER' | 'USER'
 
 export function RoleGuard({
   children,
-  allowedRoles = [UserRole.ADMIN, UserRole.MANAGER, UserRole.USER],
+  allowedRoles = ['ADMIN', 'MANAGER', 'USER'],
   fallback,
 }: {
   children: React.ReactNode
@@ -16,6 +17,7 @@ export function RoleGuard({
   fallback?: React.ReactNode
 }) {
   const { session, status } = useAuth()
+  const router = useRouter()
 
   const isAllowed = useMemo(() => {
     if (!session?.user) return false
@@ -23,17 +25,28 @@ export function RoleGuard({
   }, [session?.user, allowedRoles])
 
   useEffect(() => {
-    logAuthClientEvent({
-      stage: 'client.auth.role-guard.evaluate',
-      context: {
-        status,
-        userId: session?.user?.id ?? null,
-        role: session?.user?.role ?? null,
-        allowed: isAllowed,
-        allowedRoles,
-      },
+    console.debug('role guard check', {
+      status,
+      userId: session?.user?.id ?? null,
+      role: session?.user?.role ?? null,
+      allowed: isAllowed,
+      allowedRoles,
     })
   }, [status, session?.user?.id, session?.user?.role, isAllowed, allowedRoles])
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+
+    if (status === 'unauthenticated') {
+      const path = window.location.pathname + window.location.search
+      if (!window.location.pathname.startsWith('/login')) {
+        const redirectTo = path && path !== '/' ? `?redirectTo=${encodeURIComponent(path)}` : ''
+        router.replace(`/login${redirectTo}`)
+      }
+    }
+  }, [router, status])
 
   if (status === 'loading') {
     return (

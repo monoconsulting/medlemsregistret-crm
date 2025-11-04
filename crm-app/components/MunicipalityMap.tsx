@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { useEffect, useMemo, useRef } from "react"
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
 import { LatLngTuple } from "leaflet"
 import "leaflet/dist/leaflet.css"
@@ -23,13 +23,13 @@ interface MunicipalityMapProps {
 export default function MunicipalityMap({ latitude, longitude, municipalityName }: MunicipalityMapProps) {
   const mapRef = useRef<L.Map | null>(null)
 
-  const position: LatLngTuple = [latitude, longitude]
+  const position: LatLngTuple = useMemo(() => [latitude, longitude], [latitude, longitude])
 
   useEffect(() => {
     if (mapRef.current) {
       mapRef.current.setView(position, 6)
     }
-  }, [latitude, longitude])
+  }, [position])
 
   return (
     <MapContainer

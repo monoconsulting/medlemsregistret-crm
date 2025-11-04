@@ -1,34 +1,24 @@
 import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
-import { AUTH_FLOW_HEADER } from "@/lib/auth-flow/constants"
-import { fetchBackendWithFallback } from "@/lib/backend-base"
-
 const PUBLIC_ROUTES = ["/login", "/unauthorized", "/", "/api/health", "/api/debug", "/public", "/_next", "/static", "/favicon.ico"]
 
-interface SessionResponse {
-  user?: {
-    id: string
-    role?: string | null
-  } | null
+interface PhpSessionResponse {
+  authenticated: boolean
+  uid?: number
 }
 
-async function fetchBackendSession(req: NextRequest) {
+async function fetchPhpSession(req: NextRequest) {
   const cookie = req.headers.get("cookie")
   if (!cookie) {
     return null
   }
 
-  const flowId =
-    req.headers.get(AUTH_FLOW_HEADER) ??
-    req.headers.get(AUTH_FLOW_HEADER.toLowerCase()) ??
-    null
-
   try {
-    const { response } = await fetchBackendWithFallback('/api/auth/me', {
+    const sessionUrl = new URL('/api/session.php', req.url)
+    const response = await fetch(sessionUrl, {
       cache: 'no-store',
       headers: {
         cookie,
-        ...(flowId ? { "X-Auth-Flow-Id": flowId } : {}),
       },
     })
 
@@ -36,12 +26,12 @@ async function fetchBackendSession(req: NextRequest) {
       return null
     }
 
-    const data = (await response.json()) as SessionResponse
-    if (!data?.user) {
+    const data = (await response.json()) as PhpSessionResponse
+    if (!data?.authenticated || !data.uid) {
       return null
     }
 
-    return data.user
+    return { id: String(data.uid), role: 'ADMIN' as const }
   } catch (error) {
     return null
   }
@@ -61,10 +51,11 @@ export default async function middleware(req: NextRequest) {
     return NextResponse.next()
   }
 
-  const user = await fetchBackendSession(req)
+  const user = await fetchPhpSession(req)
   if (!user) {
     const loginUrl = new URL("/login", req.url)
-    loginUrl.searchParams.set("redirectTo", pathname)
+    const target = `${pathname}${req.nextUrl.search}`
+    loginUrl.searchParams.set("redirectTo", target)
     return NextResponse.redirect(loginUrl)
   }
 

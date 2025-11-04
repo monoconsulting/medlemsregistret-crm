@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { TRPCProvider } from "@/lib/providers/trpc-provider";
 import { AuthProvider } from "@/lib/providers/auth-provider";
 import { Toaster } from "@/components/ui/toaster";
 
@@ -18,10 +17,8 @@ export default function RootLayout({
     <html lang="sv">
       <body className="font-sans antialiased">
         <AuthProvider>
-          <TRPCProvider>
-            {children}
-            <Toaster />
-          </TRPCProvider>
+          {children}
+          <Toaster />
         </AuthProvider>
       </body>
     </html>

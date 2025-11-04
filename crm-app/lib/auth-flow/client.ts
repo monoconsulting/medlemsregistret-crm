@@ -78,27 +78,7 @@ export function logAuthClientEvent(options: LogAuthClientEventOptions): void {
   }
 
   try {
-    const json = JSON.stringify(payload)
-
-    if (navigator.sendBeacon) {
-      const blob = new Blob([json], { type: 'application/json' })
-      const sent = navigator.sendBeacon('/api/debug/auth-flow-log', blob)
-      if (sent) {
-        return
-      }
-    }
-
-    const headers = new Headers({ 'Content-Type': 'application/json' })
-    if (flowId) {
-      headers.set(AUTH_FLOW_HEADER, flowId)
-    }
-
-    void fetch('/api/debug/auth-flow-log', {
-      method: 'POST',
-      headers,
-      body: json,
-      keepalive: true,
-    })
+    console.debug('[auth-flow]', payload)
   } catch (error) {
     console.warn('[auth-flow] Kunde inte logga händelse:', error)
   }
