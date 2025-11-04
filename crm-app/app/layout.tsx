@@ -1,29 +1,26 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import { TRPCProvider } from "@/lib/providers/trpc-provider";
-import { AuthProvider } from "@/lib/providers/auth-provider";
-import { Toaster } from "@/components/ui/toaster";
+import type { Metadata } from 'next'
+import './globals.css'
+import { ReactNode } from 'react'
+import { ReactQueryProvider } from '@/lib/query-client'
+import { Toaster } from '@/components/ui/toaster'
+import { ToastProvider } from '@/components/ui/use-toast'
 
 export const metadata: Metadata = {
-  title: "Medlemsregistret CRM",
-  description: "CRM-system för svenska föreningar",
-};
+  title: 'Medlemsregistret CRM',
+  description: 'Administrera föreningar och medlemskap',
+}
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="sv">
-      <body className="font-sans antialiased">
-        <AuthProvider>
-          <TRPCProvider>
+      <body className="min-h-screen bg-slate-100">
+        <ToastProvider>
+          <ReactQueryProvider>
             {children}
-            <Toaster />
-          </TRPCProvider>
-        </AuthProvider>
+          </ReactQueryProvider>
+          <Toaster />
+        </ToastProvider>
       </body>
     </html>
-  );
+  )
 }

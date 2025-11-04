@@ -1,16 +1,10 @@
-import type { NextConfig } from "next"
+import type { NextConfig } from 'next'
 
-const enableStaticExport =
-  process.env.NEXT_ENABLE_STATIC_EXPORT === "true" ||
-  process.env.NEXT_OUTPUT === "export"
-
-const nextConfig: NextConfig = enableStaticExport
-  ? {
-      output: "export",
-      images: {
-        unoptimized: true,
-      },
-    }
-  : {}
+const nextConfig: NextConfig = {
+  output: 'export',
+  experimental: {
+    optimizePackageImports: ['@tanstack/react-query', 'lucide-react']
+  }
+}
 
 export default nextConfig
