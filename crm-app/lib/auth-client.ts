@@ -84,7 +84,7 @@ export async function fetchSession(): Promise<AuthSession | null> {
 
 }
 
-async function buildCsrfHeaders(baseHeaders?: HeadersInit): Promise<HeadersInit> {
+async function buildCsrfHeaders(baseHeaders?: HeadersInit): Promise<Headers> {
   const headers = new Headers(baseHeaders)
   const token = await ensureCsrfToken(() =>
     fetch(resolveApiUrl('/api/auth/me'), {

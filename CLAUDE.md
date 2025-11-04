@@ -3,6 +3,12 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
+Recent updates (2025-11-03):
+- Association group management now includes a selectable dropdown whose counts reflect live membership after each add/remove. Use the `groups.getById` + `groups.list` invalidation pattern already baked into `crm-app/app/(dashboard)/associations/page.tsx`.
+- CSV exports for groups must remain ANSI/Windows-1252 encoded with semicolons – handled server-side via `crm-app/server/routers/groups.ts` and `iconv-lite`. Do not switch exports back to UTF-8 without stakeholder approval.
+- Frontend fetches the backend origin through `crm-app/lib/backend-base.ts`; reuse this helper in any new SSR/middleware code instead of reimplementing fallback logic.
+- Local dev now starts via `npm run dev` (proxy to `scripts/start-dev.ts`) which binds Next.js to port 3000 inside the container automatically. Avoid reintroducing port 3020 overrides.
+
 ## Rules
 **NEVER CHANGE PORTS!**
 NEVER TASKKILL!

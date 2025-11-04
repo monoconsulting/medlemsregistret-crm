@@ -1,5 +1,6 @@
 ﻿type SearchFilters = {
   municipality?: string
+  municipalityIds?: string[]
   crmStatuses?: string[]
   pipelines?: string[]
   types?: string[]
@@ -29,6 +30,10 @@ const buildFilterString = (filters: SearchFilters) => {
 
   if (filters.municipality) {
     parts.push(`municipality:${JSON.stringify(filters.municipality)}`)
+  }
+
+  if (filters.municipalityIds?.length) {
+    parts.push(`municipalityId:=[${filters.municipalityIds.map((v) => JSON.stringify(v)).join(',')}]`)
   }
 
   if (filters.crmStatuses?.length) {

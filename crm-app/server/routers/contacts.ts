@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { TRPCError } from '@trpc/server'
+import type { Prisma } from '@prisma/client'
 import { router, protectedProcedure, adminProcedure } from '../trpc'
 
 const baseContactSchema = z.object({
@@ -26,6 +27,8 @@ export const contactRouter = router({
           page: z.number().min(1).default(1),
           limit: z.number().min(1).max(100).default(20),
           onlyPrimary: z.boolean().optional(),
+          sortBy: z.enum(['updatedAt', 'name']).optional(),
+          sortDirection: z.enum(['asc', 'desc']).optional(),
         })
         .optional()
     )
@@ -33,8 +36,13 @@ export const contactRouter = router({
       const page = input?.page ?? 1
       const limit = input?.limit ?? 20
       const skip = (page - 1) * limit
+      const sortBy = input?.sortBy ?? 'updatedAt'
+      const sortDirection = input?.sortDirection ?? 'desc'
 
       const where: any = {}
+      const orderBy: Prisma.ContactOrderByWithRelationInput = {
+        [sortBy]: sortDirection,
+      }
 
       if (input?.associationId) {
         where.associationId = input.associationId
@@ -67,9 +75,7 @@ export const contactRouter = router({
               },
             },
           },
-          orderBy: {
-            updatedAt: 'desc',
-          },
+          orderBy,
         }),
         ctx.db.contact.count({ where }),
       ])

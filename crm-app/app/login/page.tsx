@@ -1,6 +1,6 @@
 'use client'
 
-import { Suspense, useEffect, useState } from 'react'
+import { Suspense, useEffect, useState, type BaseSyntheticEvent } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
@@ -44,7 +44,8 @@ function LoginForm() {
     })
   }, [params])
 
-  const onSubmit = async (values: LoginSchema) => {
+  const onSubmit = async (values: LoginSchema, event?: BaseSyntheticEvent) => {
+    event?.preventDefault()
     setError(null)
     setIsSubmitting(true)
 
