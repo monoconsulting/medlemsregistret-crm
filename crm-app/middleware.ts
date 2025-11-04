@@ -1,13 +1,9 @@
 import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
 import { AUTH_FLOW_HEADER } from "@/lib/auth-flow/constants"
+import { fetchBackendWithFallback } from "@/lib/backend-base"
 
 const PUBLIC_ROUTES = ["/login", "/unauthorized", "/", "/api/health", "/api/debug", "/public", "/_next", "/static", "/favicon.ico"]
-
-const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL?.replace(/\/$/, "") ||
-  process.env.BACKEND_API_BASE_URL?.replace(/\/$/, "") ||
-  "http://localhost:4040"
 
 interface SessionResponse {
   user?: {
@@ -28,7 +24,8 @@ async function fetchBackendSession(req: NextRequest) {
     null
 
   try {
-    const response = await fetch(`${API_BASE_URL}/api/auth/me`, {
+    const { response } = await fetchBackendWithFallback('/api/auth/me', {
+      cache: 'no-store',
       headers: {
         cookie,
         ...(flowId ? { "X-Auth-Flow-Id": flowId } : {}),

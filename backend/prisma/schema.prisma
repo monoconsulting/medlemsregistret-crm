@@ -164,9 +164,13 @@ model Group {
   createdById   String
   createdAt     DateTime          @default(now())
   updatedAt     DateTime          @updatedAt
+  deletedAt     DateTime?
+  isDeleted     Boolean           @default(false)
 
   createdBy     User              @relation(fields: [createdById], references: [id], onDelete: Cascade)
   memberships   GroupMembership[]
+
+  @@index([isDeleted])
 }
 
 model GroupMembership {

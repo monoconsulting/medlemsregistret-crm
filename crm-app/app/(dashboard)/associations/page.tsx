@@ -19,15 +19,18 @@ import {
   Filter,
   Plus,
   Loader2,
+  Download,
   RefreshCcw,
   Mail,
   Pencil,
-  Map,
+  Map as MapIcon,
   UserRoundPen,
   Home,
   ArrowUpDown,
   ArrowUp,
   ArrowDown,
+  Users2,
+  Trash2,
 } from "lucide-react"
 import { AdvancedFilterPanel, type AdvancedFilterState } from "@/components/filters/advanced-filter-panel"
 import { MultiSelectFilter, MultiSelectOption } from "@/components/filters/multi-select-filter"
@@ -47,6 +50,17 @@ import { toast } from "@/hooks/use-toast"
 import type { Association, Contact, Tag, User, Activity } from "@prisma/client"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { HoverCard } from "@/components/ui/hover-card"
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog"
 
 type AssociationListItem = Association & {
   contacts?: Contact[]
@@ -138,12 +152,41 @@ export default function AssociationsPage() {
   )
   const municipalitySelectionTouched = useRef(false)
   const [showAddToGroupModal, setShowAddToGroupModal] = useState(false)
+  const groupsQuery = api.groups.list.useQuery(undefined, { staleTime: 300_000 })
+  const [activeGroupId, setActiveGroupId] = useState<string | null>(null)
+  const groupDetailsQuery = api.groups.getById.useQuery(
+    { id: activeGroupId ?? "" },
+    { enabled: Boolean(activeGroupId) },
+  )
+  const addGroupMember = api.groups.addMember.useMutation()
+  const removeGroupMember = api.groups.removeMember.useMutation()
+  const exportGroupMembers = api.groups.exportMembers.useMutation()
+  const softDeleteGroup = api.groups.softDelete.useMutation()
+  const [groupMemberIds, setGroupMemberIds] = useState<Set<string>>(new Set())
+  const [pendingMembershipIds, setPendingMembershipIds] = useState<Set<string>>(new Set())
 
   useEffect(() => {
     if (selectedIds.size === 0 && showAddToGroupModal) {
       setShowAddToGroupModal(false)
     }
   }, [selectedIds, showAddToGroupModal])
+
+  useEffect(() => {
+    if (activeGroupId) {
+      setShowAddToGroupModal(false)
+    }
+  }, [activeGroupId])
+
+  useEffect(() => {
+    if (groupDetailsQuery.error) {
+      toast({
+        title: "Grupp saknas",
+        description: "Den valda gruppen kunde inte hittas eller är raderad.",
+        variant: "destructive",
+      })
+      setActiveGroupId(null)
+    }
+  }, [groupDetailsQuery.error])
 
   useEffect(() => {
     if (municipalitySelectionTouched.current) {
@@ -377,25 +420,175 @@ export default function AssociationsPage() {
     return "Alla föreningar"
   }, [selectedMunicipalities, activeMunicipalityName])
 
-  const toggleSelection = (id: string) => {
+  useEffect(() => {
+    if (!activeGroupId) {
+      setGroupMemberIds(new Set())
+      return
+    }
+
+    if (groupDetailsQuery.data) {
+      const memberIds = groupDetailsQuery.data.memberships
+        .map((membership) => membership.association?.id)
+        .filter((id): id is string => Boolean(id))
+
+      setGroupMemberIds(new Set(memberIds))
+    } else {
+      setGroupMemberIds(new Set())
+    }
+  }, [activeGroupId, groupDetailsQuery.data])
+
+  useEffect(() => {
+    if (activeGroupId) {
+      setSelectedIds(new Set())
+    }
+  }, [activeGroupId])
+
+  const isGroupMode = Boolean(activeGroupId)
+
+  const clearSelection = () => {
+    if (isGroupMode) {
+      setGroupMemberIds(new Set())
+    } else {
+      setSelectedIds(new Set())
+    }
+  }
+
+  const visibleAssociationIds = useMemo(() => associations.map((association) => association.id), [associations])
+
+  const handleGroupMembershipToggle = async (associationId: string, shouldBeMember: boolean) => {
+    if (!activeGroupId) return
+
+    const previous = new Set(groupMemberIds)
+    setPendingMembershipIds((prev) => {
+      const next = new Set(prev)
+      next.add(associationId)
+      return next
+    })
+
+    setGroupMemberIds((prev) => {
+      const next = new Set(prev)
+      if (shouldBeMember) {
+        next.add(associationId)
+      } else {
+        next.delete(associationId)
+      }
+      return next
+    })
+
+    try {
+      if (shouldBeMember) {
+        await addGroupMember.mutateAsync({ groupId: activeGroupId, associationId })
+      } else {
+        await removeGroupMember.mutateAsync({ groupId: activeGroupId, associationId })
+      }
+      await utils.groups.list.invalidate()
+      await utils.groups.list.invalidate()
+      await utils.groups.getById.invalidate({ id: activeGroupId })
+    } catch (error) {
+      setGroupMemberIds(previous)
+      const message = error instanceof Error ? error.message : "Kunde inte uppdatera gruppen"
+      toast({ title: "Misslyckades", description: message, variant: "destructive" })
+    } finally {
+      setPendingMembershipIds((prev) => {
+        const next = new Set(prev)
+        next.delete(associationId)
+        return next
+      })
+    }
+  }
+
+  const handleGroupToggleAll = async (shouldSelectAll: boolean) => {
+    if (!activeGroupId) return
+    const previous = new Set(groupMemberIds)
+    const targetIds = shouldSelectAll
+      ? visibleAssociationIds.filter((id) => !groupMemberIds.has(id))
+      : visibleAssociationIds.filter((id) => groupMemberIds.has(id))
+
+    if (targetIds.length === 0) {
+      return
+    }
+
+    setPendingMembershipIds((prev) => {
+      const next = new Set(prev)
+      targetIds.forEach((id) => next.add(id))
+      return next
+    })
+
+    setGroupMemberIds((prev) => {
+      const next = new Set(prev)
+      targetIds.forEach((id) => {
+        if (shouldSelectAll) {
+          next.add(id)
+        } else {
+          next.delete(id)
+        }
+      })
+      return next
+    })
+
+    try {
+      if (shouldSelectAll) {
+        await Promise.all(
+          targetIds.map((associationId) => addGroupMember.mutateAsync({ groupId: activeGroupId, associationId })),
+        )
+      } else {
+        await Promise.all(
+          targetIds.map((associationId) =>
+            removeGroupMember.mutateAsync({ groupId: activeGroupId, associationId }),
+          ),
+        )
+      }
+      await utils.groups.getById.invalidate({ id: activeGroupId })
+      toast({
+        title: "Grupp uppdaterad",
+        description: shouldSelectAll
+          ? `Lade till ${targetIds.length} föreningar i gruppen.`
+          : `Tog bort ${targetIds.length} föreningar från gruppen.`,
+      })
+    } catch (error) {
+      setGroupMemberIds(previous)
+      const message = error instanceof Error ? error.message : "Kunde inte uppdatera gruppen"
+      toast({ title: "Misslyckades", description: message, variant: "destructive" })
+    } finally {
+      setPendingMembershipIds((prev) => {
+        const next = new Set(prev)
+        targetIds.forEach((id) => next.delete(id))
+        return next
+      })
+    }
+  }
+
+  const handleAssociationSelection = (associationId: string, nextChecked: boolean) => {
+    if (isGroupMode) {
+      void handleGroupMembershipToggle(associationId, nextChecked)
+      return
+    }
+
     setSelectedIds((prev) => {
       const next = new Set(prev)
-      if (next.has(id)) {
-        next.delete(id)
+      if (nextChecked) {
+        next.add(associationId)
       } else {
-        next.add(id)
+        next.delete(associationId)
       }
       return next
     })
   }
 
-  const clearSelection = () => setSelectedIds(new Set())
+  const allVisibleSelected = isGroupMode
+    ? visibleAssociationIds.length > 0 && visibleAssociationIds.every((id) => groupMemberIds.has(id))
+    : visibleAssociationIds.length > 0 && visibleAssociationIds.every((id) => selectedIds.has(id))
 
-  const visibleAssociationIds = useMemo(() => associations.map((association) => association.id), [associations])
-  const allVisibleSelected = visibleAssociationIds.length > 0 && visibleAssociationIds.every((id) => selectedIds.has(id))
-  const someVisibleSelected = visibleAssociationIds.some((id) => selectedIds.has(id))
+  const someVisibleSelected = isGroupMode
+    ? visibleAssociationIds.some((id) => groupMemberIds.has(id))
+    : visibleAssociationIds.some((id) => selectedIds.has(id))
 
-  const handleToggleAllVisible = (_checked: boolean | "indeterminate") => {
+  const handleToggleAllVisible = (checked: boolean | "indeterminate") => {
+    if (isGroupMode) {
+      void handleGroupToggleAll(checked === true)
+      return
+    }
+
     setSelectedIds((prev) => {
       const next = new Set(prev)
       if (allVisibleSelected) {
@@ -422,26 +615,58 @@ export default function AssociationsPage() {
     handleMunicipalityFilterChange([])
   }
 
+  const downloadBase64File = (payload: { data: string; mimeType: string; filename: string }) => {
+    const binary = atob(payload.data)
+    const buffer = new Uint8Array(binary.length)
+    for (let i = 0; i < binary.length; i++) {
+      buffer[i] = binary.charCodeAt(i)
+    }
+    const blob = new Blob([buffer], { type: payload.mimeType })
+    const url = URL.createObjectURL(blob)
+    const link = document.createElement("a")
+    link.href = url
+    link.download = payload.filename
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+    URL.revokeObjectURL(url)
+  }
+
+  const handleGroupExport = async () => {
+    if (!activeGroupId) return
+    try {
+      const result = await exportGroupMembers.mutateAsync({ groupId: activeGroupId })
+      downloadBase64File({
+        ...result,
+        mimeType: `${result.mimeType};charset=windows-1252`,
+      })
+      toast({ title: "Export skapad", description: `Fil: ${result.filename}` })
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Kunde inte exportera gruppen"
+      toast({ title: "Misslyckades", description: message, variant: "destructive" })
+    }
+  }
+
+  const handleSoftDeleteGroup = async () => {
+    if (!activeGroupId) return
+    try {
+      await softDeleteGroup.mutateAsync({ id: activeGroupId })
+      await groupsQuery.refetch()
+      setActiveGroupId(null)
+      toast({ title: "Gruppen raderad", description: "Gruppen har markerats som raderad." })
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Kunde inte radera gruppen"
+      toast({ title: "Misslyckades", description: message, variant: "destructive" })
+    }
+  }
+
   const handleExport = async (format: "csv" | "json" | "xlsx") => {
     const result = await exportAssociations.mutateAsync({
       format,
       search: searchTerm.trim() || undefined,
       municipalityIds: effectiveMunicipalityIds.length ? effectiveMunicipalityIds : undefined,
     })
-    const binary = atob(result.data)
-    const buffer = new Uint8Array(binary.length)
-    for (let i = 0; i < binary.length; i++) {
-      buffer[i] = binary.charCodeAt(i)
-    }
-    const blob = new Blob([buffer], { type: result.mimeType })
-    const url = URL.createObjectURL(blob)
-    const link = document.createElement("a")
-    link.href = url
-    link.download = result.filename
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-    URL.revokeObjectURL(url)
+    downloadBase64File(result)
     toast({ title: "Export skapad", description: `Fil: ${result.filename}` })
   }
 
@@ -618,6 +843,37 @@ export default function AssociationsPage() {
                   <SelectItem value="asc">Stigande</SelectItem>
                 </SelectContent>
               </Select>
+              <Select
+                value={activeGroupId ?? "__none"}
+                onValueChange={(value) => {
+                  if (value === "__none") {
+                    setActiveGroupId(null)
+                  } else {
+                    setActiveGroupId(value)
+                  }
+                }}
+                disabled={groupsQuery.isLoading}
+              >
+                <SelectTrigger className="w-full sm:w-48">
+                  <SelectValue
+                    placeholder={
+                      groupsQuery.isLoading
+                        ? "Laddar grupper..."
+                        : (groupsQuery.data?.length ?? 0) > 0
+                          ? "Välj grupp"
+                          : "Inga grupper tillgängliga"
+                    }
+                  />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="__none">Ingen grupp</SelectItem>
+                  {(groupsQuery.data ?? []).map((group) => (
+                    <SelectItem key={group.id} value={group.id}>
+                      {group.name} ({group._count?.memberships ?? 0})
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
             </div>
           </div>
 
@@ -635,8 +891,76 @@ export default function AssociationsPage() {
         </CardContent>
       </Card>
 
+      {isGroupMode && (
+        <div className="flex flex-col justify-between gap-3 rounded-lg border border-primary/30 bg-primary/5 p-4 md:flex-row md:items-center">
+          <div className="space-y-1">
+            <div className="flex items-center gap-2">
+              <h2 className="text-lg font-semibold">
+                {groupDetailsQuery.data?.name ?? "Vald grupp"}
+              </h2>
+              <Badge variant="secondary" className="gap-1">
+                <Users2 className="h-4 w-4" />
+                {groupDetailsQuery.data?._count?.memberships ?? groupMemberIds.size}
+              </Badge>
+              {groupDetailsQuery.isFetching ? (
+                <Loader2 className="h-4 w-4 animate-spin text-muted-foreground" />
+              ) : null}
+            </div>
+            {groupDetailsQuery.data?.description ? (
+              <p className="max-w-2xl text-sm text-muted-foreground">
+                {groupDetailsQuery.data.description}
+              </p>
+            ) : null}
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={handleGroupExport}
+              disabled={exportGroupMembers.isPending || softDeleteGroup.isPending}
+            >
+              {exportGroupMembers.isPending ? (
+                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+              ) : (
+                <Download className="mr-2 h-4 w-4" />
+              )}
+              Exportera CSV
+            </Button>
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button variant="destructive" size="sm" disabled={softDeleteGroup.isPending}>
+                  {softDeleteGroup.isPending ? (
+                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                  ) : (
+                    <Trash2 className="mr-2 h-4 w-4" />
+                  )}
+                  Radera grupp
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Radera grupp</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    Gruppen markeras som raderad men tas inte bort permanent. Vill du fortsätta?
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Avbryt</AlertDialogCancel>
+                  <AlertDialogAction onClick={() => handleSoftDeleteGroup()} disabled={softDeleteGroup.isPending}>
+                    Ja, radera
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+            <Button variant="ghost" size="sm" onClick={() => setActiveGroupId(null)}>
+              Rensa grupp
+            </Button>
+          </div>
+        </div>
+      )}
+
       <BulkActionsToolbar
-        selectedCount={selectedIds.size}
+        selectedCount={isGroupMode ? 0 : selectedIds.size}
         onClear={clearSelection}
         onExport={handleExport}
         onAddToGroup={() => setShowAddToGroupModal(true)}
@@ -693,6 +1017,13 @@ export default function AssociationsPage() {
                         checked={allVisibleSelected ? true : someVisibleSelected ? "indeterminate" : false}
                         onCheckedChange={handleToggleAllVisible}
                         aria-label="Välj alla synliga föreningar"
+                        disabled={
+                          isGroupMode &&
+                          (pendingMembershipIds.size > 0 ||
+                            softDeleteGroup.isPending ||
+                            addGroupMember.isPending ||
+                            removeGroupMember.isPending)
+                        }
                       />
                     </th>
                     <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wide text-muted-foreground">
@@ -744,7 +1075,9 @@ export default function AssociationsPage() {
                 <tbody className="divide-y divide-border">
                   {associations.map((association, index) => {
                     const primaryContact = association.contacts?.[0]
-                    const isSelected = selectedIds.has(association.id)
+                    const isMember = groupMemberIds.has(association.id)
+                    const isSelected = isGroupMode ? isMember : selectedIds.has(association.id)
+                    const isMembershipPending = pendingMembershipIds.has(association.id)
                     const typeValues = parseStringArray(association.types)
                     const activityValues = parseStringArray(association.activities)
                     const rowIndex = (page - 1) * limit + index + 1
@@ -755,7 +1088,11 @@ export default function AssociationsPage() {
                           {rowIndex}
                         </td>
                         <td className="px-4 py-3">
-                          <Checkbox checked={isSelected} onCheckedChange={() => toggleSelection(association.id)} />
+                          <Checkbox
+                            checked={isSelected}
+                            disabled={isGroupMode && (isMembershipPending || softDeleteGroup.isPending || addGroupMember.isPending || removeGroupMember.isPending)}
+                            onCheckedChange={(value) => handleAssociationSelection(association.id, value === true)}
+                          />
                         </td>
                         <td className="px-4 py-3 text-sm">
                           <div className="font-medium">{association.municipality ?? "Okänd"}</div>
@@ -995,7 +1332,9 @@ export default function AssociationsPage() {
           ) : viewMode === "card" ? (
             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
               {associations.map((association) => {
-                const isSelected = selectedIds.has(association.id)
+                const isMember = groupMemberIds.has(association.id)
+                const isSelected = isGroupMode ? isMember : selectedIds.has(association.id)
+                const isMembershipPending = pendingMembershipIds.has(association.id)
                 const primaryContact = association.contacts?.[0]
                 return (
                   <Card key={association.id} className={isSelected ? "border-primary" : undefined}>
@@ -1004,7 +1343,11 @@ export default function AssociationsPage() {
                         <CardTitle className="text-lg">{association.name}</CardTitle>
                         <p className="text-xs text-muted-foreground">{association.municipality ?? "Okänd kommun"}</p>
                       </div>
-                      <Checkbox checked={isSelected} onCheckedChange={() => toggleSelection(association.id)} />
+                      <Checkbox
+                        checked={isSelected}
+                        disabled={isGroupMode && (isMembershipPending || softDeleteGroup.isPending || addGroupMember.isPending || removeGroupMember.isPending)}
+                        onCheckedChange={(value) => handleAssociationSelection(association.id, value === true)}
+                      />
                     </CardHeader>
                     <CardContent className="space-y-3">
                       <div className="flex flex-wrap items-center gap-2 text-xs">
@@ -1056,7 +1399,7 @@ export default function AssociationsPage() {
             </div>
           ) : (
             <div className="flex flex-col items-center justify-center gap-2 rounded-md border border-dashed p-12 text-center text-muted-foreground">
-              <Map className="h-8 w-8" />
+              <MapIcon className="h-8 w-8" />
               <p>Kartvy kommer snart. Under tiden visas föreningarna i tabell eller kortvy.</p>
             </div>
           )}
