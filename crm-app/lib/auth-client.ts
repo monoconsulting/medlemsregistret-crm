@@ -1,19 +1,25 @@
 import { z } from 'zod'
-import { resolveApiUrl } from '@/lib/api-base'
-import { ensureCsrfToken } from '@/lib/csrf'
-import { CSRF_HEADER_NAME } from '@/lib/security/constants'
+import {
+  ApiError,
+  ensureCsrfCookie,
+  getSession as fetchSessionFromApi,
+  login as apiLogin,
+  logout as apiLogout,
+  type LoginResponse,
+} from '@/lib/api'
 import { AUTH_FLOW_HEADER } from '@/lib/auth-flow/constants'
 import { getAuthFlowId, logAuthClientEvent } from '@/lib/auth-flow/client'
 
 const roleSchema = z.enum(['ADMIN', 'MANAGER', 'USER'])
 
 const sessionSchema = z.object({
+  authenticated: z.boolean().optional(),
   user: z
     .object({
-      id: z.string(),
-      email: z.string().nullable().optional(),
+      id: z.union([z.string(), z.number()]),
+      email: z.string().email().nullable().optional(),
       name: z.string().nullable().optional(),
-      role: roleSchema,
+      role: roleSchema.nullable().optional(),
     })
     .nullable()
     .optional(),
@@ -32,123 +38,129 @@ export interface AuthSession {
   user: AuthSessionUser
 }
 
-export interface AuthError {
-  error?: string
+function normalizeRole(role: AuthRole | null | undefined): AuthRole {
+  return role && roleSchema.safeParse(role).success ? role : 'ADMIN'
 }
 
 export async function fetchSession(): Promise<AuthSession | null> {
-  const flowId = getAuthFlowId()
-  const response = await fetch(resolveApiUrl('/api/auth/me'), {
-    credentials: 'include',
-    headers: flowId ? { [AUTH_FLOW_HEADER]: flowId } : undefined,
-  })
+  try {
+    const payload = await fetchSessionFromApi()
+    const parsed = sessionSchema.safeParse(payload)
 
-  if (!response.ok) {
+    if (!parsed.success) {
+      logAuthClientEvent({
+        stage: 'client.auth.fetch-session.invalid-payload',
+        severity: 'warn',
+        context: { parsed: parsed.success },
+      })
+      return null
+    }
+
+    if (!parsed.data.authenticated || !parsed.data.user) {
+      logAuthClientEvent({
+        stage: 'client.auth.fetch-session.unauthenticated',
+        severity: 'debug',
+      })
+      return null
+    }
+
+    const rawUser = parsed.data.user
+    const normalizedUser: AuthSessionUser = {
+      id: String(rawUser.id),
+      email: rawUser.email ?? null,
+      name: rawUser.name ?? null,
+      role: normalizeRole(rawUser.role ?? undefined),
+    }
+
     logAuthClientEvent({
-      stage: 'client.auth.fetch-session.missing-session',
-      severity: 'debug',
-      context: { status: response.status },
+      stage: 'client.auth.fetch-session.success',
+      context: {
+        userId: normalizedUser.id,
+        role: normalizedUser.role,
+      },
     })
-    return null
-  }
 
-  const payload = await response.json()
-  const parsed = sessionSchema.safeParse(payload)
-  if (!parsed.success || !parsed.data.user) {
+    return { user: normalizedUser }
+  } catch (error) {
+    if (error instanceof ApiError && error.status === 401) {
+      logAuthClientEvent({
+        stage: 'client.auth.fetch-session.unauthorized',
+        severity: 'debug',
+        context: { status: error.status },
+      })
+      return null
+    }
+
     logAuthClientEvent({
-      stage: 'client.auth.fetch-session.invalid-payload',
-      severity: 'warn',
-      context: { parsed: parsed.success, hasUser: parsed.success ? !!parsed.data.user : null },
+      stage: 'client.auth.fetch-session.error',
+      severity: 'error',
+      error: error instanceof Error ? { message: error.message, stack: error.stack } : undefined,
     })
-    return null
+    throw error
   }
-
-  const u = parsed.data.user
-
-  logAuthClientEvent({
-    stage: 'client.auth.fetch-session.success',
-    context: {
-      userId: u?.id ?? null,
-      role: u?.role ?? null,
-    },
-  })
-
-  const normalizedUser: AuthSessionUser = {
-    id: u.id,
-    role: u.role,
-    email: u.email ?? null,
-    name: u.name ?? null,
-  }
-
-  return { user: normalizedUser }
-
-}
-
-async function buildCsrfHeaders(baseHeaders?: HeadersInit): Promise<Headers> {
-  const headers = new Headers(baseHeaders)
-  const token = await ensureCsrfToken(() =>
-    fetch(resolveApiUrl('/api/auth/me'), {
-      credentials: 'include',
-    }),
-  )
-
-  if (token) {
-    headers.set(CSRF_HEADER_NAME, token)
-  }
-
-  return headers
 }
 
 export async function loginRequest(email: string, password: string): Promise<{ ok: boolean; error?: string }> {
-  const headers = await buildCsrfHeaders({
-    'Content-Type': 'application/json',
-  })
   const flowId = getAuthFlowId()
-  if (flowId) {
-    headers.set(AUTH_FLOW_HEADER, flowId)
-  }
+  const headers = flowId ? { [AUTH_FLOW_HEADER]: flowId } : undefined
 
-  const response = await fetch(resolveApiUrl('/api/auth/login'), {
-    method: 'POST',
-    headers,
-    credentials: 'include',
-    body: JSON.stringify({ email, password }),
-  })
+  try {
+    const result: LoginResponse = await apiLogin(email, password, { headers })
+    if (!result.success) {
+      logAuthClientEvent({
+        stage: 'client.auth.login.failed-result',
+        severity: 'warn',
+        context: { status: 'application', email },
+      })
+      return {
+        ok: false,
+        error: result.error ?? 'Inloggningen misslyckades',
+      }
+    }
 
-  if (response.ok) {
+    await ensureCsrfCookie().catch((csrfError) => {
+      logAuthClientEvent({
+        stage: 'client.auth.login.ensure-csrf.failed',
+        severity: 'warn',
+        error: csrfError instanceof Error ? { message: csrfError.message, stack: csrfError.stack } : undefined,
+      })
+    })
+
     logAuthClientEvent({
       stage: 'client.auth.login.success',
-      context: { status: response.status },
+      context: { status: 'ok', email },
     })
-    return { ok: true }
-  }
 
-  const data = (await response.json().catch(() => null)) as AuthError | null
-  logAuthClientEvent({
-    stage: 'client.auth.login.failed',
-    severity: 'warn',
-    context: { status: response.status },
-  })
-  return {
-    ok: false,
-    error: data?.error ?? 'Inloggningen misslyckades',
+    return { ok: true }
+  } catch (error) {
+    const message = error instanceof ApiError ? error.message : 'Inloggningen misslyckades'
+    logAuthClientEvent({
+      stage: 'client.auth.login.error',
+      severity: 'error',
+      error: error instanceof Error ? { message: error.message, stack: error.stack } : undefined,
+    })
+
+    return {
+      ok: false,
+      error: message,
+    }
   }
 }
 
 export async function logoutRequest(): Promise<void> {
-  const headers = await buildCsrfHeaders()
   const flowId = getAuthFlowId()
-  if (flowId) {
-    headers.set(AUTH_FLOW_HEADER, flowId)
+  const headers = flowId ? { [AUTH_FLOW_HEADER]: flowId } : undefined
+
+  try {
+    await apiLogout({ headers })
+    logAuthClientEvent({
+      stage: 'client.auth.logout.completed',
+    })
+  } catch (error) {
+    logAuthClientEvent({
+      stage: 'client.auth.logout.error',
+      severity: 'warn',
+      error: error instanceof Error ? { message: error.message, stack: error.stack } : undefined,
+    })
   }
-
-  await fetch(resolveApiUrl('/api/auth/logout'), {
-    method: 'POST',
-    headers,
-    credentials: 'include',
-  })
-
-  logAuthClientEvent({
-    stage: 'client.auth.logout.completed',
-  })
 }

@@ -9,7 +9,6 @@ import {
   useState,
   type ReactNode,
 } from 'react'
-import { SessionProvider, useSession, signIn, signOut } from 'next-auth/react'
 import {
   fetchSession,
   loginRequest,
@@ -33,11 +32,9 @@ interface AuthContextValue {
   refresh: () => Promise<void>
 }
 
-const backendAuthEnabled = true
-
 const AuthContext = createContext<AuthContextValue | undefined>(undefined)
 
-function BackendAuthProvider({ children }: { children: ReactNode }) {
+function AuthProviderImpl({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<AuthSession | null>(null)
   const [status, setStatus] = useState<AuthStatus>('loading')
 
@@ -47,6 +44,7 @@ function BackendAuthProvider({ children }: { children: ReactNode }) {
       stage: 'client.auth.refresh.start',
       context: { flowId: getAuthFlowId() },
     })
+
     try {
       const next = await fetchSession()
       if (next) {
@@ -141,78 +139,8 @@ function BackendAuthProvider({ children }: { children: ReactNode }) {
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
 
-function NextAuthContextProvider({ children }: { children: ReactNode }) {
-  const { data: session, status, update } = useSession()
-
-  const login = useCallback(
-    async (email: string, password: string): Promise<LoginResult> => {
-      const result = await signIn('credentials', {
-        redirect: false,
-        email,
-        password,
-      })
-
-      if (result?.error) {
-        return {
-          ok: false,
-          error: result.error ?? 'Inloggningen misslyckades',
-        }
-      }
-
-      await update()
-      return { ok: true }
-    },
-    [update],
-  )
-
-  const logout = useCallback(async () => {
-    await signOut({ redirect: false })
-    await update()
-  }, [update])
-
-  const refresh = useCallback(async () => {
-    await update()
-  }, [update])
-
-  const normalizedSession: AuthSession | null = useMemo(() => {
-    if (!session?.user) {
-      return null
-    }
-
-    return {
-      user: {
-        id: session.user.id,
-        email: session.user.email ?? null,
-        name: session.user.name ?? null,
-        role: session.user.role as AuthSession['user']['role'],
-      },
-    }
-  }, [session])
-
-  const value = useMemo<AuthContextValue>(
-    () => ({
-      session: normalizedSession,
-      status: status as AuthStatus,
-      login,
-      logout,
-      refresh,
-    }),
-    [normalizedSession, status, login, logout, refresh],
-  )
-
-  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
-}
-
 export function AuthProvider({ children }: { children: ReactNode }) {
-  if (backendAuthEnabled) {
-    return <BackendAuthProvider>{children}</BackendAuthProvider>
-  }
-
-  return (
-    <SessionProvider>
-      <NextAuthContextProvider>{children}</NextAuthContextProvider>
-    </SessionProvider>
-  )
+  return <AuthProviderImpl>{children}</AuthProviderImpl>
 }
 
 export function useAuth(): AuthContextValue {
