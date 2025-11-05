@@ -1,0 +1,404 @@
+<?php
+/**
+ * Associations endpoint
+ *
+ * GET:
+ *   - List associations with filters and pagination.
+ *   - Query params:
+ *       q: string (search in name/description)
+ *       municipality: string (either ID or name)
+ *       type: string
+ *       status: string
+ *       tags[]: repeated (tag names or IDs)
+ *       page: number (default 1)
+ *       pageSize: number (default 20, max 100)
+ *       sort: name_asc|name_desc|updated_asc|updated_desc
+ *
+ * POST:
+ *   - Create association (requires auth + CSRF).
+ * PUT/PATCH:
+ *   - Update association by id in body (requires auth + CSRF).
+ * DELETE ?id=:
+ *   - Soft-delete association (requires auth + CSRF).
+ *
+ * @package API
+ */
+
+declare(strict_types=1);
+require __DIR__ . '/bootstrap.php';
+
+/**
+ * Helper to bind parameters with references.
+ *
+ * @param mysqli_stmt $stmt
+ * @param string $types
+ * @param array<int, mixed> $params
+ */
+function bind_all(mysqli_stmt $stmt, string $types, array &$params): void {
+  if (empty($params)) {
+    return;
+  }
+  $refs = [];
+  foreach ($params as $i => $value) {
+    $refs[$i] = &$params[$i];
+  }
+  array_unshift($refs, $types);
+
+  // Call bind_param with proper references
+  call_user_func_array([$stmt, 'bind_param'], $refs);
+}
+
+$method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+
+if ($method === 'GET') {
+  require_auth();
+  // ---------- Filters ----------
+  $q            = isset($_GET['q']) ? trim((string)$_GET['q']) : '';
+  $municipality = isset($_GET['municipality']) ? trim((string)$_GET['municipality']) : '';
+  $type         = isset($_GET['type']) ? trim((string)$_GET['type']) : '';
+  $status       = isset($_GET['status']) ? trim((string)$_GET['status']) : '';
+  $tagsRaw      = $_GET['tags'] ?? [];
+  $tags         = [];
+  if (is_array($tagsRaw)) {
+    $tags = $tagsRaw;
+  } elseif ($tagsRaw !== '') {
+    $tags = [$tagsRaw];
+  }
+
+  $page     = max(1, (int)($_GET['page'] ?? 1));
+  $pageSize = (int)($_GET['pageSize'] ?? 20);
+  if ($pageSize <= 0) $pageSize = 20;
+  if ($pageSize > 100) $pageSize = 100;
+  $offset = ($page - 1) * $pageSize;
+
+  $sortSql = order_by($_GET['sort'] ?? null);
+
+  log_event('api', 'associations.request', [
+    'page' => $page,
+    'pageSize' => $pageSize,
+    'filters' => [
+      'q' => $q !== '' ? $q : null,
+      'municipality' => $municipality !== '' ? $municipality : null,
+      'type' => $type !== '' ? $type : null,
+      'status' => $status !== '' ? $status : null,
+      'tags' => $tags,
+    ],
+  ]);
+
+  // ---------- Base query ----------
+  $where = ['a.deletedAt IS NULL'];
+  $params = [];
+  $types = '';
+
+  if ($q !== '') {
+    $where[] = '(a.name LIKE CONCAT("%", ?, "%") OR a.description LIKE CONCAT("%", ?, "%"))';
+    $params[] = $q; $types .= 's';
+    $params[] = $q; $types .= 's';
+  }
+
+  if ($municipality !== '') {
+    if (ctype_digit($municipality)) {
+      $where[] = 'a.municipalityId = ?';
+      $params[] = (int)$municipality; $types .= 'i';
+    } else {
+      $where[] = 'a.municipalityId IN (SELECT id FROM Municipality WHERE name = ?)';
+      $params[] = $municipality; $types .= 's';
+    }
+  }
+
+  if ($type !== '') {
+    $where[] = 'a.types LIKE CONCAT("%", ?, "%")';
+    $params[] = $type; $types .= 's';
+  }
+
+  if ($status !== '') {
+    $where[] = 'a.crmStatus = ?';
+    $params[] = $status; $types .= 's';
+  }
+
+  $tagJoin = '';
+  if (count($tags) > 0) {
+    $placeholders = [];
+    $tagTypes = '';
+    $tagParams = [];
+    foreach ($tags as $t) {
+      if (ctype_digit((string)$t)) {
+        $placeholders[] = '?';
+        $tagTypes .= 'i';
+        $tagParams[] = (int)$t;
+      } else {
+        $placeholders[] = '(SELECT id FROM Tag WHERE name = ?)';
+        $tagTypes .= 's';
+        $tagParams[] = (string)$t;
+      }
+    }
+    $tagJoin = 'INNER JOIN _AssociationTags at ON at.A = a.id';
+    $where[] = 'at.B IN (' . implode(',', $placeholders) . ')';
+    $types .= $tagTypes;
+    $params = array_merge($params, $tagParams);
+  }
+
+  $whereSql = count($where) ? ('WHERE ' . implode(' AND ', $where)) : '';
+
+  // ---------- Count ----------
+  $countSql = "SELECT COUNT(DISTINCT a.id) AS cnt
+               FROM Association a
+               $tagJoin
+               $whereSql";
+  $stmt = db()->prepare($countSql);
+  if ($types !== '') {
+    bind_all($stmt, $types, $params);
+  }
+  $stmt->execute();
+  $cntRes = $stmt->get_result()->fetch_assoc();
+  $total = (int)($cntRes['cnt'] ?? 0);
+
+  // ---------- Items ----------
+  $sql = "SELECT a.id, a.name, a.municipalityId AS municipality_id, m.name AS municipality_name,
+                 a.types AS type, a.crmStatus AS status, a.email, a.phone,
+                 a.streetAddress AS address, a.homepageUrl AS website, a.description,
+                 a.createdAt AS created_at, a.updatedAt AS updated_at, a.deletedAt AS deleted_at
+          FROM Association a
+          LEFT JOIN Municipality m ON m.id = a.municipalityId
+          $tagJoin
+          $whereSql
+          $sortSql
+          LIMIT ? OFFSET ?";
+
+  $stmt2 = db()->prepare($sql);
+  $params2 = $params;
+  $types2 = $types . 'ii';
+  $params2[] = $pageSize;
+  $params2[] = $offset;
+  bind_all($stmt2, $types2, $params2);
+  $stmt2->execute();
+  $res = $stmt2->get_result();
+
+  $items = [];
+  $items = [];
+  $assocIds = [];
+  while ($row = $res->fetch_assoc()) {
+    $id = (int)$row['id'];
+    $assocIds[] = $id;
+    $items[$id] = [
+      'id' => $id,
+      'name' => $row['name'],
+      'municipality_id' => $row['municipality_id'] !== null ? (int)$row['municipality_id'] : null,
+      'municipality_name' => $row['municipality_name'],
+      'type' => $row['type'],
+      'status' => $row['status'],
+      'email' => $row['email'],
+      'phone' => $row['phone'],
+      'address' => $row['address'],
+      'website' => $row['website'],
+      'description' => $row['description'],
+      'created_at' => $row['created_at'],
+      'updated_at' => $row['updated_at'],
+      'deleted_at' => $row['deleted_at'],
+      'tags' => [],
+    ];
+  }
+
+  if (count($assocIds) > 0) {
+    $placeholders = implode(',', array_fill(0, count($assocIds), '?'));
+    $tagSql = "SELECT at.A AS association_id, t.id, t.name
+               FROM _AssociationTags at
+               INNER JOIN Tag t ON t.id = at.B
+               WHERE at.A IN ($placeholders)
+               ORDER BY t.name ASC";
+    $stmtTags = db()->prepare($tagSql);
+    $typesTags = str_repeat('i', count($assocIds));
+    bind_all($stmtTags, $typesTags, $assocIds);
+    $stmtTags->execute();
+    $tagRes = $stmtTags->get_result();
+    while ($tagRow = $tagRes->fetch_assoc()) {
+      $aid = (int)$tagRow['association_id'];
+      if (!isset($items[$aid])) {
+        continue;
+      }
+      $items[$aid]['tags'][] = [
+        'id' => (int)$tagRow['id'],
+        'name' => $tagRow['name'],
+      ];
+    }
+  }
+
+  $items = array_values($items);
+
+  log_event('api', 'associations.response', [
+    'page' => $page,
+    'pageSize' => $pageSize,
+    'returned' => count($items),
+    'total' => $total,
+  ]);
+
+  json_out(200, [
+    'items' => $items,
+    'total' => $total,
+    'page' => $page,
+    'pageSize' => $pageSize,
+  ]);
+}
+
+if ($method === 'POST') {
+  require_auth();
+  require_csrf();
+  rate_limit('associations-write', 30, 60);
+  $b = read_json();
+
+  $name = normalize_nullable_string($b['name'] ?? '', 255);
+  if ($name === '') json_out(400, ['error' => 'name is required']);
+
+  $municipality_id = isset($b['municipality_id']) && $b['municipality_id'] !== '' ? (int)$b['municipality_id'] : 0;
+  $typeParam        = normalize_association_type($b['type'] ?? null);
+  $statusParam      = normalize_association_status($b['status'] ?? null);
+  $emailParam       = normalize_email($b['email'] ?? null);
+  $phoneParam       = normalize_nullable_string($b['phone'] ?? null, 50);
+  $addressParam     = normalize_nullable_string($b['address'] ?? null, 255);
+  $websiteParam     = normalize_url($b['website'] ?? null);
+  $descriptionParam = normalize_nullable_string($b['description'] ?? null, 5000);
+
+  $sql = 'INSERT INTO associations
+          (name, municipality_id, type, status, email, phone, address, website, description, created_at, updated_at)
+          VALUES (
+            ?,
+            NULLIF(?, 0),
+            NULLIF(TRIM(?), ""),
+            NULLIF(TRIM(?), ""),
+            NULLIF(TRIM(?), ""),
+            NULLIF(TRIM(?), ""),
+            NULLIF(TRIM(?), ""),
+            NULLIF(TRIM(?), ""),
+            NULLIF(TRIM(?), ""),
+            NOW(),
+            NOW()
+          )';
+  $stmt = db()->prepare($sql);
+  $stmt->bind_param(
+    'sisssssss',
+    $name,
+    $municipality_id,
+    $typeParam,
+    $statusParam,
+    $emailParam,
+    $phoneParam,
+    $addressParam,
+    $websiteParam,
+    $descriptionParam
+  );
+  $stmt->execute();
+  $newId = (int)db()->insert_id;
+  log_event('api', 'associations.created', ['id' => $newId]);
+  json_out(200, ['id' => $newId]);
+}
+
+if ($method === 'PUT' || $method === 'PATCH') {
+  require_auth();
+  require_csrf();
+  rate_limit('associations-write', 30, 60);
+  $b = read_json();
+  $id = isset($b['id']) ? (int)$b['id'] : 0;
+  if ($id <= 0) json_out(400, ['error' => 'id is required']);
+
+  $fields = [
+    'name', 'municipality_id', 'type', 'status',
+    'email', 'phone', 'address', 'website', 'description'
+  ];
+
+  $set = [];
+  $types = '';
+  $vals = [];
+
+  foreach ($fields as $field) {
+    if (!array_key_exists($field, $b)) {
+      continue;
+    }
+    $value = $b[$field];
+    if ($field === 'municipality_id') {
+      if ($value === null || $value === '') {
+        $set[] = 'municipality_id = NULL';
+      } else {
+        $set[] = 'municipality_id = ?';
+        $types .= 'i';
+        $vals[] = (int)$value;
+      }
+      continue;
+    }
+
+    if ($value === null || $value === '') {
+      $set[] = $field . ' = NULL';
+    } else {
+      switch ($field) {
+        case 'name':
+          $normalized = normalize_nullable_string($value, 255);
+          if ($normalized === '') json_out(400, ['error' => 'name cannot be empty']);
+          break;
+        case 'type':
+          $normalized = normalize_association_type($value);
+          break;
+        case 'status':
+          $normalized = normalize_association_status($value);
+          break;
+        case 'email':
+          $normalized = normalize_email($value);
+          break;
+        case 'website':
+          $normalized = normalize_url($value);
+          break;
+        case 'phone':
+          $normalized = normalize_nullable_string($value, 50);
+          break;
+        case 'address':
+          $normalized = normalize_nullable_string($value, 255);
+          break;
+        case 'description':
+          $normalized = normalize_nullable_string($value, 5000);
+          break;
+        default:
+          $normalized = normalize_nullable_string($value, 255);
+          break;
+      }
+
+      if ($normalized === '') {
+        $set[] = $field . ' = NULL';
+      } else {
+        $set[] = $field . ' = ?';
+        $types .= 's';
+        $vals[] = $normalized;
+      }
+    }
+  }
+
+  if (count($set) === 0) {
+    json_out(400, ['error' => 'No fields to update']);
+  }
+
+  $sql = 'UPDATE associations SET ' . implode(', ', $set) . ', updated_at = NOW() WHERE id = ? AND deleted_at IS NULL';
+  $types .= 'i';
+  $vals[] = $id;
+
+  $stmt = db()->prepare($sql);
+  bind_all($stmt, $types, $vals);
+  $stmt->execute();
+  log_event('api', 'associations.updated', [
+    'id' => $id,
+    'fields' => array_values(array_intersect($fields, array_keys($b))),
+  ]);
+  json_out(200, ['ok' => true]);
+}
+
+if ($method === 'DELETE') {
+  require_auth();
+  require_csrf();
+  rate_limit('associations-write', 20, 60);
+  $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+  if ($id <= 0) json_out(400, ['error' => 'id is required']);
+
+  $stmt = db()->prepare('UPDATE associations SET deleted_at = NOW() WHERE id = ? AND deleted_at IS NULL');
+  $stmt->bind_param('i', $id);
+  $stmt->execute();
+  log_event('api', 'associations.deleted', ['id' => $id]);
+  json_out(200, ['ok' => true]);
+}
+
+json_out(405, ['error' => 'Method not allowed']);

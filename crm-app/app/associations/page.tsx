@@ -1,7 +1,9 @@
 "use client"
 
-import { useCallback, useEffect, useMemo, useState } from "react"
-import { useRouter } from "next/navigation"
+import type { JSX } from "react"
+import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
+import type { ReadonlyURLSearchParams } from "next/navigation"
 import { format } from "date-fns"
 import { sv } from "date-fns/locale"
 import {
@@ -38,7 +40,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { useToast } from "@/hooks/use-toast"
 import { api, type Association, type AssocFilters, type Municipality, type Note, type Tag } from "@/lib/api"
 import { useAuth } from "@/lib/providers/auth-provider"
-import { Loader2, Plus, RefreshCcw, Tag as TagIcon, Notebook, Pencil, Trash2, Filter } from "lucide-react"
+import { Loader2, Plus, RefreshCcw, Tag as TagIcon, Notebook, Pencil, Trash2, Filter, X } from "lucide-react"
 
 interface AssociationRecord extends Association {
   tags: Tag[]
@@ -56,8 +58,18 @@ interface AssociationFormState {
   description: string
 }
 
-const DEFAULT_FILTERS: Required<Pick<AssocFilters, "page" | "pageSize" | "sort">> &
-  Omit<AssocFilters, "page" | "pageSize" | "sort"> = {
+type AssociationsFiltersState = {
+  q: string
+  municipality: string
+  type: string
+  status: string
+  tags: string[]
+  page: number
+  pageSize: number
+  sort: NonNullable<AssocFilters["sort"]>
+}
+
+const DEFAULT_FILTERS: AssociationsFiltersState = {
   q: "",
   municipality: "",
   type: "",
@@ -77,11 +89,121 @@ const SORT_OPTIONS = [
 
 const PAGE_SIZE_OPTIONS = [10, 20, 50, 100]
 
-export default function AssociationsPage() {
+function parseFiltersFromParams(params: ReadonlyURLSearchParams): AssociationsFiltersState {
+  const next: AssociationsFiltersState = {
+    ...DEFAULT_FILTERS,
+  }
+
+  const qValue = params.get("q")
+  if (qValue !== null) {
+    next.q = qValue
+  }
+
+  const municipalityValue = params.get("municipality")
+  if (municipalityValue) {
+    next.municipality = municipalityValue
+  }
+
+  const typeValue = params.get("type")
+  if (typeValue) {
+    next.type = typeValue
+  }
+
+  const statusValue = params.get("status")
+  if (statusValue) {
+    next.status = statusValue
+  }
+
+  const tagsValue = params.get("tags")
+  if (tagsValue) {
+    next.tags = tagsValue
+      .split(",")
+      .map((value) => value.trim())
+      .filter(Boolean)
+  }
+
+  const pageValue = Number.parseInt(params.get("page") ?? "", 10)
+  if (Number.isInteger(pageValue) && pageValue > 0) {
+    next.page = pageValue
+  }
+
+  const pageSizeValue = Number.parseInt(params.get("pageSize") ?? "", 10)
+  if (Number.isInteger(pageSizeValue) && PAGE_SIZE_OPTIONS.includes(pageSizeValue)) {
+    next.pageSize = pageSizeValue
+  }
+
+  const sortValue = params.get("sort")
+  if (sortValue && SORT_OPTIONS.some((option) => option.value === sortValue)) {
+    next.sort = sortValue as AssociationsFiltersState["sort"]
+  }
+
+  return next
+}
+
+function buildQueryFromFilters(filters: AssociationsFiltersState): string {
+  const params = new URLSearchParams()
+
+  if (filters.q) {
+    params.set("q", filters.q)
+  }
+
+  if (filters.municipality) {
+    params.set("municipality", filters.municipality)
+  }
+
+  if (filters.type) {
+    params.set("type", filters.type)
+  }
+
+  if (filters.status) {
+    params.set("status", filters.status)
+  }
+
+  if (filters.tags.length > 0) {
+    params.set("tags", filters.tags.join(","))
+  }
+
+  if (filters.page !== DEFAULT_FILTERS.page) {
+    params.set("page", String(filters.page))
+  }
+
+  if (filters.pageSize !== DEFAULT_FILTERS.pageSize) {
+    params.set("pageSize", String(filters.pageSize))
+  }
+
+  if (filters.sort !== DEFAULT_FILTERS.sort) {
+    params.set("sort", filters.sort)
+  }
+
+  return params.toString()
+}
+
+export default function AssociationsPage(): JSX.Element {
+  return (
+    <Suspense fallback={<AssociationsPageFallback />}>
+      <AssociationsPageInner />
+    </Suspense>
+  )
+}
+
+function AssociationsPageFallback(): JSX.Element {
+  return (
+    <div className="flex min-h-[320px] items-center justify-center gap-2 text-muted-foreground">
+      <Loader2 className="h-4 w-4 animate-spin" />
+      <span>Laddar föreningar...</span>
+    </div>
+  )
+}
+
+function AssociationsPageInner(): JSX.Element {
   const { toast } = useToast()
   const { logout, refresh } = useAuth()
   const router = useRouter()
-  const [filters, setFilters] = useState(DEFAULT_FILTERS)
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+  const [filters, setFilters] = useState<AssociationsFiltersState>(() => parseFiltersFromParams(searchParams))
+  const lastSyncedQueryRef = useRef<string>(searchParams.toString())
+  const hasBootstrappedRef = useRef(false)
   const [loading, setLoading] = useState(false)
   const [associations, setAssociations] = useState<AssociationRecord[]>([])
   const [total, setTotal] = useState(0)
@@ -98,7 +220,7 @@ export default function AssociationsPage() {
 
   const [tagsOpen, setTagsOpen] = useState(false)
   const [tagAssociation, setTagAssociation] = useState<AssociationRecord | null>(null)
-  const [tagSelection, setTagSelection] = useState<number[]>([])
+  const [tagSelection, setTagSelection] = useState<string[]>([])
   const [newTagName, setNewTagName] = useState("")
   const [tagSubmitting, setTagSubmitting] = useState(false)
 
@@ -111,6 +233,38 @@ export default function AssociationsPage() {
 
   const [deleteTarget, setDeleteTarget] = useState<AssociationRecord | null>(null)
   const [deleteSubmitting, setDeleteSubmitting] = useState(false)
+
+  useEffect(() => {
+    const incomingQuery = searchParams.toString()
+    if (!hasBootstrappedRef.current) {
+      lastSyncedQueryRef.current = incomingQuery
+      return
+    }
+
+    if (incomingQuery === lastSyncedQueryRef.current) {
+      return
+    }
+
+    lastSyncedQueryRef.current = incomingQuery
+    setFilters(parseFiltersFromParams(searchParams))
+  }, [searchParams])
+
+  useEffect(() => {
+    const nextQuery = buildQueryFromFilters(filters)
+    if (!hasBootstrappedRef.current) {
+      hasBootstrappedRef.current = true
+      lastSyncedQueryRef.current = nextQuery
+      return
+    }
+
+    if (nextQuery === lastSyncedQueryRef.current) {
+      return
+    }
+
+    lastSyncedQueryRef.current = nextQuery
+    const target = nextQuery ? `${pathname}?${nextQuery}` : pathname
+    router.replace(target, { scroll: false })
+  }, [filters, pathname, router])
 
   const formDefaults: AssociationFormState = useMemo(() => {
     if (!formAssociation) {
@@ -140,6 +294,14 @@ export default function AssociationsPage() {
   }, [formAssociation])
 
   const pageCount = useMemo(() => Math.max(1, Math.ceil(total / filters.pageSize)), [total, filters.pageSize])
+
+  const selectedMunicipality = useMemo(() => {
+    if (!filters.municipality) {
+      return null
+    }
+
+    return municipalities.find((municipality) => String(municipality.id) === String(filters.municipality)) ?? null
+  }, [filters.municipality, municipalities])
 
   const loadAssociations = useCallback(async () => {
     setLoading(true)
@@ -188,11 +350,22 @@ export default function AssociationsPage() {
   }, [toast])
 
   const handleFilterChange = (next: Partial<AssocFilters>) => {
-    setFilters((prev) => ({
-      ...prev,
-      ...next,
-      page: next.page ?? 1,
-    }))
+    setFilters((prev) => {
+      const merged: AssociationsFiltersState = {
+        ...prev,
+        ...next,
+      }
+
+      if (next.page === undefined || (typeof next.page === "number" && next.page < 1)) {
+        merged.page = 1
+      }
+
+      return merged
+    })
+  }
+
+  const handleClearMunicipalityFilter = () => {
+    handleFilterChange({ municipality: "", page: 1 })
   }
 
   const handleCreateAssociation = () => {
@@ -211,7 +384,7 @@ export default function AssociationsPage() {
     setFormSubmitting(true)
     const payload: Partial<Association> = {
       name: values.name,
-      municipality_id: values.municipality_id ? Number(values.municipality_id) : null,
+      municipality_id: values.municipality_id ? values.municipality_id : null,
       type: values.type || null,
       status: values.status || null,
       email: values.email || null,
@@ -260,7 +433,7 @@ export default function AssociationsPage() {
     setTagsOpen(true)
   }
 
-  const toggleTag = async (tagId: number, checked: boolean) => {
+  const toggleTag = async (tagId: string, checked: boolean) => {
     if (!tagAssociation) return
     setTagSubmitting(true)
     try {
@@ -457,19 +630,34 @@ export default function AssociationsPage() {
             </Select>
           </div>
 
+          {selectedMunicipality ? (
+            <div className="flex flex-wrap items-center gap-2 rounded-md border border-dashed border-muted-foreground/40 bg-muted/40 p-3">
+              <span className="text-sm font-medium text-muted-foreground">Aktiv kommun:</span>
+              <Button
+                size="sm"
+                variant="secondary"
+                className="gap-1 rounded-full"
+                onClick={handleClearMunicipalityFilter}
+              >
+                {selectedMunicipality.name}
+                <X className="h-3 w-3" />
+              </Button>
+            </div>
+          ) : null}
+
           <div className="grid gap-4 md:grid-cols-[2fr,1fr,1fr]">
             <div className="rounded-md border p-3">
               <p className="text-xs font-semibold uppercase text-muted-foreground">Taggar</p>
               <div className="mt-2 flex flex-wrap gap-2">
                 {tags.map((tag) => {
-                  const checked = filters.tags?.includes(String(tag.id)) ?? false
+                  const checked = filters.tags.includes(String(tag.id))
                   return (
                     <button
                       key={tag.id}
                       type="button"
                       onClick={() => {
                         setFilters((prev) => {
-                          const current = new Set(prev.tags ?? [])
+                          const current = new Set(prev.tags)
                           if (current.has(String(tag.id))) current.delete(String(tag.id))
                           else current.add(String(tag.id))
                           return { ...prev, tags: Array.from(current), page: 1 }
@@ -786,11 +974,11 @@ function TagsDialog({
   onOpenChange: (open: boolean) => void
   association: AssociationRecord | null
   tags: Tag[]
-  selection: number[]
+  selection: string[]
   submitting: boolean
   newTagName: string
   onNewTagNameChange: (value: string) => void
-  onToggleTag: (tagId: number, checked: boolean) => void
+  onToggleTag: (tagId: string, checked: boolean) => void
   onCreateTag: () => Promise<void>
 }) {
   const selected = useMemo(() => new Set(selection), [selection])

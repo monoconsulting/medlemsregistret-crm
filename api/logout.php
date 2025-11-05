@@ -24,4 +24,6 @@ if (ini_get('session.use_cookies')) {
 }
 session_destroy();
 
+log_event('api', 'logout.success');
+
 json_out(200, ['ok' => true]);

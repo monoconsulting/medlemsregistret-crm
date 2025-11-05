@@ -9,6 +9,8 @@ All API calls are performed against the same origin as the statically exported f
 - **Authentication:** PHP session cookie issued by `login.php`.
 - **CSRF:** `GET /api/csrf.php` issues a readable `csrf` cookie. All state-changing requests must include an `X-CSRF-Token` header.
 - **Credentials:** All fetches use `credentials: 'include'`.
+- **Rate limiting:** State-changing requests are protected by in-session throttles (default: login 5/minute, association writes 30/minute, tag writes 20/minute, notes 40/minute). Exceeding the limit returns HTTP `429`.
+- **Validation:** `associations.status` must be one of the allowed enum values. Override defaults via `CRM_ALLOWED_ASSOC_STATUSES`. Association `type` is validated against `CRM_ALLOWED_ASSOC_TYPES` when provided. Email addresses and URLs must pass RFC validation; strings are trimmed and truncated to safe lengths.
 
 ## Endpoints
 

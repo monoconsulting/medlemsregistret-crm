@@ -1,0 +1,52 @@
+import { test, expect } from '@playwright/test'
+
+const BASE_URL = 'https://crm.medlemsregistret.se'
+const EMAIL = 'admin@crm.se'
+const PASSWORD = 'Admin!2025'
+
+test.use({
+  viewport: {
+    width: 1760,
+    height: 1256,
+  },
+})
+
+test('remote login shows dashboard and associations with correct layout', async ({ page }) => {
+  await page.goto(BASE_URL)
+
+  const loginLink = page.getByRole('link', { name: 'Gå till inloggning' })
+  await expect(loginLink).toBeVisible()
+  await page.goto(`${BASE_URL}/login`)
+
+  await expect(page.getByLabel('E-postadress')).toBeVisible()
+  await page.getByLabel('E-postadress').fill(EMAIL)
+  await page.getByLabel('Lösenord').fill(PASSWORD)
+  await page.getByRole('button', { name: 'Logga in' }).click()
+
+  await page.waitForURL(/\/dashboard/)
+
+  const heading = page.getByRole('heading', { level: 1, name: 'Dashboard' })
+  await expect(heading).toBeVisible()
+
+  const sidebar = page.locator('nav >> text=Föreningar')
+  await expect(sidebar).toBeVisible()
+
+  await expect(page.getByRole('button', { name: 'Gå till föreningar' })).toBeVisible()
+
+  await page.getByRole('link', { name: 'Föreningar' }).click()
+  await page.waitForURL(/\/associations/)
+
+  await expect(page.getByRole('heading', { level: 1, name: 'Föreningar' })).toBeVisible()
+  await expect(page.getByPlaceholder('Sök efter namn eller beskrivning')).toBeVisible()
+
+  await expect(page.getByRole('columnheader', { name: 'Namn' })).toBeVisible()
+  await expect(page.getByRole('columnheader', { name: 'Kommun' })).toBeVisible()
+  await expect(page.getByRole('columnheader', { name: 'Taggar' })).toBeVisible()
+  await expect(page.getByRole('columnheader', { name: 'Åtgärder' })).toBeVisible()
+
+  const firstRow = page.locator('table tbody tr').first()
+  await expect(firstRow).toBeVisible()
+  const rowText = await firstRow.textContent()
+  expect(rowText ?? '').not.toMatch(/Ã/)
+})
+

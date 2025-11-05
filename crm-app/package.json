@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "tsx scripts/start-dev.ts",
     "build": "next build",
+    "export": "npm run export:static",
     "export:static": "next build && node ./scripts/create-static-out.mjs",
     "start": "next start",
     "lint": "next lint",

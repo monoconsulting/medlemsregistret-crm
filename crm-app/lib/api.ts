@@ -17,6 +17,19 @@ interface JsonRequestInit extends Omit<RequestInit, "body"> {
 
 type AssocID = string;
 
+export type AuthRole = 'ADMIN' | 'MANAGER' | 'USER' | string;
+
+export interface AuthUser {
+  id: string;
+  email: string | null;
+  name: string | null;
+  role: AuthRole;
+}
+
+export interface AuthSession {
+  user: AuthUser;
+}
+
 export interface Pagination {
   page?: number;
   pageSize?: number;
@@ -93,8 +106,8 @@ function getCsrfFromCookie(): string | null {
  * Returns:
  *   Promise<void>
  */
-async function ensureCsrf(): Promise<void> {
-  if (getCsrfFromCookie()) return;
+async function ensureCsrf(force = false): Promise<void> {
+  if (getCsrfFromCookie() && !force) return;
   const res = await fetch(resolveBackendUrl('/api/csrf.php'), { method: 'GET', credentials: 'include' });
   if (!res.ok) {
     throw new Error(`Failed to obtain CSRF: ${res.status}`);
@@ -115,55 +128,68 @@ async function ensureCsrf(): Promise<void> {
 async function jsonFetch(url: string, options: JsonRequestInit = {}, needsCsrf = false): Promise<any> {
   const target = resolveBackendUrl(url);
   const { body: rawBody, headers: rawHeaders, ...rest } = options;
-  const headers = new Headers(rawHeaders as HeadersInit | undefined);
-  const init: RequestInit = {
+  const baseInit: RequestInit = {
     ...rest,
     credentials: 'include',
   };
 
-  if (needsCsrf) {
-    await ensureCsrf();
-    const token = getCsrfFromCookie();
-    if (!token) throw new Error('Missing CSRF token after ensureCsrf()');
-    headers.set('X-CSRF-Token', token);
-  }
+  const execute = async (forceCsrf: boolean, hasRetried: boolean): Promise<any> => {
+    const headers = new Headers(rawHeaders as HeadersInit | undefined);
+    const init: RequestInit = { ...baseInit };
 
-  const body = rawBody;
-  const hasCustomContentType = headers.has('Content-Type');
-  const isReadableStream =
-    typeof ReadableStream !== 'undefined' && body instanceof ReadableStream;
-  const isArrayBuffer = typeof ArrayBuffer !== 'undefined' && body instanceof ArrayBuffer;
-  const isSpecialBody =
-    body instanceof FormData ||
-    body instanceof URLSearchParams ||
-    body instanceof Blob ||
-    isArrayBuffer ||
-    isReadableStream ||
-    typeof body === 'string';
-
-  if (body !== undefined && !isSpecialBody) {
-    if (!hasCustomContentType) {
-      headers.set('Content-Type', 'application/json; charset=utf-8');
+    if (needsCsrf) {
+      await ensureCsrf(forceCsrf);
+      const token = getCsrfFromCookie();
+      if (!token) throw new Error('Missing CSRF token after ensureCsrf()');
+      headers.set('X-CSRF-Token', token);
     }
-    init.body = JSON.stringify(body);
-  }
 
-  init.headers = headers;
+    const body = rawBody;
+    const hasCustomContentType = headers.has('Content-Type');
+    const isReadableStream =
+      typeof ReadableStream !== 'undefined' && body instanceof ReadableStream;
+    const isArrayBuffer = typeof ArrayBuffer !== 'undefined' && body instanceof ArrayBuffer;
+    const isSpecialBody =
+      body instanceof FormData ||
+      body instanceof URLSearchParams ||
+      body instanceof Blob ||
+      isArrayBuffer ||
+      isReadableStream ||
+      typeof body === 'string';
 
-  const res = await fetch(target, init);
-  const text = await res.text();
-  let data: any = null;
-  try {
-    data = text ? JSON.parse(text) : null;
-  } catch {
-    // keep raw text for debugging
-    throw new Error(`Invalid JSON from ${url}: ${text?.slice(0, 200)}`);
-  }
-  if (!res.ok) {
-    const msg = data?.error || data?.message || `HTTP ${res.status}`;
-    throw new Error(msg);
-  }
-  return data;
+    if (body !== undefined) {
+      if (!isSpecialBody) {
+        if (!hasCustomContentType) {
+          headers.set('Content-Type', 'application/json; charset=utf-8');
+        }
+        init.body = JSON.stringify(body);
+      } else {
+        init.body = body as BodyInit;
+      }
+    }
+
+    init.headers = headers;
+
+    const res = await fetch(target, init);
+    const text = await res.text();
+    let data: any = null;
+    try {
+      data = text ? JSON.parse(text) : null;
+    } catch {
+      throw new Error(`Invalid JSON from ${url}: ${text?.slice(0, 200)}`);
+    }
+    if (!res.ok) {
+      const msg = data?.error || data?.message || `HTTP ${res.status}`;
+      const msgLower = typeof msg === 'string' ? msg.toLowerCase() : '';
+      if (needsCsrf && !hasRetried && msgLower.includes('csrf')) {
+        return execute(true, true);
+      }
+      throw new Error(msg);
+    }
+    return data;
+  };
+
+  return execute(false, false);
 }
 
 export const api = {
@@ -180,6 +206,34 @@ export const api = {
   async login(email: string, password: string): Promise<{ ok: boolean }> {
     const body = { email, password };
     return jsonFetch('/api/login.php', { method: 'POST', body }, true);
+  },
+
+  /**
+   * Retrieves the current authenticated session user, if any.
+   *
+   * Returns:
+   *   Promise<AuthSession | null>
+   */
+  async getSession(): Promise<AuthSession | null> {
+    const data = await jsonFetch('/api/auth/me.php', { method: 'GET' });
+    const rawUser = data?.user;
+    if (!rawUser || !rawUser.id) {
+      return null;
+    }
+
+    const role =
+      typeof rawUser.role === 'string' && rawUser.role
+        ? (rawUser.role.toUpperCase() as AuthRole)
+        : 'USER';
+
+    return {
+      user: {
+        id: String(rawUser.id),
+        email: rawUser.email ?? null,
+        name: rawUser.name ?? null,
+        role,
+      },
+    };
   },
 
   /**

@@ -19,45 +19,54 @@ $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 
 if ($method === 'GET') {
   require_auth();
-  $res = db()->query('SELECT id, name FROM tags ORDER BY name ASC');
+  $res = db()->query('SELECT id, CONVERT(name USING utf8mb4) AS name FROM Tag ORDER BY name ASC');
   $items = [];
   while ($row = $res->fetch_assoc()) {
-    $items[] = ['id' => (int)$row['id'], 'name' => $row['name']];
+    $items[] = [
+      'id' => (string)$row['id'],
+      'name' => normalize_utf8($row['name'] ?? null) ?? '',
+    ];
   }
+  log_event('api', 'tags.list', ['count' => count($items)]);
   json_out(200, ['items' => $items]);
 }
 
 require_auth();
 require_csrf();
+rate_limit('tags-write', 20, 60);
 
 $body = read_json();
 $action = isset($body['action']) ? (string)$body['action'] : '';
 
 if ($method === 'POST' && $action === '') {
-  $name = isset($body['name']) ? trim((string)$body['name']) : '';
+  $name = normalize_nullable_string($body['name'] ?? null, 120);
   if ($name === '') json_out(400, ['error' => 'Missing tag name']);
-  $stmt = db()->prepare('INSERT INTO tags (name) VALUES (?)');
-  $stmt->bind_param('s', $name);
+  $id = generate_id();
+  $stmt = db()->prepare('INSERT INTO Tag (id, name) VALUES (?, ?)');
+  $stmt->bind_param('ss', $id, $name);
   $stmt->execute();
-  json_out(200, ['id' => (int)db()->insert_id]);
+  log_event('api', 'tags.created', ['id' => $id]);
+  json_out(200, ['id' => $id]);
 }
 
 if ($method === 'POST' && ($action === 'attach' || $action === 'detach')) {
-  $assocId = isset($body['associationId']) ? (int)$body['associationId'] : 0;
-  $tagId   = isset($body['tagId']) ? (int)$body['tagId'] : 0;
-  if ($assocId <= 0 || $tagId <= 0) json_out(400, ['error' => 'associationId and tagId are required']);
+  $assocId = isset($body['associationId']) ? trim((string)$body['associationId']) : '';
+  $tagId   = isset($body['tagId']) ? trim((string)$body['tagId']) : '';
+  if ($assocId === '' || $tagId === '') json_out(400, ['error' => 'associationId and tagId are required']);
 
   if ($action === 'attach') {
-    $stmt = db()->prepare('INSERT IGNORE INTO association_tags (association_id, tag_id) VALUES (?, ?)');
-    $stmt->bind_param('ii', $assocId, $tagId);
+    $stmt = db()->prepare('INSERT IGNORE INTO _AssociationTags (A, B) VALUES (?, ?)');
+    $stmt->bind_param('ss', $assocId, $tagId);
     $stmt->execute();
+    log_event('api', 'tags.attached', ['associationId' => $assocId, 'tagId' => $tagId]);
     json_out(200, ['ok' => true]);
   }
 
   if ($action === 'detach') {
-    $stmt = db()->prepare('DELETE FROM association_tags WHERE association_id = ? AND tag_id = ?');
-    $stmt->bind_param('ii', $assocId, $tagId);
+    $stmt = db()->prepare('DELETE FROM _AssociationTags WHERE A = ? AND B = ?');
+    $stmt->bind_param('ss', $assocId, $tagId);
     $stmt->execute();
+    log_event('api', 'tags.detached', ['associationId' => $assocId, 'tagId' => $tagId]);
     json_out(200, ['ok' => true]);
   }
 }

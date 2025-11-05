@@ -1,6 +1,7 @@
 "use client"
 
-import { useState, type BaseSyntheticEvent } from "react"
+import type { JSX } from "react"
+import { useEffect, useState, type BaseSyntheticEvent } from "react"
 import { useRouter } from "next/navigation"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
@@ -11,6 +12,7 @@ import { Button } from "@/components/ui/button"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
 import { AlertCircle } from "lucide-react"
 import { useAuth } from "@/lib/providers/auth-provider"
+import { logClientEvent } from "@/lib/logging"
 
 const loginSchema = z.object({
   email: z.string().email("Ogiltig e-postadress"),
@@ -19,7 +21,7 @@ const loginSchema = z.object({
 
 type LoginSchema = z.infer<typeof loginSchema>
 
-export default function LoginPage() {
+export default function LoginPage(): JSX.Element {
   const router = useRouter()
   const { login, status } = useAuth()
   const [error, setError] = useState<string | null>(null)
@@ -33,17 +35,27 @@ export default function LoginPage() {
     },
   })
 
+  useEffect(() => {
+    logClientEvent("client.page.login.view")
+  }, [])
+
   const onSubmit = async (values: LoginSchema, event?: BaseSyntheticEvent) => {
     event?.preventDefault()
     setError(null)
     setIsSubmitting(true)
+    logClientEvent("client.page.login.submit", { email: values.email })
     const result = await login(values.email, values.password)
     setIsSubmitting(false)
     if (!result.ok) {
       setError(result.error ?? "Felaktig e-post eller lösenord")
+      logClientEvent("client.page.login.error", {
+        email: values.email,
+        error: result.error ?? "unknown",
+      })
       return
     }
-    router.replace("/associations")
+    logClientEvent("client.page.login.redirect")
+    router.replace("/dashboard")
   }
 
   return (
@@ -51,7 +63,9 @@ export default function LoginPage() {
       <Card className="w-full max-w-md shadow-lg">
         <CardHeader className="space-y-1 text-center">
           <CardTitle className="text-2xl font-semibold">Logga in</CardTitle>
-          <p className="text-sm text-muted-foreground">Använd dina administratörsuppgifter för att fortsätta</p>
+          <p className="text-sm text-muted-foreground">
+            Använd dina administratörsuppgifter för att fortsätta
+          </p>
         </CardHeader>
         <CardContent>
           <Form {...form}>
@@ -91,7 +105,7 @@ export default function LoginPage() {
               )}
 
               <Button type="submit" className="w-full" disabled={isSubmitting || status === "loading"}>
-                {isSubmitting ? "Loggar in…" : "Logga in"}
+                {isSubmitting ? "Loggar in..." : "Logga in"}
               </Button>
             </form>
           </Form>

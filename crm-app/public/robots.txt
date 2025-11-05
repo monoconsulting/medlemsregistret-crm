@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /api/
+Disallow: /login
+
+# Static export served from docroot; update when sitemap available.

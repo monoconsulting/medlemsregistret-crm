@@ -24,4 +24,6 @@ setcookie('csrf', $token, [
   'samesite' => 'Lax',
 ]);
 
+log_event('api', 'csrf.issued');
+
 json_out(200, ['token' => $token, 'ok' => true]);
