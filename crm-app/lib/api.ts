@@ -1,10 +1,21 @@
 /**
  * @fileoverview Minimal client wrapper for the Loopia-compatible PHP API.
- * Replaces previous tRPC/Express calls with same-origin fetch requests.
- * All methods include Google-style docstrings and basic error handling.
+ * Replaces previous tRPC/Express calls with same-origin (or configured-origin)
+ * fetch requests. All methods include Google-style docstrings and basic error
+ * handling.
  */
 
-type AssocID = number;
+import { resolveBackendUrl } from "@/lib/backend-base"
+
+type JsonSerializableObject = Record<string, unknown> | Array<unknown> | null
+
+type JsonBody = BodyInit | JsonSerializableObject | undefined
+
+interface JsonRequestInit extends Omit<RequestInit, "body"> {
+  body?: JsonBody
+}
+
+type AssocID = string;
 
 export interface Pagination {
   page?: number;
@@ -23,7 +34,7 @@ export interface AssocFilters extends Pagination {
 export interface Association {
   id: AssocID;
   name: string;
-  municipality_id: number | null;
+  municipality_id: string | null;
   municipality_name?: string | null;
   type: string | null;
   status: string | null;
@@ -39,7 +50,7 @@ export interface Association {
 }
 
 export interface Note {
-  id: number;
+  id: string;
   association_id: AssocID;
   content: string;
   author: string | null;
@@ -47,12 +58,12 @@ export interface Note {
 }
 
 export interface Tag {
-  id: number;
+  id: string;
   name: string;
 }
 
 export interface Municipality {
-  id: number;
+  id: string;
   name: string;
   code: string | null;
 }
@@ -84,7 +95,7 @@ function getCsrfFromCookie(): string | null {
  */
 async function ensureCsrf(): Promise<void> {
   if (getCsrfFromCookie()) return;
-  const res = await fetch('/api/csrf.php', { method: 'GET', credentials: 'include' });
+  const res = await fetch(resolveBackendUrl('/api/csrf.php'), { method: 'GET', credentials: 'include' });
   if (!res.ok) {
     throw new Error(`Failed to obtain CSRF: ${res.status}`);
   }
@@ -101,24 +112,45 @@ async function ensureCsrf(): Promise<void> {
  * Returns:
  *   Promise<any>: Parsed JSON response.
  */
-async function jsonFetch(url: string, options: RequestInit = {}, needsCsrf = false): Promise<any> {
+async function jsonFetch(url: string, options: JsonRequestInit = {}, needsCsrf = false): Promise<any> {
+  const target = resolveBackendUrl(url);
+  const { body: rawBody, headers: rawHeaders, ...rest } = options;
+  const headers = new Headers(rawHeaders as HeadersInit | undefined);
   const init: RequestInit = {
+    ...rest,
     credentials: 'include',
-    headers: {
-      'Content-Type': 'application/json; charset=utf-8',
-      ...(options.headers || {}),
-    },
-    ...options,
   };
 
   if (needsCsrf) {
     await ensureCsrf();
     const token = getCsrfFromCookie();
     if (!token) throw new Error('Missing CSRF token after ensureCsrf()');
-    (init.headers as Record<string, string>)['X-CSRF-Token'] = token;
+    headers.set('X-CSRF-Token', token);
   }
 
-  const res = await fetch(url, init);
+  const body = rawBody;
+  const hasCustomContentType = headers.has('Content-Type');
+  const isReadableStream =
+    typeof ReadableStream !== 'undefined' && body instanceof ReadableStream;
+  const isArrayBuffer = typeof ArrayBuffer !== 'undefined' && body instanceof ArrayBuffer;
+  const isSpecialBody =
+    body instanceof FormData ||
+    body instanceof URLSearchParams ||
+    body instanceof Blob ||
+    isArrayBuffer ||
+    isReadableStream ||
+    typeof body === 'string';
+
+  if (body !== undefined && !isSpecialBody) {
+    if (!hasCustomContentType) {
+      headers.set('Content-Type', 'application/json; charset=utf-8');
+    }
+    init.body = JSON.stringify(body);
+  }
+
+  init.headers = headers;
+
+  const res = await fetch(target, init);
   const text = await res.text();
   let data: any = null;
   try {
@@ -147,7 +179,7 @@ export const api = {
    */
   async login(email: string, password: string): Promise<{ ok: boolean }> {
     const body = { email, password };
-    return jsonFetch('/api/login.php', { method: 'POST', body: JSON.stringify(body) }, true);
+    return jsonFetch('/api/login.php', { method: 'POST', body }, true);
   },
 
   /**
@@ -157,7 +189,7 @@ export const api = {
    *   Promise<{ok: boolean}>
    */
   async logout(): Promise<{ ok: boolean }> {
-    return jsonFetch('/api/logout.php', { method: 'POST', body: JSON.stringify({}) }, true);
+    return jsonFetch('/api/logout.php', { method: 'POST', body: {} }, true);
   },
 
   /**
@@ -192,8 +224,8 @@ export const api = {
    * Returns:
    *   Promise<{id: number}>
    */
-  async createAssociation(data: Partial<Association>): Promise<{ id: number }> {
-    return jsonFetch('/api/associations.php', { method: 'POST', body: JSON.stringify(data) }, true);
+  async createAssociation(data: Partial<Association>): Promise<{ id: AssocID }> {
+    return jsonFetch('/api/associations.php', { method: 'POST', body: data }, true);
   },
 
   /**
@@ -206,9 +238,9 @@ export const api = {
    * Returns:
    *   Promise<{ok: boolean}>
    */
-  async updateAssociation(id: number, patch: Partial<Association>): Promise<{ ok: boolean }> {
+  async updateAssociation(id: AssocID, patch: Partial<Association>): Promise<{ ok: boolean }> {
     const body = { id, ...patch };
-    return jsonFetch('/api/associations.php', { method: 'PUT', body: JSON.stringify(body) }, true);
+    return jsonFetch('/api/associations.php', { method: 'PUT', body }, true);
   },
 
   /**
@@ -220,7 +252,7 @@ export const api = {
    * Returns:
    *   Promise<{ok: boolean}>
    */
-  async deleteAssociation(id: number): Promise<{ ok: boolean }> {
+  async deleteAssociation(id: AssocID): Promise<{ ok: boolean }> {
     return jsonFetch(`/api/associations.php?id=${encodeURIComponent(String(id))}`, { method: 'DELETE' }, true);
   },
 
@@ -244,8 +276,8 @@ export const api = {
    * Returns:
    *   Promise<{id: number}>
    */
-  async createTag(name: string): Promise<{ id: number }> {
-    return jsonFetch('/api/tags.php', { method: 'POST', body: JSON.stringify({ name }) }, true);
+  async createTag(name: string): Promise<{ id: string }> {
+    return jsonFetch('/api/tags.php', { method: 'POST', body: { name } }, true);
   },
 
   /**
@@ -258,8 +290,8 @@ export const api = {
    * Returns:
    *   Promise<{ok: boolean}>
    */
-  async attachTag(associationId: number, tagId: number): Promise<{ ok: boolean }> {
-    return jsonFetch('/api/tags.php', { method: 'POST', body: JSON.stringify({ action: 'attach', associationId, tagId }) }, true);
+  async attachTag(associationId: AssocID, tagId: string): Promise<{ ok: boolean }> {
+    return jsonFetch('/api/tags.php', { method: 'POST', body: { action: 'attach', associationId, tagId } }, true);
   },
 
   /**
@@ -272,8 +304,8 @@ export const api = {
    * Returns:
    *   Promise<{ok: boolean}>
    */
-  async detachTag(associationId: number, tagId: number): Promise<{ ok: boolean }> {
-    return jsonFetch('/api/tags.php', { method: 'POST', body: JSON.stringify({ action: 'detach', associationId, tagId }) }, true);
+  async detachTag(associationId: AssocID, tagId: string): Promise<{ ok: boolean }> {
+    return jsonFetch('/api/tags.php', { method: 'POST', body: { action: 'detach', associationId, tagId } }, true);
   },
 
   /**
@@ -296,7 +328,7 @@ export const api = {
    * Returns:
    *   Promise<Note[]>
    */
-  async getNotes(associationId: number): Promise<Note[]> {
+  async getNotes(associationId: AssocID): Promise<Note[]> {
     const res = await jsonFetch(`/api/association_notes.php?association_id=${encodeURIComponent(String(associationId))}`, { method: 'GET' });
     return res.items as Note[];
   },
@@ -311,7 +343,7 @@ export const api = {
    * Returns:
    *   Promise<{id: number}>
    */
-  async addNote(associationId: number, content: string): Promise<{ id: number }> {
-    return jsonFetch('/api/association_notes.php', { method: 'POST', body: JSON.stringify({ association_id: associationId, content }) }, true);
+  async addNote(associationId: AssocID, content: string): Promise<{ id: string }> {
+    return jsonFetch('/api/association_notes.php', { method: 'POST', body: { association_id: associationId, content } }, true);
   },
 };
