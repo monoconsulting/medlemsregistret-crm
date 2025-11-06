@@ -58,4 +58,31 @@ test.describe("Login flow", () => {
       await expect(page.getByRole("cell", { name: /@/ }).first()).toBeVisible({ timeout: 15_000 });
     });
   });
+
+  test("associations page shows the persistent left navigation sidebar", async ({ page }) => {
+    await test.step("Open the login page with redirect to associations", async () => {
+      await page.goto("/login?redirectTo=%2Fassociations");
+      await expect(page.getByRole("textbox", { name: /^E-postadress$/ })).toBeVisible({ timeout: 15_000 });
+    });
+
+    await test.step("Authenticate with default admin credentials", async () => {
+      await page.getByRole("textbox", { name: /^E-postadress$/ }).fill(LOGIN_EMAIL);
+      await page.locator('input[type="password"]').fill(LOGIN_PASSWORD);
+      await page.getByRole("button", { name: "Logga in" }).click();
+    });
+
+    await test.step("Ensure associations view renders with the sidebar visible", async () => {
+      await expect.poll(async () => page.url(), {
+        message: "Expected to navigate to /associations",
+        timeout: 20_000,
+        intervals: [500, 1000, 1500, 2000, 2500],
+      }).toContain("/associations");
+
+      const sidebar = page.locator("aside").filter({ hasText: /Medlemsregistret/i });
+      await expect(sidebar).toBeVisible({ timeout: 10_000 });
+      await expect(page.getByRole("link", { name: /^F\u00f6reningar$/ })).toHaveClass(/bg-primary/, {
+        timeout: 5_000,
+      });
+    });
+  });
 });

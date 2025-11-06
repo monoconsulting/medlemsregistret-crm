@@ -8,6 +8,11 @@ yarn-error.log*
 storage/
 .env
 
+# Env files (local overrides; keep examples/prod tracked)
+**/.env.local
+**/.env.*.local
+**/.envrc
+
 # Playwright
 web/test-results/
 playwright-report/
@@ -46,3 +51,4 @@ nul
 
 
 .codebasebackup
+/deploy/artifacts

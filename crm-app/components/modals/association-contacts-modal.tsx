@@ -1,181 +1,186 @@
 "use client"
-import { Loader2, Mail, Phone, User, Users } from "lucide-react"
 
-import { api } from "@/lib/trpc/client"
+import { useCallback, useEffect, useMemo, useState } from "react"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { toast } from "@/hooks/use-toast"
-import type { Contact } from "@prisma/client"
+import { Badge } from "@/components/ui/badge"
+import { Separator } from "@/components/ui/separator"
+import { useToast } from "@/hooks/use-toast"
+import { api, type Contact } from "@/lib/api"
+import { AddContactModal } from "@/components/modals/add-contact-modal"
+import { EditContactModal } from "@/components/modals/edit-contact-modal"
+import { Loader2, Mail, Phone, UserPlus } from "lucide-react"
 
 interface AssociationContactsModalProps {
   associationId: string | null
+  associationName: string
   open: boolean
   onOpenChange: (open: boolean) => void
-  isCreating: boolean
-  onSelectContactForEdit: (contact: Contact, associationName: string) => void
-  onRequestAddContact: (associationId: string, associationName: string) => void
+  onUpdated?: () => void
 }
 
 export function AssociationContactsModal({
   associationId,
+  associationName,
   open,
   onOpenChange,
-  isCreating,
-  onSelectContactForEdit,
-  onRequestAddContact,
+  onUpdated,
 }: AssociationContactsModalProps) {
-  const utils = api.useUtils()
+  const { toast } = useToast()
+  const [contacts, setContacts] = useState<Contact[]>([])
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const [showCreateModal, setShowCreateModal] = useState(false)
+  const [editContact, setEditContact] = useState<Contact | null>(null)
 
-  const associationQuery = api.association.getById.useQuery(
-    { id: associationId ?? "" },
-    {
-      enabled: open && Boolean(associationId),
-      refetchOnWindowFocus: false,
-    },
-  )
+  const fetchContacts = useCallback(async () => {
+    if (!associationId) return
+    setLoading(true)
+    setError(null)
+    try {
+      const result = await api.getContacts(associationId)
+      setContacts(result)
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Kunde inte hämta kontakter"
+      setError(message)
+      toast({ title: "Fel", description: message, variant: "destructive" })
+    } finally {
+      setLoading(false)
+    }
+  }, [associationId, toast])
 
-  const contacts = associationQuery.data?.contacts ?? []
-  const primaryContactId = contacts.find((contact) => contact.isPrimary)?.id ?? null
+  useEffect(() => {
+    if (open && associationId) {
+      void fetchContacts()
+    }
+  }, [open, associationId, fetchContacts])
 
-  const updateContact = api.contacts.update.useMutation({
-    onSuccess: async () => {
-      if (associationId) {
-        await utils.association.getById.invalidate({ id: associationId })
-        await utils.association.list.invalidate()
-      }
-    },
-    onError: (error) => toast({ title: "Kunde inte uppdatera kontakt", description: error.message, variant: "destructive" }),
-  })
+  const primaryContact = useMemo(() => contacts.find((contact) => contact.is_primary) ?? null, [contacts])
 
-  const deleteContact = api.contacts.delete.useMutation({
-    onSuccess: async () => {
-      toast({ title: "Kontakt borttagen" })
-      if (associationId) {
-        await utils.association.getById.invalidate({ id: associationId })
-        await utils.association.list.invalidate()
-      }
-    },
-    onError: (error) => toast({ title: "Kunde inte ta bort kontakt", description: error.message, variant: "destructive" }),
-  })
-
-  const handleMarkPrimary = async (contactId: string) => {
-    const contact = contacts.find((item) => item.id === contactId)
-    if (!contact) return
-
-    await updateContact.mutateAsync({
-      id: contact.id,
-      associationId: contact.associationId,
-      name: contact.name ?? "",
-      role: contact.role ?? undefined,
-      email: contact.email ?? undefined,
-      phone: contact.phone ?? undefined,
-      mobile: contact.mobile ?? undefined,
-      linkedinUrl: contact.linkedinUrl ?? undefined,
-      facebookUrl: contact.facebookUrl ?? undefined,
-      twitterUrl: contact.twitterUrl ?? undefined,
-      instagramUrl: contact.instagramUrl ?? undefined,
-      isPrimary: true,
-    })
-  }
-
-  const handleDelete = async (contactId: string) => {
-    await deleteContact.mutateAsync({ id: contactId })
+  const handleRefresh = async () => {
+    await fetchContacts()
+    onUpdated?.()
   }
 
   return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-2xl">
+    <Dialog
+      open={open}
+      onOpenChange={(next) => {
+        if (!next) {
+          setShowCreateModal(false)
+          setEditContact(null)
+        }
+        onOpenChange(next)
+      }}
+    >
+      <DialogContent className="max-w-3xl">
         <DialogHeader>
-          <DialogTitle className="flex items-center gap-2 text-lg">
-            <Users className="h-4 w-4" /> Kontakter
-          </DialogTitle>
+          <DialogTitle>Kontakter · {associationName}</DialogTitle>
         </DialogHeader>
-        {associationQuery.isPending ? (
-          <div className="flex items-center justify-center py-16 text-muted-foreground">
-            <Loader2 className="mr-2 h-4 w-4 animate-spin" /> Hämtar kontakter…
+        <div className="flex items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <Button size="sm" onClick={() => setShowCreateModal(true)}>
+              <UserPlus className="mr-2 h-4 w-4" />
+              Ny kontakt
+            </Button>
+            <Button variant="outline" size="sm" onClick={() => void handleRefresh()} disabled={loading}>
+              {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : "Uppdatera"}
+            </Button>
           </div>
-        ) : (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <div className="text-sm text-muted-foreground">
-                {contacts.length ? `${contacts.length} registrerade kontakter` : "Inga kontakter registrerade"}
-              </div>
-              <Button
-                size="sm"
-                onClick={() => {
-                  if (!associationId || !associationQuery.data) return
-                  onRequestAddContact(associationId, associationQuery.data.name)
-                }}
-                disabled={isCreating}
-              >
-                {isCreating ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
-                Lägg till kontakt
-              </Button>
+          {primaryContact ? (
+            <Badge variant="secondary">Primär: {primaryContact.name ?? "Okänd"}</Badge>
+          ) : (
+            <Badge variant="outline">Ingen primär kontakt</Badge>
+          )}
+        </div>
+        <Separator />
+        <div className="h-[360px]">
+          {loading ? (
+            <div className="space-y-3">
+              {Array.from({ length: 4 }).map((_, index) => (
+                <div key={index} className="grid gap-2 rounded-md border p-3">
+                  <div className="h-4 w-40 animate-pulse rounded bg-muted" />
+                  <div className="h-3 w-64 animate-pulse rounded bg-muted/80" />
+                  <div className="h-3 w-52 animate-pulse rounded bg-muted/80" />
+                </div>
+              ))}
             </div>
-
-            <ScrollArea className="max-h-[60vh] pr-2">
+          ) : error ? (
+            <div className="rounded-md border border-destructive/40 bg-destructive/10 p-4 text-sm text-destructive">
+              {error}
+            </div>
+          ) : contacts.length === 0 ? (
+            <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
+              Inga kontakter registrerade ännu.
+            </div>
+          ) : (
+            <ScrollArea className="h-full pr-3">
               <div className="space-y-3">
-                {contacts.length ? (
-                  contacts.map((contact) => (
-                    <div key={contact.id} className="rounded-lg border bg-card p-4">
-                      <div className="flex flex-wrap items-center justify-between gap-3">
-                        <div>
-                          <div className="flex items-center gap-2 text-base font-semibold">
-                            <User className="h-4 w-4" /> {contact.name}
-                            {contact.isPrimary ? <Badge variant="secondary">Primär</Badge> : null}
-                          </div>
-                          <div className="mt-1 text-sm text-muted-foreground">{contact.role ?? "Roll saknas"}</div>
-                        </div>
-                        <div className="flex gap-2">
-                          <Button
-                            size="sm"
-                            variant="outline"
-                            onClick={() =>
-                              onSelectContactForEdit(contact, associationQuery.data?.name ?? "Okänd förening")
-                            }
-                          >
-                            Redigera
-                          </Button>
-                          <Button size="sm" variant="ghost" onClick={() => handleMarkPrimary(contact.id)} disabled={updateContact.isPending && primaryContactId !== contact.id}>
-                            {primaryContactId === contact.id && updateContact.isPending ? (
-                              <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                            ) : null}
-                            Gör primär
-                          </Button>
-                          <Button
-                            size="sm"
-                            variant="destructive"
-                            onClick={() => handleDelete(contact.id)}
-                            disabled={deleteContact.isPending && contact.id === deleteContact.variables?.id}
-                          >
-                            Ta bort
-                          </Button>
-                        </div>
+                {contacts.map((contact) => (
+                  <div
+                    key={contact.id}
+                    className="flex flex-col gap-2 rounded-md border border-border/70 bg-muted/10 p-4 sm:flex-row sm:items-center sm:justify-between"
+                  >
+                    <div className="space-y-1">
+                      <div className="flex items-center gap-2">
+                        <p className="text-sm font-medium">{contact.name ?? "Namnlös kontakt"}</p>
+                        {contact.is_primary ? <Badge variant="default">Primär</Badge> : null}
                       </div>
-                      <div className="mt-3 grid gap-2 text-sm md:grid-cols-2">
-                        <div className="flex items-center gap-2">
-                          <Mail className="h-4 w-4 text-muted-foreground" />
-                          <span>{contact.email ?? "Saknas"}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <Phone className="h-4 w-4 text-muted-foreground" />
-                          <span>{contact.phone ?? contact.mobile ?? "Saknas"}</span>
-                        </div>
+                      <p className="text-xs text-muted-foreground">{contact.role ?? "Ingen roll"}</p>
+                      <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+                        {contact.email ? (
+                          <span className="inline-flex items-center gap-1">
+                            <Mail className="h-3 w-3" /> {contact.email}
+                          </span>
+                        ) : null}
+                        {contact.phone ? (
+                          <span className="inline-flex items-center gap-1">
+                            <Phone className="h-3 w-3" /> {contact.phone}
+                          </span>
+                        ) : null}
+                        {contact.mobile ? (
+                          <span className="inline-flex items-center gap-1">
+                            <Phone className="h-3 w-3" /> {contact.mobile}
+                          </span>
+                        ) : null}
                       </div>
                     </div>
-                  ))
-                ) : (
-                  <div className="rounded-lg border border-dashed bg-muted/40 p-6 text-center text-sm text-muted-foreground">
-                    Lägg till den första kontakten för denna förening.
+                    <div className="flex items-center gap-2">
+                      <Button variant="outline" size="sm" onClick={() => setEditContact(contact)}>
+                        Redigera
+                      </Button>
+                    </div>
                   </div>
-                )}
+                ))}
               </div>
             </ScrollArea>
-          </div>
-        )}
+          )}
+        </div>
       </DialogContent>
+      {associationId ? (
+        <AddContactModal
+          open={showCreateModal}
+          onOpenChange={setShowCreateModal}
+          associationId={associationId}
+          associationName={associationName}
+          onCompleted={async () => {
+            await handleRefresh()
+            setShowCreateModal(false)
+          }}
+        />
+      ) : null}
+      <EditContactModal
+        open={Boolean(editContact)}
+        onOpenChange={(next) => {
+          if (!next) setEditContact(null)
+        }}
+        contact={editContact}
+        onUpdated={async () => {
+          await handleRefresh()
+          setEditContact(null)
+        }}
+      />
     </Dialog>
   )
 }

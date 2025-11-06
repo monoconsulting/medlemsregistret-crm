@@ -1,24 +1,10 @@
-'use client'
+"use client"
 
-import {
-  createContext,
-  useCallback,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-  type ReactNode,
-} from 'react'
-import { SessionProvider, useSession, signIn, signOut } from 'next-auth/react'
-import {
-  fetchSession,
-  loginRequest,
-  logoutRequest,
-  type AuthSession,
-} from '@/lib/auth-client'
-import { getAuthFlowId, logAuthClientEvent } from '@/lib/auth-flow/client'
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react"
+import { api, type AuthSession, type AuthUser } from "@/lib/api"
+import { logClientEvent } from "@/lib/logging"
 
-export type AuthStatus = 'loading' | 'authenticated' | 'unauthenticated'
+export type AuthStatus = "loading" | "authenticated" | "unauthenticated"
 
 export interface LoginResult {
   ok: boolean
@@ -30,102 +16,135 @@ interface AuthContextValue {
   status: AuthStatus
   login: (email: string, password: string) => Promise<LoginResult>
   logout: () => Promise<void>
-  refresh: () => Promise<void>
+  refresh: () => Promise<AuthSession | null>
 }
 
-const backendAuthEnabled = true
+const STORAGE_KEY = "crm-auth-user"
+
+function readStoredUser(): AuthUser | null {
+  if (typeof window === "undefined") return null
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY)
+    if (!raw) return null
+    const parsed = JSON.parse(raw) as AuthUser
+    if (!parsed || typeof parsed.id !== "string" || parsed.id === "") return null
+    return {
+      id: parsed.id,
+      email: typeof parsed.email === "string" && parsed.email !== "" ? parsed.email : null,
+      name: typeof parsed.name === "string" && parsed.name !== "" ? parsed.name : null,
+      role: typeof parsed.role === "string" && parsed.role !== "" ? parsed.role : "USER",
+    }
+  } catch (error) {
+    console.warn("Failed to parse stored auth user", error)
+    return null
+  }
+}
+
+function writeStoredUser(user: AuthUser | null) {
+  if (typeof window === "undefined") return
+  if (!user) {
+    window.localStorage.removeItem(STORAGE_KEY)
+    return
+  }
+  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(user))
+}
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined)
 
-function BackendAuthProvider({ children }: { children: ReactNode }) {
+export function AuthProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<AuthSession | null>(null)
-  const [status, setStatus] = useState<AuthStatus>('loading')
+  const [status, setStatus] = useState<AuthStatus>("loading")
 
-  const refresh = useCallback(async () => {
-    setStatus('loading')
-    logAuthClientEvent({
-      stage: 'client.auth.refresh.start',
-      context: { flowId: getAuthFlowId() },
-    })
+  const refresh = useCallback(async (): Promise<AuthSession | null> => {
+    setStatus("loading")
     try {
-      const next = await fetchSession()
-      if (next) {
-        setSession(next)
-        setStatus('authenticated')
-        logAuthClientEvent({
-          stage: 'client.auth.refresh.authenticated',
-          context: {
-            userId: next.user.id,
-            role: next.user.role,
-          },
-        })
-      } else {
+      logClientEvent("client.auth.refresh.start")
+      const current = await api.getSession()
+      if (!current) {
+        writeStoredUser(null)
         setSession(null)
-        setStatus('unauthenticated')
-        logAuthClientEvent({
-          stage: 'client.auth.refresh.unauthenticated',
+        setStatus("unauthenticated")
+        logClientEvent("client.auth.refresh.unauthenticated")
+        return null
+      }
+
+      writeStoredUser(current.user)
+      setSession(current)
+      setStatus("authenticated")
+      logClientEvent("client.auth.refresh.authenticated", { userId: current.user.id, role: current.user.role })
+      return current
+    } catch (error) {
+      const message = error instanceof Error ? error.message : ""
+      if (message.toLowerCase().includes("not authenticated") || message.toLowerCase().includes("unauth")) {
+        setSession(null)
+        writeStoredUser(null)
+        setStatus("unauthenticated")
+        logClientEvent("client.auth.refresh.unauthenticated")
+      } else {
+        console.error("Failed to refresh auth status", error)
+        setSession(null)
+        setStatus("unauthenticated")
+        logClientEvent("client.auth.refresh.error", {
+          message: error instanceof Error ? error.message : "unknown",
         })
       }
-    } catch (error) {
-      console.error('Misslyckades att hämta session:', error)
-      setSession(null)
-      setStatus('unauthenticated')
-      logAuthClientEvent({
-        stage: 'client.auth.refresh.error',
-        severity: 'error',
-        error: error instanceof Error ? error : undefined,
-      })
+      return null
     }
   }, [])
 
   useEffect(() => {
-    logAuthClientEvent({
-      stage: 'client.auth.provider.mounted',
-    })
+    logClientEvent("client.auth.provider.mounted")
+    const stored = readStoredUser()
+    if (stored) {
+      setSession({ user: stored })
+    }
     void refresh()
   }, [refresh])
 
   const login = useCallback(
     async (email: string, password: string): Promise<LoginResult> => {
-      logAuthClientEvent({
-        stage: 'client.auth.login.start',
-        context: { email },
-      })
-      const result = await loginRequest(email, password)
-      if (result.ok) {
-        await refresh()
-        logAuthClientEvent({
-          stage: 'client.auth.login.completed',
-          context: { email },
+      try {
+        logClientEvent("client.auth.login.start", { email })
+        await api.login(email, password)
+        const refreshed = await refresh()
+        if (refreshed) {
+          logClientEvent("client.auth.login.success", { email, userId: refreshed.user.id })
+          return { ok: true }
+        }
+
+        writeStoredUser(null)
+        setSession(null)
+        setStatus("unauthenticated")
+        logClientEvent("client.auth.login.missing-session", { email })
+        return { ok: false, error: "Kunde inte hämta session efter inloggning" }
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Inloggningen misslyckades"
+        writeStoredUser(null)
+        setSession(null)
+        setStatus("unauthenticated")
+        logClientEvent("client.auth.login.failed", {
+          email,
+          error: message,
         })
-        return { ok: true }
-      }
-
-      logAuthClientEvent({
-        stage: 'client.auth.login.failed-result',
-        severity: 'warn',
-        context: { email },
-        error: result.error ? { message: result.error } : undefined,
-      })
-
-      return {
-        ok: false,
-        error: result.error ?? 'Inloggningen misslyckades',
+        return { ok: false, error: message }
       }
     },
     [refresh],
   )
 
   const logout = useCallback(async () => {
-    logAuthClientEvent({
-      stage: 'client.auth.logout.start',
-    })
-    await logoutRequest()
-    await refresh()
-    logAuthClientEvent({
-      stage: 'client.auth.logout.done',
-    })
-  }, [refresh])
+    logClientEvent("client.auth.logout.start")
+    try {
+      await api.logout()
+    } catch (error) {
+      console.warn("Logout request failed", error)
+    } finally {
+      writeStoredUser(null)
+      setSession(null)
+      setStatus("unauthenticated")
+      logClientEvent("client.auth.logout.completed")
+    }
+  }, [])
 
   const value = useMemo<AuthContextValue>(
     () => ({
@@ -141,84 +160,13 @@ function BackendAuthProvider({ children }: { children: ReactNode }) {
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
 
-function NextAuthContextProvider({ children }: { children: ReactNode }) {
-  const { data: session, status, update } = useSession()
-
-  const login = useCallback(
-    async (email: string, password: string): Promise<LoginResult> => {
-      const result = await signIn('credentials', {
-        redirect: false,
-        email,
-        password,
-      })
-
-      if (result?.error) {
-        return {
-          ok: false,
-          error: result.error ?? 'Inloggningen misslyckades',
-        }
-      }
-
-      await update()
-      return { ok: true }
-    },
-    [update],
-  )
-
-  const logout = useCallback(async () => {
-    await signOut({ redirect: false })
-    await update()
-  }, [update])
-
-  const refresh = useCallback(async () => {
-    await update()
-  }, [update])
-
-  const normalizedSession: AuthSession | null = useMemo(() => {
-    if (!session?.user) {
-      return null
-    }
-
-    return {
-      user: {
-        id: session.user.id,
-        email: session.user.email ?? null,
-        name: session.user.name ?? null,
-        role: session.user.role as AuthSession['user']['role'],
-      },
-    }
-  }, [session])
-
-  const value = useMemo<AuthContextValue>(
-    () => ({
-      session: normalizedSession,
-      status: status as AuthStatus,
-      login,
-      logout,
-      refresh,
-    }),
-    [normalizedSession, status, login, logout, refresh],
-  )
-
-  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
-}
-
-export function AuthProvider({ children }: { children: ReactNode }) {
-  if (backendAuthEnabled) {
-    return <BackendAuthProvider>{children}</BackendAuthProvider>
-  }
-
-  return (
-    <SessionProvider>
-      <NextAuthContextProvider>{children}</NextAuthContextProvider>
-    </SessionProvider>
-  )
-}
-
 export function useAuth(): AuthContextValue {
-  const context = useContext(AuthContext)
-  if (!context) {
-    throw new Error('useAuth måste användas inom AuthProvider')
-  }
-  return context
+  const ctx = useContext(AuthContext)
+  if (!ctx) throw new Error("useAuth måste användas inom AuthProvider")
+  return ctx
 }
+
+
+
+
+

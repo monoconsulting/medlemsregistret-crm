@@ -35,7 +35,7 @@ set "OUT_DIR=%CRM_APP_DIR%\out"
 
 call :log "Startar frontend-distribution (timestamp %STAMP%)."
 
-rem Förladda FTP-variabler så att underprocesser ärver dem
+rem FÃ¶rladda FTP-variabler sÃ¥ att underprocesser Ã¤rver dem
 call :load_env_file >nul 2>nul
 call :ensure_env FTPHOST
 call :ensure_env FTPUSER
@@ -63,10 +63,17 @@ if errorlevel 1 (
 call :log "Beraknar SHA256-checksumma for artefakt."
 pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "& { Start-Transcript -Path '%LOG_FILE%' -Append | Out-Null; $hash = Get-FileHash -Algorithm SHA256 -Path '%ARTIFACT%'; Write-Host ('SHA256: ' + $hash.Hash); Stop-Transcript | Out-Null; }"
 
-call :log "Kor FTP-synk via deploy\loopia\sync.ps1."
+call :log "Kor FTP-synk (statisk export) via deploy\loopia\sync.ps1."
 pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "& { Start-Transcript -Path '%LOG_FILE%' -Append | Out-Null; & '%SYNC_SCRIPT%' -OutPath '%OUT_DIR%'; $code = $LASTEXITCODE; Stop-Transcript | Out-Null; exit $code }"
 if errorlevel 1 (
   call :log "FTP-synk misslyckades. Avbrot deployment."
+  exit /b 1
+)
+
+call :log "Kor FTP-synk (PHP API) via deploy\loopia\sync.ps1."
+pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "& { Start-Transcript -Path '%LOG_FILE%' -Append | Out-Null; & '%SYNC_SCRIPT%' -OutPath '%REPO_ROOT%\api' -RemotePath '/api' -EnsureRemotePath; $code = $LASTEXITCODE; Stop-Transcript | Out-Null; exit $code }"
+if errorlevel 1 (
+  call :log "FTP-synk for API misslyckades. Avbrot deployment."
   exit /b 1
 )
 

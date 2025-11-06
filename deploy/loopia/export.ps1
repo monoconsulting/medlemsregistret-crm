@@ -31,6 +31,13 @@ try {
     npx prisma generate
   }
 
+  Write-Host '• Nollställer API-baskonfiguration för export (same-origin)'
+  $env:NEXT_PUBLIC_API_BASE_URL = ''
+  $env:NEXT_PUBLIC_API_BASE_URL_PROD = ''
+  $env:NEXT_PUBLIC_API_BASE_URL_DEV = ''
+  $env:BACKEND_API_BASE_URL = ''
+  $env:BACKEND_INTERNAL_URL = ''
+
   Write-Host '• Kör next build && next export'
   npm run export:static
 }

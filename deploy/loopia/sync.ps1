@@ -6,7 +6,8 @@ param(
   [string] $FtpUser = ${env:FTPUSER},
   [string] $FtpPassword = ${env:FTPPASSWORD},
   [string] $RemotePath = (${env:FTP_REMOTE_PATH} ? ${env:FTP_REMOTE_PATH} : '/'),
-  [switch] $Passive = $true
+  [switch] $Passive = $true,
+  [switch] $EnsureRemotePath = $false
 )
 
 $ErrorActionPreference = 'Stop'
@@ -78,15 +79,15 @@ if (-not $OutPath) {
 }
 
 if (-not (Test-Path $OutPath)) {
-  throw "Hittar inte byggutdata på $OutPath. Kör export.ps1 först."
+  throw "Hittar inte byggutdata pÃ¥ $OutPath. KÃ¶r export.ps1 fÃ¶rst."
 }
 
 if (-not (Test-Path $WinScpPath)) {
-  throw "WinSCP.com hittades inte på $WinScpPath. Installera WinSCP eller ange sökväg med -WinScpPath."
+  throw "WinSCP.com hittades inte pÃ¥ $WinScpPath. Installera WinSCP eller ange sÃ¶kvÃ¤g med -WinScpPath."
 }
 
 if (-not $FtpHost -or -not $FtpUser -or -not $FtpPassword) {
-  throw 'FTP-uppgifter saknas. Sätt miljövariablerna FTPHOST, FTPUSER och FTPPASSWORD eller ange parametrar.'
+  throw 'FTP-uppgifter saknas. SÃ¤tt miljÃ¶variablerna FTPHOST, FTPUSER och FTPPASSWORD eller ange parametrar.'
 }
 
 $escapedPassword = [System.Uri]::EscapeDataString($FtpPassword)
@@ -102,16 +103,19 @@ $ftpUrl = "ftp://${FtpUser}:$escapedPassword@${FtpHost}:${FtpPort}"
 
 $tempScript = New-TemporaryFile
 
-@"
-open $ftpUrl $tlsFlag $passiveFlag
-option confirm off
-option batch continue
-lcd "$OutPath"
-cd "$RemotePath"
-option transfer binary
-synchronize remote -delete
-exit
-"@ | Set-Content -Path $tempScript -Encoding ASCII
+$scriptLines = @()
+$scriptLines += "open $ftpUrl $tlsFlag $passiveFlag"
+$scriptLines += "option confirm off"
+$scriptLines += "option batch continue"
+$scriptLines += "lcd `"$OutPath`""
+if ($EnsureRemotePath -and $RemotePath -and $RemotePath -ne "/") {
+  $scriptLines += "mkdir `"$RemotePath`""
+}
+$scriptLines += "cd `"$RemotePath`""
+$scriptLines += "option transfer binary"
+$scriptLines += "synchronize remote -delete"
+$scriptLines += "exit"
+$scriptLines -join "`n" | Set-Content -Path $tempScript -Encoding ASCII
 
 try {
   & $WinScpPath '/ini=nul' "/script=$tempScript"
@@ -124,4 +128,4 @@ finally {
   Remove-Item $tempScript -ErrorAction SilentlyContinue
 }
 
-Write-Host "==> Synkningen mot ${FtpHost}:${FtpPort}/$RemotePath är klar." -ForegroundColor Green
+Write-Host "==> Synkningen mot ${FtpHost}:${FtpPort}/$RemotePath Ã¤r klar." -ForegroundColor Green

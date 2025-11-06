@@ -3,277 +3,290 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
-Recent updates (2025-11-03):
-- Association group management now includes a selectable dropdown whose counts reflect live membership after each add/remove. Use the `groups.getById` + `groups.list` invalidation pattern already baked into `crm-app/app/(dashboard)/associations/page.tsx`.
-- CSV exports for groups must remain ANSI/Windows-1252 encoded with semicolons – handled server-side via `crm-app/server/routers/groups.ts` and `iconv-lite`. Do not switch exports back to UTF-8 without stakeholder approval.
-- Frontend fetches the backend origin through `crm-app/lib/backend-base.ts`; reuse this helper in any new SSR/middleware code instead of reimplementing fallback logic.
-- Local dev now starts via `npm run dev` (proxy to `scripts/start-dev.ts`) which binds Next.js to port 3000 inside the container automatically. Avoid reintroducing port 3020 overrides.
 
-## Rules
-**NEVER CHANGE PORTS!**
-NEVER TASKKILL!
-ALWAYS READ INSTRUCTED FILES!
-* Mock data in the system are **not allowed.** This can not be used without a specific order to implement it
-* **SQLLite can never be used.** You have no permissions to use this. 
-* Test **must** be performed exactly as stated in @docs/TEST_RULES.md
-* You are **never allowed to change port** or assign a new port to something that is not working.  You MUST ask permission
-* You have **NO PERMISSIONS to use taskkill** to kill a port that someone else is using. This can cause serious damage
-* You **ARE NOT ALLOWED TO EDIT THE FOLLOWING FILES WITHOUT PERMISSION**
-  * **docker-compose - files**
-  * **.env-files**
-  * **playwright.config.ts-files**
-* You are **NOT ALLOWED to change ports.** If the port are busy or not working you must:
-  * Check the docker-compose-files and .env - is the right port used?
-  * Check docker ps - what is running on the port. **BUT DONT KILL THE SERVICE**
-* Only soft delete in database!
-This is a CRM system for managing Swedish municipal association registries. The project has two main components:
-1. **Web scraping framework** (`/scraping`) - Playwright-based scrapers for collecting association data from multiple Swedish municipalities
-2. **CRM application** (`/crm-app`) - Next.js 15 web application for managing and analyzing scraped association data
+This is a CRM system for managing Swedish municipal association registries with two main components:
+1. **Web scraping framework** (`/scraping`) - Playwright-based and REST API scrapers for collecting association data from 50+ Swedish municipalities across four platform types
+2. **CRM application** (`/crm-app`) - Next.js 15 web application with PHP backend API for managing scraped data
+
+**Current architecture state (Nov 2025):**
+- Frontend: Next.js 15 (App Router) at port 3000, migrating from legacy tRPC to PHP REST API
+- Backend: PHP REST APIs in `/api` directory (session-based auth, MySQL database)
+- Database: MySQL (never SQLite - not permitted)
+- Auth: PHP session-based via `/api/login.php`, `/api/logout.php`, `/api/auth/me.php`
+- API client: `crm-app/lib/api.ts` wraps PHP endpoints; uses `backend-base.ts` for origin resolution
+- Testing: Playwright tests in `/web/tests` (see `docs/TEST_RULES.md` for mandatory testing protocol)
+
+## Critical Rules
+
+**NEVER CHANGE PORTS** - Port changes are strictly forbidden without explicit permission
+**NEVER USE TASKKILL** - Do not kill processes on ports; check docker-compose/env files instead
+**NO MOCK DATA** - All data must come from actual scraping or user input
+**NO SQLITE** - Only MySQL is permitted
+**SOFT DELETE ONLY** - Never hard delete records from database
+**ALWAYS READ INSTRUCTED FILES** - Follow documentation references exactly
+
+**Files requiring permission to edit:**
+- `docker-compose*.yml`
+- `.env*` files
+- `playwright.config.ts`
 
 ## Development Commands
 
-### CRM Application (crm-app/)
+### CRM Application (from crm-app/)
 ```bash
-# Development server (runs on port 3000)
+# Development (port 3000 via scripts/start-dev.ts)
 npm run dev
 
-# Build for production
-npm run build
+# Build & deployment
+npm run build                    # Production build
+npm run start                    # Production server
+npm run export:static            # Static export
 
-# Start production server
-npm run start
-
-# Linting
+# Code quality
 npm run lint
 
-# Database commands
-npm run db:generate    # Generate Prisma client
-npm run db:push        # Push schema to database
-npm run db:studio      # Open Prisma Studio
-npm run db:seed        # Seed database
+# Database (MySQL via Prisma - paths in legacy/crm-app/prisma/)
+npm run db:generate              # Generate Prisma client
+npm run db:push                  # Push schema to database
+npm run db:studio                # Open Prisma Studio GUI
+npm run db:seed                  # Seed database
+npm run db:import-municipalities # Import municipality data
+
+# Testing (see docs/TEST_RULES.md for mandatory protocol)
+npm run test                     # Run all Playwright tests
+npm run test:ui                  # Interactive UI mode
+npm run test:debug               # Debug mode
+npm run test:municipalities      # Municipality table tests
+npm run test:headed              # Run with browser visible
+npm run check:smoke              # Lint + municipality tests
 ```
 
-### Web Scraping (scraping/)
+### Web Scraping (from project root)
 
-#### Individual Municipality Scrapers
+**Platform types:**
+1. **FRI Webb-Förening** - 9 municipalities (Playwright scraping)
+2. **RBOK** - 1 municipality (Playwright scraping)
+3. **IBGO (Interbook Go)** - 31 municipalities (REST API, no pagination, no org numbers, handles email concatenation)
+4. **ActorSmartbook** - 22 municipalities (REST API, paginated, handles email concatenation)
+
+**Individual scrapers:**
 ```bash
-# Run a specific municipality scraper
 npx tsx scraping/<municipality>_scrape.ts
 
 # Examples:
 npx tsx scraping/sollentuna_scrape.ts
 npx tsx scraping/arjang_scrape.ts
-npx tsx scraping/karlstad_scrape.ts
 ```
 
-#### Actor Smartbook Bulk Automation (Windows Batch Files)
+**Bulk automation (Windows batch files):**
 ```bash
-# Test scraping (Gnosjö - 72 associations, ~30 seconds)
-scraping/scripts/actor_test_scrape.bat
+# IBGO bulk operations (31 municipalities, ~5 min, 99.98% success)
+scraping/scripts/ibgo_scrape_and_import.bat    # Full process
+scraping/scripts/ibgo_scrape.bat                # Scraping only
+scraping/scripts/ibgo_import.bat                # Import only
 
-# Full process (scrape all 22 municipalities + import to database)
-scraping/scripts/actor_scrape_and_import.bat
-
-# Scraping only (saves JSON files to scraping/json/)
-scraping/scripts/actor_scrape.bat
-
-# Import only (imports all JSON files from scraping/json/)
-scraping/scripts/actor_import.bat
+# Actor Smartbook (22 municipalities, ~23 min, 99.6% success)
+scraping/scripts/actor_scrape_and_import.bat    # Full process
+scraping/scripts/actor_scrape.bat                # Scraping only
+scraping/scripts/actor_import.bat                # Import only
+scraping/scripts/actor_test_scrape.bat          # Quick test (Gnosjö, ~30s)
 ```
 
-**Performance**: Bulk scraping of 12 municipalities took 23.38 minutes with 99.6% import success rate (3,413 of 3,425 associations).
+**Output locations:**
+- JSON: `scraping/json/{municipality}_{SOURCE_SYSTEM}_{YYYY-MM-DD}_{HH-MM}.json`
+- Logs: `scraping/logs/{municipality}.log`
+- Summaries: `scraping/json/bulk_{system}_scrape_summary_YYYY-MM-DD.json`
 
-#### IBGO (Interbook Go) Bulk Automation (Windows Batch Files)
-```bash
-# Full process (scrape all 31 municipalities + import to database)
-scraping/scripts/ibgo_scrape_and_import.bat
+## Architecture Details
 
-# Scraping only (saves JSON files to scraping/json/)
-scraping/scripts/ibgo_scrape.bat
+### Frontend (crm-app/)
 
-# Import only (imports all JSON files from scraping/json/)
-scraping/scripts/ibgo_import.bat
-```
+**Tech stack:**
+- Next.js 15 (App Router), TypeScript, React 19
+- Styling: Tailwind CSS + shadcn/ui components
+- State: TanStack Query v5 (server state), Zustand (UI state)
+- Forms: React Hook Form + Zod validation
+- Auth: Session-based via PHP backend
 
-**Performance**: Bulk scraping of 31 municipalities completed in ~5 minutes with 99.98% import success rate (10,000+ associations).
+**Key patterns:**
+- Backend origin resolution: Always use `lib/backend-base.ts` helpers (`getBackendBaseUrl`, `resolveBackendUrl`)
+- API calls: Use `lib/api.ts` client wrapper (replaces legacy tRPC)
+- Query invalidation: Follow pattern in `app/associations/page.tsx` for cache updates
+- CSV exports: ANSI/Windows-1252 encoding with semicolons (handled server-side via `iconv-lite`)
 
-**Output locations**:
-- JSON files: `scraping/json/`
-- Log files: `scraping/logs/`
-- Summary: `scraping/json/bulk_ibgo_scrape_summary_YYYY-MM-DD.json`
+**Directory structure:**
+- `app/` - Next.js pages (dashboard, associations, municipalities, contacts, groups, users, import)
+- `components/` - React components (layout, ui, modals, filters)
+- `lib/` - Utilities, API client, auth provider
+- `scripts/` - Dev startup scripts
+- `tests/` - Playwright test specs
 
-## Architecture
+### Backend (api/)
 
-### CRM Application (crm-app/)
+**PHP REST APIs** with MySQL database:
+- `associations.php` - List, create, update, delete associations (GET/POST/PUT/DELETE)
+- `association_detail.php` - Detailed association view
+- `association_notes.php` - Notes management
+- `contacts.php` - Contact person CRUD
+- `municipalities.php` - Municipality data
+- `tags.php` - Tag management
+- `login.php`, `logout.php`, `auth/me.php` - Session authentication
+- `csrf.php` - CSRF token generation
+- `bootstrap.php` - Common initialization
 
-**Tech Stack:**
-- **Framework:** Next.js 15 (App Router) with TypeScript
-- **Database:** MySQL with Prisma ORM
-- **UI:** Shadcn/ui components + Tailwind CSS
-- **State Management:** TanStack Query (React Query v5) for server state, Zustand for UI state
-- **Forms:** React Hook Form + Zod validation
-- **API:** tRPC for type-safe APIs (planned)
+**Auth flow:**
+1. GET `/api/csrf.php` - Obtain CSRF token
+2. POST `/api/login.php` - Login with credentials + CSRF token
+3. Session stored server-side, validated on subsequent requests
+4. GET `/api/auth/me.php` - Check current session
 
-**Directory Structure:**
-- `app/` - Next.js 15 App Router pages and layouts
-  - `(dashboard)/` - Dashboard layout with sidebar navigation
-  - `layout.tsx` - Root layout
-- `components/` - React components
-  - `layout/` - Layout components (Sidebar, Header)
-  - `ui/` - Shadcn/ui components
-- `prisma/` - Database schema and migrations
-- `lib/` - Utility functions
+### Database Schema (legacy/crm-app/prisma/schema.prisma)
 
-**Database Schema:**
-The Prisma schema in `crm-app/prisma/schema.prisma` defines the data model:
-- `Association` - Core entity storing scraped association data with CRM fields (status, pipeline, assigned user)
-- `Contact` - Contact persons for associations
-- `Note` - CRM notes on associations
-- `Tag` - Tags for categorization
-- `Group` - Custom groupings of associations
+**Core entities:**
+- `Association` - Scraped association data + CRM fields (status, pipeline, assigned user)
+- `Contact` - Contact persons linked to associations
+- `Municipality` - Swedish municipalities with source system tracking
+- `Note` - CRM notes with author tracking
+- `Tag` - Categorization tags
+- `Group` - Custom groupings with member associations
 - `Activity` - Activity log for tracking interactions
-- `ScrapeRun` - Metadata about scraping runs
+- `User` - System users with roles (ADMIN/MANAGER/USER)
+- `ScrapeRun` - Scraping job metadata
 
-### Web Scraping Framework (scraping/)
-
-**Architecture:**
-The scrapers follow a common pattern but are adapted for different platforms:
-
-**Platform Types:**
-1. **FRI Webb-Förening** - Municipalities: Sollentuna, Årjäng, Järfälla, Laholm, Halmstad, Forshaga, Båstad, Bromölla, Askersund
-2. **RBOK** - Municipalities: Söderhamn
-3. **IBGO (Interbook Go)** - 31 verified municipalities with REST API endpoints. **NO PAGINATION** - single API call returns all data. Bulk automation implemented. 10,000+ associations scraped with 99.98% import success rate. ⚠️ **Email concatenation handled** - splits comma-separated emails into contacts. ❌ **NO organization numbers** available from API.
-4. **ActorSmartbook** - 22 verified municipalities with REST API endpoints (paginated). Bulk automation implemented. 12 municipalities scraped (Alingsås, Älvdalen, Boden, Bollnäs, Borås, Falun, Hedemora, Kiruna, Mora, Sandviken, Sollefteå, Sundsvall) with 3,425 associations found and 3,413 imported (99.6% success rate). ⚠️ **Email concatenation handled**.
-
-**Common Pattern:**
-Each scraper follows this structure:
-1. Initialize browser with Playwright (or use REST API if available)
-2. Navigate to association list page
-3. Paginate through all list pages
-4. For each association:
-   - Extract list-level data
-   - Navigate to detail page (or fetch via API)
-   - Extract detailed information (contact, address, description)
-   - Normalize and structure data
-5. Output to Pretty JSON array only (saved to `scraping/json/`)
-6. Generate log files with statistics (saved to `scraping/logs/`)
-
-**Data Schema:**
-Each association record follows a standardized schema (see `docs/JSON_STANDARD.md`):
-- `source_system` - Platform type (FRI, RBOK, IBGO, ActorSmartbook)
-- `municipality` - Municipality name
-- `association` - Core fields (name, org_number, types, activities, contact info)
-  - `description` - Object with `free_text` and `sections[]` array
-    - `sections[].title` - Section heading (not `label`)
-    - `sections[].data` - Object with normalized snake_case keys (not `items[]` array)
-- `contacts` - Array of contact persons
-- `source_navigation` - Pagination metadata
-- `extras` - Platform-specific fields
-
-**Output Files (Current Format - October 2025):**
-Scrapers generate files in `scraping/json/`:
-- `{municipality}_{SOURCE_SYSTEM}_{YYYY-MM-DD}_{HH-MM}.json` - Pretty-printed JSON array only (JSONL not used anymore)
-- `{municipality}.log` - Execution log (appends to same file in `scraping/logs/`)
-
-**Examples:**
-- `scraping/json/ale_IBGO_2025-10-26_14-30.json`
-- `scraping/json/Årjäng_FRI_2025-10-27_06-20.json`
-- `scraping/json/falun_ActorSmartbook_2025-10-26_12-04.json`
-- `scraping/logs/ale.log`
-
-**Important**:
-- Filename includes source system to prevent cross-contamination during imports
-- Files overwrite previous versions (not versioned)
-- Importers read only the latest file based on filename
-- Only Pretty JSON format is generated (not JSONL)
-
-## Important Scraping Guidelines
-
-### Critical Rules (from user's CLAUDE.md):
-1. **ABSOLUTELY NO MOCK DATA** - Never create fake or placeholder data
-2. **NO HARDCODING** - All data must come from actual scraping
-3. **Swedish Values** - Preserve original Swedish text; do not translate
-4. **Scope Properly** - Only extract data from main content areas, exclude headers/footers/navigation
-
-### Platform-Specific Guides:
-- **FRI scrapers:** See `docs/FRI_SCRAPING_GUIDES.md` for detailed extraction rules
-- **RBOK scrapers:** See `docs/RBOK_SCRAPING_GUIDES.md` (placeholder exists)
-- **IBGO scrapers:** See `docs/IBGO_SCRAPING_GUIDES.md` - REST API, email concatenation handling
-- **ActorSmartbook:** See `docs/ACTORS_SMARTBOOK_SCRAPING_GUIDES.md` - REST API, email concatenation handling
-
-### Field Extraction Priority:
-1. Parse structured data from tables (FRI platforms use two-column tables)
-2. Map known labels to standard fields (see label normalization in docs)
-3. Preserve all original data in `description.sections[*].data`
-4. Extract free text only from main content areas
-5. Handle missing values as `null` (never guess or fill with defaults)
-6. **⚠️ Handle concatenated emails** - For IBGO and Actor Smartbook, split comma-separated emails into separate contact records
-
-## Key Documentation Files
-
-### Scraping Documentation
-- `docs/JSON_STANDARD.md` - JSON output standard for all scrapers
-- `docs/FRI_SCRAPING_GUIDES.md` - FRI platform extraction rules (address parsing, contact extraction)
-- `docs/IBGO_SCRAPING_GUIDES.md` - IBGO REST API scraping guide (email concatenation, no org numbers)
-- `docs/ACTORS_SMARTBOOK_SCRAPING_GUIDES.md` - Actor Smartbook REST API guide
-- `docs/RBOK_SCRAPING_GUIDES.md` - RBOK platform guide (WIP)
-- `docs/lessons/*.md` - System-specific lessons learned (lessons_ibgo.md, lessons_actor.md, etc.)
-
-### CRM Documentation
-- `CRM_IMPLEMENTATION_*.md` - CRM feature specifications and design docs
-
-### Agent Instructions
-- `AGENTS.md` - Instructions and rules for all agents
-- `CLAUDE.md` - This file - Claude Code specific instructions
-
-## Database Setup
-
-The CRM application uses MySQL. Configure the connection in `crm-app/.env`:
+**Connection:**
 ```
 DATABASE_URL="mysql://user:password@localhost:3306/crm_database"
 ```
 
-After configuring:
+### Web Scraping (scraping/)
+
+**Data standard:** All scrapers output to JSON following schema in `docs/JSON_STANDARD.md`
+
+**Common scraper structure:**
+1. Initialize browser (Playwright) or HTTP client (REST APIs)
+2. Fetch association list (with pagination if needed)
+3. For each association:
+   - Extract list-level data
+   - Fetch detail page/endpoint
+   - Parse contact info, address, description sections
+   - Normalize to standard schema
+4. Output pretty-printed JSON array to `scraping/json/`
+5. Generate log file with statistics to `scraping/logs/`
+
+**Standard schema fields:**
+- `source_system` - FRI, RBOK, IBGO, ActorSmartbook
+- `municipality` - Municipality name
+- `association` - Core fields (name, org_number, types, activities, contact info)
+  - `description.free_text` - Main text content
+  - `description.sections[]` - Structured data sections
+    - `sections[].title` - Section heading
+    - `sections[].data` - Object with normalized snake_case keys
+- `contacts[]` - Contact persons array
+- `source_navigation` - Pagination metadata
+- `extras` - Platform-specific fields
+
+**Important extraction rules:**
+1. **NO MOCK DATA** - Never create fake data
+2. **NO HARDCODING** - All data from actual sources
+3. **Preserve Swedish** - Do not translate original text
+4. **Scope properly** - Extract only main content, exclude headers/footers/navigation
+5. **Handle concatenated emails** - Split comma-separated emails into separate contacts (IBGO, Actor Smartbook)
+6. **Missing values as null** - Never guess or fill defaults
+
+## Testing Protocol (docs/TEST_RULES.md)
+
+**Mandatory workflow:**
+1. Check if test exists in `/web/tests`
+2. Prove problem with ONE failing test
+3. Fix only the responsible layer
+4. Prove fix with SAME passing test
+5. Verify database updates
+6. Never modify test to make it pass
+7. Success = 100% pass rate
+
+**Test commands:**
 ```bash
-cd crm-app
-npm run db:push      # Create/update database schema
-npm run db:studio    # Inspect database visually
+npm run test:e2e:report                                    # Full run
+npm run test:e2e:report -- web/tests/login.spec.ts       # Single file
+npm run test:e2e:report -- -g @formX                      # Tagged tests
+npm run test:e2e:open-latest                              # Open latest report
 ```
 
-## NocoBase Alternative Stack
+**Test requirements:**
+- Save reports to `web/test-reports/`
+- Include video (1900x1200) and snapshot (1900x1200)
+- Chromium headless only
+- PR must link to test report HTML
 
-The `instructions.md` file contains Docker Compose configuration for an alternative NocoBase-based stack with PostgreSQL + pgvector. This is reference documentation for a different deployment approach.
+## Key Documentation
 
-## Testing Approach
+**Scraping guides:**
+- `docs/JSON_STANDARD.md` - Output schema for all scrapers
+- `docs/FRI_SCRAPING_GUIDES.md` - FRI platform extraction rules
+- `docs/IBGO_SCRAPING_GUIDES.md` - IBGO REST API guide
+- `docs/ACTORS_SMARTBOOK_SCRAPING_GUIDES.md` - Actor Smartbook API guide
+- `docs/RBOK_SCRAPING_GUIDES.md` - RBOK platform guide
+- `docs/lessons/*.md` - Platform-specific lessons learned
 
-Currently no automated test suite exists. When developing scrapers:
-1. Run against live municipality sites
-2. Verify output JSON structure matches schema
-3. Check log files for missing data warnings
-4. Validate data completeness (org numbers, contacts, addresses)
+**CRM documentation:**
+- `docs/RESTORE_FRONTEND.md` - Frontend migration plan (legacy → new)
+- `docs/api_contract.md` - API contract specifications
+- `docs/TEST_RULES.md` - Mandatory testing protocol
+- `docs/worklogs/*.md` - Daily engineering logs
 
-## Common Development Tasks
+**Operations:**
+- `docs/CHECK_PORTS_API.md` - Port troubleshooting
+- `docs/DEPLOYMENT*.md` - Deployment procedures
+- `docs/GIT_*.md` - Git workflow rules
 
-### Adding a New Municipality Scraper:
-1. Identify the platform type (FRI/RBOK/ActorSmartbook)
-2. Create `scraping/{municipality}_scrape.ts` based on existing scraper for that platform
-3. Update constants: BASE_URL, MUNICIPALITY, SOURCE_SYSTEM
-4. Adapt selectors if needed (different municipalities may have slight variations)
+## Common Development Patterns
+
+### Adding a new municipality scraper:
+1. Identify platform type (FRI/RBOK/IBGO/ActorSmartbook)
+2. Copy existing scraper for that platform to `scraping/{municipality}_scrape.ts`
+3. Update: BASE_URL, MUNICIPALITY, SOURCE_SYSTEM constants
+4. Adapt selectors/API endpoints if needed
 5. Test thoroughly and check logs for data quality
+6. Verify output matches `docs/JSON_STANDARD.md`
 
-### Importing Scraped Data to Database:
-Use the import script template in `scraping/out/import_to_db.ts` as a starting point.
-
-### Adding New CRM Features:
-1. Update Prisma schema in `crm-app/prisma/schema.prisma`
+### Adding/modifying CRM features:
+1. Update Prisma schema in `legacy/crm-app/prisma/schema.prisma` if needed
 2. Run `npm run db:push` to update database
-3. Implement UI in `crm-app/app/(dashboard)/`
-4. Follow existing patterns for components and state management
+3. Update PHP API endpoint in `/api` directory
+4. Update TypeScript types in `crm-app/lib/api.ts`
+5. Implement UI in `crm-app/app/` following existing patterns
+6. Use `getBackendBaseUrl()` / `resolveBackendUrl()` for API calls
+7. Follow React Query invalidation patterns (see `app/associations/page.tsx`)
+8. Create Playwright test following `docs/TEST_RULES.md`
 
-## Current State (October 2025)
+### Troubleshooting port issues:
+1. Check `docker-compose*.yml` for correct port assignments
+2. Check `.env*` files for port configuration
+3. Run `docker ps` to see what's using the port
+4. **DO NOT use taskkill or change ports** - ask for permission first
 
-- Multiple municipality scrapers implemented and working
-- CRM application scaffolded with basic layout and components
-- Database schema defined but application features not yet fully implemented
-- Scraped data exists in `scraping/out/` directory
-- Next steps involve connecting scraped data to the CRM interface
+## Migration Context
+
+The project is actively migrating from legacy tRPC-based architecture to PHP REST API backend (Nov 2025). Key considerations:
+
+- Legacy code in `/legacy` directory serves as reference
+- New frontend uses `lib/api.ts` wrapper instead of tRPC hooks
+- Session handling moved from NextAuth to PHP sessions
+- Group management includes live membership counts (invalidation pattern in place)
+- CSV exports must remain Windows-1252 encoded (stakeholder requirement)
+- Association page restoration ongoing (see `docs/RESTORE_FRONTEND.md`)
+
+## Current State
+
+**Working:**
+- Web scraping for 50+ municipalities (4 platform types)
+- Bulk automation for IBGO and Actor Smartbook
+- Basic CRM frontend (dashboard, municipalities, login)
+- PHP REST API backend with session auth
+- MySQL database with Prisma schema
+
+**In Progress:**
+- Full associations page migration from legacy
+- Contact management endpoints
+- Advanced filtering and bulk operations
+- Group management UI completion

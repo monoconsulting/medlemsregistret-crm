@@ -1,78 +1,87 @@
+/**
+ * Utility helpers for resolving the backend origin across runtime contexts.
+ * Frontend code should construct API URLs via these functions to avoid
+ * duplicating environment handling between client, middleware, and build-time
+ * execution.
+ */
 
-function normalizeBase(value: string): string {
+type UrlLike = string | null | undefined
+
+let cachedBaseUrl: string | undefined
+
+function normalize(value: UrlLike): string {
+  if (!value) return ""
   const trimmed = value.trim()
-  if (!trimmed) {
-    return trimmed
-  }
-  return trimmed.endsWith('/') ? trimmed.slice(0, -1) : trimmed
+  if (!trimmed) return ""
+  return trimmed.endsWith("/") ? trimmed.slice(0, -1) : trimmed
 }
 
-function ensureProtocol(value: string): string {
-  if (value.startsWith('http://') || value.startsWith('https://')) {
-    return value
-  }
-  return `http://${value}`
-}
-
-export async function getBackendBaseCandidates(): Promise<string[]> {
-  const candidates = [
-    process.env.BACKEND_INTERNAL_URL,
-    process.env.BACKEND_API_BASE_URL,
-    process.env.NEXT_PRIVATE_API_BASE_URL,
+function pickEnvBase(): string {
+  const candidates: UrlLike[] = [
     process.env.NEXT_PUBLIC_API_BASE_URL,
-    process.env.NEXT_PUBLIC_API_BASE_URL_DEV,
-    process.env.NEXT_PUBLIC_API_BASE_URL_PROD,
-    process.env.NEXTAUTH_URL,
-    process.env.NEXTAUTH_URL_DEV,
-    process.env.NEXTAUTH_URL_PROD,
-    process.env.BACKEND_PORT ? `http://localhost:${process.env.BACKEND_PORT}` : null,
-    'http://localhost:4040',
+    process.env.NEXT_PRIVATE_API_BASE_URL,
+    process.env.API_BASE_URL,
+    process.env.BACKEND_API_BASE_URL,
+    process.env.BACKEND_INTERNAL_URL,
   ]
 
-  const seen = new Set<string>()
-  const result: string[] = []
-
   for (const candidate of candidates) {
-    if (!candidate) continue
-    const normalized = normalizeBase(candidate)
-    if (!normalized || seen.has(normalized)) continue
-    seen.add(normalized)
-    result.push(normalized)
+    const normalized = normalize(candidate)
+    if (normalized) return normalized
   }
 
-  return result
+  return ""
 }
 
-export async function fetchBackendWithFallback(
-  path: string,
-  init?: RequestInit,
-): Promise<{ baseUrl: string; response: Response }> {
-  const candidates = await getBackendBaseCandidates()
-  let lastError: unknown = null
-
-  for (const candidate of candidates) {
-    const baseUrl = ensureProtocol(candidate)
-    const target = path.startsWith('http://') || path.startsWith('https://')
-      ? path
-      : `${baseUrl}${path.startsWith('/') ? path : `/${path}`}`
-
-    if (process.env.NODE_ENV !== 'production') {
-      console.log('[backend-base] fetching', target)
-    }
-
-    try {
-      const response = await fetch(target, init)
-      return { baseUrl, response }
-    } catch (error) {
-      lastError = error
-      continue
-    }
+function defaultServerBase(): string {
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`
   }
 
-  if (lastError) {
-    throw lastError
-  }
-
-  throw new Error('Unable to contact backend API – no candidates succeeded.')
+  const port = process.env.PORT ?? "3000"
+  return `http://localhost:${port}`
 }
 
+export function getBackendBaseUrl(): string {
+  if (cachedBaseUrl !== undefined) {
+    return cachedBaseUrl
+  }
+
+  const envBase = pickEnvBase()
+  if (envBase) {
+    cachedBaseUrl = envBase
+    return envBase
+  }
+
+  if (typeof window === "undefined") {
+    const serverBase = defaultServerBase()
+    cachedBaseUrl = serverBase
+    return serverBase
+  }
+
+  const clientBase = window.location.origin
+  cachedBaseUrl = clientBase
+  return clientBase
+}
+
+export function setBackendBaseUrl(value: UrlLike): void {
+  const normalized = normalize(value)
+  if (!normalized) {
+    cachedBaseUrl = ""
+    return
+  }
+  cachedBaseUrl = normalized
+}
+
+export function resolveBackendUrl(path: string): string {
+  const base = getBackendBaseUrl()
+  if (!base) {
+    return path.startsWith("/") ? path : `/${path}`
+  }
+
+  if (!path.startsWith("/")) {
+    return `${base}/${path}`
+  }
+
+  return `${base}${path}`
+}

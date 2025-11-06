@@ -1,72 +1,61 @@
-'use client'
+"use client"
 
-import { Suspense, useEffect, useState, type BaseSyntheticEvent } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
-import { useForm } from 'react-hook-form'
-import { z } from 'zod'
-import { zodResolver } from '@hookform/resolvers/zod'
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import { Button } from '@/components/ui/button'
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form'
-import { AlertCircle } from 'lucide-react'
-import { useAuth } from '@/lib/providers/auth-provider'
-import { logAuthClientEvent } from '@/lib/auth-flow/client'
+import type { JSX } from "react"
+import { useEffect, useState, type BaseSyntheticEvent } from "react"
+import { useRouter } from "next/navigation"
+import { useForm } from "react-hook-form"
+import { z } from "zod"
+import { zodResolver } from "@hookform/resolvers/zod"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
+import { AlertCircle } from "lucide-react"
+import { useAuth } from "@/lib/providers/auth-provider"
+import { logClientEvent } from "@/lib/logging"
 
 const loginSchema = z.object({
-  email: z.string().email('Ogiltig e-postadress'),
-  password: z.string().min(4, 'Lösenordet måste vara minst 4 tecken'),
+  email: z.string().email("Ogiltig e-postadress"),
+  password: z.string().min(4, "Lösenordet måste vara minst 4 tecken"),
 })
 
 type LoginSchema = z.infer<typeof loginSchema>
 
-function LoginForm() {
+export default function LoginPage(): JSX.Element {
   const router = useRouter()
-  const params = useSearchParams()
-  const { login } = useAuth()
+  const { login, status } = useAuth()
   const [error, setError] = useState<string | null>(null)
   const [isSubmitting, setIsSubmitting] = useState(false)
 
   const form = useForm<LoginSchema>({
     resolver: zodResolver(loginSchema),
     defaultValues: {
-      email: params.get('email') ?? '',
-      password: '',
+      email: "",
+      password: "",
     },
   })
 
   useEffect(() => {
-    logAuthClientEvent({
-      stage: 'client.page.login.mount',
-      context: {
-        prefilledEmail: params.get('email') ?? null,
-      },
-    })
-  }, [params])
+    logClientEvent("client.page.login.view")
+  }, [])
 
   const onSubmit = async (values: LoginSchema, event?: BaseSyntheticEvent) => {
     event?.preventDefault()
     setError(null)
     setIsSubmitting(true)
-
+    logClientEvent("client.page.login.submit", { email: values.email })
     const result = await login(values.email, values.password)
     setIsSubmitting(false)
-
     if (!result.ok) {
-      setError(result.error ?? 'Felaktig e-post eller lösenord')
-      logAuthClientEvent({
-        stage: 'client.page.login.error',
-        severity: 'warn',
-        context: { message: result.error ?? 'unknown' },
+      setError(result.error ?? "Felaktig e-post eller lösenord")
+      logClientEvent("client.page.login.error", {
+        email: values.email,
+        error: result.error ?? "unknown",
       })
       return
     }
-
-    router.push('/dashboard')
-    logAuthClientEvent({
-      stage: 'client.page.login.redirect',
-      context: { destination: '/dashboard' },
-    })
+    logClientEvent("client.page.login.redirect")
+    router.replace("/dashboard")
   }
 
   return (
@@ -115,8 +104,8 @@ function LoginForm() {
                 </div>
               )}
 
-              <Button type="submit" className="w-full" disabled={isSubmitting}>
-                {isSubmitting ? 'Loggar in…' : 'Logga in'}
+              <Button type="submit" className="w-full" disabled={isSubmitting || status === "loading"}>
+                {isSubmitting ? "Loggar in..." : "Logga in"}
               </Button>
             </form>
           </Form>
@@ -126,23 +115,5 @@ function LoginForm() {
         </CardFooter>
       </Card>
     </div>
-  )
-}
-
-export default function LoginPage() {
-  return (
-    <Suspense
-      fallback={
-        <div className="flex min-h-screen items-center justify-center bg-slate-100 p-6">
-          <Card className="w-full max-w-md shadow-lg">
-            <CardHeader className="space-y-1 text-center">
-              <CardTitle className="text-2xl font-semibold">Logga in</CardTitle>
-            </CardHeader>
-          </Card>
-        </div>
-      }
-    >
-      <LoginForm />
-    </Suspense>
   )
 }

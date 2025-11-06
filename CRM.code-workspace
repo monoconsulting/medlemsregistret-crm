@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
-		"output.smartScroll.enabled": false
+		"output.smartScroll.enabled": false,
+		"mcpFigma.aiAssistant": "github-copilot",
+		"mcpFigma.autoStartWebSocket": true,
+		"mcpFigma.websocketPort": 3065
 	}
 }

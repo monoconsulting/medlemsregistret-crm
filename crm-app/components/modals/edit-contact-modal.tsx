@@ -1,270 +1,220 @@
-'use client'
+"use client"
 
-import { useEffect } from 'react'
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-} from '@/components/ui/dialog'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Checkbox } from '@/components/ui/checkbox'
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form'
-import { useForm } from 'react-hook-form'
-import { zodResolver } from '@hookform/resolvers/zod'
-import { contactUpdateSchema, type ContactUpdateValues } from '@/lib/validators/contact'
+import { useEffect, useState } from "react"
+import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
+import { Label } from "@/components/ui/label"
+import { Checkbox } from "@/components/ui/checkbox"
+import { useToast } from "@/hooks/use-toast"
+import { api, type Contact } from "@/lib/api"
+import { Loader2, Trash2 } from "lucide-react"
 
 interface EditContactModalProps {
   open: boolean
   onOpenChange: (open: boolean) => void
-  contact: {
-    id: string
-    associationId: string
-    name: string
-    role?: string | null
-    email?: string | null
-    phone?: string | null
-    mobile?: string | null
-    linkedinUrl?: string | null
-    facebookUrl?: string | null
-    twitterUrl?: string | null
-    instagramUrl?: string | null
-    isPrimary: boolean
-    associationName: string
-  }
-  onSubmit: (values: ContactUpdateValues) => Promise<void>
-  onDelete?: () => Promise<void>
-  isSubmitting?: boolean
-  isDeleting?: boolean
+  contact: Contact | null
+  onUpdated?: () => void
 }
 
-export function EditContactModal({
-  open,
-  onOpenChange,
-  contact,
-  onSubmit,
-  onDelete,
-  isSubmitting,
-  isDeleting,
-}: EditContactModalProps) {
-  const form = useForm<ContactUpdateValues>({
-    resolver: zodResolver(contactUpdateSchema),
-    defaultValues: {
-      id: contact.id,
-      associationId: contact.associationId,
-      name: contact.name,
-      role: contact.role ?? '',
-      email: contact.email ?? '',
-      phone: contact.phone ?? '',
-      mobile: contact.mobile ?? '',
-      linkedinUrl: contact.linkedinUrl ?? '',
-      facebookUrl: contact.facebookUrl ?? '',
-      twitterUrl: contact.twitterUrl ?? '',
-      instagramUrl: contact.instagramUrl ?? '',
-      isPrimary: contact.isPrimary,
-    },
+export function EditContactModal({ open, onOpenChange, contact, onUpdated }: EditContactModalProps) {
+  const { toast } = useToast()
+  const [formState, setFormState] = useState({
+    name: "",
+    role: "",
+    email: "",
+    phone: "",
+    mobile: "",
+    linkedin_url: "",
+    facebook_url: "",
+    twitter_url: "",
+    instagram_url: "",
+    is_primary: false,
   })
+  const [submitting, setSubmitting] = useState(false)
+  const [deleting, setDeleting] = useState(false)
 
   useEffect(() => {
-    form.reset({
-      id: contact.id,
-      associationId: contact.associationId,
-      name: contact.name,
-      role: contact.role ?? '',
-      email: contact.email ?? '',
-      phone: contact.phone ?? '',
-      mobile: contact.mobile ?? '',
-      linkedinUrl: contact.linkedinUrl ?? '',
-      facebookUrl: contact.facebookUrl ?? '',
-      twitterUrl: contact.twitterUrl ?? '',
-      instagramUrl: contact.instagramUrl ?? '',
-      isPrimary: contact.isPrimary,
-    })
-  }, [contact, form])
+    if (contact) {
+      setFormState({
+        name: contact.name ?? "",
+        role: contact.role ?? "",
+        email: contact.email ?? "",
+        phone: contact.phone ?? "",
+        mobile: contact.mobile ?? "",
+        linkedin_url: contact.linkedin_url ?? "",
+        facebook_url: contact.facebook_url ?? "",
+        twitter_url: contact.twitter_url ?? "",
+        instagram_url: contact.instagram_url ?? "",
+        is_primary: contact.is_primary,
+      })
+    }
+  }, [contact, open])
 
-  const handleSubmit = async (values: ContactUpdateValues) => {
-    await onSubmit(values)
-    onOpenChange(false)
+  const handleChange = (field: string, value: string | boolean) => {
+    setFormState((prev) => ({ ...prev, [field]: value }))
+  }
+
+  const handleSubmit = async () => {
+    if (!contact) return
+    setSubmitting(true)
+    try {
+      await api.updateContact({
+        id: contact.id,
+        name: formState.name.trim() || null,
+        role: formState.role.trim() || null,
+        email: formState.email.trim() || null,
+        phone: formState.phone.trim() || null,
+        mobile: formState.mobile.trim() || null,
+        linkedin_url: formState.linkedin_url.trim() || null,
+        facebook_url: formState.facebook_url.trim() || null,
+        twitter_url: formState.twitter_url.trim() || null,
+        instagram_url: formState.instagram_url.trim() || null,
+        is_primary: formState.is_primary,
+      })
+      toast({ title: "Kontakt uppdaterad" })
+      onOpenChange(false)
+      onUpdated?.()
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Kunde inte uppdatera kontakt"
+      toast({ title: "Fel", description: message, variant: "destructive" })
+    } finally {
+      setSubmitting(false)
+    }
+  }
+
+  const handleDelete = async () => {
+    if (!contact) return
+    setDeleting(true)
+    try {
+      await api.deleteContact(contact.id)
+      toast({ title: "Kontakt borttagen" })
+      onOpenChange(false)
+      onUpdated?.()
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Kunde inte ta bort kontakt"
+      toast({ title: "Fel", description: message, variant: "destructive" })
+    } finally {
+      setDeleting(false)
+    }
   }
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-xl">
+      <DialogContent>
         <DialogHeader>
           <DialogTitle>Redigera kontakt</DialogTitle>
-          <DialogDescription>Uppdatera uppgifterna för {contact.associationName}.</DialogDescription>
         </DialogHeader>
-        <Form {...form}>
-          <form onSubmit={form.handleSubmit(handleSubmit)} className="space-y-4">
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-              <FormField
-                control={form.control}
-                name="name"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Namn</FormLabel>
-                    <FormControl>
-                      <Input placeholder="För- och efternamn" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="role"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Roll</FormLabel>
-                    <FormControl>
-                      <Input placeholder="Ordförande, kassör …" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-            </div>
-
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-              <FormField
-                control={form.control}
-                name="email"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>E-post</FormLabel>
-                    <FormControl>
-                      <Input type="email" placeholder="namn@forening.se" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="phone"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Telefon</FormLabel>
-                    <FormControl>
-                      <Input placeholder="08-123 45 67" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
+        <div className="grid gap-3">
+          <div className="grid gap-1.5">
+            <Label htmlFor="edit-contact-name">Namn</Label>
+            <Input
+              id="edit-contact-name"
+              value={formState.name}
+              onChange={(event) => handleChange("name", event.target.value)}
+            />
+          </div>
+          <div className="grid gap-1.5">
+            <Label htmlFor="edit-contact-role">Roll</Label>
+            <Input
+              id="edit-contact-role"
+              value={formState.role}
+              onChange={(event) => handleChange("role", event.target.value)}
+            />
+          </div>
+          <div className="grid gap-1.5">
+            <Label htmlFor="edit-contact-email">E-post</Label>
+            <Input
+              id="edit-contact-email"
+              type="email"
+              value={formState.email}
+              onChange={(event) => handleChange("email", event.target.value)}
+            />
+          </div>
+          <div className="grid gap-1.5 sm:grid-cols-2 sm:gap-3">
+            <div>
+              <Label htmlFor="edit-contact-phone">Telefon</Label>
+              <Input
+                id="edit-contact-phone"
+                value={formState.phone}
+                onChange={(event) => handleChange("phone", event.target.value)}
               />
             </div>
-
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-              <FormField
-                control={form.control}
-                name="mobile"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Mobil</FormLabel>
-                    <FormControl>
-                      <Input placeholder="070-123 45 67" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="isPrimary"
-                render={({ field }) => (
-                  <FormItem className="flex flex-row items-center justify-between rounded-md border p-3">
-                    <div className="space-y-0.5">
-                      <FormLabel>Primär kontakt</FormLabel>
-                      <p className="text-xs text-muted-foreground">Används i listor och utskick.</p>
-                    </div>
-                    <FormControl>
-                      <Checkbox checked={field.value} onCheckedChange={(value) => field.onChange(Boolean(value))} />
-                    </FormControl>
-                  </FormItem>
-                )}
+            <div>
+              <Label htmlFor="edit-contact-mobile">Mobil</Label>
+              <Input
+                id="edit-contact-mobile"
+                value={formState.mobile}
+                onChange={(event) => handleChange("mobile", event.target.value)}
               />
             </div>
-
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-              <FormField
-                control={form.control}
-                name="linkedinUrl"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>LinkedIn</FormLabel>
-                    <FormControl>
-                      <Input placeholder="https://linkedin.com/in/..." {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
+          </div>
+          <div className="grid gap-1.5">
+            <Label>Sociala länkar</Label>
+            <div className="grid gap-2 sm:grid-cols-2 sm:gap-3">
+              <Input
+                placeholder="LinkedIn URL"
+                value={formState.linkedin_url}
+                onChange={(event) => handleChange("linkedin_url", event.target.value)}
               />
-              <FormField
-                control={form.control}
-                name="facebookUrl"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Facebook</FormLabel>
-                    <FormControl>
-                      <Input placeholder="https://facebook.com/..." {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
+              <Input
+                placeholder="Facebook URL"
+                value={formState.facebook_url}
+                onChange={(event) => handleChange("facebook_url", event.target.value)}
+              />
+              <Input
+                placeholder="Twitter URL"
+                value={formState.twitter_url}
+                onChange={(event) => handleChange("twitter_url", event.target.value)}
+              />
+              <Input
+                placeholder="Instagram URL"
+                value={formState.instagram_url}
+                onChange={(event) => handleChange("instagram_url", event.target.value)}
               />
             </div>
-
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-              <FormField
-                control={form.control}
-                name="twitterUrl"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>X/Twitter</FormLabel>
-                    <FormControl>
-                      <Input placeholder="https://twitter.com/..." {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="instagramUrl"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Instagram</FormLabel>
-                    <FormControl>
-                      <Input placeholder="https://instagram.com/..." {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-            </div>
-
-            <DialogFooter>
-              <div className="flex w-full flex-col gap-2 sm:flex-row sm:justify-between">
-                <div className="flex gap-2">
-                  <Button variant="outline" type="button" onClick={() => onOpenChange(false)}>
-                    Avbryt
-                  </Button>
-                  <Button type="submit" disabled={isSubmitting}>
-                    {isSubmitting ? 'Sparar…' : 'Spara kontakt'}
-                  </Button>
-                </div>
-                {onDelete && (
-                  <Button variant="destructive" type="button" onClick={() => onDelete()} disabled={isDeleting}>
-                    {isDeleting ? 'Tar bort…' : 'Ta bort'}
-                  </Button>
-                )}
-              </div>
-            </DialogFooter>
-          </form>
-        </Form>
+          </div>
+          <div className="flex items-center gap-2">
+            <Checkbox
+              id="edit-contact-primary"
+              checked={formState.is_primary}
+              onCheckedChange={(checked) => handleChange("is_primary", Boolean(checked))}
+            />
+            <Label htmlFor="edit-contact-primary" className="text-sm text-muted-foreground">
+              Primär kontakt
+            </Label>
+          </div>
+        </div>
+        <DialogFooter className="flex flex-col gap-2 sm:flex-row sm:justify-between">
+          <Button variant="destructive" onClick={handleDelete} disabled={deleting || submitting}>
+            {deleting ? (
+              <>
+                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                Tar bort...
+              </>
+            ) : (
+              <>
+                <Trash2 className="mr-2 h-4 w-4" />
+                Ta bort
+              </>
+            )}
+          </Button>
+          <div className="flex gap-2">
+            <Button variant="outline" onClick={() => onOpenChange(false)} disabled={submitting || deleting}>
+              Avbryt
+            </Button>
+            <Button onClick={handleSubmit} disabled={submitting || deleting}>
+              {submitting ? (
+                <>
+                  <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                  Sparar...
+                </>
+              ) : (
+                "Spara ändringar"
+              )}
+            </Button>
+          </div>
+        </DialogFooter>
       </DialogContent>
     </Dialog>
   )
