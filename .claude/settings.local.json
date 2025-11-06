@@ -65,7 +65,8 @@
       "Bash(timeout 5 npm run dev:*)",
       "Bash(git commit:*)",
       "Bash(git merge:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(echo:*)"
     ],
     "deny": [],
     "ask": []

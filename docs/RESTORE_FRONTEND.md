@@ -36,11 +36,69 @@ Goal: migrate the fully featured legacy Next.js interface located in `legacy/crm
 6. **Municipalities (/municipalities)** – replicate list with municipality map overlay and stats. Ensure PHP endpoints supply municipality counts/details.
 7. **Groups (/groups)** – bring list, create modal, saved filter integration. Map TRPC (`groups.list/create/getById`) to PHP routes; invalidate caches after mutations.
 8. **Users (/users)** – migrate CRUD table and modals; ensure PHP backend exposes user management endpoints.
-9. **Import (/import)** – port file upload workflow (check existing data, import modes). Align with `/api/import` endpoints handling FormData uploads.
-10. **Web Scraping (/web-scraping)** – replicate grid UI and scrape triggers; coordinate backend hooks for scraping jobs.
+9. **Import (/import)** - port file upload workflow (check existing data, import modes). Align with `/api/import` endpoints handling FormData uploads.
+10. **Web Scraping (/web-scraping)** - replicate grid UI and scrape triggers; coordinate backend hooks for scraping jobs.
 11. Audit any additional routes (e.g., unauthorized page, settings) and replicate if still relevant.
 
-## Phase 5 – Modals & Supporting Features
+### Phase 4A - "Föreningar" (Associations) Restoration Plan
+
+**Current status**
+- The new page at `crm-app/app/associations/page.tsx` is partially ported but still crashes in runtime because it depends on API shapes that are not yet available (e.g. `/api/associations.php` currently returns 405 for POST/PUT/DELETE and omits several fields the UI expects).
+- Legacy UX includes table, card and (future) map views, advanced filters, bulk actions, contact & group modals, notes, activity insights, and exports. None of these are fully wired to the PHP backend yet.
+- We must reproduce the failing navigation first (load `/associations` in dev, capture the first network error + stack trace) to confirm whether the crash stems from missing data, auth refresh, or parsing issues.
+
+**Workstream 1 – Backend / API enablement**
+- Extend `api/associations.php`:
+  1. Broaden filtering to accept the legacy query contract (`crmStatuses[]`, `pipelines[]`, `types[]`, `activities[]`, `tags[]`, `hasEmail`, `hasPhone`, `isMember`, `assignedToId`, `dateRange`, `lastActivityDays`, search index fallback).
+  2. Return the full dataset (see checklist below) including pipeline, membership flags, contact/notes counts, primary contact snippet, assigned user, last activity timestamp, JSON fields (`types`, `activities`, `extras`) and municipal metadata.
+  3. Support `POST` (create), `PUT`/`PATCH` (updates with audit logging + optional note append), and `DELETE` (soft delete) with CSRF + session auth.
+  4. Add optional `view=detail` (or create `/api/association.php`) that joins contacts, notes (with author), tags, group memberships, activity log, description sections, and extras for the details modal.
+- Introduce missing PHP endpoints required by the page:
+  - `/api/contacts.php` for create/update/delete/list (primary flag, social URLs).
+  - `/api/groups.php` (list, add/remove members, soft delete) to drive bulk actions.
+  - `/api/association_activity.php` (recent timeline) and `/api/association_export.php` (CSV/Excel aligned with Windows-1252 encoding).
+  - Verify `association_notes.php` already handles author attribution; extend payload if we need `authorName` + avatar.
+- Ensure all endpoints honour existing logging (`log_event`) and rate limiting helpers and keep responses UTF-8 normalised.
+
+**Workstream 2 – Frontend parity**
+- Replace the current local-state table with the legacy React Query powered implementation:
+  1. Copy `legacy/crm-app/app/app/(dashboard)/associations/page.tsx` and supporting components (`components/filters/*`, `components/modals/*`, cards/table row renderers, export helpers) into `crm-app`.
+  2. Refactor TRPC calls to use the new REST helpers in `crm-app/lib/api.ts`, adding missing methods (`getAssociationById`, `updateAssociation`, `listContacts`, etc.) as the PHP endpoints land.
+  3. Re-enable advanced filter panel (status, pipeline, activities, tags, last activity, assigned user) and persist query-string sync for deep links.
+  4. Reinstate bulk toolbars: add to group, export, mailer modal (wire to PHP endpoints or feature-flag if backend work remains).
+  5. Restore modals: association details dialog, contacts create/edit, send email, add-to-group, tag manager, and ensure optimistic updates stay in sync with backend responses.
+  6. Add skeletons/empty states that match the legacy visual language and respect current Tailwind tokens.
+
+**Data contract parity checklist**
+
+| Legacy field / UI usage | Current `/api/associations.php` output | Action |
+| --- | --- | --- |
+| `crmStatus` (status pills, filters) | Returned as `status` but limited to single value filter | Keep uppercase enum, expose array filter support + ensure casing matches `CRM_STATUSES`. |
+| `pipeline` (kanban state, bulk edits) | **Missing** | Select `a.pipeline`, return as `pipeline`, allow sorting/filtering. |
+| `isMember`, `memberSince` (badges, timeline) | **Missing** | Select columns, expose filters (`isMember=true/false`). |
+| `orgNumber`, `municipality`, `city`, `postalCode`, `streetAddress` | Only `municipality_name` + combined `address` | Return individual columns (`org_number`, `street_address`, `postal_code`, `city`) to unblock detail panel + exports. |
+| `types`, `activities`, `categories` | `types` flattened to string; others omitted | Return JSON arrays (decode in PHP) and keep raw arrays in API to power filters and badges. |
+| `descriptionFreeText`, `extras.otherInformation` | **Missing** | Expose as `description_free_text`, `extras` (object) for details modal. |
+| Primary contact snapshot (`contacts[0]`, `_count.contacts`) | **Missing** | Join primary contact (name, email, phone) + counts to avoid extra roundtrips. |
+| `_count.notes` | **Missing** | Include notes count for list badges. |
+| `assignedTo` (user id/name) | **Missing** | Left join `User` table, return `{ id, name, email }`. |
+| `activityLog[0]` (recent event timestamp) | **Missing** | Join subquery for latest `Activity` to drive "recent activity" sorting & badges. |
+| `groupMemberships` summary | **Missing** | Either append to detail view or expose via separate endpoint for modal. |
+
+Revisit `crm-app/lib/api.ts` after the backend changes so the TypeScript types match the enriched payload (e.g. split `address` into structured fields, promote JSON arrays, add optional nested objects).
+
+**Workstream 3 – QA & observability**
+- Unit-test PHP endpoints with cURL-focused scripts (success + failure cases, CSRF enforcement, UTF-8 output).
+- Add Playwright scenario covering: load list, apply filters, edit status/pipeline, add tag, add note, add contact, bulk add-to-group (skip if endpoint pending), export trigger.
+- Capture HAR + API logs for a complete journey (list -> detail -> edit -> note) and archive under `docs/har/associations`.
+- Update `docs/worklogs` with exact commands and test artefacts, per `WORKLOG_AI_INSTRUCTION.md`.
+
+**Dependencies / open questions**
+- Confirm whether email sending (legacy `SendEmailModal`) should remain functional in this phase or be temporarily disabled until PHP mailer exists.
+- Clarify ownership for CSV export implementation (frontend trigger vs backend generator).
+- Validate whether Meilisearch/Typesense search is required immediately or if phase 1 can rely on MySQL `LIKE` queries while portable search service is restored.
+
+## Phase 5 - Modals & Supporting Features
 1. Confirm each modal (association details, contact edit, send email, add to group, user CRUD) has REST support; implement missing PHP endpoints or schedule backend work.
 2. Carry over exports (CSV/PDF) and email workflows, ensuring PHP backend handles encoding and queueing.
 

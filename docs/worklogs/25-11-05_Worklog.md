@@ -64,6 +64,7 @@
 
 | Time | Title | Change Type | Scope | Tickets | Commits | Files Touched |
 |---|---|---|---|---|---|---|
+| [11:46](11:46) | Legacy Association API Parity | feat | `frontend-migration/associations` | N/A | `N/A (uncommitted)` | `api/associations.php, crm-app/lib/api.ts, crm-app/app/associations/page.tsx, docs/RESTORE_FRONTEND.md` |
 | [08:23](08:23) | CSRF Auto-Retry Guard | fix | `frontend-migration/auth` | N/A | `N/A (uncommitted)` | `crm-app/lib/api.ts` |
 | [07:41](07:41) | Swedish Copy Encoding Fix | fix | `frontend-migration/localisation` | N/A | `N/A (uncommitted)` | `crm-app/app/login/page.tsx, crm-app/app/page.tsx, crm-app/app/dashboard/page.tsx, crm-app/app/dashboard/_components/*, crm-app/lib/providers/auth-provider.tsx` |
 | [07:16](07:16) | Dashboard Stats Signature Fix | fix | `frontend-migration/dashboard` | N/A | `N/A (uncommitted)` | `crm-app/app/dashboard/_components/dashboard-stats.tsx` |
@@ -109,6 +110,127 @@
 ```
 
 > Place your first real entry **here** ?? (and keep placing new ones above the previous):
+
+#### [11:46] Legacy Association API Parity
+- **Change type:** feat
+- **Scope (component/module):** `frontend-migration/associations`
+- **Tickets/PRs:** N/A
+- **Branch:** `TM000-associations-page`
+- **Commit(s):** `N/A (uncommitted)`
+- **Environment:** Codex CLI
+- **Commands run:**
+  ```bash
+  php -l api/associations.php
+  npm run lint
+  npm run build
+  ```
+- **Result summary:** Expanded `/api/associations.php` to mirror the legacy list contract (filters, metadata, CRUD) and refreshed the Next.js associations page with pipeline/membership columns plus boolean/date filters; PHP lint and both lint/build checks pass.
+- **Files changed (exact):**
+  - `api/associations.php` - L1-L1012 - functions/classes: `handle_list_associations`, `handle_create_association`, `handle_update_association`, `handle_delete_association`, `apply_filters`, `map_row_to_association`
+  - `crm-app/lib/api.ts` - L36-L345 - types/functions: `Pagination`, `AssocFilters`, `Association`, `getAssociations`
+  - `crm-app/app/associations/page.tsx` - L54-L1210 - components/hooks: `AssociationsPageInner`, `AssociationFormDialog`
+  - `docs/RESTORE_FRONTEND.md` - L43-L111 - sections: `Phase 4A - "Föreningar" (Associations) Restoration Plan`
+- **Unified diff (minimal, per file or consolidated):**
+  ```diff
+  --- a/api/associations.php
+  +++ b/api/associations.php
+  @@
+  +function handle_list_associations(): void {
+  +  require_auth();
+  +  // ... legacy-compatible filtering and pagination
+  +}
+  ```
+  ```diff
+  --- a/crm-app/lib/api.ts
+  +++ b/crm-app/lib/api.ts
+  @@
+  -export interface Pagination {
+  -  page?: number;
+  -  pageSize?: number;
+  -  sort?: 'name_asc' | 'name_desc' | 'updated_desc' | 'updated_asc';
+  -}
+  +export interface Pagination {
+  +  page?: number;
+  +  pageSize?: number;
+  +  sort?:
+  +    | 'name_asc'
+  +    | 'name_desc'
+  +    | 'updated_desc'
+  +    | 'updated_asc'
+  +    | 'created_desc'
+  +    | 'created_asc'
+  +    | 'crm_status_asc'
+  +    | 'crm_status_desc'
+  +    | 'pipeline_asc'
+  +    | 'pipeline_desc'
+  +    | 'recent_activity_desc'
+  +    | 'recent_activity_asc';
+  +}
+  ```
+  ```diff
+  --- a/crm-app/app/associations/page.tsx
+  +++ b/crm-app/app/associations/page.tsx
+  @@
+  -interface AssociationFormState {
+  -  name: string
+  -  municipality_id: string
+  -  type: string
+  -  status: string
+  -  email: string
+  -  phone: string
+  -  address: string
+  -  website: string
+  -  description: string
+  -}
+  +interface AssociationFormState {
+  +  name: string
+  +  municipality_id: string
+  +  type: string
+  +  status: string
+  +  pipeline: string
+  +  is_member: "true" | "false"
+  +  member_since: string
+  +  org_number: string
+  +  postal_code: string
+  +  city: string
+  +  detail_url: string
+  +  email: string
+  +  phone: string
+  +  address: string
+  +  website: string
+  +  description: string
+  +  description_free_text: string
+  +}
+  ```
+- **Unified diff (continued):**
+  ```diff
+  +          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+  +            <Select
+  +              value={filters.pipeline}
+  +              onValueChange={(value) => handleFilterChange({ pipeline: value, page: 1 })}
+  +            >
+  +              <SelectTrigger>
+  +                <SelectValue placeholder="Pipeline" />
+  +              </SelectTrigger>
+  +              <SelectContent>
+  +                <SelectItem value="">Alla pipelines</SelectItem>
+  +                {availablePipelines.map((pipeline) => (
+  +                  <SelectItem key={pipeline} value={pipeline}>
+  +                    {pipeline}
+  +                  </SelectItem>
+  +                ))}
+  +              </SelectContent>
+  +            </Select>
+  +            ...
+  +          </div>
+  ```
+- **Tests executed:** `php -l api/associations.php` (pass); `npm run lint` (pass)
+  - `npm run build` (pass)
+- **Performance note (if any):** N/A
+- **System documentation updated:**
+  - `docs/RESTORE_FRONTEND.md` - Documented Phase 4A backend/UI tasks for restoring full associations parity
+- **Artifacts:** N/A
+- **Next action:** Hook up legacy modal flows (contacts, notes, groups) to new REST endpoints and extend tests accordingly.
 
 #### [08:23] CSRF Auto-Retry Guard
 - **Change type:** fix
@@ -520,7 +642,7 @@
 +++ b/crm-app/app/municipalities/page.tsx
 @@
 +          <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" aria-hidden="true" />
-+          <Input placeholder="Sök förening…" className="pl-8" />
++          <Input placeholder="Sök förening..." className="pl-8" />
 ```
 - **Removals commented & justification:** N/A
 - **Side-effects / dependencies:** Deep-links to associations when municipality selected.

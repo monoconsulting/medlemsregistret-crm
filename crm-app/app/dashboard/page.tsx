@@ -1,23 +1,24 @@
-"use client"
+"use client";
 
-import type { JSX } from "react"
-import { useEffect, useMemo, useState } from "react"
-import { useRouter } from "next/navigation"
-import { Button } from "@/components/ui/button"
-import { AppLayout } from "@/components/layout/app-layout"
-import { api, type Association, type Municipality } from "@/lib/api"
-import { logClientEvent } from "@/lib/logging"
-import { DashboardStats } from "./_components/dashboard-stats"
-import { RecentlyUpdatedAssociations } from "./_components/recently-updated"
-import { MunicipalityLeaderboard } from "./_components/municipality-leaderboard"
-import { PlaceholderCard } from "./_components/placeholder-card"
+import type { JSX } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { AppLayout } from "@/components/layout/app-layout";
+import { api, type Association, type Municipality } from "@/lib/api";
+import { logClientEvent } from "@/lib/logging";
+import { DashboardStats } from "./_components/dashboard-stats";
+import { RecentlyUpdatedAssociations } from "./_components/recently-updated";
+import { MunicipalityLeaderboard } from "./_components/municipality-leaderboard";
+import { PlaceholderCard } from "./_components/placeholder-card";
 
 interface DashboardState {
-  loading: boolean
-  error: string | null
-  associations: Association[]
-  totalAssociations: number
-  municipalities: Municipality[]
+  loading: boolean;
+  error: string | null;
+  associations: Association[];
+  totalAssociations: number;
+  municipalities: Municipality[];
 }
 
 const INITIAL_STATE: DashboardState = {
@@ -26,26 +27,26 @@ const INITIAL_STATE: DashboardState = {
   associations: [],
   totalAssociations: 0,
   municipalities: [],
-}
+};
 
 export default function DashboardPage(): JSX.Element {
-  const router = useRouter()
-  const [state, setState] = useState<DashboardState>(INITIAL_STATE)
+  const router = useRouter();
+  const [state, setState] = useState<DashboardState>(INITIAL_STATE);
 
   useEffect(() => {
-    let cancelled = false
+    let cancelled = false;
 
     const loadDashboard = async () => {
-      setState((prev) => ({ ...prev, loading: true, error: null }))
+      setState((prev) => ({ ...prev, loading: true, error: null }));
       try {
-        logClientEvent("client.dashboard.fetch.start")
+        logClientEvent("client.dashboard.fetch.start");
         const [associationResult, municipalityList] = await Promise.all([
           api.getAssociations({ page: 1, pageSize: 20, sort: "updated_desc" }),
           api.getMunicipalities(),
-        ])
+        ]);
 
         if (cancelled) {
-          return
+          return;
         }
 
         setState({
@@ -54,54 +55,59 @@ export default function DashboardPage(): JSX.Element {
           associations: associationResult.items,
           totalAssociations: associationResult.total,
           municipalities: municipalityList,
-        })
+        });
 
-        const firstUpdated = associationResult.items[0]?.updated_at ?? null
+        const firstUpdated = associationResult.items[0]?.updated_at ?? null;
         logClientEvent("client.dashboard.fetch.success", {
           associations: associationResult.items.length,
           municipalities: municipalityList.length,
           lastUpdated: firstUpdated,
-        })
+        });
       } catch (error) {
         if (cancelled) {
-          return
+          return;
         }
 
-        const message = error instanceof Error ? error.message : "Kunde inte hämta dashboardsdata"
-        logClientEvent("client.dashboard.fetch.error", { message })
+        const message = error instanceof Error ? error.message : "Kunde inte hämta dashboardsdata";
+        logClientEvent("client.dashboard.fetch.error", { message });
         setState({
           loading: false,
           error: message,
           associations: [],
           totalAssociations: 0,
           municipalities: [],
-        })
+        });
       }
-    }
+    };
 
-    void loadDashboard()
+    void loadDashboard();
 
     return () => {
-      cancelled = true
-    }
-  }, [])
+      cancelled = true;
+    };
+  }, []);
 
   const lastUpdatedAt = useMemo<string | null>(() => {
     if (!state.associations.length) {
-      return null
+      return null;
     }
-    return state.associations[0]?.updated_at ?? null
-  }, [state.associations])
+    return state.associations[0]?.updated_at ?? null;
+  }, [state.associations]);
 
   const headerActions = (
-    <Button onClick={() => router.push("/associations")} variant="outline">
+    <Button
+      onClick={() => router.push("/associations")}
+      variant="outline"
+      className="rounded-full border border-border/60 bg-white px-4 text-sm font-medium text-foreground transition-colors hover:border-primary/40 hover:bg-primary/10 hover:text-primary"
+    >
+      <ArrowRight className="mr-2 h-4 w-4" aria-hidden="true" />
       Gå till föreningar
     </Button>
-  )
+  );
 
   return (
     <AppLayout title="Dashboard" description="Översikt över CRM-aktivitet" actions={headerActions}>
-      <div className="space-y-6">
+      <div className="flex flex-col gap-6">
         <DashboardStats
           loading={state.loading}
           totalAssociations={state.totalAssociations}
@@ -154,5 +160,5 @@ export default function DashboardPage(): JSX.Element {
         </div>
       </div>
     </AppLayout>
-  )
+  );
 }

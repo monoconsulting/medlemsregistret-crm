@@ -33,15 +33,40 @@ export interface AuthSession {
 export interface Pagination {
   page?: number;
   pageSize?: number;
-  sort?: 'name_asc' | 'name_desc' | 'updated_desc' | 'updated_asc';
+  sort?:
+    | 'name_asc'
+    | 'name_desc'
+    | 'updated_desc'
+    | 'updated_asc'
+    | 'created_desc'
+    | 'created_asc'
+    | 'crm_status_asc'
+    | 'crm_status_desc'
+    | 'pipeline_asc'
+    | 'pipeline_desc'
+    | 'recent_activity_desc'
+    | 'recent_activity_asc';
 }
 
 export interface AssocFilters extends Pagination {
   q?: string;
   municipality?: string;
+  municipalityIds?: string[];
   type?: string;
+  types?: string[];
   status?: string;
+  crmStatuses?: string[];
+  pipeline?: string;
+  pipelines?: string[];
+  activities?: string[];
   tags?: string[]; // tag names or IDs (backend accepts both, see PHP)
+  hasEmail?: boolean;
+  hasPhone?: boolean;
+  isMember?: boolean;
+  assignedToId?: string;
+  dateFrom?: string;
+  dateTo?: string;
+  lastActivityDays?: number;
 }
 
 export interface Association {
@@ -49,13 +74,52 @@ export interface Association {
   name: string;
   municipality_id: string | null;
   municipality_name?: string | null;
+  municipality?: string | null;
+  source_system?: string | null;
+  org_number?: string | null;
   type: string | null;
+  types?: string[];
   status: string | null;
+  crm_status?: string | null;
+  pipeline?: string | null;
+  activities?: string[];
+  categories?: string[];
+  is_member?: boolean;
+  member_since?: string | null;
   email: string | null;
   phone: string | null;
   address: string | null;
+  street_address?: string | null;
+  postal_code?: string | null;
+  city?: string | null;
+  detail_url?: string | null;
   website: string | null;
-  description: string | null;
+  description: string | Record<string, unknown> | null;
+  description_free_text?: string | null;
+  extras?: Record<string, unknown> | null;
+  primary_contact?: {
+    id: string;
+    name: string | null;
+    role: string | null;
+    email: string | null;
+    phone: string | null;
+    mobile: string | null;
+    is_primary: boolean;
+  } | null;
+  contacts_count?: number;
+  notes_count?: number;
+  recent_activity?: {
+    id: string;
+    type: string;
+    description: string | null;
+    created_at: string;
+    metadata?: unknown;
+  } | null;
+  assigned_to?: {
+    id: string | null;
+    name: string | null;
+    email: string | null;
+  } | null;
   created_at: string;
   updated_at: string;
   deleted_at: string | null;
@@ -75,10 +139,59 @@ export interface Tag {
   name: string;
 }
 
+export interface Contact {
+  id: string;
+  association_id: string;
+  name: string | null;
+  role: string | null;
+  email: string | null;
+  phone: string | null;
+  mobile: string | null;
+  linkedin_url?: string | null;
+  facebook_url?: string | null;
+  twitter_url?: string | null;
+  instagram_url?: string | null;
+  is_primary: boolean;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface AssociationActivity {
+  id: string;
+  type: string;
+  description: string | null;
+  created_at: string;
+}
+
+export interface AssociationGroupMembership {
+  id: string;
+  membership_id: string;
+  name: string | null;
+}
+
+export interface AssociationDetail extends Association {
+  contacts: Contact[];
+  notes: Note[];
+  activity_log: AssociationActivity[];
+  group_memberships: AssociationGroupMembership[];
+}
+
 export interface Municipality {
   id: string;
   name: string;
   code: string | null;
+  countyCode: string | null;
+  county: string | null;
+  region: string | null;
+  province: string | null;
+  latitude: number | null;
+  longitude: number | null;
+  population: number | null;
+  registerUrl: string | null;
+  registerStatus: string | null;
+  homepage: string | null;
+  platform: string | null;
+  associationCount?: number;
 }
 
 interface ListResponse<T> {
@@ -259,14 +372,35 @@ export const api = {
     const params = new URLSearchParams();
     if (filters.q) params.set('q', filters.q);
     if (filters.municipality) params.set('municipality', filters.municipality);
+    if (filters.municipalityIds?.length) filters.municipalityIds.forEach(value => params.append('municipalityIds[]', value));
     if (filters.type) params.set('type', filters.type);
+    if (filters.types?.length) filters.types.forEach(value => params.append('types[]', value));
     if (filters.status) params.set('status', filters.status);
+    if (filters.crmStatuses?.length) filters.crmStatuses.forEach(value => params.append('crmStatuses[]', value));
+    if (filters.pipeline) params.set('pipeline', filters.pipeline);
+    if (filters.pipelines?.length) filters.pipelines.forEach(value => params.append('pipelines[]', value));
+    if (filters.activities?.length) filters.activities.forEach(value => params.append('activities[]', value));
     if (filters.tags?.length) filters.tags.forEach(t => params.append('tags[]', t));
+    if (filters.hasEmail !== undefined) params.set('hasEmail', filters.hasEmail ? '1' : '0');
+    if (filters.hasPhone !== undefined) params.set('hasPhone', filters.hasPhone ? '1' : '0');
+    if (filters.isMember !== undefined) params.set('isMember', filters.isMember ? '1' : '0');
+    if (filters.assignedToId) params.set('assignedToId', filters.assignedToId);
+    if (filters.dateFrom) params.set('dateFrom', filters.dateFrom);
+    if (filters.dateTo) params.set('dateTo', filters.dateTo);
+    if (typeof filters.lastActivityDays === 'number') params.set('lastActivityDays', String(filters.lastActivityDays));
     if (filters.page) params.set('page', String(filters.page));
     if (filters.pageSize) params.set('pageSize', String(filters.pageSize));
     if (filters.sort) params.set('sort', filters.sort);
 
     return jsonFetch(`/api/associations.php?${params.toString()}`, { method: 'GET' });
+  },
+
+  /**
+   * Retrieves a detailed association payload with contacts, notes, activity.
+   */
+  async getAssociationDetail(id: AssocID): Promise<AssociationDetail> {
+    const res = await jsonFetch(`/api/association_detail.php?id=${encodeURIComponent(String(id))}`, { method: 'GET' });
+    return res.association as AssociationDetail;
   },
 
   /**
@@ -308,6 +442,87 @@ export const api = {
    */
   async deleteAssociation(id: AssocID): Promise<{ ok: boolean }> {
     return jsonFetch(`/api/associations.php?id=${encodeURIComponent(String(id))}`, { method: 'DELETE' }, true);
+  },
+
+  /**
+   * Lists contacts for an association.
+   */
+  async getContacts(associationId: AssocID): Promise<Contact[]> {
+    const res = await jsonFetch(`/api/contacts.php?association_id=${encodeURIComponent(String(associationId))}`, {
+      method: 'GET',
+    });
+    return res.items as Contact[];
+  },
+
+  /**
+   * Creates a contact for an association.
+   */
+  async createContact(payload: {
+    associationId: AssocID;
+    name?: string | null;
+    role?: string | null;
+    email?: string | null;
+    phone?: string | null;
+    mobile?: string | null;
+    linkedin_url?: string | null;
+    facebook_url?: string | null;
+    twitter_url?: string | null;
+    instagram_url?: string | null;
+    is_primary?: boolean;
+  }): Promise<{ id: string }> {
+    const body = {
+      association_id: payload.associationId,
+      name: payload.name ?? null,
+      role: payload.role ?? null,
+      email: payload.email ?? null,
+      phone: payload.phone ?? null,
+      mobile: payload.mobile ?? null,
+      linkedin_url: payload.linkedin_url ?? null,
+      facebook_url: payload.facebook_url ?? null,
+      twitter_url: payload.twitter_url ?? null,
+      instagram_url: payload.instagram_url ?? null,
+      is_primary: payload.is_primary ?? false,
+    };
+    return jsonFetch('/api/contacts.php', { method: 'POST', body }, true);
+  },
+
+  /**
+   * Updates an existing contact.
+   */
+  async updateContact(payload: {
+    id: string;
+    name?: string | null;
+    role?: string | null;
+    email?: string | null;
+    phone?: string | null;
+    mobile?: string | null;
+    linkedin_url?: string | null;
+    facebook_url?: string | null;
+    twitter_url?: string | null;
+    instagram_url?: string | null;
+    is_primary?: boolean;
+  }): Promise<{ ok: boolean }> {
+    const body = {
+      id: payload.id,
+      name: payload.name ?? null,
+      role: payload.role ?? null,
+      email: payload.email ?? null,
+      phone: payload.phone ?? null,
+      mobile: payload.mobile ?? null,
+      linkedin_url: payload.linkedin_url ?? null,
+      facebook_url: payload.facebook_url ?? null,
+      twitter_url: payload.twitter_url ?? null,
+      instagram_url: payload.instagram_url ?? null,
+      is_primary: payload.is_primary ?? undefined,
+    };
+    return jsonFetch('/api/contacts.php', { method: 'PUT', body }, true);
+  },
+
+  /**
+   * Deletes a contact by id.
+   */
+  async deleteContact(id: string): Promise<{ ok: boolean }> {
+    return jsonFetch(`/api/contacts.php?id=${encodeURIComponent(String(id))}`, { method: 'DELETE' }, true);
   },
 
   /**
@@ -371,6 +586,20 @@ export const api = {
   async getMunicipalities(): Promise<Municipality[]> {
     const res = await jsonFetch('/api/municipalities.php', { method: 'GET' });
     return res.items as Municipality[];
+  },
+
+  /**
+   * Gets a single municipality by ID.
+   *
+   * Args:
+   *   id: The municipality ID
+   *
+   * Returns:
+   *   Promise<Municipality>: The municipality details
+   */
+  async getMunicipalityById(id: string): Promise<Municipality> {
+    const res = await jsonFetch(`/api/municipalities.php?id=${encodeURIComponent(id)}`, { method: 'GET' });
+    return res as Municipality;
   },
 
   /**
