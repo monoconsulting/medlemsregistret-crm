@@ -1,163 +1,207 @@
 "use client";
 
 import type { JSX } from "react";
-import { useEffect, useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
-import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { Calendar, Download } from "lucide-react";
+import { format } from "date-fns";
+import { sv } from "date-fns/locale";
 import { AppLayout } from "@/components/layout/app-layout";
-import { api, type Association, type Municipality } from "@/lib/api";
+import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import {
+  api,
+  type DashboardOverviewResponse,
+  type DashboardRangeKey,
+} from "@/lib/api";
 import { logClientEvent } from "@/lib/logging";
 import { DashboardStats } from "./_components/dashboard-stats";
-import { RecentlyUpdatedAssociations } from "./_components/recently-updated";
-import { MunicipalityLeaderboard } from "./_components/municipality-leaderboard";
-import { PlaceholderCard } from "./_components/placeholder-card";
+import { DashboardCharts } from "./_components/dashboard-charts";
+import { RecentMembers } from "./_components/recent-members";
 
 interface DashboardState {
   loading: boolean;
   error: string | null;
-  associations: Association[];
-  totalAssociations: number;
-  municipalities: Municipality[];
+  data: DashboardOverviewResponse | null;
 }
 
-const INITIAL_STATE: DashboardState = {
-  loading: true,
-  error: null,
-  associations: [],
-  totalAssociations: 0,
-  municipalities: [],
-};
+const RANGE_OPTIONS: Array<{ key: DashboardRangeKey; label: string }> = [
+  { key: "this_month", label: "Denna månad" },
+  { key: "last_30_days", label: "Senaste 30 dagarna" },
+  { key: "this_quarter", label: "Detta kvartal" },
+  { key: "this_year", label: "Detta år" },
+];
+
+const DEFAULT_RANGE: DashboardRangeKey = "this_month";
 
 export default function DashboardPage(): JSX.Element {
-  const router = useRouter();
-  const [state, setState] = useState<DashboardState>(INITIAL_STATE);
+  const [range, setRange] = useState<DashboardRangeKey>(DEFAULT_RANGE);
+  const [state, setState] = useState<DashboardState>({
+    loading: true,
+    error: null,
+    data: null,
+  });
 
   useEffect(() => {
     let cancelled = false;
 
-    const loadDashboard = async () => {
+    const load = async () => {
       setState((prev) => ({ ...prev, loading: true, error: null }));
       try {
-        logClientEvent("client.dashboard.fetch.start");
-        const [associationResult, municipalityList] = await Promise.all([
-          api.getAssociations({ page: 1, pageSize: 20, sort: "updated_desc" }),
-          api.getMunicipalities(),
-        ]);
-
+        logClientEvent("client.dashboard.fetch.start", { range });
+        const result = await api.getDashboardOverview(range);
         if (cancelled) {
           return;
         }
-
-        setState({
-          loading: false,
-          error: null,
-          associations: associationResult.items,
-          totalAssociations: associationResult.total,
-          municipalities: municipalityList,
-        });
-
-        const firstUpdated = associationResult.items[0]?.updated_at ?? null;
+        setState({ loading: false, error: null, data: result });
         logClientEvent("client.dashboard.fetch.success", {
-          associations: associationResult.items.length,
-          municipalities: municipalityList.length,
-          lastUpdated: firstUpdated,
+          range,
+          trendPoints: result.charts.newMembersTrend.length,
+          recentMembers: result.recentMembers.length,
+          lastUpdated: result.lastUpdated ?? null,
         });
       } catch (error) {
         if (cancelled) {
           return;
         }
-
-        const message = error instanceof Error ? error.message : "Kunde inte hämta dashboardsdata";
-        logClientEvent("client.dashboard.fetch.error", { message });
-        setState({
-          loading: false,
-          error: message,
-          associations: [],
-          totalAssociations: 0,
-          municipalities: [],
-        });
+        const message =
+          error instanceof Error ? error.message : "Kunde inte hämta dashboardsdata";
+        setState({ loading: false, error: message, data: null });
+        logClientEvent("client.dashboard.fetch.error", { range, message });
       }
     };
 
-    void loadDashboard();
+    void load();
 
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [range]);
 
-  const lastUpdatedAt = useMemo<string | null>(() => {
-    if (!state.associations.length) {
+  const rangeLabel = useMemo(() => {
+    if (state.data?.range.label) {
+      return state.data.range.label;
+    }
+    return RANGE_OPTIONS.find((option) => option.key === range)?.label ?? "";
+  }, [range, state.data?.range.label]);
+
+  const lastUpdatedLabel = useMemo(() => {
+    if (!state.data?.lastUpdated) {
       return null;
     }
-    return state.associations[0]?.updated_at ?? null;
-  }, [state.associations]);
+    try {
+      return format(new Date(state.data.lastUpdated), "PPP HH:mm", { locale: sv });
+    } catch {
+      return state.data.lastUpdated;
+    }
+  }, [state.data?.lastUpdated]);
 
-  const headerActions = (
-    <Button
-      onClick={() => router.push("/associations")}
-      variant="outline"
-      className="rounded-full border border-border/60 bg-white px-4 text-sm font-medium text-foreground transition-colors hover:border-primary/40 hover:bg-primary/10 hover:text-primary"
-    >
-      <ArrowRight className="mr-2 h-4 w-4" aria-hidden="true" />
-      Gå till föreningar
-    </Button>
-  );
+  const handleRangeSelect = useCallback((value: string) => {
+    setRange(value as DashboardRangeKey);
+  }, []);
+
+  const handleExport = useCallback(() => {
+    if (!state.data) {
+      return;
+    }
+    try {
+      logClientEvent("client.dashboard.export.start", { range });
+      const payload = {
+        generatedAt: new Date().toISOString(),
+        range: state.data.range,
+        summary: state.data.summary,
+        charts: state.data.charts,
+        recentMembers: state.data.recentMembers,
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], {
+        type: "application/json",
+      });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `dashboard-rapport-${range}-${new Date()
+        .toISOString()
+        .slice(0, 10)}.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+      logClientEvent("client.dashboard.export.success", { range });
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Okänt exportfel";
+      logClientEvent("client.dashboard.export.error", { range, message });
+      console.error("Misslyckades att exportera dashboardrapport:", error);
+    }
+  }, [range, state.data]);
 
   return (
-    <AppLayout title="Dashboard" description="Översikt över CRM-aktivitet" actions={headerActions}>
-      <div className="flex flex-col gap-6">
-        <DashboardStats
+    <AppLayout title="" description="">
+      <div className="space-y-8">
+        <section className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <div className="space-y-2">
+            <h1 className="text-3xl font-semibold text-slate-900">Dashboard</h1>
+            <p className="text-sm text-slate-500">
+              Översikt av föreningsdata och systemaktivitet.
+            </p>
+            {lastUpdatedLabel ? (
+              <p className="text-xs text-slate-400">
+                Senast uppdaterad {lastUpdatedLabel}
+              </p>
+            ) : null}
+          </div>
+          <div className="flex flex-wrap items-center gap-3">
+            <Select value={range} onValueChange={handleRangeSelect}>
+              <SelectTrigger className="flex w-48 items-center gap-2 rounded-lg border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-[#ea580b]/40 focus:ring-0">
+                <Calendar className="h-4 w-4 text-[#ea580b]" aria-hidden="true" />
+                <SelectValue placeholder="Denna månad" />
+              </SelectTrigger>
+              <SelectContent align="end">
+                {RANGE_OPTIONS.map((option) => (
+                  <SelectItem key={option.key} value={option.key}>
+                    {option.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <Button
+              onClick={handleExport}
+              className="rounded-lg bg-[#ea580b] px-5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[#d94f0a]"
+            >
+              <Download className="mr-2 h-4 w-4" aria-hidden="true" />
+              Exportera rapport
+            </Button>
+          </div>
+        </section>
+
+        {state.error ? (
+          <Alert
+            variant="destructive"
+            className="rounded-xl border border-red-200 bg-red-50 text-red-700"
+          >
+            <AlertTitle>Kunde inte ladda dashboarden</AlertTitle>
+            <AlertDescription>{state.error}</AlertDescription>
+          </Alert>
+        ) : null}
+
+        <DashboardStats loading={state.loading} summary={state.data?.summary ?? null} />
+
+        <DashboardCharts
           loading={state.loading}
-          totalAssociations={state.totalAssociations}
-          totalMunicipalities={state.municipalities.length}
-          lastUpdatedAt={lastUpdatedAt}
-          error={state.error}
+          trend={state.data?.charts.newMembersTrend ?? null}
+          slices={state.data?.charts.contactsVsMembers ?? null}
         />
 
-        <div className="grid gap-6 lg:grid-cols-7">
-          <RecentlyUpdatedAssociations
-            loading={state.loading}
-            associations={state.associations}
-            className="lg:col-span-4"
-          />
-          <MunicipalityLeaderboard
-            loading={state.loading}
-            associations={state.associations}
-            className="lg:col-span-3"
-          />
-        </div>
-
-        <div className="grid gap-6 lg:grid-cols-7">
-          <PlaceholderCard
-            title="Aktivitetsflöde"
-            description="Historiska åtgärder från redaktörer visas här när API-flödet från PHP-backenden är på plats."
-            className="lg:col-span-4"
-            icon="inbox"
-          />
-          <PlaceholderCard
-            title="Kommunöversikt"
-            description="Detaljerade trendgrafer och kartvisualisering återkommer när migrationsfas 2 är klar."
-            className="lg:col-span-3"
-            icon="map"
-          />
-        </div>
-
-        <div className="grid gap-6 lg:grid-cols-7">
-          <PlaceholderCard
-            title="AI-assistent"
-            description="Generativa förslag återkopplas när vi aktiverar OpenAI-integrationen."
-            className="lg:col-span-4"
-            icon="sparkles"
-          />
-          <PlaceholderCard
-            title="Sparade grupper"
-            description="Favoritlistor och segment visas här när TRPC-grupperna är portade till PHP."
-            className="lg:col-span-3"
-            icon="folder"
-          />
-        </div>
+        <RecentMembers
+          loading={state.loading}
+          members={state.data?.recentMembers ?? null}
+          rangeLabel={rangeLabel}
+        />
       </div>
     </AppLayout>
   );

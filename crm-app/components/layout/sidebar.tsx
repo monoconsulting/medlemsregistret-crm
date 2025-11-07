@@ -1,9 +1,11 @@
 "use client";
 
-import type { JSX } from "react";
+import type { FocusEvent, JSX } from "react";
+import { useCallback, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
+  BarChart3,
   Building2,
   FolderKanban,
   LayoutDashboard,
@@ -18,6 +20,7 @@ import { Input } from "@/components/ui/input";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { useAuth } from "@/lib/providers/auth-provider";
+import { cn } from "@/lib/utils";
 
 const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
@@ -63,38 +66,60 @@ export function Sidebar(): JSX.Element {
   const role = roleLabel(user?.role);
   const initials = userInitials(user?.name, user?.email);
 
+  const [expanded, setExpanded] = useState(false);
+
+  const handleMouseEnter = useCallback(() => setExpanded(true), []);
+  const handleMouseLeave = useCallback(() => setExpanded(false), []);
+  const handleFocus = useCallback(() => setExpanded(true), []);
+  const handleBlur = useCallback((event: FocusEvent<HTMLElement>) => {
+    if (!event.currentTarget.contains(event.relatedTarget as Node)) {
+      setExpanded(false);
+    }
+  }, []);
+
   return (
-    <aside className="hidden h-screen w-72 flex-col border-r border-border/60 bg-white/95 backdrop-blur-lg lg:flex">
-      <div className="flex h-16 items-center gap-3 border-b border-border/60 px-6">
-        <div className="flex size-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-          <Building2 className="h-5 w-5" aria-hidden="true" />
+    <aside
+      className={cn(
+        "hidden h-screen flex-col border-r border-slate-200 bg-white transition-all duration-200 ease-in-out lg:flex",
+        expanded ? "w-72" : "w-20",
+      )}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onFocusCapture={handleFocus}
+      onBlurCapture={handleBlur}
+    >
+      <div className="flex h-16 items-center gap-3 border-b border-slate-200 px-4">
+        <div className="flex size-10 items-center justify-center rounded-lg bg-[#ea580b]/10 text-[#ea580b] shadow-sm">
+          <BarChart3 className="h-5 w-5" aria-hidden="true" />
         </div>
-        <div className="flex flex-col">
-          <Link
-            href="/dashboard"
-            className="text-sm font-semibold text-muted-foreground transition-colors hover:text-foreground"
-          >
-            Medlemsregistret
-          </Link>
-          <span className="text-base font-semibold text-foreground">CRM Portal</span>
-        </div>
-      </div>
-
-      <div className="px-4 py-5">
-        <div className="relative">
-          <Search
-            className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground"
-            aria-hidden="true"
-          />
-          <Input
-            placeholder="Sök förening eller kontakt"
-            aria-label="Sök i registret"
-            className="h-10 rounded-lg bg-muted/60 pl-10 text-sm text-foreground placeholder:text-muted-foreground/80 focus-visible:bg-white"
-          />
+        <div className={cn("flex flex-col transition-opacity", expanded ? "opacity-100" : "opacity-0")}>
+          <span className="text-sm font-medium text-slate-500">Föreningssystem</span>
+          <span className="text-base font-semibold text-slate-900">CRM System</span>
         </div>
       </div>
 
-      <nav className="flex flex-1 flex-col gap-1 px-4 pb-6">
+      <div className="px-3 py-4">
+        {expanded ? (
+          <label className="relative block text-sm text-slate-500">
+            <Search
+              className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
+              aria-hidden="true"
+            />
+            <Input
+              placeholder="Sök i systemet..."
+              aria-label="Sök i systemet"
+              className="h-10 rounded-lg border border-transparent bg-slate-100 pl-10 text-sm text-slate-700 placeholder:text-slate-400 focus:border-[#ea580b]/40 focus:bg-white focus:ring-0"
+            />
+          </label>
+        ) : (
+          <div className="flex h-10 items-center justify-center rounded-lg border border-transparent bg-slate-100 text-slate-500">
+            <Search className="h-4 w-4" aria-hidden="true" />
+            <span className="sr-only">Öppna sök</span>
+          </div>
+        )}
+      </div>
+
+      <nav className="flex flex-1 flex-col gap-1 px-2 pb-6">
         {navigation.map((item) => {
           const isActive = pathname === item.href || pathname?.startsWith(`${item.href}/`);
           const Icon = item.icon;
@@ -102,60 +127,82 @@ export function Sidebar(): JSX.Element {
             <Link
               key={item.name}
               href={item.href}
-              className={`group flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
+              className={cn(
+                "group flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors",
                 isActive
-                  ? "bg-primary/10 text-primary"
-                  : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-              }`}
+                  ? "bg-orange-50 text-[#ea580b]"
+                  : "text-slate-500 hover:bg-slate-100 hover:text-slate-900",
+              )}
+              title={item.name}
             >
               <span
-                className={`flex size-8 items-center justify-center rounded-md border transition-colors ${
+                className={cn(
+                  "flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border transition-colors",
                   isActive
-                    ? "border-primary/40 bg-primary/10 text-primary"
-                    : "border-transparent bg-muted/40 text-muted-foreground group-hover:border-muted-foreground/30 group-hover:text-foreground"
-                }`}
+                    ? "border-[#ea580b]/30 bg-white text-[#ea580b]"
+                    : "border-transparent bg-slate-100 text-slate-400 group-hover:border-slate-300 group-hover:text-slate-900",
+                )}
               >
                 <Icon className="h-4 w-4" aria-hidden="true" />
               </span>
-              <span className="flex-1 text-left">{item.name}</span>
+              <span
+                className={cn(
+                  "flex-1 whitespace-nowrap text-left transition-opacity",
+                  expanded ? "opacity-100" : "opacity-0",
+                )}
+              >
+                {item.name}
+              </span>
             </Link>
           );
         })}
       </nav>
 
-      <div className="mt-auto border-t border-border/60 px-4 py-5">
-        <Link
-          href="/settings"
-          className="mb-3 inline-flex w-full items-center justify-between rounded-lg border border-dashed border-muted-foreground/30 bg-muted/40 px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:border-muted-foreground hover:text-foreground"
-        >
-          <span className="flex items-center gap-2">
+      <div className="mt-auto border-t border-slate-200 px-3 py-5">
+        {expanded ? (
+          <Link
+            href="/settings"
+            className="mb-4 inline-flex w-full items-center justify-between rounded-lg border border-dashed border-slate-300 bg-slate-100 px-3 py-2 text-sm font-medium text-slate-600 transition-colors hover:border-slate-400 hover:text-slate-900"
+          >
+            <span className="flex items-center gap-2">
+              <Settings className="h-4 w-4" aria-hidden="true" />
+              Inställningar
+            </span>
+            <span aria-hidden="true">→</span>
+          </Link>
+        ) : (
+          <Link
+            href="/settings"
+            className="mb-4 flex h-10 items-center justify-center rounded-lg border border-transparent bg-slate-100 text-slate-400 transition-colors hover:text-slate-700"
+            title="Inställningar"
+          >
             <Settings className="h-4 w-4" aria-hidden="true" />
-            Inställningar
-          </span>
-          <span aria-hidden="true">-&gt;</span>
-        </Link>
+          </Link>
+        )}
 
-        <div className="flex items-center gap-3 rounded-lg border border-muted-foreground/10 bg-muted/40 p-3">
-          <Avatar className="h-10 w-10 border border-border/60">
+        <div className="flex items-center gap-3 rounded-lg border border-slate-200 bg-slate-50 p-3">
+          <Avatar className="h-10 w-10 border border-slate-200">
             <AvatarFallback>{initials}</AvatarFallback>
           </Avatar>
-          <div className="flex flex-1 flex-col">
-            <span className="text-sm font-medium text-foreground">
+          <div className={cn("flex flex-1 flex-col transition-opacity", expanded ? "opacity-100" : "opacity-0")}>
+            <span className="text-sm font-medium text-slate-900">
               {user?.name ?? "Inloggad användare"}
             </span>
-            <span className="text-xs text-muted-foreground">{user?.email ?? "Ingen e-post"}</span>
+            <span className="text-xs text-slate-500">{user?.email ?? "Ingen e-post"}</span>
             {role ? (
               <div className="mt-1">
-                <Badge variant="outline" className="text-xs uppercase tracking-wide">
+                <Badge variant="outline" className="text-xs uppercase tracking-wide text-slate-600">
                   {role}
                 </Badge>
               </div>
             ) : null}
           </div>
         </div>
-        <p className="mt-4 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Medlemsregistret
-        </p>
+        {expanded ? (
+          <p className="mt-4 text-xs text-slate-400">
+            © {new Date().getFullYear()} Medlemsregistret
+          </p>
+        ) : null}
       </div>
     </aside>
   );

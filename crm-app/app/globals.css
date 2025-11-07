@@ -5,31 +5,31 @@
 @layer base {
   :root {
     /* PORT(Figma Make 2025-11-06): update core palette to match new UI */
-    --background: 210 40% 97%;
+    --background: 216 47% 97%;
     --foreground: 222 47% 12%;
     --card: 0 0% 100%;
-    --card-foreground: var(--foreground);
+    --card-foreground: 222 47% 12%;
     --popover: 0 0% 100%;
-    --popover-foreground: var(--foreground);
-    --primary: 21 88% 55%;
-    --primary-foreground: 26 100% 97%;
-    --secondary: 26 100% 92%;
-    --secondary-foreground: 24 94% 35%;
-    --muted: 215 33% 92%;
-    --muted-foreground: 217 19% 35%;
-    --accent: 24 100% 94%;
-    --accent-foreground: 24 94% 32%;
-    --destructive: 0 72% 50%;
+    --popover-foreground: 222 47% 12%;
+    --primary: 21 91% 48%;
+    --primary-foreground: 28 100% 97%;
+    --secondary: 28 60% 95%;
+    --secondary-foreground: 24 74% 32%;
+    --muted: 215 33% 93%;
+    --muted-foreground: 215 16% 38%;
+    --accent: 24 100% 96%;
+    --accent-foreground: 24 82% 34%;
+    --destructive: 0 72% 48%;
     --destructive-foreground: 0 0% 100%;
-    --border: 210 29% 85%;
-    --input: 210 29% 85%;
-    --ring: var(--primary);
+    --border: 210 31% 88%;
+    --input: 210 31% 88%;
+    --ring: 21 91% 48%;
     --radius: 0.75rem;
-    --chart-1: 18 92% 55%;
-    --chart-2: 204 70% 52%;
-    --chart-3: 160 62% 45%;
-    --chart-4: 45 86% 60%;
-    --chart-5: 335 78% 55%;
+    --chart-1: 21 91% 48%;
+    --chart-2: 16 82% 56%;
+    --chart-3: 200 75% 52%;
+    --chart-4: 160 62% 45%;
+    --chart-5: 38 86% 60%;
   }
 
   .dark {
@@ -40,8 +40,8 @@
     --card-foreground: 210 40% 96%;
     --popover: 230 35% 10%;
     --popover-foreground: 210 40% 96%;
-    --primary: 21 88% 58%;
-    --primary-foreground: 26 100% 96%;
+    --primary: 21 91% 52%;
+    --primary-foreground: 28 100% 97%;
     --secondary: 220 20% 20%;
     --secondary-foreground: 210 40% 96%;
     --muted: 220 20% 18%;
@@ -52,8 +52,8 @@
     --destructive-foreground: 0 0% 100%;
     --border: 220 22% 24%;
     --input: 220 22% 24%;
-    --ring: 21 88% 58%;
-    --chart-1: 18 90% 55%;
+    --ring: 21 91% 48%;
+    --chart-1: 21 91% 48%;
     --chart-2: 200 70% 55%;
     --chart-3: 150 60% 50%;
     --chart-4: 42 80% 60%;

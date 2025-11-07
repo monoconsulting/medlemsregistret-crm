@@ -194,6 +194,84 @@ export interface Municipality {
   associationCount?: number;
 }
 
+export type DashboardRangeKey = "this_month" | "last_30_days" | "this_quarter" | "this_year";
+
+export type DashboardChangeDirection = "up" | "down" | "flat";
+
+export interface DashboardMetricChange {
+  value: number;
+  context: string;
+  direction: DashboardChangeDirection;
+  previous: number;
+  current: number;
+}
+
+export interface DashboardMetric {
+  value: number;
+  change: DashboardMetricChange;
+}
+
+export interface MunicipalityCoverageMetric {
+  value: number;
+  total: number;
+  completionRate: number;
+  complete: boolean;
+  label: string;
+}
+
+export interface DashboardSummaryMetrics {
+  activeAssociations: DashboardMetric;
+  municipalityCoverage: MunicipalityCoverageMetric;
+  scannedAssociations: DashboardMetric;
+  contactProfiles: DashboardMetric;
+  contactedAssociations: DashboardMetric;
+  contactsThisWeek: DashboardMetric;
+  contactsThisMonth: DashboardMetric;
+  newMembersThisMonth: DashboardMetric;
+}
+
+export interface DashboardTrendPoint {
+  period: string;
+  weekKey: string;
+  start: string;
+  end: string;
+  members: number;
+  contacts: number;
+}
+
+export interface DashboardPieSlice {
+  name: string;
+  value: number;
+  color: string;
+}
+
+export interface DashboardMemberEntry {
+  id: string;
+  name: string;
+  municipality: string | null;
+  tag: string | null;
+  crmStatus: string | null;
+  memberSince: string | null;
+  contacted: boolean;
+  updatedAt: string | null;
+}
+
+export interface DashboardOverviewResponse {
+  range: {
+    key: DashboardRangeKey;
+    label: string;
+    start: string;
+    end: string;
+  };
+  summary: DashboardSummaryMetrics;
+  charts: {
+    newMembersTrend: DashboardTrendPoint[];
+    contactsVsMembers: DashboardPieSlice[];
+  };
+  recentMembers: DashboardMemberEntry[];
+  lastUpdated: string | null;
+}
+
 interface ListResponse<T> {
   items: T[];
   total: number;
@@ -357,6 +435,28 @@ export const api = {
    */
   async logout(): Promise<{ ok: boolean }> {
     return jsonFetch('/api/logout.php', { method: 'POST', body: {} }, true);
+  },
+
+  /**
+   * Fetches dashboard overview metrics, charts, and recent member entries.
+   *
+   * Args:
+   *   range: Optional range filter aligning with dashboard dropdown selections.
+   *
+   * Returns:
+   *   Promise<DashboardOverviewResponse>
+   */
+  async getDashboardOverview(range?: DashboardRangeKey): Promise<DashboardOverviewResponse> {
+    const params = new URLSearchParams();
+    if (range) {
+      params.set('range', range);
+    }
+    const url = params.size ? `/api/dashboard_overview.php?${params.toString()}` : '/api/dashboard_overview.php';
+    const res = await jsonFetch(url, { method: 'GET' });
+    if (res?.error) {
+      throw new Error(String(res.error));
+    }
+    return res as DashboardOverviewResponse;
   },
 
   /**

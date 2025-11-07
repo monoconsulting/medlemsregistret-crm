@@ -57,12 +57,17 @@ export function Topbar({ title, description, actions }: TopbarProps): JSX.Elemen
     }
   }, [logout]);
 
+  const hasTitle = Boolean(title && title.trim().length > 0);
+  const hasDescription = Boolean(description && description.trim().length > 0);
+
   return (
-    <header className="flex h-20 items-center justify-between border-b border-border/60 bg-white/95 px-6 py-4 backdrop-blur md:px-8">
-      <div className="flex flex-col gap-1">
-        <h1 className="text-2xl font-semibold text-foreground">{title}</h1>
-        {description ? (
-          <p className="text-sm text-muted-foreground">{description}</p>
+    <header className="flex h-16 items-center border-b border-slate-200 bg-white px-6 md:px-8">
+      <div className="flex flex-1 flex-col gap-1">
+        {hasTitle ? (
+          <h1 className="text-xl font-semibold text-slate-900">{title}</h1>
+        ) : null}
+        {hasDescription ? (
+          <p className="text-sm text-slate-500">{description}</p>
         ) : null}
       </div>
 

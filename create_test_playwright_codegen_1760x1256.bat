@@ -10,7 +10,7 @@ echo.
 
 REM Kontrollera om URL angavs, annars använd default
 if "%1"=="" (
-    set TARGET_URL=http://localhost:13060
+    set TARGET_URL=https:\\crm.medlemsregistret.se
     echo Ingen URL angiven, använder default: %TARGET_URL%
 ) else (
     set TARGET_URL=%1

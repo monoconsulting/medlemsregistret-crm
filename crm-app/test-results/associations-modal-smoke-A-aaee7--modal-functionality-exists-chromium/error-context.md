@@ -1,0 +1,122 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e10]:
+          - link "Medlemsregistret" [ref=e11] [cursor=pointer]:
+            - /url: /dashboard
+          - generic [ref=e12]: CRM Portal
+      - generic [ref=e14]:
+        - img
+        - textbox "Sök i registret" [ref=e15]:
+          - /placeholder: Sök förening eller kontakt
+      - navigation [ref=e16]:
+        - link "Dashboard" [ref=e17] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e19]
+          - generic [ref=e24]: Dashboard
+        - link "Kommunöversikt" [ref=e25] [cursor=pointer]:
+          - /url: /municipalities
+          - img [ref=e27]
+          - generic [ref=e29]: Kommunöversikt
+        - link "Föreningar" [ref=e30] [cursor=pointer]:
+          - /url: /associations
+          - img [ref=e32]
+          - generic [ref=e36]: Föreningar
+        - link "Kontakter" [ref=e37] [cursor=pointer]:
+          - /url: /contacts
+          - img [ref=e39]
+          - generic [ref=e44]: Kontakter
+        - link "Grupperingar" [ref=e45] [cursor=pointer]:
+          - /url: /groups
+          - img [ref=e47]
+          - generic [ref=e49]: Grupperingar
+        - link "Användare" [ref=e50] [cursor=pointer]:
+          - /url: /users
+          - img [ref=e52]
+          - generic [ref=e64]: Användare
+        - link "Import" [ref=e65] [cursor=pointer]:
+          - /url: /import
+          - img [ref=e67]
+          - generic [ref=e70]: Import
+      - generic [ref=e71]:
+        - link "Inställningar" [ref=e72] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=e73]:
+            - img [ref=e74]
+            - text: Inställningar
+          - generic [ref=e77]: "->"
+        - generic [ref=e78]:
+          - generic [ref=e80]: AM
+          - generic [ref=e81]:
+            - generic [ref=e82]: Inloggad användare
+            - generic [ref=e83]: admin@crm.se
+            - generic [ref=e85]: Administratör
+        - paragraph [ref=e86]: © 2025 Medlemsregistret
+    - generic [ref=e87]:
+      - banner [ref=e88]:
+        - generic [ref=e89]:
+          - heading "Föreningar" [level=1] [ref=e90]
+          - paragraph [ref=e91]: Hantera föreningar, taggar och anteckningar
+        - generic [ref=e92]:
+          - generic [ref=e94]:
+            - button "Uppdatera" [disabled]:
+              - img
+              - text: Uppdatera
+            - button "Ny förening" [ref=e95] [cursor=pointer]:
+              - img
+              - text: Ny förening
+          - button "Notifieringar" [ref=e96] [cursor=pointer]:
+            - img
+          - button "A Användare admin@crm.se" [ref=e98] [cursor=pointer]:
+            - generic [ref=e100]: A
+            - generic [ref=e101]:
+              - generic [ref=e102]: Användare
+              - generic [ref=e103]: admin@crm.se
+      - main [ref=e104]:
+        - generic [ref=e106]:
+          - complementary [ref=e107]:
+            - generic [ref=e108]:
+              - heading "Föreningslista" [level=3] [ref=e109]
+              - textbox "Sök, filtrera eller sortera..." [ref=e110]
+              - generic [ref=e111]:
+                - generic [ref=e112]:
+                  - checkbox "Visa endast favoriter" [ref=e113] [cursor=pointer]
+                  - generic [ref=e114]: Visa endast favoriter
+                - generic [ref=e115]:
+                  - checkbox "Visa endast kontaktade" [ref=e116] [cursor=pointer]
+                  - generic [ref=e117]: Visa endast kontaktade
+              - table [ref=e120]:
+                - rowgroup [ref=e121]:
+                  - row "Kommun Förening" [ref=e122]:
+                    - cell "Kommun" [ref=e123]
+                    - cell "Förening" [ref=e124]
+                - rowgroup
+          - main [ref=e125]:
+            - generic [ref=e126]:
+              - combobox [ref=e127] [cursor=pointer]:
+                - generic: Alla kommuner
+                - img
+              - textbox "Sök" [ref=e128]
+              - combobox [ref=e129] [cursor=pointer]:
+                - generic: 20 per sida
+                - img
+              - generic [ref=e130]:
+                - checkbox "Markera alla (0)" [ref=e131] [cursor=pointer]
+                - generic [ref=e132]: Markera alla (0)
+            - generic [ref=e134]:
+              - img [ref=e135]
+              - text: Hämtar föreningar…
+            - generic [ref=e137]:
+              - generic [ref=e138]: Sida 1 av 1 — 0 resultat
+              - generic [ref=e139]:
+                - button "Föregående" [disabled]
+                - button "Nästa" [disabled]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e140]
+```
