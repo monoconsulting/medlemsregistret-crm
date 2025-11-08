@@ -40,7 +40,27 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { useToast } from "@/hooks/use-toast"
 import { api, type Association, type AssocFilters, type Municipality, type Note, type Tag } from "@/lib/api"
 import { useAuth } from "@/lib/providers/auth-provider"
-import { Loader2, Plus, RefreshCcw, Tag as TagIcon, Notebook, Pencil, Trash2, Filter, X } from "lucide-react"
+import {
+  Loader2,
+  Plus,
+  RefreshCcw,
+  Tag as TagIcon,
+  Notebook,
+  Pencil,
+  Trash2,
+  Filter,
+  X,
+  Search as SearchIcon,
+  Download,
+  Layers,
+  MapPin,
+  Building2,
+  User,
+  Clock,
+  Mail
+} from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { AppLayout } from "@/components/layout/app-layout"
 
 interface AssociationRecord extends Association {
   tags: Tag[]
@@ -87,7 +107,7 @@ const SORT_OPTIONS = [
   { value: "name_desc" as const, label: "Namn Ö-A" },
 ]
 
-const PAGE_SIZE_OPTIONS = [10, 20, 50, 100]
+const PAGE_SIZE_OPTIONS = [25, 50, 100, 250, 500]
 
 function parseFiltersFromParams(params: ReadonlyURLSearchParams): AssociationsFiltersState {
   const next: AssociationsFiltersState = {
@@ -233,6 +253,7 @@ function AssociationsPageInner(): JSX.Element {
 
   const [deleteTarget, setDeleteTarget] = useState<AssociationRecord | null>(null)
   const [deleteSubmitting, setDeleteSubmitting] = useState(false)
+  const [selectedAssociations, setSelectedAssociations] = useState<string[]>([])
 
   useEffect(() => {
     const incomingQuery = searchParams.toString()
@@ -289,7 +310,7 @@ function AssociationsPageInner(): JSX.Element {
       phone: formAssociation.phone ?? "",
       address: formAssociation.address ?? "",
       website: formAssociation.website ?? "",
-      description: formAssociation.description ?? "",
+      description: typeof formAssociation.description === "string" ? formAssociation.description : (formAssociation.description ? JSON.stringify(formAssociation.description) : ""),
     }
   }, [formAssociation])
 
@@ -542,270 +563,208 @@ function AssociationsPageInner(): JSX.Element {
   }
 
   return (
-    <div className="flex min-h-screen flex-col">
-      <header className="border-b bg-white">
-        <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
-          <div>
-            <h1 className="text-2xl font-semibold">Föreningar</h1>
-            <p className="text-sm text-muted-foreground">Hantera föreningar, taggar och anteckningar.</p>
-          </div>
-          <div className="flex items-center gap-3">
-            <Button variant="outline" onClick={() => void loadAssociations()} disabled={loading}>
-              <RefreshCcw className="mr-2 h-4 w-4" /> Uppdatera
-            </Button>
-            <Button onClick={handleCreateAssociation}>
-              <Plus className="mr-2 h-4 w-4" /> Ny förening
-            </Button>
-            <Button
-              variant="destructive"
-              onClick={async () => {
-                await logout()
-                router.replace("/login")
-              }}
-            >
-              Logga ut
-            </Button>
-          </div>
+    <AppLayout
+      title="Föreningar"
+      description={`Visar ${associations.length} av ${total} föreningar${selectedAssociations.length > 0 ? ` (${selectedAssociations.length} valda)` : ""}`}
+      actions={
+        <div className="flex items-center gap-3">
+          <Button variant="outline" className="rounded-lg">
+            <Download className="w-4 h-4 mr-2" />
+            Exportera
+          </Button>
         </div>
-      </header>
-
-      <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-4 px-6 py-6">
-        <section className="grid gap-4 rounded-lg border bg-white p-4 shadow-sm">
-          <div className="grid gap-4 md:grid-cols-[2fr,1fr,1fr,1fr]">
-            <div className="flex items-center gap-2">
-              <Filter className="h-4 w-4 text-muted-foreground" />
-              <Input
-                placeholder="Sök efter namn eller beskrivning"
-                value={filters.q}
-                onChange={(event) => handleFilterChange({ q: event.target.value })}
-              />
-            </div>
-            <Select
-              value={filters.municipality ?? ""}
-              onValueChange={(value) => handleFilterChange({ municipality: value === "" ? "" : value })}
-            >
-              <SelectTrigger>
-                <SelectValue placeholder="Kommun" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="">Alla kommuner</SelectItem>
-                {municipalities.map((municipality) => (
-                  <SelectItem key={municipality.id} value={String(municipality.id)}>
-                    {municipality.name}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-            <Select
-              value={filters.type ?? ""}
-              onValueChange={(value) => handleFilterChange({ type: value === "" ? "" : value })}
-            >
-              <SelectTrigger>
-                <SelectValue placeholder="Typ" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="">Alla typer</SelectItem>
-                {availableTypes.map((type) => (
-                  <SelectItem key={type} value={type}>
-                    {type}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-            <Select
-              value={filters.status ?? ""}
-              onValueChange={(value) => handleFilterChange({ status: value === "" ? "" : value })}
-            >
-              <SelectTrigger>
-                <SelectValue placeholder="Status" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="">Alla statusar</SelectItem>
-                {availableStatuses.map((status) => (
-                  <SelectItem key={status} value={status}>
-                    {status}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </div>
-
-          {selectedMunicipality ? (
-            <div className="flex flex-wrap items-center gap-2 rounded-md border border-dashed border-muted-foreground/40 bg-muted/40 p-3">
-              <span className="text-sm font-medium text-muted-foreground">Aktiv kommun:</span>
-              <Button
-                size="sm"
-                variant="secondary"
-                className="gap-1 rounded-full"
-                onClick={handleClearMunicipalityFilter}
-              >
-                {selectedMunicipality.name}
-                <X className="h-3 w-3" />
-              </Button>
-            </div>
-          ) : null}
-
-          <div className="grid gap-4 md:grid-cols-[2fr,1fr,1fr]">
-            <div className="rounded-md border p-3">
-              <p className="text-xs font-semibold uppercase text-muted-foreground">Taggar</p>
-              <div className="mt-2 flex flex-wrap gap-2">
-                {tags.map((tag) => {
-                  const checked = filters.tags.includes(String(tag.id))
-                  return (
-                    <button
-                      key={tag.id}
-                      type="button"
-                      onClick={() => {
-                        setFilters((prev) => {
-                          const current = new Set(prev.tags)
-                          if (current.has(String(tag.id))) current.delete(String(tag.id))
-                          else current.add(String(tag.id))
-                          return { ...prev, tags: Array.from(current), page: 1 }
-                        })
-                      }}
-                      className={`rounded-full border px-3 py-1 text-sm transition ${
-                        checked
-                          ? "border-primary bg-primary/10 text-primary"
-                          : "border-border bg-background text-muted-foreground"
-                      }`}
-                    >
-                      {tag.name}
-                    </button>
-                  )
-                })}
-                {tags.length === 0 && <p className="text-sm text-muted-foreground">Inga taggar skapade ännu.</p>}
+      }
+    >
+      <div className="space-y-6">
+        <Card className="border-gray-200 rounded-xl">
+          <CardContent className="p-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
+              <div className="relative">
+                <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+                <Input
+                  placeholder="Sök föreningar eller ansvariga..."
+                  value={filters.q}
+                  onChange={(event) => handleFilterChange({ q: event.target.value })}
+                  className="pl-10"
+                />
               </div>
-            </div>
-            <Select
-              value={filters.sort ?? "updated_desc"}
-              onValueChange={(value) => handleFilterChange({ sort: value as AssocFilters["sort"] })}
-            >
-              <SelectTrigger>
-                <SelectValue placeholder="Sortering" />
-              </SelectTrigger>
-              <SelectContent>
-                {SORT_OPTIONS.map((option) => (
-                  <SelectItem key={option.value} value={option.value}>
-                    {option.label}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-            <Select
-              value={String(filters.pageSize)}
-              onValueChange={(value) => handleFilterChange({ pageSize: Number(value), page: 1 })}
-            >
-              <SelectTrigger>
-                <SelectValue placeholder="Poster per sida" />
-              </SelectTrigger>
-              <SelectContent>
-                {PAGE_SIZE_OPTIONS.map((size) => (
-                  <SelectItem key={size} value={String(size)}>
-                    {size} per sida
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </div>
-        </section>
+              <Select
+                value={filters.municipality || "__all__"}
+                onValueChange={(value) => handleFilterChange({ municipality: value === "__all__" ? "" : value })}
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder="Välj kommun" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="__all__">Alla kommuner</SelectItem>
+                  {municipalities.map((municipality) => (
+                    <SelectItem key={municipality.id} value={String(municipality.id)}>
+                      {municipality.name}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
 
-        <section className="rounded-lg border bg-white shadow-sm">
-          {loading ? (
-            <div className="flex min-h-[200px] items-center justify-center gap-2 text-muted-foreground">
-              <Loader2 className="h-5 w-5 animate-spin" /> Hämtar föreningar…
-            </div>
-          ) : error ? (
-            <div className="p-6 text-sm text-destructive">{error}</div>
-          ) : (
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead>Namn</TableHead>
-                  <TableHead>Kommun</TableHead>
-                  <TableHead>Typ</TableHead>
-                  <TableHead>Status</TableHead>
-                  <TableHead>Taggar</TableHead>
-                  <TableHead>Uppdaterad</TableHead>
-                  <TableHead className="text-right">Åtgärder</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {associations.map((association) => (
-                  <TableRow key={association.id}>
-                    <TableCell className="font-medium">{association.name}</TableCell>
-                    <TableCell>{association.municipality_name ?? "-"}</TableCell>
-                    <TableCell>{association.type ?? "-"}</TableCell>
-                    <TableCell>{association.status ?? "-"}</TableCell>
-                    <TableCell>
-                      <div className="flex flex-wrap gap-1">
-                        {association.tags.length === 0 ? (
-                          <span className="text-xs text-muted-foreground">Inga taggar</span>
-                        ) : (
-                          association.tags.map((tag) => (
-                            <Badge key={tag.id} variant="secondary">
-                              {tag.name}
-                            </Badge>
-                          ))
-                        )}
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      {association.updated_at
-                        ? format(new Date(association.updated_at), "PPP", { locale: sv })
-                        : "-"}
-                    </TableCell>
-                    <TableCell className="flex justify-end gap-2">
-                      <Button variant="outline" size="sm" onClick={() => openNotesDialog(association)}>
-                        <Notebook className="mr-1 h-4 w-4" /> Anteckningar
-                      </Button>
-                      <Button variant="outline" size="sm" onClick={() => openTagDialog(association)}>
-                        <TagIcon className="mr-1 h-4 w-4" /> Taggar
-                      </Button>
-                      <Button variant="outline" size="sm" onClick={() => handleEditAssociation(association)}>
-                        <Pencil className="mr-1 h-4 w-4" /> Redigera
-                      </Button>
-                      <Button variant="destructive" size="sm" onClick={() => setDeleteTarget(association)}>
-                        <Trash2 className="mr-1 h-4 w-4" /> Ta bort
-                      </Button>
-                    </TableCell>
-                  </TableRow>
-                ))}
-                {associations.length === 0 && !loading && (
-                  <TableRow>
-                    <TableCell colSpan={7} className="py-6 text-center text-sm text-muted-foreground">
-                      Inga föreningar matchar din filtrering.
-                    </TableCell>
-                  </TableRow>
-                )}
-              </TableBody>
-            </Table>
-          )}
-        </section>
+              <Select
+                value={filters.type || "__all__"}
+                onValueChange={(value) => handleFilterChange({ type: value === "__all__" ? "" : value })}
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder="Välj kategori" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="__all__">Alla kategorier</SelectItem>
+                  {availableTypes.map((type) => (
+                    <SelectItem key={type} value={type}>
+                      {type}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
 
-        <footer className="flex items-center justify-between rounded-lg border bg-white px-4 py-3 text-sm shadow-sm">
-          <span>
-            Sida {filters.page} av {pageCount} — {total} resultat
-          </span>
-          <div className="flex items-center gap-2">
-            <Button
-              variant="outline"
-              size="sm"
-              disabled={filters.page <= 1}
-              onClick={() => handleFilterChange({ page: filters.page - 1 })}
-            >
-              Föregående
-            </Button>
-            <Button
-              variant="outline"
-              size="sm"
-              disabled={filters.page >= pageCount}
-              onClick={() => handleFilterChange({ page: filters.page + 1 })}
-            >
-              Nästa
-            </Button>
-          </div>
-        </footer>
-      </main>
+              <Select
+                value={String(filters.pageSize)}
+                onValueChange={(value) => handleFilterChange({ pageSize: Number(value), page: 1 })}
+              >
+                <SelectTrigger>
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  {PAGE_SIZE_OPTIONS.map((size) => (
+                    <SelectItem key={size} value={String(size)}>
+                      {size} per sida
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="border-gray-200 rounded-xl">
+          <CardHeader>
+            <CardTitle className="text-gray-900">Föreningslista</CardTitle>
+          </CardHeader>
+          <CardContent className="p-0">
+            {loading ? (
+              <div className="flex min-h-[200px] items-center justify-center gap-2 text-muted-foreground">
+                <Loader2 className="h-5 w-5 animate-spin" /> Hämtar föreningar…
+              </div>
+            ) : error ? (
+              <div className="p-6 text-sm text-destructive">{error}</div>
+            ) : (
+              <div className="overflow-x-auto">
+                <Table>
+                  <TableHeader>
+                    <TableRow className="bg-gray-50 border-b border-gray-200">
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Kommun</TableHead>
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Förening</TableHead>
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Status</TableHead>
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Pipeline</TableHead>
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Kontakt</TableHead>
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Föreningstyp</TableHead>
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Taggar</TableHead>
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Uppdaterad</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody className="divide-y divide-gray-200">
+                    {associations.map((association) => (
+                      <TableRow key={association.id} className="hover:bg-gray-50 cursor-pointer transition-colors">
+                        <TableCell className="px-6 py-4">
+                          <div className="flex items-center gap-2">
+                            <MapPin className="w-4 h-4 text-gray-400" />
+                            <span className="text-sm text-gray-900">{association.municipality_name ?? "-"}</span>
+                          </div>
+                        </TableCell>
+                        <TableCell className="px-6 py-4">
+                          <div className="flex items-center gap-2">
+                            <Building2 className="w-4 h-4 text-gray-400" />
+                            <span className="text-sm text-gray-900 hover:text-orange-600 transition-colors">
+                              {association.name}
+                            </span>
+                          </div>
+                        </TableCell>
+                        <TableCell className="px-6 py-4">
+                          <Badge
+                            variant="outline"
+                            className={
+                              association.status === 'Aktiv' ? 'border-green-200 text-green-700 bg-green-50' :
+                              association.status === 'Inaktiv' ? 'border-gray-200 text-gray-700 bg-gray-50' :
+                              'border-yellow-200 text-yellow-700 bg-yellow-50'
+                            }
+                          >
+                            {association.status ?? "-"}
+                          </Badge>
+                        </TableCell>
+                        <TableCell className="px-6 py-4">
+                          <Badge variant="outline" className="border-blue-200 text-blue-700 bg-blue-50">
+                            {association.type ?? "-"}
+                          </Badge>
+                        </TableCell>
+                        <TableCell className="px-6 py-4">
+                          <div className="flex items-center gap-2">
+                            <User className="w-4 h-4 text-gray-400" />
+                            <span className="text-sm text-gray-900 hover:text-orange-600 transition-colors">
+                              {association.email || "-"}
+                            </span>
+                          </div>
+                        </TableCell>
+                        <TableCell className="px-6 py-4">
+                          <Badge
+                            variant="outline"
+                            className="border-gray-200 text-gray-700"
+                          >
+                            {association.type ?? "-"}
+                          </Badge>
+                        </TableCell>
+                        <TableCell className="px-6 py-4">
+                          <div className="flex flex-wrap gap-1">
+                            {association.tags.slice(0, 2).map((tag) => (
+                              <Badge
+                                key={tag.id}
+                                variant="secondary"
+                                className="text-xs bg-gray-100 text-gray-700"
+                              >
+                                {tag.name}
+                              </Badge>
+                            ))}
+                            {association.tags.length > 2 && (
+                              <Badge
+                                variant="secondary"
+                                className="text-xs bg-gray-100 text-gray-700"
+                              >
+                                +{association.tags.length - 2}
+                              </Badge>
+                            )}
+                          </div>
+                        </TableCell>
+                        <TableCell className="px-6 py-4">
+                          <div className="flex items-center gap-2">
+                            <Clock className="w-4 h-4 text-gray-400" />
+                            <span className="text-sm text-gray-600">
+                              {association.updated_at
+                                ? format(new Date(association.updated_at), "yyyy-MM-dd", { locale: sv })
+                                : "-"}
+                            </span>
+                          </div>
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                    {associations.length === 0 && !loading && (
+                      <TableRow>
+                        <TableCell colSpan={8} className="py-6 text-center text-sm text-muted-foreground">
+                          Inga föreningar matchar din filtrering.
+                        </TableCell>
+                      </TableRow>
+                    )}
+                  </TableBody>
+                </Table>
+              </div>
+            )}
+          </CardContent>
+        </Card>
+
+      </div>
 
       <AssociationFormDialog
         open={formOpen}
@@ -858,7 +817,7 @@ function AssociationsPageInner(): JSX.Element {
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
-    </div>
+    </AppLayout>
   )
 }
 

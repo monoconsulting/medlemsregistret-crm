@@ -1,0 +1,1 @@
+Dokumentera nu ditt arbete enligt de instruktioner som finns i @docs/worklogs/WORKLOG_AI_INSTRUCTION.md

@@ -192,6 +192,7 @@ export interface Municipality {
   homepage: string | null;
   platform: string | null;
   associationCount?: number;
+  activeAssociations?: number;
 }
 
 export type DashboardRangeKey = "this_month" | "last_30_days" | "this_quarter" | "this_year";
@@ -685,7 +686,8 @@ export const api = {
    */
   async getMunicipalities(): Promise<Municipality[]> {
     const res = await jsonFetch('/api/municipalities.php', { method: 'GET' });
-    return res.items as Municipality[];
+    // API now returns array directly, not wrapped in { items: [] }
+    return Array.isArray(res) ? res : (res?.items ?? []);
   },
 
   /**

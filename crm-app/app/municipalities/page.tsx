@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
   Select,
   SelectContent,
@@ -30,7 +31,26 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import {
+  MapPin,
+  Building2,
+  Users,
+  ArrowUpDown,
+  ArrowUp,
+  ArrowDown,
+  ExternalLink,
+  Download,
+  Layers,
+  Search as SearchIcon,
+  Maximize2
+} from "lucide-react";
 import dynamic from "next/dynamic";
 import { logClientEvent } from "@/lib/logging";
 import { api, type Municipality } from "@/lib/api";
@@ -52,6 +72,9 @@ interface MunicipalityStats {
   scanned: number;
   activeAssociations: number;
 }
+
+type SortField = keyof Municipality;
+type SortDirection = 'asc' | 'desc' | null;
 
 const DEFAULT_FILTERS: MunicipalityFilters = {
   county: "alla",
@@ -84,6 +107,9 @@ export default function MunicipalitiesPage(): JSX.Element {
   const [search, setSearch] = useState("");
   const [selected, setSelected] = useState<Municipality | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
+  const [selectedMunicipalities, setSelectedMunicipalities] = useState<string[]>([]);
+  const [sortField, setSortField] = useState<SortField | null>(null);
+  const [sortDirection, setSortDirection] = useState<SortDirection>(null);
 
   useEffect(() => {
     const load = async () => {
@@ -109,16 +135,9 @@ export default function MunicipalitiesPage(): JSX.Element {
 
   const stats = useMemo<MunicipalityStats>(() => {
     const total = municipalities.length;
-    const scanned = municipalities.filter((municipality) => municipality.registerStatus === "ACTIVE").length;
+    const scanned = municipalities.filter((municipality) => (municipality.associationCount ?? 0) > 0).length;
     const activeAssociations = municipalities.reduce((sum, municipality) => {
-      const value = (municipality as any)?.activeAssociations ?? (municipality as any)?.extras?.activeAssociations;
-      if (typeof value === "number" && value >= 0) {
-        return sum + value;
-      }
-      if (typeof municipality.associationCount === "number") {
-        return sum + municipality.associationCount;
-      }
-      return sum;
+      return sum + (municipality.activeAssociations ?? 0);
     }, 0);
     return { total, scanned, activeAssociations };
   }, [municipalities]);
@@ -126,7 +145,7 @@ export default function MunicipalitiesPage(): JSX.Element {
   const counties = useMemo(
     () => [
       "alla",
-      ...Array.from(new Set(municipalities.map((municipality) => municipality.county?.trim()).filter(Boolean))).sort(),
+      ...Array.from(new Set(municipalities.map((municipality) => municipality.county?.trim()).filter((v): v is string => Boolean(v)))).sort(),
     ],
     [municipalities],
   );
@@ -134,7 +153,7 @@ export default function MunicipalitiesPage(): JSX.Element {
   const provinces = useMemo(
     () => [
       "alla",
-      ...Array.from(new Set(municipalities.map((municipality) => municipality.province?.trim()).filter(Boolean))).sort(),
+      ...Array.from(new Set(municipalities.map((municipality) => municipality.province?.trim()).filter((v): v is string => Boolean(v)))).sort(),
     ],
     [municipalities],
   );
@@ -142,7 +161,7 @@ export default function MunicipalitiesPage(): JSX.Element {
   const regions = useMemo(
     () => [
       "alla",
-      ...Array.from(new Set(municipalities.map((municipality) => municipality.region?.trim()).filter(Boolean))).sort(),
+      ...Array.from(new Set(municipalities.map((municipality) => municipality.region?.trim()).filter((v): v is string => Boolean(v)))).sort(),
     ],
     [municipalities],
   );
@@ -158,7 +177,7 @@ export default function MunicipalitiesPage(): JSX.Element {
 
   const filteredMunicipalities = useMemo(() => {
     const query = search.trim();
-    return municipalities.filter((municipality) => {
+    let filtered = municipalities.filter((municipality) => {
       if (filters.county !== "alla" && municipality.county !== filters.county) {
         return false;
       }
@@ -179,9 +198,34 @@ export default function MunicipalitiesPage(): JSX.Element {
       const needle = normalise(query);
       return haystack.some((value) => value.includes(needle));
     });
-  }, [filters, municipalities, normalise, search]);
 
-  const handleSelectMunicipality = useCallback(
+    // Apply sorting
+    if (sortField && sortDirection) {
+      filtered.sort((a, b) => {
+        const aValue = a[sortField];
+        const bValue = b[sortField];
+
+        if (typeof aValue === 'string' && typeof bValue === 'string') {
+          return sortDirection === 'asc'
+            ? aValue.localeCompare(bValue, 'sv')
+            : bValue.localeCompare(aValue, 'sv');
+        }
+
+        if (typeof aValue === 'number' && typeof bValue === 'number') {
+          return sortDirection === 'asc' ? aValue - bValue : bValue - aValue;
+        }
+
+        return 0;
+      });
+    } else {
+      // Default alphabetical sort by name
+      filtered.sort((a, b) => (a.name ?? "").localeCompare(b.name ?? "", 'sv'));
+    }
+
+    return filtered;
+  }, [filters, municipalities, normalise, search, sortField, sortDirection]);
+
+  const handleViewMunicipalityDetails = useCallback(
     (municipality: Municipality) => {
       setSelected(municipality);
       setSheetOpen(true);
@@ -195,6 +239,50 @@ export default function MunicipalitiesPage(): JSX.Element {
     if (!open) {
       setSelected(null);
     }
+  }, []);
+
+  const handleSort = useCallback((field: SortField) => {
+    if (sortField === field) {
+      // Cycle through: asc -> desc -> null
+      if (sortDirection === 'asc') {
+        setSortDirection('desc');
+      } else if (sortDirection === 'desc') {
+        setSortDirection(null);
+        setSortField(null);
+      }
+    } else {
+      setSortField(field);
+      setSortDirection('asc');
+    }
+  }, [sortField, sortDirection]);
+
+  const getSortIcon = useCallback((field: SortField) => {
+    if (sortField !== field) {
+      return <ArrowUpDown className="w-4 h-4 text-gray-400" />;
+    }
+    if (sortDirection === 'asc') {
+      return <ArrowUp className="w-4 h-4 text-orange-600" />;
+    }
+    if (sortDirection === 'desc') {
+      return <ArrowDown className="w-4 h-4 text-orange-600" />;
+    }
+    return <ArrowUpDown className="w-4 h-4 text-gray-400" />;
+  }, [sortField, sortDirection]);
+
+  const handleSelectAll = useCallback(() => {
+    if (selectedMunicipalities.length === filteredMunicipalities.length) {
+      setSelectedMunicipalities([]);
+    } else {
+      setSelectedMunicipalities(filteredMunicipalities.map(m => m.id));
+    }
+  }, [selectedMunicipalities.length, filteredMunicipalities]);
+
+  const handleToggleMunicipalitySelection = useCallback((id: string) => {
+    setSelectedMunicipalities(prev =>
+      prev.includes(id)
+        ? prev.filter(item => item !== id)
+        : [...prev, id]
+    );
   }, []);
 
   return (
@@ -225,35 +313,116 @@ export default function MunicipalitiesPage(): JSX.Element {
           regions={regions}
         />
 
-        <Card className="border border-slate-200 bg-white shadow-sm">
-          <CardHeader className="pb-0">
-            <CardTitle className="text-lg font-semibold text-slate-900">Kommunlista</CardTitle>
-            <CardDescription>Visar {filteredMunicipalities.length} av {municipalities.length} kommuner.</CardDescription>
+        <Card className="border-gray-200 rounded-xl">
+          <CardHeader className="flex flex-row items-center justify-between">
+            <CardTitle className="text-gray-900">Kommunlista</CardTitle>
+            <p className="text-sm text-gray-600">
+              Visar {filteredMunicipalities.length} av {municipalities.length} kommuner
+              {selectedMunicipalities.length > 0 && (
+                <span className="ml-2 text-orange-600">
+                  ({selectedMunicipalities.length} valda)
+                </span>
+              )}
+            </p>
           </CardHeader>
           <CardContent className="p-0">
             {loading ? (
               <LoadingState />
             ) : (
-              <ScrollArea className="max-h-[720px]">
+              <div className="overflow-x-auto">
                 <Table>
                   <TableHeader>
-                    <TableRow className="bg-slate-50">
-                      <TableHead>Kommun</TableHead>
-                      <TableHead>Kommunkod</TableHead>
-                      <TableHead>Landskap</TableHead>
-                      <TableHead>Län</TableHead>
-                      <TableHead>Länskod</TableHead>
-                      <TableHead>Region</TableHead>
-                      <TableHead className="text-right">Befolkning</TableHead>
-                      <TableHead className="text-right">Antal föreningar</TableHead>
-                      <TableHead className="text-right">Aktiva föreningar</TableHead>
-                      <TableHead className="text-right">Föreningsregister</TableHead>
+                    <TableRow className="bg-gray-50 border-b border-gray-200">
+                      <TableHead className="px-6 py-3 text-left">
+                        <Checkbox
+                          checked={selectedMunicipalities.length === filteredMunicipalities.length && filteredMunicipalities.length > 0}
+                          onCheckedChange={handleSelectAll}
+                        />
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left">
+                        <button
+                          onClick={() => handleSort('name')}
+                          className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900"
+                        >
+                          Kommunnamn
+                          {getSortIcon('name')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left">
+                        <button
+                          onClick={() => handleSort('code')}
+                          className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900"
+                        >
+                          Kommunkod
+                          {getSortIcon('code')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left">
+                        <button
+                          onClick={() => handleSort('province')}
+                          className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900"
+                        >
+                          Landskap
+                          {getSortIcon('province')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left">
+                        <button
+                          onClick={() => handleSort('county')}
+                          className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900"
+                        >
+                          Län
+                          {getSortIcon('county')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left">
+                        <button
+                          onClick={() => handleSort('countyCode')}
+                          className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900"
+                        >
+                          Länskod
+                          {getSortIcon('countyCode')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left">
+                        <button
+                          onClick={() => handleSort('region')}
+                          className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900"
+                        >
+                          Region
+                          {getSortIcon('region')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left">
+                        <button
+                          onClick={() => handleSort('population')}
+                          className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900"
+                        >
+                          Befolkning
+                          {getSortIcon('population')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left">
+                        <button
+                          onClick={() => handleSort('associationCount')}
+                          className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900"
+                        >
+                          Antal föreningar
+                          {getSortIcon('associationCount')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left">
+                        <span className="text-sm text-gray-600">Aktiva föreningar</span>
+                      </TableHead>
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">
+                        Föreningsregister
+                      </TableHead>
                     </TableRow>
                   </TableHeader>
-                  <TableBody>
+                  <TableBody className="divide-y divide-gray-200">
                     {filteredMunicipalities.length === 0 ? (
                       <TableRow>
-                        <TableCell colSpan={10} className="py-12 text-center text-sm text-slate-500">
+                        <TableCell colSpan={11} className="py-12 text-center text-sm text-slate-500">
                           Inga kommuner matchar din filtrering.
                         </TableCell>
                       </TableRow>
@@ -262,13 +431,15 @@ export default function MunicipalitiesPage(): JSX.Element {
                         <MunicipalityRow
                           key={municipality.id}
                           municipality={municipality}
-                          onSelect={() => handleSelectMunicipality(municipality)}
+                          isSelected={selectedMunicipalities.includes(municipality.id)}
+                          onCheck={() => handleToggleMunicipalitySelection(municipality.id)}
+                          onOpenSheet={() => handleViewMunicipalityDetails(municipality)}
                         />
                       ))
                     )}
                   </TableBody>
                 </Table>
-              </ScrollArea>
+              </div>
             )}
           </CardContent>
         </Card>
@@ -303,11 +474,13 @@ export default function MunicipalitiesPage(): JSX.Element {
 
 function HeaderActions(): JSX.Element {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-3">
       <Button variant="outline" className="rounded-lg">
+        <Layers className="w-4 h-4 mr-2" />
         Skapa grupp
       </Button>
       <Button className="rounded-lg bg-[#ea580b] text-white hover:bg-[#d94f0a]">
+        <Download className="w-4 h-4 mr-2" />
         Exportera
       </Button>
     </div>
@@ -321,15 +494,26 @@ interface StatCardProps {
 }
 
 function StatCard({ label, description, value }: StatCardProps): JSX.Element {
+  const getIcon = () => {
+    if (label.includes("Antal kommuner")) {
+      return <MapPin className="h-4 w-4 text-orange-600" />;
+    }
+    if (label.includes("scannade")) {
+      return <Building2 className="h-4 w-4 text-orange-600" />;
+    }
+    return <Building2 className="h-4 w-4 text-orange-600" />;
+  };
+
   return (
-    <Card className="rounded-xl border border-slate-200 bg-white shadow-sm">
-      <CardHeader className="space-y-3">
-        <div>
-          <CardTitle className="text-sm font-medium text-slate-500">{label}</CardTitle>
-          <CardDescription>{description}</CardDescription>
-        </div>
-        <p className="text-3xl font-semibold text-slate-900">{value}</p>
+    <Card className="border-gray-200 rounded-xl">
+      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+        <CardTitle className="text-sm text-gray-600">{label}</CardTitle>
+        {getIcon()}
       </CardHeader>
+      <CardContent>
+        <div className="text-2xl text-gray-900 mb-1">{value}</div>
+        <p className="text-sm text-gray-500">{description}</p>
+      </CardContent>
     </Card>
   );
 }
@@ -361,108 +545,177 @@ function FiltersBar({
   );
 
   return (
-    <div className="grid gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-sm md:grid-cols-[minmax(0,1fr)_repeat(3,minmax(0,220px))] md:items-center md:gap-4">
-      <Input
-        value={search}
-        onChange={(event) => onSearchChange(event.target.value)}
-        placeholder="Sök efter kommun..."
-        aria-label="Sök kommun"
-        className="h-11 rounded-lg border-slate-200"
-      />
-      <Select value={filters.county} onValueChange={(value) => handleFilterChange("county", value)}>
-        <SelectTrigger className="h-11 rounded-lg border-slate-200">
-          <SelectValue placeholder="Alla län" />
-        </SelectTrigger>
-        <SelectContent>
-          {counties.map((county) => (
-            <SelectItem key={county} value={county}>
-              {formatFilterOption(county)}
-            </SelectItem>
-          ))}
-        </SelectContent>
-      </Select>
-      <Select value={filters.province} onValueChange={(value) => handleFilterChange("province", value)}>
-        <SelectTrigger className="h-11 rounded-lg border-slate-200">
-          <SelectValue placeholder="Alla landskap" />
-        </SelectTrigger>
-        <SelectContent>
-          {provinces.map((province) => (
-            <SelectItem key={province} value={province}>
-              {formatFilterOption(province)}
-            </SelectItem>
-          ))}
-        </SelectContent>
-      </Select>
-      <Select value={filters.region} onValueChange={(value) => handleFilterChange("region", value)}>
-        <SelectTrigger className="h-11 rounded-lg border-slate-200">
-          <SelectValue placeholder="Alla regioner" />
-        </SelectTrigger>
-        <SelectContent>
-          {regions.map((region) => (
-            <SelectItem key={region} value={region}>
-              {formatFilterOption(region)}
-            </SelectItem>
-          ))}
-        </SelectContent>
-      </Select>
-    </div>
+    <Card className="border-gray-200 rounded-xl">
+      <CardContent className="p-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <div className="relative">
+            <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+            <Input
+              value={search}
+              onChange={(event) => onSearchChange(event.target.value)}
+              placeholder="Sök efter kommun..."
+              aria-label="Sök kommun"
+              className="pl-10"
+            />
+          </div>
+
+          <Select value={filters.county} onValueChange={(value) => handleFilterChange("county", value)}>
+            <SelectTrigger>
+              <SelectValue placeholder="Län" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="alla">Alla län</SelectItem>
+              {counties.filter(c => c !== "alla").map((county) => (
+                <SelectItem key={county} value={county}>
+                  {county}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+
+          <Select value={filters.province} onValueChange={(value) => handleFilterChange("province", value)}>
+            <SelectTrigger>
+              <SelectValue placeholder="Landskap" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="alla">Alla landskap</SelectItem>
+              {provinces.filter(p => p !== "alla").map((province) => (
+                <SelectItem key={province} value={province}>
+                  {province}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+
+          <Select value={filters.region} onValueChange={(value) => handleFilterChange("region", value)}>
+            <SelectTrigger>
+              <SelectValue placeholder="Region" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="alla">Alla regioner</SelectItem>
+              {regions.filter(r => r !== "alla").map((region) => (
+                <SelectItem key={region} value={region}>
+                  {region}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+      </CardContent>
+    </Card>
   );
 }
 
 function MunicipalityRow({
   municipality,
-  onSelect,
+  isSelected,
+  onCheck,
+  onOpenSheet,
 }: {
   municipality: Municipality;
-  onSelect: () => void;
+  isSelected: boolean;
+  onCheck: () => void;
+  onOpenSheet: () => void;
 }): JSX.Element {
-  const associationCount = municipality.associationCount ?? (municipality as any)?.associations ?? null;
-  const activeAssociations =
-    (municipality as any)?.activeAssociations ??
-    (municipality as any)?.extras?.activeAssociations ??
-    null;
+  const associationCount = municipality.associationCount ?? null;
+  const activeAssociations = municipality.activeAssociations ?? null;
+
+  const handleRowClick = (e: React.MouseEvent) => {
+    // Don't open sheet if clicking on a link, button, or checkbox
+    const target = e.target as HTMLElement;
+    if (
+      target.tagName === 'A' ||
+      target.closest('a') ||
+      target.tagName === 'BUTTON' ||
+      target.closest('button') ||
+      target.getAttribute('role') === 'checkbox' ||
+      target.closest('[role="checkbox"]')
+    ) {
+      return;
+    }
+    onOpenSheet();
+  };
 
   return (
     <TableRow
-      className="cursor-pointer transition-colors hover:bg-orange-50/60"
-      onClick={onSelect}
+      className="hover:bg-gray-50 transition-colors cursor-pointer"
+      onClick={handleRowClick}
     >
-      <TableCell className="font-medium text-slate-900">{municipality.name ?? "Namn saknas"}</TableCell>
-      <TableCell className="text-slate-600">{municipality.code ?? "–"}</TableCell>
-      <TableCell>
+      <TableCell className="px-6 py-4">
+        <Checkbox
+          checked={isSelected}
+          onCheckedChange={onCheck}
+        />
+      </TableCell>
+      <TableCell className="px-6 py-4">
+        <div className="flex items-center gap-2">
+          <MapPin className="w-4 h-4 text-gray-400" />
+          <span className="text-sm text-gray-900">{municipality.name ?? "Namn saknas"}</span>
+        </div>
+      </TableCell>
+      <TableCell className="px-6 py-4">
+        <span className="text-sm text-gray-600">{municipality.code ?? "–"}</span>
+      </TableCell>
+      <TableCell className="px-6 py-4">
         {municipality.province ? (
-          <Badge variant="secondary" className="rounded-full bg-blue-50 text-blue-700">
+          <Badge variant="outline" className="border-blue-200 text-blue-700">
             {municipality.province}
           </Badge>
         ) : (
-          <span className="text-slate-400">–</span>
+          <span className="text-gray-400">–</span>
         )}
       </TableCell>
-      <TableCell className="text-slate-600">{municipality.county ?? "–"}</TableCell>
-      <TableCell className="text-slate-600">{municipality.countyCode ?? "–"}</TableCell>
-      <TableCell className="text-slate-600">{municipality.region ?? "–"}</TableCell>
-      <TableCell className="text-right text-slate-600">
-        {municipality.population != null ? formatNumber(municipality.population) : "–"}
+      <TableCell className="px-6 py-4">
+        <span className="text-sm text-gray-900">{municipality.county ?? "–"}</span>
       </TableCell>
-      <TableCell className="text-right text-slate-600">
-        {associationCount != null ? formatNumber(associationCount) : "–"}
+      <TableCell className="px-6 py-4">
+        <span className="text-sm text-gray-600">{municipality.countyCode ?? "–"}</span>
       </TableCell>
-      <TableCell className="text-right text-slate-600">
-        {activeAssociations != null ? formatNumber(activeAssociations) : "–"}
+      <TableCell className="px-6 py-4">
+        <span className="text-sm text-gray-900">{municipality.region ?? "–"}</span>
       </TableCell>
-      <TableCell className="text-right">
-        {municipality.registerUrl ? (
+      <TableCell className="px-6 py-4">
+        <div className="flex items-center gap-2">
+          <Users className="w-4 h-4 text-gray-400" />
+          <span className="text-sm text-gray-900">
+            {municipality.population != null ? formatNumber(municipality.population) : "–"}
+          </span>
+        </div>
+      </TableCell>
+      <TableCell className="px-6 py-4">
+        <div className="flex items-center gap-2">
+          <Building2 className="w-4 h-4 text-gray-400" />
+          <span className="text-sm text-gray-900">
+            {associationCount != null ? formatNumber(associationCount) : "–"}
+          </span>
+        </div>
+      </TableCell>
+      <TableCell className="px-6 py-4">
+        {activeAssociations != null ? (
+          <Badge
+            variant="outline"
+            className="border-green-200 text-green-700 bg-green-50"
+          >
+            {formatNumber(activeAssociations)}
+          </Badge>
+        ) : (
+          <span className="text-gray-400">–</span>
+        )}
+      </TableCell>
+      <TableCell className="px-6 py-4">
+        {municipality.registerUrl && municipality.platform ? (
           <a
             href={municipality.registerUrl}
-            className="text-sm font-medium text-[#ea580b] hover:underline"
             target="_blank"
             rel="noreferrer"
-            onClick={(event) => event.stopPropagation()}
+            className="flex items-center gap-1 text-sm text-orange-600 hover:text-orange-700"
+            onClick={(e) => e.stopPropagation()}
           >
-            Öppna
+            {municipality.platform}
+            <ExternalLink className="w-3 h-3" />
           </a>
         ) : (
-          <span className="text-slate-400">–</span>
+          <span className="text-gray-400">–</span>
         )}
       </TableCell>
     </TableRow>
@@ -474,11 +727,9 @@ interface MunicipalityDetailProps {
 }
 
 function MunicipalityDetail({ municipality }: MunicipalityDetailProps): JSX.Element {
-  const associationCount = municipality.associationCount ?? (municipality as any)?.associations ?? null;
-  const activeAssociations =
-    (municipality as any)?.activeAssociations ??
-    (municipality as any)?.extras?.activeAssociations ??
-    null;
+  const [mapModalOpen, setMapModalOpen] = useState(false);
+  const associationCount = municipality.associationCount ?? null;
+  const activeAssociations = municipality.activeAssociations ?? null;
   const activityRate =
     associationCount && activeAssociations
       ? `${((activeAssociations / associationCount) * 100).toFixed(1)}%`
@@ -525,9 +776,22 @@ function MunicipalityDetail({ municipality }: MunicipalityDetailProps): JSX.Elem
       </section>
 
       <section className="space-y-3">
-        <h3 className="text-sm font-semibold text-slate-900">Karta</h3>
+        <div className="flex items-center justify-between">
+          <h3 className="text-sm font-semibold text-slate-900">Karta</h3>
+          {municipality.latitude != null && municipality.longitude != null && (
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setMapModalOpen(true)}
+              className="text-xs"
+            >
+              <Maximize2 className="w-3 h-3 mr-1" />
+              Förstora
+            </Button>
+          )}
+        </div>
         {municipality.latitude != null && municipality.longitude != null ? (
-          <div className="overflow-hidden rounded-xl border border-slate-200">
+          <div className="h-64 overflow-hidden rounded-xl border border-slate-200">
             <MunicipalityMap
               latitude={municipality.latitude}
               longitude={municipality.longitude}
@@ -548,6 +812,23 @@ function MunicipalityDetail({ municipality }: MunicipalityDetailProps): JSX.Elem
           <LinkButton href={municipality.registerUrl}>Föreningsregister</LinkButton>
         </div>
       </section>
+
+      <Dialog open={mapModalOpen} onOpenChange={setMapModalOpen}>
+        <DialogContent className="max-w-4xl h-[80vh] p-0 gap-0 flex flex-col">
+          <DialogHeader className="px-6 py-4 border-b border-slate-200">
+            <DialogTitle>{municipality.name} - Karta</DialogTitle>
+          </DialogHeader>
+          <div className="flex-1 overflow-hidden">
+            {municipality.latitude != null && municipality.longitude != null && (
+              <MunicipalityMap
+                latitude={municipality.latitude}
+                longitude={municipality.longitude}
+                municipalityName={municipality.name}
+              />
+            )}
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

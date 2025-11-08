@@ -27,12 +27,12 @@ export default function MunicipalityMap({ latitude, longitude, municipalityName 
 
   useEffect(() => {
     if (mapRef.current) {
-      mapRef.current.setView(position, 6);
+      mapRef.current.setView(position, 8);
     }
   }, [position]);
 
   return (
-    <MapContainer center={position} zoom={6} className="h-full w-full rounded-xl" scrollWheelZoom={false} ref={mapRef}>
+    <MapContainer center={position} zoom={8} className="h-full w-full rounded-xl" scrollWheelZoom={false} ref={mapRef}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

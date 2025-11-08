@@ -28,20 +28,21 @@ if ($municipalityId) {
       m.id,
       CONVERT(m.name USING utf8mb4) AS name,
       m.code,
-      m.county_code AS countyCode,
+      m.countyCode AS countyCode,
       CONVERT(m.county USING utf8mb4) AS county,
       CONVERT(m.region USING utf8mb4) AS region,
       CONVERT(m.province USING utf8mb4) AS province,
       m.latitude,
       m.longitude,
       m.population,
-      m.register_url AS registerUrl,
-      m.register_status AS registerStatus,
+      m.registerUrl AS registerUrl,
+      m.registerStatus AS registerStatus,
       m.homepage,
       m.platform,
-      COUNT(a.id) AS associationCount
+      COUNT(a.id) AS associationCount,
+      COUNT(CASE WHEN a.crmStatus = "MEMBER" THEN 1 END) AS activeAssociations
     FROM Municipality m
-    LEFT JOIN Association a ON a.municipality_id = m.id AND a.deleted_at IS NULL
+    LEFT JOIN Association a ON a.municipalityId = m.id AND a.deletedAt IS NULL
     WHERE m.id = ?
     GROUP BY m.id
   ');
@@ -62,21 +63,45 @@ if ($municipalityId) {
     'county' => normalize_utf8($row['county'] ?? null),
     'region' => normalize_utf8($row['region'] ?? null),
     'province' => normalize_utf8($row['province'] ?? null),
-    'latitude' => $row['latitude'] ? (float)$row['latitude'] : null,
-    'longitude' => $row['longitude'] ? (float)$row['longitude'] : null,
+    // NOTE: Database has lat/lng swapped - fixing here
+    'latitude' => $row['longitude'] ? (float)$row['longitude'] : null,
+    'longitude' => $row['latitude'] ? (float)$row['latitude'] : null,
     'population' => $row['population'] ? (int)$row['population'] : null,
     'registerUrl' => $row['registerUrl'],
     'registerStatus' => $row['registerStatus'],
     'homepage' => $row['homepage'],
     'platform' => $row['platform'],
     'associationCount' => (int)$row['associationCount'],
+    'activeAssociations' => (int)$row['activeAssociations'],
   ];
 
   log_event('api', 'municipalities.getById', ['id' => $municipalityId]);
   json_out(200, $municipality);
 } else {
-  // Get list of all municipalities
-  $sql = 'SELECT id, CONVERT(name USING utf8mb4) AS name, code FROM Municipality ORDER BY name ASC';
+  // Get list of all municipalities with full details
+  $sql = '
+    SELECT
+      m.id,
+      CONVERT(m.name USING utf8mb4) AS name,
+      m.code,
+      m.countyCode AS countyCode,
+      CONVERT(m.county USING utf8mb4) AS county,
+      CONVERT(m.region USING utf8mb4) AS region,
+      CONVERT(m.province USING utf8mb4) AS province,
+      m.latitude,
+      m.longitude,
+      m.population,
+      m.registerUrl AS registerUrl,
+      m.registerStatus AS registerStatus,
+      m.homepage,
+      m.platform,
+      COUNT(a.id) AS associationCount,
+      COUNT(CASE WHEN a.crmStatus = "MEMBER" THEN 1 END) AS activeAssociations
+    FROM Municipality m
+    LEFT JOIN Association a ON a.municipalityId = m.id AND a.deletedAt IS NULL
+    GROUP BY m.id
+    ORDER BY m.name ASC
+  ';
   $res = db()->query($sql);
   $items = [];
   while ($row = $res->fetch_assoc()) {
@@ -84,9 +109,23 @@ if ($municipalityId) {
       'id' => (string)$row['id'],
       'name' => normalize_utf8($row['name'] ?? null) ?? '',
       'code' => $row['code'],
+      'countyCode' => $row['countyCode'],
+      'county' => normalize_utf8($row['county'] ?? null),
+      'region' => normalize_utf8($row['region'] ?? null),
+      'province' => normalize_utf8($row['province'] ?? null),
+      // NOTE: Database has lat/lng swapped - fixing here
+      'latitude' => $row['longitude'] ? (float)$row['longitude'] : null,
+      'longitude' => $row['latitude'] ? (float)$row['latitude'] : null,
+      'population' => $row['population'] ? (int)$row['population'] : null,
+      'registerUrl' => $row['registerUrl'],
+      'registerStatus' => $row['registerStatus'],
+      'homepage' => $row['homepage'],
+      'platform' => $row['platform'],
+      'associationCount' => (int)$row['associationCount'],
+      'activeAssociations' => (int)$row['activeAssociations'],
     ];
   }
 
   log_event('api', 'municipalities.list', ['count' => count($items)]);
-  json_out(200, ['items' => $items]);
+  json_out(200, $items);
 }
