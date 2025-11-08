@@ -42,7 +42,7 @@ call :ensure_env FTPUSER
 call :ensure_env FTPPASSWORD
 
 call :log "Kor statisk export via deploy\loopia\export.ps1."
-pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "& { Start-Transcript -Path '%LOG_FILE%' -Append | Out-Null; & '%EXPORT_SCRIPT%' -InstallDependencies; $code = $LASTEXITCODE; Stop-Transcript | Out-Null; exit $code }"
+pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "& { Start-Transcript -Path '%LOG_FILE%' -Append | Out-Null; & '%EXPORT_SCRIPT%'; $code = $LASTEXITCODE; Stop-Transcript | Out-Null; exit $code }"
 if errorlevel 1 (
   call :log "Export misslyckades. Se loggfil for detaljer."
   exit /b 1
