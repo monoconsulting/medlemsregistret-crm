@@ -41,13 +41,14 @@ interface AssociationDetailsDialogProps {
   associationId: string | null
   open: boolean
   onOpenChange: (open: boolean) => void
+  onUpdated?: () => void
 }
 
 interface EditableFieldProps {
   label: string
   value: string | number | null | undefined
   field: string
-  type?: "text" | "textarea" | "number"
+  type?: "text" | "textarea" | "number" | "date"
   editingField: string | null
   fieldValues: Record<string, unknown>
   onEdit: (field: string, value: unknown) => void
@@ -157,6 +158,13 @@ function EditableField({
               onChange={(event) => onEdit(field, event.target.value)}
               className="flex-1"
               rows={4}
+            />
+          ) : type === "date" ? (
+            <Input
+              type="date"
+              value={currentValue ? String(currentValue).slice(0, 10) : ""}
+              onChange={(event) => onEdit(field, event.target.value || null)}
+              className="flex-1"
             />
           ) : (
             <Input
@@ -369,7 +377,7 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="h-[90vh] w-[90vw] max-w-7xl overflow-hidden p-0">
+      <DialogContent className="h-[90vh] w-[90vw] max-w-7xl p-0 flex flex-col">
         {loading && !detail ? (
           <div className="flex h-full items-center justify-center gap-2 text-muted-foreground">
             <Loader2 className="h-5 w-5 animate-spin" /> Hämtar förening.
@@ -538,6 +546,7 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
                         label="Medlem sedan"
                         value={detail.member_since}
                         field="member_since"
+                        type="date"
                         editingField={editingField}
                         fieldValues={fieldValues}
                         onEdit={handleFieldEdit}
@@ -781,14 +790,44 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
                 {detail.extras && typeof detail.extras === "object" && Object.keys(detail.extras).length > 0 ? (
                   <section className="rounded-lg border bg-card p-4 shadow-sm">
                     <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Extra data</h3>
-                    <div className="mt-4 space-y-2 text-sm">
+                    <div className="mt-4 space-y-4 text-sm">
                       {Object.entries(detail.extras as Record<string, unknown>).map(([key, value]) => (
-                        <div key={key} className="rounded border border-border/50 bg-background/60 px-3 py-2">
-                          <p className="text-xs font-semibold uppercase text-muted-foreground">{key}</p>
-                          <p className="mt-1 text-sm">
-                            {typeof value === "string" ? value : JSON.stringify(value, null, 2)}
-                          </p>
-                        </div>
+                        <EditableField
+                          key={key}
+                          label={key}
+                          value={typeof value === "string" ? value : JSON.stringify(value)}
+                          field={`extras.${key}`}
+                          type={typeof value === "number" ? "number" : "text"}
+                          editingField={editingField}
+                          fieldValues={fieldValues}
+                          onEdit={handleFieldEdit}
+                          onSave={async (field) => {
+                            if (!detail) return
+                            const extrasKey = field.replace("extras.", "")
+                            const newValue = fieldValues[field] ?? value
+                            setSavingField(field)
+                            try {
+                              const updatedExtras = {
+                                ...detail.extras,
+                                [extrasKey]: newValue,
+                              }
+                              await api.updateAssociation(detail.id, {
+                                extras: updatedExtras,
+                              } as any)
+                              setDetail((prev) => (prev ? ({ ...prev, extras: updatedExtras } as AssociationDetail) : prev))
+                              handleFieldCancel(field)
+                              toast({ title: "Extra data uppdaterat" })
+                            } catch (err) {
+                              const message = err instanceof Error ? err.message : "Kunde inte spara extra data"
+                              toast({ title: "Fel", description: message, variant: "destructive" })
+                            } finally {
+                              setSavingField((current) => (current === field ? null : current))
+                            }
+                          }}
+                          onCancel={handleFieldCancel}
+                          setEditingField={setEditingField}
+                          savingField={savingField}
+                        />
                       ))}
                     </div>
                   </section>

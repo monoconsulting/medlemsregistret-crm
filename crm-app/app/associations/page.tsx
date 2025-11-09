@@ -61,6 +61,11 @@ import {
 } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { AppLayout } from "@/components/layout/app-layout"
+import { EditAssociationModal } from "@/components/modals/edit-association-modal"
+import { AddNoteModal } from "@/components/modals/add-note-modal"
+import { AssociationContactsModal } from "@/components/modals/association-contacts-modal"
+import { AssociationDetailsDialog } from "@/components/modals/association-details-dialog"
+import { associationUpdateSchema, type AssociationUpdateInput } from "@/lib/validators/association"
 
 interface AssociationRecord extends Association {
   tags: Tag[]
@@ -246,10 +251,15 @@ function AssociationsPageInner(): JSX.Element {
 
   const [notesOpen, setNotesOpen] = useState(false)
   const [notesAssociation, setNotesAssociation] = useState<AssociationRecord | null>(null)
-  const [notesLoading, setNotesLoading] = useState(false)
-  const [notes, setNotes] = useState<Note[]>([])
-  const [noteContent, setNoteContent] = useState("")
-  const [noteSubmitting, setNoteSubmitting] = useState(false)
+
+  const [editModalOpen, setEditModalOpen] = useState(false)
+  const [editAssociation, setEditAssociation] = useState<AssociationRecord | null>(null)
+
+  const [contactsModalOpen, setContactsModalOpen] = useState(false)
+  const [contactsAssociation, setContactsAssociation] = useState<AssociationRecord | null>(null)
+
+  const [detailsModalOpen, setDetailsModalOpen] = useState(false)
+  const [detailsAssociation, setDetailsAssociation] = useState<AssociationRecord | null>(null)
 
   const [deleteTarget, setDeleteTarget] = useState<AssociationRecord | null>(null)
   const [deleteSubmitting, setDeleteSubmitting] = useState(false)
@@ -528,38 +538,68 @@ function AssociationsPageInner(): JSX.Element {
     }
   }
 
-  const openNotesDialog = async (assoc: AssociationRecord) => {
+  const openNotesDialog = (assoc: AssociationRecord) => {
     setNotesAssociation(assoc)
     setNotesOpen(true)
-    setNotes([])
-    setNoteContent("")
-    setNotesLoading(true)
+  }
+
+  const handleOpenEditModal = (assoc: AssociationRecord) => {
+    setEditAssociation(assoc)
+    setEditModalOpen(true)
+  }
+
+  const handleEditSubmit = async (values: AssociationUpdateInput) => {
+    if (!editAssociation) return
+    setFormSubmitting(true)
     try {
-      const result = await api.getNotes(assoc.id)
-      setNotes(result)
+      // Convert camelCase to snake_case for API
+      const payload: Partial<Association> = {
+        crm_status: values.crmStatus,
+        pipeline: values.pipeline,
+        is_member: values.isMember,
+        member_since: values.memberSince ?? null,
+        street_address: values.streetAddress ?? null,
+        postal_code: values.postalCode ?? null,
+        city: values.city ?? null,
+        email: values.email ?? null,
+        phone: values.phone ?? null,
+        website: values.homepageUrl ?? null,
+        activities: values.activities ?? [],
+        description: values.otherInformation ?? null,
+        description_free_text: values.descriptionFreeText ?? null,
+      }
+
+      // Handle assigned_to separately to avoid type error
+      if (values.assignedToId) {
+        (payload as any).assigned_to_id = values.assignedToId
+      }
+
+      await api.updateAssociation(editAssociation.id, payload)
+
+      // If there are notes, add them separately
+      if (values.notes?.trim()) {
+        await api.addNote(editAssociation.id, values.notes.trim())
+      }
+
+      toast({ title: "Förening uppdaterad" })
+      setEditModalOpen(false)
+      await loadAssociations()
     } catch (err) {
-      const message = err instanceof Error ? err.message : "Kunde inte hämta anteckningar"
+      const message = err instanceof Error ? err.message : "Kunde inte uppdatera förening"
       toast({ title: "Fel", description: message, variant: "destructive" })
     } finally {
-      setNotesLoading(false)
+      setFormSubmitting(false)
     }
   }
 
-  const handleAddNote = async () => {
-    if (!notesAssociation || !noteContent.trim()) return
-    setNoteSubmitting(true)
-    try {
-      await api.addNote(notesAssociation.id, noteContent.trim())
-      const updated = await api.getNotes(notesAssociation.id)
-      setNotes(updated)
-      setNoteContent("")
-      toast({ title: "Anteckning sparad" })
-    } catch (err) {
-      const message = err instanceof Error ? err.message : "Kunde inte spara anteckning"
-      toast({ title: "Fel", description: message, variant: "destructive" })
-    } finally {
-      setNoteSubmitting(false)
-    }
+  const handleOpenContactsModal = (assoc: AssociationRecord) => {
+    setContactsAssociation(assoc)
+    setContactsModalOpen(true)
+  }
+
+  const handleOpenDetailsModal = (assoc: AssociationRecord) => {
+    setDetailsAssociation(assoc)
+    setDetailsModalOpen(true)
   }
 
   return (
@@ -665,11 +705,12 @@ function AssociationsPageInner(): JSX.Element {
                       <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Föreningstyp</TableHead>
                       <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Taggar</TableHead>
                       <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Uppdaterad</TableHead>
+                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Åtgärder</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody className="divide-y divide-gray-200">
                     {associations.map((association) => (
-                      <TableRow key={association.id} className="hover:bg-gray-50 cursor-pointer transition-colors">
+                      <TableRow key={association.id} className="hover:bg-gray-50 cursor-pointer transition-colors" onClick={() => handleOpenDetailsModal(association)}>
                         <TableCell className="px-6 py-4">
                           <div className="flex items-center gap-2">
                             <MapPin className="w-4 h-4 text-gray-400" />
@@ -748,11 +789,70 @@ function AssociationsPageInner(): JSX.Element {
                             </span>
                           </div>
                         </TableCell>
+                        <TableCell className="px-6 py-4">
+                          <div className="flex items-center gap-1">
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                handleOpenEditModal(association)
+                              }}
+                              title="Redigera"
+                            >
+                              <Pencil className="w-4 h-4" />
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                openNotesDialog(association)
+                              }}
+                              title="Anteckningar"
+                            >
+                              <Notebook className="w-4 h-4" />
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                handleOpenContactsModal(association)
+                              }}
+                              title="Kontakter"
+                            >
+                              <User className="w-4 h-4" />
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                openTagDialog(association)
+                              }}
+                              title="Taggar"
+                            >
+                              <TagIcon className="w-4 h-4" />
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                setDeleteTarget(association)
+                              }}
+                              title="Ta bort"
+                            >
+                              <Trash2 className="w-4 h-4" />
+                            </Button>
+                          </div>
+                        </TableCell>
                       </TableRow>
                     ))}
                     {associations.length === 0 && !loading && (
                       <TableRow>
-                        <TableCell colSpan={8} className="py-6 text-center text-sm text-muted-foreground">
+                        <TableCell colSpan={9} className="py-6 text-center text-sm text-muted-foreground">
                           Inga föreningar matchar din filtrering.
                         </TableCell>
                       </TableRow>
@@ -789,16 +889,38 @@ function AssociationsPageInner(): JSX.Element {
         onCreateTag={handleCreateTag}
       />
 
-      <NotesDialog
+      <AddNoteModal
         open={notesOpen}
         onOpenChange={setNotesOpen}
-        association={notesAssociation}
-        notes={notes}
-        loading={notesLoading}
-        noteContent={noteContent}
-        onNoteContentChange={setNoteContent}
-        onAddNote={handleAddNote}
-        submitting={noteSubmitting}
+        associationId={notesAssociation?.id ?? null}
+        associationName={notesAssociation?.name ?? ""}
+        onCompleted={() => loadAssociations()}
+      />
+
+      {editAssociation && (
+        <EditAssociationModal
+          open={editModalOpen}
+          onOpenChange={setEditModalOpen}
+          association={editAssociation}
+          users={[]}
+          onSubmit={handleEditSubmit}
+          isSubmitting={formSubmitting}
+        />
+      )}
+
+      <AssociationContactsModal
+        associationId={contactsAssociation?.id ?? null}
+        associationName={contactsAssociation?.name ?? ""}
+        open={contactsModalOpen}
+        onOpenChange={setContactsModalOpen}
+        onUpdated={() => loadAssociations()}
+      />
+
+      <AssociationDetailsDialog
+        associationId={detailsAssociation?.id ?? null}
+        open={detailsModalOpen}
+        onOpenChange={setDetailsModalOpen}
+        onUpdated={() => loadAssociations()}
       />
 
       <AlertDialog open={Boolean(deleteTarget)} onOpenChange={(open) => !open && setDeleteTarget(null)}>
@@ -986,70 +1108,3 @@ function TagsDialog({
   )
 }
 
-function NotesDialog({
-  open,
-  onOpenChange,
-  association,
-  notes,
-  loading,
-  noteContent,
-  onNoteContentChange,
-  onAddNote,
-  submitting,
-}: {
-  open: boolean
-  onOpenChange: (open: boolean) => void
-  association: AssociationRecord | null
-  notes: Note[]
-  loading: boolean
-  noteContent: string
-  onNoteContentChange: (value: string) => void
-  onAddNote: () => Promise<void>
-  submitting: boolean
-}) {
-  return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-xl">
-        <DialogHeader>
-          <DialogTitle>Anteckningar för {association?.name ?? ""}</DialogTitle>
-        </DialogHeader>
-        <div className="space-y-4">
-          <div className="h-64 rounded-md border">
-            {loading ? (
-              <div className="flex h-full items-center justify-center text-muted-foreground">
-                <Loader2 className="mr-2 h-4 w-4 animate-spin" /> Hämtar anteckningar…
-              </div>
-            ) : (
-              <ScrollArea className="h-full">
-                <div className="space-y-3 p-3">
-                  {notes.map((note) => (
-                    <div key={note.id} className="rounded-md border bg-muted/30 p-3">
-                      <p className="text-sm whitespace-pre-line">{note.content}</p>
-                      <p className="mt-2 text-xs text-muted-foreground">
-                        {note.author ?? "Okänd"} – {format(new Date(note.created_at), "PPP HH:mm", { locale: sv })}
-                      </p>
-                    </div>
-                  ))}
-                  {notes.length === 0 && <p className="text-sm text-muted-foreground">Inga anteckningar ännu.</p>}
-                </div>
-              </ScrollArea>
-            )}
-          </div>
-          <div className="space-y-2">
-            <Textarea
-              placeholder="Lägg till en anteckning"
-              value={noteContent}
-              onChange={(event) => onNoteContentChange(event.target.value)}
-            />
-            <Button onClick={onAddNote} disabled={submitting || !noteContent.trim()}>
-              {submitting ? "Sparar…" : "Spara anteckning"}
-            </Button>
-          </div>
-        </div>
-        <DialogFooter>
-          <Button onClick={() => onOpenChange(false)}>Stäng</Button>
-        </DialogFooter>
-      </DialogContent>
-    </Dialog>
-  )
-}

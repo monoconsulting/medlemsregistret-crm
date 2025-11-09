@@ -63,22 +63,22 @@ function handle_list_contacts(): void {
 
   $sql = "SELECT
             id,
-            associationId,
+            association_id AS associationId,
             CONVERT(name USING utf8mb4) AS name,
             CONVERT(role USING utf8mb4) AS role,
             CONVERT(email USING utf8mb4) AS email,
             CONVERT(phone USING utf8mb4) AS phone,
             CONVERT(mobile USING utf8mb4) AS mobile,
-            CONVERT(linkedinUrl USING utf8mb4) AS linkedin_url,
-            CONVERT(facebookUrl USING utf8mb4) AS facebook_url,
-            CONVERT(twitterUrl USING utf8mb4) AS twitter_url,
-            CONVERT(instagramUrl USING utf8mb4) AS instagram_url,
-            isPrimary AS is_primary,
-            createdAt AS created_at,
-            updatedAt AS updated_at
+            CONVERT(linkedin_url USING utf8mb4) AS linkedin_url,
+            CONVERT(facebook_url USING utf8mb4) AS facebook_url,
+            CONVERT(twitter_url USING utf8mb4) AS twitter_url,
+            CONVERT(instagram_url USING utf8mb4) AS instagram_url,
+            is_primary,
+            created_at,
+            updated_at
           FROM Contact
-          WHERE associationId = ?
-          ORDER BY isPrimary DESC, createdAt ASC";
+          WHERE association_id = ?
+          ORDER BY is_primary DESC, created_at ASC";
   $stmt = db()->prepare($sql);
   $stmt->bind_param('s', $associationId);
   $stmt->execute();
@@ -136,7 +136,7 @@ function handle_create_contact(): void {
   $isPrimary = normalize_bool($body['is_primary'] ?? false);
 
   if ($isPrimary === 1) {
-    $stmtReset = db()->prepare('UPDATE Contact SET isPrimary = 0 WHERE associationId = ?');
+    $stmtReset = db()->prepare('UPDATE Contact SET is_primary = 0 WHERE association_id = ?');
     $stmtReset->bind_param('s', $associationId);
     $stmtReset->execute();
   }
@@ -144,19 +144,19 @@ function handle_create_contact(): void {
   $id = generate_id();
   $sql = "INSERT INTO Contact (
             id,
-            associationId,
+            association_id,
             name,
             role,
             email,
             phone,
             mobile,
-            linkedinUrl,
-            facebookUrl,
-            twitterUrl,
-            instagramUrl,
-            isPrimary,
-            createdAt,
-            updatedAt
+            linkedin_url,
+            facebook_url,
+            twitter_url,
+            instagram_url,
+            is_primary,
+            created_at,
+            updated_at
           ) VALUES (
             ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW()
           )";
@@ -198,14 +198,14 @@ function handle_update_contact(): void {
     json_out(400, ['error' => 'id is required']);
   }
 
-  $stmtFetch = db()->prepare('SELECT associationId FROM Contact WHERE id = ? LIMIT 1');
+  $stmtFetch = db()->prepare('SELECT association_id FROM Contact WHERE id = ? LIMIT 1');
   $stmtFetch->bind_param('s', $id);
   $stmtFetch->execute();
   $row = $stmtFetch->get_result()->fetch_assoc();
   if (!$row) {
     json_out(404, ['error' => 'Contact not found']);
   }
-  $associationId = (string)$row['associationId'];
+  $associationId = (string)$row['association_id'];
 
   $fields = [];
   $types = '';
@@ -225,19 +225,7 @@ function handle_update_contact(): void {
   foreach ($map as $key => $max) {
     if (array_key_exists($key, $body)) {
       $value = normalize_nullable_string($body[$key], $max);
-      $column = str_replace('_url', 'Url', $key);
-      $column = str_replace('linkedin', 'linkedin', $column);
-      $column = str_replace('facebook', 'facebook', $column);
-      $column = str_replace('twitter', 'twitter', $column);
-      $column = str_replace('instagram', 'instagram', $column);
-      $column = match ($key) {
-        'linkedin_url' => 'linkedinUrl',
-        'facebook_url' => 'facebookUrl',
-        'twitter_url' => 'twitterUrl',
-        'instagram_url' => 'instagramUrl',
-        default => $key,
-      };
-      $fields[] = "{$column} = ?";
+      $fields[] = "{$key} = ?";
       $params[] = $value !== '' ? $value : null;
       $types .= 's';
     }
@@ -253,11 +241,11 @@ function handle_update_contact(): void {
   if (array_key_exists('is_primary', $body)) {
     $isPrimary = normalize_bool($body['is_primary']);
     if ($isPrimary === 1) {
-      $stmtReset = db()->prepare('UPDATE Contact SET isPrimary = 0 WHERE associationId = ?');
+      $stmtReset = db()->prepare('UPDATE Contact SET is_primary = 0 WHERE association_id = ?');
       $stmtReset->bind_param('s', $associationId);
       $stmtReset->execute();
     }
-    $fields[] = 'isPrimary = ?';
+    $fields[] = 'is_primary = ?';
     $params[] = $isPrimary;
     $types .= 'i';
   }

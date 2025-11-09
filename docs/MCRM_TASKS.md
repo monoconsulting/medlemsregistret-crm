@@ -2,15 +2,29 @@ Läs först @.prompts/start.prompt.md
 
 ## Ditt uppdrag
 
-> börja med att läsa @.prompts\start.prompt.md . Nu är det ett krav att du läser worklog skriven med dagens datum @docs\worklogs\25-11-08_Worklog.md för att förstå förutsättningarna. Ditt uppdrag nu är att först       
-> analysera kodbasen och Municipality-sidan. I den sidebar som kommer upp på höger sida så ska det finnas en karta. Såvitt jag kan se så finns det en fil för detta @crm-app\components\MunicipalityMap.tsx som bör vara    
->  tänkt att använda där - men ingenting syns. Implementera kartfunktionalitet enligt denna fil. Kommunen som är vald ska vara centrerad mitt på skärmen. Om det är möjligt så ska det finnas en knapp för att få upp       
-> kartan i en modal mitt på skärmen. Klick utanför modal stänger skärmen. Se till att inte förväxla longitude och latitude - om staden ligger mitt i indiska oceanen så är det fel. Implementationen ska du testa - men     
-> först måste jag köra en rebuild. Test gör du därefter med filen @web\tests\crm-kommuner-foreningar.spec.ts. Ditt uppdrag: Att få en fungerande karta enligt ovanstående specifikation. 
+### Start:
+
+- Läs @.prompts\start.prompt.md . 
+- Läs worklog skriven med gårdagens datum @docs\worklogs\25-11-08_Worklog.md
+
+### Ditt uppdrag:
+
++ Att analysera föreningssidans modaler
++ Att skapa en omfattande plan utifrån 
++ Att säkerställa full funktionalitet i dessa
 
 
 
+## Context
 
+- På föreningssidan (associations) finns ett antal modaler implementerade - men detta är slarvigt genomfört varför vi nu måste säkerställa funktionalitet i alla modalers respekitve fält
+- Gå igenom varje modal. Testa varje fält, verifiera att data sparas och att data uppdateras.
+- Då din implementation är klar ber du mig bygga om
+- Därefter gör du test med filen @web\tests\crm-kommuner-foreningar.spec.ts. 
+
+Ditt uppdrag: samtliga modaler ovan ska fungera och kunna uppdatera databasen med relevant information.
+
+**Har du några frågor till mig gällande ditt uppdrag?**
 
 
 
