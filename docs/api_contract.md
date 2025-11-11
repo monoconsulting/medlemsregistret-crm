@@ -28,5 +28,11 @@ All API calls are performed against the same origin as the statically exported f
 | `/api/municipalities.php` | GET | Lists municipalities (id, name, code). |
 | `/api/tags.php` | GET | Lists tags sorted by name. |
 | `/api/tags.php` | POST | `{ name }` creates tag. `{ action: 'attach'|'detach', associationId, tagId }` manages associations. |
+| `/api/tag_generation.php` | POST | **Admin only.** `{ mode: 'dry-run'|'execute', source: 'db:baseline'|'db:types'|'db:activities'|'db:categories' }`. Triggers tag generation job. Rate limited (5/hour). Returns `{ jobId, status, message }`. |
+| `/api/tag_generation.php?jobId=<id>` | GET | Polls status of tag generation job. Returns `{ id, status, mode, source, associationsProcessed, tagsCreated, linksCreated, linksSkipped, reportUrl, errors, ... }`. |
+| `/api/tag_generation.php?action=reports` | GET | **Admin only.** Lists all tag generation runs. Query parameters: `limit (≤200)`, `offset`. Returns `{ items, total, limit, offset }`. |
+| `/api/tag_taxonomy.php` | GET | **Admin only.** Lists taxonomy aliases. Query parameter: `category` (optional). Returns `{ items: [ { id, alias, canonical, category, createdAt }, ... ], total }`. |
+| `/api/tag_taxonomy.php` | POST | **Admin only.** `{ alias, canonical, category? }` creates alias mapping. Normalizes to lowercase, validates uniqueness. Returns `{ id, alias, canonical, category }`. |
+| `/api/tag_taxonomy.php?id=<id>` | DELETE | **Admin only.** Deletes alias mapping. Returns `{ success: true }`. |
 
 All endpoints rely on parameterized SQL, enforce `SameSite=Lax` session cookies, and reject missing or invalid CSRF tokens on write operations.
