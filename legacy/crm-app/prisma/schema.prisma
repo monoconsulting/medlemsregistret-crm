@@ -153,6 +153,68 @@ model Tag {
   color        String        @default("#3b82f6")
   createdAt    DateTime      @default(now())
   associations Association[] @relation("AssociationTags")
+  sources      TagSource[]
+}
+
+model TagSource {
+  id          String   @id @default(cuid())
+  tagId       String
+  source      String   // "db:baseline", "db:types", "db:activities", "db:categories", "ai:web", "manual"
+  sourceField String?  // "types", "activities", "categories", null for manual/AI tags
+  confidence  Float?   // For AI-generated tags (0.0-1.0)
+  createdAt   DateTime @default(now())
+  createdBy   String?  // userId for manual tags
+
+  tag         Tag      @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@index([tagId])
+  @@index([source])
+  @@index([createdAt])
+}
+
+model TagAlias {
+  id         String   @id @default(cuid())
+  alias      String   @unique
+  canonical  String
+  category   String?
+  createdAt  DateTime @default(now())
+  createdBy  String?
+
+  @@index([canonical])
+  @@index([category])
+}
+
+model TagGenerationRun {
+  id                    String    @id @default(cuid())
+  status                String    // "running", "completed", "failed", "dry-run"
+  mode                  String    // "dry-run", "execute"
+  source                String    // "db:baseline", "db:types", "db:activities", "db:categories"
+  startedAt             DateTime  @default(now())
+  completedAt           DateTime?
+
+  // Statistics
+  associationsProcessed Int       @default(0)
+  tagsCreated           Int       @default(0)
+  linksCreated          Int       @default(0)
+  linksSkipped          Int       @default(0)
+  errors                Json?
+
+  // Resume capability
+  lastProcessedId       String?
+  currentBatch          Int       @default(0)
+
+  // Output artifacts
+  reportPath            String?   @db.VarChar(500)
+  reportUrl             String?   @db.VarChar(500)
+  summary               Json?
+
+  // Attribution
+  triggeredBy           String?
+  triggeredByName       String?
+
+  @@index([status])
+  @@index([startedAt])
+  @@index([source])
 }
 
 model Group {
