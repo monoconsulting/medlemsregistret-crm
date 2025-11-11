@@ -1,11 +1,10 @@
 "use client";
 
-import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
+import { useState, useEffect } from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { FileText, CheckCircle2, AlertCircle, Clock } from "lucide-react";
+import { FileText, CheckCircle2, AlertCircle, Clock, Loader2 } from "lucide-react";
 import { api } from "@/lib/api";
 import { formatDistanceToNow } from "date-fns";
 import { sv } from "date-fns/locale";
@@ -13,11 +12,40 @@ import { sv } from "date-fns/locale";
 export function ReportsTab() {
   const [page, setPage] = useState(0);
   const pageSize = 20;
+  const [data, setData] = useState<{
+    items: Array<{
+      id: string;
+      status: string;
+      mode: string;
+      source: string;
+      startedAt: string;
+      completedAt: string | null;
+      associationsProcessed: number;
+      tagsCreated: number;
+      linksCreated: number;
+      linksSkipped: number;
+      triggeredByName: string;
+      reportUrl: string | null;
+    }>;
+    total: number;
+  } | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const { data, isLoading } = useQuery({
-    queryKey: ["tag-generation-runs", page],
-    queryFn: () => api.listTagGenerationRuns(pageSize, page * pageSize),
-  });
+  useEffect(() => {
+    loadRuns();
+  }, [page]);
+
+  const loadRuns = async () => {
+    setIsLoading(true);
+    try {
+      const result = await api.listTagGenerationRuns(pageSize, page * pageSize);
+      setData(result);
+    } catch (error) {
+      console.error("Error loading runs:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   const runs = data?.items || [];
   const total = data?.total || 0;
@@ -69,10 +97,12 @@ export function ReportsTab() {
   return (
     <div className="space-y-4">
       {isLoading ? (
-        <div className="py-8 text-center text-sm text-slate-500">Laddar...</div>
+        <div className="py-8 text-center text-sm text-slate-500">
+          <Loader2 className="mx-auto h-6 w-6 animate-spin" />
+        </div>
       ) : runs.length === 0 ? (
         <div className="py-8 text-center text-sm text-slate-500">
-          Inga körningar ännu. Starta en generering från fliken "Generera".
+          Inga körningar ännu. Starta en generering från fliken &quot;Generera&quot;.
         </div>
       ) : (
         <>

@@ -1,14 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { useMutation } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Progress } from "@/components/ui/progress";
-import { AlertCircle, CheckCircle2, Play, Database, FileText } from "lucide-react";
+import { AlertCircle, CheckCircle2, Play, Database, FileText, Loader2 } from "lucide-react";
 import { api } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
 
@@ -35,13 +34,46 @@ export function TagGenerationTab() {
   const [mode, setMode] = useState<ExecutionMode>("dry-run");
   const [source, setSource] = useState<DataSource>("db:baseline");
   const [jobStatus, setJobStatus] = useState<JobStatus | null>(null);
-  const [polling, setPolling] = useState(false);
+  const [isTriggering, setIsTriggering] = useState(false);
 
-  const triggerMutation = useMutation({
-    mutationFn: async () => {
-      return api.triggerTagGeneration(mode, source);
-    },
-    onSuccess: (data) => {
+  const startPolling = (jobId: string) => {
+    const interval = setInterval(async () => {
+      try {
+        const status = await api.getTagGenerationStatus(jobId);
+        setJobStatus(status);
+        if (status.status === "completed" || status.status === "failed") {
+          clearInterval(interval);
+          if (status.status === "completed") {
+            toast({
+              title: "Generering klar",
+              description: `Skapade ${status.tagsCreated} taggar, ${status.linksCreated} nya länkar`,
+            });
+          } else {
+            toast({
+              variant: "destructive",
+              title: "Generering misslyckades",
+              description: status.errors.join(", ") || "Okänt fel",
+            });
+          }
+        }
+      } catch (error) {
+        clearInterval(interval);
+        console.error("Polling error:", error);
+      }
+    }, 2000);
+  };
+
+  const handleTrigger = async () => {
+    if (mode === "execute") {
+      const confirmed = confirm(
+        "Detta kommer att ändra databasen! Säker på att du vill köra i execute-läge?"
+      );
+      if (!confirmed) return;
+    }
+
+    setIsTriggering(true);
+    try {
+      const data = await api.triggerTagGeneration(mode, source);
       toast({
         title: "Taggenerering startad",
         description: `Jobb ${data.jobId} startad i ${mode === "dry-run" ? "dry-run" : "execute"} läge`,
@@ -61,57 +93,18 @@ export function TagGenerationTab() {
         errors: [],
       });
       startPolling(data.jobId);
-    },
-    onError: (error: Error) => {
+    } catch (error) {
       toast({
         variant: "destructive",
         title: "Fel vid start",
-        description: error.message,
+        description: error instanceof Error ? error.message : "Okänt fel",
       });
-    },
-  });
-
-  const startPolling = (jobId: string) => {
-    setPolling(true);
-    const interval = setInterval(async () => {
-      try {
-        const status = await api.getTagGenerationStatus(jobId);
-        setJobStatus(status);
-        if (status.status === "completed" || status.status === "failed") {
-          clearInterval(interval);
-          setPolling(false);
-          if (status.status === "completed") {
-            toast({
-              title: "Generering klar",
-              description: `Skapade ${status.tagsCreated} taggar, ${status.linksCreated} nya länkar`,
-            });
-          } else {
-            toast({
-              variant: "destructive",
-              title: "Generering misslyckades",
-              description: status.errors.join(", ") || "Okänt fel",
-            });
-          }
-        }
-      } catch (error) {
-        clearInterval(interval);
-        setPolling(false);
-        console.error("Polling error:", error);
-      }
-    }, 2000);
-  };
-
-  const handleTrigger = () => {
-    if (mode === "execute") {
-      const confirmed = confirm(
-        "Detta kommer att ändra databasen! Säker på att du vill köra i execute-läge?"
-      );
-      if (!confirmed) return;
+    } finally {
+      setIsTriggering(false);
     }
-    triggerMutation.mutate();
   };
 
-  const isRunning = jobStatus?.status === "running" || triggerMutation.isPending;
+  const isRunning = jobStatus?.status === "running" || isTriggering;
 
   return (
     <div className="space-y-6">
@@ -164,8 +157,17 @@ export function TagGenerationTab() {
           className="w-full"
           size="lg"
         >
-          <Play className="mr-2 h-4 w-4" />
-          {isRunning ? "Kör..." : "Starta generering"}
+          {isRunning ? (
+            <>
+              <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+              Kör...
+            </>
+          ) : (
+            <>
+              <Play className="mr-2 h-4 w-4" />
+              Starta generering
+            </>
+          )}
         </Button>
       </div>
 

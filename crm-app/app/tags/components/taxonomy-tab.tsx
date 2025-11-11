@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -9,68 +8,47 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { Plus, Trash2, ArrowRight, InfoIcon } from "lucide-react";
+import { Plus, Trash2, ArrowRight, InfoIcon, Loader2 } from "lucide-react";
 import { api } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
 
 export function TaxonomyTab() {
   const { toast } = useToast();
-  const queryClient = useQueryClient();
   const [isAddOpen, setIsAddOpen] = useState(false);
   const [newAlias, setNewAlias] = useState("");
   const [newCanonical, setNewCanonical] = useState("");
   const [newCategory, setNewCategory] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
+  const [aliases, setAliases] = useState<Array<{
+    id: string;
+    alias: string;
+    canonical: string;
+    category: string | null;
+  }>>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [isCreating, setIsCreating] = useState(false);
+  const [isDeleting, setIsDeleting] = useState<string | null>(null);
 
-  const { data: aliases = [], isLoading } = useQuery({
-    queryKey: ["tag-aliases"],
-    queryFn: () => api.getTagAliases(),
-  });
+  useEffect(() => {
+    loadAliases();
+  }, []);
 
-  const createMutation = useMutation({
-    mutationFn: async () => {
-      return api.createTagAlias(newAlias.trim(), newCanonical.trim(), newCategory.trim() || undefined);
-    },
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["tag-aliases"] });
-      toast({
-        title: "Alias skapad",
-        description: `${newAlias} → ${newCanonical}`,
-      });
-      setIsAddOpen(false);
-      setNewAlias("");
-      setNewCanonical("");
-      setNewCategory("");
-    },
-    onError: (error: Error) => {
+  const loadAliases = async () => {
+    try {
+      const data = await api.getTagAliases();
+      setAliases(data);
+    } catch (error) {
       toast({
         variant: "destructive",
-        title: "Fel vid skapande",
-        description: error.message,
+        title: "Fel vid laddning",
+        description: error instanceof Error ? error.message : "Kunde inte ladda aliases",
       });
-    },
-  });
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
-  const deleteMutation = useMutation({
-    mutationFn: async (id: string) => {
-      return api.deleteTagAlias(id);
-    },
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["tag-aliases"] });
-      toast({
-        title: "Alias borttagen",
-      });
-    },
-    onError: (error: Error) => {
-      toast({
-        variant: "destructive",
-        title: "Fel vid borttagning",
-        description: error.message,
-      });
-    },
-  });
-
-  const handleCreate = () => {
+  const handleCreate = async () => {
     if (!newAlias.trim() || !newCanonical.trim()) {
       toast({
         variant: "destructive",
@@ -79,12 +57,48 @@ export function TaxonomyTab() {
       });
       return;
     }
-    createMutation.mutate();
+
+    setIsCreating(true);
+    try {
+      await api.createTagAlias(newAlias.trim(), newCanonical.trim(), newCategory.trim() || undefined);
+      toast({
+        title: "Alias skapad",
+        description: `${newAlias} → ${newCanonical}`,
+      });
+      setIsAddOpen(false);
+      setNewAlias("");
+      setNewCanonical("");
+      setNewCategory("");
+      await loadAliases();
+    } catch (error) {
+      toast({
+        variant: "destructive",
+        title: "Fel vid skapande",
+        description: error instanceof Error ? error.message : "Kunde inte skapa alias",
+      });
+    } finally {
+      setIsCreating(false);
+    }
   };
 
-  const handleDelete = (id: string, alias: string) => {
-    if (confirm(`Vill du ta bort alias "${alias}"?`)) {
-      deleteMutation.mutate(id);
+  const handleDelete = async (id: string, alias: string) => {
+    if (!confirm(`Vill du ta bort alias "${alias}"?`)) return;
+
+    setIsDeleting(id);
+    try {
+      await api.deleteTagAlias(id);
+      toast({
+        title: "Alias borttagen",
+      });
+      await loadAliases();
+    } catch (error) {
+      toast({
+        variant: "destructive",
+        title: "Fel vid borttagning",
+        description: error instanceof Error ? error.message : "Kunde inte ta bort alias",
+      });
+    } finally {
+      setIsDeleting(null);
     }
   };
 
@@ -102,7 +116,7 @@ export function TaxonomyTab() {
       <Alert>
         <InfoIcon className="h-4 w-4" />
         <AlertDescription>
-          Taxonomi-aliases används för att normalisera stavningsvarianter. T.ex. "matcher" → "match", "fotbolls-match" → "match".
+          Taxonomi-aliases används för att normalisera stavningsvarianter. T.ex. &quot;matcher&quot; → &quot;match&quot;, &quot;fotbolls-match&quot; → &quot;match&quot;.
           Alla aliases konverteras till gemener automatiskt.
         </AlertDescription>
       </Alert>
@@ -163,8 +177,15 @@ export function TaxonomyTab() {
               <Button variant="outline" onClick={() => setIsAddOpen(false)}>
                 Avbryt
               </Button>
-              <Button onClick={handleCreate} disabled={createMutation.isPending}>
-                Skapa
+              <Button onClick={handleCreate} disabled={isCreating}>
+                {isCreating ? (
+                  <>
+                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                    Skapar...
+                  </>
+                ) : (
+                  "Skapa"
+                )}
               </Button>
             </DialogFooter>
           </DialogContent>
@@ -172,7 +193,9 @@ export function TaxonomyTab() {
       </div>
 
       {isLoading ? (
-        <div className="py-8 text-center text-sm text-slate-500">Laddar...</div>
+        <div className="py-8 text-center text-sm text-slate-500">
+          <Loader2 className="mx-auto h-6 w-6 animate-spin" />
+        </div>
       ) : filteredAliases.length === 0 ? (
         <div className="py-8 text-center text-sm text-slate-500">
           {searchQuery ? "Inga aliases matchade sökningen" : "Inga aliases ännu"}
@@ -209,9 +232,13 @@ export function TaxonomyTab() {
                       variant="ghost"
                       size="sm"
                       onClick={() => handleDelete(item.id, item.alias)}
-                      disabled={deleteMutation.isPending}
+                      disabled={isDeleting === item.id}
                     >
-                      <Trash2 className="h-4 w-4 text-red-600" />
+                      {isDeleting === item.id ? (
+                        <Loader2 className="h-4 w-4 animate-spin text-red-600" />
+                      ) : (
+                        <Trash2 className="h-4 w-4 text-red-600" />
+                      )}
                     </Button>
                   </TableCell>
                 </TableRow>
