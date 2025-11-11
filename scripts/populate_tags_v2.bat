@@ -88,7 +88,7 @@ REM Run tag generation script
 echo [2/3] Running tag generation...
 cd /d "%~dp0.."
 
-npx tsx scripts/populate_tags_v2.ts --mode=%MODE% --source=%SOURCE% --job-id=%JOBID%
+php scripts/populate_tags_v2.php --mode=%MODE% --source=%SOURCE% --job-id=%JOBID%
 
 if errorlevel 1 (
   echo.

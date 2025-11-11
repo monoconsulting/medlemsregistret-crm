@@ -95,14 +95,13 @@ function handle_trigger_generation(array $body): void {
     json_out(500, ['error' => 'Failed to create job record']);
   }
 
-  // Build command to execute TypeScript script
+  // Build command to execute PHP script
   $projectRoot = realpath(__DIR__ . '/..');
-  $scriptPath = $projectRoot . '/scripts/populate_tags_v2.ts';
+  $scriptPath = $projectRoot . '/scripts/populate_tags_v2.php';
 
-  // Check if script exists (will be created in next phase)
+  // Check if script exists
   if (!file_exists($scriptPath)) {
-    // For now, log that script doesn't exist yet
-    log_event('api', 'tag-generation.script-not-ready', [
+    log_event('api', 'tag-generation.script-not-found', [
       'jobId' => $jobId,
       'scriptPath' => $scriptPath
     ]);
@@ -111,33 +110,33 @@ function handle_trigger_generation(array $body): void {
     $stmt = db()->prepare('
       UPDATE TagGenerationRun
       SET status = "failed", completedAt = NOW(),
-          errors = JSON_ARRAY("Script not implemented yet")
+          errors = JSON_ARRAY("Script file not found")
       WHERE id = ?
     ');
     $stmt->bind_param('s', $jobId);
     $stmt->execute();
 
     json_out(500, [
-      'error' => 'Tag generation script not yet implemented',
+      'error' => 'Tag generation script not found',
       'jobId' => $jobId,
       'status' => 'failed'
     ]);
   }
 
   // Build command with proper escaping
-  $nodeCmd = 'npx tsx ' . escapeshellarg($scriptPath) .
-             ' --mode=' . escapeshellarg($mode) .
-             ' --source=' . escapeshellarg($source) .
-             ' --job-id=' . escapeshellarg($jobId);
+  $phpCmd = 'php ' . escapeshellarg($scriptPath) .
+            ' --mode=' . escapeshellarg($mode) .
+            ' --source=' . escapeshellarg($source) .
+            ' --job-id=' . escapeshellarg($jobId);
 
   // Execute in background
   if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
     // Windows: use start /B for background execution
-    $cmd = 'start /B ' . $nodeCmd . ' > nul 2>&1';
+    $cmd = 'start /B ' . $phpCmd . ' > nul 2>&1';
     pclose(popen($cmd, 'r'));
   } else {
     // Linux/Mac: use & for background
-    $cmd = $nodeCmd . ' > /dev/null 2>&1 &';
+    $cmd = $phpCmd . ' > /dev/null 2>&1 &';
     exec($cmd);
   }
 
