@@ -57,7 +57,10 @@ import {
   Building2,
   User,
   Clock,
-  Mail
+  Mail,
+  ArrowUpDown,
+  ArrowUp,
+  ArrowDown
 } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { AppLayout } from "@/components/layout/app-layout"
@@ -65,6 +68,7 @@ import { EditAssociationModal } from "@/components/modals/edit-association-modal
 import { AddNoteModal } from "@/components/modals/add-note-modal"
 import { AssociationContactsModal } from "@/components/modals/association-contacts-modal"
 import { AssociationDetailsDialog } from "@/components/modals/association-details-dialog"
+import { AddAssociationsToGroupModal } from "@/components/modals/add-associations-to-group-modal"
 import { associationUpdateSchema, type AssociationUpdateInput } from "@/lib/validators/association"
 
 interface AssociationRecord extends Association {
@@ -220,6 +224,40 @@ function AssociationsPageFallback(): JSX.Element {
   )
 }
 
+interface SortableHeaderProps {
+  column: string
+  currentSort: string
+  onSort: (column: string) => void
+  children: React.ReactNode
+  className?: string
+}
+
+function SortableHeader({ column, currentSort, onSort, children, className }: SortableHeaderProps) {
+  const isAsc = currentSort === `${column}_asc`
+  const isDesc = currentSort === `${column}_desc`
+  const isActive = isAsc || isDesc
+
+  return (
+    <TableHead className={className}>
+      <button
+        onClick={() => onSort(column)}
+        className="flex items-center gap-1 hover:text-gray-900 transition-colors font-medium"
+      >
+        <span>{children}</span>
+        {isActive ? (
+          isAsc ? (
+            <ArrowUp className="h-4 w-4" />
+          ) : (
+            <ArrowDown className="h-4 w-4" />
+          )
+        ) : (
+          <ArrowUpDown className="h-4 w-4 opacity-40" />
+        )}
+      </button>
+    </TableHead>
+  )
+}
+
 function AssociationsPageInner(): JSX.Element {
   const { toast } = useToast()
   const { logout, refresh } = useAuth()
@@ -261,9 +299,11 @@ function AssociationsPageInner(): JSX.Element {
   const [detailsModalOpen, setDetailsModalOpen] = useState(false)
   const [detailsAssociation, setDetailsAssociation] = useState<AssociationRecord | null>(null)
 
+  const [groupModalOpen, setGroupModalOpen] = useState(false)
+
   const [deleteTarget, setDeleteTarget] = useState<AssociationRecord | null>(null)
   const [deleteSubmitting, setDeleteSubmitting] = useState(false)
-  const [selectedAssociations, setSelectedAssociations] = useState<string[]>([])
+  const [selectedAssociations, setSelectedAssociations] = useState<Set<string>>(new Set())
 
   useEffect(() => {
     const incomingQuery = searchParams.toString()
@@ -397,6 +437,46 @@ function AssociationsPageInner(): JSX.Element {
 
   const handleClearMunicipalityFilter = () => {
     handleFilterChange({ municipality: "", page: 1 })
+  }
+
+  const handleSortChange = (column: string) => {
+    const currentSort = filters.sort
+    let newSort: AssocFilters["sort"] = "updated_desc"
+
+    // Toggle between asc/desc for the same column
+    if (column === "name") {
+      newSort = currentSort === "name_asc" ? "name_desc" : "name_asc"
+    } else if (column === "updated") {
+      newSort = currentSort === "updated_desc" ? "updated_asc" : "updated_desc"
+    } else if (column === "created") {
+      newSort = currentSort === "created_desc" ? "created_asc" : "created_desc"
+    } else if (column === "crm_status") {
+      newSort = currentSort === "crm_status_asc" ? "crm_status_desc" : "crm_status_asc"
+    } else if (column === "pipeline") {
+      newSort = currentSort === "pipeline_asc" ? "pipeline_desc" : "pipeline_asc"
+    }
+
+    handleFilterChange({ sort: newSort })
+  }
+
+  const handleToggleAll = () => {
+    if (selectedAssociations.size === associations.length && associations.length > 0) {
+      setSelectedAssociations(new Set())
+    } else {
+      setSelectedAssociations(new Set(associations.map((a) => a.id)))
+    }
+  }
+
+  const handleToggleAssociation = (id: string) => {
+    setSelectedAssociations((prev) => {
+      const next = new Set(prev)
+      if (next.has(id)) {
+        next.delete(id)
+      } else {
+        next.add(id)
+      }
+      return next
+    })
   }
 
   const handleCreateAssociation = () => {
@@ -602,12 +682,27 @@ function AssociationsPageInner(): JSX.Element {
     setDetailsModalOpen(true)
   }
 
+  const handleOpenGroupModal = () => {
+    setGroupModalOpen(true)
+  }
+
+  const handleGroupModalCompleted = () => {
+    setSelectedAssociations(new Set())
+    void loadAssociations()
+  }
+
   return (
     <AppLayout
       title="Föreningar"
-      description={`Visar ${associations.length} av ${total} föreningar${selectedAssociations.length > 0 ? ` (${selectedAssociations.length} valda)` : ""}`}
+      description={`Visar ${associations.length} av ${total} föreningar${selectedAssociations.size > 0 ? ` (${selectedAssociations.size} valda)` : ""}`}
       actions={
         <div className="flex items-center gap-3">
+          {selectedAssociations.size > 1 && (
+            <Button variant="default" className="rounded-lg" onClick={handleOpenGroupModal}>
+              <Layers className="w-4 h-4 mr-2" />
+              Gruppera
+            </Button>
+          )}
           <Button variant="outline" className="rounded-lg">
             <Download className="w-4 h-4 mr-2" />
             Exportera
@@ -697,27 +792,69 @@ function AssociationsPageInner(): JSX.Element {
                 <Table>
                   <TableHeader>
                     <TableRow className="bg-gray-50 border-b border-gray-200">
+                      <TableHead className="px-4 py-3 w-12">
+                        <Checkbox
+                          checked={selectedAssociations.size === associations.length && associations.length > 0}
+                          onCheckedChange={handleToggleAll}
+                          aria-label="Välj alla föreningar"
+                        />
+                      </TableHead>
                       <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Kommun</TableHead>
-                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Förening</TableHead>
-                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Status</TableHead>
-                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Pipeline</TableHead>
+                      <SortableHeader
+                        column="name"
+                        currentSort={filters.sort}
+                        onSort={handleSortChange}
+                        className="px-6 py-3 text-left text-sm text-gray-600"
+                      >
+                        Förening
+                      </SortableHeader>
+                      <SortableHeader
+                        column="crm_status"
+                        currentSort={filters.sort}
+                        onSort={handleSortChange}
+                        className="px-6 py-3 text-left text-sm text-gray-600"
+                      >
+                        Status
+                      </SortableHeader>
+                      <SortableHeader
+                        column="pipeline"
+                        currentSort={filters.sort}
+                        onSort={handleSortChange}
+                        className="px-6 py-3 text-left text-sm text-gray-600"
+                      >
+                        Pipeline
+                      </SortableHeader>
                       <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Kontakt</TableHead>
                       <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Föreningstyp</TableHead>
                       <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Taggar</TableHead>
-                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Uppdaterad</TableHead>
+                      <SortableHeader
+                        column="updated"
+                        currentSort={filters.sort}
+                        onSort={handleSortChange}
+                        className="px-6 py-3 text-left text-sm text-gray-600"
+                      >
+                        Uppdaterad
+                      </SortableHeader>
                       <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Åtgärder</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody className="divide-y divide-gray-200">
                     {associations.map((association) => (
-                      <TableRow key={association.id} className="hover:bg-gray-50 cursor-pointer transition-colors" onClick={() => handleOpenDetailsModal(association)}>
-                        <TableCell className="px-6 py-4">
+                      <TableRow key={association.id} className="hover:bg-gray-50 transition-colors">
+                        <TableCell className="px-4 py-4 w-12" onClick={(e) => e.stopPropagation()}>
+                          <Checkbox
+                            checked={selectedAssociations.has(association.id)}
+                            onCheckedChange={() => handleToggleAssociation(association.id)}
+                            aria-label={`Välj ${association.name}`}
+                          />
+                        </TableCell>
+                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
                           <div className="flex items-center gap-2">
                             <MapPin className="w-4 h-4 text-gray-400" />
                             <span className="text-sm text-gray-900">{association.municipality_name ?? "-"}</span>
                           </div>
                         </TableCell>
-                        <TableCell className="px-6 py-4">
+                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
                           <div className="flex items-center gap-2">
                             <Building2 className="w-4 h-4 text-gray-400" />
                             <span className="text-sm text-gray-900 hover:text-orange-600 transition-colors">
@@ -725,7 +862,7 @@ function AssociationsPageInner(): JSX.Element {
                             </span>
                           </div>
                         </TableCell>
-                        <TableCell className="px-6 py-4">
+                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
                           <Badge
                             variant="outline"
                             className={
@@ -737,12 +874,12 @@ function AssociationsPageInner(): JSX.Element {
                             {association.status ?? "-"}
                           </Badge>
                         </TableCell>
-                        <TableCell className="px-6 py-4">
+                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
                           <Badge variant="outline" className="border-blue-200 text-blue-700 bg-blue-50">
                             {association.type ?? "-"}
                           </Badge>
                         </TableCell>
-                        <TableCell className="px-6 py-4">
+                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
                           <div className="flex items-center gap-2">
                             <User className="w-4 h-4 text-gray-400" />
                             <span className="text-sm text-gray-900 hover:text-orange-600 transition-colors">
@@ -750,7 +887,7 @@ function AssociationsPageInner(): JSX.Element {
                             </span>
                           </div>
                         </TableCell>
-                        <TableCell className="px-6 py-4">
+                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
                           <Badge
                             variant="outline"
                             className="border-gray-200 text-gray-700"
@@ -758,7 +895,7 @@ function AssociationsPageInner(): JSX.Element {
                             {association.type ?? "-"}
                           </Badge>
                         </TableCell>
-                        <TableCell className="px-6 py-4">
+                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
                           <div className="flex flex-wrap gap-1">
                             {association.tags.slice(0, 2).map((tag) => (
                               <Badge
@@ -779,7 +916,7 @@ function AssociationsPageInner(): JSX.Element {
                             )}
                           </div>
                         </TableCell>
-                        <TableCell className="px-6 py-4">
+                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
                           <div className="flex items-center gap-2">
                             <Clock className="w-4 h-4 text-gray-400" />
                             <span className="text-sm text-gray-600">
@@ -789,7 +926,7 @@ function AssociationsPageInner(): JSX.Element {
                             </span>
                           </div>
                         </TableCell>
-                        <TableCell className="px-6 py-4">
+                        <TableCell className="px-6 py-4" onClick={(e) => e.stopPropagation()}>
                           <div className="flex items-center gap-1">
                             <Button
                               variant="ghost"
@@ -921,6 +1058,13 @@ function AssociationsPageInner(): JSX.Element {
         open={detailsModalOpen}
         onOpenChange={setDetailsModalOpen}
         onUpdated={() => loadAssociations()}
+      />
+
+      <AddAssociationsToGroupModal
+        open={groupModalOpen}
+        onOpenChange={setGroupModalOpen}
+        associationIds={Array.from(selectedAssociations)}
+        onCompleted={handleGroupModalCompleted}
       />
 
       <AlertDialog open={Boolean(deleteTarget)} onOpenChange={(open) => !open && setDeleteTarget(null)}>

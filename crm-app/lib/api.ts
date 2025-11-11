@@ -30,6 +30,17 @@ export interface AuthSession {
   user: AuthUser;
 }
 
+export interface ManagedUser {
+  id: string;
+  name: string | null;
+  email: string | null;
+  role: AuthRole;
+  isDeleted: boolean;
+  deletedAt: string | null;
+  createdAt: string | null;
+  updatedAt: string | null;
+}
+
 export interface Pagination {
   page?: number;
   pageSize?: number;
@@ -137,6 +148,44 @@ export interface Note {
 export interface Tag {
   id: string;
   name: string;
+}
+
+export interface Group {
+  id: string;
+  name: string;
+  description: string | null;
+  searchQuery: any | null;
+  autoUpdate: boolean;
+  createdById: string;
+  createdAt: string;
+  updatedAt: string;
+  deletedAt: string | null;
+  isDeleted: boolean;
+  _count?: {
+    memberships: number;
+  };
+  createdBy?: {
+    id: string;
+    name: string | null;
+    email: string | null;
+  };
+}
+
+export interface GroupMembership {
+  id: string;
+  groupId: string;
+  associationId: string;
+  addedAt: string;
+  association?: {
+    id: string;
+    name: string;
+    municipality?: string | null;
+    crmStatus?: string | null;
+  };
+}
+
+export interface GroupDetail extends Group {
+  memberships: GroupMembership[];
 }
 
 export interface Contact {
@@ -439,6 +488,54 @@ export const api = {
   },
 
   /**
+   * Lists users for administration with optional query params.
+   *
+   * Args:
+   *   params: { q?: string; includeDeleted?: boolean }
+   *
+   * Returns:
+   *   Promise<ManagedUser[]>
+   */
+  async getUsers(params: { q?: string; includeDeleted?: boolean } = {}): Promise<ManagedUser[]> {
+    const search = new URLSearchParams();
+    if (params.q) search.set('q', params.q);
+    if (params.includeDeleted) search.set('includeDeleted', '1');
+    const query = search.toString();
+    const url = query ? `/api/users.php?${query}` : '/api/users.php';
+    const res = await jsonFetch(url, { method: 'GET' });
+    const items = Array.isArray(res?.items) ? res.items : [];
+    return items as ManagedUser[];
+  },
+
+  /**
+   * Creates a new user.
+   */
+  async createUser(payload: { name?: string | null; email: string; role: AuthRole; password: string }): Promise<{ id: string }> {
+    return jsonFetch('/api/users.php', { method: 'POST', body: payload }, true);
+  },
+
+  /**
+   * Updates an existing user.
+   */
+  async updateUser(payload: { id: string; name?: string | null; email?: string; role?: AuthRole; password?: string }): Promise<{ success: boolean }> {
+    return jsonFetch('/api/users.php', { method: 'PUT', body: payload }, true);
+  },
+
+  /**
+   * Soft deletes a user.
+   */
+  async deleteUser(id: string): Promise<{ success: boolean }> {
+    return jsonFetch('/api/users.php', { method: 'DELETE', body: { id } }, true);
+  },
+
+  /**
+   * Restores a soft-deleted user.
+   */
+  async restoreUser(id: string): Promise<{ success: boolean }> {
+    return jsonFetch('/api/users.php', { method: 'POST', body: { action: 'restore', id } }, true);
+  },
+
+  /**
    * Fetches dashboard overview metrics, charts, and recent member entries.
    *
    * Args:
@@ -730,5 +827,111 @@ export const api = {
    */
   async addNote(associationId: AssocID, content: string): Promise<{ id: string }> {
     return jsonFetch('/api/association_notes.php', { method: 'POST', body: { association_id: associationId, content } }, true);
+  },
+
+  /**
+   * Lists all groups with membership counts.
+   *
+   * Returns:
+   *   Promise<Group[]>
+   */
+  async getGroups(): Promise<Group[]> {
+    return jsonFetch('/api/groups.php', { method: 'GET' });
+  },
+
+  /**
+   * Creates a new group.
+   *
+   * Args:
+   *   name: string - group name
+   *   description?: string - optional description
+   *   autoUpdate?: boolean - whether to auto-update membership
+   *
+   * Returns:
+   *   Promise<{id: string}>
+   */
+  async createGroup(payload: { name: string; description?: string; autoUpdate?: boolean }): Promise<{ id: string }> {
+    return jsonFetch('/api/groups.php', { method: 'POST', body: payload }, true);
+  },
+
+  /**
+   * Adds an association to a group.
+   *
+   * Args:
+   *   groupId: string
+   *   associationId: string
+   *
+   * Returns:
+   *   Promise<{id: string}>
+   */
+  async addMemberToGroup(groupId: string, associationId: string): Promise<{ id: string }> {
+    return jsonFetch('/api/groups.php', { method: 'POST', body: { action: 'addMember', groupId, associationId } }, true);
+  },
+
+  /**
+   * Updates a group.
+   *
+   * Args:
+   *   id: string
+   *   payload: Partial group fields to update
+   *
+   * Returns:
+   *   Promise<{success: boolean}>
+   */
+  async updateGroup(id: string, payload: Partial<Pick<Group, 'name' | 'description' | 'autoUpdate' | 'searchQuery'>>): Promise<{ success: boolean }> {
+    return jsonFetch('/api/groups.php', { method: 'PUT', body: { id, ...payload } }, true);
+  },
+
+  /**
+   * Deletes a group (soft delete).
+   *
+   * Args:
+   *   id: string
+   *
+   * Returns:
+   *   Promise<{success: boolean}>
+   */
+  async deleteGroup(id: string): Promise<{ success: boolean }> {
+    return jsonFetch('/api/groups.php', { method: 'DELETE', body: { id } }, true);
+  },
+
+  /**
+   * Gets a group by ID with memberships.
+   *
+   * Args:
+   *   id: string - group ID
+   *
+   * Returns:
+   *   Promise<GroupDetail>
+   */
+  async getGroupById(id: string): Promise<GroupDetail> {
+    return jsonFetch(`/api/groups.php?id=${encodeURIComponent(id)}`, { method: 'GET' });
+  },
+
+  /**
+   * Removes an association from a group.
+   *
+   * Args:
+   *   groupId: string
+   *   associationId: string
+   *
+   * Returns:
+   *   Promise<{success: boolean}>
+   */
+  async removeMemberFromGroup(groupId: string, associationId: string): Promise<{ success: boolean }> {
+    return jsonFetch('/api/groups.php', { method: 'POST', body: { action: 'removeMember', groupId, associationId } }, true);
+  },
+
+  /**
+   * Exports group members to CSV file.
+   *
+   * Args:
+   *   groupId: string
+   *
+   * Returns:
+   *   Promise<{filename: string, mimeType: string, data: string}> - base64 encoded CSV data
+   */
+  async exportGroupMembers(groupId: string): Promise<{ filename: string; mimeType: string; data: string }> {
+    return jsonFetch('/api/groups.php', { method: 'POST', body: { action: 'export', groupId } }, true);
   },
 };

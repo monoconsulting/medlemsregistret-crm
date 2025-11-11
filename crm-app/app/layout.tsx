@@ -24,6 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="sv">
+      <head>
+        {/* Force HTTPS for all requests - fixes Mixed Content errors */}
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+      </head>
       <body
         className={cn(
           "bg-[#f6f8fc] text-slate-900 antialiased",

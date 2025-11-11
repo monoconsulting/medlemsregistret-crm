@@ -8,6 +8,8 @@
 		"output.smartScroll.enabled": false,
 		"mcpFigma.aiAssistant": "github-copilot",
 		"mcpFigma.autoStartWebSocket": true,
-		"mcpFigma.websocketPort": 3065
+		"mcpFigma.websocketPort": 3065,
+		"chatgpt.commentCodeLensEnabled": true,
+		"chatgpt.openOnStartup": true
 	}
 }

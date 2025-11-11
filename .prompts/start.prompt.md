@@ -25,6 +25,7 @@
      - `README.md` or config documentation files
      - Database schema or table structure
         —unless you have been explicitly approved to do so.
+   - The frontend is on a remote server which is a webhotel and a mysql databse. The database we use is on that webhotel. We **cannot* run node.js server.
 
    ### ❌ Forbidden Actions
 

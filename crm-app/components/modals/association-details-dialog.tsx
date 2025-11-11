@@ -22,7 +22,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { useToast } from "@/hooks/use-toast"
-import { api, type AssociationDetail } from "@/lib/api"
+import { api, type AssociationDetail, type Tag } from "@/lib/api"
+import { TagSelector } from "@/components/tag-selector"
 import {
   Loader2,
   MapPin,
@@ -213,7 +214,7 @@ function transformDetail(detail: AssociationDetail): AssociationDetail {
   }
 }
 
-export function AssociationDetailsDialog({ associationId, open, onOpenChange }: AssociationDetailsDialogProps) {
+export function AssociationDetailsDialog({ associationId, open, onOpenChange, onUpdated }: AssociationDetailsDialogProps) {
   const { toast } = useToast()
   const [detail, setDetail] = useState<AssociationDetail | null>(null)
   const [loading, setLoading] = useState(false)
@@ -224,6 +225,8 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
   const [savingField, setSavingField] = useState<string | null>(null)
   const [savingNote, setSavingNote] = useState(false)
   const [refreshing, setRefreshing] = useState(false)
+  const [allTags, setAllTags] = useState<Tag[]>([])
+  const [savingTags, setSavingTags] = useState(false)
 
   const loadDetail = useCallback(async () => {
     if (!associationId) return
@@ -244,8 +247,12 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
   useEffect(() => {
     if (open && associationId) {
       void loadDetail()
+      // Load all tags
+      void api.getTags().then((tags) => setAllTags(tags)).catch(() => {
+        toast({ title: "Fel", description: "Kunde inte hämta taggar", variant: "destructive" })
+      })
     }
-  }, [open, associationId, loadDetail])
+  }, [open, associationId, loadDetail, toast])
 
   useEffect(() => {
     if (!open) {
@@ -257,6 +264,8 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
       setSavingField(null)
       setSavingNote(false)
       setRefreshing(false)
+      setAllTags([])
+      setSavingTags(false)
     }
   }, [open])
 
@@ -364,6 +373,50 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
     setRefreshing(true)
     await loadDetail()
     setRefreshing(false)
+  }
+
+  const handleTagsChange = async (newTags: Tag[]) => {
+    if (!detail) return
+
+    setSavingTags(true)
+    try {
+      const currentTagIds = new Set(tags.map((t) => t.id))
+      const newTagIds = new Set(newTags.map((t) => t.id))
+
+      // Find tags to attach
+      const toAttach = newTags.filter((t) => !currentTagIds.has(t.id))
+      // Find tags to detach
+      const toDetach = tags.filter((t) => !newTagIds.has(t.id))
+
+      // Attach new tags
+      for (const tag of toAttach) {
+        await api.attachTag(detail.id, tag.id)
+      }
+
+      // Detach removed tags
+      for (const tag of toDetach) {
+        await api.detachTag(detail.id, tag.id)
+      }
+
+      // Update detail state
+      setDetail((prev) => (prev ? ({ ...prev, tags: newTags } as AssociationDetail) : prev))
+
+      // Notify parent if callback provided
+      if (onUpdated) {
+        onUpdated()
+      }
+
+      toast({ title: "Taggar uppdaterade" })
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Kunde inte uppdatera taggar"
+      toast({ title: "Fel", description: message, variant: "destructive" })
+    } finally {
+      setSavingTags(false)
+    }
+  }
+
+  const handleTagCreated = (newTag: Tag) => {
+    setAllTags((prev) => [...prev, newTag])
   }
 
   const typesList = useMemo(() => renderList(detail?.types), [detail?.types])
@@ -623,16 +676,18 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange }: 
                   <section className="rounded-lg border bg-card p-4 shadow-sm">
                     <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Taggar</h3>
                     <div className="mt-4">
-                      {tags.length ? (
-                        <div className="flex flex-wrap gap-2">
-                          {tags.map((tag) => (
-                            <Badge key={tag.id} variant="outline" className="text-xs">
-                              {tag.name}
-                            </Badge>
-                          ))}
+                      {savingTags ? (
+                        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                          <Loader2 className="h-4 w-4 animate-spin" />
+                          <span>Sparar taggar...</span>
                         </div>
                       ) : (
-                        <p className="text-sm text-muted-foreground">Inga taggar kopplade för tillfället.</p>
+                        <TagSelector
+                          selectedTags={tags}
+                          allTags={allTags}
+                          onTagsChange={handleTagsChange}
+                          onTagCreated={handleTagCreated}
+                        />
                       )}
                     </div>
                   </section>

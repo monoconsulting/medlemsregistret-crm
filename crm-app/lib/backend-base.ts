@@ -59,7 +59,13 @@ export function getBackendBaseUrl(): string {
     return serverBase
   }
 
+  // Client-side: Force HTTPS in production
   const clientBase = window.location.origin
+  if (window.location.hostname === "crm.medlemsregistret.se") {
+    cachedBaseUrl = "https://crm.medlemsregistret.se"
+    return cachedBaseUrl
+  }
+
   cachedBaseUrl = clientBase
   return clientBase
 }

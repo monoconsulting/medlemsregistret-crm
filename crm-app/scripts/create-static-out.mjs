@@ -46,19 +46,49 @@ function buildOut() {
   fs.rmSync(outDir, { recursive: true, force: true })
   ensureDir(outDir)
 
-  const htmlFiles = fs.readdirSync(appServerDir).filter((name) => name.endsWith('.html'))
-  for (const fileName of htmlFiles) {
-    const base = fileName.replace(/\.html$/, '')
-    const src = path.join(appServerDir, fileName)
-    if (base === 'index') {
-      copyFile(src, path.join(outDir, 'index.html'))
-    } else if (base === '_not-found') {
-      copyFile(src, path.join(outDir, '404.html'))
-    } else {
-      const destDir = path.join(outDir, base)
-      ensureDir(destDir)
-      copyFile(src, path.join(destDir, 'index.html'))
+  const walkFiles = (dir) => {
+    const files = []
+    const entries = fs.readdirSync(dir, { withFileTypes: true })
+    for (const entry of entries) {
+      const entryPath = path.join(dir, entry.name)
+      if (entry.isDirectory()) {
+        files.push(...walkFiles(entryPath))
+      } else if (entry.isFile()) {
+        files.push(entryPath)
+      }
     }
+    return files
+  }
+
+  const appFiles = walkFiles(appServerDir)
+  const htmlFiles = appFiles.filter((filePath) => filePath.endsWith('.html'))
+  const rscFiles = appFiles.filter((filePath) => filePath.endsWith('.rsc'))
+
+  const writeRouteFile = (route, src, fileName) => {
+    if (route === '_not-found') {
+      copyFile(src, path.join(outDir, fileName === 'index.html' ? '404.html' : '404.txt'))
+      return
+    }
+
+    if (route === 'index') {
+      copyFile(src, path.join(outDir, fileName))
+      return
+    }
+
+    const segments = route.split('/').filter(Boolean)
+    const destDir = path.join(outDir, ...segments)
+    ensureDir(destDir)
+    copyFile(src, path.join(destDir, fileName))
+  }
+
+  for (const filePath of htmlFiles) {
+    const route = normalize(path.relative(appServerDir, filePath)).replace(/\.html$/, '')
+    writeRouteFile(route, filePath, 'index.html')
+  }
+
+  for (const filePath of rscFiles) {
+    const route = normalize(path.relative(appServerDir, filePath)).replace(/\.rsc$/, '')
+    writeRouteFile(route, filePath, 'index.txt')
   }
 
   // Copy public assets

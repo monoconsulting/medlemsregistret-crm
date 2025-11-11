@@ -398,6 +398,90 @@ function normalize_url($value): string {
 }
 
 /**
+ * Checks if a user exists by ID.
+ *
+ * Args:
+ *   string $userId - user ID to check
+ *
+ * Returns:
+ *   bool - true if user exists, false otherwise
+ */
+function user_exists(string $userId): bool {
+  $stmt = db()->prepare('SELECT 1 FROM User WHERE id = ? LIMIT 1');
+  $stmt->bind_param('s', $userId);
+  $stmt->execute();
+  $res = $stmt->get_result();
+  return (bool)$res->fetch_assoc();
+}
+
+/**
+ * Normalizes a boolean value to integer (0 or 1).
+ *
+ * Args:
+ *   mixed $value - boolean, integer, or string to normalize
+ *
+ * Returns:
+ *   int - 0 or 1
+ */
+function normalize_bool($value): int {
+  if (is_bool($value)) {
+    return $value ? 1 : 0;
+  }
+  if (is_numeric($value)) {
+    return ((int)$value) === 1 ? 1 : 0;
+  }
+  $string = strtolower(trim((string)$value));
+  return in_array($string, ['1', 'true', 'yes', 'on'], true) ? 1 : 0;
+}
+
+/**
+ * Validates pipeline value against allowlist.
+ *
+ * Args:
+ *   mixed $value
+ *
+ * Returns:
+ *   string
+ */
+function normalize_pipeline($value): string {
+  $normalized = normalize_nullable_string($value, 60);
+  if ($normalized === '') {
+    return 'PROSPECT';
+  }
+  $normalized = strtoupper($normalized);
+  $allowed = ['PROSPECT', 'QUALIFIED', 'PROPOSAL_SENT', 'FOLLOW_UP', 'CLOSED_WON', 'CLOSED_LOST'];
+  if (!in_array($normalized, $allowed, true)) {
+    json_out(400, ['error' => 'Invalid pipeline']);
+  }
+  return $normalized;
+}
+
+/**
+ * Normalizes date string to MySQL datetime format.
+ *
+ * Args:
+ *   mixed $value
+ *
+ * Returns:
+ *   ?string - formatted date or null
+ */
+function normalize_date_string($value): ?string {
+  if ($value === null) {
+    return null;
+  }
+  $string = trim((string)$value);
+  if ($string === '') {
+    return null;
+  }
+  try {
+    $date = new DateTimeImmutable($string);
+    return $date->format('Y-m-d H:i:s');
+  } catch (Exception $e) {
+    json_out(400, ['error' => 'Invalid date']);
+  }
+}
+
+/**
  * Validates association status against allowlist.
  *
  * Args:
