@@ -934,4 +934,136 @@ export const api = {
   async exportGroupMembers(groupId: string): Promise<{ filename: string; mimeType: string; data: string }> {
     return jsonFetch('/api/groups.php', { method: 'POST', body: { action: 'export', groupId } }, true);
   },
+
+  /**
+   * Triggers a tag generation job.
+   *
+   * Args:
+   *   mode: "dry-run" | "execute" - execution mode
+   *   source: "db:baseline" | "db:types" | "db:activities" | "db:categories" - data source
+   *
+   * Returns:
+   *   Promise<{jobId: string, status: string, mode: string, source: string, message: string}>
+   */
+  async triggerTagGeneration(mode: 'dry-run' | 'execute', source: string): Promise<{
+    jobId: string;
+    status: string;
+    mode: string;
+    source: string;
+    message: string;
+  }> {
+    return jsonFetch('/api/tag_generation.php', { method: 'POST', body: { mode, source } }, true);
+  },
+
+  /**
+   * Gets the status of a tag generation job.
+   *
+   * Args:
+   *   jobId: string - job identifier
+   *
+   * Returns:
+   *   Promise<TagGenerationRun>
+   */
+  async getTagGenerationStatus(jobId: string): Promise<{
+    id: string;
+    status: string;
+    mode: string;
+    source: string;
+    startedAt: string;
+    completedAt: string | null;
+    associationsProcessed: number;
+    tagsCreated: number;
+    linksCreated: number;
+    linksSkipped: number;
+    reportPath: string | null;
+    reportUrl: string | null;
+    summary: any | null;
+    errors: string[];
+    triggeredBy: string;
+    triggeredByName: string;
+  }> {
+    return jsonFetch(`/api/tag_generation.php?jobId=${encodeURIComponent(jobId)}`, { method: 'GET' });
+  },
+
+  /**
+   * Lists all tag generation runs with pagination.
+   *
+   * Args:
+   *   limit?: number - max results (default 50, max 200)
+   *   offset?: number - skip N results (default 0)
+   *
+   * Returns:
+   *   Promise<{items: TagGenerationRun[], total: number, limit: number, offset: number}>
+   */
+  async listTagGenerationRuns(limit = 50, offset = 0): Promise<{
+    items: Array<{
+      id: string;
+      status: string;
+      mode: string;
+      source: string;
+      startedAt: string;
+      completedAt: string | null;
+      associationsProcessed: number;
+      tagsCreated: number;
+      linksCreated: number;
+      linksSkipped: number;
+      triggeredByName: string;
+      reportUrl: string | null;
+    }>;
+    total: number;
+    limit: number;
+    offset: number;
+  }> {
+    const params = new URLSearchParams({ action: 'reports', limit: String(limit), offset: String(offset) });
+    return jsonFetch(`/api/tag_generation.php?${params.toString()}`, { method: 'GET' });
+  },
+
+  /**
+   * Lists taxonomy aliases.
+   *
+   * Args:
+   *   category?: string - optional category filter
+   *
+   * Returns:
+   *   Promise<TagAlias[]>
+   */
+  async getTagAliases(category?: string): Promise<Array<{
+    id: string;
+    alias: string;
+    canonical: string;
+    category: string | null;
+  }>> {
+    const params = category ? new URLSearchParams({ category }) : new URLSearchParams();
+    const url = params.toString() ? `/api/tag_taxonomy.php?${params.toString()}` : '/api/tag_taxonomy.php';
+    const res = await jsonFetch(url, { method: 'GET' });
+    return res.items || [];
+  },
+
+  /**
+   * Creates a taxonomy alias mapping.
+   *
+   * Args:
+   *   alias: string - variant spelling
+   *   canonical: string - normalized form
+   *   category?: string - optional category
+   *
+   * Returns:
+   *   Promise<{id: string}>
+   */
+  async createTagAlias(alias: string, canonical: string, category?: string): Promise<{ id: string }> {
+    return jsonFetch('/api/tag_taxonomy.php', { method: 'POST', body: { alias, canonical, category } }, true);
+  },
+
+  /**
+   * Deletes a taxonomy alias.
+   *
+   * Args:
+   *   id: string - alias ID
+   *
+   * Returns:
+   *   Promise<{success: boolean}>
+   */
+  async deleteTagAlias(id: string): Promise<{ success: boolean }> {
+    return jsonFetch(`/api/tag_taxonomy.php?id=${encodeURIComponent(id)}`, { method: 'DELETE' }, true);
+  },
 };

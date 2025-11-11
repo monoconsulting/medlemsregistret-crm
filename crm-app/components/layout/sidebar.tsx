@@ -12,6 +12,7 @@ import {
   Map,
   Search,
   Settings,
+  Tag,
   Upload,
   UserCog,
   Users,
@@ -28,6 +29,7 @@ const navigation = [
   { name: "Föreningar", href: "/associations", icon: Building2 },
   { name: "Kontakter", href: "/contacts", icon: Users },
   { name: "Grupperingar", href: "/groups", icon: FolderKanban },
+  { name: "Taggar", href: "/tags", icon: Tag },
   { name: "Användare", href: "/users", icon: UserCog },
   { name: "Import", href: "/import", icon: Upload },
 ];
