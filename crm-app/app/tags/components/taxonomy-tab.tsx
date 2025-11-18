@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -8,13 +8,15 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { Plus, Trash2, ArrowRight, InfoIcon, Loader2 } from "lucide-react";
+import { Plus, Trash2, ArrowRight, InfoIcon, Loader2, Pencil } from "lucide-react";
 import { api } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
 
 export function TaxonomyTab() {
   const { toast } = useToast();
   const [isAddOpen, setIsAddOpen] = useState(false);
+  const [isEditOpen, setIsEditOpen] = useState(false);
+  const [editingId, setEditingId] = useState<string | null>(null);
   const [newAlias, setNewAlias] = useState("");
   const [newCanonical, setNewCanonical] = useState("");
   const [newCategory, setNewCategory] = useState("");
@@ -27,13 +29,10 @@ export function TaxonomyTab() {
   }>>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isCreating, setIsCreating] = useState(false);
+  const [isUpdating, setIsUpdating] = useState(false);
   const [isDeleting, setIsDeleting] = useState<string | null>(null);
 
-  useEffect(() => {
-    loadAliases();
-  }, []);
-
-  const loadAliases = async () => {
+  const loadAliases = useCallback(async () => {
     try {
       const data = await api.getTagAliases();
       setAliases(data);
@@ -46,7 +45,11 @@ export function TaxonomyTab() {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [toast]);
+
+  useEffect(() => {
+    loadAliases();
+  }, [loadAliases]);
 
   const handleCreate = async () => {
     if (!newAlias.trim() || !newCanonical.trim()) {
@@ -78,6 +81,48 @@ export function TaxonomyTab() {
       });
     } finally {
       setIsCreating(false);
+    }
+  };
+
+  const handleEdit = (item: { id: string; alias: string; canonical: string; category: string | null }) => {
+    setEditingId(item.id);
+    setNewAlias(item.alias);
+    setNewCanonical(item.canonical);
+    setNewCategory(item.category || "");
+    setIsEditOpen(true);
+  };
+
+  const handleUpdate = async () => {
+    if (!editingId || !newAlias.trim() || !newCanonical.trim()) {
+      toast({
+        variant: "destructive",
+        title: "Validering misslyckades",
+        description: "Alias och kanonisk form krävs",
+      });
+      return;
+    }
+
+    setIsUpdating(true);
+    try {
+      await api.updateTagAlias(editingId, newAlias.trim(), newCanonical.trim(), newCategory.trim() || undefined);
+      toast({
+        title: "Alias uppdaterad",
+        description: `${newAlias} → ${newCanonical}`,
+      });
+      setIsEditOpen(false);
+      setEditingId(null);
+      setNewAlias("");
+      setNewCanonical("");
+      setNewCategory("");
+      await loadAliases();
+    } catch (error) {
+      toast({
+        variant: "destructive",
+        title: "Fel vid uppdatering",
+        description: error instanceof Error ? error.message : "Kunde inte uppdatera alias",
+      });
+    } finally {
+      setIsUpdating(false);
     }
   };
 
@@ -190,6 +235,61 @@ export function TaxonomyTab() {
             </DialogFooter>
           </DialogContent>
         </Dialog>
+
+        <Dialog open={isEditOpen} onOpenChange={setIsEditOpen}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Redigera alias</DialogTitle>
+              <DialogDescription>
+                Uppdatera mappning från stavningsvariant till kanonisk form
+              </DialogDescription>
+            </DialogHeader>
+            <div className="space-y-4 py-4">
+              <div className="space-y-2">
+                <Label htmlFor="edit-alias">Alias (stavningsvariant)</Label>
+                <Input
+                  id="edit-alias"
+                  placeholder="t.ex. matcher"
+                  value={newAlias}
+                  onChange={(e) => setNewAlias(e.target.value)}
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="edit-canonical">Kanonisk form</Label>
+                <Input
+                  id="edit-canonical"
+                  placeholder="t.ex. match"
+                  value={newCanonical}
+                  onChange={(e) => setNewCanonical(e.target.value)}
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="edit-category">Kategori (valfritt)</Label>
+                <Input
+                  id="edit-category"
+                  placeholder="t.ex. sport"
+                  value={newCategory}
+                  onChange={(e) => setNewCategory(e.target.value)}
+                />
+              </div>
+            </div>
+            <DialogFooter>
+              <Button variant="outline" onClick={() => setIsEditOpen(false)}>
+                Avbryt
+              </Button>
+              <Button onClick={handleUpdate} disabled={isUpdating}>
+                {isUpdating ? (
+                  <>
+                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                    Uppdaterar...
+                  </>
+                ) : (
+                  "Uppdatera"
+                )}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       </div>
 
       {isLoading ? (
@@ -228,18 +328,29 @@ export function TaxonomyTab() {
                     )}
                   </TableCell>
                   <TableCell>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      onClick={() => handleDelete(item.id, item.alias)}
-                      disabled={isDeleting === item.id}
-                    >
-                      {isDeleting === item.id ? (
-                        <Loader2 className="h-4 w-4 animate-spin text-red-600" />
-                      ) : (
-                        <Trash2 className="h-4 w-4 text-red-600" />
-                      )}
-                    </Button>
+                    <div className="flex gap-1">
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => handleEdit(item)}
+                        title="Redigera"
+                      >
+                        <Pencil className="h-4 w-4 text-blue-600" />
+                      </Button>
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => handleDelete(item.id, item.alias)}
+                        disabled={isDeleting === item.id}
+                        title="Ta bort"
+                      >
+                        {isDeleting === item.id ? (
+                          <Loader2 className="h-4 w-4 animate-spin text-red-600" />
+                        ) : (
+                          <Trash2 className="h-4 w-4 text-red-600" />
+                        )}
+                      </Button>
+                    </div>
                   </TableCell>
                 </TableRow>
               ))}

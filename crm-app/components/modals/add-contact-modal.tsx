@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
@@ -101,6 +101,7 @@ export function AddContactModal({
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Lägg till kontakt · {associationName}</DialogTitle>
+          <DialogDescription>Fyll i kontaktuppgifter för en ny kontaktperson.</DialogDescription>
         </DialogHeader>
         <div className="grid gap-3">
           <div className="grid gap-1.5">

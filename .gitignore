@@ -37,6 +37,10 @@ Thumbs.db
 # Logs
 *.log
 logs/
+# But keep log directory structure and security files
+!api/logs/.gitkeep
+!api/logs/.htaccess
+!api/logs/README.md
 
 # Temporary files
 *.tmp

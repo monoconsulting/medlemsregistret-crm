@@ -74,7 +74,8 @@
       "Bash(cmd.exe /c \"cd /d e:\\projects\\CRM && scripts\\deploy_loopia_frontend.bat\")",
       "Bash(pwsh -Command \"& ''''./scripts/deploy_loopia_frontend.bat''''\")",
       "Bash(git rev-parse:*)",
-      "Bash(gh pr list:*)"
+      "Bash(gh pr list:*)",
+      "Bash(php -r:*)"
     ],
     "deny": [],
     "ask": []

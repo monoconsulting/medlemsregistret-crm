@@ -491,12 +491,34 @@ function apply_filters(array $where, array $params, string $types, array $joins)
   $search = trim((string)($_GET['q'] ?? ''));
   if ($search !== '') {
     $like = '%' . $search . '%';
+    // Use utf8mb4_bin collation for exact Swedish character matching (å, ä, ö are separate letters)
+    // but convert to lowercase for case-insensitive search
+    // Include m.name (municipality name from join) and tags in search
+    $searchLower = mb_strtolower($search, 'UTF-8');
+    $likeLower = '%' . $searchLower . '%';
+
+    // Add joins for tag search
+    if (!in_array('LEFT JOIN _AssociationTags at ON at.A = a.id', $joins, true)) {
+      $joins[] = 'LEFT JOIN _AssociationTags at ON at.A = a.id';
+    }
+    if (!in_array('LEFT JOIN Tag t ON t.id = at.B', $joins, true)) {
+      $joins[] = 'LEFT JOIN Tag t ON t.id = at.B';
+    }
+
     $where[] = '('
-      . 'a.name LIKE ? OR a.orgNumber LIKE ? OR a.streetAddress LIKE ? OR a.city LIKE ? OR '
-      . 'a.municipality LIKE ? OR a.email LIKE ? OR a.phone LIKE ? OR a.descriptionFreeText LIKE ?'
+      . 'LOWER(a.name) LIKE ? COLLATE utf8mb4_bin OR '
+      . 'LOWER(a.orgNumber) LIKE ? COLLATE utf8mb4_bin OR '
+      . 'LOWER(a.streetAddress) LIKE ? COLLATE utf8mb4_bin OR '
+      . 'LOWER(a.city) LIKE ? COLLATE utf8mb4_bin OR '
+      . 'LOWER(a.municipality) LIKE ? COLLATE utf8mb4_bin OR '
+      . 'LOWER(m.name) LIKE ? COLLATE utf8mb4_bin OR '
+      . 'LOWER(a.email) LIKE ? COLLATE utf8mb4_bin OR '
+      . 'LOWER(a.phone) LIKE ? COLLATE utf8mb4_bin OR '
+      . 'LOWER(a.descriptionFreeText) LIKE ? COLLATE utf8mb4_bin OR '
+      . 'LOWER(t.name) LIKE ? COLLATE utf8mb4_bin'
       . ')';
-    for ($i = 0; $i < 8; $i++) {
-      $params[] = $like;
+    for ($i = 0; $i < 10; $i++) {  // Changed from 9 to 10 to include t.name (tags)
+      $params[] = $likeLower;
       $types .= 's';
     }
   }

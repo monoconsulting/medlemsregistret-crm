@@ -161,9 +161,17 @@ ALLOW_SHELL_SCRIPTS=false
 | Auth                         | Login → sets `sid` + `csrf` cookies                     |
 | CSRF                         | POST with `X-CSRF-Token` header succeeds                |
 | RoleGuard                    | Protected routes enforce roles                          |
+| Contacts schema              | `/api/health_contacts.php` → `{ "status": "ok" }`       |
 | tRPC                         | `/api/trpc/ping` → `{ pong: true }`                     |
 | Rollback                     | `sync.ps1 --source snapshots/<timestamp>`               |
 | Backup                       | `deploy/db/backup-remote.ps1` creates timestamped dumps |
+
+### 8.1 Contact schema verification checklist
+
+1. **Apply the Contact soft delete migration:** Run `prisma migrate deploy` (or the equivalent SQL) so `Contact.deletedAt` exists both locally and on Loopia before exporting the frontend.
+2. **Confirm deploy config points to Loopia:** Ensure `api/config.php` in the deploy bundle targets the production host and that any `temp/local_webroot` overrides remain excluded from FTP uploads.
+3. **Smoke-test the new health endpoint:** After syncing files, call `/api/health_contacts.php` directly and verify it responds with `{ "status": "ok" }` and a contact count.
+4. **Manual UI verification:** Visit `/app/contacts`, run a search, open the Contact Hub modal, and confirm actions (edit/delete/notes) work without HTTP 500 errors.
 
 ------
 

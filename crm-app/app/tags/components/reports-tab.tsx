@@ -1,13 +1,14 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { FileText, CheckCircle2, AlertCircle, Clock, Loader2 } from "lucide-react";
+import { FileText, CheckCircle2, AlertCircle, Clock, Loader2, ScrollText } from "lucide-react";
 import { api } from "@/lib/api";
 import { formatDistanceToNow } from "date-fns";
 import { sv } from "date-fns/locale";
+import { LogViewerModal } from "./log-viewer-modal";
 
 export function ReportsTab() {
   const [page, setPage] = useState(0);
@@ -30,12 +31,9 @@ export function ReportsTab() {
     total: number;
   } | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [selectedJobId, setSelectedJobId] = useState<string | null>(null);
 
-  useEffect(() => {
-    loadRuns();
-  }, [page]);
-
-  const loadRuns = async () => {
+  const loadRuns = useCallback(async () => {
     setIsLoading(true);
     try {
       const result = await api.listTagGenerationRuns(pageSize, page * pageSize);
@@ -45,7 +43,11 @@ export function ReportsTab() {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [page]);
+
+  useEffect(() => {
+    loadRuns();
+  }, [loadRuns]);
 
   const runs = data?.items || [];
   const total = data?.total || 0;
@@ -151,18 +153,29 @@ export function ReportsTab() {
                       {run.triggeredByName}
                     </TableCell>
                     <TableCell>
-                      {run.reportUrl && (
-                        <Button variant="ghost" size="sm" asChild>
-                          <a
-                            href={run.reportUrl}
-                            download
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <FileText className="h-4 w-4" />
-                          </a>
+                      <div className="flex gap-1">
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => setSelectedJobId(run.id)}
+                          title="Visa logg"
+                        >
+                          <ScrollText className="h-4 w-4" />
                         </Button>
-                      )}
+                        {run.reportUrl && (
+                          <Button variant="ghost" size="sm" asChild>
+                            <a
+                              href={run.reportUrl}
+                              download
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              title="Ladda ner rapport"
+                            >
+                              <FileText className="h-4 w-4" />
+                            </a>
+                          </Button>
+                        )}
+                      </div>
                     </TableCell>
                   </TableRow>
                 ))}
@@ -196,6 +209,13 @@ export function ReportsTab() {
             </div>
           )}
         </>
+      )}
+
+      {selectedJobId && (
+        <LogViewerModal
+          jobId={selectedJobId}
+          onClose={() => setSelectedJobId(null)}
+        />
       )}
     </div>
   );

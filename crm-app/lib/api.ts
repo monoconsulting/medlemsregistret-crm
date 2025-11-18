@@ -55,6 +55,12 @@ export interface Pagination {
     | 'crm_status_desc'
     | 'pipeline_asc'
     | 'pipeline_desc'
+    | 'municipality_asc'
+    | 'municipality_desc'
+    | 'email_asc'
+    | 'email_desc'
+    | 'type_asc'
+    | 'type_desc'
     | 'recent_activity_desc'
     | 'recent_activity_asc';
 }
@@ -420,7 +426,10 @@ async function jsonFetch(url: string, options: JsonRequestInit = {}, needsCsrf =
       throw new Error(`Invalid JSON from ${url}: ${text?.slice(0, 200)}`);
     }
     if (!res.ok) {
-      const msg = data?.error || data?.message || `HTTP ${res.status}`;
+      let msg = data?.error || data?.message || `HTTP ${res.status}`;
+      if (res.status === 500 && url.startsWith('/api/contacts.php')) {
+        msg = 'Fel vid kontaktlistning – troligen databas-schema. Kontakta admin.';
+      }
       const msgLower = typeof msg === 'string' ? msg.toLowerCase() : '';
       if (needsCsrf && !hasRetried && msgLower.includes('csrf')) {
         return execute(true, true);

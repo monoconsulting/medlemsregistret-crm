@@ -6,6 +6,7 @@ import { sv } from "date-fns/locale"
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog"
@@ -22,8 +23,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { useToast } from "@/hooks/use-toast"
-import { api, type AssociationDetail, type Tag } from "@/lib/api"
+import { api, type AssociationDetail, type Tag, type Contact } from "@/lib/api"
 import { TagSelector } from "@/components/tag-selector"
+import { AddContactModal } from "@/components/modals/add-contact-modal"
+import { EditContactModal } from "@/components/modals/edit-contact-modal"
+import { SendEmailModal } from "@/components/modals/send-email-modal"
 import {
   Loader2,
   MapPin,
@@ -36,6 +40,8 @@ import {
   Mail,
   Phone,
   ExternalLink,
+  Plus,
+  Send,
 } from "lucide-react"
 
 interface AssociationDetailsDialogProps {
@@ -43,6 +49,7 @@ interface AssociationDetailsDialogProps {
   open: boolean
   onOpenChange: (open: boolean) => void
   onUpdated?: () => void
+  onOpenContacts?: (association: AssociationDetail) => void
 }
 
 interface EditableFieldProps {
@@ -214,7 +221,13 @@ function transformDetail(detail: AssociationDetail): AssociationDetail {
   }
 }
 
-export function AssociationDetailsDialog({ associationId, open, onOpenChange, onUpdated }: AssociationDetailsDialogProps) {
+export function AssociationDetailsDialog({
+  associationId,
+  open,
+  onOpenChange,
+  onUpdated,
+  onOpenContacts,
+}: AssociationDetailsDialogProps) {
   const { toast } = useToast()
   const [detail, setDetail] = useState<AssociationDetail | null>(null)
   const [loading, setLoading] = useState(false)
@@ -227,6 +240,11 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange, on
   const [refreshing, setRefreshing] = useState(false)
   const [allTags, setAllTags] = useState<Tag[]>([])
   const [savingTags, setSavingTags] = useState(false)
+  const [addContactModalOpen, setAddContactModalOpen] = useState(false)
+  const [editContactModalOpen, setEditContactModalOpen] = useState(false)
+  const [selectedContact, setSelectedContact] = useState<Contact | null>(null)
+  const [sendEmailModalOpen, setSendEmailModalOpen] = useState(false)
+  const [emailRecipient, setEmailRecipient] = useState<string | null>(null)
 
   const loadDetail = useCallback(async () => {
     if (!associationId) return
@@ -440,18 +458,70 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange, on
         ) : detail ? (
           <div className="flex h-full flex-col">
             <DialogHeader className="border-b px-6 py-4">
+              <DialogDescription className="sr-only">Föreningens detaljinformation och CRM-fält</DialogDescription>
               <div className="flex items-start justify-between gap-4">
-                <div>
-                  <DialogTitle className="text-2xl font-semibold">{detail.name}</DialogTitle>
+                <div className="flex-1">
+                  <div className="flex items-center gap-2">
+                    {editingField === "name" ? (
+                      <>
+                        <Input
+                          value={(fieldValues.name ?? detail.name) as string}
+                          onChange={(e) => handleFieldEdit("name", e.target.value)}
+                          className="text-2xl font-semibold h-auto py-1"
+                        />
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          onClick={() => void handleFieldSave("name")}
+                          disabled={savingField === "name"}
+                          className="h-8 w-8 p-0"
+                        >
+                          {savingField === "name" ? <Loader2 className="h-4 w-4 animate-spin" /> : <Check className="h-4 w-4" />}
+                        </Button>
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          onClick={() => handleFieldCancel("name")}
+                          disabled={savingField === "name"}
+                          className="h-8 w-8 p-0"
+                        >
+                          <X className="h-4 w-4" />
+                        </Button>
+                      </>
+                    ) : (
+                      <>
+                        <DialogTitle className="text-2xl font-semibold">{detail.name}</DialogTitle>
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          onClick={() => setEditingField("name")}
+                          className="h-8 w-8 p-0"
+                          title="Redigera föreningsnamn"
+                        >
+                          <Pencil className="h-4 w-4" />
+                        </Button>
+                      </>
+                    )}
+                  </div>
                   <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
                     <span className="flex items-center gap-1">
                       <MapPin className="h-4 w-4" />
                       {detail.municipality_name ?? detail.city ?? "Kommun saknas"}
                     </span>
                     <Separator orientation="vertical" className="hidden h-4 md:block" />
-                    <span className="flex items-center gap-1">
+                    <button
+                      onClick={() => {
+                        if (detail && onOpenContacts) {
+                          onOpenContacts(detail)
+                          return
+                        }
+                        const contactsSection = document.querySelector('[data-section="contacts"]')
+                        contactsSection?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                      }}
+                      className="flex items-center gap-1 hover:text-orange-600 transition-colors cursor-pointer"
+                    >
                       <Users className="h-4 w-4" /> {contacts.length} kontakter
-                    </span>
+                    </button>
                     <Separator orientation="vertical" className="hidden h-4 md:block" />
                     <span>
                       Senast uppdaterad{" "}
@@ -516,6 +586,20 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange, on
                   <Button
                     variant="outline"
                     size="sm"
+                    onClick={() => {
+                      setEmailRecipient(detail.email)
+                      setSendEmailModalOpen(true)
+                    }}
+                    className="gap-2"
+                    disabled={!detail.email}
+                    title={detail.email ? "Skicka e-post" : "Ingen e-postadress"}
+                  >
+                    <Send className="h-4 w-4" />
+                    E-post
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
                     onClick={() => void handleRefresh()}
                     disabled={refreshing || loading}
                     className="gap-2"
@@ -571,30 +655,60 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange, on
                         setEditingField={setEditingField}
                         savingField={savingField}
                       />
-                      <EditableField
-                        label="Hemsida"
-                        value={detail.website}
-                        field="website"
-                        editingField={editingField}
-                        fieldValues={fieldValues}
-                        onEdit={handleFieldEdit}
-                        onSave={handleFieldSave}
-                        onCancel={handleFieldCancel}
-                        setEditingField={setEditingField}
-                        savingField={savingField}
-                      />
-                      <EditableField
-                        label="Detalj-URL"
-                        value={detail.detail_url}
-                        field="detail_url"
-                        editingField={editingField}
-                        fieldValues={fieldValues}
-                        onEdit={handleFieldEdit}
-                        onSave={handleFieldSave}
-                        onCancel={handleFieldCancel}
-                        setEditingField={setEditingField}
-                        savingField={savingField}
-                      />
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <label className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Hemsida</label>
+                          {detail.website && (
+                            <a
+                              href={detail.website}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="text-xs text-orange-600 hover:text-orange-700 flex items-center gap-1"
+                            >
+                              Öppna <ExternalLink className="h-3 w-3" />
+                            </a>
+                          )}
+                        </div>
+                        <EditableField
+                          label=""
+                          value={detail.website}
+                          field="website"
+                          editingField={editingField}
+                          fieldValues={fieldValues}
+                          onEdit={handleFieldEdit}
+                          onSave={handleFieldSave}
+                          onCancel={handleFieldCancel}
+                          setEditingField={setEditingField}
+                          savingField={savingField}
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <label className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Detalj-URL</label>
+                          {detail.detail_url && (
+                            <a
+                              href={detail.detail_url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="text-xs text-orange-600 hover:text-orange-700 flex items-center gap-1"
+                            >
+                              Öppna <ExternalLink className="h-3 w-3" />
+                            </a>
+                          )}
+                        </div>
+                        <EditableField
+                          label=""
+                          value={detail.detail_url}
+                          field="detail_url"
+                          editingField={editingField}
+                          fieldValues={fieldValues}
+                          onEdit={handleFieldEdit}
+                          onSave={handleFieldSave}
+                          onCancel={handleFieldCancel}
+                          setEditingField={setEditingField}
+                          savingField={savingField}
+                        />
+                      </div>
                       <EditableField
                         label="Medlem sedan"
                         value={detail.member_since}
@@ -716,13 +830,27 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange, on
                       ) : null}
                     </div>
                   </section>
+                </div>
+              </ScrollArea>
 
-                  <section className="rounded-lg border bg-card p-4 shadow-sm">
+              <div className="flex w-full flex-col gap-4 lg:w-[360px] lg:pr-2">
+                <section data-section="contacts" className="rounded-lg border bg-card p-4 shadow-sm">
+                  <div className="flex items-center justify-between">
                     <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Kontakter</h3>
-                    <div className="mt-4 space-y-3">
-                      {contacts.length === 0 ? (
-                        <p className="text-sm text-muted-foreground">Inga kontakter registrerade.</p>
-                      ) : (
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => setAddContactModalOpen(true)}
+                      className="h-8"
+                    >
+                      <Plus className="h-4 w-4 mr-1" />
+                      Lägg till
+                    </Button>
+                  </div>
+                  <div className="mt-4 space-y-3">
+                    {contacts.length === 0 ? (
+                      <p className="text-sm text-muted-foreground">Inga kontakter registrerade.</p>
+                    ) : (
                         contacts.map((contact) => (
                           <div
                             key={contact.id}
@@ -730,14 +858,40 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange, on
                           >
                             <div className="flex items-center justify-between text-sm font-semibold">
                               <span>{contact.name ?? "Namnlös kontakt"}</span>
-                              {contact.is_primary ? <Badge variant="secondary">Primär</Badge> : null}
+                              <div className="flex items-center gap-1">
+                                {contact.is_primary ? <Badge variant="secondary">Primär</Badge> : null}
+                                <Button
+                                  variant="ghost"
+                                  size="sm"
+                                  onClick={() => {
+                                    setSelectedContact(contact)
+                                    setEditContactModalOpen(true)
+                                  }}
+                                  className="h-6 w-6 p-0"
+                                >
+                                  <Pencil className="h-3 w-3" />
+                                </Button>
+                              </div>
                             </div>
                             <div className="mt-2 space-y-1 text-sm text-muted-foreground">
                               {contact.role ? <p>Roll: {contact.role}</p> : null}
                               {contact.email ? (
-                                <p className="flex items-center gap-1">
-                                  <Mail className="h-3 w-3" /> {contact.email}
-                                </p>
+                                <div className="flex items-center justify-between">
+                                  <p className="flex items-center gap-1">
+                                    <Mail className="h-3 w-3" /> {contact.email}
+                                  </p>
+                                  <Button
+                                    variant="ghost"
+                                    size="sm"
+                                    onClick={() => {
+                                      setEmailRecipient(contact.email)
+                                      setSendEmailModalOpen(true)
+                                    }}
+                                    className="h-6 px-2"
+                                  >
+                                    <Send className="h-3 w-3" />
+                                  </Button>
+                                </div>
                               ) : null}
                               {contact.phone || contact.mobile ? (
                                 <p className="flex items-center gap-1">
@@ -753,46 +907,6 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange, on
                           </div>
                         ))
                       )}
-                    </div>
-                  </section>
-                </div>
-              </ScrollArea>
-
-              <div className="flex w-full flex-col gap-4 lg:w-[360px] lg:pr-2">
-                <section className="rounded-lg border bg-card p-4 shadow-sm">
-                  <div className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
-                    <NotepadText className="h-4 w-4" />
-                    Anteckningar
-                  </div>
-                  <div className="mt-4 space-y-3">
-                    {notes.length === 0 ? (
-                      <p className="text-sm text-muted-foreground">Inga anteckningar ännu.</p>
-                    ) : (
-                      <ScrollArea className="max-h-64 pr-2">
-                        <div className="space-y-3">
-                          {notes.map((item) => (
-                            <div key={item.id} className="rounded-md border border-border/60 bg-background p-3 text-sm">
-                              <p className="whitespace-pre-line">{item.content}</p>
-                              <p className="mt-2 text-xs text-muted-foreground">
-                                {item.author ?? "Okänd"} • {format(new Date(item.created_at), "PPP HH:mm", { locale: sv })}
-                              </p>
-                            </div>
-                          ))}
-                        </div>
-                      </ScrollArea>
-                    )}
-                    <div className="space-y-2">
-                      <Textarea
-                        placeholder="Lägg till en anteckning"
-                        value={note}
-                        onChange={(event) => setNote(event.target.value)}
-                        rows={3}
-                      />
-                      <Button onClick={handleSaveNote} disabled={savingNote || note.trim() === ""} className="w-full">
-                        {savingNote ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
-                        Spara anteckning
-                      </Button>
-                    </div>
                   </div>
                 </section>
                 <section className="rounded-lg border bg-card p-4 shadow-sm">
@@ -887,6 +1001,43 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange, on
                     </div>
                   </section>
                 ) : null}
+
+                <section className="rounded-lg border bg-card p-4 shadow-sm">
+                  <div className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+                    <NotepadText className="h-4 w-4" />
+                    Anteckningar
+                  </div>
+                  <div className="mt-4 space-y-3">
+                    {notes.length === 0 ? (
+                      <p className="text-sm text-muted-foreground">Inga anteckningar ännu.</p>
+                    ) : (
+                      <ScrollArea className="max-h-64 pr-2">
+                        <div className="space-y-3">
+                          {notes.map((item) => (
+                            <div key={item.id} className="rounded-md border border-border/60 bg-background p-3 text-sm">
+                              <p className="whitespace-pre-line">{item.content}</p>
+                              <p className="mt-2 text-xs text-muted-foreground">
+                                {item.author ?? "Okänd"} • {format(new Date(item.created_at), "PPP HH:mm", { locale: sv })}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      </ScrollArea>
+                    )}
+                    <div className="space-y-2">
+                      <Textarea
+                        placeholder="Lägg till en anteckning"
+                        value={note}
+                        onChange={(event) => setNote(event.target.value)}
+                        rows={3}
+                      />
+                      <Button onClick={handleSaveNote} disabled={savingNote || note.trim() === ""} className="w-full">
+                        {savingNote ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
+                        Spara anteckning
+                      </Button>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
           </div>
@@ -896,6 +1047,43 @@ export function AssociationDetailsDialog({ associationId, open, onOpenChange, on
           </div>
         )}
       </DialogContent>
+
+      {detail && (
+        <>
+          <AddContactModal
+            open={addContactModalOpen}
+            onOpenChange={setAddContactModalOpen}
+            associationId={detail.id}
+            associationName={detail.name}
+            onCompleted={() => {
+              void loadDetail()
+              if (onUpdated) onUpdated()
+            }}
+          />
+
+          <EditContactModal
+            open={editContactModalOpen}
+            onOpenChange={setEditContactModalOpen}
+            contact={selectedContact}
+            onUpdated={() => {
+              void loadDetail()
+              if (onUpdated) onUpdated()
+            }}
+          />
+
+          <SendEmailModal
+            open={sendEmailModalOpen}
+            onOpenChange={setSendEmailModalOpen}
+            associationId={detail.id}
+            associationName={detail.name}
+            defaultRecipient={emailRecipient}
+            onCompleted={() => {
+              void loadDetail()
+              if (onUpdated) onUpdated()
+            }}
+          />
+        </>
+      )}
     </Dialog>
   )
 }

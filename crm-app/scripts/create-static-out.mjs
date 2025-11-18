@@ -64,22 +64,31 @@ function buildOut() {
   const htmlFiles = appFiles.filter((filePath) => filePath.endsWith('.html'))
   const rscFiles = appFiles.filter((filePath) => filePath.endsWith('.rsc'))
 
-  const writeRouteFile = (route, src, fileName) => {
-    if (route === '_not-found') {
-      copyFile(src, path.join(outDir, fileName === 'index.html' ? '404.html' : '404.txt'))
-      return
-    }
+const writeRouteFile = (route, src, fileName) => {
+  if (route === '_not-found') {
+    copyFile(src, path.join(outDir, fileName === 'index.html' ? '404.html' : '404.txt'))
+    return
+  }
 
     if (route === 'index') {
       copyFile(src, path.join(outDir, fileName))
       return
     }
 
-    const segments = route.split('/').filter(Boolean)
-    const destDir = path.join(outDir, ...segments)
-    ensureDir(destDir)
-    copyFile(src, path.join(destDir, fileName))
+  const segments = route.split('/').filter(Boolean)
+  const destDir = path.join(outDir, ...segments)
+  ensureDir(destDir)
+  copyFile(src, path.join(destDir, fileName))
+
+  // Create alias files (e.g., /import.txt) so Apache can serve without /index.txt
+  if (route !== 'index' && route !== '') {
+    const ext = path.extname(fileName)
+    const aliasBase = path.join(outDir, ...segments)
+    const aliasPath = aliasBase + ext
+    ensureDir(path.dirname(aliasPath))
+    copyFile(src, aliasPath)
   }
+}
 
   for (const filePath of htmlFiles) {
     const route = normalize(path.relative(appServerDir, filePath)).replace(/\.html$/, '')

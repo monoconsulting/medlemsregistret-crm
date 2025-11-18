@@ -26,6 +26,14 @@ interface JobStatus {
   linksCreated: number;
   linksSkipped: number;
   reportUrl: string | null;
+  summary: {
+    totalAssociations?: number | null;
+    processedAssociations?: number | null;
+    progressPercent?: number | null;
+    updatedAt?: string;
+  } | null;
+  totalAssociations: number | null;
+  progressPercent: number | null;
   errors: string[];
 }
 
@@ -90,14 +98,27 @@ export function TagGenerationTab() {
         linksCreated: 0,
         linksSkipped: 0,
         reportUrl: null,
+        summary: null,
+        totalAssociations: null,
+        progressPercent: null,
         errors: [],
       });
       startPolling(data.jobId);
     } catch (error) {
+      let errorMessage = "Okänt fel";
+      if (error instanceof Error) {
+        errorMessage = error.message;
+        // Special handling for common auth errors
+        if (errorMessage.toLowerCase().includes("not authenticated")) {
+          errorMessage = "Du är inte inloggad. Vänligen logga in igen.";
+        } else if (errorMessage.toLowerCase().includes("admin role required") || errorMessage.toLowerCase().includes("forbidden")) {
+          errorMessage = "Du saknar behörighet. Endast administratörer kan starta taggenerering.";
+        }
+      }
       toast({
         variant: "destructive",
         title: "Fel vid start",
-        description: error instanceof Error ? error.message : "Okänt fel",
+        description: errorMessage,
       });
     } finally {
       setIsTriggering(false);
@@ -105,6 +126,17 @@ export function TagGenerationTab() {
   };
 
   const isRunning = jobStatus?.status === "running" || isTriggering;
+  const totalAssociations =
+    jobStatus?.totalAssociations ??
+    jobStatus?.summary?.totalAssociations ??
+    null;
+  const processedAssociations = jobStatus?.associationsProcessed ?? 0;
+  const calculatedPercent =
+    totalAssociations && totalAssociations > 0
+      ? (processedAssociations / totalAssociations) * 100
+      : null;
+  const progressPercent =
+    jobStatus?.progressPercent ?? (calculatedPercent !== null ? Math.min(100, Math.max(0, Number(calculatedPercent.toFixed(1)))) : null);
 
   return (
     <div className="space-y-6">
@@ -197,6 +229,12 @@ export function TagGenerationTab() {
 
           <div className="space-y-2">
             <div className="flex justify-between text-sm">
+              <span>Totalt antal föreningar</span>
+              <span className="font-semibold">
+                {totalAssociations !== null ? totalAssociations : "–"}
+              </span>
+            </div>
+            <div className="flex justify-between text-sm">
               <span>Föreningar bearbetade</span>
               <span className="font-semibold">{jobStatus.associationsProcessed}</span>
             </div>
@@ -215,7 +253,14 @@ export function TagGenerationTab() {
           </div>
 
           {jobStatus.status === "running" && (
-            <Progress value={undefined} className="w-full" />
+            <div className="space-y-1">
+              <Progress value={progressPercent ?? undefined} className="w-full" />
+              <p className="text-sm text-muted-foreground">
+                {progressPercent !== null && totalAssociations !== null
+                  ? `Bearbetat ${processedAssociations} av ${totalAssociations} föreningar (${progressPercent}%)`
+                  : "Beräkning pågår..."}
+              </p>
+            </div>
           )}
 
           {jobStatus.reportUrl && (

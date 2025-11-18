@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
@@ -104,6 +104,7 @@ export function EditContactModal({ open, onOpenChange, contact, onUpdated }: Edi
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Redigera kontakt</DialogTitle>
+          <DialogDescription>Uppdatera kontaktuppgifter eller ta bort kontakten.</DialogDescription>
         </DialogHeader>
         <div className="grid gap-3">
           <div className="grid gap-1.5">

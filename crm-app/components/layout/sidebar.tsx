@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import {
   BarChart3,
   Building2,
+  FileText,
   FolderKanban,
   LayoutDashboard,
   Map,
@@ -30,6 +31,7 @@ const navigation = [
   { name: "Kontakter", href: "/contacts", icon: Users },
   { name: "Grupperingar", href: "/groups", icon: FolderKanban },
   { name: "Taggar", href: "/tags", icon: Tag },
+  { name: "Loggar", href: "/logs", icon: FileText },
   { name: "Användare", href: "/users", icon: UserCog },
   { name: "Import", href: "/import", icon: Upload },
 ];

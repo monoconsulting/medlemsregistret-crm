@@ -26,28 +26,140 @@
 
 declare(strict_types=1);
 
+// Optional logger - load if available
+if (file_exists(__DIR__ . '/../api/lib/tag_generation_logger.php')) {
+  require_once __DIR__ . '/../api/lib/tag_generation_logger.php';
+}
+
+// Define logger constants if TagGenerationLogger class doesn't exist
+if (!class_exists('TagGenerationLogger')) {
+  class TagGenerationLogger {
+    const CAT_INIT = 'INIT';
+    const CAT_DB_READ = 'DB_READ';
+    const CAT_TAXONOMY_LOAD = 'TAXONOMY_LOAD';
+    const CAT_ASSOCIATION_PROCESS = 'ASSOCIATION_PROCESS';
+    const CAT_TAG_MATCH = 'TAG_MATCH';
+    const CAT_TAG_CREATE = 'TAG_CREATE';
+    const CAT_TAG_LINK = 'TAG_LINK';
+    const CAT_PROGRESS_UPDATE = 'PROGRESS_UPDATE';
+    const CAT_REPORT_WRITE = 'REPORT_WRITE';
+    const CAT_ERROR = 'ERROR';
+    const CAT_COMPLETE = 'COMPLETE';
+    const CAT_DB_CONNECT = 'DB_CONNECT';
+    const CAT_CONFIG = 'CONFIG';
+    const CAT_SCRIPT_START = 'SCRIPT_START';
+    const CAT_BATCH_PROCESS = 'BATCH_PROCESS';
+  }
+}
+
+// Create a safe logger wrapper that won't crash if logging fails
+class SafeScriptLogger {
+  private $logger;
+
+  public function __construct($pdo, $jobId) {
+    if (class_exists('TagGenerationLogger') && method_exists('TagGenerationLogger', 'info')) {
+      try {
+        $this->logger = new TagGenerationLogger($pdo, $jobId);
+      } catch (Exception $e) {
+        error_log("Failed to create logger: " . $e->getMessage());
+        $this->logger = null;
+      }
+    } else {
+      $this->logger = null;
+    }
+  }
+
+  public function __call($method, $args) {
+    if ($this->logger !== null) {
+      try {
+        return call_user_func_array([$this->logger, $method], $args);
+      } catch (Exception $e) {
+        error_log("Logger error in $method: " . $e->getMessage());
+      }
+    }
+    return null;
+  }
+}
+
+// Global logger instance
+$logger = null;
+
+/**
+ * Multibyte safe lowercase function with fallback
+ */
+function mb_strtolower_safe(string $str): string {
+    if (function_exists('mb_strtolower')) {
+        return mb_strtolower($str, 'UTF-8');
+    }
+    return strtolower($str);
+}
+
+/**
+ * Load an .env file into memory if available.
+ */
+function loadEnvFile(string $path): void {
+    if (!file_exists($path)) {
+        return;
+    }
+
+    $lines = file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    foreach ($lines as $line) {
+        $line = trim($line);
+        if ($line === '' || strpos($line, '#') === 0) continue;
+        if (strpos($line, '=') === false) continue;
+        list($key, $value) = explode('=', $line, 2);
+        $key = trim($key);
+        $value = trim($value);
+        $_ENV[$key] = $value;
+        $_SERVER[$key] = $value;
+    }
+}
+
 // ============================================================================
 // Configuration
 // ============================================================================
 
 // Load .env file for database connection
-$envFile = __DIR__ . '/../.env';
-if (file_exists($envFile)) {
-    $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    foreach ($lines as $line) {
-        if (strpos(trim($line), '#') === 0) continue;
-        if (strpos($line, '=') === false) continue;
-        list($key, $value) = explode('=', $line, 2);
-        $_ENV[trim($key)] = trim($value);
+loadEnvFile(__DIR__ . '/../.env');
+
+/**
+ * Resolve config values from environment, .env or hosting config.php
+ */
+function getEnvValue(array $keys, ?string $default = null): ?string {
+    foreach ($keys as $key) {
+        if (isset($_ENV[$key]) && $_ENV[$key] !== '') {
+            return $_ENV[$key];
+        }
+        $value = getenv($key);
+        if ($value !== false && $value !== '') {
+            return $value;
+        }
+    }
+    return $default;
+}
+
+$dbHost = getEnvValue(['DBHOST', 'MARIADBHOST'], 'localhost');
+$dbPort = getEnvValue(['DBPORT', 'MARIADBPORT'], '3306');
+$dbName = getEnvValue(['DBDB', 'MARIADBDB'], '');
+$dbUser = getEnvValue(['DBUSER', 'MARIADBUSER'], '');
+$dbPass = getEnvValue(['DBPASSWORD', 'MARIADBPASSWORD'], '');
+
+// Fallback to API config.php if needed (production FTP always has /api/config.php)
+$configFile = __DIR__ . '/../api/config.php';
+if ((empty($dbHost) || empty($dbName) || empty($dbUser)) && file_exists($configFile)) {
+    $config = include $configFile;
+    if (is_array($config)) {
+        $dbHost = $dbHost ?: ($config['DB_HOST'] ?? $dbHost);
+        $dbName = $dbName ?: ($config['DB_NAME'] ?? $dbName);
+        $dbUser = $dbUser ?: ($config['DB_USER'] ?? $dbUser);
+        $dbPass = $dbPass ?: ($config['DB_PASS'] ?? $dbPass);
     }
 }
 
-// Database connection settings (from .env)
-$dbHost = $_ENV['DBHOST'] ?? 'localhost';
-$dbPort = $_ENV['DBPORT'] ?? '3306';
-$dbName = $_ENV['DBDB'] ?? '';
-$dbUser = $_ENV['DBUSER'] ?? '';
-$dbPass = $_ENV['DBPASSWORD'] ?? '';
+if (empty($dbHost) || empty($dbName) || empty($dbUser)) {
+    echo "ERROR: Database configuration missing. Ensure .env or api/config.php is deployed.\n";
+    exit(1);
+}
 
 // ============================================================================
 // Parse CLI Arguments
@@ -98,17 +210,20 @@ if (!in_array($options['source'], $validSources)) {
 // Database Connection
 // ============================================================================
 
-$mysqli = new mysqli($dbHost, $dbUser, $dbPass, $dbName, (int)$dbPort);
-
-if ($mysqli->connect_error) {
-    echo "ERROR: Database connection failed: " . $mysqli->connect_error . "\n";
+try {
+    $dsn = "mysql:host={$dbHost};port={$dbPort};dbname={$dbName};charset=utf8mb4";
+    $pdo = new PDO($dsn, $dbUser, $dbPass, [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+        PDO::ATTR_EMULATE_PREPARES => false,
+    ]);
+} catch (PDOException $e) {
+    echo "ERROR: Database connection failed: " . $e->getMessage() . "\n";
     exit(1);
 }
 
-$mysqli->set_charset('utf8mb4');
-
 // ============================================================================
-// Statistics
+// Statistics - Initialize FIRST before logging
 // ============================================================================
 
 $stats = [
@@ -116,8 +231,36 @@ $stats = [
     'tagsCreated' => 0,
     'linksCreated' => 0,
     'linksSkipped' => 0,
-    'errors' => []
+    'errors' => [],
+    'totalAssociations' => getAssociationsTotal($pdo)
 ];
+
+// Initialize job summary BEFORE creating logger (foreign key constraint requirement)
+// This creates the TagGenerationRun row that TagGenerationLog references
+try {
+    initializeJobSummary($pdo, $options['jobId'], $options['mode'], $options['source'], $stats);
+} catch (PDOException $e) {
+    // Table might not exist in production, that's OK - continue without logging
+    error_log("Note: Could not initialize job summary (table might not exist): " . $e->getMessage());
+}
+
+// NOW create logger after TagGenerationRun row exists
+$logger = new SafeScriptLogger($pdo, $options['jobId']);
+$logger->info(TagGenerationLogger::CAT_SCRIPT_START, 'Script started', [
+    'mode' => $options['mode'],
+    'source' => $options['source'],
+    'jobId' => $options['jobId'],
+    'resume' => $options['resume'],
+    'lastId' => $options['lastId']
+]);
+
+$logger->info(TagGenerationLogger::CAT_DB_CONNECT, 'Database connection established', [
+    'host' => $dbHost,
+    'port' => $dbPort,
+    'database' => $dbName,
+    'user' => $dbUser,
+    'charset' => 'utf8mb4'
+]);
 
 $csvRows = [];
 
@@ -137,35 +280,75 @@ echo "\n";
 try {
     // Step 1: Load taxonomy
     echo "[1/5] Loading taxonomy aliases...\n";
-    $taxonomy = loadTaxonomy($mysqli);
-    echo "      Loaded " . count($taxonomy) . " alias mappings\n\n";
+    $logger->info(TagGenerationLogger::CAT_TAXONOMY_LOAD, 'Starting taxonomy load');
+    try {
+        $taxonomy = loadTaxonomy($pdo, $logger);
+        echo "      Loaded " . count($taxonomy) . " alias mappings\n\n";
+        $logger->info(TagGenerationLogger::CAT_TAXONOMY_LOAD, 'Taxonomy loaded successfully', [
+            'count' => count($taxonomy)
+        ]);
+    } catch (Exception $e) {
+        // TagAlias table might not exist - continue without taxonomy normalization
+        $taxonomy = [];
+        echo "      Note: TagAlias table not found - continuing without tag normalization\n\n";
+        error_log("Note: TagAlias table not found - continuing without tag normalization");
+    }
+
+    echo "      Totalt antal föreningar att bearbeta: {$stats['totalAssociations']}\n\n";
+    $logger->info(TagGenerationLogger::CAT_INIT, 'Total associations to process', [
+        'total' => $stats['totalAssociations']
+    ]);
 
     // Step 2: Process associations
     echo "[2/5] Processing associations...\n";
-    processAssociations($mysqli, $options, $taxonomy, $stats, $csvRows);
+    $logger->info(TagGenerationLogger::CAT_ASSOCIATION_PROCESS, 'Starting association processing');
+    processAssociations($pdo, $options, $taxonomy, $stats, $csvRows, $logger);
     echo "\n";
 
     // Step 3: Generate CSV report
     echo "[3/5] Generating CSV report...\n";
-    $reportPath = generateCSVReport($options, $stats, $csvRows);
+    $logger->info(TagGenerationLogger::CAT_REPORT_WRITE, 'Starting CSV report generation');
+    $reportPath = generateCSVReport($options, $stats, $csvRows, $logger);
     echo "      Report saved to: $reportPath\n\n";
 
     // Step 4: Update job record
     echo "[4/5] Updating job record...\n";
-    updateJobRecord($mysqli, $options['jobId'], 'completed', $reportPath, $stats);
+    $logger->info(TagGenerationLogger::CAT_PROGRESS_UPDATE, 'Updating final job record');
+    try {
+        updateJobRecord($pdo, $options['jobId'], 'completed', $reportPath, $stats, $logger);
+    } catch (PDOException $e) {
+        // Table might not exist in production, that's OK - continue
+        error_log("Note: Could not update job record (table might not exist): " . $e->getMessage());
+    }
     echo "\n";
 
     // Step 5: Print summary
     echo "[5/5] Summary\n";
     printSummary($options, $stats);
+    $logger->logComplete([
+        'associationsProcessed' => $stats['associationsProcessed'],
+        'tagsCreated' => $stats['tagsCreated'],
+        'linksCreated' => $stats['linksCreated'],
+        'linksSkipped' => $stats['linksSkipped'],
+        'errors' => count($stats['errors'])
+    ]);
 
 } catch (Exception $e) {
     echo "FATAL ERROR: " . $e->getMessage() . "\n";
-    updateJobRecord($mysqli, $options['jobId'], 'failed', null, $stats);
+    $logger->error(TagGenerationLogger::CAT_ERROR, 'Fatal error occurred', [
+        'error' => $e->getMessage(),
+        'trace' => $e->getTraceAsString()
+    ]);
+    try {
+        updateJobRecord($pdo, $options['jobId'], 'failed', null, $stats, $logger);
+    } catch (PDOException $dbError) {
+        // Can't update job record, that's OK
+        error_log("Note: Could not update job record on failure: " . $dbError->getMessage());
+    }
     exit(1);
 }
 
-$mysqli->close();
+$pdo = null;
 
 echo "\nDONE!\n";
 exit(0);
@@ -177,54 +360,91 @@ exit(0);
 /**
  * Load taxonomy aliases from database
  */
-function loadTaxonomy(mysqli $db): array {
+function loadTaxonomy(PDO $db, $logger): array {
+    $logger->debug(TagGenerationLogger::CAT_TAXONOMY_LOAD, 'Querying TagAlias table');
     $taxonomy = [];
 
-    $result = $db->query('SELECT alias, canonical FROM TagAlias');
-    if (!$result) {
-        throw new Exception("Failed to load taxonomy: " . $db->error);
-    }
+    try {
+        $stmt = $db->query('SELECT alias, canonical FROM TagAlias');
+        $rows = $stmt->fetchAll();
 
-    while ($row = $result->fetch_assoc()) {
-        $taxonomy[mb_strtolower($row['alias'])] = mb_strtolower($row['canonical']);
-    }
+        $count = 0;
+        foreach ($rows as $row) {
+            $taxonomy[mb_strtolower_safe($row['alias'])] = mb_strtolower_safe($row['canonical']);
+            $count++;
+        }
 
-    return $taxonomy;
+        $logger->debug(TagGenerationLogger::CAT_TAXONOMY_LOAD, "Loaded $count taxonomy mappings", [
+            'count' => $count,
+            'sample' => array_slice($taxonomy, 0, 5)
+        ]);
+
+        return $taxonomy;
+    } catch (PDOException $e) {
+        $logger->error(TagGenerationLogger::CAT_ERROR, 'Failed to load taxonomy', [
+            'error' => $e->getMessage()
+        ]);
+        throw new Exception("Failed to load taxonomy: " . $e->getMessage());
+    }
 }
 
 /**
  * Process all associations in batches
  */
-function processAssociations(mysqli $db, array $options, array $taxonomy, array &$stats, array &$csvRows): void {
+function processAssociations(PDO $db, array $options, array $taxonomy, array &$stats, array &$csvRows, $logger): void {
     $batchSize = 100;
     $offset = 0;
+    $batchNumber = 1;
 
     while (true) {
         // Fetch batch
+        $logger->logBatchStart($batchNumber, $offset, $batchSize);
+
         $stmt = $db->prepare('
             SELECT id, name, municipality, types, activities, categories
             FROM Association
             WHERE isDeleted = 0
             ORDER BY createdAt ASC
-            LIMIT ? OFFSET ?
+            LIMIT :limit OFFSET :offset
         ');
-        $stmt->bind_param('ii', $batchSize, $offset);
+        $stmt->bindValue(':limit', $batchSize, PDO::PARAM_INT);
+        $stmt->bindValue(':offset', $offset, PDO::PARAM_INT);
         $stmt->execute();
-        $result = $stmt->get_result();
+        $associations = $stmt->fetchAll();
 
-        if ($result->num_rows === 0) break;
+        if (count($associations) === 0) {
+            $logger->info(TagGenerationLogger::CAT_BATCH_PROCESS, "No more batches to process", [
+                'batchNumber' => $batchNumber,
+                'offset' => $offset
+            ]);
+            break;
+        }
 
-        while ($assoc = $result->fetch_assoc()) {
+        $logger->debug(TagGenerationLogger::CAT_BATCH_PROCESS, "Fetched batch with " . count($associations) . " associations", [
+            'batchNumber' => $batchNumber,
+            'rows' => count($associations)
+        ]);
+
+        foreach ($associations as $assoc) {
+            $lastProcessedId = $assoc['id'];
+
             try {
+                $logger->logAssociationProcess($lastProcessedId, $assoc['name'], [
+                    'municipality' => $assoc['municipality'] ?? 'N/A',
+                    'types_count' => count(json_decode($assoc['types'] ?? '[]', true)),
+                    'activities_count' => count(json_decode($assoc['activities'] ?? '[]', true)),
+                    'categories_count' => count(json_decode($assoc['categories'] ?? '[]', true))
+                ]);
+
                 // Get existing tags for this association
-                $existingTags = getExistingTags($db, $assoc['id']);
+                $existingTags = getExistingTags($db, $lastProcessedId, $logger);
 
                 // Process association
-                $extractionResult = processAssociation($db, $assoc, $existingTags, $taxonomy, $options);
+                $extractionResult = processAssociation($db, $assoc, $existingTags, $taxonomy, $options, $logger);
 
                 // Commit changes if execute mode
                 if ($options['mode'] === 'execute') {
-                    commitChanges($db, $extractionResult, $options['source'], $stats);
+                    commitChanges($db, $extractionResult, $options['source'], $stats, $logger);
                 } else {
                     // In dry-run, count what would be created
                     $stats['tagsCreated'] += count($extractionResult['newTags']);
@@ -235,19 +455,24 @@ function processAssociations(mysqli $db, array $options, array $taxonomy, array 
                 // Add to CSV
                 $csvRows[] = resultToCSVRow($extractionResult, $options['source']);
 
-                // Update progress
-                updateProgress($db, $options['jobId'], $assoc['id'], $stats);
-
             } catch (Exception $e) {
                 $stats['errors'][] = [
-                    'associationId' => $assoc['id'],
+                    'associationId' => $lastProcessedId,
                     'error' => $e->getMessage(),
                     'timestamp' => date('c')
                 ];
-                echo "      Error processing {$assoc['id']}: {$e->getMessage()}\n";
+                $logger->error(TagGenerationLogger::CAT_ERROR, "Error processing association {$lastProcessedId}", [
+                    'associationId' => $lastProcessedId,
+                    'error' => $e->getMessage(),
+                    'trace' => $e->getTraceAsString()
+                ]);
+                echo "      Error processing {$lastProcessedId}: {$e->getMessage()}\n";
             }
 
             $stats['associationsProcessed']++;
+
+            // Update progress with the latest counters
+            updateProgress($db, $options['jobId'], $lastProcessedId, $stats, $logger);
 
             // Progress indicator every 50
             if ($stats['associationsProcessed'] % 50 === 0) {
@@ -256,29 +481,34 @@ function processAssociations(mysqli $db, array $options, array $taxonomy, array 
         }
 
         $offset += $batchSize;
+        $batchNumber++;
     }
 
     echo "      Total processed: {$stats['associationsProcessed']} associations\n";
+    $logger->info(TagGenerationLogger::CAT_ASSOCIATION_PROCESS, "Association processing completed", [
+        'totalProcessed' => $stats['associationsProcessed'],
+        'totalBatches' => $batchNumber - 1
+    ]);
 }
 
 /**
  * Get existing tags for an association
  */
-function getExistingTags(mysqli $db, string $associationId): array {
+function getExistingTags(PDO $db, string $associationId, $logger): array {
     $stmt = $db->prepare('
         SELECT t.id, t.name
         FROM Tag t
         INNER JOIN _AssociationTags at ON at.B = t.id
-        WHERE at.A = ?
+        WHERE at.A = :associationId
     ');
-    $stmt->bind_param('s', $associationId);
-    $stmt->execute();
-    $result = $stmt->get_result();
+    $stmt->execute([':associationId' => $associationId]);
+    $tags = $stmt->fetchAll();
 
-    $tags = [];
-    while ($row = $result->fetch_assoc()) {
-        $tags[] = $row;
-    }
+    $logger->debug(TagGenerationLogger::CAT_DB_READ, "Retrieved existing tags for association", [
+        'associationId' => $associationId,
+        'tagCount' => count($tags),
+        'tags' => array_column($tags, 'name')
+    ]);
 
     return $tags;
 }
@@ -286,17 +516,37 @@ function getExistingTags(mysqli $db, string $associationId): array {
 /**
  * Process a single association
  */
-function processAssociation(mysqli $db, array $assoc, array $existingTags, array $taxonomy, array $options): array {
+function processAssociation(PDO $db, array $assoc, array $existingTags, array $taxonomy, array $options, $logger): array {
     // Extract raw tags
-    $rawTags = extractTags($assoc, $options['source']);
+    $rawTags = extractTags($assoc, $options['source'], $logger);
+
+    $logger->debug(TagGenerationLogger::CAT_TAG_MATCH, "Extracted raw tags", [
+        'associationId' => $assoc['id'],
+        'source' => $options['source'],
+        'rawTagCount' => count($rawTags),
+        'rawTags' => $rawTags
+    ]);
 
     // Normalize (lowercase + aliases + deduplicate)
-    $normalizedTags = normalizeTags($rawTags, $taxonomy);
+    $normalizedTags = normalizeTags($rawTags, $taxonomy, $logger);
+
+    $logger->debug(TagGenerationLogger::CAT_TAG_MATCH, "Normalized tags", [
+        'associationId' => $assoc['id'],
+        'normalizedTagCount' => count($normalizedTags),
+        'normalizedTags' => $normalizedTags
+    ]);
 
     // Find which tags exist
-    $existingTagObjects = findExistingTags($db, $normalizedTags);
+    $existingTagObjects = findExistingTags($db, $normalizedTags, $logger);
     $existingTagNames = array_column($existingTagObjects, 'name');
     $newTagNames = array_diff($normalizedTags, $existingTagNames);
+
+    $logger->debug(TagGenerationLogger::CAT_TAG_MATCH, "Determined new vs existing tags", [
+        'associationId' => $assoc['id'],
+        'existingTagCount' => count($existingTagNames),
+        'newTagCount' => count($newTagNames),
+        'newTags' => array_values($newTagNames)
+    ]);
 
     // Find which links exist
     $existingLinkIds = array_column($existingTags, 'id');
@@ -310,6 +560,13 @@ function processAssociation(mysqli $db, array $assoc, array $existingTags, array
             ];
         }
     }
+
+    $logger->debug(TagGenerationLogger::CAT_TAG_LINK, "Determined new links", [
+        'associationId' => $assoc['id'],
+        'existingLinkCount' => count($existingLinkIds),
+        'newLinkCount' => count($newLinks),
+        'newLinks' => array_column($newLinks, 'tagName')
+    ]);
 
     return [
         'associationId' => $assoc['id'],
@@ -326,14 +583,20 @@ function processAssociation(mysqli $db, array $assoc, array $existingTags, array
 /**
  * Extract tags from association based on source
  */
-function extractTags(array $assoc, string $source): array {
+function extractTags(array $assoc, string $source, $logger): array {
     $tags = [];
 
     // Types
     if ($source === 'db:baseline' || $source === 'db:types') {
         $types = json_decode($assoc['types'], true);
         if (is_array($types)) {
-            $tags = array_merge($tags, array_filter($types, 'is_string'));
+            $filtered = array_filter($types, 'is_string');
+            $tags = array_merge($tags, $filtered);
+            $logger->debug(TagGenerationLogger::CAT_TAG_MATCH, "Extracted types", [
+                'associationId' => $assoc['id'],
+                'count' => count($filtered),
+                'types' => $filtered
+            ]);
         }
     }
 
@@ -341,7 +604,13 @@ function extractTags(array $assoc, string $source): array {
     if ($source === 'db:baseline' || $source === 'db:activities') {
         $activities = json_decode($assoc['activities'], true);
         if (is_array($activities)) {
-            $tags = array_merge($tags, array_filter($activities, 'is_string'));
+            $filtered = array_filter($activities, 'is_string');
+            $tags = array_merge($tags, $filtered);
+            $logger->debug(TagGenerationLogger::CAT_TAG_MATCH, "Extracted activities", [
+                'associationId' => $assoc['id'],
+                'count' => count($filtered),
+                'activities' => $filtered
+            ]);
         }
     }
 
@@ -349,7 +618,13 @@ function extractTags(array $assoc, string $source): array {
     if ($source === 'db:baseline' || $source === 'db:categories') {
         $categories = json_decode($assoc['categories'], true);
         if (is_array($categories)) {
-            $tags = array_merge($tags, array_filter($categories, 'is_string'));
+            $filtered = array_filter($categories, 'is_string');
+            $tags = array_merge($tags, $filtered);
+            $logger->debug(TagGenerationLogger::CAT_TAG_MATCH, "Extracted categories", [
+                'associationId' => $assoc['id'],
+                'count' => count($filtered),
+                'categories' => $filtered
+            ]);
         }
     }
 
@@ -359,42 +634,69 @@ function extractTags(array $assoc, string $source): array {
 /**
  * Normalize tags: lowercase, apply aliases, deduplicate
  */
-function normalizeTags(array $tags, array $taxonomy): array {
+function normalizeTags(array $tags, array $taxonomy, $logger): array {
     $normalized = [];
+    $aliasesApplied = 0;
 
     foreach ($tags as $tag) {
-        $tag = mb_strtolower(trim($tag));
+        $original = $tag;
+        $tag = mb_strtolower_safe(trim($tag));
         if (strlen($tag) === 0) continue;
 
         // Apply taxonomy alias
         $canonical = $taxonomy[$tag] ?? $tag;
+        if ($canonical !== $tag) {
+            $aliasesApplied++;
+            $logger->debug(TagGenerationLogger::CAT_TAG_MATCH, "Applied taxonomy alias", [
+                'original' => $original,
+                'lowercase' => $tag,
+                'canonical' => $canonical
+            ]);
+        }
         $normalized[] = $canonical;
     }
 
     // Deduplicate
-    return array_unique($normalized);
+    $beforeDedup = count($normalized);
+    $normalized = array_unique($normalized);
+    $afterDedup = count($normalized);
+
+    if ($beforeDedup !== $afterDedup) {
+        $logger->debug(TagGenerationLogger::CAT_TAG_MATCH, "Removed duplicates", [
+            'before' => $beforeDedup,
+            'after' => $afterDedup,
+            'removed' => $beforeDedup - $afterDedup
+        ]);
+    }
+
+    return $normalized;
 }
 
 /**
  * Find existing tags by name
  */
-function findExistingTags(mysqli $db, array $tagNames): array {
-    if (empty($tagNames)) return [];
+function findExistingTags(PDO $db, array $tagNames, $logger): array {
+    if (empty($tagNames)) {
+        $logger->debug(TagGenerationLogger::CAT_DB_READ, "No tag names to search for");
+        return [];
+    }
+
+    $logger->debug(TagGenerationLogger::CAT_DB_READ, "Searching for existing tags", [
+        'tagCount' => count($tagNames),
+        'tags' => $tagNames
+    ]);
 
     // Build IN clause
     $placeholders = str_repeat('?,', count($tagNames) - 1) . '?';
     $stmt = $db->prepare("SELECT id, name FROM Tag WHERE name IN ($placeholders)");
+    $stmt->execute($tagNames);
+    $tags = $stmt->fetchAll();
 
-    // Bind parameters dynamically
-    $types = str_repeat('s', count($tagNames));
-    $stmt->bind_param($types, ...$tagNames);
-    $stmt->execute();
-    $result = $stmt->get_result();
-
-    $tags = [];
-    while ($row = $result->fetch_assoc()) {
-        $tags[] = $row;
-    }
+    $logger->debug(TagGenerationLogger::CAT_DB_READ, "Found existing tags", [
+        'searchedFor' => count($tagNames),
+        'foundCount' => count($tags),
+        'foundTags' => array_column($tags, 'name')
+    ]);
 
     return $tags;
 }
@@ -402,11 +704,17 @@ function findExistingTags(mysqli $db, array $tagNames): array {
 /**
  * Commit changes to database (execute mode only)
  */
-function commitChanges(mysqli $db, array $result, string $source, array &$stats): void {
+function commitChanges(PDO $db, array $result, string $source, array &$stats, $logger): void {
+    $logger->debug(TagGenerationLogger::CAT_TAG_CREATE, "Starting commit changes", [
+        'associationId' => $result['associationId'],
+        'newTagsCount' => count($result['newTags']),
+        'newLinksCount' => count($result['newLinks'])
+    ]);
+
     // Create new tags
     foreach ($result['newTags'] as $tagName) {
-        $tagId = upsertTag($db, $tagName);
-        createTagSource($db, $tagId, $source);
+        $tagId = upsertTag($db, $tagName, $logger);
+        createTagSource($db, $tagId, $source, $logger);
         $stats['tagsCreated']++;
 
         // Add to newLinks
@@ -418,42 +726,49 @@ function commitChanges(mysqli $db, array $result, string $source, array &$stats)
 
     // Create new links
     foreach ($result['newLinks'] as $link) {
-        $created = createTagLink($db, $result['associationId'], $link['tagId']);
+        $created = createTagLink($db, $result['associationId'], $link['tagId'], $logger);
         if ($created) {
             $stats['linksCreated']++;
         } else {
             $stats['linksSkipped']++;
         }
     }
+
+    $logger->debug(TagGenerationLogger::CAT_TAG_LINK, "Commit changes completed", [
+        'associationId' => $result['associationId'],
+        'tagsCreated' => count($result['newTags']),
+        'linksCreated' => $stats['linksCreated'],
+        'linksSkipped' => $stats['linksSkipped']
+    ]);
 }
 
 /**
  * Upsert tag (idempotent)
  */
-function upsertTag(mysqli $db, string $name): string {
+function upsertTag(PDO $db, string $name, $logger): string {
     // Try to find existing
-    $stmt = $db->prepare('SELECT id FROM Tag WHERE name = ?');
-    $stmt->bind_param('s', $name);
-    $stmt->execute();
-    $result = $stmt->get_result();
+    $stmt = $db->prepare('SELECT id FROM Tag WHERE name = :name');
+    $stmt->execute([':name' => $name]);
+    $row = $stmt->fetch();
 
-    if ($row = $result->fetch_assoc()) {
+    if ($row) {
+        $logger->logTagCreate($name, $row['id'], false);
         return $row['id'];
     }
 
     // Create new
     $id = generateId();
-    $stmt = $db->prepare('INSERT INTO Tag (id, name, createdAt) VALUES (?, ?, NOW())');
-    $stmt->bind_param('ss', $id, $name);
-    $stmt->execute();
+    $stmt = $db->prepare('INSERT INTO Tag (id, name, createdAt) VALUES (:id, :name, NOW())');
+    $stmt->execute([':id' => $id, ':name' => $name]);
 
+    $logger->logTagCreate($name, $id, true);
     return $id;
 }
 
 /**
  * Create TagSource record (idempotent)
  */
-function createTagSource(mysqli $db, string $tagId, string $source): void {
+function createTagSource(PDO $db, string $tagId, string $source, $logger): void {
     // Extract source field
     $sourceField = null;
     if ($source === 'db:types') $sourceField = 'types';
@@ -461,31 +776,65 @@ function createTagSource(mysqli $db, string $tagId, string $source): void {
     elseif ($source === 'db:categories') $sourceField = 'categories';
 
     // Check if exists
-    $stmt = $db->prepare('SELECT id FROM TagSource WHERE tagId = ? AND source = ? AND (sourceField = ? OR (sourceField IS NULL AND ? IS NULL))');
-    $stmt->bind_param('ssss', $tagId, $source, $sourceField, $sourceField);
-    $stmt->execute();
+    $stmt = $db->prepare('SELECT id FROM TagSource WHERE tagId = :tagId AND source = :source AND (sourceField = :sourceField OR (sourceField IS NULL AND :sourceField2 IS NULL))');
+    $stmt->execute([
+        ':tagId' => $tagId,
+        ':source' => $source,
+        ':sourceField' => $sourceField,
+        ':sourceField2' => $sourceField
+    ]);
 
-    if ($stmt->get_result()->num_rows > 0) {
+    if ($stmt->fetch()) {
+        $logger->debug(TagGenerationLogger::CAT_TAG_CREATE, "TagSource already exists", [
+            'tagId' => $tagId,
+            'source' => $source,
+            'sourceField' => $sourceField
+        ]);
         return; // Already exists
     }
 
     // Create new
     $id = generateId();
-    $stmt = $db->prepare('INSERT INTO TagSource (id, tagId, source, sourceField, createdAt) VALUES (?, ?, ?, ?, NOW())');
-    $stmt->bind_param('ssss', $id, $tagId, $source, $sourceField);
-    $stmt->execute();
+    $stmt = $db->prepare('INSERT INTO TagSource (id, tagId, source, sourceField, createdAt) VALUES (:id, :tagId, :source, :sourceField, NOW())');
+    $stmt->execute([
+        ':id' => $id,
+        ':tagId' => $tagId,
+        ':source' => $source,
+        ':sourceField' => $sourceField
+    ]);
+
+    $logger->debug(TagGenerationLogger::CAT_TAG_CREATE, "Created TagSource record", [
+        'id' => $id,
+        'tagId' => $tagId,
+        'source' => $source,
+        'sourceField' => $sourceField
+    ]);
 }
 
 /**
  * Create tag-association link (idempotent)
  */
-function createTagLink(mysqli $db, string $associationId, string $tagId): bool {
+function createTagLink(PDO $db, string $associationId, string $tagId, $logger): bool {
     // Use INSERT IGNORE for idempotency
-    $stmt = $db->prepare('INSERT IGNORE INTO _AssociationTags (A, B) VALUES (?, ?)');
-    $stmt->bind_param('ss', $associationId, $tagId);
-    $stmt->execute();
+    $stmt = $db->prepare('INSERT IGNORE INTO _AssociationTags (A, B) VALUES (:associationId, :tagId)');
+    $stmt->execute([':associationId' => $associationId, ':tagId' => $tagId]);
 
-    return $stmt->affected_rows > 0;
+    $created = $stmt->rowCount() > 0;
+
+    // We don't have tag name here, so we'll log with ID only
+    if ($created) {
+        $logger->debug(TagGenerationLogger::CAT_TAG_LINK, "Created tag-association link", [
+            'associationId' => $associationId,
+            'tagId' => $tagId
+        ]);
+    } else {
+        $logger->debug(TagGenerationLogger::CAT_TAG_LINK, "Tag-association link already exists", [
+            'associationId' => $associationId,
+            'tagId' => $tagId
+        ]);
+    }
+
+    return $created;
 }
 
 /**
@@ -513,17 +862,25 @@ function resultToCSVRow(array $result, string $source): array {
 /**
  * Generate CSV report
  */
-function generateCSVReport(array $options, array $stats, array $csvRows): string {
+function generateCSVReport(array $options, array $stats, array $csvRows, $logger): string {
     $reportsDir = __DIR__ . '/../reports/tag_generation';
 
     // Ensure directory exists
     if (!is_dir($reportsDir)) {
+        $logger->debug(TagGenerationLogger::CAT_REPORT_WRITE, "Creating reports directory", [
+            'path' => $reportsDir
+        ]);
         mkdir($reportsDir, 0775, true);
     }
 
     $timestamp = date('Y-m-d_H-i-s');
     $filename = "tag_generation_{$options['jobId']}_{$timestamp}.csv";
     $filepath = $reportsDir . '/' . $filename;
+
+    $logger->info(TagGenerationLogger::CAT_REPORT_WRITE, "Generating CSV report", [
+        'filename' => $filename,
+        'rowCount' => count($csvRows)
+    ]);
 
     // Build CSV content
     $csv = "AssociationID;AssociationName;Municipality;TagsAdded;TagsAlreadyLinked;TagsCreated;Source\n";
@@ -541,6 +898,9 @@ function generateCSVReport(array $options, array $stats, array $csvRows): string
     // Add summary
     $csv .= "\n=== SUMMARY ===\n";
     $csv .= "Total Associations Processed;{$stats['associationsProcessed']}\n";
+    if (isset($stats['totalAssociations'])) {
+        $csv .= "Total Associations Available;{$stats['totalAssociations']}\n";
+    }
     $csv .= "New Tags Created;{$stats['tagsCreated']}\n";
     $csv .= "New Links Created;{$stats['linksCreated']}\n";
     $csv .= "Links Already Existed;{$stats['linksSkipped']}\n";
@@ -550,6 +910,8 @@ function generateCSVReport(array $options, array $stats, array $csvRows): string
     $csv .= "Job ID;{$options['jobId']}\n";
 
     file_put_contents($filepath, $csv);
+
+    $logger->logReportWrite($filepath, count($csvRows));
 
     return $filepath;
 }
@@ -567,36 +929,55 @@ function escapeCsv(string $value): string {
 /**
  * Update progress in database
  */
-function updateProgress(mysqli $db, string $jobId, string $lastProcessedId, array $stats): void {
-    $errors = empty($stats['errors']) ? null : json_encode($stats['errors']);
+function updateProgress(PDO $db, string $jobId, string $lastProcessedId, array $stats, $logger): void {
+    try {
+        $errors = empty($stats['errors']) ? null : json_encode($stats['errors']);
+        $summary = buildSummaryPayload($stats);
 
-    $stmt = $db->prepare('
-        UPDATE TagGenerationRun
-        SET associationsProcessed = ?,
-            tagsCreated = ?,
-            linksCreated = ?,
-            linksSkipped = ?,
-            lastProcessedId = ?,
-            errors = ?
-        WHERE id = ?
-    ');
-    $stmt->bind_param(
-        'iiiisss',
-        $stats['associationsProcessed'],
-        $stats['tagsCreated'],
-        $stats['linksCreated'],
-        $stats['linksSkipped'],
-        $lastProcessedId,
-        $errors,
-        $jobId
-    );
-    $stmt->execute();
+        $stmt = $db->prepare('
+            UPDATE TagGenerationRun
+            SET associationsProcessed = :associationsProcessed,
+                tagsCreated = :tagsCreated,
+                linksCreated = :linksCreated,
+                linksSkipped = :linksSkipped,
+                lastProcessedId = :lastProcessedId,
+                errors = :errors,
+                summary = :summary
+            WHERE id = :jobId
+        ');
+        $stmt->execute([
+            ':associationsProcessed' => $stats['associationsProcessed'],
+            ':tagsCreated' => $stats['tagsCreated'],
+            ':linksCreated' => $stats['linksCreated'],
+            ':linksSkipped' => $stats['linksSkipped'],
+            ':lastProcessedId' => $lastProcessedId,
+            ':errors' => $errors,
+            ':summary' => $summary,
+            ':jobId' => $jobId
+        ]);
+
+        $logger->logProgress(
+            $stats['associationsProcessed'],
+            $stats['totalAssociations'] ?? 0,
+            [
+                'tagsCreated' => $stats['tagsCreated'],
+                'linksCreated' => $stats['linksCreated'],
+                'linksSkipped' => $stats['linksSkipped'],
+                'errors' => count($stats['errors']),
+                'lastProcessedId' => $lastProcessedId
+            ]
+        );
+    } catch (PDOException $e) {
+        // Table might not exist in production, skip progress updates
+        // Still log to error_log for debugging
+        error_log("Note: Could not update progress (table might not exist)");
+    }
 }
 
 /**
  * Update job record status
  */
-function updateJobRecord(mysqli $db, string $jobId, string $status, ?string $reportPath, array $stats): void {
+function updateJobRecord(PDO $db, string $jobId, string $status, ?string $reportPath, array $stats, $logger): void {
     $reportUrl = null;
     if ($reportPath) {
         $filename = basename($reportPath);
@@ -604,33 +985,49 @@ function updateJobRecord(mysqli $db, string $jobId, string $status, ?string $rep
     }
 
     $errors = empty($stats['errors']) ? null : json_encode($stats['errors']);
+    $summary = buildSummaryPayload($stats);
+
+    $logger->info(TagGenerationLogger::CAT_PROGRESS_UPDATE, "Updating job record", [
+        'jobId' => $jobId,
+        'status' => $status,
+        'reportUrl' => $reportUrl,
+        'stats' => [
+            'associationsProcessed' => $stats['associationsProcessed'],
+            'tagsCreated' => $stats['tagsCreated'],
+            'linksCreated' => $stats['linksCreated'],
+            'linksSkipped' => $stats['linksSkipped'],
+            'errors' => count($stats['errors'])
+        ]
+    ]);
 
     $stmt = $db->prepare('
         UPDATE TagGenerationRun
-        SET status = ?,
+        SET status = :status,
             completedAt = NOW(),
-            associationsProcessed = ?,
-            tagsCreated = ?,
-            linksCreated = ?,
-            linksSkipped = ?,
-            reportPath = ?,
-            reportUrl = ?,
-            errors = ?
-        WHERE id = ?
+            associationsProcessed = :associationsProcessed,
+            tagsCreated = :tagsCreated,
+            linksCreated = :linksCreated,
+            linksSkipped = :linksSkipped,
+            reportPath = :reportPath,
+            reportUrl = :reportUrl,
+            errors = :errors,
+            summary = :summary
+        WHERE id = :jobId
     ');
-    $stmt->bind_param(
-        'siiisssss',
-        $status,
-        $stats['associationsProcessed'],
-        $stats['tagsCreated'],
-        $stats['linksCreated'],
-        $stats['linksSkipped'],
-        $reportPath,
-        $reportUrl,
-        $errors,
-        $jobId
-    );
-    $stmt->execute();
+    $stmt->execute([
+        ':status' => $status,
+        ':associationsProcessed' => $stats['associationsProcessed'],
+        ':tagsCreated' => $stats['tagsCreated'],
+        ':linksCreated' => $stats['linksCreated'],
+        ':linksSkipped' => $stats['linksSkipped'],
+        ':reportPath' => $reportPath,
+        ':reportUrl' => $reportUrl,
+        ':errors' => $errors,
+        ':summary' => $summary,
+        ':jobId' => $jobId
+    ]);
+
+    $logger->info(TagGenerationLogger::CAT_PROGRESS_UPDATE, "Job record updated successfully");
 }
 
 /**
@@ -640,6 +1037,9 @@ function printSummary(array $options, array $stats): void {
     echo str_repeat('=', 80) . "\n";
     echo "SUMMARY\n";
     echo str_repeat('=', 80) . "\n";
+    if (isset($stats['totalAssociations'])) {
+        echo "Total Associations Available: {$stats['totalAssociations']}\n";
+    }
     echo "Associations Processed: {$stats['associationsProcessed']}\n";
     echo "Tags Created:           {$stats['tagsCreated']}\n";
     echo "Links Created:          {$stats['linksCreated']}\n";
@@ -650,5 +1050,63 @@ function printSummary(array $options, array $stats): void {
     if ($options['mode'] === 'dry-run') {
         echo "\nNOTE: This was a DRY-RUN. No changes were made to the database.\n";
         echo "      Run with --mode=execute to apply changes.\n";
+    }
+}
+
+/**
+ * Initialize summary payload with total associations
+ */
+function initializeJobSummary(PDO $db, string $jobId, string $mode, string $source, array $stats): void {
+    try {
+        // First, create the job record if it doesn't exist
+        $stmt = $db->prepare('INSERT IGNORE INTO TagGenerationRun (id, status, mode, source, startedAt) VALUES (:jobId, :status, :mode, :source, NOW())');
+        $stmt->execute([
+            ':jobId' => $jobId,
+            ':status' => 'running',
+            ':mode' => $mode,
+            ':source' => $source
+        ]);
+
+        // Then update with summary
+        $summary = buildSummaryPayload($stats);
+        $stmt = $db->prepare('UPDATE TagGenerationRun SET summary = :summary WHERE id = :jobId');
+        $stmt->execute([':summary' => $summary, ':jobId' => $jobId]);
+    } catch (PDOException $e) {
+        // If table doesn't exist, throw to be caught by caller
+        throw $e;
+    }
+}
+
+/**
+ * Build JSON payload for summary column
+ */
+function buildSummaryPayload(array $stats): string {
+    $total = isset($stats['totalAssociations']) ? (int)$stats['totalAssociations'] : null;
+    $processed = (int)($stats['associationsProcessed'] ?? 0);
+    $percent = null;
+    if ($total && $total > 0) {
+        $percent = round(($processed / $total) * 100, 2);
+    }
+
+    $payload = [
+        'totalAssociations' => $total,
+        'processedAssociations' => $processed,
+        'progressPercent' => $percent,
+        'updatedAt' => date('c')
+    ];
+
+    return json_encode($payload);
+}
+
+/**
+ * Count total associations that will be processed
+ */
+function getAssociationsTotal(PDO $db): int {
+    try {
+        $stmt = $db->query('SELECT COUNT(*) as total FROM Association WHERE isDeleted = 0');
+        $row = $stmt->fetch();
+        return (int)($row['total'] ?? 0);
+    } catch (PDOException $e) {
+        return 0;
     }
 }

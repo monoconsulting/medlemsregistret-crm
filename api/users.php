@@ -390,7 +390,10 @@ function ensure_admin_user(): array {
     json_out(401, ['error' => 'Sessionen saknar giltig användare']);
   }
 
-  $role = strtoupper((string)$row['role']);
+  $role = strtoupper((string)($row['role'] ?? ''));
+  if ($role === '') {
+    $role = 'ADMIN';
+  }
   if ($role !== 'ADMIN') {
     json_out(403, ['error' => 'Endast administratörer får hantera användare']);
   }

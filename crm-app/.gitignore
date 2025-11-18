@@ -38,3 +38,6 @@ next-env.d.ts
 
 # prisma
 prisma/migrations
+!prisma/migrations/
+!prisma/migrations/20251117144500_add_contact_soft_delete/
+!prisma/migrations/20251117144500_add_contact_soft_delete/migration.sql

@@ -1,6 +1,7 @@
 "use client"
 
 import { useCallback, useEffect, useMemo, useState } from "react"
+import { useRouter } from "next/navigation"
 import {
   AlertDialog,
   AlertDialogAction,
@@ -29,6 +30,7 @@ import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Switch } from "@/components/ui/switch"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { cn } from "@/lib/utils"
 import { useToast } from "@/hooks/use-toast"
 import { z } from "zod"
@@ -36,7 +38,23 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { api, type AuthRole, type ManagedUser } from "@/lib/api"
 import { useAuth } from "@/lib/providers/auth-provider"
-import { Loader2, Plus, RefreshCcw, Search, Shield, ShieldCheck, Trash2, Undo2 } from "lucide-react"
+import type { LucideIcon } from "lucide-react"
+import {
+  AlertCircle,
+  ArchiveRestore,
+  Loader2,
+  LogIn,
+  Plus,
+  RefreshCcw,
+  Search,
+  Shield,
+  ShieldCheck,
+  Trash2,
+  Undo2,
+  UserCheck,
+  UserCog,
+  Users,
+} from "lucide-react"
 
 const roleOptions: Array<{ value: AuthRole; label: string; description: string }> = [
   { value: "ADMIN", label: "Administratör", description: "Full åtkomst och systemhantering." },
@@ -73,7 +91,8 @@ interface UserFormDialogProps {
 }
 
 export default function UsersPage() {
-  const { session, status } = useAuth()
+  const { session, status, refresh } = useAuth()
+  const router = useRouter()
   const { toast } = useToast()
   const [users, setUsers] = useState<ManagedUser[]>([])
   const [loading, setLoading] = useState(true)
@@ -87,6 +106,8 @@ export default function UsersPage() {
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false)
   const [userPendingDeletion, setUserPendingDeletion] = useState<ManagedUser | null>(null)
   const [rowActionUserId, setRowActionUserId] = useState<string | null>(null)
+  const [loadError, setLoadError] = useState<string | null>(null)
+  const [activeTab, setActiveTab] = useState("overview")
 
   const currentRole = session?.user.role ?? "USER"
   const isAdmin = currentRole === "ADMIN"
@@ -94,22 +115,71 @@ export default function UsersPage() {
 
   const debouncedSearch = useDebouncedValue(search, 400)
 
+  const stats = useMemo(() => {
+    const total = users.length
+    const active = users.filter((user) => !user.isDeleted).length
+    const admins = users.filter((user) => !user.isDeleted && normalizeAuthRole(user.role) === "ADMIN").length
+    const deleted = users.filter((user) => user.isDeleted).length
+    return { total, active, admins, deleted }
+  }, [users])
+
+  const summaryCards = useMemo<
+    Array<{ key: string; label: string; value: number; subtext: string; icon: LucideIcon }>
+  >(
+    () => [
+      {
+        key: "active",
+        label: "Aktiva användare",
+        value: stats.active,
+        subtext: "Kan logga in och arbeta i CRM",
+        icon: Users,
+      },
+      {
+        key: "admins",
+        label: "Administratörer",
+        value: stats.admins,
+        subtext: "Full åtkomst & roller",
+        icon: UserCheck,
+      },
+      {
+        key: "deleted",
+        label: "Raderade konton",
+        value: stats.deleted,
+        subtext: "Tillgängliga för återställning",
+        icon: ArchiveRestore,
+      },
+    ],
+    [stats.admins, stats.active, stats.deleted],
+  )
+
   const fetchUsers = useCallback(async () => {
     if (!isAdmin) return
     setLoading(true)
-    try {
-      const items = await api.getUsers({
-        q: debouncedSearch.trim() ? debouncedSearch.trim() : undefined,
-        includeDeleted: showDeleted,
-      })
-      setUsers(items)
-    } catch (error) {
-      const message = error instanceof Error ? error.message : "Kunde inte hämta användare"
-      toast({ title: "Fel vid inläsning", description: message, variant: "destructive" })
-    } finally {
+      try {
+        const items = await api.getUsers({
+          q: debouncedSearch.trim() ? debouncedSearch.trim() : undefined,
+          includeDeleted: showDeleted,
+        })
+        setUsers(items)
+        setLoadError(null)
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Kunde inte hämta användare"
+        if (message.toLowerCase().includes("auth")) {
+          setLoadError("auth")
+          await refresh()
+          toast({
+            title: "Sessionen saknas",
+            description: "Logga in igen för att se användarna.",
+            variant: "destructive",
+          })
+        } else {
+          setLoadError(message)
+          toast({ title: "Fel vid inläsning", description: message, variant: "destructive" })
+        }
+      } finally {
       setLoading(false)
     }
-  }, [debouncedSearch, showDeleted, isAdmin, toast])
+  }, [debouncedSearch, showDeleted, isAdmin, toast, refresh])
 
   useEffect(() => {
     void fetchUsers()
@@ -292,177 +362,296 @@ export default function UsersPage() {
       title="Användarhantering"
       description="Administrera roller, konton och åtkomst till CRM-systemet."
       actions={
-        <Button onClick={openCreateDialog} size="sm">
-          <Plus className="mr-2 h-4 w-4" aria-hidden="true" />
-          Ny användare
-        </Button>
+        isAdmin ? (
+          <Button onClick={openCreateDialog} size="sm">
+            <Plus className="mr-2 h-4 w-4" aria-hidden="true" />
+            Ny användare
+          </Button>
+        ) : undefined
       }
     >
-      <Card>
-        <CardHeader className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-          <div>
-            <CardTitle>Användare</CardTitle>
-            <CardDescription>Lista över alla användare inklusive de som är soft deletade.</CardDescription>
-          </div>
-          <div className="flex w-full flex-col gap-3 lg:w-auto lg:flex-row lg:items-center">
-            <div className="flex flex-1 items-center gap-2">
-              <div className="relative w-full lg:w-72">
-                <Search
-                  className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground"
-                  aria-hidden="true"
-                />
-                <Input
-                  value={search}
-                  onChange={(event) => setSearch(event.target.value)}
-                  placeholder="Sök på namn eller e-post"
-                  className="pl-9"
-                  aria-label="Sök användare"
-                />
-              </div>
+      <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+          <div className="flex items-start gap-4">
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-100 text-orange-600">
+              <UserCog className="h-7 w-7" aria-hidden="true" />
             </div>
-            <div className="flex items-center gap-2">
-              <Switch
-                id="show-deleted"
-                checked={showDeleted}
-                onChange={(event) => setShowDeleted(event.currentTarget.checked)}
-              />
-              <label htmlFor="show-deleted" className="text-sm text-muted-foreground">
-                Visa raderade
-              </label>
+            <div>
+              <h1 className="text-2xl font-semibold text-slate-900">Användarhantering</h1>
+              <p className="text-sm text-slate-500">
+                Samma byggstenar som i Associations- och Kommunöversikten: tydlig översikt, sammanfattande kort och
+                tabeller med åtgärder.
+              </p>
             </div>
           </div>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          {selectedIds.size > 0 ? (
-            <div className="rounded-lg border border-primary/30 bg-primary/5 px-4 py-2 text-sm text-primary">
-              {selectedIds.size} användare valda
+          <div className="flex flex-col gap-2 sm:flex-row">
+            {loadError === "auth" ? (
+              <Button
+                variant="outline"
+                onClick={() => router.push("/login?redirectTo=/users")}
+                className="border-orange-200 text-orange-600"
+              >
+                <LogIn className="mr-2 h-4 w-4" aria-hidden="true" />
+                Logga in igen
+              </Button>
+            ) : (
+              <Button variant="outline" onClick={() => void fetchUsers()}>
+                <RefreshCcw className="mr-2 h-4 w-4" aria-hidden="true" />
+                Uppdatera lista
+              </Button>
+            )}
+            {isAdmin ? (
+              <Button onClick={openCreateDialog}>
+                <Plus className="mr-2 h-4 w-4" aria-hidden="true" />
+                Ny användare
+              </Button>
+            ) : null}
+          </div>
+        </div>
+
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="mt-6">
+          <TabsList className="grid w-full max-w-3xl grid-cols-3 rounded-full bg-slate-100 p-1">
+            <TabsTrigger value="overview">Översikt</TabsTrigger>
+            <TabsTrigger value="roles">Roller & behörigheter</TabsTrigger>
+            <TabsTrigger value="activity">Aktivitet</TabsTrigger>
+          </TabsList>
+
+          <TabsContent value="overview" className="mt-6 space-y-6">
+            <div className="grid gap-4 md:grid-cols-3">
+              {summaryCards.map((card) => (
+                <Card key={card.key} className="border border-slate-200 shadow-sm">
+                  <CardHeader className="flex flex-row items-start justify-between space-y-0 pb-2">
+                    <CardTitle className="text-sm font-medium text-muted-foreground">{card.label}</CardTitle>
+                    <card.icon className="h-4 w-4 text-primary" aria-hidden="true" />
+                  </CardHeader>
+                  <CardContent>
+                    <div className="text-3xl font-semibold">{card.value}</div>
+                    <p className="text-xs text-muted-foreground">{card.subtext}</p>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
-          ) : null}
 
-          <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
-            <Table>
-              <TableHeader>
-                <TableRow className="bg-slate-50">
-                  <TableHead className="w-10">
-                    <Checkbox
-                      checked={allVisibleSelected}
-                      onCheckedChange={(checked) => handleToggleAll(!!checked)}
-                      aria-label="Markera alla"
-                    />
-                  </TableHead>
-                  <TableHead>Namn</TableHead>
-                  <TableHead>Användarnamn</TableHead>
-                  <TableHead>Roll</TableHead>
-                  <TableHead className="text-right">Åtgärder</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {loading ? (
-                  <TableRow>
-                    <TableCell colSpan={5} className="py-14 text-center text-muted-foreground">
-                      <Loader2 className="mr-2 inline-block h-4 w-4 animate-spin" aria-hidden="true" />
-                      Hämtar användare ...
-                    </TableCell>
-                  </TableRow>
-                ) : users.length ? (
-                  users.map((user) => {
-                    const isSelected = selectedIds.has(user.id)
-                    const isDeleted = user.isDeleted
-                    const roleLabel = resolveRoleLabel(user.role)
-                    const badgeVariant = roleBadgeVariant(user.role)
+            {loadError && loadError !== "auth" ? (
+              <Card className="border border-destructive/30 bg-destructive/5">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-destructive">
+                    <AlertCircle className="h-4 w-4" aria-hidden="true" />
+                    Kunde inte hämta användare
+                  </CardTitle>
+                  <CardDescription className="text-destructive">
+                    {loadError}. Försök igen eller kontakta systemadministratören om problemet kvarstår.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            ) : null}
 
-                    return (
-                      <TableRow
-                        key={user.id}
-                        className={cn(
-                          isDeleted && "bg-orange-50/70 text-muted-foreground line-through",
-                          isSelected && "bg-primary/5"
-                        )}
-                      >
-                        <TableCell>
+            <Card>
+              <CardHeader className="space-y-1">
+                <CardTitle>Alla användare</CardTitle>
+                <CardDescription>Sammanställd lista med samma tabellstandard som övriga CRM-moduler.</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+                  <div className="flex w-full flex-col gap-3 sm:flex-row sm:items-center">
+                    <div className="relative flex-1">
+                      <Search
+                        className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+                        aria-hidden="true"
+                      />
+                      <Input
+                        value={search}
+                        onChange={(event) => setSearch(event.target.value)}
+                        placeholder="Sök på namn, e-post eller roll"
+                        className="pl-9"
+                        aria-label="Sök användare"
+                      />
+                    </div>
+                    <div className="flex items-center gap-2 rounded-full border border-slate-200 px-3 py-1.5">
+                      <Switch
+                        id="show-deleted"
+                        checked={showDeleted}
+                        onChange={(event) => setShowDeleted(event.currentTarget.checked)}
+                      />
+                      <label htmlFor="show-deleted" className="text-sm text-muted-foreground">
+                        Visa raderade
+                      </label>
+                    </div>
+                  </div>
+                  <div className="text-sm text-muted-foreground lg:text-right">
+                    {stats.active} aktiva · {stats.deleted} raderade · {stats.admins} administratörer
+                  </div>
+                </div>
+
+                {selectedIds.size > 0 ? (
+                  <div className="rounded-lg border border-primary/30 bg-primary/5 px-4 py-2 text-sm text-primary">
+                    {selectedIds.size} användare valda
+                  </div>
+                ) : null}
+
+                <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
+                  <Table>
+                    <TableHeader>
+                      <TableRow className="bg-slate-50">
+                        <TableHead className="w-10">
                           <Checkbox
-                            checked={isSelected}
-                            onCheckedChange={(checked) => handleToggleRow(user.id, !!checked)}
-                            aria-label={`Markera ${user.email ?? user.name ?? "användaren"}`}
+                            checked={allVisibleSelected}
+                            onCheckedChange={(checked) => handleToggleAll(!!checked)}
+                            aria-label="Markera alla"
                           />
-                        </TableCell>
-                        <TableCell className="font-medium">
-                          <div className="flex items-center gap-2">
-                            {isDeleted ? <Trash2 className="h-4 w-4 text-orange-500" aria-hidden="true" /> : null}
-                            <span>{user.name ?? "—"}</span>
-                          </div>
-                        </TableCell>
-                        <TableCell>
-                          <div className="flex flex-col">
-                            <span>{user.email ?? "Ingen e-post"}</span>
-                            {isDeleted && user.deletedAt ? (
-                              <span className="text-xs text-muted-foreground">
-                                Raderad {new Date(user.deletedAt).toLocaleDateString("sv-SE")}
-                              </span>
-                            ) : null}
-                          </div>
-                        </TableCell>
-                        <TableCell>
-                          <Badge variant={badgeVariant}>{roleLabel}</Badge>
-                        </TableCell>
-                        <TableCell className="flex justify-end gap-2">
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            onClick={() => openEditDialog(user)}
-                            disabled={rowActionUserId === user.id}
-                          >
-                            <ShieldCheck className="mr-2 h-4 w-4" aria-hidden="true" />
-                            Redigera
-                          </Button>
-                          {isDeleted ? (
-                            <Button
-                              variant="outline"
-                              size="sm"
-                              onClick={() => handleRestore(user)}
-                              disabled={rowActionUserId === user.id}
-                            >
-                              {rowActionUserId === user.id ? (
-                                <Loader2 className="mr-2 h-4 w-4 animate-spin" aria-hidden="true" />
-                              ) : (
-                                <Undo2 className="mr-2 h-4 w-4" aria-hidden="true" />
-                              )}
-                              Återställ
-                            </Button>
-                          ) : (
-                            <Button
-                              variant="ghost"
-                              size="sm"
-                              className="text-destructive hover:text-destructive"
-                              onClick={() => requestDeleteUser(user)}
-                              disabled={rowActionUserId === user.id || session?.user.id === user.id}
-                            >
-                              {rowActionUserId === user.id ? (
-                                <Loader2 className="mr-2 h-4 w-4 animate-spin" aria-hidden="true" />
-                              ) : (
-                                <Trash2 className="mr-2 h-4 w-4" aria-hidden="true" />
-                              )}
-                              Radera
-                            </Button>
-                          )}
-                        </TableCell>
+                        </TableHead>
+                        <TableHead>Namn</TableHead>
+                        <TableHead>Användarnamn</TableHead>
+                        <TableHead>Roll</TableHead>
+                        <TableHead className="text-right">Åtgärder</TableHead>
                       </TableRow>
-                    )
-                  })
-                ) : (
-                  <TableRow>
-                    <TableCell colSpan={5} className="py-12 text-center text-muted-foreground">
-                      {showDeleted
-                        ? "Inga raderade användare matchar din sökning."
-                        : "Inga användare matchar din sökning just nu."}
-                    </TableCell>
-                  </TableRow>
-                )}
-              </TableBody>
-            </Table>
-          </div>
-        </CardContent>
-      </Card>
+                    </TableHeader>
+                    <TableBody>
+                      {loading ? (
+                        <TableRow>
+                          <TableCell colSpan={5} className="py-14 text-center text-muted-foreground">
+                            <Loader2 className="mr-2 inline-block h-4 w-4 animate-spin" aria-hidden="true" />
+                            Hämtar användare ...
+                          </TableCell>
+                        </TableRow>
+                      ) : users.length ? (
+                        users.map((user) => {
+                          const isSelected = selectedIds.has(user.id)
+                          const isDeleted = user.isDeleted
+                          const roleLabel = resolveRoleLabel(user.role)
+                          const badgeVariant = roleBadgeVariant(user.role)
+
+                          return (
+                            <TableRow
+                              key={user.id}
+                              className={cn(
+                                isDeleted && "bg-orange-50/70 text-muted-foreground line-through",
+                                isSelected && "bg-primary/5"
+                              )}
+                            >
+                              <TableCell>
+                                <Checkbox
+                                  checked={isSelected}
+                                  onCheckedChange={(checked) => handleToggleRow(user.id, !!checked)}
+                                  aria-label={`Markera ${user.email ?? user.name ?? "användaren"}`}
+                                />
+                              </TableCell>
+                              <TableCell className="font-medium">
+                                <div className="flex items-center gap-2">
+                                  {isDeleted ? <Trash2 className="h-4 w-4 text-orange-500" aria-hidden="true" /> : null}
+                                  <span>{user.name ?? "—"}</span>
+                                </div>
+                              </TableCell>
+                              <TableCell>
+                                <div className="flex flex-col">
+                                  <span>{user.email ?? "Ingen e-post"}</span>
+                                  {isDeleted && user.deletedAt ? (
+                                    <span className="text-xs text-muted-foreground">
+                                      Raderad {new Date(user.deletedAt).toLocaleDateString("sv-SE")}
+                                    </span>
+                                  ) : null}
+                                </div>
+                              </TableCell>
+                              <TableCell>
+                                <Badge variant={badgeVariant}>{roleLabel}</Badge>
+                              </TableCell>
+                              <TableCell className="flex justify-end gap-2">
+                                <Button
+                                  variant="ghost"
+                                  size="sm"
+                                  onClick={() => openEditDialog(user)}
+                                  disabled={rowActionUserId === user.id}
+                                >
+                                  <ShieldCheck className="mr-2 h-4 w-4" aria-hidden="true" />
+                                  Redigera
+                                </Button>
+                                {isDeleted ? (
+                                  <Button
+                                    variant="outline"
+                                    size="sm"
+                                    onClick={() => handleRestore(user)}
+                                    disabled={rowActionUserId === user.id}
+                                  >
+                                    {rowActionUserId === user.id ? (
+                                      <Loader2 className="mr-2 h-4 w-4 animate-spin" aria-hidden="true" />
+                                    ) : (
+                                      <Undo2 className="mr-2 h-4 w-4" aria-hidden="true" />
+                                    )}
+                                    Återställ
+                                  </Button>
+                                ) : (
+                                  <Button
+                                    variant="ghost"
+                                    size="sm"
+                                    className="text-destructive hover:text-destructive"
+                                    onClick={() => requestDeleteUser(user)}
+                                    disabled={rowActionUserId === user.id || session?.user.id === user.id}
+                                  >
+                                    {rowActionUserId === user.id ? (
+                                      <Loader2 className="mr-2 h-4 w-4 animate-spin" aria-hidden="true" />
+                                    ) : (
+                                      <Trash2 className="mr-2 h-4 w-4" aria-hidden="true" />
+                                    )}
+                                    Radera
+                                  </Button>
+                                )}
+                              </TableCell>
+                            </TableRow>
+                          )
+                        })
+                      ) : (
+                        <TableRow>
+                          <TableCell colSpan={5} className="py-12 text-center text-muted-foreground">
+                            {showDeleted
+                              ? "Inga raderade användare matchar din sökning."
+                              : "Inga användare matchar din sökning just nu."}
+                          </TableCell>
+                        </TableRow>
+                      )}
+                    </TableBody>
+                  </Table>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          <TabsContent value="roles" className="mt-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Roller & behörighetsnivåer</CardTitle>
+                <CardDescription>Sammanfattning av vad varje roll kan göra (enligt Figma-dokumentet).</CardDescription>
+              </CardHeader>
+              <CardContent className="grid gap-4 md:grid-cols-3">
+                {roleOptions.map((role) => (
+                  <div key={role.value} className="rounded-2xl border border-slate-200 p-4">
+                    <div className="flex items-center gap-2">
+                      <Badge variant="outline" className="text-xs uppercase tracking-wide">
+                        {role.label}
+                      </Badge>
+                    </div>
+                    <p className="mt-2 text-sm text-slate-600">{role.description}</p>
+                  </div>
+                ))}
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          <TabsContent value="activity" className="mt-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Aktivitet & kommande loggar</CardTitle>
+                <CardDescription>
+                  Historik och audit-logg för användarändringar kommer att placeras här enligt Figma-specen.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-sm text-muted-foreground">
+                Funktionaliteten är inte implementerad ännu men layouten följer samma struktur så att loggen kan aktiveras utan
+                ytterligare UI-arbete.
+              </CardContent>
+            </Card>
+          </TabsContent>
+        </Tabs>
+      </section>
 
       <UserFormDialog
         open={formOpen}

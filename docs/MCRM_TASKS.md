@@ -1,4 +1,176 @@
-Läs först @.prompts/start.prompt.md
+# ACTIONS
+
+### Kommuner
+
+- [ ] Tom
+
+
+
+### Föreningar
+
+- [ ] Om man trycker på föreningens namn så ska man länkas till föreningens hemsida om sådan finns. Finns den inte så ska ingen länk finnas
+- [x] Vid klick där länk till annat saknas på hela raden så ska huvudmodalen öppnas
+- [x] Skriv antal förvalda föreningar (100) i dropdown man väljer antal rader i listan
+- [ ] Då man går ur modalen ska den aktuella posten omedelbart uppdateras i föreningstabellen
+- [ ] Sätt 
+
+
+
+### Föreningar - Huvudmodal
+
+- [ ] Lägg fältet Anteckningar längst ner till höger
+
+- [ ] Gör alla URL:er klickbara url på "Detalj-url", "Hemsida"
+
+- [ ] Flytta fältet "KONTAKTER" och lägg det direkt under Adress
+
+- [ ] Gör fältet längst uppe under föreningens titel "1 Kontakter" klickbart så att man kommer till kontaktmodalen.
+
+- [ ] Implementera kontaktmodalen från 
+
+   E:\projects\CRM\legacy\crm-app\components\modals\edit-contact-modal.tsx
+
+​	E:\projects\CRM\legacy\crm-app\components\modals\add-contact-modal.tsx
+
+Detta ska kunna aktiveras från: Föreningstabell - kontaktikon, Huvudmodal - Kontakter (längst uppe), Kontaktfältet i huvudmodalen
+
+- [ ] Implementera skicka epost från E:\projects\CRM\legacy\crm-app\components\modals\send-email-modal.tsx och lägg en epostlänk under åtgärder, samt länk till denna i huvudmodalen, och grupperingar - på kortet
+
+
+
+## Kontakter
+
+Börja med att läsa @/.prompts/start.prompt.md
+
+**Context**
+
+Hanteringen av kontakter håller på att uppdateras och det har varit mycket problem med detta under resans gång. 
+
+Som start så vill jag att du återigen läser igenom de senaste 3 dagarnas worklogs i katalogen @/docs/worklogs
+
+Dessa innehåller väldigt mycket information du kommer ha nytta av.
+
+## Ditt uppdrag:
+
+### Under Huvudmeny -> kontakter:
+
+Här ska en lista finnas med samtliga systemets kontakter listade sorterat per namn. 
+
+- [ ] Alla headers i listan ska vara sorterbara
+- [ ] Sidan ska default visa 100 kontakter, men man ska kunna ställa in 25, 50, 100, 250, 500 
+- [ ] Sidan ska längst ner ha bläddringsfunktionalitet på samma sätt som Föreningssidan
+- [ ] Kolumner från vänster till höger: Checkbox - Namn - Förening - Kommun - Primär kontakt (ja/nej) - Adress - Telefonnummer - Epost - Facebook - Instagram - Twitter - Åtgärder (Penna för stora kontaktmodalen, papperskorg för soft delete)
+
+#### Kontakter - Huvudmodal
+
+- [ ] Då man klickar på kontakten i listan på ett ställe som saknar länk, eller på pennan ska den stora kontaktmodalen per förening öppnas. Denna ska täcka 80 procent av sidan i storlek
+
+- [ ] I modalen ska den övre halvan utgöra en lista - exakt samma som ovan - där alla kontakter **som tillhör föreningen** listas. Klickar man på en kontakt på raden här så öppnas den i nedre halvan
+
+I nedre halvan så ska följande information finnas (förutom allt ovan)
+
+- [ ] Knapp för AI-sökning på sociala medier
+- [ ] Ruta för övriga anteckningar
+- [ ] Anteckningar specifikt för kontakt (exakt samma upplägg som i Föreningssidans huvudmodal) på högersidan. Liknande blogpost-kommentarer. 
+- [ ] 
+
+#### Kontakter - Lägg till kontakt
+
+- [ ] Ska öppna en huvudmodal för kontakter där ingen är vald och man själv fyller i information för ny kontakt och denna kopplas sedan till vald förening
+
+
+
+Implementeras enligt:
+
+**Föreningar huvudmodal**
+
+- [ ] Längst uppe under föreningens titel står det N kontakter. Klickar man där ska Kontakt Huvudmodal komma upp
+- [ ] Kontakter till höger i föreningssidans huvudmodal - klickar man där så ska man kunna lägga till samt redigera (samma modal - men lägg till saknar ifyllda uppgifter)
+- [ ]  Knappen för kontakter längst ute till höger på föreningssidan - länkar till kontaktmodalen med samtliga kontakter listade och den primära kontakten vald
+
+### Summering
+
+Läs de dokument du är instruerad att göra. 
+
+Därefter analysera den befintliga koden gällande detta. Vissa delar saknas. 
+
+Nuvarande fel är Database query failed. Log bifogad längst ner.
+
+Kolla att samtliga kolumner finns på plats - och att de anropas på rätt sätt. Detta har varit ett återkommande problem.
+
+Slutligen:
+Ta fram en detaljerad plan och ett förslag hur detta kan införas på ett sätt som är framgångsrikt och säker. 
+
+Då jag godkänt kör vi.
+
+
+
+Börja med att läsa @/.prompts/start.prompt.md
+
+**Problem**
+
+
+
+**Ditt uppdrag**
+
+- [ ] Task
+- [ ] Task
+- [ ] Task
+- [ ] Task
+
+**Ditt uppdrag**
+
+- [ ] Task
+- [ ] Task
+- [ ] Task
+- [ ] Task
+
+## Grupperingar
+
+Börja med att läsa @/.prompts/start.prompt.md
+
+**Context**
+
+
+
+**Ditt uppdrag**
+
+- [ ] Task
+- [ ] Task
+- [ ] Task
+- [ ] Task
+
+
+
+## Taggar
+
+
+
+## Loggar
+
+
+
+## Användarhantering
+
+# Klara Actions
+
+### Kommuner
+
+- [x] Lägg till checkbox Visa endast valda kommuner
+
+
+
+
+
+
+
+
+
+
+
+## TAGGAR
+
+## Läs först @.prompts/start.prompt.md
 
 ## Ditt uppdrag
 
@@ -468,4 +640,15 @@ Visar 10 av 10 kommuner
 - Föreningsregister (RBOK, FRI, etc) - länka till föreningssidan
 
 Klick ger öppnad högervy
+
+
+
+
+
+
+
+
+
+- [x] Sökning inkluderar inte kommuner
+- [x] Sökning ger svar på O och A om man söker på Ö Ä och Å
 

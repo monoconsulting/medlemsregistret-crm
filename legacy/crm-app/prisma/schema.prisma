@@ -212,9 +212,28 @@ model TagGenerationRun {
   triggeredBy           String?
   triggeredByName       String?
 
+  logs                  TagGenerationLog[]
+
   @@index([status])
   @@index([startedAt])
   @@index([source])
+}
+
+model TagGenerationLog {
+  id        String   @id @default(cuid())
+  jobId     String
+  timestamp DateTime @default(now())
+  level     String   // "DEBUG", "INFO", "WARNING", "ERROR"
+  category  String   // "INIT", "DB_READ", "TAXONOMY_LOAD", "ASSOCIATION_PROCESS", "TAG_MATCH", "TAG_CREATE", "TAG_LINK", "PROGRESS_UPDATE", "REPORT_WRITE", "ERROR", "COMPLETE"
+  message   String   @db.Text
+  data      Json?    // Structured data for search/filtering
+
+  job       TagGenerationRun @relation(fields: [jobId], references: [id], onDelete: Cascade)
+
+  @@index([jobId, timestamp])
+  @@index([level])
+  @@index([category])
+  @@index([timestamp])
 }
 
 model Group {

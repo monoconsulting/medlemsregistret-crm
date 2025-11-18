@@ -26,8 +26,8 @@ $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 // All operations require authentication
 require_auth();
 
-// Only admins can manage taxonomy
-ensure_taxonomy_admin();
+// All authenticated users can manage taxonomy (not just admins)
+// This allows team members to collaboratively maintain data quality
 
 // === GET HANDLER (List Aliases) ===
 
@@ -43,6 +43,17 @@ if ($method === 'POST') {
 
   $body = read_json();
   handle_create_alias($body);
+}
+
+// === PUT HANDLER (Update Alias) ===
+
+if ($method === 'PUT') {
+  require_csrf();
+  rate_limit('tag-taxonomy-write', 20, 60);
+
+  $body = read_json();
+  $id = $_GET['id'] ?? '';
+  handle_update_alias($id, $body);
 }
 
 // === DELETE HANDLER (Delete Alias) ===
@@ -158,6 +169,80 @@ function handle_create_alias(array $body): void {
 }
 
 /**
+ * Update an existing alias mapping
+ */
+function handle_update_alias(string $id, array $body): void {
+  if ($id === '') {
+    json_out(400, ['error' => 'ID is required']);
+  }
+
+  $alias = isset($body['alias']) ? trim($body['alias']) : '';
+  $canonical = isset($body['canonical']) ? trim($body['canonical']) : '';
+  $category = isset($body['category']) ? trim($body['category']) : null;
+
+  // Validate required fields
+  if ($alias === '' || $canonical === '') {
+    json_out(400, ['error' => 'Both alias and canonical are required']);
+  }
+
+  // Normalize to lowercase for consistency (but keep original case for alias due to case-sensitive column)
+  $canonical = mb_strtolower($canonical, 'UTF-8');
+  if ($category) {
+    $category = mb_strtolower($category, 'UTF-8');
+  }
+
+  // Check if alias exists
+  $stmt = db()->prepare('SELECT alias FROM TagAlias WHERE id = ?');
+  $stmt->bind_param('s', $id);
+  $stmt->execute();
+  $result = $stmt->get_result();
+
+  if ($result->num_rows === 0) {
+    json_out(404, ['error' => 'Alias not found']);
+  }
+
+  $oldAlias = $result->fetch_assoc()['alias'];
+
+  // Check if new alias conflicts with another entry (unless it's the same as old)
+  if ($alias !== $oldAlias) {
+    $stmt = db()->prepare('SELECT id FROM TagAlias WHERE alias = ? AND id != ?');
+    $stmt->bind_param('ss', $alias, $id);
+    $stmt->execute();
+    if ($stmt->get_result()->num_rows > 0) {
+      json_out(400, ['error' => 'Alias already exists']);
+    }
+  }
+
+  // Update the alias
+  $stmt = db()->prepare('
+    UPDATE TagAlias
+    SET alias = ?, canonical = ?, category = ?
+    WHERE id = ?
+  ');
+  $stmt->bind_param('ssss', $alias, $canonical, $category, $id);
+
+  if (!$stmt->execute()) {
+    json_out(500, ['error' => 'Failed to update alias']);
+  }
+
+  // Log event
+  log_event('api', 'tag-taxonomy.updated', [
+    'id' => $id,
+    'oldAlias' => $oldAlias,
+    'newAlias' => $alias,
+    'canonical' => $canonical,
+    'category' => $category
+  ]);
+
+  json_out(200, [
+    'id' => $id,
+    'alias' => $alias,
+    'canonical' => $canonical,
+    'category' => $category
+  ]);
+}
+
+/**
  * Delete an alias mapping
  */
 function handle_delete_alias(string $id): void {
@@ -199,27 +284,43 @@ function handle_delete_alias(string $id): void {
 // ============================================================================
 
 /**
- * Ensure user has admin role for taxonomy management
- */
-function ensure_taxonomy_admin(): void {
-  if (!isset($_SESSION['user'])) {
-    json_out(401, ['error' => 'Not authenticated']);
-  }
-
-  $user = $_SESSION['user'];
-
-  if (!isset($user['role']) || $user['role'] !== 'ADMIN') {
-    json_out(403, ['error' => 'Admin role required for taxonomy management']);
-  }
-}
-
-/**
  * Get current user for taxonomy operations
  */
 function get_taxonomy_user(): array {
-  if (!isset($_SESSION['user'])) {
+  $user = get_current_user_from_db();
+
+  if (!$user) {
     json_out(401, ['error' => 'Not authenticated']);
   }
 
-  return $_SESSION['user'];
+  return $user;
+}
+
+/**
+ * Get current user from database using session UID
+ */
+function get_current_user_from_db(): ?array {
+  if (!isset($_SESSION['uid'])) {
+    return null;
+  }
+
+  $userId = (string)$_SESSION['uid'];
+
+  $stmt = db()->prepare('SELECT id, name, email, role FROM User WHERE id = ? LIMIT 1');
+  $stmt->bind_param('s', $userId);
+  $stmt->execute();
+  $result = $stmt->get_result();
+  $row = $result ? $result->fetch_assoc() : null;
+  $stmt->close();
+
+  if (!$row) {
+    return null;
+  }
+
+  return [
+    'id' => (string)$row['id'],
+    'name' => $row['name'] ?? null,
+    'email' => $row['email'] ?? null,
+    'role' => strtoupper((string)($row['role'] ?? 'USER'))
+  ];
 }

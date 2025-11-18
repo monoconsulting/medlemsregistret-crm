@@ -108,6 +108,7 @@ export default function MunicipalitiesPage(): JSX.Element {
   const [selected, setSelected] = useState<Municipality | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
   const [selectedMunicipalities, setSelectedMunicipalities] = useState<string[]>([]);
+  const [showSelectedOnly, setShowSelectedOnly] = useState(false);
   const [sortField, setSortField] = useState<SortField | null>(null);
   const [sortDirection, setSortDirection] = useState<SortDirection>(null);
 
@@ -178,6 +179,11 @@ export default function MunicipalitiesPage(): JSX.Element {
   const filteredMunicipalities = useMemo(() => {
     const query = search.trim();
     let filtered = municipalities.filter((municipality) => {
+      // Filter by selected municipalities if "show selected only" is enabled
+      if (showSelectedOnly && !selectedMunicipalities.includes(municipality.id)) {
+        return false;
+      }
+
       if (filters.county !== "alla" && municipality.county !== filters.county) {
         return false;
       }
@@ -223,7 +229,7 @@ export default function MunicipalitiesPage(): JSX.Element {
     }
 
     return filtered;
-  }, [filters, municipalities, normalise, search, sortField, sortDirection]);
+  }, [filters, municipalities, normalise, search, sortField, sortDirection, showSelectedOnly, selectedMunicipalities]);
 
   const handleViewMunicipalityDetails = useCallback(
     (municipality: Municipality) => {
@@ -315,7 +321,18 @@ export default function MunicipalitiesPage(): JSX.Element {
 
         <Card className="border-gray-200 rounded-xl">
           <CardHeader className="flex flex-row items-center justify-between">
-            <CardTitle className="text-gray-900">Kommunlista</CardTitle>
+            <div className="flex items-center gap-4">
+              <CardTitle className="text-gray-900">Kommunlista</CardTitle>
+              {selectedMunicipalities.length > 0 && (
+                <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
+                  <Checkbox
+                    checked={showSelectedOnly}
+                    onCheckedChange={(checked) => setShowSelectedOnly(Boolean(checked))}
+                  />
+                  <span>Visa valda kommuner</span>
+                </label>
+              )}
+            </div>
             <p className="text-sm text-gray-600">
               Visar {filteredMunicipalities.length} av {municipalities.length} kommuner
               {selectedMunicipalities.length > 0 && (

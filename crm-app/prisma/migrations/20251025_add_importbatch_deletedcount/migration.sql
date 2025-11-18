@@ -1,0 +1,2 @@
+ALTER TABLE `ImportBatch`
+ADD COLUMN `deletedCount` INT NOT NULL DEFAULT 0;

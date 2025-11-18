@@ -2,8 +2,7 @@
 
 import type { JSX } from "react"
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react"
-import { usePathname, useRouter, useSearchParams } from "next/navigation"
-import type { ReadonlyURLSearchParams } from "next/navigation"
+import { usePathname } from "next/navigation"
 import { format } from "date-fns"
 import { sv } from "date-fns/locale"
 import {
@@ -40,6 +39,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { useToast } from "@/hooks/use-toast"
 import { api, type Association, type AssocFilters, type Municipality, type Note, type Tag } from "@/lib/api"
 import { useAuth } from "@/lib/providers/auth-provider"
+import { cn } from "@/lib/utils"
 import {
   Loader2,
   Plus,
@@ -58,6 +58,7 @@ import {
   User,
   Clock,
   Mail,
+  Send,
   ArrowUpDown,
   ArrowUp,
   ArrowDown
@@ -66,9 +67,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { AppLayout } from "@/components/layout/app-layout"
 import { EditAssociationModal } from "@/components/modals/edit-association-modal"
 import { AddNoteModal } from "@/components/modals/add-note-modal"
-import { AssociationContactsModal } from "@/components/modals/association-contacts-modal"
+import { ContactHubModal, type ContactHubAssociationSummary } from "@/components/modals/contact-hub-modal"
 import { AssociationDetailsDialog } from "@/components/modals/association-details-dialog"
 import { AddAssociationsToGroupModal } from "@/components/modals/add-associations-to-group-modal"
+import { SendEmailModal } from "@/components/modals/send-email-modal"
 import { associationUpdateSchema, type AssociationUpdateInput } from "@/lib/validators/association"
 
 interface AssociationRecord extends Association {
@@ -105,7 +107,7 @@ const DEFAULT_FILTERS: AssociationsFiltersState = {
   status: "",
   tags: [],
   page: 1,
-  pageSize: 20,
+  pageSize: 100,
   sort: "updated_desc",
 }
 
@@ -118,9 +120,13 @@ const SORT_OPTIONS = [
 
 const PAGE_SIZE_OPTIONS = [25, 50, 100, 250, 500]
 
-function parseFiltersFromParams(params: ReadonlyURLSearchParams): AssociationsFiltersState {
+function parseFiltersFromParams(params: URLSearchParams | null): AssociationsFiltersState {
   const next: AssociationsFiltersState = {
     ...DEFAULT_FILTERS,
+  }
+
+  if (!params) {
+    return next
   }
 
   const qValue = params.get("q")
@@ -261,11 +267,15 @@ function SortableHeader({ column, currentSort, onSort, children, className }: So
 function AssociationsPageInner(): JSX.Element {
   const { toast } = useToast()
   const { logout, refresh } = useAuth()
-  const router = useRouter()
   const pathname = usePathname()
-  const searchParams = useSearchParams()
-  const [filters, setFilters] = useState<AssociationsFiltersState>(() => parseFiltersFromParams(searchParams))
-  const lastSyncedQueryRef = useRef<string>(searchParams.toString())
+  const [filters, setFilters] = useState<AssociationsFiltersState>(() => {
+    if (typeof window === "undefined") {
+      return DEFAULT_FILTERS
+    }
+    return parseFiltersFromParams(new URLSearchParams(window.location.search))
+  })
+  const initialQuery = typeof window === "undefined" ? "" : window.location.search.slice(1)
+  const lastSyncedQueryRef = useRef<string>(initialQuery)
   const hasBootstrappedRef = useRef(false)
   const [loading, setLoading] = useState(false)
   const [associations, setAssociations] = useState<AssociationRecord[]>([])
@@ -275,6 +285,8 @@ function AssociationsPageInner(): JSX.Element {
   const [availableTypes, setAvailableTypes] = useState<string[]>([])
   const [availableStatuses, setAvailableStatuses] = useState<string[]>([])
   const [error, setError] = useState<string | null>(null)
+  const [searchInput, setSearchInput] = useState(filters.q)
+  const searchTimeoutRef = useRef<NodeJS.Timeout | null>(null)
 
   const [formOpen, setFormOpen] = useState(false)
   const [formMode, setFormMode] = useState<"create" | "edit">("create")
@@ -294,31 +306,38 @@ function AssociationsPageInner(): JSX.Element {
   const [editAssociation, setEditAssociation] = useState<AssociationRecord | null>(null)
 
   const [contactsModalOpen, setContactsModalOpen] = useState(false)
-  const [contactsAssociation, setContactsAssociation] = useState<AssociationRecord | null>(null)
+  const [contactsAssociation, setContactsAssociation] = useState<ContactHubAssociationSummary | null>(null)
+  const [contactsSelectedContactId, setContactsSelectedContactId] = useState<string | null>(null)
 
   const [detailsModalOpen, setDetailsModalOpen] = useState(false)
   const [detailsAssociation, setDetailsAssociation] = useState<AssociationRecord | null>(null)
 
   const [groupModalOpen, setGroupModalOpen] = useState(false)
 
+  const [sendEmailModalOpen, setSendEmailModalOpen] = useState(false)
+  const [emailAssociation, setEmailAssociation] = useState<AssociationRecord | null>(null)
+
   const [deleteTarget, setDeleteTarget] = useState<AssociationRecord | null>(null)
   const [deleteSubmitting, setDeleteSubmitting] = useState(false)
   const [selectedAssociations, setSelectedAssociations] = useState<Set<string>>(new Set())
 
   useEffect(() => {
-    const incomingQuery = searchParams.toString()
-    if (!hasBootstrappedRef.current) {
+    if (typeof window === "undefined") {
+      return
+    }
+
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search)
+      const incomingQuery = params.toString()
       lastSyncedQueryRef.current = incomingQuery
-      return
+      const newFilters = parseFiltersFromParams(params)
+      setFilters(newFilters)
+      setSearchInput(newFilters.q)
     }
 
-    if (incomingQuery === lastSyncedQueryRef.current) {
-      return
-    }
-
-    lastSyncedQueryRef.current = incomingQuery
-    setFilters(parseFiltersFromParams(searchParams))
-  }, [searchParams])
+    window.addEventListener("popstate", handlePopState)
+    return () => window.removeEventListener("popstate", handlePopState)
+  }, [])
 
   useEffect(() => {
     const nextQuery = buildQueryFromFilters(filters)
@@ -334,8 +353,14 @@ function AssociationsPageInner(): JSX.Element {
 
     lastSyncedQueryRef.current = nextQuery
     const target = nextQuery ? `${pathname}?${nextQuery}` : pathname
-    router.replace(target, { scroll: false })
-  }, [filters, pathname, router])
+
+    if (typeof window !== "undefined" && window.history?.replaceState) {
+      const current = `${window.location.pathname}${window.location.search}`
+      if (current !== target) {
+        window.history.replaceState(null, "", target)
+      }
+    }
+  }, [filters, pathname])
 
   const formDefaults: AssociationFormState = useMemo(() => {
     if (!formAssociation) {
@@ -420,6 +445,29 @@ function AssociationsPageInner(): JSX.Element {
     void run()
   }, [toast])
 
+  const handleSearchChange = (value: string) => {
+    setSearchInput(value)
+
+    // Clear any existing timeout
+    if (searchTimeoutRef.current) {
+      clearTimeout(searchTimeoutRef.current)
+    }
+
+    // Set new timeout to update filters after 300ms
+    searchTimeoutRef.current = setTimeout(() => {
+      handleFilterChange({ q: value, page: 1 })
+    }, 300)
+  }
+
+  // Cleanup timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (searchTimeoutRef.current) {
+        clearTimeout(searchTimeoutRef.current)
+      }
+    }
+  }, [])
+
   const handleFilterChange = (next: Partial<AssocFilters>) => {
     setFilters((prev) => {
       const merged: AssociationsFiltersState = {
@@ -454,6 +502,12 @@ function AssociationsPageInner(): JSX.Element {
       newSort = currentSort === "crm_status_asc" ? "crm_status_desc" : "crm_status_asc"
     } else if (column === "pipeline") {
       newSort = currentSort === "pipeline_asc" ? "pipeline_desc" : "pipeline_asc"
+    } else if (column === "municipality") {
+      newSort = currentSort === "municipality_asc" ? "municipality_desc" : "municipality_asc"
+    } else if (column === "email") {
+      newSort = currentSort === "email_asc" ? "email_desc" : "email_asc"
+    } else if (column === "type") {
+      newSort = currentSort === "type_asc" ? "type_desc" : "type_asc"
     }
 
     handleFilterChange({ sort: newSort })
@@ -672,8 +726,16 @@ function AssociationsPageInner(): JSX.Element {
     }
   }
 
-  const handleOpenContactsModal = (assoc: AssociationRecord) => {
-    setContactsAssociation(assoc)
+  const handleOpenContactsModal = (assoc: Association, contactId?: string | null) => {
+    setContactsAssociation({
+      id: assoc.id,
+      name: assoc.name,
+      municipalityName: assoc.municipality_name ?? assoc.municipality ?? null,
+      streetAddress: assoc.street_address ?? (assoc as any).streetAddress ?? null,
+      postalCode: assoc.postal_code ?? (assoc as any).postalCode ?? null,
+      city: assoc.city ?? assoc.municipality ?? null,
+    })
+    setContactsSelectedContactId(contactId ?? (assoc as any).primary_contact?.id ?? null)
     setContactsModalOpen(true)
   }
 
@@ -689,6 +751,11 @@ function AssociationsPageInner(): JSX.Element {
   const handleGroupModalCompleted = () => {
     setSelectedAssociations(new Set())
     void loadAssociations()
+  }
+
+  const handleOpenEmailModal = (assoc: AssociationRecord) => {
+    setEmailAssociation(assoc)
+    setSendEmailModalOpen(true)
   }
 
   return (
@@ -718,8 +785,8 @@ function AssociationsPageInner(): JSX.Element {
                 <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
                 <Input
                   placeholder="Sök föreningar eller ansvariga..."
-                  value={filters.q}
-                  onChange={(event) => handleFilterChange({ q: event.target.value })}
+                  value={searchInput}
+                  onChange={(event) => handleSearchChange(event.target.value)}
                   className="pl-10"
                 />
               </div>
@@ -762,7 +829,9 @@ function AssociationsPageInner(): JSX.Element {
                 onValueChange={(value) => handleFilterChange({ pageSize: Number(value), page: 1 })}
               >
                 <SelectTrigger>
-                  <SelectValue />
+                  <SelectValue placeholder={`${filters.pageSize} per sida`}>
+                    {filters.pageSize} per sida
+                  </SelectValue>
                 </SelectTrigger>
                 <SelectContent>
                   {PAGE_SIZE_OPTIONS.map((size) => (
@@ -777,8 +846,13 @@ function AssociationsPageInner(): JSX.Element {
         </Card>
 
         <Card className="border-gray-200 rounded-xl">
-          <CardHeader>
+          <CardHeader className="flex flex-row items-center justify-between">
             <CardTitle className="text-gray-900">Föreningslista</CardTitle>
+            {pageCount > 1 && (
+              <div className="text-sm text-gray-600">
+                Sida {filters.page} av {pageCount}
+              </div>
+            )}
           </CardHeader>
           <CardContent className="p-0">
             {loading ? (
@@ -799,7 +873,14 @@ function AssociationsPageInner(): JSX.Element {
                           aria-label="Välj alla föreningar"
                         />
                       </TableHead>
-                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Kommun</TableHead>
+                      <SortableHeader
+                        column="municipality"
+                        currentSort={filters.sort}
+                        onSort={handleSortChange}
+                        className="px-6 py-3 text-left text-sm text-gray-600"
+                      >
+                        Kommun
+                      </SortableHeader>
                       <SortableHeader
                         column="name"
                         currentSort={filters.sort}
@@ -824,8 +905,22 @@ function AssociationsPageInner(): JSX.Element {
                       >
                         Pipeline
                       </SortableHeader>
-                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Kontakt</TableHead>
-                      <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Föreningstyp</TableHead>
+                      <SortableHeader
+                        column="email"
+                        currentSort={filters.sort}
+                        onSort={handleSortChange}
+                        className="px-6 py-3 text-left text-sm text-gray-600"
+                      >
+                        Kontakt
+                      </SortableHeader>
+                      <SortableHeader
+                        column="type"
+                        currentSort={filters.sort}
+                        onSort={handleSortChange}
+                        className="px-6 py-3 text-left text-sm text-gray-600"
+                      >
+                        Föreningstyp
+                      </SortableHeader>
                       <TableHead className="px-6 py-3 text-left text-sm text-gray-600">Taggar</TableHead>
                       <SortableHeader
                         column="updated"
@@ -840,7 +935,11 @@ function AssociationsPageInner(): JSX.Element {
                   </TableHeader>
                   <TableBody className="divide-y divide-gray-200">
                     {associations.map((association) => (
-                      <TableRow key={association.id} className="hover:bg-gray-50 transition-colors">
+                      <TableRow
+                        key={association.id}
+                        className="hover:bg-gray-50 transition-colors cursor-pointer"
+                        onClick={() => handleOpenDetailsModal(association)}
+                      >
                         <TableCell className="px-4 py-4 w-12" onClick={(e) => e.stopPropagation()}>
                           <Checkbox
                             checked={selectedAssociations.has(association.id)}
@@ -848,21 +947,33 @@ function AssociationsPageInner(): JSX.Element {
                             aria-label={`Välj ${association.name}`}
                           />
                         </TableCell>
-                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
+                        <TableCell className="px-6 py-4">
                           <div className="flex items-center gap-2">
                             <MapPin className="w-4 h-4 text-gray-400" />
                             <span className="text-sm text-gray-900">{association.municipality_name ?? "-"}</span>
                           </div>
                         </TableCell>
-                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
+                        <TableCell className="px-6 py-4">
                           <div className="flex items-center gap-2">
                             <Building2 className="w-4 h-4 text-gray-400" />
-                            <span className="text-sm text-gray-900 hover:text-orange-600 transition-colors">
-                              {association.name}
-                            </span>
+                            {association.website ? (
+                              <a
+                                href={association.website}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-sm text-gray-900 hover:text-orange-600 transition-colors hover:underline"
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                {association.name}
+                              </a>
+                            ) : (
+                              <span className="text-sm text-gray-900">
+                                {association.name}
+                              </span>
+                            )}
                           </div>
                         </TableCell>
-                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
+                        <TableCell className="px-6 py-4">
                           <Badge
                             variant="outline"
                             className={
@@ -874,20 +985,20 @@ function AssociationsPageInner(): JSX.Element {
                             {association.status ?? "-"}
                           </Badge>
                         </TableCell>
-                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
+                        <TableCell className="px-6 py-4">
                           <Badge variant="outline" className="border-blue-200 text-blue-700 bg-blue-50">
                             {association.type ?? "-"}
                           </Badge>
                         </TableCell>
-                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
+                        <TableCell className="px-6 py-4">
                           <div className="flex items-center gap-2">
                             <User className="w-4 h-4 text-gray-400" />
-                            <span className="text-sm text-gray-900 hover:text-orange-600 transition-colors">
+                            <span className="text-sm text-gray-900">
                               {association.email || "-"}
                             </span>
                           </div>
                         </TableCell>
-                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
+                        <TableCell className="px-6 py-4">
                           <Badge
                             variant="outline"
                             className="border-gray-200 text-gray-700"
@@ -895,7 +1006,7 @@ function AssociationsPageInner(): JSX.Element {
                             {association.type ?? "-"}
                           </Badge>
                         </TableCell>
-                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
+                        <TableCell className="px-6 py-4">
                           <div className="flex flex-wrap gap-1">
                             {association.tags.slice(0, 2).map((tag) => (
                               <Badge
@@ -916,7 +1027,7 @@ function AssociationsPageInner(): JSX.Element {
                             )}
                           </div>
                         </TableCell>
-                        <TableCell className="px-6 py-4 cursor-pointer" onClick={() => handleOpenDetailsModal(association)}>
+                        <TableCell className="px-6 py-4">
                           <div className="flex items-center gap-2">
                             <Clock className="w-4 h-4 text-gray-400" />
                             <span className="text-sm text-gray-600">
@@ -955,11 +1066,22 @@ function AssociationsPageInner(): JSX.Element {
                               size="sm"
                               onClick={(e) => {
                                 e.stopPropagation()
-                                handleOpenContactsModal(association)
+                                handleOpenContactsModal(association, association.primary_contact?.id ?? null)
                               }}
                               title="Kontakter"
                             >
                               <User className="w-4 h-4" />
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                handleOpenEmailModal(association)
+                              }}
+                              title="Skicka e-post"
+                            >
+                              <Send className="w-4 h-4" />
                             </Button>
                             <Button
                               variant="ghost"
@@ -996,6 +1118,15 @@ function AssociationsPageInner(): JSX.Element {
                     )}
                   </TableBody>
                 </Table>
+              </div>
+            )}
+            {!loading && !error && pageCount > 1 && (
+              <div className="border-t px-6 py-4">
+                <Pagination
+                  currentPage={filters.page}
+                  totalPages={pageCount}
+                  onPageChange={(page) => handleFilterChange({ page })}
+                />
               </div>
             )}
           </CardContent>
@@ -1045,11 +1176,17 @@ function AssociationsPageInner(): JSX.Element {
         />
       )}
 
-      <AssociationContactsModal
-        associationId={contactsAssociation?.id ?? null}
-        associationName={contactsAssociation?.name ?? ""}
+      <ContactHubModal
+        association={contactsAssociation}
         open={contactsModalOpen}
-        onOpenChange={setContactsModalOpen}
+        selectedContactId={contactsSelectedContactId}
+        onOpenChange={(open) => {
+          setContactsModalOpen(open)
+          if (!open) {
+            setContactsAssociation(null)
+            setContactsSelectedContactId(null)
+          }
+        }}
         onUpdated={() => loadAssociations()}
       />
 
@@ -1058,6 +1195,7 @@ function AssociationsPageInner(): JSX.Element {
         open={detailsModalOpen}
         onOpenChange={setDetailsModalOpen}
         onUpdated={() => loadAssociations()}
+        onOpenContacts={(assoc) => handleOpenContactsModal(assoc, assoc.primary_contact?.id ?? null)}
       />
 
       <AddAssociationsToGroupModal
@@ -1065,6 +1203,15 @@ function AssociationsPageInner(): JSX.Element {
         onOpenChange={setGroupModalOpen}
         associationIds={Array.from(selectedAssociations)}
         onCompleted={handleGroupModalCompleted}
+      />
+
+      <SendEmailModal
+        open={sendEmailModalOpen}
+        onOpenChange={setSendEmailModalOpen}
+        associationId={emailAssociation?.id ?? ""}
+        associationName={emailAssociation?.name ?? ""}
+        defaultRecipient={emailAssociation?.email}
+        onCompleted={() => loadAssociations()}
       />
 
       <AlertDialog open={Boolean(deleteTarget)} onOpenChange={(open) => !open && setDeleteTarget(null)}>
@@ -1084,6 +1231,115 @@ function AssociationsPageInner(): JSX.Element {
         </AlertDialogContent>
       </AlertDialog>
     </AppLayout>
+  )
+}
+
+interface PaginationProps {
+  currentPage: number
+  totalPages: number
+  onPageChange: (page: number) => void
+}
+
+function Pagination({ currentPage, totalPages, onPageChange }: PaginationProps) {
+  const getPageNumbers = () => {
+    const pages: (number | string)[] = []
+    const maxVisible = 10
+
+    if (totalPages <= maxVisible + 2) {
+      // Show all pages if total is small
+      for (let i = 1; i <= totalPages; i++) {
+        pages.push(i)
+      }
+    } else {
+      // Calculate range to show
+      let start = Math.max(2, currentPage - Math.floor(maxVisible / 2))
+      let end = Math.min(totalPages - 1, start + maxVisible - 1)
+
+      // Adjust start if we're near the end
+      if (end === totalPages - 1) {
+        start = Math.max(2, end - maxVisible + 1)
+      }
+
+      // Always show first page
+      pages.push(1)
+
+      // Add ellipsis if needed
+      if (start > 2) {
+        pages.push('...')
+      }
+
+      // Add middle pages
+      for (let i = start; i <= end; i++) {
+        pages.push(i)
+      }
+
+      // Add ellipsis if needed
+      if (end < totalPages - 1) {
+        pages.push('...')
+      }
+
+      // Always show last page
+      pages.push(totalPages)
+    }
+
+    return pages
+  }
+
+  const pages = getPageNumbers()
+
+  return (
+    <div className="flex items-center justify-center gap-1">
+      <Button
+        variant="outline"
+        size="sm"
+        onClick={() => onPageChange(currentPage - 1)}
+        disabled={currentPage === 1}
+        className="px-3"
+      >
+        Föregående
+      </Button>
+
+      {pages.map((page, index) => (
+        typeof page === 'number' ? (
+          <Button
+            key={`page-${page}`}
+            variant={currentPage === page ? "default" : "outline"}
+            size="sm"
+            onClick={() => onPageChange(page)}
+            className={cn(
+              "w-10",
+              currentPage === page && "bg-orange-600 hover:bg-orange-700 text-white"
+            )}
+          >
+            {page}
+          </Button>
+        ) : (
+          <span key={`ellipsis-${index}`} className="px-2 text-gray-500">
+            {page}
+          </span>
+        )
+      ))}
+
+      <Button
+        variant="outline"
+        size="sm"
+        onClick={() => onPageChange(currentPage + 1)}
+        disabled={currentPage === totalPages}
+        className="px-3"
+      >
+        Nästa
+      </Button>
+
+      <Button
+        variant="outline"
+        size="sm"
+        onClick={() => onPageChange(totalPages)}
+        disabled={currentPage === totalPages}
+        className="px-3"
+      >
+        Sista
+      </Button>
+    </div>
   )
 }
 

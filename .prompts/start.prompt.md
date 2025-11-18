@@ -5,10 +5,16 @@
    - `@claude.md`
    - `README.md`
    - `AGENTS.md`
+   - The last days worklogs from `@docs/worklogs/`
 
    These documents contain the essential background and project context you must understand before proceeding.
 
    ------
+ 
+ **IMPORTANT SYSTEM SPECIFIC INFORMATION**
+ This system is a CRM application deployed on a remote web hosting service. The frontend is served as a static site, and the backend uses a MySQL database hosted on the same web hotel. Node.js servers cannot be run on this hosting environment, so all server-side logic is handled via PHP scripts and static exports. Everything must be compatible with this environment. The database is MySQL and is hosted on the same web hotel and the credentials are stored in the .env file.
+
+
 
    ## 🔒 CRITICAL OPERATIONAL RULES
 
