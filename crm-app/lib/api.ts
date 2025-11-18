@@ -77,6 +77,7 @@ export interface AssocFilters extends Pagination {
   pipelines?: string[];
   activities?: string[];
   tags?: string[]; // tag names or IDs (backend accepts both, see PHP)
+  groupId?: string;
   hasEmail?: boolean;
   hasPhone?: boolean;
   isMember?: boolean;
@@ -197,6 +198,11 @@ export interface GroupDetail extends Group {
 export interface Contact {
   id: string;
   association_id: string;
+  association_name?: string | null;
+  municipality_name?: string | null;
+  association_street_address?: string | null;
+  association_postal_code?: string | null;
+  association_city?: string | null;
   name: string | null;
   role: string | null;
   email: string | null;
@@ -209,6 +215,16 @@ export interface Contact {
   is_primary: boolean;
   created_at: string;
   updated_at: string;
+}
+
+export interface ContactNote {
+  id: string;
+  contact_id: string;
+  content: string;
+  created_at: string;
+  updated_at: string;
+  author_name?: string | null;
+  author?: string | null;
 }
 
 export interface AssociationActivity {
@@ -588,6 +604,7 @@ export const api = {
     if (filters.pipelines?.length) filters.pipelines.forEach(value => params.append('pipelines[]', value));
     if (filters.activities?.length) filters.activities.forEach(value => params.append('activities[]', value));
     if (filters.tags?.length) filters.tags.forEach(t => params.append('tags[]', t));
+    if (filters.groupId) params.set('groupId', filters.groupId);
     if (filters.hasEmail !== undefined) params.set('hasEmail', filters.hasEmail ? '1' : '0');
     if (filters.hasPhone !== undefined) params.set('hasPhone', filters.hasPhone ? '1' : '0');
     if (filters.isMember !== undefined) params.set('isMember', filters.isMember ? '1' : '0');
@@ -652,6 +669,23 @@ export const api = {
   },
 
   /**
+   * Exports selected associations to CSV.
+   *
+   * Args:
+   *   associationIds: string[] - Array of association IDs to export
+   *   columns: string[] - Array of column keys to include in export
+   *
+   * Returns:
+   *   Promise<{filename: string, mimeType: string, data: string}> - base64 encoded CSV data
+   */
+  async exportAssociations(
+    associationIds: string[],
+    columns: string[]
+  ): Promise<{ filename: string; mimeType: string; data: string }> {
+    return jsonFetch('/api/associations.php', { method: 'POST', body: { action: 'export', associationIds, columns } }, true);
+  },
+
+  /**
    * Lists contacts for an association.
    */
   async getContacts(associationId: AssocID): Promise<Contact[]> {
@@ -659,6 +693,83 @@ export const api = {
       method: 'GET',
     });
     return res.items as Contact[];
+  },
+
+  /**
+   * Lists all contacts with pagination and search.
+   *
+   * Args:
+   *   params: { q?: string, page?: number, pageSize?: number, sort?: string }
+   *
+   * Returns:
+   *   Promise<{items: Contact[], total: number}>
+   */
+  async getAllContacts(params: {
+    q?: string;
+    page?: number;
+    pageSize?: number;
+    sort?: string;
+  } = {}): Promise<{ items: Contact[]; total: number }> {
+    const searchParams = new URLSearchParams();
+    if (params.q) searchParams.set('q', params.q);
+    if (params.page) searchParams.set('page', String(params.page));
+    if (params.pageSize) searchParams.set('pageSize', String(params.pageSize));
+    if (params.sort) searchParams.set('sort', params.sort);
+
+    const url = searchParams.toString()
+      ? `/api/contacts.php?${searchParams}`
+      : '/api/contacts.php';
+
+    return jsonFetch(url, { method: 'GET' });
+  },
+
+  /**
+   * Gets notes for a contact.
+   *
+   * Args:
+   *   contactId: string - contact ID
+   *
+   * Returns:
+   *   Promise<ContactNote[]>
+   */
+  async getContactNotes(contactId: string): Promise<ContactNote[]> {
+    const res = await jsonFetch(`/api/contact_notes.php?contact_id=${encodeURIComponent(contactId)}`, {
+      method: 'GET',
+    });
+    return (res.items || []) as ContactNote[];
+  },
+
+  /**
+   * Creates a note for a contact.
+   *
+   * Args:
+   *   contactId: string - contact ID
+   *   content: string - note content
+   *
+   * Returns:
+   *   Promise<{id: string}>
+   */
+  async createContactNote(contactId: string, content: string): Promise<{ id: string }> {
+    return jsonFetch('/api/contact_notes.php', {
+      method: 'POST',
+      body: { contact_id: contactId, content },
+    }, true);
+  },
+
+  /**
+   * Requests an AI social media lookup for a contact.
+   *
+   * Args:
+   *   contactId: string - contact ID
+   *
+   * Returns:
+   *   Promise<{message: string}>
+   */
+  async requestContactSocialLookup(contactId: string): Promise<{ message: string }> {
+    return jsonFetch('/api/contact_social_lookup.php', {
+      method: 'POST',
+      body: { contact_id: contactId },
+    }, true);
   },
 
   /**
@@ -990,8 +1101,39 @@ export const api = {
     errors: string[];
     triggeredBy: string;
     triggeredByName: string;
+    totalAssociations: number | null;
+    progressPercent: number | null;
   }> {
     return jsonFetch(`/api/tag_generation.php?jobId=${encodeURIComponent(jobId)}`, { method: 'GET' });
+  },
+
+  /**
+   * Gets logs for a tag generation job.
+   *
+   * Args:
+   *   jobId: string - job identifier
+   *   level?: string - filter by log level (ERROR, WARNING, INFO, DEBUG)
+   *   category?: string - filter by category
+   *   limit?: number - max results (default 100, max 1000)
+   *   offset?: number - pagination offset (default 0)
+   *
+   * Returns:
+   *   Promise<{items: any[], total: number, limit: number, offset: number}>
+   */
+  async getTagGenerationLogs(
+    jobId: string,
+    level?: string,
+    category?: string,
+    limit?: number,
+    offset?: number
+  ): Promise<{ items: any[]; total: number; limit: number; offset: number }> {
+    const searchParams = new URLSearchParams({ jobId });
+    if (level) searchParams.set('level', level);
+    if (category) searchParams.set('category', category);
+    if (limit) searchParams.set('limit', String(limit));
+    if (offset) searchParams.set('offset', String(offset));
+
+    return jsonFetch(`/api/tag_generation_logs.php?${searchParams}`, { method: 'GET' });
   },
 
   /**
@@ -1061,6 +1203,25 @@ export const api = {
    */
   async createTagAlias(alias: string, canonical: string, category?: string): Promise<{ id: string }> {
     return jsonFetch('/api/tag_taxonomy.php', { method: 'POST', body: { alias, canonical, category } }, true);
+  },
+
+  /**
+   * Updates a taxonomy alias.
+   *
+   * Args:
+   *   id: string - alias ID
+   *   alias: string - new alias text
+   *   canonical: string - new canonical tag name
+   *   category?: string - optional category
+   *
+   * Returns:
+   *   Promise<{success: boolean}>
+   */
+  async updateTagAlias(id: string, alias: string, canonical: string, category?: string): Promise<{ success: boolean }> {
+    return jsonFetch('/api/tag_taxonomy.php', {
+      method: 'PUT',
+      body: { id, alias, canonical, category },
+    }, true);
   },
 
   /**

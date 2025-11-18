@@ -37,7 +37,7 @@ import {
 } from "@/components/ui/alert-dialog"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { useToast } from "@/hooks/use-toast"
-import { api, type Association, type AssocFilters, type Municipality, type Note, type Tag } from "@/lib/api"
+import { api, type Association, type AssocFilters, type Municipality, type Note, type Tag, type Group } from "@/lib/api"
 import { useAuth } from "@/lib/providers/auth-provider"
 import { cn } from "@/lib/utils"
 import {
@@ -71,6 +71,7 @@ import { ContactHubModal, type ContactHubAssociationSummary } from "@/components
 import { AssociationDetailsDialog } from "@/components/modals/association-details-dialog"
 import { AddAssociationsToGroupModal } from "@/components/modals/add-associations-to-group-modal"
 import { SendEmailModal } from "@/components/modals/send-email-modal"
+import { ExportAssociationsModal } from "@/components/modals/export-associations-modal"
 import { associationUpdateSchema, type AssociationUpdateInput } from "@/lib/validators/association"
 
 interface AssociationRecord extends Association {
@@ -95,6 +96,7 @@ type AssociationsFiltersState = {
   type: string
   status: string
   tags: string[]
+  groupId: string
   page: number
   pageSize: number
   sort: NonNullable<AssocFilters["sort"]>
@@ -106,6 +108,7 @@ const DEFAULT_FILTERS: AssociationsFiltersState = {
   type: "",
   status: "",
   tags: [],
+  groupId: "",
   page: 1,
   pageSize: 100,
   sort: "updated_desc",
@@ -147,6 +150,11 @@ function parseFiltersFromParams(params: URLSearchParams | null): AssociationsFil
   const statusValue = params.get("status")
   if (statusValue) {
     next.status = statusValue
+  }
+
+  const groupValue = params.get("groupId")
+  if (groupValue) {
+    next.groupId = groupValue
   }
 
   const tagsValue = params.get("tags")
@@ -192,6 +200,10 @@ function buildQueryFromFilters(filters: AssociationsFiltersState): string {
 
   if (filters.status) {
     params.set("status", filters.status)
+  }
+
+  if (filters.groupId) {
+    params.set("groupId", filters.groupId)
   }
 
   if (filters.tags.length > 0) {
@@ -282,6 +294,7 @@ function AssociationsPageInner(): JSX.Element {
   const [total, setTotal] = useState(0)
   const [municipalities, setMunicipalities] = useState<Municipality[]>([])
   const [tags, setTags] = useState<Tag[]>([])
+  const [groups, setGroups] = useState<Group[]>([])
   const [availableTypes, setAvailableTypes] = useState<string[]>([])
   const [availableStatuses, setAvailableStatuses] = useState<string[]>([])
   const [error, setError] = useState<string | null>(null)
@@ -316,6 +329,8 @@ function AssociationsPageInner(): JSX.Element {
 
   const [sendEmailModalOpen, setSendEmailModalOpen] = useState(false)
   const [emailAssociation, setEmailAssociation] = useState<AssociationRecord | null>(null)
+
+  const [exportModalOpen, setExportModalOpen] = useState(false)
 
   const [deleteTarget, setDeleteTarget] = useState<AssociationRecord | null>(null)
   const [deleteSubmitting, setDeleteSubmitting] = useState(false)
@@ -414,6 +429,11 @@ function AssociationsPageInner(): JSX.Element {
       const statuses = Array.from(new Set(mapped.map((item) => item.status).filter(Boolean))) as string[]
       setAvailableTypes(types)
       setAvailableStatuses(statuses)
+      if (filters.groupId) {
+        setSelectedAssociations(new Set(mapped.map((a) => a.id)))
+      } else {
+        setSelectedAssociations(new Set())
+      }
     } catch (err) {
       const message = err instanceof Error ? err.message : "Kunde inte hämta föreningar"
       if (message.toLowerCase().includes("not authenticated")) {
@@ -434,9 +454,14 @@ function AssociationsPageInner(): JSX.Element {
   useEffect(() => {
     const run = async () => {
       try {
-        const [municipalityList, tagList] = await Promise.all([api.getMunicipalities(), api.getTags()])
+        const [municipalityList, tagList, groupList] = await Promise.all([
+          api.getMunicipalities(),
+          api.getTags(),
+          api.getGroups(),
+        ])
         setMunicipalities(municipalityList)
         setTags(tagList)
+        setGroups(groupList)
       } catch (err) {
         const message = err instanceof Error ? err.message : "Kunde inte hämta referensdata"
         toast({ title: "Fel", description: message, variant: "destructive" })
@@ -758,6 +783,55 @@ function AssociationsPageInner(): JSX.Element {
     setSendEmailModalOpen(true)
   }
 
+  const handleOpenExportModal = () => {
+    if (selectedAssociations.size === 0) {
+      toast({
+        title: "Ingen förening vald",
+        description: "Välj minst en förening att exportera",
+        variant: "destructive",
+      })
+      return
+    }
+    setExportModalOpen(true)
+  }
+
+  const handleExport = async (selectedColumns: string[]) => {
+    try {
+      const associationIds = Array.from(selectedAssociations)
+      const result = await api.exportAssociations(associationIds, selectedColumns)
+
+      // Decode base64 data
+      const binaryString = atob(result.data)
+      const bytes = new Uint8Array(binaryString.length)
+      for (let i = 0; i < binaryString.length; i++) {
+        bytes[i] = binaryString.charCodeAt(i)
+      }
+
+      // Create blob and trigger download
+      const blob = new Blob([bytes], { type: result.mimeType })
+      const url = window.URL.createObjectURL(blob)
+      const link = document.createElement('a')
+      link.href = url
+      link.download = result.filename
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      window.URL.revokeObjectURL(url)
+
+      toast({
+        title: "Export lyckades",
+        description: `${associationIds.length} ${associationIds.length === 1 ? 'förening' : 'föreningar'} exporterades till ${result.filename}`,
+      })
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Kunde inte exportera föreningar"
+      toast({
+        title: "Export misslyckades",
+        description: message,
+        variant: "destructive",
+      })
+    }
+  }
+
   return (
     <AppLayout
       title="Föreningar"
@@ -770,9 +844,14 @@ function AssociationsPageInner(): JSX.Element {
               Gruppera
             </Button>
           )}
-          <Button variant="outline" className="rounded-lg">
+          <Button
+            variant="outline"
+            className="rounded-lg"
+            onClick={handleOpenExportModal}
+            disabled={selectedAssociations.size === 0}
+          >
             <Download className="w-4 h-4 mr-2" />
-            Exportera
+            Exportera {selectedAssociations.size > 0 ? `(${selectedAssociations.size})` : ''}
           </Button>
         </div>
       }
@@ -780,7 +859,7 @@ function AssociationsPageInner(): JSX.Element {
       <div className="space-y-6">
         <Card className="border-gray-200 rounded-xl">
           <CardContent className="p-6">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-4">
               <div className="relative">
                 <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
                 <Input
@@ -802,6 +881,23 @@ function AssociationsPageInner(): JSX.Element {
                   {municipalities.map((municipality) => (
                     <SelectItem key={municipality.id} value={String(municipality.id)}>
                       {municipality.name}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+
+              <Select
+                value={filters.groupId || "__all__"}
+                onValueChange={(value) => handleFilterChange({ groupId: value === "__all__" ? "" : value })}
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder="Välj grupp" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="__all__">Alla grupper</SelectItem>
+                  {groups.map((group) => (
+                    <SelectItem key={group.id} value={String(group.id)}>
+                      {group.name}
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -864,6 +960,11 @@ function AssociationsPageInner(): JSX.Element {
             ) : (
               <div className="overflow-x-auto">
                 <Table>
+                  {selectedAssociations.size > 0 && (
+                    <caption className="caption-top text-sm text-muted-foreground p-2">
+                      {selectedAssociations.size} antal föreningar valda
+                    </caption>
+                  )}
                   <TableHeader>
                     <TableRow className="bg-gray-50 border-b border-gray-200">
                       <TableHead className="px-4 py-3 w-12">
@@ -1212,6 +1313,13 @@ function AssociationsPageInner(): JSX.Element {
         associationName={emailAssociation?.name ?? ""}
         defaultRecipient={emailAssociation?.email}
         onCompleted={() => loadAssociations()}
+      />
+
+      <ExportAssociationsModal
+        open={exportModalOpen}
+        onOpenChange={setExportModalOpen}
+        selectedAssociationIds={Array.from(selectedAssociations)}
+        onExport={handleExport}
       />
 
       <AlertDialog open={Boolean(deleteTarget)} onOpenChange={(open) => !open && setDeleteTarget(null)}>

@@ -25,7 +25,13 @@ switch ($method) {
     handle_list_associations();
     break;
   case 'POST':
-    handle_create_association();
+    $body = read_json();
+    $action = $body['action'] ?? 'create';
+    if ($action === 'export') {
+      handle_export_associations();
+    } else {
+      handle_create_association();
+    }
     break;
   case 'PUT':
   case 'PATCH':
@@ -50,8 +56,8 @@ function handle_list_associations(): void {
   $pageSize = (int)($_GET['pageSize'] ?? 20);
   if ($pageSize < 1) {
     $pageSize = 20;
-  } elseif ($pageSize > 100) {
-    $pageSize = 100;
+  } elseif ($pageSize > 500) {
+    $pageSize = 500;
   }
   $offset = ($page - 1) * $pageSize;
 
@@ -615,6 +621,14 @@ function apply_filters(array $where, array $params, string $types, array $joins)
     }
   }
 
+  $groupId = trim((string)($_GET['groupId'] ?? ''));
+  if ($groupId !== '') {
+    $joins[] = 'INNER JOIN GroupMembership gm ON gm.associationId = a.id';
+    $where[] = 'gm.groupId = ?';
+    $params[] = $groupId;
+    $types .= 's';
+  }
+
   $hasEmail = get_query_bool('hasEmail');
   if ($hasEmail !== null) {
     if ($hasEmail) {
@@ -796,9 +810,9 @@ function build_sort_sql(?string $sort): string {
     case 'updated_desc':
       return 'ORDER BY a.updatedAt DESC';
     case 'name_asc':
-      return 'ORDER BY a.name ASC';
+      return 'ORDER BY a.name COLLATE utf8mb4_swedish_ci ASC';
     case 'name_desc':
-      return 'ORDER BY a.name DESC';
+      return 'ORDER BY a.name COLLATE utf8mb4_swedish_ci DESC';
     case 'created_asc':
       return 'ORDER BY a.createdAt ASC';
     case 'created_desc':
@@ -811,6 +825,18 @@ function build_sort_sql(?string $sort): string {
       return 'ORDER BY a.pipeline ASC';
     case 'pipeline_desc':
       return 'ORDER BY a.pipeline DESC';
+    case 'municipality_asc':
+      return 'ORDER BY m.name COLLATE utf8mb4_swedish_ci ASC';
+    case 'municipality_desc':
+      return 'ORDER BY m.name COLLATE utf8mb4_swedish_ci DESC';
+    case 'email_asc':
+      return 'ORDER BY a.email COLLATE utf8mb4_swedish_ci ASC';
+    case 'email_desc':
+      return 'ORDER BY a.email COLLATE utf8mb4_swedish_ci DESC';
+    case 'type_asc':
+      return 'ORDER BY a.types COLLATE utf8mb4_swedish_ci ASC';
+    case 'type_desc':
+      return 'ORDER BY a.types COLLATE utf8mb4_swedish_ci DESC';
     case 'recent_activity_desc':
       return 'ORDER BY recent_activity_json DESC';
     case 'recent_activity_asc':
@@ -859,6 +885,208 @@ function get_query_array(string $key): array {
   $items = array_map('trim', $items);
   $items = array_filter($items, fn($item) => $item !== '');
   return array_values($items);
+}
+
+/**
+ * Export associations to CSV.
+ *
+ * @return void
+ */
+function handle_export_associations(): void {
+  require_auth();
+  require_csrf();
+  rate_limit('associations-export', 10, 60);
+
+  $body = read_json();
+  $associationIds = $body['associationIds'] ?? [];
+  $columns = $body['columns'] ?? [];
+
+  if (!is_array($associationIds) || count($associationIds) === 0) {
+    json_out(400, ['error' => 'associationIds is required and must not be empty']);
+  }
+
+  if (!is_array($columns) || count($columns) === 0) {
+    json_out(400, ['error' => 'columns is required and must not be empty']);
+  }
+
+  // Sanitize association IDs (max 1000 for safety)
+  $cleanIds = [];
+  foreach (array_slice($associationIds, 0, 1000) as $id) {
+    if (is_string($id) && strlen($id) > 0) {
+      $cleanIds[] = $id;
+    }
+  }
+
+  if (count($cleanIds) === 0) {
+    json_out(400, ['error' => 'No valid association IDs provided']);
+  }
+
+  // Build placeholders for IN clause
+  $placeholders = implode(',', array_fill(0, count($cleanIds), '?'));
+
+  // Build SQL with all possible columns
+  $sql = "SELECT
+            a.id,
+            CONVERT(a.name USING utf8mb4) AS name,
+            a.orgNumber AS org_number,
+            CONVERT(a.municipality USING utf8mb4) AS municipality,
+            CONVERT(m.name USING utf8mb4) AS municipality_name,
+            a.crmStatus AS crm_status,
+            a.pipeline,
+            CONVERT(a.email USING utf8mb4) AS email,
+            CONVERT(a.phone USING utf8mb4) AS phone,
+            CONVERT(a.streetAddress USING utf8mb4) AS street_address,
+            CONVERT(a.postalCode USING utf8mb4) AS postal_code,
+            CONVERT(a.city USING utf8mb4) AS city,
+            CONVERT(a.homepageUrl USING utf8mb4) AS website,
+            a.types AS types_json,
+            a.memberSince AS member_since,
+            a.createdAt AS created_at,
+            a.updatedAt AS updated_at
+          FROM Association a
+          LEFT JOIN Municipality m ON m.id = a.municipalityId
+          WHERE a.id IN ($placeholders)
+            AND a.deletedAt IS NULL
+          ORDER BY a.name ASC";
+
+  $stmt = db()->prepare($sql);
+
+  // Bind all IDs as strings
+  $types = str_repeat('s', count($cleanIds));
+  bind_all($stmt, $types, $cleanIds);
+
+  $stmt->execute();
+  $result = $stmt->get_result();
+
+  $associations = [];
+  while ($row = $result->fetch_assoc()) {
+    $associations[] = $row;
+  }
+
+  // Get tags for all associations
+  $tagsByAssocId = [];
+  if (count($associations) > 0) {
+    $tagSql = "SELECT
+                  at.A AS association_id,
+                  CONVERT(t.name USING utf8mb4) AS tag_name
+                FROM _AssociationTags at
+                INNER JOIN Tag t ON t.id = at.B
+                WHERE at.A IN ($placeholders)
+                ORDER BY t.name ASC";
+
+    $tagStmt = db()->prepare($tagSql);
+    bind_all($tagStmt, $types, $cleanIds);
+    $tagStmt->execute();
+    $tagResult = $tagStmt->get_result();
+
+    while ($tagRow = $tagResult->fetch_assoc()) {
+      $assocId = $tagRow['association_id'];
+      if (!isset($tagsByAssocId[$assocId])) {
+        $tagsByAssocId[$assocId] = [];
+      }
+      $tagsByAssocId[$assocId][] = $tagRow['tag_name'];
+    }
+  }
+
+  // Build CSV headers based on selected columns
+  $columnLabels = [
+    'municipality_name' => 'Kommun',
+    'name' => 'Förening',
+    'org_number' => 'Organisationsnummer',
+    'crm_status' => 'Status',
+    'pipeline' => 'Pipeline',
+    'email' => 'E-post',
+    'phone' => 'Telefon',
+    'type' => 'Föreningstyp',
+    'street_address' => 'Gatuadress',
+    'postal_code' => 'Postnummer',
+    'city' => 'Ort',
+    'website' => 'Webbplats',
+    'tags' => 'Taggar',
+    'member_since' => 'Medlem sedan',
+    'updated_at' => 'Uppdaterad',
+    'created_at' => 'Skapad',
+  ];
+
+  $headers = [];
+  foreach ($columns as $col) {
+    if (isset($columnLabels[$col])) {
+      $headers[] = $columnLabels[$col];
+    }
+  }
+
+  // Build CSV rows
+  $csvLines = [];
+  $csvLines[] = implode(';', array_map('escape_csv_value', $headers));
+
+  foreach ($associations as $assoc) {
+    $row = [];
+    foreach ($columns as $col) {
+      $value = '';
+
+      if ($col === 'tags') {
+        $tags = $tagsByAssocId[$assoc['id']] ?? [];
+        $value = implode(', ', $tags);
+      } elseif ($col === 'type') {
+        // Extract types from JSON array
+        if (!empty($assoc['types_json'])) {
+          $types = json_decode($assoc['types_json'], true);
+          if (is_array($types) && count($types) > 0) {
+            $value = implode(', ', $types);
+          }
+        }
+      } elseif ($col === 'member_since' || $col === 'created_at' || $col === 'updated_at') {
+        // Format dates
+        if ($assoc[$col] !== null) {
+          $timestamp = strtotime($assoc[$col]);
+          if ($timestamp !== false) {
+            $value = date('Y-m-d', $timestamp);
+          }
+        }
+      } else {
+        $value = $assoc[$col] ?? '';
+      }
+
+      $row[] = escape_csv_value($value);
+    }
+    $csvLines[] = implode(';', $row);
+  }
+
+  $csvContent = implode("\r\n", $csvLines);
+
+  // Convert to Windows-1252 (ANSI)
+  $encoded = mb_convert_encoding($csvContent, 'Windows-1252', 'UTF-8');
+
+  // Generate filename with current date
+  $date = date('Y-m-d');
+  $filename = "Export_Medlemsregistret_{$date}.csv";
+
+  json_out(200, [
+    'filename' => $filename,
+    'mimeType' => 'text/csv; charset=Windows-1252',
+    'data' => base64_encode($encoded),
+  ]);
+}
+
+/**
+ * Escape a value for CSV output.
+ *
+ * @param mixed $value
+ * @return string
+ */
+function escape_csv_value($value): string {
+  if ($value === null || $value === '') {
+    return '';
+  }
+
+  $stringValue = (string)$value;
+  if ($stringValue === '') {
+    return '';
+  }
+
+  $needsQuoting = preg_match('/[;"\n\r]/', $stringValue);
+  $cleaned = str_replace('"', '""', $stringValue);
+  return $needsQuoting ? '"' . $cleaned . '"' : $cleaned;
 }
 
 /**
