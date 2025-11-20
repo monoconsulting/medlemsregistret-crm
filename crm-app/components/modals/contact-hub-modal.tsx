@@ -13,7 +13,7 @@ import { Separator } from "@/components/ui/separator"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Textarea } from "@/components/ui/textarea"
 import { ContactTable, ContactTableSortKey } from "@/components/contacts/contact-table"
-import { ContactListItem, ContactNote, api } from "@/lib/api"
+import { Contact, ContactNote, api } from "@/lib/api"
 import { useToast } from "@/hooks/use-toast"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -47,7 +47,7 @@ export function ContactHubModal({
   onUpdated,
 }: ContactHubModalProps) {
   const { toast } = useToast()
-  const [contacts, setContacts] = useState<ContactListItem[]>([])
+  const [contacts, setContacts] = useState<Contact[]>([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [sort, setSort] = useState("name_asc")
@@ -58,8 +58,8 @@ export function ContactHubModal({
   const [noteSubmitting, setNoteSubmitting] = useState(false)
   const [aiLoading, setAiLoading] = useState(false)
   const [addModalOpen, setAddModalOpen] = useState(false)
-  const [editContact, setEditContact] = useState<ContactListItem | null>(null)
-  const [sendEmailContact, setSendEmailContact] = useState<ContactListItem | null>(null)
+  const [editContact, setEditContact] = useState<Contact | null>(null)
+  const [sendEmailContact, setSendEmailContact] = useState<Contact | null>(null)
   const [deletingId, setDeletingId] = useState<string | null>(null)
 
   const loadContacts = useCallback(async () => {
@@ -68,7 +68,7 @@ export function ContactHubModal({
     setError(null)
     try {
       const raw = await api.getContacts(association.id)
-      const enriched: ContactListItem[] = raw.map((item) => ({
+      const enriched: Contact[] = raw.map((item) => ({
         ...item,
         association_name: association.name,
         association_street_address: association.streetAddress ?? item.association_street_address ?? null,
@@ -487,10 +487,10 @@ function buildFullAddress(street?: string | null, postal?: string | null, city?:
   return parts.join(", ")
 }
 
-function compareContacts(a: ContactListItem, b: ContactListItem, sort: string): number {
+function compareContacts(a: Contact, b: Contact, sort: string): number {
   const [column, direction] = sort.split("_")
   const multiplier = direction === "desc" ? -1 : 1
-  const getValue = (contact: ContactListItem) => {
+  const getValue = (contact: Contact) => {
     switch (column) {
       case "name":
         return contact.name ?? ""
@@ -502,7 +502,7 @@ function compareContacts(a: ContactListItem, b: ContactListItem, sort: string): 
         return contact.is_primary ? 1 : 0
       case "address":
         return (
-          contact.association_address ||
+          
           contact.association_street_address ||
           contact.association_city ||
           contact.association_postal_code ||

@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { useToast } from "@/hooks/use-toast"
-import { api, type ContactListItem } from "@/lib/api"
+import { api, type Contact } from "@/lib/api"
 import { cn } from "@/lib/utils"
 import {
   Loader2,
@@ -123,7 +123,7 @@ function Pagination({ currentPage, totalPages, onPageChange }: PaginationProps) 
 
 export default function ContactsPage() {
   const { toast } = useToast()
-  const [contacts, setContacts] = useState<ContactListItem[]>([])
+  const [contacts, setContacts] = useState<Contact[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [search, setSearch] = useState("")
@@ -204,7 +204,7 @@ export default function ContactsPage() {
     setSort(newSort)
   }
 
-  const openContactHub = (contact: ContactListItem) => {
+  const openContactHub = (contact: Contact) => {
     if (!contact.association_id) return
     setContactHubAssociation({
       id: contact.association_id,
@@ -239,7 +239,7 @@ export default function ContactsPage() {
   }
 
   const resetMissingSelections = useCallback(
-    (current: ContactListItem[]) => {
+    (current: Contact[]) => {
       setSelectedContacts((prev) => {
         const next = new Set<string>()
         current.forEach((contact) => {

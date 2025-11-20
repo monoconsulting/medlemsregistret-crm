@@ -215,6 +215,7 @@ export interface Contact {
   is_primary: boolean;
   created_at: string;
   updated_at: string;
+  deleted_at?: string | null;
 }
 
 export interface ContactNote {
@@ -776,7 +777,7 @@ export const api = {
    * Creates a contact for an association.
    */
   async createContact(payload: {
-    associationId: AssocID;
+    association_id: AssocID;
     name?: string | null;
     role?: string | null;
     email?: string | null;
@@ -788,20 +789,7 @@ export const api = {
     instagram_url?: string | null;
     is_primary?: boolean;
   }): Promise<{ id: string }> {
-    const body = {
-      association_id: payload.associationId,
-      name: payload.name ?? null,
-      role: payload.role ?? null,
-      email: payload.email ?? null,
-      phone: payload.phone ?? null,
-      mobile: payload.mobile ?? null,
-      linkedin_url: payload.linkedin_url ?? null,
-      facebook_url: payload.facebook_url ?? null,
-      twitter_url: payload.twitter_url ?? null,
-      instagram_url: payload.instagram_url ?? null,
-      is_primary: payload.is_primary ?? false,
-    };
-    return jsonFetch('/api/contacts.php', { method: 'POST', body }, true);
+    return jsonFetch('/api/contacts.php', { method: 'POST', body: payload }, true);
   },
 
   /**

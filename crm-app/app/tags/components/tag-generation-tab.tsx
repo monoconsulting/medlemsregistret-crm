@@ -26,6 +26,7 @@ interface JobStatus {
   linksCreated: number;
   linksSkipped: number;
   reportUrl: string | null;
+  reportPath?: string | null;
   summary: {
     totalAssociations?: number | null;
     processedAssociations?: number | null;
@@ -35,6 +36,8 @@ interface JobStatus {
   totalAssociations: number | null;
   progressPercent: number | null;
   errors: string[];
+  triggeredBy?: string;
+  triggeredByName?: string;
 }
 
 export function TagGenerationTab() {

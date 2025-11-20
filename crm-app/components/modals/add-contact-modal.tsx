@@ -64,7 +64,7 @@ export function AddContactModal({
     setSubmitting(true)
     try {
       await api.createContact({
-        associationId,
+        association_id: associationId,
         name: formState.name.trim() || null,
         role: formState.role.trim() || null,
         email: formState.email.trim() || null,

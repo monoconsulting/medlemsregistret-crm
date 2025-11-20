@@ -5,7 +5,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Checkbox } from "@/components/ui/checkbox"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ContactListItem } from "@/lib/api"
+import { Contact } from "@/lib/api"
 import { cn } from "@/lib/utils"
 import {
   ArrowDown,
@@ -32,15 +32,15 @@ export type ContactTableSortKey =
   | "twitter"
 
 interface ContactTableProps {
-  contacts: ContactListItem[]
+  contacts: Contact[]
   sort: string
   onSortChange: (column: ContactTableSortKey) => void
-  onRowClick?: (contact: ContactListItem) => void
+  onRowClick?: (contact: Contact) => void
   selectedIds?: Set<string>
   onToggleContact?: (contactId: string, checked: boolean) => void
   onToggleAll?: (checked: boolean) => void
   headerCheckboxState?: boolean | "indeterminate"
-  actionsRenderer?: (contact: ContactListItem) => React.ReactNode
+  actionsRenderer?: (contact: Contact) => React.ReactNode
   emptyMessage?: string
 }
 
@@ -170,8 +170,7 @@ export function ContactTable({
                 </TableCell>
                 <TableCell className="px-4 py-4">
                   <span className="text-sm text-gray-900">
-                    {contact.association_address ||
-                      contact.association_street_address ||
+                    {contact.association_street_address ||
                       contact.association_city ||
                       contact.association_postal_code ||
                       "-"}

@@ -110,11 +110,13 @@ model Contact {
   isPrimary     Boolean     @default(false)
   createdAt     DateTime    @default(now())
   updatedAt     DateTime    @updatedAt
+  deletedAt     DateTime?
 
   association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
 
   @@index([associationId])
   @@index([email])
+  @@index([deletedAt])
 }
 
 model DescriptionSection {

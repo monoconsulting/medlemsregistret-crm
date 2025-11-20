@@ -8,11 +8,24 @@
 
 ### Föreningar
 
-- [ ] Om man trycker på föreningens namn så ska man länkas till föreningens hemsida om sådan finns. Finns den inte så ska ingen länk finnas
+Vi behöver uppdatera grupperingsfunktionaliteten på föreningssidan:
+
+1. Skapa en ny dropdown. Där ska du välja ut alla grupper i systemet
+2. När en grupp är vald ska du selecta alla i denna grupp och filtrera enbart på detta. 
+3. Lägg till Någonstans i tabellheadern "XXXX antal föreningar valda" för att man snabbt ska få en överblick över hur många det gäller.  
+4. 
+
+
+
+
+
+
+
+- [x] Om man trycker på föreningens namn så ska man länkas till föreningens hemsida om sådan finns. Finns den inte så ska ingen länk finnas
 - [x] Vid klick där länk till annat saknas på hela raden så ska huvudmodalen öppnas
 - [x] Skriv antal förvalda föreningar (100) i dropdown man väljer antal rader i listan
-- [ ] Då man går ur modalen ska den aktuella posten omedelbart uppdateras i föreningstabellen
-- [ ] Sätt 
+- [x] Då man går ur modalen ska den aktuella posten omedelbart uppdateras i föreningstabellen
+- [x] Sätt 
 
 
 
