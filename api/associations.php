@@ -268,9 +268,8 @@ function handle_create_association(): void {
             ?, 'MANUAL', ?, ?, NULL, NOW(), ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW()
           )";
 
-  $stmt = db()->prepare($sql);
-  $stmt->bind_param(
-    'ssssssssssssssssssissss',
+  // Build params array to properly handle references for bind_param
+  $params = [
     $id,
     $municipalityId !== '' ? $municipalityId : null,
     $municipality !== '' ? $municipality : null,
@@ -293,8 +292,12 @@ function handle_create_association(): void {
     $memberSince,
     $pipeline,
     $assignedToId !== '' ? $assignedToId : null,
-    $extras
-  );
+    $extras,
+  ];
+  $paramTypes = 'ssssssssssssssssssissss';
+
+  $stmt = db()->prepare($sql);
+  bind_all($stmt, $paramTypes, $params);
   $stmt->execute();
 
   log_event('api', 'associations.created', ['id' => $id]);
