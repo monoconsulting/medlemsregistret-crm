@@ -111,6 +111,7 @@ model Contact {
   createdAt     DateTime    @default(now())
   updatedAt     DateTime    @updatedAt
   deletedAt     DateTime?
+  isDeleted     Boolean     @default(false)
 
   association   Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
 

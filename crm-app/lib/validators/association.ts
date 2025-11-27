@@ -32,9 +32,9 @@ export const associationUpdateSchema = z.object({
   streetAddress: z.string().trim().max(255).nullable().optional(),
   postalCode: z.string().trim().max(20).nullable().optional(),
   city: z.string().trim().max(120).nullable().optional(),
-  email: z.string().email('Ogiltig e-postadress').nullable().optional(),
+  email: z.union([z.string().email('Ogiltig e-postadress'), z.literal('')]).nullable().optional(),
   phone: z.string().trim().max(50).nullable().optional(),
-  homepageUrl: z.string().url('Ogiltig URL').nullable().optional(),
+  homepageUrl: z.union([z.string().url('Ogiltig URL'), z.literal('')]).nullable().optional(),
   activities: z
     .array(z.string().trim().min(1))
     .max(25, 'Max 25 aktiviteter samtidigt')
@@ -42,6 +42,18 @@ export const associationUpdateSchema = z.object({
   otherInformation: z.string().trim().max(2000).optional(),
   descriptionFreeText: z.string().trim().max(5000).optional(),
   notes: z.string().optional(),
+  orgNumber: z.string().trim().max(20).nullable().optional(),
+  categories: z
+    .array(z.string().trim().min(1))
+    .max(25, 'Max 25 kategorier samtidigt')
+    .optional(),
 })
 
 export type AssociationUpdateInput = z.infer<typeof associationUpdateSchema>
+
+export const associationCreateSchema = associationUpdateSchema.extend({
+  name: z.string().trim().min(1, 'Namn krävs').max(255),
+  municipalityId: z.string().min(1, 'Välj en kommun'),
+})
+
+export type AssociationCreateInput = z.infer<typeof associationCreateSchema>

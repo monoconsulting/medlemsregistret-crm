@@ -46,6 +46,9 @@ try {
   log_event('api', 'contacts.sql_error', [
     'code' => $e->getCode(),
     'message' => $e->getMessage(),
+    // Include SQLSTATE and shallow trace to aid server-side diagnostics without leaking to clients.
+    'sqlstate' => method_exists($e, 'getSqlState') ? $e->getSqlState() : null,
+    'trace' => substr($e->getTraceAsString(), 0, 400),
   ]);
   json_out(500, ['error' => 'Database query failed.']);
 }
@@ -74,6 +77,7 @@ function handle_list_contacts(): void {
               c.createdAt AS created_at,
               c.updatedAt AS updated_at,
               c.deletedAt AS deleted_at,
+              c.isDeleted,
               CONVERT(a.name USING utf8mb4) AS association_name,
               CONVERT(a.streetAddress USING utf8mb4) AS association_street_address,
               CONVERT(a.postalCode USING utf8mb4) AS association_postal_code,
@@ -185,6 +189,7 @@ function handle_list_contacts(): void {
               c.createdAt AS created_at,
               c.updatedAt AS updated_at,
               c.deletedAt AS deleted_at,
+              c.isDeleted,
               CONVERT(a.name USING utf8mb4) AS association_name,
               CONVERT(a.streetAddress USING utf8mb4) AS association_street_address,
               CONVERT(a.postalCode USING utf8mb4) AS association_postal_code,
@@ -252,6 +257,7 @@ function handle_list_contacts(): void {
               c.createdAt AS created_at,
               c.updatedAt AS updated_at,
               c.deletedAt AS deleted_at,
+              c.isDeleted,
               CONVERT(a.name USING utf8mb4) AS association_name,
               CONVERT(a.streetAddress USING utf8mb4) AS association_street_address,
               CONVERT(a.postalCode USING utf8mb4) AS association_postal_code,
@@ -292,6 +298,16 @@ function handle_create_contact(): void {
     json_out(400, ['error' => 'association_id is required']);
   }
 
+  // Guard against FK violations: ensure the association exists before inserting the contact.
+  $stmtAssoc = db()->prepare('SELECT id FROM Association WHERE id = ? LIMIT 1');
+  $stmtAssoc->bind_param('s', $associationId);
+  $stmtAssoc->execute();
+  $assocRow = $stmtAssoc->get_result()->fetch_assoc();
+  if (!$assocRow) {
+    log_event('api', 'contacts.association_missing', ['associationId' => $associationId]);
+    json_out(404, ['error' => 'Association not found']);
+  }
+
   $name = normalize_nullable_string($body['name'] ?? null, 255);
   $role = normalize_nullable_string($body['role'] ?? null, 120);
   $email = normalize_email($body['email'] ?? null);
@@ -325,24 +341,35 @@ function handle_create_contact(): void {
             isPrimary,
             createdAt,
             updatedAt,
-            deletedAt
+            deletedAt,
+            isDeleted
           ) VALUES (
-            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW(), NULL
+            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW(), NULL, 0
           )";
   $stmt = db()->prepare($sql);
+  $nameParam      = $name !== '' ? $name : null;
+  $roleParam      = $role !== '' ? $role : null;
+  $emailParam     = $email !== '' ? $email : null;
+  $phoneParam     = $phone !== '' ? $phone : null;
+  $mobileParam    = $mobile !== '' ? $mobile : null;
+  $linkedinParam  = $linkedin !== '' ? $linkedin : null;
+  $facebookParam  = $facebook !== '' ? $facebook : null;
+  $twitterParam   = $twitter !== '' ? $twitter : null;
+  $instagramParam = $instagram !== '' ? $instagram : null;
+
   $stmt->bind_param(
     'sssssssssssi',
     $id,
     $associationId,
-    $name !== '' ? $name : null,
-    $role !== '' ? $role : null,
-    $email !== '' ? $email : null,
-    $phone !== '' ? $phone : null,
-    $mobile !== '' ? $mobile : null,
-    $linkedin !== '' ? $linkedin : null,
-    $facebook !== '' ? $facebook : null,
-    $twitter !== '' ? $twitter : null,
-    $instagram !== '' ? $instagram : null,
+    $nameParam,
+    $roleParam,
+    $emailParam,
+    $phoneParam,
+    $mobileParam,
+    $linkedinParam,
+    $facebookParam,
+    $twitterParam,
+    $instagramParam,
     $isPrimary
   );
   $stmt->execute();
@@ -475,6 +502,7 @@ function format_contact_row(array $row): array {
     'created_at' => $row['created_at'] ?? $row['createdAt'] ?? null,
     'updated_at' => $row['updated_at'] ?? $row['updatedAt'] ?? null,
     'deleted_at' => $row['deleted_at'] ?? $row['deletedAt'] ?? null,
+    'is_deleted' => (bool)($row['isDeleted'] ?? false),
     'association_name' => normalize_utf8($row['association_name'] ?? null),
     'association_street_address' => normalize_utf8($row['association_street_address'] ?? null),
     'association_postal_code' => normalize_utf8($row['association_postal_code'] ?? null),

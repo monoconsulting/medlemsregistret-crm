@@ -270,7 +270,7 @@ function handle_create_association(): void {
 
   $stmt = db()->prepare($sql);
   $stmt->bind_param(
-    'ssssssssssssssssssssisssss',
+    'ssssssssssssssssssissss',
     $id,
     $municipalityId !== '' ? $municipalityId : null,
     $municipality !== '' ? $municipality : null,

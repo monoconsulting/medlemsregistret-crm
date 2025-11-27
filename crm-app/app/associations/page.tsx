@@ -72,7 +72,8 @@ import { AssociationDetailsDialog } from "@/components/modals/association-detail
 import { AddAssociationsToGroupModal } from "@/components/modals/add-associations-to-group-modal"
 import { SendEmailModal } from "@/components/modals/send-email-modal"
 import { ExportAssociationsModal } from "@/components/modals/export-associations-modal"
-import { associationUpdateSchema, type AssociationUpdateInput } from "@/lib/validators/association"
+import { CreateAssociationModal } from "@/components/modals/create-association-modal"
+import { associationUpdateSchema, type AssociationUpdateInput, type AssociationCreateInput } from "@/lib/validators/association"
 
 interface AssociationRecord extends Association {
   tags: Tag[]
@@ -301,6 +302,7 @@ function AssociationsPageInner(): JSX.Element {
   const [searchInput, setSearchInput] = useState(filters.q)
   const searchTimeoutRef = useRef<NodeJS.Timeout | null>(null)
 
+  const [createModalOpen, setCreateModalOpen] = useState(false)
   const [formOpen, setFormOpen] = useState(false)
   const [formMode, setFormMode] = useState<"create" | "edit">("create")
   const [formAssociation, setFormAssociation] = useState<AssociationRecord | null>(null)
@@ -459,7 +461,7 @@ function AssociationsPageInner(): JSX.Element {
           api.getTags(),
           api.getGroups(),
         ])
-        setMunicipalities(municipalityList)
+        setMunicipalities(municipalityList.sort((a, b) => a.name.localeCompare(b.name, 'sv')))
         setTags(tagList)
         setGroups(groupList)
       } catch (err) {
@@ -559,9 +561,7 @@ function AssociationsPageInner(): JSX.Element {
   }
 
   const handleCreateAssociation = () => {
-    setFormMode("create")
-    setFormAssociation(null)
-    setFormOpen(true)
+    setCreateModalOpen(true)
   }
 
   const handleEditAssociation = (assoc: AssociationRecord) => {
@@ -595,6 +595,53 @@ function AssociationsPageInner(): JSX.Element {
       await loadAssociations()
     } catch (err) {
       const message = err instanceof Error ? err.message : "Kunde inte spara förening"
+      toast({ title: "Fel", description: message, variant: "destructive" })
+    } finally {
+      setFormSubmitting(false)
+    }
+  }
+
+  const handleCreateSubmit = async (values: AssociationCreateInput) => {
+    setFormSubmitting(true)
+    try {
+      // Convert camelCase to snake_case for API
+      const payload: Partial<Association> = {
+        name: values.name,
+        org_number: values.orgNumber ?? null,
+        municipality_id: values.municipalityId,
+        crm_status: values.crmStatus,
+        pipeline: values.pipeline,
+        is_member: values.isMember,
+        member_since: values.memberSince ?? null,
+        street_address: values.streetAddress ?? null,
+        postal_code: values.postalCode ?? null,
+        city: values.city ?? null,
+        email: values.email ?? null,
+        phone: values.phone ?? null,
+        website: values.homepageUrl ?? null,
+        activities: values.activities ?? [],
+        categories: values.categories ?? [],
+        description: values.otherInformation ?? null,
+        description_free_text: values.descriptionFreeText ?? null,
+      }
+
+      // Handle assigned_to separately to avoid type error
+      if (values.assignedToId) {
+        (payload as any).assigned_to_id = values.assignedToId
+      }
+
+      const result = await api.createAssociation(payload)
+
+      // If there are notes, add them separately
+      if (values.notes?.trim()) {
+        await api.addNote(result.id, values.notes.trim())
+      }
+
+      toast({ title: "Förening skapad" })
+      setCreateModalOpen(false)
+      await loadAssociations()
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Kunde inte skapa förening"
       toast({ title: "Fel", description: message, variant: "destructive" })
     } finally {
       setFormSubmitting(false)
@@ -838,6 +885,10 @@ function AssociationsPageInner(): JSX.Element {
       description={`Visar ${associations.length} av ${total} föreningar${selectedAssociations.size > 0 ? ` (${selectedAssociations.size} valda)` : ""}`}
       actions={
         <div className="flex items-center gap-3">
+          <Button onClick={handleCreateAssociation} className="rounded-lg">
+            <Plus className="w-4 h-4 mr-2" />
+            Lägg till förening
+          </Button>
           {selectedAssociations.size > 1 && (
             <Button variant="default" className="rounded-lg" onClick={handleOpenGroupModal}>
               <Layers className="w-4 h-4 mr-2" />
@@ -1079,8 +1130,8 @@ function AssociationsPageInner(): JSX.Element {
                             variant="outline"
                             className={
                               association.status === 'Aktiv' ? 'border-green-200 text-green-700 bg-green-50' :
-                              association.status === 'Inaktiv' ? 'border-gray-200 text-gray-700 bg-gray-50' :
-                              'border-yellow-200 text-yellow-700 bg-yellow-50'
+                                association.status === 'Inaktiv' ? 'border-gray-200 text-gray-700 bg-gray-50' :
+                                  'border-yellow-200 text-yellow-700 bg-yellow-50'
                             }
                           >
                             {association.status ?? "-"}
@@ -1243,6 +1294,15 @@ function AssociationsPageInner(): JSX.Element {
         municipalities={municipalities}
         onSubmit={handleSubmitAssociation}
         submitting={formSubmitting}
+      />
+
+      <CreateAssociationModal
+        open={createModalOpen}
+        onOpenChange={setCreateModalOpen}
+        users={[]} // TODO: Pass users if needed, currently empty in page state
+        municipalities={municipalities}
+        onSubmit={handleCreateSubmit}
+        isSubmitting={formSubmitting}
       />
 
       <TagsDialog

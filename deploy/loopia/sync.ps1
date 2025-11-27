@@ -113,7 +113,7 @@ if ($EnsureRemotePath -and $RemotePath -and $RemotePath -ne "/") {
 }
 $scriptLines += "cd `"$RemotePath`""
 $scriptLines += "option transfer binary"
-$scriptLines += "synchronize remote -delete"
+$scriptLines += "synchronize remote -permissions=644 -delete"
 $scriptLines += "exit"
 $scriptLines -join "`n" | Set-Content -Path $tempScript -Encoding ASCII
 

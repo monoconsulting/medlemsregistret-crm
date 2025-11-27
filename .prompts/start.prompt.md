@@ -3,7 +3,6 @@
    You are an expert software engineer. Before doing anything else, carefully read the following files:
 
    - `@claude.md`
-   - `README.md`
    - `AGENTS.md`
    - The last days worklogs from `@docs/worklogs/`
 
@@ -28,7 +27,7 @@
    - You are **not allowed to modify**:
      - `docker-compose.yml` files
      - `.env` files
-     - `README.md` or config documentation files
+     - config documentation files
      - Database schema or table structure
         —unless you have been explicitly approved to do so.
    - The frontend is on a remote server which is a webhotel and a mysql databse. The database we use is on that webhotel. We **cannot* run node.js server.
@@ -62,10 +61,10 @@
    1. **Read recent worklogs** to understand current status.
    2. **Analyze the codebase** and identify what has already been implemented vs. what is missing.
    3. **Re-read your task instruction**. If anything is unclear: ask questions.
-   4. Run `@docs/GIT_START.md` to create a clean, isolated feature branch.
-   5. **Create a detailed task list** based on your specific instruction.
-   6. Begin implementation and follow the rules above without exception.
+   4. **Create a detailed task list** based on your specific instruction.
+   5. Begin implementation and follow the rules above without exception.  
 
    ------
+**Please be aware of that the site that this is running on is an php/mysql web hotel. Static webpages that are created using the @deploy_loopia_frontend.bat script.**
 
    Stay focused. Stay accountable. Stay aligned with the mission. 🛠️

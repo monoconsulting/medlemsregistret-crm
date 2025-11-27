@@ -158,9 +158,10 @@ echo  Artefakt: %ARTIFACT%
 echo ============================================================================
 
 echo.
-echo Tryck valfri tangent for att stanga...
-pause >nul
-exit /b 0
+echo Tryck PA MELLANSLAG for att stanga fonstret...
+powershell -NoProfile -Command ^
+    "while (($k = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')).Character -ne ' ') {}"
+exit 0
 
 REM ============================================================================
 REM Funktioner
