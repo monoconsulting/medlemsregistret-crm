@@ -11,10 +11,10 @@ export const CRM_STATUSES = [
 ] as const
 
 export const PIPELINES = [
-  'PROSPECT',
-  'QUALIFIED',
+  'QUALIFIED_LEAD',
+  'DISCOVERY',
   'PROPOSAL_SENT',
-  'FOLLOW_UP',
+  'NEGOTIATION',
   'CLOSED_WON',
   'CLOSED_LOST',
 ] as const

@@ -1139,14 +1139,26 @@ function AssociationsPageInner(): JSX.Element {
                         </TableCell>
                         <TableCell className="px-6 py-4">
                           <Badge variant="outline" className="border-blue-200 text-blue-700 bg-blue-50">
-                            {association.type ?? "-"}
+                            {association.pipeline ?? "-"}
                           </Badge>
                         </TableCell>
-                        <TableCell className="px-6 py-4">
+                        <TableCell
+                          className="px-6 py-4 cursor-pointer hover:bg-gray-50"
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            handleOpenContactsModal(association, association.primary_contact?.id ?? null)
+                          }}
+                        >
                           <div className="flex items-center gap-2">
                             <User className="w-4 h-4 text-gray-400" />
-                            <span className="text-sm text-gray-900">
-                              {association.email || "-"}
+                            <span className="text-sm text-gray-900 hover:text-orange-600 hover:underline">
+                              {association.primary_contact?.name
+                                || association.primary_contact?.email
+                                || association.primary_contact?.phone
+                                || association.primary_contact?.mobile
+                                || association.email
+                                || association.phone
+                                || "-"}
                             </span>
                           </div>
                         </TableCell>

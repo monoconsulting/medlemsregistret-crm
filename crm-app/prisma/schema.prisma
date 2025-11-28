@@ -60,12 +60,9 @@ model Association {
   crmStatus           CrmStatus            @default(UNCONTACTED)
   isMember            Boolean              @default(false)
   memberSince         DateTime?
-  pipeline            Pipeline             @default(PROSPECT)
+  pipeline            Pipeline             @default(QUALIFIED_LEAD)
+  lifecycleStage      String?              @db.VarChar(50)
   assignedToId        String?
-  listPageIndex       Int?
-  positionOnPage      Int?
-  paginationModel     String?
-  filterState         Json?
   extras              Json?
   createdAt           DateTime             @default(now())
   updatedAt           DateTime             @updatedAt
@@ -84,6 +81,9 @@ model Association {
   notes               Note[]
   tags                Tag[]                @relation("AssociationTags")
   tasks               Task[]
+  leadStatusHistory   AssociationLeadStatusHistory[]
+  pipelineHistory     AssociationPipelineHistory[]
+  lifecycleHistory    AssociationLifecycleHistory[]
 
   @@index([municipality])
   @@index([municipalityId])
@@ -348,10 +348,10 @@ enum CrmStatus {
 }
 
 enum Pipeline {
-  PROSPECT
-  QUALIFIED
+  QUALIFIED_LEAD
+  DISCOVERY
   PROPOSAL_SENT
-  FOLLOW_UP
+  NEGOTIATION
   CLOSED_WON
   CLOSED_LOST
 }
@@ -386,4 +386,83 @@ enum TaskPriority {
   MEDIUM
   HIGH
   CRITICAL
+  BLOCKED
+}
+
+model CrmLeadStatusDefinition {
+  code        String   @id @db.VarChar(50)
+  label       String
+  description String?  @db.Text
+  sortOrder   Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model CrmPipelineStageDefinition {
+  code               String   @id @db.VarChar(50)
+  pipelineType       String   @db.VarChar(50)
+  label              String
+  description        String?  @db.Text
+  sortOrder          Int      @default(0)
+  isClosedWon        Boolean  @default(false)
+  isClosedLost       Boolean  @default(false)
+  defaultProbability Int?
+  isActive           Boolean  @default(true)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@index([pipelineType, sortOrder])
+}
+
+model CrmLifecycleStageDefinition {
+  code        String   @id @db.VarChar(50)
+  label       String
+  description String?  @db.Text
+  sortOrder   Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model AssociationLeadStatusHistory {
+  id              String   @id @default(cuid())
+  associationId   String
+  fromStatus      String?  @db.VarChar(50)
+  toStatus        String   @db.VarChar(50)
+  changedAt       DateTime @default(now())
+  changedByUserId String?
+  source          String?  @db.VarChar(50)
+
+  association Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  @@index([associationId, changedAt])
+}
+
+model AssociationPipelineHistory {
+  id              String   @id @default(cuid())
+  associationId   String
+  fromStage       String?  @db.VarChar(50)
+  toStage         String   @db.VarChar(50)
+  changedAt       DateTime @default(now())
+  changedByUserId String?
+  source          String?  @db.VarChar(50)
+
+  association Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  @@index([associationId, changedAt])
+}
+
+model AssociationLifecycleHistory {
+  id              String   @id @default(cuid())
+  associationId   String
+  fromStage       String?  @db.VarChar(50)
+  toStage         String   @db.VarChar(50)
+  changedAt       DateTime @default(now())
+  changedByUserId String?
+  source          String?  @db.VarChar(50)
+
+  association Association @relation(fields: [associationId], references: [id], onDelete: Cascade)
+
+  @@index([associationId, changedAt])
 }

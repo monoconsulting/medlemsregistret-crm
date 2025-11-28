@@ -40,7 +40,7 @@ export function EditAssociationModal({ open, onOpenChange, association, users, o
     resolver: zodResolver(associationUpdateSchema),
     defaultValues: {
       crmStatus: (association.crm_status as AssociationUpdateInput['crmStatus']) ?? 'UNCONTACTED',
-      pipeline: (association.pipeline as AssociationUpdateInput['pipeline']) ?? 'PROSPECT',
+      pipeline: (association.pipeline as AssociationUpdateInput['pipeline']) ?? 'QUALIFIED_LEAD',
       isMember: association.is_member ?? false,
       memberSince: association.member_since ?? undefined,
       assignedToId: association.assigned_to?.id ?? undefined,
@@ -60,7 +60,7 @@ export function EditAssociationModal({ open, onOpenChange, association, users, o
   useEffect(() => {
     form.reset({
       crmStatus: (association.crm_status as AssociationUpdateInput['crmStatus']) ?? 'UNCONTACTED',
-      pipeline: (association.pipeline as AssociationUpdateInput['pipeline']) ?? 'PROSPECT',
+      pipeline: (association.pipeline as AssociationUpdateInput['pipeline']) ?? 'QUALIFIED_LEAD',
       isMember: association.is_member ?? false,
       memberSince: association.member_since ?? undefined,
       assignedToId: association.assigned_to?.id ?? undefined,

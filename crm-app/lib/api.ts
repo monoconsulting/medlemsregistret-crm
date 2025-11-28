@@ -45,24 +45,24 @@ export interface Pagination {
   page?: number;
   pageSize?: number;
   sort?:
-    | 'name_asc'
-    | 'name_desc'
-    | 'updated_desc'
-    | 'updated_asc'
-    | 'created_desc'
-    | 'created_asc'
-    | 'crm_status_asc'
-    | 'crm_status_desc'
-    | 'pipeline_asc'
-    | 'pipeline_desc'
-    | 'municipality_asc'
-    | 'municipality_desc'
-    | 'email_asc'
-    | 'email_desc'
-    | 'type_asc'
-    | 'type_desc'
-    | 'recent_activity_desc'
-    | 'recent_activity_asc';
+  | 'name_asc'
+  | 'name_desc'
+  | 'updated_desc'
+  | 'updated_asc'
+  | 'created_desc'
+  | 'created_asc'
+  | 'crm_status_asc'
+  | 'crm_status_desc'
+  | 'pipeline_asc'
+  | 'pipeline_desc'
+  | 'municipality_asc'
+  | 'municipality_desc'
+  | 'email_asc'
+  | 'email_desc'
+  | 'type_asc'
+  | 'type_desc'
+  | 'recent_activity_desc'
+  | 'recent_activity_asc';
 }
 
 export interface AssocFilters extends Pagination {
@@ -100,6 +100,7 @@ export interface Association {
   status: string | null;
   crm_status?: string | null;
   pipeline?: string | null;
+  lifecycle_stage?: string | null;
   activities?: string[];
   categories?: string[];
   is_member?: boolean;

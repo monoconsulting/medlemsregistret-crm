@@ -77,12 +77,21 @@ const CRM_STATUSES = [
 ] as const
 
 const PIPELINES = [
-  "PROSPECT",
-  "QUALIFIED",
+  "QUALIFIED_LEAD",
+  "DISCOVERY",
   "PROPOSAL_SENT",
-  "FOLLOW_UP",
+  "NEGOTIATION",
   "CLOSED_WON",
   "CLOSED_LOST",
+] as const
+
+const LIFECYCLE_STAGES = [
+  "PROSPECT",
+  "READY_FOR_ONBOARDING",
+  "ONBOARDING_IN_PROGRESS",
+  "ONBOARDED",
+  "INACTIVE_MEMBER",
+  "CHURNED",
 ] as const
 
 const ENCODING_REPAIR_REGEX = /[\u00C3\uFFFD]/
@@ -313,6 +322,7 @@ export function AssociationDetailsDialog({
         setDetail((prev) => (prev ? ({ ...prev, [field]: payload[field] ?? null } as AssociationDetail) : prev))
         handleFieldCancel(field)
         toast({ title: "Fält uppdaterat" })
+        onUpdated?.()
       } catch (err) {
         const message = err instanceof Error ? err.message : "Kunde inte spara ändringen"
         toast({ title: "Fel", description: message, variant: "destructive" })
@@ -320,7 +330,7 @@ export function AssociationDetailsDialog({
         setSavingField((current) => (current === field ? null : current))
       }
     },
-    [detail, fieldValues, toast],
+    [detail, fieldValues, toast, onUpdated],
   )
 
   const handleStatusChange = async (status: string) => {
@@ -330,6 +340,7 @@ export function AssociationDetailsDialog({
       await api.updateAssociation(detail.id, { status })
       setDetail((prev) => (prev ? ({ ...prev, status } as AssociationDetail) : prev))
       toast({ title: "Status uppdaterad" })
+      onUpdated?.()
     } catch (err) {
       const message = err instanceof Error ? err.message : "Kunde inte uppdatera status"
       toast({ title: "Fel", description: message, variant: "destructive" })
@@ -345,11 +356,28 @@ export function AssociationDetailsDialog({
       await api.updateAssociation(detail.id, { pipeline })
       setDetail((prev) => (prev ? ({ ...prev, pipeline } as AssociationDetail) : prev))
       toast({ title: "Pipeline uppdaterad" })
+      onUpdated?.()
     } catch (err) {
       const message = err instanceof Error ? err.message : "Kunde inte uppdatera pipeline"
       toast({ title: "Fel", description: message, variant: "destructive" })
     } finally {
       setSavingField((current) => (current === "pipeline" ? null : current))
+    }
+  }
+
+  const handleLifecycleChange = async (stage: string) => {
+    if (!detail || detail.lifecycle_stage === stage) return
+    setSavingField("lifecycle_stage")
+    try {
+      await api.updateAssociation(detail.id, { lifecycle_stage: stage })
+      setDetail((prev) => (prev ? ({ ...prev, lifecycle_stage: stage } as AssociationDetail) : prev))
+      toast({ title: "Livscykel uppdaterad" })
+      onUpdated?.()
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Kunde inte uppdatera livscykel"
+      toast({ title: "Fel", description: message, variant: "destructive" })
+    } finally {
+      setSavingField((current) => (current === "lifecycle_stage" ? null : current))
     }
   }
 
@@ -361,6 +389,7 @@ export function AssociationDetailsDialog({
       await api.updateAssociation(detail.id, { is_member: nextValue })
       setDetail((prev) => (prev ? ({ ...prev, is_member: nextValue } as AssociationDetail) : prev))
       toast({ title: nextValue ? "Markerad som medlem" : "Markerad som icke-medlem" })
+      onUpdated?.()
     } catch (err) {
       const message = err instanceof Error ? err.message : "Kunde inte uppdatera medlemsstatus"
       toast({ title: "Fel", description: message, variant: "destructive" })
@@ -378,6 +407,7 @@ export function AssociationDetailsDialog({
       setDetail(transformDetail(refreshed))
       setNote("")
       toast({ title: "Anteckning sparad" })
+      onUpdated?.()
     } catch (err) {
       const message = err instanceof Error ? err.message : "Kunde inte spara anteckning"
       toast({ title: "Fel", description: message, variant: "destructive" })
@@ -851,62 +881,62 @@ export function AssociationDetailsDialog({
                     {contacts.length === 0 ? (
                       <p className="text-sm text-muted-foreground">Inga kontakter registrerade.</p>
                     ) : (
-                        contacts.map((contact) => (
-                          <div
-                            key={contact.id}
-                            className="rounded-md border border-border/60 bg-background p-3 shadow-sm"
-                          >
-                            <div className="flex items-center justify-between text-sm font-semibold">
-                              <span>{contact.name ?? "Namnlös kontakt"}</span>
-                              <div className="flex items-center gap-1">
-                                {contact.is_primary ? <Badge variant="secondary">Primär</Badge> : null}
+                      contacts.map((contact) => (
+                        <div
+                          key={contact.id}
+                          className="rounded-md border border-border/60 bg-background p-3 shadow-sm"
+                        >
+                          <div className="flex items-center justify-between text-sm font-semibold">
+                            <span>{contact.name ?? "Namnlös kontakt"}</span>
+                            <div className="flex items-center gap-1">
+                              {contact.is_primary ? <Badge variant="secondary">Primär</Badge> : null}
+                              <Button
+                                variant="ghost"
+                                size="sm"
+                                onClick={() => {
+                                  setSelectedContact(contact)
+                                  setEditContactModalOpen(true)
+                                }}
+                                className="h-6 w-6 p-0"
+                              >
+                                <Pencil className="h-3 w-3" />
+                              </Button>
+                            </div>
+                          </div>
+                          <div className="mt-2 space-y-1 text-sm text-muted-foreground">
+                            {contact.role ? <p>Roll: {contact.role}</p> : null}
+                            {contact.email ? (
+                              <div className="flex items-center justify-between">
+                                <p className="flex items-center gap-1">
+                                  <Mail className="h-3 w-3" /> {contact.email}
+                                </p>
                                 <Button
                                   variant="ghost"
                                   size="sm"
                                   onClick={() => {
-                                    setSelectedContact(contact)
-                                    setEditContactModalOpen(true)
+                                    setEmailRecipient(contact.email)
+                                    setSendEmailModalOpen(true)
                                   }}
-                                  className="h-6 w-6 p-0"
+                                  className="h-6 px-2"
                                 >
-                                  <Pencil className="h-3 w-3" />
+                                  <Send className="h-3 w-3" />
                                 </Button>
                               </div>
-                            </div>
-                            <div className="mt-2 space-y-1 text-sm text-muted-foreground">
-                              {contact.role ? <p>Roll: {contact.role}</p> : null}
-                              {contact.email ? (
-                                <div className="flex items-center justify-between">
-                                  <p className="flex items-center gap-1">
-                                    <Mail className="h-3 w-3" /> {contact.email}
-                                  </p>
-                                  <Button
-                                    variant="ghost"
-                                    size="sm"
-                                    onClick={() => {
-                                      setEmailRecipient(contact.email)
-                                      setSendEmailModalOpen(true)
-                                    }}
-                                    className="h-6 px-2"
-                                  >
-                                    <Send className="h-3 w-3" />
-                                  </Button>
-                                </div>
-                              ) : null}
-                              {contact.phone || contact.mobile ? (
-                                <p className="flex items-center gap-1">
-                                  <Phone className="h-3 w-3" /> {contact.phone ?? contact.mobile}
-                                </p>
-                              ) : null}
-                              {contact.linkedin_url ? (
-                                <p className="flex items-center gap-1">
-                                  <ExternalLink className="h-3 w-3" /> {contact.linkedin_url}
-                                </p>
-                              ) : null}
-                            </div>
+                            ) : null}
+                            {contact.phone || contact.mobile ? (
+                              <p className="flex items-center gap-1">
+                                <Phone className="h-3 w-3" /> {contact.phone ?? contact.mobile}
+                              </p>
+                            ) : null}
+                            {contact.linkedin_url ? (
+                              <p className="flex items-center gap-1">
+                                <ExternalLink className="h-3 w-3" /> {contact.linkedin_url}
+                              </p>
+                            ) : null}
                           </div>
-                        ))
-                      )}
+                        </div>
+                      ))
+                    )}
                   </div>
                 </section>
                 <section className="rounded-lg border bg-card p-4 shadow-sm">

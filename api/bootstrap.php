@@ -446,10 +446,10 @@ function normalize_bool($value): int {
 function normalize_pipeline($value): string {
   $normalized = normalize_nullable_string($value, 60);
   if ($normalized === '') {
-    return 'PROSPECT';
+    return 'QUALIFIED_LEAD';
   }
   $normalized = strtoupper($normalized);
-  $allowed = ['PROSPECT', 'QUALIFIED', 'PROPOSAL_SENT', 'FOLLOW_UP', 'CLOSED_WON', 'CLOSED_LOST'];
+  $allowed = ['QUALIFIED_LEAD', 'DISCOVERY', 'PROPOSAL_SENT', 'NEGOTIATION', 'CLOSED_WON', 'CLOSED_LOST'];
   if (!in_array($normalized, $allowed, true)) {
     json_out(400, ['error' => 'Invalid pipeline']);
   }
